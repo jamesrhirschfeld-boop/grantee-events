@@ -175,7 +175,9 @@ def read_manual(path):
     """Text of a file dropped in manual/: .pdf (via pypdf) or .txt/.md (pasted page text)."""
     if path.suffix.lower() == ".pdf":
         from pypdf import PdfReader
-        return "\n\n".join((pg.extract_text() or "") for pg in PdfReader(str(path)).pages)
+        text = "\n\n".join((pg.extract_text() or "") for pg in PdfReader(str(path)).pages)
+        # some PDFs encode the "ti" ligature as a stray character
+        return text.replace("\u018f", "ti").replace("\u019f", "ti").replace("Ɵ", "ti")
     return path.read_text(errors="replace")
 
 
