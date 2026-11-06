@@ -221,7 +221,9 @@ def main():
                 kept.append(c)
         robots = bool(raw) and not raw.get("pages") and any("robots.txt" in e for e in raw.get("errors", []))
 
-        if extracted and not kept:
+        # Own-events-only organizations (service orgs that list many others' events) legitimately have none some weeks,
+        # and anything saved before the filter existed must not be carried forward.
+        if extracted and (not kept or src.get("own_events_only")):
             # The page was read and truly lists nothing in the window. Normal for small organizations.
             health[org] = {"status": "empty", "events": 0, "reason": "no performances listed in the window"}
             cov["no_events"].append({"name": org, "site": site})

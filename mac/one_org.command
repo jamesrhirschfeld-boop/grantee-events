@@ -22,7 +22,7 @@ except Exception as e:
     print("no result:", e); sys.exit()
 print(len(ev), "events")
 for e in ev[:60]:
-    print(" ", e.get("date"), e.get("time") or "Time TBA", "|", e.get("title"), "|", e.get("location"))
+    print(" ", e.get("date"), e.get("start_time") or e.get("time") or "Time TBA", "|", e.get("title"), "|", e.get("location"))
 PYEOF
 done
 echo
