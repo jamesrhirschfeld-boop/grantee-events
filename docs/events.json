@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T13:54:39+00:00",
+ "generated_at": "2026-11-06T14:12:55+00:00",
  "window": {
   "start": "2026-11-06",
   "end": "2027-01-05"
@@ -95,6 +95,7 @@
   "Primary Stages",
   "Prospect Musicals",
   "Queens Theatre",
+  "Repertorio Español",
   "Roulette",
   "Roundabout Theatre Company",
   "Signature Theatre",
@@ -194,6 +195,7 @@
   "Primary Stages": 1,
   "Prospect Musicals": 1,
   "Queens Theatre": 9,
+  "Repertorio Español": 9,
   "Roulette": 10,
   "Roundabout Theatre Company": 4,
   "Signature Theatre": 21,
@@ -849,9 +851,8 @@
    "reason": "no performances listed in the window"
   },
   "Repertorio Español": {
-   "status": "no_source",
-   "events": 0,
-   "reason": "unreachable"
+   "status": "ok",
+   "events": 9
   },
   "Roulette": {
    "status": "ok",
@@ -1479,9 +1480,9 @@
  },
  "coverage": {
   "total": 271,
-  "with_events": 111,
+  "with_events": 112,
   "no_events": 81,
-  "no_source": 77,
+  "no_source": 76,
   "blocked": 0,
   "failed": 1
  },
@@ -1872,12 +1873,6 @@
     "site": "https://www.armoryonpark.org",
     "reason": "no_calendar_found",
     "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "Repertorio Español",
-    "site": "https://www.repertorio.nyc",
-    "reason": "unreachable",
-    "note": "homepage did not load"
    },
    {
     "name": "Second Stage Theater",
@@ -2287,6 +2282,18 @@
  },
  "warnings": [],
  "events": [
+  {
+   "date": "2026-11-06",
+   "time": "11:00 AM",
+   "title": "La Gringa",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Carmen Rivera's play, directed by René Buch, billed as part of the company's 30 years in repertory.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/292/la-gringa",
+   "notes": "11 AM weekday show; presented in Spanish per company's focus (language not stated on page)"
+  },
   {
    "date": "2026-11-06",
    "time": "11:30 AM",
@@ -3046,6 +3053,18 @@
   {
    "date": "2026-11-07",
    "time": "3:00 PM",
+   "title": "En el tiempo de las mariposas",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Caridad Svich's stage adaptation of Julia Álvarez's novel, directed by José Zayas.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/291/en-el-tiempo-de-las-mariposas",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "3:00 PM",
    "title": "¡Viva Pinocho!",
    "org": "Teatro SEA",
    "location": "Teatro SEA @ The Clemente Center, 107 Suffolk Street, New York, NY 10002",
@@ -3609,6 +3628,18 @@
   },
   {
    "date": "2026-11-08",
+   "time": "3:00 PM",
+   "title": "La breve y maravillosa vida de Oscar Wao",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Stage adaptation of Junot Díaz's novel, adapted and directed by Marco Antonio Rodríguez.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/153/la-breve-y-maravillosa-vida-de-oscar-wao",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-08",
    "time": "5:00 PM",
    "title": "Underground Transmissions by André M Zachery",
    "org": "BAAD! Bronx Academy of Arts and Dance",
@@ -3786,6 +3817,18 @@
    "genre": "new play",
    "url": "https://pregonesprtt.org/i-fcking-hate-luma-2026-27/",
    "notes": "Single date listed; start time not stated on the page."
+  },
+  {
+   "date": "2026-11-10",
+   "time": "11:00 AM",
+   "title": "La casa de Bernarda Alba",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "García Lorca's drama directed by René Buch.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/684/la-casa-de-bernarda-alba",
+   "notes": "11 AM weekday show"
   },
   {
    "date": "2026-11-10",
@@ -4110,6 +4153,18 @@
    "genre": "puppetry",
    "url": "https://lamama.org/endless-forms/",
    "notes": "Puppet Festival 2026; run Nov 11-14. Showtimes not stated."
+  },
+  {
+   "date": "2026-11-12",
+   "time": "11:00 AM",
+   "title": "El Quijote",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Santiago García's adaptation of Cervantes' classic, directed by Jorge Alí Triana.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/293/el-quijote",
+   "notes": "11 AM weekday show"
   },
   {
    "date": "2026-11-12",
@@ -5457,6 +5512,18 @@
   },
   {
    "date": "2026-11-15",
+   "time": "3:00 PM",
+   "title": "Toc Toc",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "New comedy by Laurent Baffie in Julián Quintanilla's Spanish version, directed by Rafa Sánchez.",
+   "discipline": "Theater",
+   "genre": "comedy",
+   "url": "https://repertorio.nyc/show/2650/toc-toc",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
    "time": "5:00 PM",
    "title": "@CPR | Shifting Grounds: New Jewish Art Festival (Performance Night 2)",
    "org": "Center for Performance Research",
@@ -6341,6 +6408,18 @@
    "discipline": "Music",
    "genre": "contemporary classical",
    "url": "https://newmusicusa.org/events/composers-concordance-presents-berten-dhollander-flute-warren-nicholson-guitar/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
+   "title": "Parejas Disparejas: Lo chistoso del amor",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Saulo García's comedy about the funny side of love, directed by Juan Carlos Talero.",
+   "discipline": "Theater",
+   "genre": "comedy",
+   "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
    "notes": ""
   },
   {
@@ -8518,6 +8597,18 @@
   {
    "date": "2026-12-05",
    "time": "7:00 PM",
+   "title": "La ternura",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Alfredo Sanzol's play directed by Leyma López.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/1792/la-ternura",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:00 PM",
    "title": "Gary Gulman's First Annual Holiday Show",
    "org": "Symphony Space",
    "location": "Symphony Space, 2537 Broadway at 95th St.",
@@ -9870,6 +9961,18 @@
    "genre": "classical choral",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
    "notes": "Presented by Gary W. Parr"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "7:00 PM",
+   "title": "La llamada",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Musical by Javier Ambrossi and Javier Calvo, directed by Rafa Sánchez.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://repertorio.nyc/show/1369/la-llamada",
+   "notes": ""
   },
   {
    "date": "2026-12-12",
