@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T07:32:09+00:00",
+ "generated_at": "2026-11-06T13:31:12+00:00",
  "window": {
   "start": "2026-11-06",
   "end": "2027-01-05"
@@ -81,6 +81,7 @@
   "New Georges",
   "New Music USA",
   "New York City Ballet",
+  "New York City Center",
   "New York Live Arts",
   "New York Philharmonic",
   "New York Theatre Workshop",
@@ -141,7 +142,7 @@
   "Classic Stage Company": 3,
   "Dance Heginbotham": 15,
   "Dance Lab New York": 1,
-  "Dance/NYC": 19,
+  "Dance/NYC": 16,
   "Danspace Project": 10,
   "Dorrance Dance": 5,
   "En Garde Arts": 1,
@@ -182,6 +183,7 @@
   "New Georges": 2,
   "New Music USA": 33,
   "New York City Ballet": 48,
+  "New York City Center": 13,
   "New York Philharmonic": 32,
   "New York Theatre Workshop": 1,
   "Orchestra of St. Luke's": 25,
@@ -422,7 +424,7 @@
   },
   "Dance/NYC": {
    "status": "empty",
-   "events": 19,
+   "events": 16,
    "reason": "the page was read but no performances were found"
   },
   "Danspace Project": {
@@ -717,9 +719,8 @@
    "events": 48
   },
   "New York City Center": {
-   "status": "no_source",
-   "events": 0,
-   "reason": "blocked_bot"
+   "status": "ok",
+   "events": 13
   },
   "New York City Children's Theater": {
    "status": "no_source",
@@ -1480,9 +1481,9 @@
  },
  "coverage": {
   "total": 271,
-  "with_events": 111,
+  "with_events": 112,
   "no_events": 80,
-  "no_source": 78,
+  "no_source": 77,
   "blocked": 0,
   "failed": 1
  },
@@ -1851,12 +1852,6 @@
     "site": "https://www.hostos.cuny.edu/culturearts",
     "reason": "no_calendar_found",
     "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "New York City Center",
-    "site": "https://www.nycitycenter.org",
-    "reason": "blocked_bot",
-    "note": "bot protection page instead of the site"
    },
    {
     "name": "New York City Children's Theater",
@@ -2289,7 +2284,7 @@
   ]
  },
  "warnings": [
-  "Dance/NYC: the page was read but no performances were found; showing 19 events from the last successful update. The site layout may have changed."
+  "Dance/NYC: the page was read but no performances were found; showing 16 events from the last successful update. The site layout may have changed."
  ],
  "events": [
   {
@@ -2326,7 +2321,7 @@
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.92ny.org/event/fridays-in-arnhold-the-study-series",
-   "notes": "Free in-person tickets; also listed by Dance/NYC"
+   "notes": "Free in-person tickets"
   },
   {
    "date": "2026-11-06",
@@ -2494,7 +2489,7 @@
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.bam.org/dance/2026/turn-turning-turnt",
-   "notes": "Next Wave. Run ends Nov 7.; also listed by Dance/NYC"
+   "notes": "Next Wave. Run ends Nov 7."
   },
   {
    "date": "2026-11-06",
@@ -2567,6 +2562,18 @@
    "genre": "new play",
    "url": "https://bit.ly/AlmendaresEstreno",
    "notes": "World premiere run Oct 29–Nov 14, 2026; page text is in Spanish and English."
+  },
+  {
+   "date": "2026-11-06",
+   "time": "7:30 PM",
+   "title": "In the Heights",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://www.nycitycenter.org/",
+   "notes": "Annual Gala presentation run. A Community Night is also listed for this date at 6pm."
   },
   {
    "date": "2026-11-06",
@@ -3039,6 +3046,18 @@
   {
    "date": "2026-11-07",
    "time": "2:00 PM",
+   "title": "In the Heights",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://www.nycitycenter.org/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "2:00 PM",
    "title": "Young People's Concert: Tales from Peter and the Wolf",
    "org": "New York Philharmonic",
    "location": "Wu Tsai Theater, David Geffen Hall at Lincoln Center",
@@ -3238,7 +3257,7 @@
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.bam.org/dance/2026/turn-turning-turnt",
-   "notes": "Next Wave. Final performance of the run.; also listed by Dance/NYC"
+   "notes": "Next Wave. Final performance of the run."
   },
   {
    "date": "2026-11-07",
@@ -3311,6 +3330,18 @@
    "genre": "new music",
    "url": "https://newmusicusa.org/events/ram-thirteen-artists-one-night/",
    "notes": "New Music USA grantee"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:30 PM",
+   "title": "In the Heights",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://www.nycitycenter.org/",
+   "notes": ""
   },
   {
    "date": "2026-11-07",
@@ -3659,6 +3690,18 @@
    "genre": "contemporary dance",
    "url": "https://www.dance.nyc/for-audiences/community-calendar/view/Confluence/2026-11-08/",
    "notes": "from previous update"
+  },
+  {
+   "date": "2026-11-08",
+   "time": "2:00 PM",
+   "title": "In the Heights",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://www.nycitycenter.org/",
+   "notes": ""
   },
   {
    "date": "2026-11-08",
@@ -4034,6 +4077,18 @@
   },
   {
    "date": "2026-11-10",
+   "time": "7:30 PM",
+   "title": "In the Heights",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://www.nycitycenter.org/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-10",
    "time": "8:00 PM",
    "title": "Fauré, Beethoven, Brahms & Barnes",
    "org": "New Music USA",
@@ -4150,6 +4205,18 @@
    "discipline": "Music",
    "genre": "classical vocal recital",
    "url": "https://www.carnegiehall.org/calendar/2026/11/11/aigul-akhmetshina-mezzosoprano-jonathan-palmer-lakeland-piano-0730pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:30 PM",
+   "title": "In the Heights",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://www.nycitycenter.org/",
    "notes": ""
   },
   {
@@ -4415,6 +4482,18 @@
    "genre": "early music",
    "url": "https://www.millertheatre.com/events/gesualdo-six-fading",
    "notes": "Tickets starting at $35"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:30 PM",
+   "title": "In the Heights",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://www.nycitycenter.org/",
+   "notes": ""
   },
   {
    "date": "2026-11-12",
@@ -4719,6 +4798,18 @@
   {
    "date": "2026-11-13",
    "time": "7:30 PM",
+   "title": "In the Heights",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://www.nycitycenter.org/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:30 PM",
    "title": "this is the beginning, this is the end",
    "org": "New York Live Arts",
    "location": "New York Live Arts, 219 W 19th Street",
@@ -4983,6 +5074,18 @@
   {
    "date": "2026-11-14",
    "time": "2:00 PM",
+   "title": "In the Heights",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://www.nycitycenter.org/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "2:00 PM",
    "title": "Cloven Kingdom / Tensile Involvement / Under the Rhythm",
    "org": "Orchestra of St. Luke's",
    "location": "Lincoln Center",
@@ -5195,6 +5298,18 @@
    "genre": "contemporary",
    "url": "https://iceorg.org/events/fridman-gallery",
    "notes": "Page provides no program description."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:30 PM",
+   "title": "In the Heights",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://www.nycitycenter.org/",
+   "notes": ""
   },
   {
    "date": "2026-11-14",
@@ -5451,6 +5566,18 @@
   {
    "date": "2026-11-15",
    "time": "2:00 PM",
+   "title": "In the Heights",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://www.nycitycenter.org/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "2:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
    "location": "Signature Theatre",
@@ -5579,6 +5706,18 @@
    "genre": "contemporary music / visual art",
    "url": "https://newmusicusa.org/events/composers-concordance-presents-water-space-an-immersive-multimedia-concert-of-contemporary-music-and-visual-art/",
    "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "7:00 PM",
+   "title": "In the Heights",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://www.nycitycenter.org/",
+   "notes": "Final performance of the run."
   },
   {
    "date": "2026-11-15",
@@ -8039,6 +8178,18 @@
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
    "notes": "Run is listed as December 2nd–19th; the page gives no individual showtimes, days of the week or curtain times, so only the first date is listed. Year not stated on page."
+  },
+  {
+   "date": "2026-12-02",
+   "time": "",
+   "title": "Alvin Ailey American Dance Theater Holiday Season",
+   "org": "New York City Center",
+   "location": "New York City Center, 131 W 55th St",
+   "description": "Ailey's annual holiday engagement, featuring new works by contemporary choreographers and classics including Revelations.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://www.nycitycenter.org/",
+   "notes": "Run continues through Jan 3, 2027; days, showtimes and programming not stated on page (full programming to be announced). Only the first date is listed."
   },
   {
    "date": "2026-12-03",
