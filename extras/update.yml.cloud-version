@@ -1,0 +1,63 @@
+name: Update performances
+
+on:
+  schedule:
+    # Mondays, 6:17 AM Eastern during standard time / 7:17 AM during daylight time.
+    - cron: "17 11 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-performances
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Render calendar pages
+        run: python scripts/scrape.py
+
+      - name: Extract events with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/extract.py
+
+      - name: Build events.json
+        run: python scripts/build.py
+
+      - name: Publish (commit docs/events.json and docs/events.js)
+        run: |
+          git config user.name "performances-bot"
+          git config user.email "performances-bot@users.noreply.github.com"
+          git add docs/events.json docs/events.js
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "Update performances $(date -u +%F)"
+            git push
+          fi
+
+      # Runs after publishing, so the page still updates, but you get GitHub's
+      # failure email whenever an org fell back to old data.
+      - name: Fail if any org needs attention
+        run: |
+          if [ -s build/warnings.txt ]; then
+            echo "::error::$(cat build/warnings.txt | tr '\n' ' ')"
+            exit 1
+          fi

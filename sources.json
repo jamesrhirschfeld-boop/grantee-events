@@ -1,0 +1,45 @@
+{
+  "window_days": 31,
+  "sources": [
+    {
+      "slug": "nyphil",
+      "name": "New York Philharmonic",
+      "default_discipline": "Music",
+      "pages": [
+        { "url": "https://www.nyphil.org/concerts-tickets/event-calendar" }
+      ]
+    },
+    {
+      "slug": "signature",
+      "name": "Signature Theatre",
+      "default_discipline": "Theater",
+      "notes": "Calendar shows one month at a time; {ym} expands to the current and next month. Lobby events (Signature Jazz) are on the same calendar.",
+      "pages": [
+        { "url": "https://signaturetheatre.org/calendar/?ym={ym}" }
+      ]
+    },
+    {
+      "slug": "alja",
+      "name": "Afro Latin Jazz Alliance (Belongó)",
+      "default_discipline": "Music",
+      "notes": "Calendar lists residencies as 'Every Tuesday' etc.; event pages carry exact dates and times, so linked event pages are opened too.",
+      "pages": [
+        {
+          "url": "https://www.afrolatinjazz.org/calendar",
+          "follow_links_matching": "/events/",
+          "max_follow": 8
+        }
+      ]
+    },
+    {
+      "slug": "carnegie",
+      "name": "Carnegie Hall",
+      "default_discipline": "Music",
+      "scope": "Include only events Carnegie Hall itself presents, which the listing labels 'Carnegie Hall Presents'. Exclude every listing labelled 'Presented by' another organization or artist (those are rentals), and exclude guided tours.",
+      "notes": "Large calendar behind a 'Show More' button (~3-4 days per click). Uses bot protection (DataDome), so the cloud run may be blocked; if so the page falls back to the last good data and the run reports it.",
+      "pages": [
+        { "url": "https://www.carnegiehall.org/events" }
+      ]
+    }
+  ]
+}
