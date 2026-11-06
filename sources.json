@@ -447,7 +447,7 @@
    "discovery": {
     "status": "unreachable",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
+    "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.baryshnikovarts.org/"
    }
   },
   {
@@ -463,7 +463,7 @@
    "discovery": {
     "status": "unreachable",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
+    "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bax.org/"
    }
   },
   {
@@ -1256,7 +1256,7 @@
    "discovery": {
     "status": "unreachable",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
+    "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.gemsny.org/"
    }
   },
   {
