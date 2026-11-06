@@ -29,6 +29,12 @@ if [ "$SRC" != "$DEST" ]; then
     cp "$SRC/requirements.txt" "$DEST/requirements.txt"
   fi
 fi
+# One-time switch to the full grantee list (schema 2). After that, your copy is kept, because it holds what discovery learns.
+if ! grep -q '"schema": 2' "$DEST/sources.json" 2>/dev/null && grep -q '"schema": 2' "$SRC/sources.json" 2>/dev/null; then
+  cp "$DEST/sources.json" "$DEST/sources.json.before-full-list" 2>/dev/null
+  cp "$SRC/sources.json" "$DEST/sources.json"
+  echo "Loaded the full grantee list into sources.json."
+fi
 chmod +x "$DEST"/mac/*.sh "$DEST"/mac/*.command 2>/dev/null
 cd "$DEST" || die "Could not enter $DEST"
 
@@ -65,7 +71,7 @@ if [ -f .github/workflows/update.yml ]; then
   mkdir -p extras && mv .github/workflows/update.yml extras/update.yml.cloud-version
   rmdir .github/workflows .github 2>/dev/null
 fi
-printf 'build/\n.venv/\nlogs/\n__pycache__/\n.DS_Store\n' > .gitignore
+printf 'build/\n.venv/\nlogs/\n__pycache__/\n.DS_Store\n*.xlsx\n*.csv\nsources.json.before-full-list\n' > .gitignore
 if [ ! -d .git ]; then git init -q -b main; fi
 git config user.name  >/dev/null 2>&1 || git config user.name  "Grantee events updater"
 git config user.email >/dev/null 2>&1 || git config user.email "events-updater@users.noreply.github.com"

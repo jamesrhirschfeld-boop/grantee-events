@@ -64,7 +64,7 @@ def expand_urls(url, days):
 
 def load(page, url):
     try:
-        page.goto(url, wait_until="networkidle", timeout=60_000)
+        page.goto(url, wait_until="networkidle", timeout=40_000)
     except PWTimeout:
         # Some sites never go idle (analytics, chat widgets). The DOM is usually fine.
         pass
@@ -170,70 +170,106 @@ def grab(page, spec, end):
     return text[:MAX_CHARS]
 
 
-def main():
+def scrape_source(ctx, src, end, days):
+    """Render one organization's pages. Returns the result dict that is saved to build/raw/<slug>.json."""
+    result = {"slug": src["slug"], "name": src["name"], "pages": [], "errors": []}
+    page = ctx.new_page()
+    for spec in src["pages"]:
+        for url in expand_urls(spec["url"], days):
+            one = dict(spec, url=url)
+            if not allowed(url):
+                result["errors"].append(f"{url}: disallowed by robots.txt, skipped")
+                continue
+            try:
+                text = grab(page, one, end)
+                result["pages"].append({"url": url, "text": text})
+                if spec.get("follow_links_matching"):
+                    base = urlparse(url).netloc
+                    seen, follow = set(), []
+                    for href in page.evaluate(LINKS_JS):
+                        href = urljoin(url, href).split("#")[0]
+                        if (
+                            spec["follow_links_matching"] in href
+                            and urlparse(href).netloc == base
+                            and href != url
+                            and href not in seen
+                        ):
+                            seen.add(href)
+                            follow.append(href)
+                    for href in follow[: spec.get("max_follow", 8)]:
+                        if not allowed(href):
+                            result["errors"].append(f"{href}: disallowed by robots.txt, skipped")
+                            continue
+                        try:
+                            load(page, href)
+                            result["pages"].append({"url": href, "text": page.evaluate(TAG_LINKS_JS)[:30_000]})
+                        except Exception as e:  # one bad detail page shouldn't sink the org
+                            result["errors"].append(f"{href}: {e}")
+            except Exception as e:
+                result["errors"].append(f"{url}: {e}")
+    page.close()
+    return result
+
+
+def run_one(slug):
+    """Child-process entry point: scrape a single organization and write its raw file."""
     cfg = json.loads((ROOT / "sources.json").read_text())
     days = cfg.get("window_days", 31)
     end = dt.date.today() + dt.timedelta(days=days)
+    src = next(s for s in cfg["sources"] if s["slug"] == slug)
     RAW.mkdir(parents=True, exist_ok=True)
-    failures = 0
-
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        ctx = browser.new_context(
-            viewport={"width": 1400, "height": 1000},
-            user_agent=UA,
-        )
-        only = set(sys.argv[1:])  # optional: scrape just these slugs, e.g. `scrape.py carnegie`
-        for src in cfg["sources"]:
-            if only and src["slug"] not in only:
-                continue
-            result = {"slug": src["slug"], "name": src["name"], "pages": [], "errors": []}
-            page = ctx.new_page()
-            for spec in src["pages"]:
-                for url in expand_urls(spec["url"], days):
-                    one = dict(spec, url=url)
-                    if not allowed(url):
-                        result["errors"].append(f"{url}: disallowed by robots.txt, skipped")
-                        continue
-                    try:
-                        text = grab(page, one, end)
-                        result["pages"].append({"url": url, "text": text})
-                        if spec.get("follow_links_matching"):
-                            base = urlparse(url).netloc
-                            seen, follow = set(), []
-                            for href in page.evaluate(LINKS_JS):
-                                href = urljoin(url, href).split("#")[0]
-                                if (
-                                    spec["follow_links_matching"] in href
-                                    and urlparse(href).netloc == base
-                                    and href != url
-                                    and href not in seen
-                                ):
-                                    seen.add(href)
-                                    follow.append(href)
-                            for href in follow[: spec.get("max_follow", 8)]:
-                                if not allowed(href):
-                                    result["errors"].append(f"{href}: disallowed by robots.txt, skipped")
-                                    continue
-                                try:
-                                    load(page, href)
-                                    result["pages"].append(
-                                        {"url": href, "text": page.evaluate(TAG_LINKS_JS)[:30_000]}
-                                    )
-                                except Exception as e:  # one bad detail page shouldn't sink the org
-                                    result["errors"].append(f"{href}: {e}")
-                    except Exception as e:
-                        result["errors"].append(f"{url}: {e}")
-            page.close()
-            if not result["pages"]:
-                failures += 1
-            (RAW / f"{src['slug']}.json").write_text(json.dumps(result, ensure_ascii=False, indent=1))
-            print(f"{src['slug']}: {len(result['pages'])} pages, {len(result['errors'])} errors")
-        browser.close()
+        ctx = browser.new_context(viewport={"width": 1400, "height": 1000}, user_agent=UA)
+        try:
+            result = scrape_source(ctx, src, end, days)
+        finally:
+            browser.close()
+    (RAW / f"{slug}.json").write_text(json.dumps(result, ensure_ascii=False, indent=1))
 
-    # Don't fail the run here: build.py decides what to do about an org with no data.
+
+def main(argv):
+    """Scrape every active organization that has calendar pages, several at a time.
+
+    Each organization runs in its own child process with a hard time limit, so one stuck site cannot
+    stall the whole run. Usage: scrape.py [slug ...]   (no slugs = all)
+    """
+    import concurrent.futures as cf
+    import os
+    import subprocess
+
+    cfg = json.loads((ROOT / "sources.json").read_text())
+    only = set(argv)
+    todo = [s for s in cfg["sources"] if s.get("active", True) and s.get("pages") and (not only or s["slug"] in only)]
+    RAW.mkdir(parents=True, exist_ok=True)
+    if not only:  # a full run: drop results left over from organizations that are no longer scraped
+        for f in RAW.glob("*.json"):
+            f.unlink()
+    workers = int(os.environ.get("SCRAPE_WORKERS", "4"))
+    limit = int(os.environ.get("SCRAPE_TIMEOUT", "420"))
+
+    def job(src):
+        try:
+            subprocess.run([sys.executable, str(Path(__file__)), "--one", src["slug"]],
+                           timeout=limit, capture_output=True, text=True)
+        except subprocess.TimeoutExpired:
+            (RAW / f"{src['slug']}.json").write_text(json.dumps(
+                {"slug": src["slug"], "name": src["name"], "pages": [], "errors": [f"timed out after {limit}s"]}))
+        f = RAW / f"{src['slug']}.json"
+        if not f.exists():
+            f.write_text(json.dumps({"slug": src["slug"], "name": src["name"], "pages": [],
+                                     "errors": ["scraper crashed before saving"]}))
+        r = json.loads(f.read_text())
+        return f"{src['slug']}: {len(r['pages'])} pages, {len(r['errors'])} errors"
+
+    with cf.ThreadPoolExecutor(max_workers=workers) as ex:
+        for line in ex.map(job, todo):
+            print(line, flush=True)
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    if len(sys.argv) == 3 and sys.argv[1] == "--one":
+        run_one(sys.argv[2])
+    else:
+        sys.exit(main(sys.argv[1:]))

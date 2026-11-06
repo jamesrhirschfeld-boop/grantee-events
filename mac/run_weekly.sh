@@ -15,13 +15,15 @@ if [ -z "$ANTHROPIC_API_KEY" ]; then echo "No API key in Keychain."; notify "No 
 
 PY=.venv/bin/python
 rm -f build/warnings.txt
+# Find calendar pages for a batch of organizations not looked at yet (skips quickly when none are due).
+$PY scripts/discover.py --limit 60 || echo "discover reported an error"
 $PY scripts/scrape.py   || echo "scrape reported an error"
 $PY scripts/extract.py  || echo "extract reported an error"
 $PY scripts/build.py    || { echo "build failed"; notify "Build failed. See logs in ~/nyc-events/logs"; exit 1; }
 
 PUSH_NOTE=""
 if git remote get-url origin >/dev/null 2>&1; then
-  git add docs/events.json docs/events.js
+  git add docs/events.json docs/events.js sources.json
   if git diff --cached --quiet; then
     echo "No changes to publish."
   else
@@ -34,10 +36,10 @@ fi
 WARN="$(cat build/warnings.txt 2>/dev/null)"
 if [ -n "$WARN" ] || [ -n "$PUSH_NOTE" ]; then
   N=$(printf '%s\n' "$WARN" | grep -c .)
-  notify "$N organization(s) need attention.$PUSH_NOTE See ~/nyc-events/build/warnings.txt"
+  notify "$N listing(s) need attention.$PUSH_NOTE See ~/nyc-events/build/warnings.txt"
   echo "=== Finished with warnings $(date)"
 else
-  notify "Updated. All organizations OK."
+  notify "Updated. $(head -1 build/coverage.txt 2>/dev/null)"
   echo "=== Finished OK $(date)"
 fi
 find logs -name 'run-*.log' -mtime +60 -delete 2>/dev/null

@@ -1,45 +1,3021 @@
 {
-  "window_days": 31,
-  "sources": [
+ "schema": 2,
+ "window_days": 31,
+ "sources": [
+  {
+   "slug": "651-arts",
+   "name": "651 ARTS",
+   "websites": [
+    "https://www.651arts.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "92ny-harkness-dance-center",
+   "name": "92NY Harkness Dance Center",
+   "websites": [
+    "https://www.92ny.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": false,
+   "active": true
+  },
+  {
+   "slug": "a-better-jamaica",
+   "name": "A Better Jamaica",
+   "websites": [
+    "https://www.abetterjamaica.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "a-r-t-new-york",
+   "name": "A.R.T./New York",
+   "websites": [
+    "https://www.art-newyork.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "abrons-arts-center",
+   "name": "Abrons Arts Center",
+   "websites": [
+    "https://www.abronsartscenter.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": false,
+   "active": true
+  },
+  {
+   "slug": "alja",
+   "name": "Belongó",
+   "default_discipline": "Music",
+   "notes": "Calendar lists residencies as 'Every Tuesday' etc.; event pages carry exact dates and times, so linked event pages are opened too.",
+   "pages": [
     {
-      "slug": "nyphil",
-      "name": "New York Philharmonic",
-      "default_discipline": "Music",
-      "pages": [
-        { "url": "https://www.nyphil.org/concerts-tickets/event-calendar" }
-      ]
-    },
-    {
-      "slug": "signature",
-      "name": "Signature Theatre",
-      "default_discipline": "Theater",
-      "notes": "Calendar shows one month at a time; {ym} expands to the current and next month. Lobby events (Signature Jazz) are on the same calendar.",
-      "pages": [
-        { "url": "https://signaturetheatre.org/calendar/?ym={ym}" }
-      ]
-    },
-    {
-      "slug": "alja",
-      "name": "Afro Latin Jazz Alliance (Belongó)",
-      "default_discipline": "Music",
-      "notes": "Calendar lists residencies as 'Every Tuesday' etc.; event pages carry exact dates and times, so linked event pages are opened too.",
-      "pages": [
-        {
-          "url": "https://www.afrolatinjazz.org/calendar",
-          "follow_links_matching": "/events/",
-          "max_follow": 8
-        }
-      ]
-    },
-    {
-      "slug": "carnegie",
-      "name": "Carnegie Hall",
-      "default_discipline": "Music",
-      "scope": "Include only events Carnegie Hall itself presents, which the listing labels 'Carnegie Hall Presents'. Exclude every listing labelled 'Presented by' another organization or artist (those are rentals), and exclude guided tours.",
-      "notes": "Large calendar behind a 'Show More' button (~3-4 days per click). Uses bot protection (DataDome), so the cloud run may be blocked; if so the page falls back to the last good data and the run reports it.",
-      "pages": [
-        { "url": "https://www.carnegiehall.org/events" }
-      ]
+     "url": "https://www.afrolatinjazz.org/calendar",
+     "follow_links_matching": "/events/",
+     "max_follow": 8
     }
-  ]
+   ],
+   "websites": [
+    "https://www.afrolatinjazz.org"
+   ],
+   "verified": true,
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true,
+   "previous_names": [
+    "Afro Latin Jazz Alliance (Belongó)"
+   ]
+  },
+  {
+   "slug": "alarm-will-sound",
+   "name": "Alarm Will Sound",
+   "websites": [
+    "https://www.alarmwillsound.com"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "ailey",
+   "name": "AILEY",
+   "websites": [
+    "https://www.alvinailey.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "american-ballet-theatre",
+   "name": "American Ballet Theatre",
+   "websites": [
+    "https://www.abt.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "american-classical-orchestra",
+   "name": "American Classical Orchestra",
+   "websites": [
+    "https://www.aconyc.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "american-composers-orchestra",
+   "name": "American Composers Orchestra",
+   "websites": [
+    "https://www.americancomposers.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "american-lyric-theater",
+   "name": "American Lyric Theater",
+   "websites": [
+    "https://www.altnyc.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "apollo-theater",
+   "name": "Apollo Theater",
+   "websites": [
+    "https://www.apollotheater.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "ars-nova",
+   "name": "Ars Nova",
+   "websites": [
+    "https://www.arsnovanyc.com"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "arts-for-art",
+   "name": "Arts for Art",
+   "websites": [
+    "https://www.artsforart.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "asase-yaa-cultural-arts-foundation",
+   "name": "Asase Yaa Cultural Arts Foundation",
+   "websites": [
+    "https://www.asaseyaaent.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "atlantic-theater-company",
+   "name": "Atlantic Theater Company",
+   "websites": [
+    "https://www.atlantictheater.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "baad-bronx-academy-of-arts-and-dance",
+   "name": "BAAD! Bronx Academy of Arts and Dance",
+   "websites": [
+    "https://www.baadbronx.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "ballet-hisp-nico",
+   "name": "Ballet Hispánico",
+   "websites": [
+    "https://www.ballethispanico.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "bang-on-a-can",
+   "name": "Bang on a Can",
+   "websites": [
+    "https://www.bangonacan.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "baryshnikov-arts",
+   "name": "Baryshnikov Arts",
+   "websites": [
+    "https://www.baryshnikovarts.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "brooklyn-arts-exchange",
+   "name": "Brooklyn Arts Exchange",
+   "websites": [
+    "https://www.bax.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "bedlam",
+   "name": "Bedlam",
+   "websites": [
+    "https://www.bedlam.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "beth-morrison-projects",
+   "name": "Beth Morrison Projects",
+   "websites": [
+    "https://www.bethmorrisonprojects.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "big-dance-theater",
+   "name": "Big Dance Theater",
+   "websites": [
+    "https://www.bigdancetheater.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "blank-forms",
+   "name": "Blank Forms",
+   "websites": [
+    "https://www.blankforms.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "bric",
+   "name": "BRIC",
+   "websites": [
+    "https://www.bricartsmedia.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": false,
+   "active": true
+  },
+  {
+   "slug": "brooklyn-academy-of-music",
+   "name": "Brooklyn Academy of Music",
+   "websites": [
+    "https://www.bam.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "brooklyn-arts-council",
+   "name": "Brooklyn Arts Council",
+   "websites": [
+    "https://www.brooklynartscouncil.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": false,
+   "active": true
+  },
+  {
+   "slug": "camille-a-brown-dancers",
+   "name": "Camille A. Brown & Dancers",
+   "websites": [
+    "https://www.camilleabrown.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "caribbean-cultural-center-african-diaspo",
+   "name": "Caribbean Cultural Center African Diaspora Institute",
+   "websites": [
+    "https://www.cccadi.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": false,
+   "active": true
+  },
+  {
+   "slug": "carnegie",
+   "name": "Carnegie Hall",
+   "default_discipline": "Music",
+   "scope": "Include only events Carnegie Hall itself presents, which the listing labels 'Carnegie Hall Presents'. Exclude every listing labelled 'Presented by' another organization or artist (those are rentals), and exclude guided tours.",
+   "notes": "Large calendar behind a 'Show More' button (~3-4 days per click). Uses bot protection (DataDome), so the cloud run may be blocked; if so the page falls back to the last good data and the run reports it.",
+   "pages": [
+    {
+     "url": "https://www.carnegiehall.org/events"
+    }
+   ],
+   "websites": [
+    "https://www.carnegiehall.org"
+   ],
+   "verified": true,
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "center-for-performance-research",
+   "name": "Center for Performance Research",
+   "websites": [
+    "https://www.cprnyc.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "center-for-traditional-music-and-dance",
+   "name": "Center for Traditional Music and Dance",
+   "websites": [
+    "https://www.ctmd.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "chamber-music-america",
+   "name": "Chamber Music America",
+   "websites": [
+    "https://chambermusicamerica.org/"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "chamber-music-society-of-lincoln-center",
+   "name": "Chamber Music Society of Lincoln Center",
+   "websites": [
+    "https://www.chambermusicsociety.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "city-parks-foundation",
+   "name": "City Parks Foundation",
+   "websites": [
+    "https://www.cityparksfoundation.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Staten Island",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "classic-stage-company",
+   "name": "Classic Stage Company",
+   "websites": [
+    "https://www.classicstage.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "clubbed-thumb",
+   "name": "Clubbed Thumb",
+   "websites": [
+    "https://www.clubbedthumb.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "dance-heginbotham",
+   "name": "Dance Heginbotham",
+   "websites": [
+    "https://www.danceheginbotham.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "dance-lab-new-york",
+   "name": "Dance Lab New York",
+   "websites": [
+    "https://www.dancelabny.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "dance-theatre-of-harlem",
+   "name": "Dance Theatre of Harlem",
+   "websites": [
+    "https://www.dancetheatreofharlem.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "dance-nyc",
+   "name": "Dance/NYC",
+   "websites": [
+    "https://www.dance.nyc"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "danspace-project",
+   "name": "Danspace Project",
+   "websites": [
+    "https://www.danspaceproject.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "dorrance-dance",
+   "name": "Dorrance Dance",
+   "websites": [
+    "https://www.dorrancedance.com"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "elevator-repair-service",
+   "name": "Elevator Repair Service",
+   "websites": [
+    "https://www.elevator.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "emerge125",
+   "name": "EMERGE125",
+   "websites": [
+    "https://emerge125.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "en-garde-arts",
+   "name": "En Garde Arts",
+   "websites": [
+    "https://www.engardearts.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "ensemble-studio-theatre",
+   "name": "Ensemble Studio Theatre",
+   "websites": [
+    "https://www.estnyc.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "ethel",
+   "name": "ETHEL",
+   "websites": [
+    "https://www.ethelcentral.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "fiasco-theater",
+   "name": "Fiasco Theater",
+   "websites": [
+    "https://www.fiascotheater.com"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "flamenco-vivo-carlota-santana",
+   "name": "Flamenco Vivo Carlota Santana",
+   "websites": [
+    "https://www.flamenco-vivo.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "flushing-town-hall",
+   "name": "Flushing Town Hall",
+   "websites": [
+    "https://www.flushingtownhall.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "national-yiddish-theatre-folksbiene",
+   "name": "National Yiddish Theatre Folksbiene",
+   "websites": [
+    "https://www.nytf.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "forces-of-nature-dance-theatre",
+   "name": "Forces of Nature Dance Theatre",
+   "websites": [
+    "https://www.forcesofnature.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "l-alliance-new-york",
+   "name": "L'Alliance New York",
+   "websites": [
+    "https://www.fiaf.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": false,
+   "active": true
+  },
+  {
+   "slug": "gallim-dance",
+   "name": "Gallim Dance",
+   "websites": [
+    "https://www.gallim.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "gibney-dance",
+   "name": "Gibney Dance",
+   "websites": [
+    "https://www.gibneydance.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "gotham-early-music-scene",
+   "name": "Gotham Early Music Scene",
+   "websites": [
+    "https://www.gemsny.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "harlem-stage",
+   "name": "Harlem Stage",
+   "websites": [
+    "https://www.harlemstage.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "here",
+   "name": "HERE",
+   "websites": [
+    "https://www.here.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "hi-arts",
+   "name": "Hi-ARTS",
+   "websites": [
+    "https://www.hi-artsnyc.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "hostos-center-for-the-arts-culture",
+   "name": "Hostos Center for the Arts & Culture",
+   "websites": [
+    "https://www.hostos.cuny.edu/culturearts"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-house-foundation-for-the-arts",
+   "name": "The House Foundation for the Arts",
+   "websites": [
+    "https://www.meredithmonk.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "imani-winds",
+   "name": "Imani Winds",
+   "websites": [
+    "https://www.imaniwinds.com"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "indiespace",
+   "name": "IndieSpace",
+   "websites": [
+    "https://www.indiespace.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "international-contemporary-ensemble",
+   "name": "International Contemporary Ensemble",
+   "websites": [
+    "https://www.iceorg.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "irish-arts-center",
+   "name": "Irish Arts Center",
+   "websites": [
+    "https://www.irishartscenter.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "irish-repertory-theatre",
+   "name": "Irish Repertory Theatre",
+   "websites": [
+    "https://www.irishrep.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "issue-project-room",
+   "name": "ISSUE Project Room",
+   "websites": [
+    "https://www.issueprojectroom.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "jack-arts",
+   "name": "JACK Arts",
+   "websites": [
+    "https://www.jackny.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "jack-quartet",
+   "name": "JACK Quartet",
+   "websites": [
+    "https://www.jackquartet.com"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "jcal",
+   "name": "JCAL",
+   "websites": [
+    "https://www.jcal.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Queens",
+   "performing_arts_majority": false,
+   "active": true
+  },
+  {
+   "slug": "jazz-at-lincoln-center",
+   "name": "Jazz at Lincoln Center",
+   "websites": [
+    "https://www.jazz.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "jazz-foundation-of-america",
+   "name": "Jazz Foundation of America",
+   "websites": [
+    "https://www.jazzfoundation.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "jos-lim-n-dance-foundation",
+   "name": "José Limón Dance Foundation",
+   "websites": [
+    "https://www.limon.nyc"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "kaufman-music-center",
+   "name": "Kaufman Music Center",
+   "websites": [
+    "https://www.kaufmanmusiccenter.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "keen-company",
+   "name": "Keen Company",
+   "websites": [
+    "https://www.keencompany.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "kupferberg-center-for-the-arts-at-queens",
+   "name": "Kupferberg Center for the Arts at Queens College",
+   "websites": [
+    "https://www.kupferbergcenter.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "kyle-abraham-dance-vanguard",
+   "name": "Kyle Abraham Dance Vanguard",
+   "websites": [
+    "https://www.aimbykyleabraham.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "la-mama-experimental-theatre-club",
+   "name": "La MaMa Experimental Theatre Club",
+   "websites": [
+    "https://www.lamama.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "labyrinth-theater-company",
+   "name": "LAByrinth Theater Company",
+   "websites": [
+    "https://www.labtheater.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "league-of-american-orchestras",
+   "name": "League of American Orchestras",
+   "websites": [
+    "https://www.americanorchestras.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "les-ballets-trockadero-de-monte-carlo",
+   "name": "Les Ballets Trockadero de Monte Carlo",
+   "websites": [
+    "https://www.trockadero.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "lincoln-center-for-the-performing-arts",
+   "name": "Lincoln Center for the Performing Arts",
+   "websites": [
+    "https://www.lincolncenter.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "lincoln-center-theater",
+   "name": "Lincoln Center Theater",
+   "websites": [
+    "https://www.lct.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "jalopy-theatre-and-school-of-folk-music",
+   "name": "Jalopy Theatre and School of Folk Music",
+   "websites": [
+    "https://www.jalopytheatre.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-louis-armstrong-house-museum",
+   "name": "The Louis Armstrong House Museum",
+   "websites": [
+    "https://www.louisarmstronghouse.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "lower-manhattan-cultural-council",
+   "name": "Lower Manhattan Cultural Council",
+   "websites": [
+    "https://www.lmcc.net"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "ma-yi-theater-company",
+   "name": "Ma-Yi Theater Company",
+   "websites": [
+    "https://www.ma-yitheatre.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "mabou-mines",
+   "name": "Mabou Mines",
+   "websites": [
+    "https://www.maboumines.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "mama-foundation-for-the-arts",
+   "name": "Mama Foundation for the Arts",
+   "websites": [
+    "https://www.mamafoundation.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "manhattan-theatre-club",
+   "name": "Manhattan Theatre Club",
+   "websites": [
+    "https://www.manhattantheatreclub.com"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "mark-morris-dance-group",
+   "name": "Mark Morris Dance Group",
+   "websites": [
+    "https://www.markmorrisdancegroup.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "martha-graham-dance-company",
+   "name": "Martha Graham Dance Company",
+   "websites": [
+    "https://www.marthagraham.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "mastervoices",
+   "name": "MasterVoices",
+   "websites": [
+    "https://www.mastervoices.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "mcc-theater",
+   "name": "MCC Theater",
+   "websites": [
+    "https://www.mcctheater.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "miller-theatre",
+   "name": "Miller Theatre",
+   "websites": [
+    "https://www.millertheatre.com"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "mint-theater-company",
+   "name": "Mint Theater Company",
+   "websites": [
+    "https://www.minttheater.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "monica-bill-barnes-company",
+   "name": "Monica Bill Barnes & Company",
+   "websites": [
+    "https://www.monicabillbarnes.com"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "move-nyc",
+   "name": "MOVE|NYC|",
+   "websites": [
+    "https://www.movenyc.nyc"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "movement-research",
+   "name": "Movement Research",
+   "websites": [
+    "https://www.movementresearch.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "namt",
+   "name": "NAMT",
+   "websites": [
+    "https://www.namt.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "national-black-theatre",
+   "name": "National Black Theatre",
+   "websites": [
+    "https://www.nationalblacktheatre.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "national-sawdust",
+   "name": "National Sawdust",
+   "websites": [
+    "https://www.nationalsawdust.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-dramatists",
+   "name": "New Dramatists",
+   "websites": [
+    "https://www.newdramatists.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-georges",
+   "name": "New Georges",
+   "websites": [
+    "https://www.newgeorges.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-music-usa",
+   "name": "New Music USA",
+   "websites": [
+    "https://www.newmusicusa.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-york-city-ballet",
+   "name": "New York City Ballet",
+   "websites": [
+    "https://www.nycballet.com"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-york-city-center",
+   "name": "New York City Center",
+   "websites": [
+    "https://www.nycitycenter.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-york-city-children-s-theater",
+   "name": "New York City Children's Theater",
+   "websites": [
+    "https://www.nycchildrenstheater.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-york-city-players",
+   "name": "New York City Players",
+   "websites": [
+    "https://www.nycplayers.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "nyphil",
+   "name": "New York Philharmonic",
+   "default_discipline": "Music",
+   "pages": [
+    {
+     "url": "https://www.nyphil.org/concerts-tickets/event-calendar"
+    }
+   ],
+   "websites": [
+    "https://www.nyphil.org"
+   ],
+   "verified": true,
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-new-york-public-library-for-the-perf",
+   "name": "The New York Public Library for the Performing Arts",
+   "websites": [
+    "https://www.nypl.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-york-public-radio",
+   "name": "New York Public Radio",
+   "websites": [
+    "https://www.nypublicradio.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-york-stage-and-film",
+   "name": "New York Stage and Film",
+   "websites": [
+    "https://www.newyorkstageandfilm.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-york-theatre-ballet",
+   "name": "New York Theatre Ballet",
+   "websites": [
+    "https://www.nytb.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-york-theatre-workshop",
+   "name": "New York Theatre Workshop",
+   "websites": [
+    "https://www.nytw.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-yorkers-for-culture-and-arts",
+   "name": "New Yorkers for Culture and Arts",
+   "websites": [
+    "https://www.ny4ca.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "opera-america",
+   "name": "OPERA America",
+   "websites": [
+    "https://www.operaamerica.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "orchestra-of-st-luke-s",
+   "name": "Orchestra of St. Luke's",
+   "websites": [
+    "https://www.oslmusic.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "orpheus-chamber-orchestra",
+   "name": "Orpheus Chamber Orchestra",
+   "websites": [
+    "https://www.orpheusnyc.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "page-73-productions",
+   "name": "Page 73 Productions",
+   "websites": [
+    "https://www.page73.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "pan-asian-repertory-theatre",
+   "name": "Pan Asian Repertory Theatre",
+   "websites": [
+    "https://www.panasianrep.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "park-avenue-armory",
+   "name": "Park Avenue Armory",
+   "websites": [
+    "https://www.armoryonpark.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "parsons-dance",
+   "name": "Parsons Dance",
+   "websites": [
+    "https://www.parsonsdance.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "paul-taylor-dance-company",
+   "name": "Paul Taylor Dance Company",
+   "websites": [
+    "https://www.paultaylordance.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-people-s-theatre",
+   "name": "The People’s Theatre",
+   "websites": [
+    "https://www.thepeoplestheatre.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "performance-space-new-york",
+   "name": "Performance Space New York",
+   "websites": [
+    "https://www.performancespacenewyork.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "pick-up-performance-co",
+   "name": "Pick Up Performance Co.",
+   "websites": [
+    "https://www.pickupperformance.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "pink-fang",
+   "name": "Pink Fang",
+   "websites": [
+    "https://www.pinkfang.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "playwrights-horizons",
+   "name": "Playwrights Horizons",
+   "websites": [
+    "https://www.phnyc.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "pregones-puerto-rican-traveling-theater",
+   "name": "Pregones/Puerto Rican Traveling Theater",
+   "websites": [
+    "https://www.pregonesprtt.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "primary-stages",
+   "name": "Primary Stages",
+   "websites": [
+    "https://www.primarystages.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "prospect-musicals",
+   "name": "Prospect Musicals",
+   "websites": [
+    "https://www.prospectmusicals.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "queens-theatre",
+   "name": "Queens Theatre",
+   "websites": [
+    "https://www.queenstheatre.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "rattlestick-playwrights-theater",
+   "name": "Rattlestick Playwrights Theater",
+   "websites": [
+    "https://www.rattlestick.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "red-bull-theater",
+   "name": "Red Bull Theater",
+   "websites": [
+    "https://www.redbulltheater.com"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "repertorio-espa-ol",
+   "name": "Repertorio Español",
+   "websites": [
+    "https://www.repertorio.nyc"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "roulette",
+   "name": "Roulette",
+   "websites": [
+    "https://roulette.org/"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "roundabout-theatre-company",
+   "name": "Roundabout Theatre Company",
+   "websites": [
+    "https://www.roundabouttheatre.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "second-stage-theater",
+   "name": "Second Stage Theater",
+   "websites": [
+    "https://www.2st.com"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "signature",
+   "name": "Signature Theatre",
+   "default_discipline": "Theater",
+   "notes": "Calendar shows one month at a time; {ym} expands to the current and next month. Lobby events (Signature Jazz) are on the same calendar.",
+   "pages": [
+    {
+     "url": "https://signaturetheatre.org/calendar/?ym={ym}"
+    }
+   ],
+   "websites": [
+    "https://www.signaturetheatre.org"
+   ],
+   "verified": true,
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "skirball-center-for-the-performing-arts",
+   "name": "Skirball Center for the Performing Arts",
+   "websites": [
+    "https://nyuskirball.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "snug-harbor",
+   "name": "Snug Harbor",
+   "websites": [
+    "https://www.snug-harbor.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Staten Island",
+   "performing_arts_majority": false,
+   "active": true
+  },
+  {
+   "slug": "s-percussion",
+   "name": "Sō Percussion",
+   "websites": [
+    "https://www.sopercussion.com"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "soho-rep",
+   "name": "Soho Rep",
+   "websites": [
+    "https://www.sohorep.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "st-ann-s-warehouse",
+   "name": "St. Ann's Warehouse",
+   "websites": [
+    "https://www.stannswarehouse.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "streb",
+   "name": "STREB",
+   "websites": [
+    "https://www.streb.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "symphony-space",
+   "name": "Symphony Space",
+   "websites": [
+    "https://www.symphonyspace.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "talea-ensemble",
+   "name": "Talea Ensemble",
+   "websites": [
+    "https://www.taleaensemble.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "target-margin-theater",
+   "name": "Target Margin Theater",
+   "websites": [
+    "https://www.targetmargin.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "teatro-c-rculo",
+   "name": "Teatro Círculo",
+   "websites": [
+    "https://www.teatrocirculo.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "tectonic-theater-project",
+   "name": "Tectonic Theater Project",
+   "websites": [
+    "https://www.tectonictheaterproject.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "entertainment-community-fund",
+   "name": "Entertainment Community Fund",
+   "websites": [
+    "https://www.entertainmentcommunity.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "american-opera-projects",
+   "name": "American Opera Projects",
+   "websites": [
+    "https://www.aopopera.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-billie-holiday-theatre",
+   "name": "The Billie Holiday Theatre",
+   "websites": [
+    "https://www.thebillieholiday.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-bushwick-starr",
+   "name": "The Bushwick Starr",
+   "websites": [
+    "https://www.thebushwickstarr.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-chocolate-factory-theater",
+   "name": "The Chocolate Factory Theater",
+   "websites": [
+    "https://www.chocolatefactorytheater.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-civilians",
+   "name": "The Civilians",
+   "websites": [
+    "https://www.thecivilians.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-classical-theatre-of-harlem",
+   "name": "The Classical Theatre of Harlem",
+   "websites": [
+    "https://www.cthnyc.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-drama-league-of-new-york",
+   "name": "The Drama League of New York",
+   "websites": [
+    "https://www.dramaleague.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "counterpart",
+   "name": "Counterpart",
+   "websites": [
+    "https://yourcounterpart.org/"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-flea-theater",
+   "name": "The Flea Theater",
+   "websites": [
+    "https://www.theflea.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-harlem-chamber-players",
+   "name": "The Harlem Chamber Players",
+   "websites": [
+    "https://www.harlemchamberplayers.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-jazz-gallery",
+   "name": "The Jazz Gallery",
+   "websites": [
+    "https://www.jazzgallery.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-joyce-theater",
+   "name": "The Joyce Theater",
+   "websites": [
+    "https://www.joyce.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-kitchen",
+   "name": "The Kitchen",
+   "websites": [
+    "https://www.thekitchen.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-knights",
+   "name": "The Knights",
+   "websites": [
+    "https://www.theknightsnyc.com"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-metropolitan-opera",
+   "name": "The Metropolitan Opera",
+   "websites": [
+    "https://www.metopera.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-national-jazz-museum-in-harlem",
+   "name": "The National Jazz Museum in Harlem",
+   "websites": [
+    "https://jmih.org/"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-42",
+   "name": "New 42",
+   "websites": [
+    "https://www.new42.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-new-group",
+   "name": "The New Group",
+   "websites": [
+    "https://www.thenewgroup.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-play-company",
+   "name": "The Play Company",
+   "websites": [
+    "https://www.playco.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-playwrights-realm",
+   "name": "The Playwrights Realm",
+   "websites": [
+    "https://www.playwrightsrealm.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-public-theater",
+   "name": "The Public Theater",
+   "websites": [
+    "https://www.publictheater.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-shed",
+   "name": "The Shed",
+   "websites": [
+    "https://www.theshed.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-tank",
+   "name": "The Tank",
+   "websites": [
+    "https://www.thetanknyc.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-team",
+   "name": "the TEAM",
+   "websites": [
+    "https://www.theteamplays.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-wooster-group",
+   "name": "The Wooster Group",
+   "websites": [
+    "https://www.thewoostergroup.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "theater-breaking-through-barriers",
+   "name": "Theater Breaking Through Barriers",
+   "websites": [
+    "https://www.tbtb.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "theater-mitu",
+   "name": "Theater Mitu",
+   "websites": [
+    "https://www.theatermitu.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "theatre-communications-group",
+   "name": "Theatre Communications Group",
+   "websites": [
+    "https://www.tcg.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "tdf",
+   "name": "TDF",
+   "websites": [
+    "https://tdf.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "theatre-for-a-new-audience",
+   "name": "Theatre for a New Audience",
+   "websites": [
+    "https://tfana.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "transport-group-theatre-company",
+   "name": "Transport Group Theatre Company",
+   "websites": [
+    "https://www.transportgroup.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "trisha-brown-dance-company",
+   "name": "Trisha Brown Dance Company",
+   "websites": [
+    "https://www.trishabrowncompany.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "urban-bush-women",
+   "name": "Urban Bush Women",
+   "websites": [
+    "https://www.urbanbushwomen.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "vibe-theater-experience",
+   "name": "viBe Theater Experience",
+   "websites": [
+    "https://www.vibetheater.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "vineyard-theatre",
+   "name": "Vineyard Theatre",
+   "websites": [
+    "https://www.vineyardtheatre.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "waterwell",
+   "name": "Waterwell",
+   "websites": [
+    "https://www.waterwell.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "women-of-color-in-the-arts",
+   "name": "Women of Color in the Arts",
+   "websites": [
+    "https://www.womenofcolorinthearts.org/"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "working-theater",
+   "name": "Working Theater",
+   "websites": [
+    "https://www.theworkingtheater.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "world-music-institute",
+   "name": "World Music Institute",
+   "websites": [
+    "https://www.worldmusicinstitute.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "wp-theater",
+   "name": "WP Theater",
+   "websites": [
+    "https://www.wptheater.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "yarn-wire",
+   "name": "Yarn/Wire",
+   "websites": [
+    "https://www.yarnwire.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "houses-on-the-moon-theater-co",
+   "name": "Houses On The Moon Theater Co.",
+   "websites": [
+    "https://www.housesonthemoon.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "japan-society",
+   "name": "Japan Society",
+   "websites": [
+    "https://www.japansociety.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": false,
+   "active": true
+  },
+  {
+   "slug": "new-york-live-arts",
+   "name": "New York Live Arts",
+   "websites": [
+    "https://www.newyorklivearts.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "bronx-council-on-the-arts",
+   "name": "Bronx Council on the Arts",
+   "websites": [
+    "https://www.bronxarts.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "staten-island-arts",
+   "name": "Staten Island Arts",
+   "websites": [
+    "https://www.statenislandarts.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Staten Island",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "angela-s-pulse",
+   "name": "Angela’s Pulse",
+   "websites": [
+    "https://angelaspulse.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "braata-productions",
+   "name": "Braata Productions",
+   "websites": [
+    "https://www.braataproductions.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "leimay",
+   "name": "LEIMAY",
+   "websites": [
+    "https://www.leimay.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "yaa-samar-dance-theatre",
+   "name": "Yaa Samar! Dance Theatre",
+   "websites": [
+    "https://www.ysdt.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "jazz-power-initiative",
+   "name": "Jazz Power Initiative",
+   "websites": [
+    "https://www.jazzpower.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "chinese-theatre-works",
+   "name": "Chinese Theatre Works",
+   "websites": [
+    "https://chinesetheatreworks.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "multicultural-music-group",
+   "name": "Multicultural Music Group",
+   "websites": [
+    "https://www.multiculturalmusic.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "intar",
+   "name": "INTAR",
+   "websites": [
+    "https://www.intartheatre.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "id-studio-theater",
+   "name": "ID Studio Theater",
+   "websites": [
+    "https://www.idstudiotheater.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "lotus-music-dance",
+   "name": "Lotus Music & Dance",
+   "websites": [
+    "https://www.lotusmusicanddance.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "naatco",
+   "name": "NAATCO",
+   "websites": [
+    "https://www.naatco.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "haiti-cultural-exchange",
+   "name": "Haiti Cultural Exchange",
+   "websites": [
+    "https://www.haiticulturalx.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "whedco-bronx-music-heritage-center-bmhc-",
+   "name": "WHEDco, Bronx Music Heritage Center (BMHC), Bronx Music Hall (BMH)",
+   "websites": [
+    "https://whedco.org",
+    "https://bronxmusic.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Bronx",
+   "performing_arts_majority": false,
+   "active": true
+  },
+  {
+   "slug": "new-federal-theatre",
+   "name": "New Federal Theatre",
+   "websites": [
+    "https://www.newfederaltheatre.com"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "el-taller-latino-americano",
+   "name": "El Taller Latino Americano",
+   "websites": [
+    "https://www.tallerlatino.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "calpulli-mexican-dance-company",
+   "name": "Calpulli Mexican Dance Company",
+   "websites": [
+    "https://www.calpullidance.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-york-chinese-cultural-center",
+   "name": "New York Chinese Cultural Center",
+   "websites": [
+    "https://www.nychineseculturalcenter.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "thalia-spanish-theatre",
+   "name": "Thalia Spanish Theatre",
+   "websites": [
+    "https://www.thaliatheatre.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "theatre-of-the-oppressed-nyc",
+   "name": "Theatre of the Oppressed NYC",
+   "websites": [
+    "https://www.tonyc.nyc"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "teatro-sea",
+   "name": "Teatro SEA",
+   "websites": [
+    "https://www.teatrosea.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "nuyorican-poets-cafe",
+   "name": "Nuyorican Poets Cafe",
+   "websites": [
+    "https://www.nuyorican.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "casita-maria-center-for-arts-and-educati",
+   "name": "Casita Maria Center for Arts and Education",
+   "websites": [
+    "https://www.casitamaria.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "heartbeat-opera",
+   "name": "Heartbeat Opera",
+   "websites": [
+    "https://www.heartbeatopera.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "american-symphony-orchestra",
+   "name": "American Symphony Orchestra",
+   "websites": [
+    "https://americansymphony.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "pipeline-theatre-company",
+   "name": "Pipeline Theatre Company",
+   "websites": [
+    "https://www.pipelinetheatre.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "jamel-gaines-creative-outlet",
+   "name": "Jamel Gaines Creative Outlet",
+   "websites": [
+    "https://www.creativeoutlet.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "culturehub",
+   "name": "CultureHub",
+   "websites": [
+    "https://www.culturehub.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "americas-society",
+   "name": "Americas Society",
+   "websites": [
+    "https://www.as-coa.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-movement-theatre-company",
+   "name": "The Movement Theatre Company",
+   "websites": [
+    "https://www.themovementtheatrecompany.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "musical-theatre-factory",
+   "name": "Musical Theatre Factory",
+   "websites": [
+    "https://www.mtf.nyc"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "dancing-in-the-streets",
+   "name": "Dancing in the Streets",
+   "websites": [
+    "https://www.dancinginthestreets.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "epic-players",
+   "name": "EPIC Players",
+   "websites": [
+    "https://www.epicplayersnyc.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "triskelion-arts",
+   "name": "Triskelion Arts",
+   "websites": [
+    "https://www.triskelionarts.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "asian-american-arts-alliance-a4",
+   "name": "Asian American Arts Alliance (A4)",
+   "websites": [
+    "https://www.aaartsalliance.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "frigid-new-york",
+   "name": "FRIGID New York",
+   "websites": [
+    "https://frigid.nyc/"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "new-york-classical-theatre",
+   "name": "New York Classical Theatre",
+   "websites": [
+    "https://www.nyclassical.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "voices-of-ascension",
+   "name": "Voices of Ascension",
+   "websites": [
+    "https://www.voicesofascension.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "works-process",
+   "name": "Works & Process",
+   "websites": [
+    "https://www.worksandprocess.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-clemente",
+   "name": "The Clemente",
+   "websites": [
+    "https://www.theclementecenter.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "ronald-k-brown-evidence",
+   "name": "Ronald K. Brown/EVIDENCE",
+   "websites": [
+    "https://www.evidencedance.com"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "artequity",
+   "name": "artEquity",
+   "websites": [
+    "https://www.artEquity.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "wild-project",
+   "name": "wild project",
+   "websites": [
+    "https://thewildproject.org/"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "emily-johnson-catalyst",
+   "name": "Emily Johnson / Catalyst",
+   "websites": [
+    "https://www.catalystdance.com"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "jazzmobile",
+   "name": "Jazzmobile",
+   "websites": [
+    "https://www.jazzmobile.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "lehman-center",
+   "name": "Lehman Center",
+   "websites": [
+    "https://www.lehmancenter.org/"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "tribe-multidisciplinary-visual-performan",
+   "name": "TRIBE - Multidisciplinary Visual Performances",
+   "websites": [
+    "https://itsatribe.org/"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "kinetic-light",
+   "name": "Kinetic Light",
+   "websites": [
+    "https://www.kineticlight.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "sphinx-organization",
+   "name": "Sphinx Organization",
+   "websites": [
+    "https://www.sphinxmusic.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "composers-now",
+   "name": "Composers Now",
+   "websites": [
+    "https://composersnow.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "hbarts-collective",
+   "name": "HBArts Collective",
+   "websites": [
+    "https://www.HBArtsCollective.org"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "black-trans-femmes-in-the-arts",
+   "name": "Black Trans Femmes in the Arts",
+   "websites": [
+    "https://www.btfacollective.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "bindlestiff-family-cirkus",
+   "name": "Bindlestiff Family Cirkus",
+   "websites": [
+    "https://www.bindlestiff.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "beyond-booking",
+   "name": "Beyond Booking",
+   "websites": [
+    "https://www.beyondbooking.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "pioneers-collective",
+   "name": "Pioneers Collective",
+   "websites": [
+    "https://www.pioneersgoeast.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "american-modern-opera-company",
+   "name": "American Modern Opera Company",
+   "websites": [
+    "https://www.runningamoc.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "pac-nyc",
+   "name": "PAC NYC",
+   "websites": [
+    "https://pacnyc.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "illuminart-productions",
+   "name": "IlluminArt Productions",
+   "websites": [
+    "https://www.illuminart.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Staten Island",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "omnium-circus",
+   "name": "Omnium Circus",
+   "websites": [
+    "https://www.omniumcircus.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "breaking-the-binary-theatre",
+   "name": "Breaking the Binary Theatre",
+   "websites": [
+    "https://www.btb-nyc.com/"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "oye-group",
+   "name": "¡Oye! Group",
+   "websites": [
+    "https://www.oyegroup.org/"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "bronx-arts-ensemble",
+   "name": "Bronx Arts Ensemble",
+   "websites": [
+    "https://www.bronxartsensemble.org"
+   ],
+   "default_discipline": "Music",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "indo-american-arts-council",
+   "name": "Indo American Arts Council",
+   "websites": [
+    "https://www.iaac.us"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "iati-theater",
+   "name": "IATI Theater",
+   "websites": [
+    "http://www.iatitheater.org"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Manhattan",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "culture-lab-lic",
+   "name": "Culture Lab LIC",
+   "websites": [
+    "https://www.culturelablic.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "culture-and-arts-policy-institute",
+   "name": "Culture and Arts Policy Institute",
+   "websites": [
+    "https://culturepolicy.org/"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "sweat-variant",
+   "name": "Sweat Variant",
+   "websites": [
+    "https://www.sweatvariant.com/"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "black-spectrum-theatre-co-inc",
+   "name": "Black Spectrum Theatre Co, Inc.",
+   "websites": [
+    "http://www.blackspectrum.com"
+   ],
+   "default_discipline": "Theater",
+   "borough": "Queens",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "music-from-the-sole",
+   "name": "Music from the Sole",
+   "websites": [
+    "https://www.musicfromthesole.com"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Brooklyn",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "the-bronx-river-art-center",
+   "name": "The Bronx River Art Center",
+   "websites": [
+    "https://www.bronxriverart.org"
+   ],
+   "default_discipline": "Multidisciplinary",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  },
+  {
+   "slug": "circle-o",
+   "name": "Circle O",
+   "websites": [
+    "https://www.circleo.org/"
+   ],
+   "default_discipline": "Dance",
+   "borough": "Bronx",
+   "performing_arts_majority": true,
+   "active": true
+  }
+ ]
 }

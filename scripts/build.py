@@ -14,6 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 EXTRACTED = ROOT / "build" / "extracted"
+RAW = ROOT / "build" / "raw"
 DOCS = ROOT / "docs"
 OUT = DOCS / "events.json"
 DISCIPLINES = {"Music", "Theater", "Dance", "Opera", "Multidisciplinary", "Family/Education", "Other"}
@@ -62,49 +63,84 @@ def clean(ev, org, default_discipline, start, end):
     }
 
 
+def read_json(path, default):
+    try:
+        return json.loads(path.read_text())
+    except Exception:
+        return default
+
+
 def main():
     cfg = json.loads((ROOT / "sources.json").read_text())
     days = cfg.get("window_days", 31)
     today = dt.date.today()
     start, end = today, today + dt.timedelta(days=days)
+    sources = [s for s in cfg["sources"] if s.get("active", True)]
 
     previous = {}
-    if OUT.exists():
-        try:
-            for ev in json.loads(OUT.read_text()).get("events", []):
-                previous.setdefault(ev["org"], []).append(ev)
-        except Exception:
-            pass
+    for ev in read_json(OUT, {}).get("events", []):
+        previous.setdefault(ev["org"], []).append(ev)
 
     events, warnings, counts, health = [], [], {}, {}
-    for src in cfg["sources"]:
-        org = src["name"]
+    cov = {"no_events": [], "no_source": [], "blocked": [], "failed": []}
+    for src in sources:
+        org, default = src["name"], src.get("default_discipline", "Other")
+        site = (src.get("websites") or [""])[0]
+        prev = list(previous.get(org, []))
+        for old_name in src.get("previous_names", []):
+            prev += previous.get(old_name, [])
+
+        if not src.get("pages"):
+            reason = src.get("discovery", {}).get("status", "not_checked")
+            health[org] = {"status": "no_source", "events": 0, "reason": reason}
+            cov["no_source"].append({"name": org, "site": site, "reason": reason,
+                                     "note": src.get("discovery", {}).get("note", "")})
+            continue
+
         path = EXTRACTED / f"{src['slug']}.json"
+        raw = read_json(RAW / f"{src['slug']}.json", None)
+        extracted = path.exists()
         fresh = []
-        if path.exists():
-            raw = json.loads(path.read_text()).get("events", [])
-            fresh = [e for e in (clean(x, org, src.get("default_discipline", "Other"), start, end) for x in raw) if e]
+        if extracted:
+            fresh = [e for e in (clean(x, org, default, start, end)
+                                 for x in json.loads(path.read_text()).get("events", [])) if e]
         if fresh:
             counts[org] = len(fresh)
             health[org] = {"status": "ok", "events": len(fresh)}
             events += fresh
             continue
-        # No fresh data: fall back to last known events that are still in the window.
+
+        # No fresh events. Last known events that are still in the window are kept, with a note.
         kept = []
-        for ev in previous.get(org, []):
-            c = clean(ev, org, src.get("default_discipline", "Other"), start, end)
+        for ev in prev:
+            c = clean(ev, org, default, start, end)
             if c:
                 base = re.sub(r"(;\s*)?from previous update", "", c["notes"]).strip("; ").strip()
                 c["notes"] = (base + "; " if base else "") + "from previous update"
                 kept.append(c)
+        robots = bool(raw) and not raw.get("pages") and any("robots.txt" in e for e in raw.get("errors", []))
+
+        if extracted and not kept:
+            # The page was read and truly lists nothing in the window. Normal for small organizations.
+            health[org] = {"status": "empty", "events": 0, "reason": "no performances listed in the window"}
+            cov["no_events"].append({"name": org, "site": site})
+            continue
+
+        if robots:
+            status = "blocked"
+            reason = "its website asks automated tools not to read it (robots.txt)"
+        elif extracted:
+            status, reason = "empty", "the page was read but no performances were found"
+        else:
+            status, reason = "failed", "the page did not load or could not be read this week"
         counts[org] = len(kept)
         events += kept
-        reason = "extraction failed or page did not render" if not path.exists() else "no events found"
-        health[org] = {"status": "no_data" if not path.exists() else "empty", "events": len(kept), "reason": reason}
-        warnings.append(
-            f"{org}: {reason}; showing {len(kept)} events from the last successful update. "
-            "The site layout may have changed."
-        )
+        health[org] = {"status": status, "events": len(kept), "reason": reason}
+        if kept or src.get("verified"):
+            tail = "" if robots else " The site layout may have changed."
+            warnings.append(f"{org}: {reason}; showing {len(kept)} events from the last successful update.{tail}")
+        else:
+            cov["blocked" if robots else "failed"].append({"name": org, "site": site, "reason": reason})
 
     seen, unique = set(), []
     for e in events:
@@ -116,14 +152,25 @@ def main():
     for e in unique:
         e.pop("_sort")
 
+    listed = sorted({e["org"] for e in unique}, key=str.lower)
+    coverage = {
+        "total": len(sources),
+        "with_events": len(listed),
+        "no_events": len(cov["no_events"]),
+        "no_source": len(cov["no_source"]),
+        "blocked": len(cov["blocked"]),
+        "failed": len(cov["failed"]),
+    }
     DOCS.mkdir(exist_ok=True)
     payload = json.dumps(
         {
             "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
             "window": {"start": start.isoformat(), "end": end.isoformat()},
-            "orgs": [s["name"] for s in cfg["sources"]],
+            "orgs": listed,
             "counts": counts,
             "health": health,
+            "coverage": coverage,
+            "coverage_orgs": cov,
             "warnings": warnings,
             "events": unique,
         },
@@ -134,11 +181,19 @@ def main():
     # Same data as a script file, so index.html also works when opened straight from disk
     # (browsers block fetch() of local files). "</" is escaped so no event text can close the tag.
     (DOCS / "events.js").write_text("window.EVENTS = " + payload.replace("</", "<\\/") + ";\n")
-    print(json.dumps(counts, ensure_ascii=False))
+    print(json.dumps({"events": len(unique), **coverage}))
     for w in warnings:
         print("WARNING:", w, file=sys.stderr)
     (ROOT / "build").mkdir(exist_ok=True)
     (ROOT / "build" / "warnings.txt").write_text("\n".join(warnings))
+    # A plain-text coverage report for the person running this (not published).
+    lines = [f"{coverage['with_events']} of {coverage['total']} organizations have listings; "
+             f"{coverage['no_events']} have none in the window; {coverage['no_source']} have no calendar source; "
+             f"{coverage['blocked']} blocked; {coverage['failed']} failed."]
+    for k in ("no_source", "blocked", "failed"):
+        for o in cov[k]:
+            lines.append(f"{k}: {o['name']} | {o['site']} | {o.get('reason','')} {o.get('note','')}".strip())
+    (ROOT / "build" / "coverage.txt").write_text("\n".join(lines))
     return 0
 
 

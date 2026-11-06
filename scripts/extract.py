@@ -58,12 +58,13 @@ Today: {today}
 Window: {start} to {end} inclusive.
 
 Rules:
-- Include only performances (concerts, plays, dance, readings, parades or open rehearsals open to the public) that take place in New York City (the five boroughs) and fall inside the window. Skip everything else, including tour dates elsewhere, classes, guided building tours, fundraisers, ticket packages and past dates.
+- Include only LIVE PERFORMANCES open to the public that take place in New York City (the five boroughs) and fall inside the window: concerts, recitals, plays and musicals, dance, opera, readings and staged readings, cabaret, performance art, parades and festival performances, open rehearsals or previews that the public can attend, and film screenings only when live performers are part of the event.
+- Exclude everything else, even if the organization offers it: talks, lectures, panels, conversations, book events, classes, workshops, masterclasses, camps, auditions, exhibitions and gallery openings, film-only screenings, guided tours, fundraisers and galas, networking, meetings, volunteer days, membership or ticket packages, and online-only events. Exclude anything outside the five boroughs (tour dates elsewhere) and past dates. When unsure whether something is a performance or a talk or class, leave it out.
 - One entry per performance (a separate entry for each date and showtime). If the page shows a recurring series (e.g. "Every Tuesday" or "Saturdays, listed dates"), expand it into individual dates only when the page text states the days, the start date and either an end date or an explicit list of dates; otherwise list the next occurrence only and say so in notes.
 - Use only what the page says. If a time, venue or description is not stated, leave it empty or say so in notes. Never guess.
 - Links appear inline as ⟨https://...⟩ immediately after the link text they belong to. Use the link that belongs to that performance's own page (not a generic ticketing or home page). If there is none, leave url empty.
 - Write descriptions in your own words; do not copy marketing text.
-- If a donor rehearsal, workshop or open jam is not a ticketed concert, still include it if it is open to the public or has reserved passes, and say so in notes.
+- A donor rehearsal or open jam that is not a ticketed concert may be included if it is a performance open to the public or with reserved passes; say so in notes.
 - If nothing qualifies, return an empty list.
 You must return the result by calling the record_events tool (even if the list is empty). Do not reply with prose."""
 
@@ -73,7 +74,7 @@ def window(days):
     return today, today, today + dt.timedelta(days=days)
 
 
-def extract_org(client, raw, days, scope=""):
+def extract_org(client, raw, days, scope="", strict=False):
     today, start, end = window(days)
     pages = "\n\n".join(f"=== PAGE {p['url']} ===\n{p['text']}" for p in raw["pages"])
     prompt = INSTRUCTIONS.format(org=raw["name"], today=today, start=start, end=end)
@@ -81,6 +82,11 @@ def extract_org(client, raw, days, scope=""):
         prompt += (
             "\n\nScope rule for this organization (it narrows the rules above and takes precedence over them): "
             + scope
+        )
+    if strict:
+        prompt += (
+            "\n\nThis organization does much more than perform (talks, classes, exhibitions, community programs). "
+            "Be strict: list an entry only if it is clearly a live performance."
         )
     # Big calendars (a venue with hundreds of listings) are read in overlapping parts so no single
     # response runs out of room. Duplicates from the overlap are removed in build.py.
@@ -121,15 +127,19 @@ def extract_chunk(client, prompt, pages):
 
 
 def main():
+    import concurrent.futures as cf
+
     cfg = json.loads((ROOT / "sources.json").read_text())
     days = cfg.get("window_days", 31)
     OUT.mkdir(parents=True, exist_ok=True)
-    client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY
+    for f in OUT.glob("*.json"):
+        f.unlink()  # never reuse a stale result from an earlier run
+    client = anthropic.Anthropic(max_retries=5)  # reads ANTHROPIC_API_KEY
+    todo = []
     for src in cfg["sources"]:
+        if not src.get("active", True) or not src.get("pages"):
+            continue
         path = RAW / f"{src['slug']}.json"
-        out = OUT / f"{src['slug']}.json"
-        if out.exists():
-            out.unlink()  # never reuse a stale result from an earlier run
         if not path.exists():
             print(f"{src['slug']}: no raw page data, skipping")
             continue
@@ -137,12 +147,21 @@ def main():
         if not raw["pages"]:
             print(f"{src['slug']}: render produced no pages, skipping")
             continue
+        todo.append((src, raw))
+
+    def job(item):
+        src, raw = item
         try:
-            events = extract_org(client, raw, days, src.get("scope", ""))
-            out.write_text(json.dumps({"slug": src["slug"], "events": events}, ensure_ascii=False, indent=1))
-            print(f"{src['slug']}: {len(events)} events")
+            events = extract_org(client, raw, days, src.get("scope", ""), not src.get("performing_arts_majority", True))
+            (OUT / f"{src['slug']}.json").write_text(
+                json.dumps({"slug": src["slug"], "events": events}, ensure_ascii=False, indent=1))
+            return f"{src['slug']}: {len(events)} events"
         except Exception as e:
-            print(f"{src['slug']}: FAILED {e}", file=sys.stderr)
+            return f"{src['slug']}: FAILED {e}"
+
+    with cf.ThreadPoolExecutor(max_workers=int(os.environ.get("EXTRACT_WORKERS", "4"))) as ex:
+        for line in ex.map(job, todo):
+            print(line, file=sys.stderr if "FAILED" in line else sys.stdout, flush=True)
     return 0
 
 
