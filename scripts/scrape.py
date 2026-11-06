@@ -170,6 +170,35 @@ def grab(page, spec, end):
     return text[:MAX_CHARS]
 
 
+def read_manual(path):
+    """Text of a file dropped in manual/: .pdf (via pypdf) or .txt/.md (pasted page text)."""
+    if path.suffix.lower() == ".pdf":
+        from pypdf import PdfReader
+        return "\n\n".join((pg.extract_text() or "") for pg in PdfReader(str(path)).pages)
+    return path.read_text(errors="replace")
+
+
+def manual_source(src):
+    """Organizations that block automated tools: the person running this saves their published calendar
+    (a PDF they publish, or pasted page text) into manual/, and it is read exactly like a scraped page."""
+    import time
+
+    m = src["manual"]
+    f = ROOT / "manual" / m["file"]
+    result = {"slug": src["slug"], "name": src["name"], "pages": [], "errors": []}
+    if not f.exists():
+        result["errors"].append(f"manual file missing: manual/{m['file']}")
+        return result
+    age = int((time.time() - f.stat().st_mtime) // 86400)
+    result["manual_age_days"] = age
+    text = read_manual(f)
+    if m.get("url"):
+        text = (f"(Note: this document has no links for individual events. For every event use this page as its url: "
+                f"{m['url']})\n\n" + text)
+    result["pages"].append({"url": m.get("url") or f"file:{m['file']}", "text": text})
+    return result
+
+
 def scrape_source(ctx, src, end, days):
     """Render one organization's pages. Returns the result dict that is saved to build/raw/<slug>.json."""
     result = {"slug": src["slug"], "name": src["name"], "pages": [], "errors": []}
@@ -240,7 +269,8 @@ def main(argv):
 
     cfg = json.loads((ROOT / "sources.json").read_text())
     only = set(argv)
-    todo = [s for s in cfg["sources"] if s.get("active", True) and s.get("pages") and (not only or s["slug"] in only)]
+    todo = [s for s in cfg["sources"]
+            if s.get("active", True) and (s.get("pages") or s.get("manual")) and (not only or s["slug"] in only)]
     RAW.mkdir(parents=True, exist_ok=True)
     if not only:  # a full run: drop results left over from organizations that are no longer scraped
         for f in RAW.glob("*.json"):
@@ -249,6 +279,10 @@ def main(argv):
     limit = int(os.environ.get("SCRAPE_TIMEOUT", "420"))
 
     def job(src):
+        if src.get("manual"):
+            r = manual_source(src)
+            (RAW / f"{src['slug']}.json").write_text(json.dumps(r, ensure_ascii=False, indent=1))
+            return f"{src['slug']}: manual file, {len(r['pages'])} pages, {len(r['errors'])} errors"
         try:
             subprocess.run([sys.executable, str(Path(__file__)), "--one", src["slug"]],
                            timeout=limit, capture_output=True, text=True)

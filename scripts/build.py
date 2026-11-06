@@ -90,7 +90,7 @@ def main():
         for old_name in src.get("previous_names", []):
             prev += previous.get(old_name, [])
 
-        if not src.get("pages"):
+        if not (src.get("pages") or src.get("manual")):
             reason = src.get("discovery", {}).get("status", "not_checked")
             health[org] = {"status": "no_source", "events": 0, "reason": reason}
             cov["no_source"].append({"name": org, "site": site, "reason": reason,
@@ -104,6 +104,9 @@ def main():
         if extracted:
             fresh = [e for e in (clean(x, org, default, start, end)
                                  for x in json.loads(path.read_text()).get("events", [])) if e]
+        age_limit = (src.get("manual") or {}).get("max_age_days", 45)
+        if src.get("manual") and raw and raw.get("manual_age_days", 0) > age_limit:
+            warnings.append(f"{org}: its saved calendar file is {raw['manual_age_days']} days old, so listings may be out of date.")
         if fresh:
             counts[org] = len(fresh)
             health[org] = {"status": "ok", "events": len(fresh)}
@@ -129,6 +132,8 @@ def main():
         if robots:
             status = "blocked"
             reason = "its website asks automated tools not to read it (robots.txt)"
+        elif raw and any("manual file missing" in e for e in raw.get("errors", [])):
+            status, reason = "failed", "no saved calendar file was found in the manual folder"
         elif extracted:
             status, reason = "empty", "the page was read but no performances were found"
         else:
@@ -137,7 +142,7 @@ def main():
         events += kept
         health[org] = {"status": status, "events": len(kept), "reason": reason}
         if kept or src.get("verified"):
-            tail = "" if robots else " The site layout may have changed."
+            tail = "" if (robots or src.get("manual")) else " The site layout may have changed."
             warnings.append(f"{org}: {reason}; showing {len(kept)} events from the last successful update.{tail}")
         else:
             cov["blocked" if robots else "failed"].append({"name": org, "site": site, "reason": reason})

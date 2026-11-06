@@ -23,7 +23,7 @@ $PY scripts/build.py    || { echo "build failed"; notify "Build failed. See logs
 
 PUSH_NOTE=""
 if git remote get-url origin >/dev/null 2>&1; then
-  git add docs/events.json docs/events.js sources.json
+  git add docs/index.html docs/events.json docs/events.js sources.json
   if git diff --cached --quiet; then
     echo "No changes to publish."
   else

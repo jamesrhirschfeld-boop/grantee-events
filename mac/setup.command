@@ -37,6 +37,7 @@ if ! grep -q '"schema": 2' "$DEST/sources.json" 2>/dev/null && grep -q '"schema"
 fi
 chmod +x "$DEST"/mac/*.sh "$DEST"/mac/*.command 2>/dev/null
 cd "$DEST" || die "Could not enter $DEST"
+mkdir -p "$DEST/manual"
 
 say "3/7  Installing Python packages and the browser (a few minutes the first time)"
 [ -d .venv ] || python3 -m venv .venv || die "Could not create the Python environment."
@@ -71,7 +72,7 @@ if [ -f .github/workflows/update.yml ]; then
   mkdir -p extras && mv .github/workflows/update.yml extras/update.yml.cloud-version
   rmdir .github/workflows .github 2>/dev/null
 fi
-printf 'build/\n.venv/\nlogs/\n__pycache__/\n.DS_Store\n*.xlsx\n*.csv\nsources.json.before-full-list\n' > .gitignore
+printf 'build/\n.venv/\nlogs/\n__pycache__/\n.DS_Store\n*.xlsx\n*.csv\nsources.json.before-full-list\nmanual/*\n!manual/README.txt\n' > .gitignore
 if [ ! -d .git ]; then git init -q -b main; fi
 git config user.name  >/dev/null 2>&1 || git config user.name  "Grantee events updater"
 git config user.email >/dev/null 2>&1 || git config user.email "events-updater@users.noreply.github.com"

@@ -176,7 +176,7 @@ def main():
     today = dt.date.today()
 
     def eligible(s):
-        if not s.get("active", True) or s.get("pages") or s.get("verified"):
+        if not s.get("active", True) or s.get("pages") or s.get("manual") or s.get("verified"):
             return False
         if a.slugs:
             return s["slug"] in a.slugs.split(",")

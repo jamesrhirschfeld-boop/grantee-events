@@ -11,7 +11,12 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_calendar_found",
+    "checked": "2026-11-06",
+    "note": "no page with dates found; may need a manual calendar URL"
+   }
   },
   {
    "slug": "92ny-harkness-dance-center",
@@ -22,7 +27,20 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": false,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "10 dates in window at https://www.92ny.org/whats-on/events?hierarchicalMenu%5BEventMenu.lvl0%5D%5B0%5D=Dance; 7 dates in window at https://www.92ny.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.92ny.org/whats-on/events?hierarchicalMenu%5BEventMenu.lvl0%5D%5B0%5D=Dance"
+    },
+    {
+     "url": "https://www.92ny.org/"
+    }
+   ]
   },
   {
    "slug": "a-better-jamaica",
@@ -33,7 +51,17 @@
    "default_discipline": "Dance",
    "borough": "Queens",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "9 dates in window at https://jamaica311.com/"
+   },
+   "pages": [
+    {
+     "url": "https://jamaica311.com/"
+    }
+   ]
   },
   {
    "slug": "a-r-t-new-york",
@@ -44,7 +72,20 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "6 dates in window at https://art-newyork.org/spaces/theatres/now-playing/; 3 dates in window at https://art-newyork.org/calendar/"
+   },
+   "pages": [
+    {
+     "url": "https://art-newyork.org/spaces/theatres/now-playing/"
+    },
+    {
+     "url": "https://art-newyork.org/calendar/"
+    }
+   ]
   },
   {
    "slug": "abrons-arts-center",
@@ -55,7 +96,20 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": false,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "10 dates in window at https://www.abronsartscenter.org/events; 10 dates in window at https://www.abronsartscenter.org/calendar"
+   },
+   "pages": [
+    {
+     "url": "https://www.abronsartscenter.org/events"
+    },
+    {
+     "url": "https://www.abronsartscenter.org/calendar"
+    }
+   ]
   },
   {
    "slug": "alja",
@@ -89,7 +143,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (14 overall): https://www.alarmwillsound.com/events/"
+   },
+   "pages": [
+    {
+     "url": "https://www.alarmwillsound.com/events/"
+    }
+   ]
   },
   {
    "slug": "ailey",
@@ -100,7 +164,20 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "10 dates in window at https://ailey.org/; 3 dates in window at https://ailey.org/performances"
+   },
+   "pages": [
+    {
+     "url": "https://ailey.org/"
+    },
+    {
+     "url": "https://ailey.org/performances"
+    }
+   ]
   },
   {
    "slug": "american-ballet-theatre",
@@ -111,7 +188,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (2 overall): https://www.abt.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.abt.org/"
+    }
+   ]
   },
   {
    "slug": "american-classical-orchestra",
@@ -122,7 +209,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (10 overall): https://aconyc.org/"
+   },
+   "pages": [
+    {
+     "url": "https://aconyc.org/"
+    }
+   ]
   },
   {
    "slug": "american-composers-orchestra",
@@ -133,7 +230,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (15 overall): https://www.americancomposers.org/performances-events"
+   },
+   "pages": [
+    {
+     "url": "https://www.americancomposers.org/performances-events"
+    }
+   ]
   },
   {
    "slug": "american-lyric-theater",
@@ -144,7 +251,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (1 overall): https://www.altnyc.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.altnyc.org/"
+    }
+   ]
   },
   {
    "slug": "apollo-theater",
@@ -155,7 +272,20 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "8 dates in window at https://www.apollotheater.org/day-party; 8 dates in window at https://www.apollotheater.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.apollotheater.org/day-party"
+    },
+    {
+     "url": "https://www.apollotheater.org/"
+    }
+   ]
   },
   {
    "slug": "ars-nova",
@@ -166,7 +296,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (4 overall): https://arsnovanyc.com/"
+   },
+   "pages": [
+    {
+     "url": "https://arsnovanyc.com/"
+    }
+   ]
   },
   {
    "slug": "arts-for-art",
@@ -177,7 +317,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (19 overall): https://artsforart.org/ingardens-2026/"
+   },
+   "pages": [
+    {
+     "url": "https://artsforart.org/ingardens-2026/"
+    }
+   ]
   },
   {
    "slug": "asase-yaa-cultural-arts-foundation",
@@ -188,7 +338,17 @@
    "default_discipline": "Dance",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (14 overall): https://www.asaseyaaent.org/events-press-media/"
+   },
+   "pages": [
+    {
+     "url": "https://www.asaseyaaent.org/events-press-media/"
+    }
+   ]
   },
   {
    "slug": "atlantic-theater-company",
@@ -199,7 +359,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (22 overall): https://atlantictheater.org/"
+   },
+   "pages": [
+    {
+     "url": "https://atlantictheater.org/"
+    }
+   ]
   },
   {
    "slug": "baad-bronx-academy-of-arts-and-dance",
@@ -210,7 +380,17 @@
    "default_discipline": "Dance",
    "borough": "Bronx",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://baadbronx.eventbrite.com/"
+   },
+   "pages": [
+    {
+     "url": "https://baadbronx.eventbrite.com/"
+    }
+   ]
   },
   {
    "slug": "ballet-hisp-nico",
@@ -221,7 +401,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (30 overall): https://www.ballethispanico.org/performances"
+   },
+   "pages": [
+    {
+     "url": "https://www.ballethispanico.org/performances"
+    }
+   ]
   },
   {
    "slug": "bang-on-a-can",
@@ -232,7 +422,17 @@
    "default_discipline": "Music",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "6 dates in window at https://bangonacan.org/events"
+   },
+   "pages": [
+    {
+     "url": "https://bangonacan.org/events"
+    }
+   ]
   },
   {
    "slug": "baryshnikov-arts",
@@ -243,7 +443,12 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "unreachable",
+    "checked": "2026-11-06",
+    "note": "homepage did not load"
+   }
   },
   {
    "slug": "brooklyn-arts-exchange",
@@ -254,7 +459,12 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "unreachable",
+    "checked": "2026-11-06",
+    "note": "homepage did not load"
+   }
   },
   {
    "slug": "bedlam",
@@ -265,7 +475,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (3 overall): https://bedlam.org/othello"
+   },
+   "pages": [
+    {
+     "url": "https://bedlam.org/othello"
+    }
+   ]
   },
   {
    "slug": "beth-morrison-projects",
@@ -276,7 +496,17 @@
    "default_discipline": "Music",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (5 overall): https://www.bethmorrisonprojects.org/season"
+   },
+   "pages": [
+    {
+     "url": "https://www.bethmorrisonprojects.org/season"
+    }
+   ]
   },
   {
    "slug": "big-dance-theater",
@@ -287,7 +517,17 @@
    "default_discipline": "Dance",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "7 dates in window at https://www.bigdancetheater.org/calendar/"
+   },
+   "pages": [
+    {
+     "url": "https://www.bigdancetheater.org/calendar/"
+    }
+   ]
   },
   {
    "slug": "blank-forms",
@@ -298,7 +538,20 @@
    "default_discipline": "Music",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "5 dates in window at https://www.blankforms.org/events; 5 dates in window at https://www.blankforms.org/events-and-exhibitions"
+   },
+   "pages": [
+    {
+     "url": "https://www.blankforms.org/events"
+    },
+    {
+     "url": "https://www.blankforms.org/events-and-exhibitions"
+    }
+   ]
   },
   {
    "slug": "bric",
@@ -309,7 +562,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Brooklyn",
    "performing_arts_majority": false,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (3 overall): https://bricartsmedia.org/events/calendar/"
+   },
+   "pages": [
+    {
+     "url": "https://bricartsmedia.org/events/calendar/"
+    }
+   ]
   },
   {
    "slug": "brooklyn-academy-of-music",
@@ -320,7 +583,20 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "14 dates in window at https://www.bam.org/; 5 dates in window at https://www.bam.org/next-wave"
+   },
+   "pages": [
+    {
+     "url": "https://www.bam.org/"
+    },
+    {
+     "url": "https://www.bam.org/next-wave"
+    }
+   ]
   },
   {
    "slug": "brooklyn-arts-council",
@@ -331,7 +607,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Brooklyn",
    "performing_arts_majority": false,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (1 overall): https://www.brooklynartscouncil.org/what-we-do/on-demand-programming"
+   },
+   "pages": [
+    {
+     "url": "https://www.brooklynartscouncil.org/what-we-do/on-demand-programming"
+    }
+   ]
   },
   {
    "slug": "camille-a-brown-dancers",
@@ -342,7 +628,17 @@
    "default_discipline": "Dance",
    "borough": "Queens",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (1 overall): https://www.camilleabrown.org/upcoming"
+   },
+   "pages": [
+    {
+     "url": "https://www.camilleabrown.org/upcoming"
+    }
+   ]
   },
   {
    "slug": "caribbean-cultural-center-african-diaspo",
@@ -353,7 +649,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": false,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://www.cccadi.org/events"
+   },
+   "pages": [
+    {
+     "url": "https://www.cccadi.org/events"
+    }
+   ]
   },
   {
    "slug": "carnegie",
@@ -383,7 +689,20 @@
    "default_discipline": "Dance",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "6 dates in window at https://www.cprnyc.org/; 3 dates in window at https://www.cprnyc.org/event-calendar"
+   },
+   "pages": [
+    {
+     "url": "https://www.cprnyc.org/"
+    },
+    {
+     "url": "https://www.cprnyc.org/event-calendar"
+    }
+   ]
   },
   {
    "slug": "center-for-traditional-music-and-dance",
@@ -394,7 +713,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://ctmd.org/events/"
+   },
+   "pages": [
+    {
+     "url": "https://ctmd.org/events/"
+    }
+   ]
   },
   {
    "slug": "chamber-music-america",
@@ -405,7 +734,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (4 overall): https://chambermusicamerica.org/"
+   },
+   "pages": [
+    {
+     "url": "https://chambermusicamerica.org/"
+    }
+   ]
   },
   {
    "slug": "chamber-music-society-of-lincoln-center",
@@ -416,7 +755,20 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "17 dates in window at https://www.chambermusicsociety.org/our-concerts/calendar; 14 dates in window at https://www.chambermusicsociety.org/our-concerts/at-lincoln-center"
+   },
+   "pages": [
+    {
+     "url": "https://www.chambermusicsociety.org/our-concerts/calendar"
+    },
+    {
+     "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center"
+    }
+   ]
   },
   {
    "slug": "city-parks-foundation",
@@ -427,7 +779,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Staten Island",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (11 overall): https://cityparksfoundation.org/calendar/"
+   },
+   "pages": [
+    {
+     "url": "https://cityparksfoundation.org/calendar/"
+    }
+   ]
   },
   {
    "slug": "classic-stage-company",
@@ -438,7 +800,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "4 dates in window at https://www.classicstage.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.classicstage.org/"
+    }
+   ]
   },
   {
    "slug": "clubbed-thumb",
@@ -449,7 +821,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (19 overall): https://www.clubbedthumb.org/productions/2025/"
+   },
+   "pages": [
+    {
+     "url": "https://www.clubbedthumb.org/productions/2025/"
+    }
+   ]
   },
   {
    "slug": "dance-heginbotham",
@@ -460,7 +842,17 @@
    "default_discipline": "Dance",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "4 dates in window at https://www.danceheginbotham.org/events-1"
+   },
+   "pages": [
+    {
+     "url": "https://www.danceheginbotham.org/events-1"
+    }
+   ]
   },
   {
    "slug": "dance-lab-new-york",
@@ -471,7 +863,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (1 overall): https://dancelabny.org/labaret-2026/"
+   },
+   "pages": [
+    {
+     "url": "https://dancelabny.org/labaret-2026/"
+    }
+   ]
   },
   {
    "slug": "dance-theatre-of-harlem",
@@ -482,7 +884,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (7 overall): https://www.dancetheatreofharlem.org/tour"
+   },
+   "pages": [
+    {
+     "url": "https://www.dancetheatreofharlem.org/tour"
+    }
+   ]
   },
   {
    "slug": "dance-nyc",
@@ -493,7 +905,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "9 dates in window at https://www.dance.nyc/for-audiences/community-calendar"
+   },
+   "pages": [
+    {
+     "url": "https://www.dance.nyc/for-audiences/community-calendar"
+    }
+   ]
   },
   {
    "slug": "danspace-project",
@@ -504,7 +926,20 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://danspaceproject.org/calendar/; 3 dates in window at https://danspaceproject.org/calendar"
+   },
+   "pages": [
+    {
+     "url": "https://danspaceproject.org/calendar/"
+    },
+    {
+     "url": "https://danspaceproject.org/calendar"
+    }
+   ]
   },
   {
    "slug": "dorrance-dance",
@@ -515,7 +950,20 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "5 dates in window at https://www.dorrancedance.com/upcoming-shows; 5 dates in window at https://www.dorrancedance.com/tour-1"
+   },
+   "pages": [
+    {
+     "url": "https://www.dorrancedance.com/upcoming-shows"
+    },
+    {
+     "url": "https://www.dorrancedance.com/tour-1"
+    }
+   ]
   },
   {
    "slug": "elevator-repair-service",
@@ -526,7 +974,12 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_calendar_found",
+    "checked": "2026-11-06",
+    "note": "no page with dates found; may need a manual calendar URL"
+   }
   },
   {
    "slug": "emerge125",
@@ -537,7 +990,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (20 overall): https://emerge125.org/calendar-events"
+   },
+   "pages": [
+    {
+     "url": "https://emerge125.org/calendar-events"
+    }
+   ]
   },
   {
    "slug": "en-garde-arts",
@@ -548,7 +1011,17 @@
    "default_discipline": "Theater",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (3 overall): https://www.engardearts.org/currentproductions"
+   },
+   "pages": [
+    {
+     "url": "https://www.engardearts.org/currentproductions"
+    }
+   ]
   },
   {
    "slug": "ensemble-studio-theatre",
@@ -559,7 +1032,20 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "4 dates in window at https://www.ensemblestudiotheatre.org/current-season; 4 dates in window at https://www.ensemblestudiotheatre.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.ensemblestudiotheatre.org/current-season"
+    },
+    {
+     "url": "https://www.ensemblestudiotheatre.org/"
+    }
+   ]
   },
   {
    "slug": "ethel",
@@ -570,7 +1056,20 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "7 dates in window at https://ethelcentral.org/calendar/; 7 dates in window at https://ethelcentral.org/calendar"
+   },
+   "pages": [
+    {
+     "url": "https://ethelcentral.org/calendar/"
+    },
+    {
+     "url": "https://ethelcentral.org/calendar"
+    }
+   ]
   },
   {
    "slug": "fiasco-theater",
@@ -581,7 +1080,17 @@
    "default_discipline": "Theater",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "5 dates in window at https://www.fiascotheater.com/whats-on"
+   },
+   "pages": [
+    {
+     "url": "https://www.fiascotheater.com/whats-on"
+    }
+   ]
   },
   {
    "slug": "flamenco-vivo-carlota-santana",
@@ -592,7 +1101,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (4 overall): https://flamenco-vivo.org/events/category/fv-events/"
+   },
+   "pages": [
+    {
+     "url": "https://flamenco-vivo.org/events/category/fv-events/"
+    }
+   ]
   },
   {
    "slug": "flushing-town-hall",
@@ -603,7 +1122,20 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Queens",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "12 dates in window at https://www.flushingtownhall.org/events; 12 dates in window at https://www.flushingtownhall.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.flushingtownhall.org/events"
+    },
+    {
+     "url": "https://www.flushingtownhall.org/"
+    }
+   ]
   },
   {
    "slug": "national-yiddish-theatre-folksbiene",
@@ -614,7 +1146,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (9 overall): https://nytf.org/fiddler-on-the-roof/"
+   },
+   "pages": [
+    {
+     "url": "https://nytf.org/fiddler-on-the-roof/"
+    }
+   ]
   },
   {
    "slug": "forces-of-nature-dance-theatre",
@@ -625,7 +1167,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (14 overall): https://www.forcesofnature.org/events"
+   },
+   "pages": [
+    {
+     "url": "https://www.forcesofnature.org/events"
+    }
+   ]
   },
   {
    "slug": "l-alliance-new-york",
@@ -636,7 +1188,12 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": false,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_calendar_found",
+    "checked": "2026-11-06",
+    "note": "no page with dates found; may need a manual calendar URL"
+   }
   },
   {
    "slug": "gallim-dance",
@@ -647,7 +1204,20 @@
    "default_discipline": "Dance",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "5 dates in window at https://www.gallim.org/2026joyceseason; 3 dates in window at https://www.gallim.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.gallim.org/2026joyceseason"
+    },
+    {
+     "url": "https://www.gallim.org/"
+    }
+   ]
   },
   {
    "slug": "gibney-dance",
@@ -658,7 +1228,20 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "7 dates in window at https://gibneydance.org/calendar/; 4 dates in window at https://gibneydance.org/center/programs-events/"
+   },
+   "pages": [
+    {
+     "url": "https://gibneydance.org/calendar/"
+    },
+    {
+     "url": "https://gibneydance.org/center/programs-events/"
+    }
+   ]
   },
   {
    "slug": "gotham-early-music-scene",
@@ -669,7 +1252,12 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "unreachable",
+    "checked": "2026-11-06",
+    "note": "homepage did not load"
+   }
   },
   {
    "slug": "harlem-stage",
@@ -680,7 +1268,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (11 overall): https://www.harlemstage.org/e-moves-festival-2026"
+   },
+   "pages": [
+    {
+     "url": "https://www.harlemstage.org/e-moves-festival-2026"
+    }
+   ]
   },
   {
    "slug": "here",
@@ -691,7 +1289,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (15 overall): https://here.org/shows"
+   },
+   "pages": [
+    {
+     "url": "https://here.org/shows"
+    }
+   ]
   },
   {
    "slug": "hi-arts",
@@ -702,7 +1310,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (44 overall): https://www.hi-artsnyc.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.hi-artsnyc.org/"
+    }
+   ]
   },
   {
    "slug": "hostos-center-for-the-arts-culture",
@@ -713,7 +1331,12 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Bronx",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_calendar_found",
+    "checked": "2026-11-06",
+    "note": "no page with dates found; may need a manual calendar URL"
+   }
   },
   {
    "slug": "the-house-foundation-for-the-arts",
@@ -724,7 +1347,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://www.meredithmonk.org/calendar/current"
+   },
+   "pages": [
+    {
+     "url": "https://www.meredithmonk.org/calendar/current"
+    }
+   ]
   },
   {
    "slug": "imani-winds",
@@ -735,7 +1368,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "4 dates in window at https://imaniwinds.com/performances"
+   },
+   "pages": [
+    {
+     "url": "https://imaniwinds.com/performances"
+    }
+   ]
   },
   {
    "slug": "indiespace",
@@ -746,7 +1389,17 @@
    "default_discipline": "Theater",
    "borough": "Queens",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (6 overall): https://www.indiespace.org/programs"
+   },
+   "pages": [
+    {
+     "url": "https://www.indiespace.org/programs"
+    }
+   ]
   },
   {
    "slug": "international-contemporary-ensemble",
@@ -757,7 +1410,20 @@
    "default_discipline": "Music",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://iceorg.org/events; 3 dates in window at https://iceorg.org/"
+   },
+   "pages": [
+    {
+     "url": "https://iceorg.org/events"
+    },
+    {
+     "url": "https://iceorg.org/"
+    }
+   ]
   },
   {
    "slug": "irish-arts-center",
@@ -801,7 +1467,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (2 overall): https://www.jackny.org/fall-2026-season"
+   },
+   "pages": [
+    {
+     "url": "https://www.jackny.org/fall-2026-season"
+    }
+   ]
   },
   {
    "slug": "jack-quartet",
@@ -1142,7 +1818,20 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "5 dates in window at https://movementresearch.org/classes-and-events/full-calendar/; 4 dates in window at https://movementresearch.org/"
+   },
+   "pages": [
+    {
+     "url": "https://movementresearch.org/classes-and-events/full-calendar/"
+    },
+    {
+     "url": "https://movementresearch.org/"
+    }
+   ]
   },
   {
    "slug": "namt",
@@ -1230,7 +1919,12 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "blocked_bot",
+    "checked": "2026-11-06",
+    "note": "bot protection page instead of the site"
+   }
   },
   {
    "slug": "new-york-city-children-s-theater",
@@ -1280,7 +1974,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://www.nypl.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.nypl.org/"
+    }
+   ]
   },
   {
    "slug": "new-york-public-radio",
@@ -1324,7 +2028,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (8 overall): https://www.nytw.org/2026-27-season/"
+   },
+   "pages": [
+    {
+     "url": "https://www.nytw.org/2026-27-season/"
+    }
+   ]
   },
   {
    "slug": "new-yorkers-for-culture-and-arts",
@@ -1500,7 +2214,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (6 overall): https://www.primarystages.org/shows-events/on-stage"
+   },
+   "pages": [
+    {
+     "url": "https://www.primarystages.org/shows-events/on-stage"
+    }
+   ]
   },
   {
    "slug": "prospect-musicals",
@@ -1793,7 +2517,17 @@
    "default_discipline": "Theater",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (8 overall): https://thecivilians.org/upcoming"
+   },
+   "pages": [
+    {
+     "url": "https://thecivilians.org/upcoming"
+    }
+   ]
   },
   {
    "slug": "the-classical-theatre-of-harlem",
@@ -2046,7 +2780,12 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_calendar_found",
+    "checked": "2026-11-06",
+    "note": "no page with dates found; may need a manual calendar URL"
+   }
   },
   {
    "slug": "tdf",
@@ -2112,7 +2851,12 @@
    "default_discipline": "Theater",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_calendar_found",
+    "checked": "2026-11-06",
+    "note": "no page with dates found; may need a manual calendar URL"
+   }
   },
   {
    "slug": "vineyard-theatre",
@@ -2222,7 +2966,20 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "5 dates in window at https://newyorklivearts.org/season-tickets/; 3 dates in window at https://newyorklivearts.org/"
+   },
+   "pages": [
+    {
+     "url": "https://newyorklivearts.org/season-tickets/"
+    },
+    {
+     "url": "https://newyorklivearts.org/"
+    }
+   ]
   },
   {
    "slug": "bronx-council-on-the-arts",
@@ -2233,7 +2990,20 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Bronx",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "23 dates in window at https://www.bronxarts.org/events/; 23 dates in window at https://www.bronxarts.org/events"
+   },
+   "pages": [
+    {
+     "url": "https://www.bronxarts.org/events/"
+    },
+    {
+     "url": "https://www.bronxarts.org/events"
+    }
+   ]
   },
   {
    "slug": "staten-island-arts",
@@ -2244,7 +3014,12 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Staten Island",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "unreachable",
+    "checked": "2026-11-06",
+    "note": "homepage did not load"
+   }
   },
   {
    "slug": "angela-s-pulse",
@@ -2343,7 +3118,20 @@
    "default_discipline": "Theater",
    "borough": "Bronx",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://www.idstudiotheater.org/programs; 3 dates in window at https://www.idstudiotheater.org/events"
+   },
+   "pages": [
+    {
+     "url": "https://www.idstudiotheater.org/programs"
+    },
+    {
+     "url": "https://www.idstudiotheater.org/events"
+    }
+   ]
   },
   {
    "slug": "lotus-music-dance",
@@ -2432,7 +3220,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (5 overall): https://www.nychineseculturalcenter.org/events-1"
+   },
+   "pages": [
+    {
+     "url": "https://www.nychineseculturalcenter.org/events-1"
+    }
+   ]
   },
   {
    "slug": "thalia-spanish-theatre",
@@ -2597,7 +3395,20 @@
    "default_discipline": "Theater",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://www.epicplayersnyc.org/; 3 dates in window at https://epicplayers.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.epicplayersnyc.org/"
+    },
+    {
+     "url": "https://epicplayers.org/"
+    }
+   ]
   },
   {
    "slug": "triskelion-arts",
@@ -2619,7 +3430,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (5 overall): https://www.aaartsalliance.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.aaartsalliance.org/"
+    }
+   ]
   },
   {
    "slug": "frigid-new-york",
@@ -2740,7 +3561,20 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Bronx",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "5 dates in window at https://www.lehmancenter.org/events; 3 dates in window at https://www.lehmancenter.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.lehmancenter.org/events"
+    },
+    {
+     "url": "https://www.lehmancenter.org/"
+    }
+   ]
   },
   {
    "slug": "tribe-multidisciplinary-visual-performan",
@@ -2828,7 +3662,12 @@
    "default_discipline": "Music",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_calendar_found",
+    "checked": "2026-11-06",
+    "note": "no page with dates found; may need a manual calendar URL"
+   }
   },
   {
    "slug": "pioneers-collective",
@@ -2872,7 +3711,17 @@
    "default_discipline": "Theater",
    "borough": "Staten Island",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "4 dates in window at https://illuminart.org/arts-academy-events/"
+   },
+   "pages": [
+    {
+     "url": "https://illuminart.org/arts-academy-events/"
+    }
+   ]
   },
   {
    "slug": "omnium-circus",
@@ -3015,7 +3864,17 @@
    "default_discipline": "Dance",
    "borough": "Bronx",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "5 dates in window at https://circleo.org/up-next"
+   },
+   "pages": [
+    {
+     "url": "https://circleo.org/up-next"
+    }
+   ]
   }
  ]
 }

@@ -137,7 +137,7 @@ def main():
     client = anthropic.Anthropic(max_retries=5)  # reads ANTHROPIC_API_KEY
     todo = []
     for src in cfg["sources"]:
-        if not src.get("active", True) or not src.get("pages"):
+        if not src.get("active", True) or not (src.get("pages") or src.get("manual")):
             continue
         path = RAW / f"{src['slug']}.json"
         if not path.exists():

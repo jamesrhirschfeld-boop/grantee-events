@@ -6,3 +6,5 @@ __pycache__/
 *.xlsx
 *.csv
 sources.json.before-full-list
+manual/*
+!manual/README.txt

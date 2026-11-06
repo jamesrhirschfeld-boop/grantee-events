@@ -1,3 +1,4 @@
 anthropic>=0.40
 playwright>=1.48
 openpyxl>=3.1
+pypdf>=4.0
