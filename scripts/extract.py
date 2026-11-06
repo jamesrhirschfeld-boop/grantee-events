@@ -5,6 +5,7 @@ Needs ANTHROPIC_API_KEY in the environment. The key is never written to disk or 
 """
 import datetime as dt
 import json
+import re
 import os
 import sys
 import time
@@ -104,7 +105,35 @@ def extract_org(client, raw, days, scope="", strict=False):
     return events
 
 
+class Truncated(Exception):
+    """The model ran out of output room: the text holds more events than fit in one answer."""
+
+
+def split_text(text):
+    """Cut text in two at a page boundary near the middle (or at a line break if it is a single page)."""
+    marks = [m.start() for m in re.finditer(r"^=== PAGE ", text, re.M)][1:]
+    if marks:
+        cut = min(marks, key=lambda i: abs(i - len(text) // 2))
+        if 0 < cut < len(text):
+            return text[:cut], text[cut:]
+    mid = text.rfind("\n", 0, len(text) // 2 + 1)
+    mid = mid if mid > 0 else len(text) // 2
+    return text[:mid], text[mid:]
+
+
 def extract_chunk(client, prompt, pages):
+    """Extract from text; if the answer would not fit, split the text in half and combine both answers."""
+    try:
+        return extract_once(client, prompt, pages)
+    except Truncated:
+        if len(pages) < 1500:
+            raise RuntimeError("output truncated (max_tokens) even on a small piece of text")
+        a, b = split_text(pages)
+        note = "\n\n(This is one piece of a longer text: list only the events that are complete in this piece.)"
+        return extract_chunk(client, prompt + note, a) + extract_chunk(client, prompt + note, b)
+
+
+def extract_once(client, prompt, pages):
     last = None
     for attempt in range(3):
         try:
@@ -116,11 +145,13 @@ def extract_chunk(client, prompt, pages):
                 messages=[{"role": "user", "content": f"{prompt}\n\n{pages}"}],
             )
             if msg.stop_reason == "max_tokens":
-                raise RuntimeError("output truncated (max_tokens); too many events in one call")
+                raise Truncated()
             for block in msg.content:
                 if block.type == "tool_use":
                     return block.input.get("events", [])
             raise RuntimeError("no tool_use block in response")
+        except Truncated:
+            raise  # retrying the same text cannot help; the caller splits it
         except Exception as e:
             last = e
             time.sleep(5 * (attempt + 1))
