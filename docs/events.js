@@ -1,5 +1,5 @@
 window.EVENTS = {
- "generated_at": "2026-11-06T05:07:10+00:00",
+ "generated_at": "2026-11-06T05:10:23+00:00",
  "window": {
   "start": "2026-11-06",
   "end": "2026-12-07"
@@ -12,9 +12,9 @@ window.EVENTS = {
  ],
  "counts": {
   "New York Philharmonic": 20,
-  "Signature Theatre": 20,
-  "Afro Latin Jazz Alliance (Belongó)": 7,
-  "Carnegie Hall": 0
+  "Signature Theatre": 21,
+  "Afro Latin Jazz Alliance (Belongó)": 4,
+  "Carnegie Hall": 20
  },
  "health": {
   "New York Philharmonic": {
@@ -23,26 +23,20 @@ window.EVENTS = {
    "reason": "extraction failed or page did not render"
   },
   "Signature Theatre": {
-   "status": "no_data",
-   "events": 20,
-   "reason": "extraction failed or page did not render"
+   "status": "ok",
+   "events": 21
   },
   "Afro Latin Jazz Alliance (Belongó)": {
-   "status": "no_data",
-   "events": 7,
-   "reason": "extraction failed or page did not render"
+   "status": "ok",
+   "events": 4
   },
   "Carnegie Hall": {
-   "status": "no_data",
-   "events": 0,
-   "reason": "extraction failed or page did not render"
+   "status": "ok",
+   "events": 20
   }
  },
  "warnings": [
-  "New York Philharmonic: extraction failed or page did not render; showing 20 events from the last successful update. The site layout may have changed.",
-  "Signature Theatre: extraction failed or page did not render; showing 20 events from the last successful update. The site layout may have changed.",
-  "Afro Latin Jazz Alliance (Belongó): extraction failed or page did not render; showing 7 events from the last successful update. The site layout may have changed.",
-  "Carnegie Hall: extraction failed or page did not render; showing 0 events from the last successful update. The site layout may have changed."
+  "New York Philharmonic: extraction failed or page did not render; showing 20 events from the last successful update. The site layout may have changed."
  ],
  "events": [
   {
@@ -50,12 +44,24 @@ window.EVENTS = {
    "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Evening performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "ASL interpreted; from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4213",
+   "notes": "ASL interpreted performance"
+  },
+  {
+   "date": "2026-11-06",
+   "time": "7:30 PM",
+   "title": "Jean Rondeau, Harpsichord",
+   "org": "Carnegie Hall",
+   "location": "Weill Recital Hall, Carnegie Hall",
+   "description": "Harpsichord recital by Jean Rondeau.",
+   "discipline": "Music",
+   "genre": "classical / harpsichord",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/06/jean-rondeau-harpsichord-0730pm",
+   "notes": ""
   },
   {
    "date": "2026-11-07",
@@ -74,24 +80,24 @@ window.EVENTS = {
    "time": "2:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Matinee performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "Audio described (per calendar); almost sold out; from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4408",
+   "notes": "Audio described performance"
   },
   {
    "date": "2026-11-07",
    "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Evening performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4214",
+   "notes": ""
   },
   {
    "date": "2026-11-07",
@@ -110,84 +116,132 @@ window.EVENTS = {
    "time": "2:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Matinee performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "Almost sold out; from previous update"
-  },
-  {
-   "date": "2026-11-10",
-   "time": "7:00 PM",
-   "title": "Weekly Live Jazz at The Pocket",
-   "org": "Afro Latin Jazz Alliance (Belongó)",
-   "location": "The Pocket, 130 W 46th St",
-   "description": "Arturo O'Farrill & The Afro Latin Jazz Orchestra in residency at The Pocket, moving between classic works, originals and new music.",
-   "discipline": "Music",
-   "genre": "Afro Latin jazz",
-   "url": "https://www.afrolatinjazz.org/events/weekly-live-jazz-at-the-pocket",
-   "notes": "Weekly Tuesday residency (June 2026 to June 2027); 7:00 PM is the start time listed for the series' first night, so confirm each date; from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4409",
+   "notes": "Almost sold out"
   },
   {
    "date": "2026-11-10",
    "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Evening performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "Almost sold out; from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=5601",
+   "notes": "Almost sold out"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "7:30 PM",
+   "title": "Juilliard at Zankel Hall: The New and the Now",
+   "org": "Carnegie Hall",
+   "location": "Zankel Hall, Carnegie Hall",
+   "description": "Juilliard performers present a program titled The New and the Now.",
+   "discipline": "Music",
+   "genre": "classical / contemporary",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/10/juilliard-at-zankel-hall-0730pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-10",
+   "time": "7:30 PM",
+   "title": "Santiago Cañón-Valencia, Cello; Victor Santiago Asuncion, Piano",
+   "org": "Carnegie Hall",
+   "location": "Weill Recital Hall, Carnegie Hall",
+   "description": "Cello and piano recital with Santiago Cañón-Valencia and Victor Santiago Asuncion.",
+   "discipline": "Music",
+   "genre": "classical / recital",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/10/santiago-canonvalencia-cello-victor-santiago-asuncion-piano-0730pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-10",
+   "time": "",
+   "title": "Weekly Live Jazz at The Pocket",
+   "org": "Afro Latin Jazz Alliance (Belongó)",
+   "location": "The Pocket, 130 W 46th St, New York, NY 10036",
+   "description": "Arturo O'Farrill and the Afro Latin Jazz Orchestra hold a Tuesday residency at the new jazz club The Pocket, playing classics, originals and new music.",
+   "discipline": "Music",
+   "genre": "Afro Latin jazz",
+   "url": "https://www.afrolatinjazz.org/events/weekly-live-jazz-at-the-pocket",
+   "notes": "Recurring every Tuesday since June 2, 2026, with no end date given, so only the next occurrence is listed. Start time not stated on the page. Ticketed."
   },
   {
    "date": "2026-11-11",
    "time": "2:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Matinee performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
+   "genre": "play",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "Sold out; from previous update"
+   "notes": "Sold out"
   },
   {
    "date": "2026-11-11",
    "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Evening performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4216",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:30 PM",
+   "title": "Aigul Akhmetshina, Mezzo-Soprano; Jonathan Palmer Lakeland, Piano — Love Without Borders: A Journey in Three Chapters",
+   "org": "Carnegie Hall",
+   "location": "Zankel Hall, Carnegie Hall",
+   "description": "Vocal recital by mezzo-soprano Aigul Akhmetshina with pianist Jonathan Palmer Lakeland, organized in three chapters.",
+   "discipline": "Music",
+   "genre": "classical / vocal recital",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/11/aigul-akhmetshina-mezzosoprano-jonathan-palmer-lakeland-piano-0730pm",
+   "notes": ""
   },
   {
    "date": "2026-11-12",
    "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Evening performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4217",
+   "notes": ""
   },
   {
    "date": "2026-11-13",
    "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Evening performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4218",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:30 PM",
+   "title": "New York Philharmonic: Puccini's Tosca (opera in concert)",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "The New York Philharmonic performs Puccini's Tosca in a concert presentation.",
+   "discipline": "Opera",
+   "genre": "opera in concert",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/13/new-york-philharmonic-0730pm",
+   "notes": ""
   },
   {
    "date": "2026-11-13",
@@ -218,24 +272,48 @@ window.EVENTS = {
    "time": "2:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Matinee performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4411",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:00 PM",
+   "title": "Silkroad Ensemble featuring Rhiannon Giddens and Yo-Yo Ma",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Silkroad Ensemble performs with Rhiannon Giddens and Yo-Yo Ma.",
+   "discipline": "Music",
+   "genre": "world / crossover",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/14/silkroad-ensemble-featuring-rhiannon-giddens-and-yo-yo-ma-0700pm",
+   "notes": ""
   },
   {
    "date": "2026-11-14",
    "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Evening performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4219",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "2:00 PM",
+   "title": "New York Philharmonic: Puccini's Tosca (opera in concert)",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "The New York Philharmonic performs Puccini's Tosca in a concert presentation.",
+   "discipline": "Opera",
+   "genre": "opera in concert",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/15/new-york-philharmonic-0200pm",
+   "notes": ""
   },
   {
    "date": "2026-11-15",
@@ -254,60 +332,108 @@ window.EVENTS = {
    "time": "2:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Matinee performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4412",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 PM",
+   "title": "Apollo's Fire / Jeanine De Bique: Echoes Across the Atlantic",
+   "org": "Carnegie Hall",
+   "location": "Zankel Hall, Carnegie Hall",
+   "description": "Baroque ensemble Apollo's Fire joins soprano Jeanine De Bique for Echoes Across the Atlantic.",
+   "discipline": "Music",
+   "genre": "baroque",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/15/apollos-fire--jeanine-de-bique-0300pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-16",
+   "time": "6:00 PM",
+   "title": "Carnegie Hall Citywide: 2nd Annual Vessel Lighting Ceremony with The New York Pops",
+   "org": "Carnegie Hall",
+   "location": "Hudson Yards",
+   "description": "The New York Pops perform at the second annual Vessel lighting ceremony.",
+   "discipline": "Music",
+   "genre": "pops / holiday",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/16/carnegie-hall-citywide-2nd-annual-vessel-lighting-ceremony-with-the-new-york-p-0600pm",
+   "notes": "Carnegie Hall Citywide event, held outside the hall at Hudson Yards"
   },
   {
    "date": "2026-11-17",
    "time": "6:00 PM",
    "title": "Belongó at Harlem Holiday Lights 2026",
    "org": "Afro Latin Jazz Alliance (Belongó)",
-   "location": "125th Street, Harlem",
-   "description": "Belongó's float rolls down 125th St in the Parade of Lights with The Fat Cats youth ensemble playing live.",
+   "location": "125th Street, Harlem, New York, NY 10027",
+   "description": "Belongó's youth ensemble The Fat Cats plays live from a float in Harlem's holiday Parade of Lights along 125th Street.",
    "discipline": "Music",
-   "genre": "Afro Latin jazz, parade",
+   "genre": "Afro Latin jazz / parade",
    "url": "https://www.afrolatinjazz.org/events/belongo-at-harlem-holiday-lights-2026",
-   "notes": "Free, no registration; overlaps the same-night Pocket residency; from previous update"
-  },
-  {
-   "date": "2026-11-17",
-   "time": "7:00 PM",
-   "title": "Weekly Live Jazz at The Pocket",
-   "org": "Afro Latin Jazz Alliance (Belongó)",
-   "location": "The Pocket, 130 W 46th St",
-   "description": "Arturo O'Farrill & The Afro Latin Jazz Orchestra in residency at The Pocket, moving between classic works, originals and new music.",
-   "discipline": "Music",
-   "genre": "Afro Latin jazz",
-   "url": "https://www.afrolatinjazz.org/events/weekly-live-jazz-at-the-pocket",
-   "notes": "Weekly Tuesday residency (June 2026 to June 2027); 7:00 PM is the start time listed for the series' first night, so confirm each date; from previous update"
+   "notes": "Free and open to all; no registration required. Parade."
   },
   {
    "date": "2026-11-17",
    "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Evening performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=10605",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:30 PM",
+   "title": "Jupiter Ensemble: Amazone",
+   "org": "Carnegie Hall",
+   "location": "Weill Recital Hall, Carnegie Hall",
+   "description": "Jupiter Ensemble performs a program titled Amazone.",
+   "discipline": "Music",
+   "genre": "chamber",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/17/jupiter-ensemble-0730pm",
+   "notes": ""
   },
   {
    "date": "2026-11-18",
    "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Evening performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=10606",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:30 PM",
+   "title": "Rihab Chaieb, Mezzo-Soprano; Ammiel Bushakevitz, Piano",
+   "org": "Carnegie Hall",
+   "location": "Weill Recital Hall, Carnegie Hall",
+   "description": "Vocal recital by mezzo-soprano Rihab Chaieb with pianist Ammiel Bushakevitz.",
+   "discipline": "Music",
+   "genre": "classical / vocal recital",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/18/rihab-chaieb-mezzosoprano-ammiel-bushakevitz-piano-0730pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:30 PM",
+   "title": "Minsoo Sohn, Piano",
+   "org": "Carnegie Hall",
+   "location": "Zankel Hall, Carnegie Hall",
+   "description": "Piano recital by Minsoo Sohn.",
+   "discipline": "Music",
+   "genre": "classical / piano",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/18/minsoo-sohn-piano-0730pm",
+   "notes": ""
   },
   {
    "date": "2026-11-19",
@@ -326,12 +452,12 @@ window.EVENTS = {
    "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Evening performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=10607",
+   "notes": ""
   },
   {
    "date": "2026-11-19",
@@ -362,48 +488,72 @@ window.EVENTS = {
    "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Evening performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=10608",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "8:00 PM",
+   "title": "The New York Pops: One Night Only: An Evening with Denée Benton and Jordan Donica",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "The New York Pops perform with Broadway stars Denée Benton and Jordan Donica.",
+   "discipline": "Music",
+   "genre": "pops / Broadway",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/20/the-new-york-pops-0800pm",
+   "notes": ""
   },
   {
    "date": "2026-11-21",
    "time": "12:00 PM",
    "title": "Afro Latin Jazz Music Exploration at the Harlem Library",
    "org": "Afro Latin Jazz Alliance (Belongó)",
-   "location": "Harlem Library, 9 W 124th St",
-   "description": "Monthly family music residency with the NYPL exploring the rhythms and stories of Afro Latin jazz, for ages 6-12.",
+   "location": "Harlem Library, 9 W 124th St, New York, NY 10027",
+   "description": "A monthly interactive live-music session for school-age kids (6–12) and their caregivers, exploring the rhythms and instruments of Afro Latin jazz.",
    "discipline": "Family/Education",
-   "genre": "Afro Latin jazz, family",
+   "genre": "Afro Latin jazz",
    "url": "https://www.afrolatinjazz.org/events/afro-latin-jazz-music-exploration-at-the-harlem-library-26",
-   "notes": "Free, no registration; runs 12-1 PM; from previous update"
+   "notes": "Free, no registration required. Runs 12–1 PM. Part of a monthly series with NYPL."
   },
   {
    "date": "2026-11-21",
    "time": "2:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Matinee performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=12006",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "5:00 PM",
+   "title": "James Austin Smith and Friends: Time Enough: A Well-Being Concert",
+   "org": "Carnegie Hall",
+   "location": "Resnick Education Wing, Carnegie Hall",
+   "description": "A well-being-focused concert led by James Austin Smith and friends.",
+   "discipline": "Music",
+   "genre": "chamber / well-being",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/21/james-austin-smith-and-friends-0500pm",
+   "notes": ""
   },
   {
    "date": "2026-11-21",
    "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Evening performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=12401",
+   "notes": ""
   },
   {
    "date": "2026-11-21",
@@ -422,24 +572,12 @@ window.EVENTS = {
    "time": "2:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
+   "location": "Signature Theatre",
+   "description": "Matinee performance of the play King of the Yees at Signature Theatre.",
    "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "from previous update"
-  },
-  {
-   "date": "2026-11-24",
-   "time": "7:00 PM",
-   "title": "Weekly Live Jazz at The Pocket",
-   "org": "Afro Latin Jazz Alliance (Belongó)",
-   "location": "The Pocket, 130 W 46th St",
-   "description": "Arturo O'Farrill & The Afro Latin Jazz Orchestra in residency at The Pocket, moving between classic works, originals and new music.",
-   "discipline": "Music",
-   "genre": "Afro Latin jazz",
-   "url": "https://www.afrolatinjazz.org/events/weekly-live-jazz-at-the-pocket",
-   "notes": "Weekly Tuesday residency (June 2026 to June 2027); 7:00 PM is the start time listed for the series' first night, so confirm each date; from previous update"
+   "genre": "play",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=12007",
+   "notes": ""
   },
   {
    "date": "2026-11-25",
@@ -479,39 +617,27 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-30",
-   "time": "5:30 PM",
+   "time": "5:00 PM",
    "title": "Fat Cat Open House + Jam!",
    "org": "Afro Latin Jazz Alliance (Belongó)",
-   "location": "Gallery at El Barrio Artspace PS109, 215 E 99th St",
-   "description": "Open rehearsal with The Fat Cats youth combo, turning into an open jam session at 6 PM for student musicians.",
-   "discipline": "Family/Education",
-   "genre": "Afro Latin jazz, education",
+   "location": "Gallery at El Barrio Artspace PS109, 215 E 99th St, First Floor, New York, NY 10029",
+   "description": "Watch an open rehearsal of The Fat Cats youth combo, then join an open jam session. Student musicians of all levels and instruments are welcome.",
+   "discipline": "Music",
+   "genre": "Afro Latin jazz / open jam",
    "url": "https://www.afrolatinjazz.org/events/fat-cat-open-house-jam",
-   "notes": "Free; RSVP encouraged; open rehearsal and jam rather than a ticketed concert; from previous update"
+   "notes": "Free; RSVPs encouraged, walk-ins welcome. Rehearsal becomes a jam at 6 PM; event ends 7:00 PM."
   },
   {
    "date": "2026-11-30",
    "time": "7:00 PM",
-   "title": "Signature Jazz Night: Joe Block",
+   "title": "Signature Jazz Night – Joe Block",
    "org": "Signature Theatre",
-   "location": "Lobby, Pershing Square Signature Center, 480 W 42nd St",
-   "description": "Pianist, composer and bandleader Joe Block (performs with Wynton Marsalis, Kurt Rosenwinkel, Gary Bartz) in the Signature Jazz lobby series; his album There Is Always Hope was released September 2026.",
+   "location": "Signature Theatre",
+   "description": "A jazz evening at Signature Theatre featuring Joe Block.",
    "discipline": "Music",
    "genre": "jazz",
-   "url": "https://signaturetheatre.org/productions/lobby-events/",
-   "notes": "Low/no-cost lobby event; site lists it on a Monday; from previous update"
-  },
-  {
-   "date": "2026-12-01",
-   "time": "7:00 PM",
-   "title": "Weekly Live Jazz at The Pocket",
-   "org": "Afro Latin Jazz Alliance (Belongó)",
-   "location": "The Pocket, 130 W 46th St",
-   "description": "Arturo O'Farrill & The Afro Latin Jazz Orchestra in residency at The Pocket, moving between classic works, originals and new music.",
-   "discipline": "Music",
-   "genre": "Afro Latin jazz",
-   "url": "https://www.afrolatinjazz.org/events/weekly-live-jazz-at-the-pocket",
-   "notes": "Weekly Tuesday residency (June 2026 to June 2027); 7:00 PM is the start time listed for the series' first night, so confirm each date; from previous update"
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=9201",
+   "notes": ""
   },
   {
    "date": "2026-12-01",
@@ -524,6 +650,30 @@ window.EVENTS = {
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
    "notes": "from previous update"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "7:30 PM",
+   "title": "Karim Sulayman, Tenor; Tom Poster, Piano",
+   "org": "Carnegie Hall",
+   "location": "Zankel Hall, Carnegie Hall",
+   "description": "Vocal recital by tenor Karim Sulayman with pianist Tom Poster.",
+   "discipline": "Music",
+   "genre": "classical / vocal recital",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/02/karim-sulayman-tenor-tom-poster-piano-0730pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-02",
+   "time": "8:00 PM",
+   "title": "Hélène Grimaud, Piano",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Piano recital by Hélène Grimaud.",
+   "discipline": "Music",
+   "genre": "classical / piano",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/02/helene-grimaud-piano-0800pm",
+   "notes": ""
   },
   {
    "date": "2026-12-03",
@@ -548,6 +698,18 @@ window.EVENTS = {
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/bruce-liu-and-nielsen",
    "notes": "from previous update"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "8:00 PM",
+   "title": "Renée Fleming with Béla Fleck: The Fiddle and the Drum",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Soprano Renée Fleming and banjoist Béla Fleck perform The Fiddle and the Drum.",
+   "discipline": "Music",
+   "genre": "crossover / classical-bluegrass",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/03/renee-fleming-with-bela-fleck-0800pm",
+   "notes": ""
   },
   {
    "date": "2026-12-04",
@@ -608,6 +770,54 @@ window.EVENTS = {
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/bruce-liu-and-nielsen",
    "notes": "from previous update"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "8:00 PM",
+   "title": "A Night of Inspiration",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "An evening concert titled A Night of Inspiration; no further details on the listing.",
+   "discipline": "Music",
+   "genre": "",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/05/a-night-of-inspiration-0800pm",
+   "notes": "Listing gives no performer details"
+  },
+  {
+   "date": "2026-12-06",
+   "time": "2:00 PM",
+   "title": "Chamber Orchestra of Europe",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Afternoon concert by the Chamber Orchestra of Europe.",
+   "discipline": "Music",
+   "genre": "classical / orchestra",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/06/chamber-orchestra-of-europe-0200pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-07",
+   "time": "7:00 PM",
+   "title": "Elliot, A Soldier's Fugue Benefit Reading",
+   "org": "Signature Theatre",
+   "location": "Signature Theatre",
+   "description": "A ticketed benefit reading of Elliot, A Soldier's Fugue.",
+   "discipline": "Theater",
+   "genre": "reading",
+   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=8601",
+   "notes": "Benefit reading; ticketed"
+  },
+  {
+   "date": "2026-12-07",
+   "time": "8:00 PM",
+   "title": "Leslie Odom, Jr.: The Christmas Tour 2026",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Leslie Odom, Jr. brings his holiday concert tour to Carnegie Hall.",
+   "discipline": "Music",
+   "genre": "holiday / vocal",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/07/leslie-odom-jr-0800pm",
+   "notes": ""
   }
  ]
 };
