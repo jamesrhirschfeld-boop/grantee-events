@@ -65,7 +65,7 @@ Rules:
 - Write descriptions in your own words; do not copy marketing text.
 - If a donor rehearsal, workshop or open jam is not a ticketed concert, still include it if it is open to the public or has reserved passes, and say so in notes.
 - If nothing qualifies, return an empty list.
-Return the result by calling record_events."""
+You must return the result by calling the record_events tool (even if the list is empty). Do not reply with prose."""
 
 
 def window(days):
@@ -105,7 +105,7 @@ def extract_chunk(client, prompt, pages):
                 model=MODEL,
                 max_tokens=16_000,
                 tools=[TOOL],
-                tool_choice={"type": "tool", "name": "record_events"},
+                tool_choice={"type": "auto"},  # forcing a specific tool is not supported by this model
                 messages=[{"role": "user", "content": f"{prompt}\n\n{pages}"}],
             )
             if msg.stop_reason == "max_tokens":
