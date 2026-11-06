@@ -36,7 +36,8 @@ MIN_DATES = 3
 KEYWORDS = re.compile(r"event|calendar|what.?s.?on|whats-on|season|perform|show|tickets|schedule|program|concert|"
                       r"live|theat|stage|music|dance|visit|see|agenda|festival", re.I)
 BOT_WALL = re.compile(r"access denied|captcha|verify you are (a )?human|just a moment|attention required|"
-                      r"enable javascript and cookies|request blocked|pardon our interruption", re.I)
+                      r"enable javascript and cookies|request blocked|pardon our interruption|security verification|"
+                      r"protect against malicious bots|checking your browser|unusual traffic", re.I)
 
 TOOL = {
     "name": "choose_pages",
@@ -63,12 +64,31 @@ def reg_domain(url):
     return ".".join(parts[-2:]) if len(parts) >= 2 else host
 
 
+def is_ticketing(host_or_url):
+    """True for known ticketing platforms. ('my.' only counts as a subdomain prefix: my.example.org, not academy.org.)"""
+    host = (urlparse(host_or_url).hostname or host_or_url or "").lower()
+    return host.startswith("my.") or any(t in host for t in TICKETING if t != "my.")
+
+
+CAL_PATH = re.compile(r"event|calendar|perform|schedule|season|whats?-?on|tickets|shows?|production|program|concert", re.I)
+HOP_TEXT = re.compile(r"calendar|events?|schedule|tickets?|performances?|what.?s on|box office|buy|shows?|season|"
+                      r"production|programs?", re.I)
+
+
+def calendarish(url):
+    """A page whose address says 'this is a listing' (or that lives on a ticketing platform); never a bare homepage."""
+    p = urlparse(url)
+    if is_ticketing(url):
+        return True
+    return bool(p.path.strip("/")) and bool(CAL_PATH.search(p.path + "?" + p.query))
+
+
 def same_site_or_ticketing(url, home_domains):
     """Accept a calendar on the organization's own domain, or on a ticketing platform. Anything else (another
     organization's site that the homepage happens to link to) is dropped: it is a different source."""
     d = reg_domain(url)
     host = urlparse(url).netloc.lower()
-    return d in home_domains or any(t in host for t in TICKETING)
+    return d in home_domains or is_ticketing(host)
 
 
 def choose(client, name, home, links):
@@ -116,6 +136,7 @@ def discover_one(slug):
             page = ctx.new_page()
             candidates, blocked_robots, bot_wall, loaded_any = [], 0, 0, False
             errors = []
+            all_links = []
 
             def open_home(url):
                 """Load a homepage; on failure try a lighter wait, then the same address with/without www."""
@@ -159,6 +180,7 @@ def discover_one(slug):
                     seen.add(h)
                     links.append((t, h))
                 links.sort(key=lambda th: (not KEYWORDS.search(th[0] + " " + th[1]),))
+                all_links += links
                 chosen = choose(client, src["name"], final, links[:150])
                 valid = {h for _, h in links}
                 home_domains = {reg_domain(w) for w in src["websites"]} | {reg_domain(final)}
@@ -172,31 +194,67 @@ def discover_one(slug):
                                "unreachable": "homepage did not load" + (": " + errors[-1] if errors else "")}[res["status"]]
                 finish()
                 return
-            scored = []
-            for url in list(dict.fromkeys(candidates))[:5]:
-                if not scrape.allowed(url):
-                    blocked_robots += 1
-                    continue
-                try:
-                    text = scrape.grab(page, {"url": url}, end)
-                except Exception:
-                    continue
-                ds = [d for d in find_dates(text, today) if today <= d <= end]
-                scored.append((len(set(ds)), len(find_dates(text, today)), url))
+            scored, tried, walled = [], set(), []
+
+            def score(urls):
+                nonlocal blocked_robots, bot_wall
+                for url in urls:
+                    if url in tried:
+                        continue
+                    tried.add(url)
+                    if not scrape.allowed(url):
+                        blocked_robots += 1
+                        continue
+                    try:
+                        text = scrape.grab(page, {"url": url}, end)
+                    except Exception:
+                        continue
+                    if len(text) < 800 and BOT_WALL.search(text):
+                        bot_wall += 1
+                        walled.append(url)
+                        continue
+                    ds = [d for d in find_dates(text, today) if today <= d <= end]
+                    scored.append((len(set(ds)), len(find_dates(text, today)), url))
+
+            def is_good(sc):
+                # 3+ dates anywhere is a calendar; 1-2 dates count when the address itself looks like a listing
+                # (small organizations and quiet months legitimately have only a few)
+                return sc[0] >= MIN_DATES or (sc[0] >= 1 and calendarish(sc[2]))
+
+            score(list(dict.fromkeys(candidates))[:5])
+            if not any(is_good(sc) for sc in scored):
+                # Second hop: many sites send "Calendar"/"Tickets" visitors to another page or a ticketing platform.
+                hop, seen_h = [], set()
+                for t, h in all_links:
+                    if h in tried or h in seen_h:
+                        continue
+                    if is_ticketing(h) or (HOP_TEXT.search(t) and calendarish(h)):
+                        seen_h.add(h)
+                        hop.append(h)
+                home_domains = {reg_domain(w) for w in src["websites"]}
+                hop = [h for h in hop if same_site_or_ticketing(h, home_domains)]
+                hop.sort(key=lambda h: not is_ticketing(h))
+                score(hop[:4])
             browser.close()
         scored.sort(reverse=True)
-        good = [s for s in scored if s[0] >= MIN_DATES]
+        good = [s for s in scored if is_good(s)]
         if good:
             res["status"] = "ok"
             res["pages"] = [{"url": u} for _, _, u in good[:2]]
             res["note"] = "; ".join(f"{n} dates in window at {u}" for n, _, u in good[:2])
-        elif scored and scored[0][1] > 0:
+        elif scored and (scored[0][1] > 0 or any(calendarish(sc[2]) for sc in scored)):
+            cal = [sc for sc in scored if calendarish(sc[2])]
+            best = cal[0] if cal else scored[0]
             res["status"] = "no_events_found"
-            res["pages"] = [{"url": scored[0][2]}]
-            res["note"] = f"best page has {scored[0][0]} dates in the window ({scored[0][1]} overall): {scored[0][2]}"
+            res["pages"] = [{"url": best[2]}]
+            res["note"] = (f"calendar page found but {best[0]} dates in the window ({best[1]} overall); "
+                           f"checked again every run: {best[2]}")
         elif blocked_robots and not scored:
             res["status"] = "blocked_robots"
             res["note"] = "robots.txt asks automated tools to stay out of the event pages"
+        elif walled and not scored:
+            res["status"] = "blocked_bot"
+            res["note"] = "bot protection page on the calendar: " + walled[0]
         else:
             res["status"] = "no_calendar_found"
             res["note"] = "no page with dates found; may need a manual calendar URL"

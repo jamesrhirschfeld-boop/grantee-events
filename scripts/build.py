@@ -220,6 +220,7 @@ def main():
                 c["notes"] = (base + "; " if base else "") + "from previous update"
                 kept.append(c)
         robots = bool(raw) and not raw.get("pages") and any("robots.txt" in e for e in raw.get("errors", []))
+        walled = bool(raw) and not raw.get("pages") and any("bot protection" in e for e in raw.get("errors", []))
 
         # Own-events-only organizations (service orgs that list many others' events) legitimately have none some weeks,
         # and anything saved before the filter existed must not be carried forward.
@@ -229,9 +230,10 @@ def main():
             cov["no_events"].append({"name": org, "site": site})
             continue
 
-        if robots:
+        if robots or walled:
             status = "blocked"
-            reason = "its website asks automated tools not to read it (robots.txt)"
+            reason = ("its website asks automated tools not to read it (robots.txt)" if robots
+                      else "its calendar is behind bot protection, which we do not bypass")
         elif raw and any("manual file missing" in e for e in raw.get("errors", [])):
             status, reason = "failed", "no saved calendar file was found in the manual folder"
         elif extracted:
@@ -242,10 +244,10 @@ def main():
         events += kept
         health[org] = {"status": status, "events": len(kept), "reason": reason}
         if kept or src.get("verified"):
-            tail = "" if (robots or src.get("manual")) else " The site layout may have changed."
+            tail = "" if (robots or walled or src.get("manual")) else " The site layout may have changed."
             warnings.append(f"{org}: {reason}; showing {len(kept)} events from the last successful update.{tail}")
         else:
-            cov["blocked" if robots else "failed"].append({"name": org, "site": site, "reason": reason})
+            cov["blocked" if (robots or walled) else "failed"].append({"name": org, "site": site, "reason": reason})
 
     seen, unique = set(), []
     for e in events:

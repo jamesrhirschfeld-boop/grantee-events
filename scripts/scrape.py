@@ -8,6 +8,7 @@ Output: build/raw/<slug>.json
 """
 import datetime as dt
 import json
+import re
 import sys
 import urllib.request
 from pathlib import Path
@@ -24,6 +25,16 @@ UA = "Mozilla/5.0 (compatible; NYCGranteeEventsBot/1.0)"
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "build" / "raw"
 MAX_CHARS = 150_000
+
+BOT_WALL = re.compile(r"access denied|captcha|verify you are (a )?human|just a moment|attention required|"
+                      r"enable javascript and cookies|request blocked|pardon our interruption|security verification|"
+                      r"protect against malicious bots|checking your browser|unusual traffic", re.I)
+
+
+def is_bot_wall(text):
+    """A short page that is a bot-protection screen instead of content. We never try to get past these."""
+    return len(text) < 800 and bool(BOT_WALL.search(text))
+
 
 TAG_LINKS_JS = """
 () => {
@@ -214,6 +225,9 @@ def scrape_source(ctx, src, end, days):
                 continue
             try:
                 text = grab(page, one, end)
+                if is_bot_wall(text):
+                    result["errors"].append(f"{url}: bot protection page, skipped")
+                    continue
                 result["pages"].append({"url": url, "text": text})
                 if spec.get("follow_links_matching"):
                     base = urlparse(url).netloc

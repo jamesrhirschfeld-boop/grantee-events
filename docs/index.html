@@ -72,6 +72,7 @@
   details.cov h3 { font: 600 .92rem var(--text); margin: 18px 0 6px; color: var(--ink); }
   details.cov ul { margin: 0; padding-left: 18px; columns: 2; column-gap: 28px; }
   details.cov li { break-inside: avoid; }
+  .cov .why { color: var(--muted, #5b6b66); font-size: .85em; }
   .warn ul { margin: 6px 0 0; padding-left: 18px; }
   footer.foot { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); font-size: .85rem; }
   @media (max-width: 600px) {
@@ -317,6 +318,25 @@
     });
   }
 
+  // Plain-language reason shown after an organization's name in the Coverage list.
+  function whyText(it) {
+    var r = it.reason || "", n = it.note || "";
+    var map = {
+      unreachable: "site did not load",
+      no_calendar_found: "no calendar page found",
+      blocked_bot: "bot protection on the site",
+      blocked_robots: "robots.txt asks automated tools to stay out",
+      error: "automatic check failed",
+      not_checked: "not checked yet",
+      no_events_found: "calendar found but nothing in the window"
+    };
+    if (map[r]) {
+      var extra = (r === "unreachable" || r === "error") && n.indexOf(": ") > -1 ? n.slice(n.indexOf(": ") + 2) : "";
+      return map[r] + (extra ? " (" + extra + ")" : "");
+    }
+    return r;  // blocked / failed items already carry a readable sentence
+  }
+
   function renderCoverage(d) {
     var c = d.coverage, o = d.coverage_orgs;
     if (!c || !o) return;
@@ -339,6 +359,8 @@
         if (u) { var a = el("a", "", it.name); a.href = u; a.target = "_blank"; a.rel = "noopener"; li.appendChild(a); }
         else li.textContent = it.name;
         if (who) li.appendChild(document.createTextNode(who));
+        var why = sec[0] === "no_events" ? "" : whyText(it);
+        if (why) li.appendChild(el("span", "why", " \u2014 " + why));
         ul.appendChild(li);
       });
       box.appendChild(ul);
