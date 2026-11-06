@@ -2,6 +2,8 @@
 # Try one or more organizations without a full run: read, extract, rebuild the page locally. Does NOT publish.
 # Usage: double-click and type slugs (e.g. new-york-city-center), or: one_org.command slug [slug ...]
 cd "$(dirname "$0")/.." || exit 1
+# If this copy has no Python environment (e.g. it was opened from Documents), work in the real one in the home folder.
+if [ ! -x .venv/bin/python ] && [ -x "$HOME/nyc-events/.venv/bin/python" ]; then cd "$HOME/nyc-events" || exit 1; fi
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
 export ANTHROPIC_API_KEY="$(security find-generic-password -a "$USER" -s nyc-grantee-events-anthropic -w 2>/dev/null)"
 [ -z "$ANTHROPIC_API_KEY" ] && { echo "No API key in Keychain. Re-run setup.command."; read -r -p "Press Return"; exit 1; }

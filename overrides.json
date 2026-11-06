@@ -37,5 +37,14 @@
     ],
     "verified": true,
     "notes": "Calendar page supplied by the user. The site needs JavaScript; the headless browser renders it."
+  },
+  "nuyorican-poets-cafe": {
+    "pages": [
+      {
+        "url": "https://ci.ovationtix.com/35133"
+      }
+    ],
+    "verified": true,
+    "notes": "The calendar is on the OvationTix ticketing page linked from nuyorican.org; supplied by the user."
   }
 }

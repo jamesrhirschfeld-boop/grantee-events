@@ -1,6 +1,8 @@
 #!/bin/bash
 # The weekly update: scrape -> extract with Claude -> build page -> publish. Run by launchd (or by hand).
 cd "$(dirname "$0")/.." || exit 1
+# If this copy has no Python environment (e.g. it was opened from Documents), work in the real one in the home folder.
+if [ ! -x .venv/bin/python ] && [ -x "$HOME/nyc-events/.venv/bin/python" ]; then cd "$HOME/nyc-events" || exit 1; fi
 mkdir -p logs build
 LOG="logs/run-$(date +%Y-%m-%d).log"
 exec > >(tee -a "$LOG") 2>&1
