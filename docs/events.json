@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T14:57:59+00:00",
+ "generated_at": "2026-11-06T15:04:29+00:00",
  "window": {
   "start": "2026-11-06",
   "end": "2027-01-05"
@@ -1900,7 +1900,7 @@
    },
    {
     "name": "The Billie Holiday Theatre",
-    "site": "https://www.thebillieholiday.org",
+    "site": "https://thebillieholidaytheatre.org/",
     "reason": "unreachable",
     "note": "homepage did not load"
    },
