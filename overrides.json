@@ -37,5 +37,11 @@
     ],
     "verified": true,
     "notes": "Calendar page supplied by the user. The site needs JavaScript; the headless browser renders it."
+  },
+  "the-billie-holiday-theatre": {
+    "websites": [
+      "https://thebillieholidaytheatre.org/"
+    ],
+    "notes": "The Fluxx address redirects here; updated after the diagnose check."
   }
 }
