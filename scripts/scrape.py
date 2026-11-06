@@ -52,6 +52,25 @@ TAG_LINKS_JS = """
 }
 """
 
+# Opt-in per page (reveal_hidden): some sites keep their calendar in hidden tabs or in month panels switched by a
+# dropdown. Show everything that is hidden, and label each revealed block with a month/year found in its attributes
+# (e.g. data-link="#calendar-November-2026") so the grids are not anonymous.
+REVEAL_JS = r"""
+() => {
+  const mon = /(January|February|March|April|May|June|July|August|September|October|November|December)[-_ ,]*(20\d\d)/i;
+  document.querySelectorAll('[hidden], .hidden, [aria-hidden="true"], [style*="display: none"], [style*="display:none"]').forEach(e => {
+    if (['SCRIPT','STYLE','TEMPLATE','NOSCRIPT','SELECT','OPTION'].includes(e.tagName)) return;
+    let label = '';
+    for (const a of e.getAttributeNames()) { const m = mon.exec(e.getAttribute(a) || ''); if (m) { label = m[1] + ' ' + m[2]; break; } }
+    e.hidden = false; e.removeAttribute('hidden'); e.classList.remove('hidden'); e.style.display = 'block';
+    if (label && !e.dataset.labelled) {
+      e.dataset.labelled = '1';
+      const h = document.createElement('div'); h.textContent = 'MONTH: ' + label; e.insertBefore(h, e.firstChild);
+    }
+  });
+}
+"""
+
 LINKS_JS = "() => Array.from(document.querySelectorAll('a[href]')).map(a => a.href)"
 
 
@@ -178,6 +197,8 @@ def grab(page, spec, end):
     load(page, spec["url"])
     if spec.get("expand", True):
         expand(page, spec, end)
+    if spec.get("reveal_hidden"):
+        page.evaluate(REVEAL_JS)
     text = page.evaluate(TAG_LINKS_JS)
     return text[:MAX_CHARS]
 
@@ -248,6 +269,8 @@ def scrape_source(ctx, src, end, days):
                             continue
                         try:
                             load(page, href)
+                            if spec.get("reveal_hidden"):
+                                page.evaluate(REVEAL_JS)
                             result["pages"].append({"url": href, "text": page.evaluate(TAG_LINKS_JS)[:30_000]})
                         except Exception as e:  # one bad detail page shouldn't sink the org
                             result["errors"].append(f"{href}: {e}")

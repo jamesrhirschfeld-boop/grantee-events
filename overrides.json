@@ -49,10 +49,12 @@
       {
         "url": "https://2st.com/",
         "follow_links_matching": "/shows/",
-        "max_follow": 10
+        "max_follow": 10,
+        "reveal_hidden": true
       }
     ],
     "verified": true,
-    "notes": "Homepage lists productions without dates; each /shows/ page has its run and calendar. Followed one level."
+    "scope": "Each production page has a performance calendar for one or more months. Grids are labelled 'MONTH: November 2026'; a day number with times beneath it (e.g. 04 then 2pm and 7pm) is a performance on that date in the labelled month. Days with no time are dark; ignore leading/trailing days that belong to the neighboring month. Notes such as 'Student Matinee', 'Audio Described' (AD) or 'Open Captioned' (OC) go in the notes field. Use the production's own page as each event's url.",
+    "notes": "Homepage lists productions without dates; each /shows/ page has its run and a calendar hidden in tabs. Followed one level, hidden sections revealed."
   }
 }
