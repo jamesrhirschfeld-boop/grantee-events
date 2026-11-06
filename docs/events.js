@@ -1,5 +1,5 @@
 window.EVENTS = {
- "generated_at": "2026-11-06T13:32:32+00:00",
+ "generated_at": "2026-11-06T13:35:13+00:00",
  "window": {
   "start": "2026-11-06",
   "end": "2027-01-05"
@@ -35,7 +35,6 @@ window.EVENTS = {
   "CultureHub",
   "Dance Heginbotham",
   "Dance Lab New York",
-  "Dance/NYC",
   "Danspace Project",
   "Dorrance Dance",
   "En Garde Arts",
@@ -142,7 +141,6 @@ window.EVENTS = {
   "Classic Stage Company": 3,
   "Dance Heginbotham": 15,
   "Dance Lab New York": 1,
-  "Dance/NYC": 16,
   "Danspace Project": 10,
   "Dorrance Dance": 5,
   "En Garde Arts": 1,
@@ -424,8 +422,8 @@ window.EVENTS = {
   },
   "Dance/NYC": {
    "status": "empty",
-   "events": 16,
-   "reason": "the page was read but no performances were found"
+   "events": 0,
+   "reason": "no performances listed in the window"
   },
   "Danspace Project": {
    "status": "ok",
@@ -1481,8 +1479,8 @@ window.EVENTS = {
  },
  "coverage": {
   "total": 271,
-  "with_events": 112,
-  "no_events": 80,
+  "with_events": 111,
+  "no_events": 81,
   "no_source": 77,
   "blocked": 0,
   "failed": 1
@@ -1552,6 +1550,10 @@ window.EVENTS = {
    {
     "name": "Dance Theatre of Harlem",
     "site": "https://www.dancetheatreofharlem.org"
+   },
+   {
+    "name": "Dance/NYC",
+    "site": "https://www.dance.nyc"
    },
    {
     "name": "EMERGE125",
@@ -2283,9 +2285,7 @@ window.EVENTS = {
    }
   ]
  },
- "warnings": [
-  "Dance/NYC: the page was read but no performances were found; showing 16 events from the last successful update. The site layout may have changed."
- ],
+ "warnings": [],
  "events": [
   {
    "date": "2026-11-06",
@@ -2334,18 +2334,6 @@ window.EVENTS = {
    "genre": "hip hop",
    "url": "https://www.abronsartscenter.org/programs/hiphop-finfest5",
    "notes": "Page gives no program details; classified as a festival event."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "6:00 PM",
-   "title": "Salsa Groove: Dance Class, Live Music, & Happy Hour",
-   "org": "Dance/NYC",
-   "location": "SOB's",
-   "description": "Monthly salsa night with a happy hour, beginner dance lesson, live dance performances and a set from the salsa band Danny Martinez y Cubano Rican.",
-   "discipline": "Music",
-   "genre": "salsa",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/Salsa-Groove-Dance-Class-Live-Music-Happy-Hour/2026-11-06/",
-   "notes": "Includes a beginner dance class and dinner/drinks.; from previous update"
   },
   {
    "date": "2026-11-06",
@@ -2526,30 +2514,6 @@ window.EVENTS = {
    "genre": "new musical",
    "url": "https://events.humanitix.com/atalanta-the-long-shot",
    "notes": "Listed as 7:30-10:30pm; pre-show experience 30 min before performance."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "The Age is Yours, My Liege! A Tale of Proto-Japan",
-   "org": "Dance/NYC",
-   "location": "Japan Society",
-   "description": "North American premiere from Reisa Shimojima and Tokyo-based KEDAGORO, a frenetic physical work drawing on festival culture, wartime fervor and ritual to question national myth.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/The-Age-is-Yours-My-Liege-A-Tale-of-Proto-Japan/2026-11-06/",
-   "notes": "North American premiere.; from previous update"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "Mirlitons by François Chaignaud & Aymeric Hainaux",
-   "org": "Dance/NYC",
-   "location": "Le Skyroom, L'Alliance New York, 22 East 60th Street, 8th Floor",
-   "description": "New York City premiere of Mirlitons by François Chaignaud and Aymeric Hainaux; final performance of a Nov 4-6 run.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/LAlliance-New-York-Announces-The-New-York-City-Premiere-of-Mirlitons-by-Franois-Chaignaud-Aymeric-Hainaux/2026-11-06/",
-   "notes": "Tickets start at $15. NYC premiere.; from previous update"
   },
   {
    "date": "2026-11-06",
@@ -3010,18 +2974,6 @@ window.EVENTS = {
   {
    "date": "2026-11-07",
    "time": "2:00 PM",
-   "title": "Confluence",
-   "org": "Dance/NYC",
-   "location": "The Mark O'Donnell Theater, downtown Brooklyn",
-   "description": "(All)Ways Dance Company mixes a world premiere and restaged archive works by artistic director Alyssa Myers.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/Confluence/2026-11-07/",
-   "notes": "from previous update"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "2:00 PM",
    "title": "School Girls; or, The African Mean Girls Play",
    "org": "Manhattan Theatre Club",
    "location": "Samuel J. Friedman Theatre",
@@ -3082,18 +3034,6 @@ window.EVENTS = {
   {
    "date": "2026-11-07",
    "time": "3:00 PM",
-   "title": "Waacking Showcase: The Next Generation",
-   "org": "Dance/NYC",
-   "location": "New York Public Library for the Performing Arts",
-   "description": "Showcase by students of the Waack Dancer Training Program, founded by Princess Lockerooo, celebrating waacking technique and history.",
-   "discipline": "Dance",
-   "genre": "waacking",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/Waacking-Showcase-The-Next-Generation/2026-11-07/",
-   "notes": "from previous update"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "3:00 PM",
    "title": "Fifty fun facts sobre Olivia [mi madre]",
    "org": "IATI Theater",
    "location": "IATI Theater - Mainstage",
@@ -3118,18 +3058,6 @@ window.EVENTS = {
   {
    "date": "2026-11-07",
    "time": "6:00 PM",
-   "title": "Today Is",
-   "org": "Dance/NYC",
-   "location": "",
-   "description": "Unbound Dance Collective's fourth evening-length contemporary dance production, with choreographers responding to specific hours, minutes and seconds.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/Today-Is/2026-11-07/",
-   "notes": "Venue not stated in page text.; from previous update"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "6:00 PM",
    "title": "Kavita Shah & François Moutin @ The Washington Heights Jazz Festival",
    "org": "New Music USA",
    "location": "Le Cheile, 839 W 181st St, New York, NY",
@@ -3138,30 +3066,6 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://newmusicusa.org/events/kavita-shah-francois-moutin-the-washington-heights-jazz-festival/",
    "notes": "New Music USA grantee"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "7:00 PM",
-   "title": "Confluence",
-   "org": "Dance/NYC",
-   "location": "The Mark O'Donnell Theater, downtown Brooklyn",
-   "description": "(All)Ways Dance Company mixes a world premiere and restaged archive works by artistic director Alyssa Myers.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/Confluence/2026-11-07/",
-   "notes": "from previous update"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "7:00 PM",
-   "title": "The Blue Hood - AoZukin",
-   "org": "Dance/NYC",
-   "location": "",
-   "description": "Cay Izumi's interdisciplinary work blending contemporary dance, spoken word and live violin, inspired by a tale from Ugetsu Monogatari.",
-   "discipline": "Multidisciplinary",
-   "genre": "dance, spoken word, live violin",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/The-Blue-Hood-AoZukin/2026-11-07/",
-   "notes": "Venue not stated in page text.; from previous update"
   },
   {
    "date": "2026-11-07",
@@ -3286,18 +3190,6 @@ window.EVENTS = {
   {
    "date": "2026-11-07",
    "time": "7:30 PM",
-   "title": "The Age is Yours, My Liege! A Tale of Proto-Japan",
-   "org": "Dance/NYC",
-   "location": "Japan Society",
-   "description": "North American premiere from Reisa Shimojima and Tokyo-based KEDAGORO, a frenetic physical work drawing on festival culture, wartime fervor and ritual to question national myth.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/The-Age-is-Yours-My-Liege-A-Tale-of-Proto-Japan/2026-11-07/",
-   "notes": "North American premiere.; from previous update"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "7:30 PM",
    "title": "Almendares (Estreno)",
    "org": "ID Studio Theater",
    "location": "ID Studio Theater",
@@ -3378,18 +3270,6 @@ window.EVENTS = {
    "genre": "butoh",
    "url": "https://nyuskirball.org/performance/totem/",
    "notes": "North American premiere; run Nov 5–7"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "8:00 PM",
-   "title": "THRESHOLD",
-   "org": "Dance/NYC",
-   "location": "James Michael Ambury III Performance Space",
-   "description": "PMT Dance Company program featuring Leticia Cirne's solo Little Bird Set Free and Kaitlyn Dee Snyder's CONT;NUUM.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/THRESHOLD/2026-11-07/",
-   "notes": "Tickets $25 advance, $30 on show day. City not stated in page text.; from previous update"
   },
   {
    "date": "2026-11-07",
@@ -3682,18 +3562,6 @@ window.EVENTS = {
   {
    "date": "2026-11-08",
    "time": "2:00 PM",
-   "title": "Confluence",
-   "org": "Dance/NYC",
-   "location": "The Mark O'Donnell Theater, downtown Brooklyn",
-   "description": "(All)Ways Dance Company mixes a world premiere and restaged archive works by artistic director Alyssa Myers.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/Confluence/2026-11-08/",
-   "notes": "from previous update"
-  },
-  {
-   "date": "2026-11-08",
-   "time": "2:00 PM",
    "title": "In the Heights",
    "org": "New York City Center",
    "location": "New York City Center, 131 W 55th St",
@@ -3718,18 +3586,6 @@ window.EVENTS = {
   {
    "date": "2026-11-08",
    "time": "3:00 PM",
-   "title": "LMCC Art Grant - Sleeve Lines",
-   "org": "Dance/NYC",
-   "location": "",
-   "description": "Full-length contemporary dance by Miaotian Sun and Valkyrie Yao rooted in Chinese classical and folk dance, moving from bare hands to silk sleeves.",
-   "discipline": "Dance",
-   "genre": "contemporary Chinese dance",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/LMCC-Art-Grant-Sleeve-Lines/2026-11-08/",
-   "notes": "Presented by Quadrant International Art Association; venue not stated.; from previous update"
-  },
-  {
-   "date": "2026-11-08",
-   "time": "3:00 PM",
    "title": "Fifty fun facts sobre Olivia [mi madre]",
    "org": "IATI Theater",
    "location": "IATI Theater - Mainstage",
@@ -3750,18 +3606,6 @@ window.EVENTS = {
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/08/brandenburgs-messengers-maidens-and-the-end-of-something-else-no-longer-silent-3pm/",
    "notes": "Tickets link to the David H. Koch Theater's Paul Taylor page."
-  },
-  {
-   "date": "2026-11-08",
-   "time": "4:00 PM",
-   "title": "The Blue Hood - AoZukin",
-   "org": "Dance/NYC",
-   "location": "",
-   "description": "Cay Izumi's interdisciplinary work blending contemporary dance, spoken word and live violin, inspired by a tale from Ugetsu Monogatari.",
-   "discipline": "Multidisciplinary",
-   "genre": "dance, spoken word, live violin",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/The-Blue-Hood-AoZukin/2026-11-08/",
-   "notes": "Venue not stated in page text.; from previous update"
   },
   {
    "date": "2026-11-08",
@@ -3798,18 +3642,6 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21693/",
    "notes": "Based on Dizzy's general 7PM & 9PM nightly shows."
-  },
-  {
-   "date": "2026-11-08",
-   "time": "8:00 PM",
-   "title": "Hearts on Fire (Eryc Taylor Dance 20th Anniversary)",
-   "org": "Dance/NYC",
-   "location": "Slate NYC",
-   "description": "Eryc Taylor Dance marks 20 years with a pre-show celebration at 7:00 PM followed by the Hearts on Fire performance at 8:00 PM.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/ETDs-20th-Anniversary-Celebration-and-Hearts-on-Fire-Performance/2026-11-08/",
-   "notes": "Doors 6:45 PM; pre-show celebration 7:00 PM.; from previous update"
   },
   {
    "date": "2026-11-08",
@@ -3909,18 +3741,6 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-09",
-   "time": "8:00 PM",
-   "title": "Hearts on Fire (Eryc Taylor Dance 20th Anniversary)",
-   "org": "Dance/NYC",
-   "location": "Slate NYC",
-   "description": "Eryc Taylor Dance marks 20 years with a pre-show celebration at 7:00 PM followed by the Hearts on Fire performance at 8:00 PM.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/ETDs-20th-Anniversary-Celebration-and-Hearts-on-Fire-Performance/2026-11-09/",
-   "notes": "Doors 6:45 PM; pre-show celebration 7:00 PM.; from previous update"
-  },
-  {
-   "date": "2026-11-09",
    "time": "9:00 PM",
    "title": "Lou Donaldson Centennial Celebration",
    "org": "Jazz at Lincoln Center",
@@ -3990,18 +3810,6 @@ window.EVENTS = {
    "genre": "poetry slam",
    "url": "https://bricartsmedia.org/event/brooklyn-poetry-slam-x-bric-present-write-on-write-now/",
    "notes": "Venue not given on calendar page."
-  },
-  {
-   "date": "2026-11-10",
-   "time": "6:30 PM",
-   "title": "Too Fat for China",
-   "org": "Dance/NYC",
-   "location": "",
-   "description": "Phoebe Potts's award-winning one-woman play, a darkly funny account of her attempt to adopt a baby through the international adoption system.",
-   "discipline": "Theater",
-   "genre": "solo play",
-   "url": "https://www.dance.nyc/for-audiences/community-calendar/view/Too-Fat-for-China/2026-11-10/",
-   "notes": "Venue not stated in page text.; from previous update"
   },
   {
    "date": "2026-11-10",
