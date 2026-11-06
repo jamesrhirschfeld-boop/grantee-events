@@ -3358,10 +3358,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "3 dates in window at https://chocolatefactorytheater.org/events/"
+   },
+   "pages": [
+    {
+     "url": "https://chocolatefactorytheater.org/events/"
+    }
+   ]
   },
   {
    "slug": "the-civilians",

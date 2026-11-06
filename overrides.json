@@ -56,5 +56,20 @@
     "verified": true,
     "scope": "Each production page has a performance calendar for one or more months. Grids are labelled 'MONTH: November 2026'; a day number with times beneath it (e.g. 04 then 2pm and 7pm) is a performance on that date in the labelled month. Days with no time are dark; ignore leading/trailing days that belong to the neighboring month. Notes such as 'Student Matinee', 'Audio Described' (AD) or 'Open Captioned' (OC) go in the notes field. Use the production's own page as each event's url.",
     "notes": "Homepage lists productions without dates; each /shows/ page has its run and a calendar hidden in tabs. Followed one level, hidden sections revealed."
+  },
+  "the-chocolate-factory-theater": {
+    "pages": [
+      {
+        "url": "https://chocolatefactorytheater.org/events/",
+        "follow_links_matching": [
+          "-2026/",
+          "-2027/"
+        ],
+        "max_follow": 12
+      }
+    ],
+    "verified": true,
+    "scope": "The events page lists each production as a run with date range (e.g. 'November 12-21, 2026'). Each production's own page gives the weekly schedule (e.g. 'Thursday - Saturday at 7pm'). Expand each run inside the window into one entry per performance using that schedule. Exclude book launches, lectures and works-in-process sessions such as Saturday Salons.",
+    "notes": "Events page lists runs; each production page has the weekly schedule. Followed one level."
   }
 }

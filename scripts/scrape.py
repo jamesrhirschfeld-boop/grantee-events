@@ -255,8 +255,10 @@ def scrape_source(ctx, src, end, days):
                     seen, follow = set(), []
                     for href in page.evaluate(LINKS_JS):
                         href = urljoin(url, href).split("#")[0]
+                        pats = spec["follow_links_matching"]
+                        pats = [pats] if isinstance(pats, str) else pats
                         if (
-                            spec["follow_links_matching"] in href
+                            any(pt in href for pt in pats)
                             and urlparse(href).netloc == base
                             and href != url
                             and href not in seen

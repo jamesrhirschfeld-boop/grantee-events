@@ -23,8 +23,12 @@ try:
     ev = json.load(open(f))["events"]
 except Exception as e:
     print("no result:", e); sys.exit()
+import collections
 print(len(ev), "events")
-for e in ev[:60]:
+for t, n in collections.Counter(e.get("title") for e in ev).most_common():
+    print("  %3d  %s" % (n, t))
+print()
+for e in sorted(ev, key=lambda e: (e.get("date") or "", e.get("start_time") or "")):
     print(" ", e.get("date"), e.get("start_time") or e.get("time") or "Time TBA", "|", e.get("title"), "|", e.get("location"))
 PYEOF
 done
