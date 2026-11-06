@@ -43,5 +43,16 @@
       "https://thebillieholidaytheatre.org/"
     ],
     "notes": "The Fluxx address redirects here; updated after the diagnose check."
+  },
+  "second-stage-theater": {
+    "pages": [
+      {
+        "url": "https://2st.com/",
+        "follow_links_matching": "/shows/",
+        "max_follow": 10
+      }
+    ],
+    "verified": true,
+    "notes": "Homepage lists productions without dates; each /shows/ page has its run and calendar. Followed one level."
   }
 }

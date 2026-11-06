@@ -3015,10 +3015,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 0 dates in the window (2 overall); checked again every run: https://2st.com/support/events"
+   },
+   "pages": [
+    {
+     "url": "https://2st.com/support/events"
+    }
+   ]
   },
   {
    "slug": "signature",
