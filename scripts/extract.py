@@ -133,12 +133,16 @@ def main():
     cfg = load_sources()
     days = cfg.get("window_days", 60)
     OUT.mkdir(parents=True, exist_ok=True)
-    for f in OUT.glob("*.json"):
-        f.unlink()  # never reuse a stale result from an earlier run
+    only = set(sys.argv[1:])  # optional: extract just these organizations (slugs) and leave the rest alone
+    if not only:
+        for f in OUT.glob("*.json"):
+            f.unlink()  # never reuse a stale result from an earlier run
     client = anthropic.Anthropic(max_retries=5)  # reads ANTHROPIC_API_KEY
     todo = []
     for src in cfg["sources"]:
         if not src.get("active", True) or not (src.get("pages") or src.get("manual")):
+            continue
+        if only and src["slug"] not in only:
             continue
         path = RAW / f"{src['slug']}.json"
         if not path.exists():
