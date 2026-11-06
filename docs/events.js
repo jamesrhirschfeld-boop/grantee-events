@@ -1,45 +1,50 @@
 window.EVENTS = {
- "generated_at": "2026-11-05T17:00:00+00:00",
+ "generated_at": "2026-11-06T05:07:10+00:00",
  "window": {
-  "start": "2026-11-05",
-  "end": "2026-12-05"
+  "start": "2026-11-06",
+  "end": "2026-12-07"
  },
  "orgs": [
   "New York Philharmonic",
   "Signature Theatre",
-  "Afro Latin Jazz Alliance (Belongó)"
+  "Afro Latin Jazz Alliance (Belongó)",
+  "Carnegie Hall"
  ],
  "counts": {
-  "Signature Theatre": 21,
-  "New York Philharmonic": 21,
-  "Afro Latin Jazz Alliance (Belongó)": 7
+  "New York Philharmonic": 20,
+  "Signature Theatre": 20,
+  "Afro Latin Jazz Alliance (Belongó)": 7,
+  "Carnegie Hall": 0
  },
- "warnings": [],
+ "health": {
+  "New York Philharmonic": {
+   "status": "no_data",
+   "events": 20,
+   "reason": "extraction failed or page did not render"
+  },
+  "Signature Theatre": {
+   "status": "no_data",
+   "events": 20,
+   "reason": "extraction failed or page did not render"
+  },
+  "Afro Latin Jazz Alliance (Belongó)": {
+   "status": "no_data",
+   "events": 7,
+   "reason": "extraction failed or page did not render"
+  },
+  "Carnegie Hall": {
+   "status": "no_data",
+   "events": 0,
+   "reason": "extraction failed or page did not render"
+  }
+ },
+ "warnings": [
+  "New York Philharmonic: extraction failed or page did not render; showing 20 events from the last successful update. The site layout may have changed.",
+  "Signature Theatre: extraction failed or page did not render; showing 20 events from the last successful update. The site layout may have changed.",
+  "Afro Latin Jazz Alliance (Belongó): extraction failed or page did not render; showing 7 events from the last successful update. The site layout may have changed.",
+  "Carnegie Hall: extraction failed or page did not render; showing 0 events from the last successful update. The site layout may have changed."
+ ],
  "events": [
-  {
-   "date": "2026-11-05",
-   "time": "7:00 PM",
-   "title": "King of the Yees",
-   "org": "Signature Theatre",
-   "location": "Pershing Square Signature Center, 480 W 42nd St (specific theater not listed on site)",
-   "description": "Lauren Yee's 'kind of true' comedy: when her father, head of a San Francisco Chinatown family association, disappears, a playwright daughter goes on a surreal quest through her family's history and myths. Directed by Joshua Kahan Brody.",
-   "discipline": "Theater",
-   "genre": "",
-   "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-05",
-   "time": "7:30 PM",
-   "title": "Thibaudet Performs Liszt",
-   "org": "New York Philharmonic",
-   "location": "Wu Tsai Theater, David Geffen Hall (10 Lincoln Center Plaza)",
-   "description": "Jean-Yves Thibaudet joins Rafael Payare and the Orchestra for Liszt's Piano Concerto No. 2.",
-   "discipline": "Music",
-   "genre": "classical/orchestral",
-   "url": "https://www.nyphil.org/concerts-tickets/2627/thibaudet-performs-liszt",
-   "notes": ""
-  },
   {
    "date": "2026-11-06",
    "time": "7:00 PM",
@@ -50,7 +55,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "ASL interpreted"
+   "notes": "ASL interpreted; from previous update"
   },
   {
    "date": "2026-11-07",
@@ -62,7 +67,7 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/ypc-nov",
-   "notes": "Family concert, ages 6+; relaxed performance"
+   "notes": "Family concert, ages 6+; relaxed performance; from previous update"
   },
   {
    "date": "2026-11-07",
@@ -74,7 +79,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "Audio described (per calendar); almost sold out"
+   "notes": "Audio described (per calendar); almost sold out; from previous update"
   },
   {
    "date": "2026-11-07",
@@ -86,7 +91,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-07",
@@ -98,7 +103,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/thibaudet-performs-liszt",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-08",
@@ -110,7 +115,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "Almost sold out"
+   "notes": "Almost sold out; from previous update"
   },
   {
    "date": "2026-11-10",
@@ -122,7 +127,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Afro Latin jazz",
    "url": "https://www.afrolatinjazz.org/events/weekly-live-jazz-at-the-pocket",
-   "notes": "Weekly Tuesday residency (June 2026 to June 2027); 7:00 PM is the start time listed for the series' first night, so confirm each date"
+   "notes": "Weekly Tuesday residency (June 2026 to June 2027); 7:00 PM is the start time listed for the series' first night, so confirm each date; from previous update"
   },
   {
    "date": "2026-11-10",
@@ -134,7 +139,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "Almost sold out"
+   "notes": "Almost sold out; from previous update"
   },
   {
    "date": "2026-11-11",
@@ -146,7 +151,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "Sold out"
+   "notes": "Sold out; from previous update"
   },
   {
    "date": "2026-11-11",
@@ -158,7 +163,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-12",
@@ -170,7 +175,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-13",
@@ -182,7 +187,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-13",
@@ -194,7 +199,7 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera in concert",
    "url": "https://www.nyphil.org/concerts-tickets/2627/tosca-nov-13",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-14",
@@ -206,7 +211,7 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "workshop",
    "url": "https://www.nyphil.org/concerts-tickets/2627/take-a-breath-nov",
-   "notes": "Free event; workshop rather than a concert"
+   "notes": "Free event; workshop rather than a concert; from previous update"
   },
   {
    "date": "2026-11-14",
@@ -218,7 +223,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-14",
@@ -230,7 +235,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-15",
@@ -242,7 +247,7 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera in concert",
    "url": "https://www.nyphil.org/concerts-tickets/2627/tosca-nov-15",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-15",
@@ -254,7 +259,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-17",
@@ -266,7 +271,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Afro Latin jazz, parade",
    "url": "https://www.afrolatinjazz.org/events/belongo-at-harlem-holiday-lights-2026",
-   "notes": "Free, no registration; overlaps the same-night Pocket residency"
+   "notes": "Free, no registration; overlaps the same-night Pocket residency; from previous update"
   },
   {
    "date": "2026-11-17",
@@ -278,7 +283,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Afro Latin jazz",
    "url": "https://www.afrolatinjazz.org/events/weekly-live-jazz-at-the-pocket",
-   "notes": "Weekly Tuesday residency (June 2026 to June 2027); 7:00 PM is the start time listed for the series' first night, so confirm each date"
+   "notes": "Weekly Tuesday residency (June 2026 to June 2027); 7:00 PM is the start time listed for the series' first night, so confirm each date; from previous update"
   },
   {
    "date": "2026-11-17",
@@ -290,7 +295,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-18",
@@ -302,7 +307,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-19",
@@ -314,7 +319,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/donor-rehearsal-frank-huang-performs-menddelssohn",
-   "notes": "Donor rehearsal (reserve passes), not a public concert"
+   "notes": "Donor rehearsal (reserve passes), not a public concert; from previous update"
   },
   {
    "date": "2026-11-19",
@@ -326,7 +331,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-19",
@@ -338,7 +343,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/gonzalez-monjas-conducts",
-   "notes": "Page URL slug is 'gonzalez-monjas-conducts' on nyphil.org; page title is Frank Huang Performs Mendelssohn"
+   "notes": "Page URL slug is 'gonzalez-monjas-conducts' on nyphil.org; page title is Frank Huang Performs Mendelssohn; from previous update"
   },
   {
    "date": "2026-11-20",
@@ -350,7 +355,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/gonzalez-monjas-conducts",
-   "notes": "Morning performance"
+   "notes": "Morning performance; from previous update"
   },
   {
    "date": "2026-11-20",
@@ -362,7 +367,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-21",
@@ -374,7 +379,7 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "Afro Latin jazz, family",
    "url": "https://www.afrolatinjazz.org/events/afro-latin-jazz-music-exploration-at-the-harlem-library-26",
-   "notes": "Free, no registration; runs 12-1 PM"
+   "notes": "Free, no registration; runs 12-1 PM; from previous update"
   },
   {
    "date": "2026-11-21",
@@ -386,7 +391,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-21",
@@ -398,7 +403,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-21",
@@ -410,7 +415,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/gonzalez-monjas-conducts",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-22",
@@ -422,7 +427,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-24",
@@ -434,7 +439,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Afro Latin jazz",
    "url": "https://www.afrolatinjazz.org/events/weekly-live-jazz-at-the-pocket",
-   "notes": "Weekly Tuesday residency (June 2026 to June 2027); 7:00 PM is the start time listed for the series' first night, so confirm each date"
+   "notes": "Weekly Tuesday residency (June 2026 to June 2027); 7:00 PM is the start time listed for the series' first night, so confirm each date; from previous update"
   },
   {
    "date": "2026-11-25",
@@ -446,7 +451,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-27",
@@ -458,7 +463,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-28",
@@ -470,7 +475,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-11-30",
@@ -482,7 +487,7 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "Afro Latin jazz, education",
    "url": "https://www.afrolatinjazz.org/events/fat-cat-open-house-jam",
-   "notes": "Free; RSVP encouraged; open rehearsal and jam rather than a ticketed concert"
+   "notes": "Free; RSVP encouraged; open rehearsal and jam rather than a ticketed concert; from previous update"
   },
   {
    "date": "2026-11-30",
@@ -494,7 +499,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://signaturetheatre.org/productions/lobby-events/",
-   "notes": "Low/no-cost lobby event; site lists it on a Monday"
+   "notes": "Low/no-cost lobby event; site lists it on a Monday; from previous update"
   },
   {
    "date": "2026-12-01",
@@ -506,7 +511,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Afro Latin jazz",
    "url": "https://www.afrolatinjazz.org/events/weekly-live-jazz-at-the-pocket",
-   "notes": "Weekly Tuesday residency (June 2026 to June 2027); 7:00 PM is the start time listed for the series' first night, so confirm each date"
+   "notes": "Weekly Tuesday residency (June 2026 to June 2027); 7:00 PM is the start time listed for the series' first night, so confirm each date; from previous update"
   },
   {
    "date": "2026-12-01",
@@ -518,7 +523,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-12-03",
@@ -530,7 +535,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/donor-rehearsal-bruce-liu-performs-tchaikovsky",
-   "notes": "Donor rehearsal (reserve passes), not a public concert"
+   "notes": "Donor rehearsal (reserve passes), not a public concert; from previous update"
   },
   {
    "date": "2026-12-03",
@@ -542,7 +547,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/bruce-liu-and-nielsen",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-12-04",
@@ -554,7 +559,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/bruce-liu-and-nielsen",
-   "notes": ""
+   "notes": "from previous update"
   },
   {
    "date": "2026-12-05",
@@ -566,7 +571,7 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family/classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/vypc-dec",
-   "notes": "Ages 3-6; relaxed performance"
+   "notes": "Ages 3-6; relaxed performance; from previous update"
   },
   {
    "date": "2026-12-05",
@@ -578,7 +583,7 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "workshop",
    "url": "https://www.nyphil.org/concerts-tickets/2627/take-a-breath-dec",
-   "notes": "Free event; workshop rather than a concert"
+   "notes": "Free event; workshop rather than a concert; from previous update"
   },
   {
    "date": "2026-12-05",
@@ -590,7 +595,7 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family/classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/vypc-dec",
-   "notes": "Ages 3-6; relaxed performance"
+   "notes": "Ages 3-6; relaxed performance; from previous update"
   },
   {
    "date": "2026-12-05",
@@ -602,7 +607,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical/orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/bruce-liu-and-nielsen",
-   "notes": ""
+   "notes": "from previous update"
   }
  ]
 };
