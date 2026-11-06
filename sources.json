@@ -3115,10 +3115,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "error",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "timed out or crashed"
-   }
+    "note": "2 dates in window at https://sohorep.org/shows/watch-me-walk-yalerep"
+   },
+   "pages": [
+    {
+     "url": "https://sohorep.org/shows/watch-me-walk-yalerep"
+    }
+   ]
   },
   {
    "slug": "st-ann-s-warehouse",
@@ -3318,10 +3323,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "3 dates in window at https://thebillieholidaytheatre.org/events/"
+   },
+   "pages": [
+    {
+     "url": "https://thebillieholidaytheatre.org/events/"
+    }
+   ]
   },
   {
    "slug": "the-bushwick-starr",
@@ -3400,10 +3410,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 1 dates in the window (1 overall); checked again every run: https://www.cthnyc.org/now-playing/"
+   },
+   "pages": [
+    {
+     "url": "https://www.cthnyc.org/now-playing/"
+    }
+   ]
   },
   {
    "slug": "the-drama-league-of-new-york",
@@ -3416,10 +3431,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "5 dates in window at https://dramaleague.org/workshops-events/"
+   },
+   "pages": [
+    {
+     "url": "https://dramaleague.org/workshops-events/"
+    }
+   ]
   },
   {
    "slug": "counterpart",
@@ -3432,9 +3452,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_calendar_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
+    "note": "no page with dates found; may need a manual calendar URL"
    }
   },
   {
@@ -3448,10 +3468,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 0 dates in the window (1 overall); checked again every run: https://theflea.org/2026-season"
+   },
+   "pages": [
+    {
+     "url": "https://theflea.org/2026-season"
+    }
+   ]
   },
   {
    "slug": "the-harlem-chamber-players",
@@ -3464,10 +3489,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "3 dates in window at https://harlemchamberplayers.org/events; 3 dates in window at https://harlemchamberplayers.org/event"
+   },
+   "pages": [
+    {
+     "url": "https://harlemchamberplayers.org/events"
+    },
+    {
+     "url": "https://harlemchamberplayers.org/event"
+    }
+   ]
   },
   {
    "slug": "the-jazz-gallery",
@@ -3480,10 +3513,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "23 dates in window at https://jazzgallery.org/calendar; 6 dates in window at https://jazzgallery.org/"
+   },
+   "pages": [
+    {
+     "url": "https://jazzgallery.org/calendar"
+    },
+    {
+     "url": "https://jazzgallery.org/"
+    }
+   ]
   },
   {
    "slug": "the-joyce-theater",
@@ -3496,10 +3537,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "12 dates in window at https://www.joyce.org/theme/fall-26-winter-27-5xnz; 12 dates in window at https://www.joyce.org/performances"
+   },
+   "pages": [
+    {
+     "url": "https://www.joyce.org/theme/fall-26-winter-27-5xnz"
+    },
+    {
+     "url": "https://www.joyce.org/performances"
+    }
+   ]
   },
   {
    "slug": "the-kitchen",
@@ -3512,10 +3561,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "6 dates in window at https://thekitchen.org/calendar/"
+   },
+   "pages": [
+    {
+     "url": "https://thekitchen.org/calendar/"
+    }
+   ]
   },
   {
    "slug": "the-knights",
@@ -3528,10 +3582,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "2 dates in window at https://www.theknightsnyc.com/events-1; 2 dates in window at https://www.theknightsnyc.com/concert-series-2"
+   },
+   "pages": [
+    {
+     "url": "https://www.theknightsnyc.com/events-1"
+    },
+    {
+     "url": "https://www.theknightsnyc.com/concert-series-2"
+    }
+   ]
   },
   {
    "slug": "the-metropolitan-opera",
@@ -3544,10 +3606,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "12 dates in window at https://www.metopera.org/season/tickets/explore-by-opera/; 6 dates in window at https://www.metopera.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.metopera.org/season/tickets/explore-by-opera/"
+    },
+    {
+     "url": "https://www.metopera.org/"
+    }
+   ]
   },
   {
    "slug": "the-national-jazz-museum-in-harlem",
@@ -3560,10 +3630,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "8 dates in window at https://jmih.org/event/; 3 dates in window at https://jmih.org/"
+   },
+   "pages": [
+    {
+     "url": "https://jmih.org/event/"
+    },
+    {
+     "url": "https://jmih.org/"
+    }
+   ]
   },
   {
    "slug": "new-42",
@@ -3576,9 +3654,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_calendar_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
+    "note": "no page with dates found; may need a manual calendar URL"
    }
   },
   {
@@ -3592,10 +3670,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "1 dates in window at https://thenewgroup.org/current-season/"
+   },
+   "pages": [
+    {
+     "url": "https://thenewgroup.org/current-season/"
+    }
+   ]
   },
   {
    "slug": "the-play-company",
@@ -3608,10 +3691,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "1 dates in window at https://playco.org/calendar"
+   },
+   "pages": [
+    {
+     "url": "https://playco.org/calendar"
+    }
+   ]
   },
   {
    "slug": "the-playwrights-realm",
@@ -3624,10 +3712,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 0 dates in the window (2 overall); checked again every run: https://www.playwrightsrealm.org/season"
+   },
+   "pages": [
+    {
+     "url": "https://www.playwrightsrealm.org/season"
+    }
+   ]
   },
   {
    "slug": "the-public-theater",
@@ -3640,9 +3733,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "blocked_bot",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
+    "note": "bot protection page instead of the site"
    }
   },
   {
@@ -3656,9 +3749,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "blocked_robots",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
+    "note": "robots.txt asks automated tools to stay out of the event pages"
    }
   },
   {
@@ -3672,10 +3765,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "27 dates in window at https://thetanknyc.org/tankcalendar; 21 dates in window at https://thetanknyc.org/"
+   },
+   "pages": [
+    {
+     "url": "https://thetanknyc.org/tankcalendar"
+    },
+    {
+     "url": "https://thetanknyc.org/"
+    }
+   ]
   },
   {
    "slug": "the-team",
@@ -3688,10 +3789,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 0 dates in the window (3 overall); checked again every run: https://theteamplays.org/shows/"
+   },
+   "pages": [
+    {
+     "url": "https://theteamplays.org/shows/"
+    }
+   ]
   },
   {
    "slug": "the-wooster-group",
@@ -3704,10 +3810,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "4 dates in window at https://thewoostergroup.org/; 4 dates in window at https://thewoostergroup.org/calendar/"
+   },
+   "pages": [
+    {
+     "url": "https://thewoostergroup.org/"
+    },
+    {
+     "url": "https://thewoostergroup.org/calendar/"
+    }
+   ]
   },
   {
    "slug": "theater-breaking-through-barriers",
@@ -3720,10 +3834,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "2 dates in window at https://www.tbtb.org/virtualhybrid-events"
+   },
+   "pages": [
+    {
+     "url": "https://www.tbtb.org/virtualhybrid-events"
+    }
+   ]
   },
   {
    "slug": "theater-mitu",
@@ -3736,10 +3855,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://theatermitu.org/programs/"
+   },
+   "pages": [
+    {
+     "url": "https://theatermitu.org/programs/"
+    }
+   ]
   },
   {
    "slug": "theatre-communications-group",
@@ -3768,10 +3892,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "10 dates in window at https://www.tdf.org/on-stage/show-finder/; 1 dates in window at https://www.tdf.org/accessibility-services/tdf-autism-friendly-performances/"
+   },
+   "pages": [
+    {
+     "url": "https://www.tdf.org/on-stage/show-finder/"
+    },
+    {
+     "url": "https://www.tdf.org/accessibility-services/tdf-autism-friendly-performances/"
+    }
+   ]
   },
   {
    "slug": "theatre-for-a-new-audience",
@@ -3784,10 +3916,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "18 dates in window at https://tfana.org/performance-calendar; 3 dates in window at https://tfana.org/"
+   },
+   "pages": [
+    {
+     "url": "https://tfana.org/performance-calendar"
+    },
+    {
+     "url": "https://tfana.org/"
+    }
+   ]
   },
   {
    "slug": "transport-group-theatre-company",
@@ -3800,10 +3940,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 0 dates in the window (4 overall); checked again every run: https://transportgroup.org/2026-27-season/"
+   },
+   "pages": [
+    {
+     "url": "https://transportgroup.org/2026-27-season/"
+    }
+   ]
   },
   {
    "slug": "trisha-brown-dance-company",
@@ -3816,10 +3961,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "3 dates in window at https://trishabrowncompany.org/calendar/"
+   },
+   "pages": [
+    {
+     "url": "https://trishabrowncompany.org/calendar/"
+    }
+   ]
   },
   {
    "slug": "urban-bush-women",
@@ -3832,10 +3982,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "7 dates in window at https://urbanbushwomen.org/calendar"
+   },
+   "pages": [
+    {
+     "url": "https://urbanbushwomen.org/calendar"
+    }
+   ]
   },
   {
    "slug": "vibe-theater-experience",
@@ -3864,10 +4019,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "2 dates in window at https://vineyardtheatre.org/special-events/; 1 dates in window at https://vineyardtheatre.org/showsevents/"
+   },
+   "pages": [
+    {
+     "url": "https://vineyardtheatre.org/special-events/"
+    },
+    {
+     "url": "https://vineyardtheatre.org/showsevents/"
+    }
+   ]
   },
   {
    "slug": "waterwell",
@@ -3880,10 +4043,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 1 dates in the window (1 overall); checked again every run: https://www.waterwell.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.waterwell.org/"
+    }
+   ]
   },
   {
    "slug": "women-of-color-in-the-arts",
@@ -3896,10 +4064,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 0 dates in the window (8 overall); checked again every run: https://www.womenofcolorinthearts.org/programs"
+   },
+   "pages": [
+    {
+     "url": "https://www.womenofcolorinthearts.org/programs"
+    }
+   ]
   },
   {
    "slug": "working-theater",
@@ -3912,10 +4085,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://www.theworkingtheater.org/season42"
+   },
+   "pages": [
+    {
+     "url": "https://www.theworkingtheater.org/season42"
+    }
+   ]
   },
   {
    "slug": "world-music-institute",
@@ -3928,10 +4106,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "3 dates in window at https://www.worldmusicinstitute.org/; 3 dates in window at https://www.worldmusicinstitute.org/upcoming-events/"
+   },
+   "pages": [
+    {
+     "url": "https://www.worldmusicinstitute.org/"
+    },
+    {
+     "url": "https://www.worldmusicinstitute.org/upcoming-events/"
+    }
+   ]
   },
   {
    "slug": "wp-theater",
@@ -3944,10 +4130,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 0 dates in the window (6 overall); checked again every run: https://wptheater.org/season-year/2026-2027/"
+   },
+   "pages": [
+    {
+     "url": "https://wptheater.org/season-year/2026-2027/"
+    }
+   ]
   },
   {
    "slug": "yarn-wire",
@@ -3960,10 +4151,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "4 dates in window at https://www.yarnwire.org/events-folder; 4 dates in window at https://www.yarnwire.org/events"
+   },
+   "pages": [
+    {
+     "url": "https://www.yarnwire.org/events-folder"
+    },
+    {
+     "url": "https://www.yarnwire.org/events"
+    }
+   ]
   },
   {
    "slug": "houses-on-the-moon-theater-co",
@@ -3976,10 +4175,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "1 dates in window at https://housesonthemoon.org/home/25th-anniversary-season/; 1 dates in window at https://housesonthemoon.org/25th-anniversary-season/"
+   },
+   "pages": [
+    {
+     "url": "https://housesonthemoon.org/home/25th-anniversary-season/"
+    },
+    {
+     "url": "https://housesonthemoon.org/25th-anniversary-season/"
+    }
+   ]
   },
   {
    "slug": "japan-society",
@@ -3992,10 +4199,18 @@
    "performing_arts_majority": false,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "23 dates in window at https://japansociety.org/events-and-exhibitions; 23 dates in window at https://japansociety.org/events"
+   },
+   "pages": [
+    {
+     "url": "https://japansociety.org/events-and-exhibitions"
+    },
+    {
+     "url": "https://japansociety.org/events"
+    }
+   ]
   },
   {
    "slug": "new-york-live-arts",
@@ -4056,10 +4271,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://statenislandarts.org/programs/"
+   },
+   "pages": [
+    {
+     "url": "https://statenislandarts.org/programs/"
+    }
+   ]
   },
   {
    "slug": "angela-s-pulse",
@@ -4072,10 +4292,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "1 dates in window at https://www.angelaspulse.org/events"
+   },
+   "pages": [
+    {
+     "url": "https://www.angelaspulse.org/events"
+    }
+   ]
   },
   {
    "slug": "braata-productions",
@@ -4088,10 +4313,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "3 dates in window at https://www.braataproductions.org/events; 3 dates in window at https://www.braataproductions.org/upcomingevents"
+   },
+   "pages": [
+    {
+     "url": "https://www.braataproductions.org/events"
+    },
+    {
+     "url": "https://www.braataproductions.org/upcomingevents"
+    }
+   ]
   },
   {
    "slug": "leimay",
@@ -4104,10 +4337,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "2 dates in window at https://www.leimay.org/calendar/"
+   },
+   "pages": [
+    {
+     "url": "https://www.leimay.org/calendar/"
+    }
+   ]
   },
   {
    "slug": "yaa-samar-dance-theatre",
@@ -4120,10 +4358,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "calendar page found but 0 dates in the window (1 overall); checked again every run: https://www.eventbrite.com/e/dabke-workshop-tickets-1996027743713?aff=ebdsoporgprofile"
+   },
+   "pages": [
+    {
+     "url": "https://www.eventbrite.com/e/dabke-workshop-tickets-1996027743713?aff=ebdsoporgprofile"
+    }
+   ]
   },
   {
    "slug": "jazz-power-initiative",
@@ -4136,10 +4379,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "5 dates in window at https://jazzpower.org/jazz-power-concerts/; 5 dates in window at https://jazzpower.org/jazz-power-concerts"
+   },
+   "pages": [
+    {
+     "url": "https://jazzpower.org/jazz-power-concerts/"
+    },
+    {
+     "url": "https://jazzpower.org/jazz-power-concerts"
+    }
+   ]
   },
   {
    "slug": "chinese-theatre-works",
@@ -4152,10 +4403,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "1 dates in window at https://chinesetheatreworks.org/upcoming-events/; 1 dates in window at https://chinesetheatreworks.org/chinese-theatre-events/"
+   },
+   "pages": [
+    {
+     "url": "https://chinesetheatreworks.org/upcoming-events/"
+    },
+    {
+     "url": "https://chinesetheatreworks.org/chinese-theatre-events/"
+    }
+   ]
   },
   {
    "slug": "multicultural-music-group",
@@ -4168,10 +4427,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "1 dates in window at https://multiculturalmusic.org/upcomingevents"
+   },
+   "pages": [
+    {
+     "url": "https://multiculturalmusic.org/upcomingevents"
+    }
+   ]
   },
   {
    "slug": "intar",
@@ -4184,10 +4448,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "3 dates in window at https://www.intartheatre.org/programs; 3 dates in window at https://www.intartheatre.org/now-playing"
+   },
+   "pages": [
+    {
+     "url": "https://www.intartheatre.org/programs"
+    },
+    {
+     "url": "https://www.intartheatre.org/now-playing"
+    }
+   ]
   },
   {
    "slug": "id-studio-theater",
@@ -4855,7 +5127,7 @@
    "discovery": {
     "status": "unreachable",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
+    "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.evidencedance.com/"
    }
   },
   {
@@ -5004,10 +5276,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "unreachable",
+    "status": "ok",
     "checked": "2026-11-06",
-    "note": "homepage did not load"
-   }
+    "note": "6 dates in window at https://www.sphinxmusic.org/sphinx-calendar"
+   },
+   "pages": [
+    {
+     "url": "https://www.sphinxmusic.org/sphinx-calendar"
+    }
+   ]
   },
   {
    "slug": "composers-now",
