@@ -1,8 +1,9 @@
 """Build/refresh sources.json from a Fluxx organization export (.xlsx).
 
 Uses only: 'Org Common Name' (display name), 'Website', 'Discipline', 'Borough' and
-'Majority of programming devoted to performing arts'. Nothing else (finances, staff, tax IDs, mission text)
-is read or written, because sources.json is committed to the repository.
+'Majority of programming devoted to performing arts' for sources.json, which is committed to the repository.
+'Currently Assigned Program Officer' goes ONLY to private/officers.json, which stays on this computer.
+Nothing else (finances, tax IDs, mission text) is read.
 
 Re-running keeps everything already learned (discovered calendar pages, scope rules, notes) for orgs
 whose website is unchanged, adds new orgs, and flags orgs that left the export (active=false).
@@ -63,6 +64,8 @@ def main(path):
     used = {s["slug"] for s in old["sources"]}
 
     seen_dom, sources, new, skipped = set(), [], 0, []
+    officers = {}  # slug -> program officer; written to private/officers.json (kept out of git)
+    po_col = "Currently Assigned Program Officer"
     for r in rows[1:]:
         if not any(r):
             continue
@@ -90,12 +93,17 @@ def main(path):
         if prev and prev.get("name") != name:
             entry["previous_names"] = sorted(set(prev.get("previous_names", []) + [prev["name"]]))
         sources.append(entry)
+        if po_col in ix and str(g(po_col)).strip():
+            officers[entry["slug"]] = str(g(po_col)).strip()
         seen_dom.update(domain(w) for w in sites)
 
     kept_old = [dict(s, active=False) for s in old["sources"]
                 if not any(domain(w) in seen_dom for w in s.get("websites", []))]
-    out = {"schema": 2, "window_days": old.get("window_days", 31), "sources": sources + kept_old}
+    out = {"schema": 2, "window_days": old.get("window_days", 60), "sources": sources + kept_old}
     cfg_path.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
+    (ROOT / "private").mkdir(exist_ok=True)
+    (ROOT / "private" / "officers.json").write_text(json.dumps(officers, ensure_ascii=False, indent=1) + "\n")
+    print(f"{len(officers)} program-officer assignments saved to private/officers.json (local only, not published)")
     print(f"{len(sources)} organizations ({new} new), {len(kept_old)} no longer in the export")
     for n, why in skipped:
         print(f"  skipped: {n} ({why})")

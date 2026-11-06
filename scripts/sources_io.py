@@ -18,6 +18,7 @@ def load_sources():
     cfg = read_raw()
     p = ROOT / "overrides.json"
     ov = json.loads(p.read_text()) if p.exists() else {}
+    cfg.update(ov.get("_settings", {}))  # project-wide settings such as window_days
     for s in cfg["sources"]:
         for k, v in ov.get(s["slug"], {}).items():
             if v is None:

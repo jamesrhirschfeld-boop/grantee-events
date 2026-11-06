@@ -127,6 +127,40 @@ def merge_cross_org(events, own_only, org_names, generic_urls):
     return out
 
 
+def write_internal(public, sources):
+    """Internal copy of the page data with each grantee's program officer. Written only if
+    private/officers.json exists. Stays in internal/ (not in git); optional private/config.json
+    {"copy_to": "/some/shared/folder"} also copies it there."""
+    import shutil
+
+    officers = read_json(ROOT / "private" / "officers.json", {})
+    if not officers:
+        return
+    po_by_name = {s["name"]: officers.get(s["slug"], "") for s in sources}
+    data = json.loads(json.dumps(public))
+    for e in data["events"]:
+        e["officer"] = po_by_name.get(e["org"], "")
+    for items in data["coverage_orgs"].values():
+        for o in items:
+            o["officer"] = po_by_name.get(o["name"], "")
+    data["officers"] = sorted({v for v in po_by_name.values() if v})
+    out = ROOT / "internal"
+    out.mkdir(exist_ok=True)
+    text = json.dumps(data, ensure_ascii=False, indent=1)
+    (out / "events.json").write_text(text)
+    (out / "events.js").write_text("window.EVENTS = " + text.replace("</", "<\\/") + ";\n")
+    shutil.copy(DOCS / "index.html", out / "index.html")
+    cfg = read_json(ROOT / "private" / "config.json", {})
+    if cfg.get("copy_to"):
+        try:
+            dest = Path(cfg["copy_to"]).expanduser()
+            dest.mkdir(parents=True, exist_ok=True)
+            for name in ("index.html", "events.js"):
+                shutil.copy(out / name, dest / name)
+        except Exception as ex:
+            print("WARNING: could not copy the internal page to", cfg["copy_to"], ex, file=sys.stderr)
+
+
 def read_json(path, default):
     try:
         return json.loads(path.read_text())
@@ -136,7 +170,7 @@ def read_json(path, default):
 
 def main():
     cfg = load_sources()
-    days = cfg.get("window_days", 31)
+    days = cfg.get("window_days", 60)
     today = dt.date.today()
     start, end = today, today + dt.timedelta(days=days)
     sources = [s for s in cfg["sources"] if s.get("active", True)]
@@ -234,8 +268,7 @@ def main():
         "failed": len(cov["failed"]),
     }
     DOCS.mkdir(exist_ok=True)
-    payload = json.dumps(
-        {
+    payload_dict = {
             "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
             "window": {"start": start.isoformat(), "end": end.isoformat()},
             "orgs": listed,
@@ -245,10 +278,8 @@ def main():
             "coverage_orgs": cov,
             "warnings": warnings,
             "events": unique,
-        },
-        ensure_ascii=False,
-        indent=1,
-    )
+    }
+    payload = json.dumps(payload_dict, ensure_ascii=False, indent=1)
     OUT.write_text(payload)
     # Same data as a script file, so index.html also works when opened straight from disk
     # (browsers block fetch() of local files). "</" is escaped so no event text can close the tag.
@@ -258,6 +289,7 @@ def main():
         print("WARNING:", w, file=sys.stderr)
     (ROOT / "build").mkdir(exist_ok=True)
     (ROOT / "build" / "warnings.txt").write_text("\n".join(warnings))
+    write_internal(payload_dict, sources)
     # A plain-text coverage report for the person running this (not published).
     lines = [f"{coverage['with_events']} of {coverage['total']} organizations have listings; "
              f"{coverage['no_events']} have none in the window; {coverage['no_source']} have no calendar source; "

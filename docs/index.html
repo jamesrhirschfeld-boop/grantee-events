@@ -55,6 +55,16 @@
   .meta { color: var(--nav); font-size: .9rem; margin: 2px 0 0 calc(5.5rem + 14px); font-weight: 600; }
   .desc { margin: 6px 0 0 calc(5.5rem + 14px); font-size: .93rem; color: #222; }
   .chips { margin: 8px 0 0 calc(5.5rem + 14px); display: flex; flex-wrap: wrap; gap: 6px; }
+  .cal { margin-left: auto; position: relative; align-self: flex-start; }
+  .calbtn { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border: 1px solid transparent;
+    border-radius: 50%; background: transparent; color: var(--teal); cursor: pointer; padding: 0; }
+  .calbtn:hover, .calbtn:focus-visible, .calbtn[aria-expanded=true] { background: var(--tint); border-color: #b9c7c2; }
+  .calbtn svg { width: 20px; height: 20px; }
+  .calmenu { position: absolute; right: 0; top: 38px; z-index: 5; min-width: 230px; background: #fff; border: 1px solid #b9c7c2;
+    border-radius: 4px; box-shadow: 0 6px 18px rgba(0,0,0,.12); padding: 4px 0; }
+  .calmenu a, .calmenu button { display: block; width: 100%; text-align: left; font: 600 .88rem var(--text); color: var(--nav);
+    padding: 9px 14px; background: none; border: 0; text-decoration: none; cursor: pointer; }
+  .calmenu a:hover, .calmenu button:hover, .calmenu a:focus-visible, .calmenu button:focus-visible { background: var(--tint); color: var(--teal); outline: none; }
   .chip { background: var(--tint); color: var(--teal); border-radius: 999px; padding: 2px 11px; font-size: .76rem; font-weight: 600; }
   .empty { color: var(--muted); padding: 24px 0; }
   details.cov { margin-top: 44px; border-top: 1px solid var(--line); padding-top: 16px; color: var(--muted); font-size: .88rem; }
@@ -131,15 +141,145 @@
     return mins !== null && mins < 17 * 60;
   }
 
+  // ---- Add to calendar: Outlook (web), Google Calendar, or a .ics file (Apple Calendar, Outlook app) ----------
+  var TZ = "America/New_York";
+  var enc = encodeURIComponent;
+  function pad(n) { return (n < 10 ? "0" : "") + n; }
+  function parseTime(t) {
+    var m = /^\s*(\d{1,2})(?::(\d{2}))?\s*([ap])\.?m/i.exec(t || "");
+    if (!m) return null;
+    var h = (+m[1]) % 12;
+    if (m[3].toLowerCase() === "p") h += 12;
+    return { h: h, mi: +(m[2] || 0) };
+  }
+  function shift(o, addMin) {
+    var d = new Date(Date.UTC(o.y, o.mo - 1, o.d, o.h || 0, (o.mi || 0) + addMin));
+    return { y: d.getUTCFullYear(), mo: d.getUTCMonth() + 1, d: d.getUTCDate(), h: d.getUTCHours(), mi: d.getUTCMinutes() };
+  }
+  function ymd(o, sep) { return o.y + sep + pad(o.mo) + sep + pad(o.d); }
+  function local(o) { return ymd(o, "") + "T" + pad(o.h) + pad(o.mi) + "00"; }
+  // UTC offset of New York at a local wall time, e.g. "-05:00" (handles daylight saving).
+  function nycOffset(o) {
+    var fmt = new Intl.DateTimeFormat("en-US", { timeZone: TZ, hourCycle: "h23", year: "numeric", month: "2-digit",
+      day: "2-digit", hour: "2-digit", minute: "2-digit" });
+    function off(ms) {
+      var g = {};
+      fmt.formatToParts(new Date(ms)).forEach(function (p) { g[p.type] = p.value; });
+      return Date.UTC(+g.year, +g.month - 1, +g.day, +g.hour, +g.minute) - ms;
+    }
+    var guess = Date.UTC(o.y, o.mo - 1, o.d, o.h, o.mi);
+    var mins = Math.round(off(guess - off(guess)) / 60000);
+    var sign = mins < 0 ? "-" : "+";
+    mins = Math.abs(mins);
+    return sign + pad(Math.floor(mins / 60)) + ":" + pad(mins % 60);
+  }
+  function calInfo(e) {
+    var p = e.date.split("-"), y = +p[0], mo = +p[1], d = +p[2], t = parseTime(e.time), url = safeUrl(e.url);
+    var i = { title: e.title, loc: e.location || "", url: url, uid: "", allDay: !t };
+    var notes = [e.org];
+    if (e.description) notes.push(e.description);
+    notes.push(t ? "End time is a placeholder (2 hours). Please check the organization's page."
+                 : "Start time not listed on the organization's page.");
+    if (url) notes.push("Details: " + url);
+    i.desc = notes.join("\n\n");
+    i.uid = (e.date + "-" + e.title + "-" + e.org).toLowerCase().replace(/[^a-z0-9]+/g, "-").slice(0, 80) + "@grantee-events";
+    if (t) { i.start = { y: y, mo: mo, d: d, h: t.h, mi: t.mi }; i.end = shift(i.start, 120); }
+    else { i.day = { y: y, mo: mo, d: d }; i.next = shift({ y: y, mo: mo, d: d, h: 0, mi: 0 }, 1440); }
+    return i;
+  }
+  function outlookUrl(i) {
+    var q = ["path=" + enc("/calendar/action/compose"), "rru=addevent", "subject=" + enc(i.title), "body=" + enc(i.desc),
+             "location=" + enc(i.loc)];
+    if (i.allDay) q.push("startdt=" + enc(ymd(i.day, "-")), "enddt=" + enc(ymd(i.next, "-")), "allday=true");
+    else {
+      var iso = function (o) { return ymd(o, "-") + "T" + pad(o.h) + ":" + pad(o.mi) + ":00" + nycOffset(o); };
+      q.push("startdt=" + enc(iso(i.start)), "enddt=" + enc(iso(i.end)));
+    }
+    return "https://outlook.office.com/calendar/0/deeplink/compose?" + q.join("&");
+  }
+  function googleUrl(i) {
+    var dates = i.allDay ? ymd(i.day, "") + "/" + ymd(i.next, "") : local(i.start) + "/" + local(i.end);
+    return "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + enc(i.title) + "&dates=" + dates +
+      "&ctz=" + enc(TZ) + "&details=" + enc(i.desc) + "&location=" + enc(i.loc);
+  }
+  function icsText(i) {
+    function esc(s) { return String(s).replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n"); }
+    function fold(line) {
+      var out = [];
+      while (line.length > 73) { out.push(line.slice(0, 73)); line = " " + line.slice(73); }
+      out.push(line);
+      return out;
+    }
+    var now = new Date(), z = now.getUTCFullYear() + pad(now.getUTCMonth() + 1) + pad(now.getUTCDate()) + "T" +
+      pad(now.getUTCHours()) + pad(now.getUTCMinutes()) + pad(now.getUTCSeconds()) + "Z";
+    var L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Howard Gilman Foundation//NYC Grantee Performances//EN",
+      "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+      "BEGIN:VTIMEZONE", "TZID:" + TZ,
+      "BEGIN:DAYLIGHT", "TZOFFSETFROM:-0500", "TZOFFSETTO:-0400", "TZNAME:EDT", "DTSTART:19700308T020000",
+      "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU", "END:DAYLIGHT",
+      "BEGIN:STANDARD", "TZOFFSETFROM:-0400", "TZOFFSETTO:-0500", "TZNAME:EST", "DTSTART:19701101T020000",
+      "RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU", "END:STANDARD", "END:VTIMEZONE",
+      "BEGIN:VEVENT", "UID:" + i.uid, "DTSTAMP:" + z];
+    if (i.allDay) L.push("DTSTART;VALUE=DATE:" + ymd(i.day, ""), "DTEND;VALUE=DATE:" + ymd(i.next, ""));
+    else L.push("DTSTART;TZID=" + TZ + ":" + local(i.start), "DTEND;TZID=" + TZ + ":" + local(i.end));
+    L.push("SUMMARY:" + esc(i.title));
+    if (i.loc) L.push("LOCATION:" + esc(i.loc));
+    L.push("DESCRIPTION:" + esc(i.desc));
+    if (i.url) L.push("URL:" + i.url);
+    L.push("END:VEVENT", "END:VCALENDAR");
+    return L.reduce(function (a, l) { return a.concat(fold(l)); }, []).join("\r\n") + "\r\n";
+  }
+  function downloadIcs(i) {
+    var blob = new Blob([icsText(i)], { type: "text/calendar;charset=utf-8" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = (i.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 50) || "event") + ".ics";
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000);
+  }
+  var openMenu = null;
+  function closeMenu() {
+    if (openMenu) { openMenu.menu.remove(); openMenu.btn.setAttribute("aria-expanded", "false"); openMenu = null; }
+  }
+  document.addEventListener("click", function (ev) { if (openMenu && !openMenu.wrap.contains(ev.target)) closeMenu(); });
+  document.addEventListener("keydown", function (ev) { if (ev.key === "Escape" && openMenu) { var b = openMenu.btn; closeMenu(); b.focus(); } });
+  function calButton(e) {
+    var wrap = el("span", "cal"), btn = el("button", "calbtn");
+    btn.type = "button"; btn.title = "Add to calendar";
+    btn.setAttribute("aria-label", "Add " + e.title + " to calendar"); btn.setAttribute("aria-haspopup", "true");
+    btn.setAttribute("aria-expanded", "false");
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" ' +
+      'stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>';
+    btn.addEventListener("click", function () {
+      var was = openMenu && openMenu.btn === btn;
+      closeMenu();
+      if (was) return;
+      var i = calInfo(e), menu = el("div", "calmenu");
+      menu.setAttribute("role", "menu");
+      var o = el("a", "", "Outlook (web)"); o.href = outlookUrl(i); o.target = "_blank"; o.rel = "noopener"; o.setAttribute("role", "menuitem");
+      var g = el("a", "", "Google Calendar"); g.href = googleUrl(i); g.target = "_blank"; g.rel = "noopener"; g.setAttribute("role", "menuitem");
+      var f = el("button", "", "Apple Calendar / Outlook app (.ics)"); f.type = "button"; f.setAttribute("role", "menuitem");
+      f.addEventListener("click", function () { downloadIcs(i); closeMenu(); });
+      [o, g].forEach(function (a) { a.addEventListener("click", function () { setTimeout(closeMenu, 0); }); });
+      menu.appendChild(o); menu.appendChild(g); menu.appendChild(f);
+      wrap.appendChild(menu);
+      btn.setAttribute("aria-expanded", "true");
+      openMenu = { wrap: wrap, btn: btn, menu: menu };
+    });
+    wrap.appendChild(btn);
+    return wrap;
+  }
+
   function render() {
     var q = $("q").value.trim().toLowerCase();
-    var org = $("org").value, disc = $("disc").value;
+    var org = $("org").value, disc = $("disc").value, po = $("po") ? $("po").value : "";
     var from = $("from").value, to = $("to").value, mat = $("mat").checked;
     var list = $("list");
     list.textContent = "";
     var shown = data.events.filter(function (e) {
       if (org && e.org !== org) return false;
       if (disc && e.discipline !== disc) return false;
+      if (po && e.officer !== po) return false;
       if (from && e.date < from) return false;
       if (to && e.date > to) return false;
       if (mat && !isMatinee(e)) return false;
@@ -163,12 +303,14 @@
       if (u) { var a = el("a", "", e.title); a.href = u; a.target = "_blank"; a.rel = "noopener"; t.appendChild(a); }
       else t.textContent = e.title;
       r1.appendChild(t);
+      r1.appendChild(calButton(e));
       card.appendChild(r1);
       card.appendChild(el("p", "meta", e.org + (e.location ? " · " + e.location : "")));
       if (e.description) card.appendChild(el("p", "desc", e.description));
       var chips = el("div", "chips");
       chips.appendChild(el("span", "chip", e.discipline));
       if (e.genre) chips.appendChild(el("span", "chip", e.genre));
+      if (e.officer) chips.appendChild(el("span", "chip", "PO: " + e.officer));
       if (e.notes) chips.appendChild(el("span", "chip", e.notes));
       card.appendChild(chips);
       list.appendChild(card);
@@ -193,8 +335,10 @@
       var ul = el("ul");
       items.forEach(function (it) {
         var li = el("li"), u = safeUrl(it.site);
+        var who = it.officer ? " (" + it.officer + ")" : "";
         if (u) { var a = el("a", "", it.name); a.href = u; a.target = "_blank"; a.rel = "noopener"; li.appendChild(a); }
         else li.textContent = it.name;
+        if (who) li.appendChild(document.createTextNode(who));
         ul.appendChild(li);
       });
       box.appendChild(ul);
@@ -211,9 +355,17 @@
     ? Promise.resolve(window.EVENTS)
     : fetch("events.json", { cache: "no-cache" }).then(function (r) { return r.json(); });
 
+  // Never show past performances: the page is rebuilt weekly, so drop anything dated before today (New York time).
+  function nycToday() {
+    var p = new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+    return p;  // YYYY-MM-DD
+  }
+
   source.then(function (d) {
+    var today = nycToday();
+    d.events = d.events.filter(function (e) { return e.date >= today; });
     data = d;
-    $("sub").textContent = "Performances from each organization’s own website, " + d.window.start + " to " + d.window.end +
+    $("sub").textContent = "Performances from each organization’s own website, " + fmtDay(today) + " through " + fmtDay(d.window.end) +
       ". Last updated " + fmtUpdated(d.generated_at) + ".";
     if (d.warnings && d.warnings.length) {
       var w = el("div", "warn");
@@ -224,16 +376,25 @@
       $("warn").appendChild(w);
     }
     renderCoverage(d);
+    if (d.officers && d.officers.length) {
+      var sel = el("select"); sel.id = "po"; sel.setAttribute("aria-label", "Program officer");
+      var all = el("option", "", "All program officers"); all.value = ""; sel.appendChild(all);
+      $("disc").parentNode.insertBefore(sel, $("disc").nextSibling);
+      fill(sel, d.officers);
+      var note = el("div", "warn", "Internal view: includes program officer assignments. Do not publish or share outside the Foundation.");
+      $("warn").appendChild(note);
+    }
     fill($("org"), d.orgs);
     fill($("disc"), Array.from(new Set(d.events.map(function (e) { return e.discipline; }))).sort());
     $("from").min = $("to").min = d.window.start;
     $("from").max = $("to").max = d.window.end;
-    ["q", "org", "disc", "from", "to", "mat"].forEach(function (id) {
+    ["q", "org", "disc", "po", "from", "to", "mat"].forEach(function (id) {
+      if (!$(id)) return;
       $(id).addEventListener("input", render);
       $(id).addEventListener("change", render);
     });
     $("clear").addEventListener("click", function () {
-      $("q").value = ""; $("org").value = ""; $("disc").value = "";
+      $("q").value = ""; $("org").value = ""; $("disc").value = ""; if ($("po")) $("po").value = "";
       $("from").value = ""; $("to").value = ""; $("mat").checked = false;
       render();
     });

@@ -131,7 +131,7 @@ def main():
     import concurrent.futures as cf
 
     cfg = load_sources()
-    days = cfg.get("window_days", 31)
+    days = cfg.get("window_days", 60)
     OUT.mkdir(parents=True, exist_ok=True)
     for f in OUT.glob("*.json"):
         f.unlink()  # never reuse a stale result from an earlier run

@@ -98,7 +98,7 @@ def discover_one(slug):
 
     cfg = load_sources()
     src = next(s for s in cfg["sources"] if s["slug"] == slug)
-    days = cfg.get("window_days", 31)
+    days = cfg.get("window_days", 60)
     today = dt.date.today()
     end = today + dt.timedelta(days=days)
     client = anthropic.Anthropic(max_retries=5)

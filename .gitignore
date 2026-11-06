@@ -8,3 +8,5 @@ __pycache__/
 sources.json.before-full-list
 manual/*
 !manual/README.txt
+private/
+internal/

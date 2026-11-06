@@ -1,4 +1,7 @@
 {
+  "_settings": {
+    "window_days": 60
+  },
   "nyphil": {
     "pages": null,
     "manual": {

@@ -1434,7 +1434,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "5 dates in window at https://irishartscenter.org/whats-on"
+   },
+   "pages": [
+    {
+     "url": "https://irishartscenter.org/whats-on"
+    }
+   ]
   },
   {
    "slug": "irish-repertory-theatre",
@@ -1445,7 +1455,20 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "4 dates in window at https://irishrep.org/; 4 dates in window at https://irishrep.org/whats-on"
+   },
+   "pages": [
+    {
+     "url": "https://irishrep.org/"
+    },
+    {
+     "url": "https://irishrep.org/whats-on"
+    }
+   ]
   },
   {
    "slug": "issue-project-room",
@@ -1456,7 +1479,20 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://issueprojectroom.org/events; 3 dates in window at https://issueprojectroom.org/program/artists-residence-2026"
+   },
+   "pages": [
+    {
+     "url": "https://issueprojectroom.org/events"
+    },
+    {
+     "url": "https://issueprojectroom.org/program/artists-residence-2026"
+    }
+   ]
   },
   {
    "slug": "jack-arts",
@@ -1488,7 +1524,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (8 overall): https://www.jackquartet.com/upcoming-performances"
+   },
+   "pages": [
+    {
+     "url": "https://www.jackquartet.com/upcoming-performances"
+    }
+   ]
   },
   {
    "slug": "jcal",
@@ -1499,7 +1545,20 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Queens",
    "performing_arts_majority": false,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://jcal.org/events-tickets; 3 dates in window at https://jcal.org/events"
+   },
+   "pages": [
+    {
+     "url": "https://jcal.org/events-tickets"
+    },
+    {
+     "url": "https://jcal.org/events"
+    }
+   ]
   },
   {
    "slug": "jazz-at-lincoln-center",
@@ -1510,7 +1569,20 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "6 dates in window at https://jazz.org/; 5 dates in window at https://jazz.org/concerts-events/26-27-season-concerts/"
+   },
+   "pages": [
+    {
+     "url": "https://jazz.org/"
+    },
+    {
+     "url": "https://jazz.org/concerts-events/26-27-season-concerts/"
+    }
+   ]
   },
   {
    "slug": "jazz-foundation-of-america",
@@ -1521,7 +1593,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (9 overall): https://jazzfoundation.org/monday-night-jam/"
+   },
+   "pages": [
+    {
+     "url": "https://jazzfoundation.org/monday-night-jam/"
+    }
+   ]
   },
   {
    "slug": "jos-lim-n-dance-foundation",
@@ -1532,7 +1614,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (5 overall): https://www.limon.nyc/"
+   },
+   "pages": [
+    {
+     "url": "https://www.limon.nyc/"
+    }
+   ]
   },
   {
    "slug": "kaufman-music-center",
@@ -1543,7 +1635,20 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "6 dates in window at https://www.kaufmanmusiccenter.org/mch/; 4 dates in window at https://www.kaufmanmusiccenter.org/2026-27/"
+   },
+   "pages": [
+    {
+     "url": "https://www.kaufmanmusiccenter.org/mch/"
+    },
+    {
+     "url": "https://www.kaufmanmusiccenter.org/2026-27/"
+    }
+   ]
   },
   {
    "slug": "keen-company",
@@ -1554,7 +1659,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (1 overall): https://www.keencompany.org/tickets"
+   },
+   "pages": [
+    {
+     "url": "https://www.keencompany.org/tickets"
+    }
+   ]
   },
   {
    "slug": "kupferberg-center-for-the-arts-at-queens",
@@ -1565,7 +1680,20 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Queens",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "9 dates in window at https://kupferbergcenter.org/events/; 9 dates in window at https://kupferbergcenter.org/events"
+   },
+   "pages": [
+    {
+     "url": "https://kupferbergcenter.org/events/"
+    },
+    {
+     "url": "https://kupferbergcenter.org/events"
+    }
+   ]
   },
   {
    "slug": "kyle-abraham-dance-vanguard",
@@ -1576,7 +1704,20 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://www.kyleabrahamdancevanguard.org/performances; 3 dates in window at https://www.kyleabrahamdancevanguard.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.kyleabrahamdancevanguard.org/performances"
+    },
+    {
+     "url": "https://www.kyleabrahamdancevanguard.org/"
+    }
+   ]
   },
   {
    "slug": "la-mama-experimental-theatre-club",
@@ -1587,7 +1728,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "14 dates in window at https://lamama.org/now-playing/"
+   },
+   "pages": [
+    {
+     "url": "https://lamama.org/now-playing/"
+    }
+   ]
   },
   {
    "slug": "labyrinth-theater-company",
@@ -1598,7 +1749,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (6 overall): https://labtheater.org/stripped2026"
+   },
+   "pages": [
+    {
+     "url": "https://labtheater.org/stripped2026"
+    }
+   ]
   },
   {
    "slug": "league-of-american-orchestras",
@@ -1609,7 +1770,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (26 overall): https://americanorchestras.org/learn/upcoming-events/"
+   },
+   "pages": [
+    {
+     "url": "https://americanorchestras.org/learn/upcoming-events/"
+    }
+   ]
   },
   {
    "slug": "les-ballets-trockadero-de-monte-carlo",
@@ -1620,7 +1791,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://trockadero.org/calendar/"
+   },
+   "pages": [
+    {
+     "url": "https://trockadero.org/calendar/"
+    }
+   ]
   },
   {
    "slug": "lincoln-center-for-the-performing-arts",
@@ -1631,7 +1812,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "4 dates in window at https://www.lincolncenter.org/lincoln-center-at-home/calendar"
+   },
+   "pages": [
+    {
+     "url": "https://www.lincolncenter.org/lincoln-center-at-home/calendar"
+    }
+   ]
   },
   {
    "slug": "lincoln-center-theater",
@@ -1642,7 +1833,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (11 overall): https://www.lct.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.lct.org/"
+    }
+   ]
   },
   {
    "slug": "jalopy-theatre-and-school-of-folk-music",
@@ -1653,7 +1854,17 @@
    "default_discipline": "Music",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "15 dates in window at https://jalopytheatre.org/livemusic"
+   },
+   "pages": [
+    {
+     "url": "https://jalopytheatre.org/livemusic"
+    }
+   ]
   },
   {
    "slug": "the-louis-armstrong-house-museum",
@@ -1664,7 +1875,17 @@
    "default_discipline": "Music",
    "borough": "Queens",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (15 overall): https://www.louisarmstronghouse.org/events/"
+   },
+   "pages": [
+    {
+     "url": "https://www.louisarmstronghouse.org/events/"
+    }
+   ]
   },
   {
    "slug": "lower-manhattan-cultural-council",
@@ -1675,7 +1896,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (3 overall): https://lmcc.net/"
+   },
+   "pages": [
+    {
+     "url": "https://lmcc.net/"
+    }
+   ]
   },
   {
    "slug": "ma-yi-theater-company",
@@ -1686,7 +1917,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (6 overall): https://ma-yitheatre.org/shows"
+   },
+   "pages": [
+    {
+     "url": "https://ma-yitheatre.org/shows"
+    }
+   ]
   },
   {
    "slug": "mabou-mines",
@@ -1697,7 +1938,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (16 overall): https://www.maboumines.org/current/"
+   },
+   "pages": [
+    {
+     "url": "https://www.maboumines.org/current/"
+    }
+   ]
   },
   {
    "slug": "mama-foundation-for-the-arts",
@@ -1708,7 +1959,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (1 overall): https://www.mamafoundation.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.mamafoundation.org/"
+    }
+   ]
   },
   {
    "slug": "manhattan-theatre-club",
@@ -1719,7 +1980,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://www.manhattantheatreclub.com/"
+   },
+   "pages": [
+    {
+     "url": "https://www.manhattantheatreclub.com/"
+    }
+   ]
   },
   {
    "slug": "mark-morris-dance-group",
@@ -1730,7 +2001,17 @@
    "default_discipline": "Dance",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (3 overall): https://markmorrisdancegroup.org/the-dance-group/performances"
+   },
+   "pages": [
+    {
+     "url": "https://markmorrisdancegroup.org/the-dance-group/performances"
+    }
+   ]
   },
   {
    "slug": "martha-graham-dance-company",
@@ -1741,7 +2022,20 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://marthagraham.org/marthagraham.org/events; 3 dates in window at https://marthagraham.org/events/"
+   },
+   "pages": [
+    {
+     "url": "https://marthagraham.org/marthagraham.org/events"
+    },
+    {
+     "url": "https://marthagraham.org/events/"
+    }
+   ]
   },
   {
    "slug": "mastervoices",
@@ -1752,7 +2046,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (9 overall): https://www.mastervoices.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.mastervoices.org/"
+    }
+   ]
   },
   {
    "slug": "mcc-theater",
@@ -1763,7 +2067,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (4 overall): https://mcctheater.org/our-2026-27-season/"
+   },
+   "pages": [
+    {
+     "url": "https://mcctheater.org/our-2026-27-season/"
+    }
+   ]
   },
   {
    "slug": "miller-theatre",
@@ -1774,7 +2088,20 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "6 dates in window at https://www.millertheatre.com/events; 4 dates in window at https://www.millertheatre.com/"
+   },
+   "pages": [
+    {
+     "url": "https://www.millertheatre.com/events"
+    },
+    {
+     "url": "https://www.millertheatre.com/"
+    }
+   ]
   },
   {
    "slug": "mint-theater-company",
@@ -1785,7 +2112,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (1 overall): https://minttheater.org/readings/"
+   },
+   "pages": [
+    {
+     "url": "https://minttheater.org/readings/"
+    }
+   ]
   },
   {
    "slug": "monica-bill-barnes-company",
@@ -1796,7 +2133,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (10 overall): https://www.monicabillbarnes.com/calendar-1"
+   },
+   "pages": [
+    {
+     "url": "https://www.monicabillbarnes.com/calendar-1"
+    }
+   ]
   },
   {
    "slug": "move-nyc",
@@ -1807,7 +2154,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (34 overall): https://www.movenyc.nyc/events"
+   },
+   "pages": [
+    {
+     "url": "https://www.movenyc.nyc/events"
+    }
+   ]
   },
   {
    "slug": "movement-research",
@@ -1842,7 +2199,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (6 overall): https://namt.org/events/"
+   },
+   "pages": [
+    {
+     "url": "https://namt.org/events/"
+    }
+   ]
   },
   {
    "slug": "national-black-theatre",
@@ -1853,7 +2220,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (12 overall): https://nationalblacktheatre.org/season/2026-2027-season/"
+   },
+   "pages": [
+    {
+     "url": "https://nationalblacktheatre.org/season/2026-2027-season/"
+    }
+   ]
   },
   {
    "slug": "national-sawdust",
@@ -1864,7 +2241,20 @@
    "default_discipline": "Music",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "15 dates in window at https://www.nationalsawdust.org/performances-prev; 15 dates in window at https://www.nationalsawdust.org/performances"
+   },
+   "pages": [
+    {
+     "url": "https://www.nationalsawdust.org/performances-prev"
+    },
+    {
+     "url": "https://www.nationalsawdust.org/performances"
+    }
+   ]
   },
   {
    "slug": "new-dramatists",
@@ -1875,7 +2265,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (4 overall): https://www.newdramatists.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.newdramatists.org/"
+    }
+   ]
   },
   {
    "slug": "new-georges",
@@ -1886,7 +2286,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (5 overall): https://newgeorges.org/"
+   },
+   "pages": [
+    {
+     "url": "https://newgeorges.org/"
+    }
+   ]
   },
   {
    "slug": "new-music-usa",
@@ -1897,7 +2307,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "26 dates in window at https://newmusicusa.org/resources/event-calendar/"
+   },
+   "pages": [
+    {
+     "url": "https://newmusicusa.org/resources/event-calendar/"
+    }
+   ]
   },
   {
    "slug": "new-york-city-ballet",
@@ -1908,7 +2328,20 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "8 dates in window at https://www.nycballet.com/season-and-tickets/calendar; 5 dates in window at https://www.nycballet.com/"
+   },
+   "pages": [
+    {
+     "url": "https://www.nycballet.com/season-and-tickets/calendar"
+    },
+    {
+     "url": "https://www.nycballet.com/"
+    }
+   ]
   },
   {
    "slug": "new-york-city-center",
@@ -1935,7 +2368,12 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_calendar_found",
+    "checked": "2026-11-06",
+    "note": "no page with dates found; may need a manual calendar URL"
+   }
   },
   {
    "slug": "new-york-city-players",
@@ -1946,7 +2384,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (1 overall): https://www.nycplayers.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.nycplayers.org/"
+    }
+   ]
   },
   {
    "slug": "nyphil",
@@ -1995,7 +2443,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (3 overall): https://www.nypublicradio.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.nypublicradio.org/"
+    }
+   ]
   },
   {
    "slug": "new-york-stage-and-film",
@@ -2006,7 +2464,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (13 overall): https://www.newyorkstageandfilm.org/2026-summer-season"
+   },
+   "pages": [
+    {
+     "url": "https://www.newyorkstageandfilm.org/2026-summer-season"
+    }
+   ]
   },
   {
    "slug": "new-york-theatre-ballet",
@@ -2017,7 +2485,12 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_calendar_found",
+    "checked": "2026-11-06",
+    "note": "no page with dates found; may need a manual calendar URL"
+   }
   },
   {
    "slug": "new-york-theatre-workshop",
@@ -2049,7 +2522,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (1 overall): https://www.ny4ca.org/programs"
+   },
+   "pages": [
+    {
+     "url": "https://www.ny4ca.org/programs"
+    }
+   ]
   },
   {
    "slug": "opera-america",
@@ -2060,7 +2543,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (10 overall): https://www.operaamerica.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.operaamerica.org/"
+    }
+   ]
   },
   {
    "slug": "orchestra-of-st-luke-s",
@@ -2071,7 +2564,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "15 dates in window at https://oslmusic.org/calendar"
+   },
+   "pages": [
+    {
+     "url": "https://oslmusic.org/calendar"
+    }
+   ]
   },
   {
    "slug": "orpheus-chamber-orchestra",
@@ -2082,7 +2585,17 @@
    "default_discipline": "Music",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "8 dates in window at https://orpheusnyc.org/tickets-and-concerts"
+   },
+   "pages": [
+    {
+     "url": "https://orpheusnyc.org/tickets-and-concerts"
+    }
+   ]
   },
   {
    "slug": "page-73-productions",
@@ -2093,7 +2606,17 @@
    "default_discipline": "Theater",
    "borough": "Brooklyn",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (2 overall): https://page73.org/productions-1"
+   },
+   "pages": [
+    {
+     "url": "https://page73.org/productions-1"
+    }
+   ]
   },
   {
    "slug": "pan-asian-repertory-theatre",
@@ -2104,7 +2627,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (8 overall): https://www.panasianrep.org/mainstage-202627"
+   },
+   "pages": [
+    {
+     "url": "https://www.panasianrep.org/mainstage-202627"
+    }
+   ]
   },
   {
    "slug": "park-avenue-armory",
@@ -2115,7 +2648,12 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_calendar_found",
+    "checked": "2026-11-06",
+    "note": "no page with dates found; may need a manual calendar URL"
+   }
   },
   {
    "slug": "parsons-dance",
@@ -2126,7 +2664,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 2 dates in the window (21 overall): https://www.parsonsdance.org/upcoming-performances"
+   },
+   "pages": [
+    {
+     "url": "https://www.parsonsdance.org/upcoming-performances"
+    }
+   ]
   },
   {
    "slug": "paul-taylor-dance-company",
@@ -2137,7 +2685,17 @@
    "default_discipline": "Dance",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (4 overall): https://paultaylordance.org/performances/worldwide/"
+   },
+   "pages": [
+    {
+     "url": "https://paultaylordance.org/performances/worldwide/"
+    }
+   ]
   },
   {
    "slug": "the-people-s-theatre",
@@ -2148,7 +2706,20 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "3 dates in window at https://thepeoplestheatre.org/; 3 dates in window at https://thepeoplestheatre.org/26-27-season/"
+   },
+   "pages": [
+    {
+     "url": "https://thepeoplestheatre.org/"
+    },
+    {
+     "url": "https://thepeoplestheatre.org/26-27-season/"
+    }
+   ]
   },
   {
    "slug": "performance-space-new-york",
@@ -2159,7 +2730,20 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "ok",
+    "checked": "2026-11-06",
+    "note": "4 dates in window at https://performancespacenewyork.org/series/2026-2027-season/; 4 dates in window at https://performancespacenewyork.org/"
+   },
+   "pages": [
+    {
+     "url": "https://performancespacenewyork.org/series/2026-2027-season/"
+    },
+    {
+     "url": "https://performancespacenewyork.org/"
+    }
+   ]
   },
   {
    "slug": "pick-up-performance-co",
@@ -2170,7 +2754,17 @@
    "default_discipline": "Multidisciplinary",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (11 overall): https://www.pickupperformance.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.pickupperformance.org/"
+    }
+   ]
   },
   {
    "slug": "pink-fang",
@@ -2181,7 +2775,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 0 dates in the window (5 overall): https://pinkfang.org/engagement/events"
+   },
+   "pages": [
+    {
+     "url": "https://pinkfang.org/engagement/events"
+    }
+   ]
   },
   {
    "slug": "playwrights-horizons",
@@ -2192,7 +2796,17 @@
    "default_discipline": "Theater",
    "borough": "Manhattan",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_events_found",
+    "checked": "2026-11-06",
+    "note": "best page has 1 dates in the window (3 overall): https://www.playwrightshorizons.org/"
+   },
+   "pages": [
+    {
+     "url": "https://www.playwrightshorizons.org/"
+    }
+   ]
   },
   {
    "slug": "pregones-puerto-rican-traveling-theater",

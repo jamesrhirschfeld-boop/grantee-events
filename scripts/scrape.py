@@ -244,7 +244,7 @@ def scrape_source(ctx, src, end, days):
 def run_one(slug):
     """Child-process entry point: scrape a single organization and write its raw file."""
     cfg = load_sources()
-    days = cfg.get("window_days", 31)
+    days = cfg.get("window_days", 60)
     end = dt.date.today() + dt.timedelta(days=days)
     src = next(s for s in cfg["sources"] if s["slug"] == slug)
     RAW.mkdir(parents=True, exist_ok=True)
