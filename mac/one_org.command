@@ -10,6 +10,7 @@ if [ -z "$SLUGS" ]; then read -r -p "Organization slug(s), e.g. new-york-city-ce
 PY=.venv/bin/python
 $PY scripts/scrape.py $SLUGS
 $PY scripts/extract.py $SLUGS
+$PY scripts/times.py $SLUGS
 echo
 for s in $SLUGS; do
   echo "--- $s"
