@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T13:35:13+00:00",
+ "generated_at": "2026-11-06T13:54:39+00:00",
  "window": {
   "start": "2026-11-06",
   "end": "2027-01-05"
@@ -177,7 +177,7 @@
   "Miller Theatre": 6,
   "Movement Research": 5,
   "National Black Theatre": 2,
-  "National Sawdust": 22,
+  "National Sawdust": 23,
   "New Georges": 2,
   "New Music USA": 33,
   "New York City Ballet": 48,
@@ -697,7 +697,7 @@
   },
   "National Sawdust": {
    "status": "ok",
-   "events": 22
+   "events": 23
   },
   "New Dramatists": {
    "status": "empty",
@@ -2530,6 +2530,18 @@
   {
    "date": "2026-11-06",
    "time": "7:30 PM",
+   "title": "National Sawdust and Sarah Williams Present Daniela Mack: 'SUR' Songs of Astor Piazzolla with JP Jofre and His Quintet",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Mezzo-soprano Daniela Mack and bandoneonist JP Jofre with his quintet perform Piazzolla songs from the album SUR.",
+   "discipline": "Music",
+   "genre": "Argentine tango / classical",
+   "url": "https://www.nationalsawdust.org/event/daniela-mack-sur-album-release-co-produced-by-national-sawdust-and-sarah-williams",
+   "notes": "Album release concert"
+  },
+  {
+   "date": "2026-11-06",
+   "time": "7:30 PM",
    "title": "In the Heights",
    "org": "New York City Center",
    "location": "New York City Center, 131 W 55th St",
@@ -2838,18 +2850,6 @@
    "genre": "play",
    "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": "Page only says previews began Nov 5, 2026; no performance schedule or end date is given, so this entry marks the run's first date in the window only."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Daniela Mack: 'SUR' Songs of Astor Piazzolla with JP Jofre and His Quintet",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Mezzo-soprano Daniela Mack and bandoneonist JP Jofre with a quintet perform Piazzolla's music, marking the release of the album SUR.",
-   "discipline": "Music",
-   "genre": "Argentine tango / classical vocal",
-   "url": "https://www.nationalsawdust.org/event/daniela-mack-sur-album-release-co-produced-by-national-sawdust-and-sarah-williams",
-   "notes": "Album release; co-presented with Sarah Williams. Start time not stated on page."
   },
   {
    "date": "2026-11-06",
@@ -3214,6 +3214,18 @@
   {
    "date": "2026-11-07",
    "time": "7:30 PM",
+   "title": "Morley — Meditations on the Gift of Awe Record Premiere Celebration",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Morley performs her song cycle of vocal soundscapes, rhythm and improvisation with a vocal trio and chamber ensemble.",
+   "discipline": "Music",
+   "genre": "genre-defying song cycle",
+   "url": "https://www.nationalsawdust.org/event/morley-meditations-on-the-gift-of-awe-record-release-celebration",
+   "notes": "Record release celebration"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:30 PM",
    "title": "RAM: Thirteen artists, One night",
    "org": "New Music USA",
    "location": "Tenri Cultural Center",
@@ -3486,18 +3498,6 @@
    "genre": "tribute performance",
    "url": "https://lamama.org/celebrating-50-years-a-spiderwoman-gala/",
    "notes": "Titled a gala; page describes it as a tribute performance. Time not stated."
-  },
-  {
-   "date": "2026-11-07",
-   "time": "",
-   "title": "Morley — Meditations on the Gift of Awe Record Premiere Celebration",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Morley performs a prayerful, genre-blending song cycle with vocal trio and chamber ensemble, plus songs from her wider catalogue.",
-   "discipline": "Music",
-   "genre": "genre-defying song cycle",
-   "url": "https://www.nationalsawdust.org/event/morley-meditations-on-the-gift-of-awe-record-release-celebration",
-   "notes": "Record release celebration. Start time not stated on page."
   },
   {
    "date": "2026-11-07",
@@ -4018,6 +4018,18 @@
   {
    "date": "2026-11-11",
    "time": "7:30 PM",
+   "title": "Bailen: Swim!!! At Your Own Risk Tour with support from Rebecca McCartney",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Sibling trio Bailen play indie pop and folk-rock with close three-part harmonies, with Rebecca McCartney opening.",
+   "discipline": "Music",
+   "genre": "indie pop / folk-rock",
+   "url": "https://www.nationalsawdust.org/event/bailen-swim-at-your-own-risk-tour",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:30 PM",
    "title": "In the Heights",
    "org": "New York City Center",
    "location": "New York City Center, 131 W 55th St",
@@ -4098,18 +4110,6 @@
    "genre": "puppetry",
    "url": "https://lamama.org/endless-forms/",
    "notes": "Puppet Festival 2026; run Nov 11-14. Showtimes not stated."
-  },
-  {
-   "date": "2026-11-11",
-   "time": "",
-   "title": "Bailen: Swim!!! At Your Own Risk Tour with support from Rebecca McCartney",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Sibling trio Bailen bring their indie pop and folk-rock songs and close harmonies to Brooklyn, with Rebecca McCartney opening.",
-   "discipline": "Music",
-   "genre": "indie pop / folk-rock",
-   "url": "https://www.nationalsawdust.org/event/bailen-swim-at-your-own-risk-tour",
-   "notes": "Start time not stated on page."
   },
   {
    "date": "2026-11-12",
@@ -4341,6 +4341,18 @@
   },
   {
    "date": "2026-11-12",
+   "time": "8:00 PM",
+   "title": "LPR Presents: Diles que no me maten with support from Military Genius",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Mexico City art-rock band performs material from their album Escrito en Agua, with Military Genius in support.",
+   "discipline": "Music",
+   "genre": "art rock",
+   "url": "https://www.nationalsawdust.org/event/lpr-presents-diles-que-no-me-maten",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-12",
    "time": "",
    "title": "Tethering: An Arcade with Deep Soul Ties",
    "org": "CultureHub",
@@ -4398,18 +4410,6 @@
    "genre": "eco-opera/puppetry",
    "url": "https://lamama.org/tiresiaspresentsnewweirdfuture/",
    "notes": "Puppet Festival 2026; run Nov 12-15. Showtimes not stated."
-  },
-  {
-   "date": "2026-11-12",
-   "time": "",
-   "title": "LPR Presents: Diles que no me maten with support from Military Genius",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Mexico City art-rock band Diles que no me maten play material from their album Escrito en Agua, with Military Genius in support.",
-   "discipline": "Music",
-   "genre": "art rock",
-   "url": "https://www.nationalsawdust.org/event/lpr-presents-diles-que-no-me-maten",
-   "notes": "Start time not stated on page."
   },
   {
    "date": "2026-11-12",
@@ -4606,6 +4606,18 @@
   {
    "date": "2026-11-13",
    "time": "7:30 PM",
+   "title": "Surprise Chef with support from Ben Hackett (Early Set)",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Australian quartet Surprise Chef play cinematic, soulful instrumental music drawing on film scores, funk-jazz and hip hop samples.",
+   "discipline": "Music",
+   "genre": "instrumental jazz-funk",
+   "url": "https://www.nationalsawdust.org/event/surprise-chef-early-set",
+   "notes": "Early set"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:30 PM",
    "title": "In the Heights",
    "org": "New York City Center",
    "location": "New York City Center, 131 W 55th St",
@@ -4713,6 +4725,18 @@
   },
   {
    "date": "2026-11-13",
+   "time": "10:30 PM",
+   "title": "Surprise Chef with support from Ben Hackett (Late Set)",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Australian quartet Surprise Chef play cinematic, soulful instrumental music drawing on film scores, funk-jazz and hip hop samples.",
+   "discipline": "Music",
+   "genre": "instrumental jazz-funk",
+   "url": "https://www.nationalsawdust.org/event/surprise-chef-late-set",
+   "notes": "Late set"
+  },
+  {
+   "date": "2026-11-13",
    "time": "",
    "title": "a living altar",
    "org": "JACK Arts",
@@ -4734,30 +4758,6 @@
    "genre": "Latin jazz / salsa",
    "url": "https://jazz.org/concert/the-eddie-palmieri-experience-an-all-star-celebration/",
    "notes": "Showtime not stated on page."
-  },
-  {
-   "date": "2026-11-13",
-   "time": "",
-   "title": "Surprise Chef with support from Ben Hackett (Early Set)",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Melbourne-area quartet Surprise Chef play cinematic, soulful instrumental music drawing on film scores, funk-leaning jazz and hip hop sampling.",
-   "discipline": "Music",
-   "genre": "instrumental jazz/funk",
-   "url": "https://www.nationalsawdust.org/event/surprise-chef-early-set",
-   "notes": "Early set; start time not stated on page."
-  },
-  {
-   "date": "2026-11-13",
-   "time": "",
-   "title": "Surprise Chef with support from Ben Hackett (Late Set)",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Melbourne-area quartet Surprise Chef play cinematic, soulful instrumental music drawing on film scores, funk-leaning jazz and hip hop sampling.",
-   "discipline": "Music",
-   "genre": "instrumental jazz/funk",
-   "url": "https://www.nationalsawdust.org/event/surprise-chef-late-set",
-   "notes": "Late set; start time not stated on page."
   },
   {
    "date": "2026-11-13",
@@ -5014,6 +5014,18 @@
   {
    "date": "2026-11-14",
    "time": "7:00 PM",
+   "title": "Murmrr Presents Numero Group - 23rd Anniversary Celebration w/ Laraaji, The Album Leaf, Shira Small",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "A night of live music from the Numero Group catalog featuring Laraaji, The Album Leaf and Shira Small.",
+   "discipline": "Music",
+   "genre": "eclectic / indie",
+   "url": "https://www.nationalsawdust.org/event/murmrr-presents-numero-group-23rd-anniversary-celebration-w-laraaji-the-album-leaf-shira-small-11-14-26",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:00 PM",
    "title": "Lisa Marie Simmons",
    "org": "PAC NYC",
    "location": "Lobby Stage, PAC NYC",
@@ -5262,18 +5274,6 @@
    "genre": "work-in-progress showing",
    "url": "https://lmcc.net/events/toad-mountain/",
    "notes": "Start time not stated on page; year inferred as 2026 from the listing's position on the page."
-  },
-  {
-   "date": "2026-11-14",
-   "time": "",
-   "title": "Murmrr Presents Numero Group – 23rd Anniversary Celebration w/ Laraaji, The Album Leaf, Shira Small",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "A night of live music from the Numero Group catalog with Laraaji, The Album Leaf and Shira Small, celebrating the label's 23rd anniversary.",
-   "discipline": "Music",
-   "genre": "indie / ambient",
-   "url": "https://www.nationalsawdust.org/event/murmrr-presents-numero-group-23rd-anniversary-celebration-w-laraaji-the-album-leaf-shira-small-11-14-26",
-   "notes": "Start time not stated on page."
   },
   {
    "date": "2026-11-14",
@@ -5782,6 +5782,18 @@
   {
    "date": "2026-11-17",
    "time": "7:30 PM",
+   "title": "makemake Presents: Wholly Unwinding (A New Musical) - NYC Premiere",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "A new musical blending folk concert, ritual and dance party, inviting the audience on a journey of self-discovery.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nationalsawdust.org/event/visionintoart-in-residence-wholly-unwinding-the-canticle-of-cerebral-palsy-the-songs-of-my-scars-a-new-musical",
+   "notes": "Part of makemake"
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:30 PM",
    "title": "Orpheus & Isata Kanneh-Mason",
    "org": "Orpheus Chamber Orchestra",
    "location": "Zankel Hall at Carnegie Hall, New York, NY",
@@ -5790,18 +5802,6 @@
    "genre": "classical",
    "url": "https://orpheusnyc.org/tickets-and-concerts/isata-kanneh-mason",
    "notes": "Tickets $32 - $115"
-  },
-  {
-   "date": "2026-11-17",
-   "time": "",
-   "title": "makemake Presents: Wholly Unwinding (A New Musical) – NYC Premiere",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "A new musical blending folk concert, ritual and dance party, inviting the audience on a journey of self-discovery and healing.",
-   "discipline": "Theater",
-   "genre": "new musical",
-   "url": "https://www.nationalsawdust.org/event/visionintoart-in-residence-wholly-unwinding-the-canticle-of-cerebral-palsy-the-songs-of-my-scars-a-new-musical",
-   "notes": "Part of makemake. Start time not stated on page."
   },
   {
    "date": "2026-11-18",
@@ -5937,6 +5937,18 @@
   },
   {
    "date": "2026-11-18",
+   "time": "7:30 PM",
+   "title": "makemake Presents: Opera Praktikos' La Sonnambula",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Opera Praktikos reimagines Bellini's La Sonnambula with spoken, sung and signed languages woven together for accessibility.",
+   "discipline": "Opera",
+   "genre": "accessible opera",
+   "url": "https://www.nationalsawdust.org/event/opera-praktikos-presents-la-sonnambula",
+   "notes": "Part of makemake; also listed by New Music USA"
+  },
+  {
+   "date": "2026-11-18",
    "time": "8:00 PM",
    "title": "Qasim Naqvi: Slow Television",
    "org": "International Contemporary Ensemble",
@@ -5982,18 +5994,6 @@
    "genre": "variety",
    "url": "https://tickets.frigid.nyc/event/6897:646",
    "notes": "Start time not stated on page."
-  },
-  {
-   "date": "2026-11-18",
-   "time": "",
-   "title": "makemake Presents: Opera Praktikos' La Sonnambula",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Opera Praktikos reimagines Bellini's La Sonnambula with spoken, sung and signed language integrated from the start.",
-   "discipline": "Opera",
-   "genre": "accessible opera",
-   "url": "https://www.nationalsawdust.org/event/opera-praktikos-presents-la-sonnambula",
-   "notes": "Part of makemake. Start time not stated on page.; also listed by New Music USA"
   },
   {
    "date": "2026-11-19",
@@ -6054,6 +6054,18 @@
    "genre": "bilingual new play",
    "url": "",
    "notes": "Run Nov 6–22; Thu & Fri 7 PM, Sat & Sun 3 PM. Tickets on sale."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 PM",
+   "title": "makemake Presents: Sensorium World: Disability, Tech Optimism and Voice",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "A part-dystopian opera about artificial intelligence as a tool for agency, exploring what defines a voice.",
+   "discipline": "Opera",
+   "genre": "experimental opera / technology",
+   "url": "https://www.nationalsawdust.org/event/visionintoart-in-residence-sensorium-world",
+   "notes": "Part of makemake"
   },
   {
    "date": "2026-11-19",
@@ -6201,6 +6213,18 @@
   },
   {
    "date": "2026-11-19",
+   "time": "10:00 PM",
+   "title": "makemake Presents Ecstatica feat. Cuéntame",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Debut of a late-night DJ series curated by disabled-queer-led nonprofit Cuéntame, with sets from its DJ cohort.",
+   "discipline": "Music",
+   "genre": "DJ / dance night",
+   "url": "https://www.nationalsawdust.org/event/makemake-presents-ecstatica-feat-cuentame",
+   "notes": "DJ night"
+  },
+  {
+   "date": "2026-11-19",
    "time": "",
    "title": "Einstein on the Beach–50th Anniversary Concert",
    "org": "Brooklyn Academy of Music",
@@ -6234,18 +6258,6 @@
    "genre": "dance puppetry",
    "url": "https://lamama.org/everything-that-follows/",
    "notes": "Puppet Festival 2026; run Nov 19-23. Showtimes not stated."
-  },
-  {
-   "date": "2026-11-19",
-   "time": "",
-   "title": "makemake Presents: Sensorium World: Disability, Tech Optimism and Voice",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Sensorium Ex, part dystopian opera and part technology experiment, imagines AI as a tool for agency and explores what a voice can be.",
-   "discipline": "Opera",
-   "genre": "experimental opera / tech",
-   "url": "https://www.nationalsawdust.org/event/visionintoart-in-residence-sensorium-world",
-   "notes": "Part of makemake. Start time not stated on page."
   },
   {
    "date": "2026-11-19",
@@ -6525,6 +6537,18 @@
   },
   {
    "date": "2026-11-20",
+   "time": "9:30 PM",
+   "title": "makemake Presents Ecstatica feat. Joy Guidry",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Bassoonist and performance artist Joy Guidry closes makemake with a live ambient, introspective set.",
+   "discipline": "Music",
+   "genre": "experimental / ambient",
+   "url": "https://www.nationalsawdust.org/event/makemake-presents-ecstatica-feat-joy-guidry",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
    "time": "",
    "title": "The Curious Incident of the Dog in the Night-Time",
    "org": "A.R.T./New York",
@@ -6582,18 +6606,6 @@
    "genre": "jazz big band / Great American Songbook",
    "url": "https://jazz.org/concert/journey-through-jazz-the-great-american-songbook-the-jazz-at-lincoln-center-orchestra/",
    "notes": "Showtime and specific hall not stated on page."
-  },
-  {
-   "date": "2026-11-20",
-   "time": "",
-   "title": "makemake Presents Ecstatica feat. Joy Guidry",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Bassoonist, improviser and performance artist Joy Guidry closes makemake with a live performance of ambient, introspective soundscapes.",
-   "discipline": "Music",
-   "genre": "experimental / ambient",
-   "url": "https://www.nationalsawdust.org/event/makemake-presents-ecstatica-feat-joy-guidry",
-   "notes": "Part of makemake. Start time not stated on page."
   },
   {
    "date": "2026-11-20",
@@ -6814,6 +6826,18 @@
   {
    "date": "2026-11-21",
    "time": "7:30 PM",
+   "title": "LPR Presents: Rising Appalachia with support from Viv & Riley",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Rising Appalachia bring their harmony-rich blend of Southern folk and New Orleans influences, with Viv & Riley opening.",
+   "discipline": "Music",
+   "genre": "folk",
+   "url": "https://www.nationalsawdust.org/event/lpr-presents-rising-appalachia-with-support-from-viv-riley",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:30 PM",
    "title": "LAST LIGHT - A Ballet by Miro Magloire to music by Wang Lu",
    "org": "New Music USA",
    "location": "Mark Morris Dance Center, 3 Lafayette Avenue, Brooklyn, NY 11217",
@@ -6994,18 +7018,6 @@
   {
    "date": "2026-11-21",
    "time": "",
-   "title": "LPR Presents: Rising Appalachia with support from Viv & Riley",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Rising Appalachia bring their blend of Southern folk, New Orleans and Atlanta influences and close harmonies, with Viv & Riley supporting.",
-   "discipline": "Music",
-   "genre": "folk",
-   "url": "https://www.nationalsawdust.org/event/lpr-presents-rising-appalachia-with-support-from-viv-riley",
-   "notes": "Start time not stated on page."
-  },
-  {
-   "date": "2026-11-21",
-   "time": "",
    "title": "Barnard/Columbia Dances at New York Live Arts",
    "org": "New York Live Arts",
    "location": "New York Live Arts, 219 W 19th Street",
@@ -7162,6 +7174,18 @@
   {
    "date": "2026-11-22",
    "time": "7:30 PM",
+   "title": "LPR Presents: Rising Appalachia",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "A second night of Rising Appalachia's harmony-driven Southern folk and swamp-culture-inflected music.",
+   "discipline": "Music",
+   "genre": "folk",
+   "url": "https://www.nationalsawdust.org/event/lpr-presents-rising-appalachia",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "7:30 PM",
    "title": "A Christmas Carol",
    "org": "PAC NYC",
    "location": "Perelman Performing Arts Center, PAC NYC",
@@ -7206,18 +7230,6 @@
    "genre": "world dance",
    "url": "https://app.dvforms.net/api/dv/50jvkp",
    "notes": "Venue, time and description not stated on the page; NYC location not confirmed by the page text."
-  },
-  {
-   "date": "2026-11-22",
-   "time": "",
-   "title": "LPR Presents: Rising Appalachia",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "A second night with Rising Appalachia, known for their harmonies, songcatching and storytelling rooted in Southern folk traditions.",
-   "discipline": "Music",
-   "genre": "folk",
-   "url": "https://www.nationalsawdust.org/event/lpr-presents-rising-appalachia",
-   "notes": "Start time not stated on page."
   },
   {
    "date": "2026-11-23",
@@ -7858,6 +7870,18 @@
   {
    "date": "2026-12-01",
    "time": "7:30 PM",
+   "title": "Hannah Ishizaki, Chiori Miyagawa, and Mark Campbell: A Thousand Generations",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Presentation of a one-act chamber opera for three vocalists, ensemble and electronics, based on the Japanese tale of the crane's gratitude.",
+   "discipline": "Opera",
+   "genre": "new chamber opera",
+   "url": "https://www.nationalsawdust.org/event/hannah-ishizaki-chiori-miyagawa-and-mark-campbell-a-thousand-generations",
+   "notes": "opera in development"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "7:30 PM",
    "title": "Rouvali Conducts Kevin Puts World Premiere Featuring Judith LeClair",
    "org": "New York Philharmonic",
    "location": "Wu Tsai Theater, David Geffen Hall at Lincoln Center",
@@ -7866,18 +7890,6 @@
    "genre": "classical orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
    "notes": ""
-  },
-  {
-   "date": "2026-12-01",
-   "time": "",
-   "title": "Hannah Ishizaki, Chiori Miyagawa, and Mark Campbell: A Thousand Generations",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "A one-act chamber opera in 11 scenes for three vocalists, ensemble and electronics, based on the Japanese folk tale of the crane's gratitude.",
-   "discipline": "Opera",
-   "genre": "new chamber opera",
-   "url": "https://www.nationalsawdust.org/event/hannah-ishizaki-chiori-miyagawa-and-mark-campbell-a-thousand-generations",
-   "notes": "Work in progress; start time not stated on page."
   },
   {
    "date": "2026-12-01",
@@ -8578,6 +8590,18 @@
   {
    "date": "2026-12-05",
    "time": "8:00 PM",
+   "title": "Handel + Hendrix with Dither, R.B. Schlather, and Ruckus",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Guitar quartet Dither premiere Hendrix-inspired works, followed by Ruckus and director R.B. Schlather's chamber-scale Handel's Deidamia.",
+   "discipline": "Opera",
+   "genre": "early music / new music",
+   "url": "https://www.nationalsawdust.org/event/handel-hendrix-with-dither-r-b-schlather-and-ruckus-12-5-26",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "8:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -8634,18 +8658,6 @@
    "genre": "gospel / choral",
    "url": "https://web.ovationtix.com/trs/pe.c/11881366",
    "notes": "Start time not stated on page; reservations via the linked page."
-  },
-  {
-   "date": "2026-12-05",
-   "time": "",
-   "title": "Handel + Hendrix with Dither, R.B. Schlather, and Ruckus",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Guitar quartet Dither premiere Hendrix-inspired commissions, followed by Ruckus and director R.B. Schlather's chamber-scale staging of Handel's Deidamia.",
-   "discipline": "Opera",
-   "genre": "early music / new music",
-   "url": "https://www.nationalsawdust.org/event/handel-hendrix-with-dither-r-b-schlather-and-ruckus-12-5-26",
-   "notes": "Start time not stated on page."
   },
   {
    "date": "2026-12-05",
@@ -8841,6 +8853,18 @@
   },
   {
    "date": "2026-12-06",
+   "time": "7:30 PM",
+   "title": "LPR Presents: S. Carey",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Multi-instrumentalist and Bon Iver member Sean Carey performs his nature-themed songwriting, including music from Watercress.",
+   "discipline": "Music",
+   "genre": "indie folk",
+   "url": "https://www.nationalsawdust.org/event/lpr-presents-s-carey",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
    "time": "8:00 PM",
    "title": "The 8th",
    "org": "Culture Lab LIC",
@@ -8910,18 +8934,6 @@
    "genre": "theatre and dance",
    "url": "https://kupferbergcenter.org/event/sensations/",
    "notes": "Run listed Thu-Sun, Dec 3-6; showtime not stated."
-  },
-  {
-   "date": "2026-12-06",
-   "time": "",
-   "title": "LPR Presents: S. Carey",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Multi-instrumentalist and Bon Iver drummer Sean Carey performs solo work, including songs from his latest release, Watercress.",
-   "discipline": "Music",
-   "genre": "indie folk",
-   "url": "https://www.nationalsawdust.org/event/lpr-presents-s-carey",
-   "notes": "Start time not stated on page."
   },
   {
    "date": "2026-12-06",
@@ -9454,6 +9466,18 @@
   {
    "date": "2026-12-10",
    "time": "7:30 PM",
+   "title": "Hildegard Commission Concert 2026",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Premieres by four winning young composers plus works by finalists, responding to Hildegard von Bingen's illustrations with animations and projections.",
+   "discipline": "Music",
+   "genre": "contemporary classical",
+   "url": "https://www.nationalsawdust.org/event/hildegard-commission-concert-2026",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7:30 PM",
    "title": "Candlelight Christmas",
    "org": "Voices of Ascension",
    "location": "Church of the Ascension",
@@ -9498,18 +9522,6 @@
    "genre": "radio play",
    "url": "https://nationalblacktheatre.org/production/home-going/",
    "notes": "Listed run Dec 10-13, 2026; page gives no individual showtimes, so only the first date is listed. Venue street address not stated on page."
-  },
-  {
-   "date": "2026-12-10",
-   "time": "",
-   "title": "Hildegard Commission Concert 2026",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Premieres by four winning composers, plus works by finalists, responding to Hildegard von Bingen's illustrations with animation and projections.",
-   "discipline": "Music",
-   "genre": "contemporary classical",
-   "url": "https://www.nationalsawdust.org/event/hildegard-commission-concert-2026",
-   "notes": "Start time not stated on page."
   },
   {
    "date": "2026-12-10",
@@ -9582,6 +9594,18 @@
    "genre": "Baroque",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/bach-and-sons-passing-the-torch",
    "notes": "Baroque Festival"
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:30 PM",
+   "title": "inti figgis-vizueta's Music for Transitions with Andrew Yee and Rothko String Quartet",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Composer inti figgis-vizueta presents her debut album live with cellist Andrew Yee and the Rothko String Quartet.",
+   "discipline": "Music",
+   "genre": "contemporary classical / improvisation",
+   "url": "https://www.nationalsawdust.org/event/inti-figgis-vizuetas-music-for-transitions-with-andrew-yee-and-rothko-string-quartet",
+   "notes": ""
   },
   {
    "date": "2026-12-11",
@@ -9730,18 +9754,6 @@
   {
    "date": "2026-12-11",
    "time": "",
-   "title": "inti figgis-vizueta's Music for Transitions with Andrew Yee and Rothko String Quartet",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Composer inti figgis-vizueta presents her debut album with cellist Andrew Yee and the Rothko String Quartet, exploring Indigenous heritage and trans identity.",
-   "discipline": "Music",
-   "genre": "contemporary classical / improvisation",
-   "url": "https://www.nationalsawdust.org/event/inti-figgis-vizuetas-music-for-transitions-with-andrew-yee-and-rothko-string-quartet",
-   "notes": "Start time not stated on page."
-  },
-  {
-   "date": "2026-12-11",
-   "time": "",
    "title": "Condolence Or A Rug & An Elf",
    "org": "Pick Up Performance Co.",
    "location": "New York Live Arts",
@@ -9873,6 +9885,18 @@
   },
   {
    "date": "2026-12-12",
+   "time": "7:30 PM",
+   "title": "Caleb Wheeler Curtis & Jason Moran: \"Incantation\" Album Release Celebration",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Saxophonist Caleb Wheeler Curtis and pianist Jason Moran celebrate their album Incantation.",
+   "discipline": "Music",
+   "genre": "jazz",
+   "url": "https://www.nationalsawdust.org/event/caleb-wheeler-curtis-jason-moran-incantation-album-release-celebration",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
    "time": "8:00 PM",
    "title": "Daniil Trifonov, Piano",
    "org": "Carnegie Hall",
@@ -9990,18 +10014,6 @@
    "genre": "modern dance",
    "url": "https://marthagraham.org/studioseries/",
    "notes": "Part of the Studio Series. Showtime not stated on page."
-  },
-  {
-   "date": "2026-12-12",
-   "time": "",
-   "title": "Caleb Wheeler Curtis & Jason Moran: \"Incantation\" Album Release Celebration",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Saxophonist Caleb Wheeler Curtis and pianist Jason Moran celebrate their album Incantation with a duo performance.",
-   "discipline": "Music",
-   "genre": "jazz",
-   "url": "https://www.nationalsawdust.org/event/caleb-wheeler-curtis-jason-moran-incantation-album-release-celebration",
-   "notes": "Album release; start time not stated on page."
   },
   {
    "date": "2026-12-12",
@@ -10209,6 +10221,18 @@
   },
   {
    "date": "2026-12-13",
+   "time": "7:30 PM",
+   "title": "Creatine Price Presents The Drag Messiah",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "A drag reimagining of Handel's Messiah led by tenor Creatine Price with singers and instrumentalists.",
+   "discipline": "Multidisciplinary",
+   "genre": "drag / baroque",
+   "url": "https://www.nationalsawdust.org/event/creatine-price-presents-the-drag-messiah-12-13-26",
+   "notes": "First of two nights"
+  },
+  {
+   "date": "2026-12-13",
    "time": "8:00 PM",
    "title": "Michael Daves & Jacob Jolliff",
    "org": "Jalopy Theatre and School of Folk Music",
@@ -10232,16 +10256,16 @@
    "notes": "Start time not stated on page."
   },
   {
-   "date": "2026-12-13",
-   "time": "",
+   "date": "2026-12-14",
+   "time": "7:30 PM",
    "title": "Creatine Price Presents The Drag Messiah",
    "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "A drag reimagining of Handel's Messiah with tenor Creatine Price, singers and instrumentalists, mixing baroque grandeur with irreverent theatricality.",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "A drag reimagining of Handel's Messiah led by tenor Creatine Price with singers and instrumentalists.",
    "discipline": "Multidisciplinary",
    "genre": "drag / baroque",
-   "url": "https://www.nationalsawdust.org/event/creatine-price-presents-the-drag-messiah-12-13-26",
-   "notes": "Two-night run; start time not stated on page."
+   "url": "https://www.nationalsawdust.org/event/creatine-price-presents-the-drag-messiah-12-14-26",
+   "notes": "Second of two nights"
   },
   {
    "date": "2026-12-14",
@@ -10278,18 +10302,6 @@
    "genre": "classical",
    "url": "https://www.kaufmanmusiccenter.org/mch/event/schuberts-death-and-the-maiden-quartet/",
    "notes": "Series blends commentary with live performance; start time not stated."
-  },
-  {
-   "date": "2026-12-14",
-   "time": "",
-   "title": "Creatine Price Presents The Drag Messiah",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "A drag reimagining of Handel's Messiah with tenor Creatine Price, singers and instrumentalists, mixing baroque grandeur with irreverent theatricality.",
-   "discipline": "Multidisciplinary",
-   "genre": "drag / baroque",
-   "url": "https://www.nationalsawdust.org/event/creatine-price-presents-the-drag-messiah-12-14-26",
-   "notes": "Second night of two; start time not stated on page."
   },
   {
    "date": "2026-12-15",
@@ -10450,6 +10462,18 @@
   {
    "date": "2026-12-16",
    "time": "7:30 PM",
+   "title": "National Sawdust Presents: Silkroad Up-Close featuring Yacouba Sissoko & Mike Block Duo and Maeve Gilchrist and Seamus Egan",
+   "org": "National Sawdust",
+   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
+   "description": "Silkroad Ensemble members lead intimate sets with their own collaborators and traditions.",
+   "discipline": "Music",
+   "genre": "world music",
+   "url": "https://www.nationalsawdust.org/event/national-sawdust-presents-silkroad-up-close-featuring-yacouba-sissoko-mike-block-duo-and-maeve-gilchrist-and-seamus-egan",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-16",
+   "time": "7:30 PM",
    "title": "Orpheus & Anthony McGill",
    "org": "Orpheus Chamber Orchestra",
    "location": "The 92nd Street Y, New York, NY",
@@ -10470,18 +10494,6 @@
    "genre": "holiday jazz big band",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
    "notes": "Run listed as Dec 15–20; individual showtimes not stated."
-  },
-  {
-   "date": "2026-12-16",
-   "time": "",
-   "title": "National Sawdust Presents: Silkroad Up-Close featuring Yacouba Sissoko & Mike Block Duo and Maeve Gilchrist and Seamus Egan",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn",
-   "description": "Intimate Silkroad Ensemble series evening led by ensemble members, featuring the Sissoko/Block duo and Gilchrist with Egan.",
-   "discipline": "Music",
-   "genre": "world music",
-   "url": "https://www.nationalsawdust.org/event/national-sawdust-presents-silkroad-up-close-featuring-yacouba-sissoko-mike-block-duo-and-maeve-gilchrist-and-seamus-egan",
-   "notes": "Start time not stated on page."
   },
   {
    "date": "2026-12-17",
