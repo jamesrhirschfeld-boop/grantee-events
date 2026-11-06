@@ -30,6 +30,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 OUT = ROOT / "build" / "discovery"
 MODEL = os.environ.get("DISCOVER_MODEL", "claude-haiku-5-5")
 RECHECK_DAYS = 60
+RETRY_DAYS = 3  # sites that failed to load (or errored) are tried again within days, not months
 MIN_DATES = 3
 
 KEYWORDS = re.compile(r"event|calendar|what.?s.?on|whats-on|season|perform|show|tickets|schedule|program|concert|"
@@ -114,12 +115,31 @@ def discover_one(slug):
             ctx = browser.new_context(viewport={"width": 1400, "height": 1000}, user_agent=scrape.UA)
             page = ctx.new_page()
             candidates, blocked_robots, bot_wall, loaded_any = [], 0, 0, False
+            errors = []
+
+            def open_home(url):
+                """Load a homepage; on failure try a lighter wait, then the same address with/without www."""
+                from urllib.parse import urlparse
+                host = urlparse(url).netloc
+                alt = url.replace("//www.", "//", 1) if host.startswith("www.") else url.replace("//", "//www.", 1)
+                first = None
+                for u, lighter in ((url, False), (url, True), (alt, True)):
+                    try:
+                        if lighter:
+                            page.goto(u, wait_until="domcontentloaded", timeout=30_000)
+                            page.wait_for_timeout(2500)
+                        else:
+                            scrape.load(page, u)
+                        return
+                    except Exception as e:
+                        first = first or e  # report why the address itself failed, not the fallbacks
+                raise first
             for home in src["websites"]:
                 if not scrape.allowed(home):
                     blocked_robots += 1
                     continue
                 try:
-                    scrape.load(page, home)
+                    open_home(home)
                     loaded_any = True
                     final = page.url
                     text = page.evaluate("() => document.body.innerText")[:3000]
@@ -128,7 +148,8 @@ def discover_one(slug):
                         continue
                     raw = page.evaluate("() => Array.from(document.querySelectorAll('a[href]')).map(a => "
                                         "[(a.innerText||a.getAttribute('aria-label')||'').trim().replace(/\\s+/g,' '), a.href])")
-                except Exception:
+                except Exception as e:
+                    errors.append(str(e).splitlines()[0][:140])
                     continue
                 seen, links = set(), []
                 for t, h in raw:
@@ -148,7 +169,7 @@ def discover_one(slug):
                                  else "unreachable")
                 res["note"] = {"blocked_robots": "robots.txt asks automated tools to stay out",
                                "blocked_bot": "bot protection page instead of the site",
-                               "unreachable": "homepage did not load"}[res["status"]]
+                               "unreachable": "homepage did not load" + (": " + errors[-1] if errors else "")}[res["status"]]
                 finish()
                 return
             scored = []
@@ -206,8 +227,10 @@ def main():
             return False
         if a.retry:
             return True
-        c = s.get("discovery", {}).get("checked")
-        return not c or (today - dt.date.fromisoformat(c)).days >= RECHECK_DAYS
+        d = s.get("discovery", {})
+        c = d.get("checked")
+        wait = RETRY_DAYS if d.get("status") in ("unreachable", "error") else RECHECK_DAYS
+        return not c or (today - dt.date.fromisoformat(c)).days >= wait
 
     todo = [s for s in cfg["sources"] if eligible(s)]
     if a.sample:
