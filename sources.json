@@ -53,13 +53,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "ok",
+    "status": "no_events_found",
     "checked": "2026-11-06",
-    "note": "9 dates in window at https://jamaica311.com/"
+    "note": "best page has 0 dates in the window (1 overall): https://abetterjamaica.org/"
    },
    "pages": [
     {
-     "url": "https://jamaica311.com/"
+     "url": "https://abetterjamaica.org/"
     }
    ]
   },
