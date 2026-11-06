@@ -7,12 +7,15 @@
   you get GitHub's failure email.
 """
 import datetime as dt
+import difflib
 import json
 import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from sources_io import load_sources  # noqa: E402
 EXTRACTED = ROOT / "build" / "extracted"
 RAW = ROOT / "build" / "raw"
 DOCS = ROOT / "docs"
@@ -38,6 +41,8 @@ def clean(ev, org, default_discipline, start, end):
     if not (start <= date <= end):
         return None
     title = (ev.get("title") or "").strip()
+    # Some calendars append the date to the title ("Open Performance | Nov 17, 2026").
+    title = re.sub(r"\s*[|\u2013\u2014-]\s*(?:(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\w*\.?,?\s+)?(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.? \d{1,2}(?:,?\s*20\d\d)?\s*$", "", title).strip()
     if not title:
         return None
     url = (ev.get("url") or "").strip()
@@ -63,6 +68,65 @@ def clean(ev, org, default_discipline, start, end):
     }
 
 
+_STOP = {"the", "and", "with", "live", "concert", "performs", "presents", "featuring", "tour", "night", "new", "york",
+         "hall", "theater", "theatre", "dance", "music", "part", "show", "from", "that", "this", "your"}
+
+
+def _tokens(title):
+    return {w for w in re.findall(r"[a-z0-9]+", title.lower()) if len(w) >= 4 and w not in _STOP}
+
+
+def _same_event(a, b, org_names):
+    """Two listings of the same performance by different organizations."""
+    if a["org"] == b["org"] or a["date"] != b["date"]:
+        return False
+    ta, tb = a["time"].lower().strip(), b["time"].lower().strip()
+    if ta and tb and ta != tb:
+        return False
+    x, y = a["title"].lower(), b["title"].lower()
+    if x == y or difflib.SequenceMatcher(None, x, y).ratio() >= 0.86:
+        return True
+    if len(_tokens(a["title"]) & _tokens(b["title"])) >= 2:
+        return True
+    # One organization presenting at the other's venue (e.g. a Philharmonic concert listed by Carnegie Hall too):
+    # same date and time, and one listing's location names the other organization.
+    if ta and tb:
+        for p, q in ((a, b), (b, a)):
+            if q["org"].lower() in p["location"].lower() and (_tokens(a["title"]) & _tokens(b["title"])):
+                return True
+    return False
+
+
+def merge_cross_org(events, own_only, org_names, generic_urls):
+    """Keep one listing when several organizations list the same performance. Prefer an organization that is
+    not a community calendar, then a listing with its own link, and say who else listed it."""
+    def rank(e):
+        generic = generic_urls.get(e["org"]) and e["url"] == generic_urls[e["org"]]
+        return (e["org"] in own_only, not e["url"], bool(generic))
+
+    by_date = {}
+    for e in events:
+        by_date.setdefault(e["date"], []).append(e)
+    out = []
+    for group in by_date.values():
+        group = sorted(group, key=rank)
+        kept = []
+        for e in group:
+            dup = next((k for k in kept if _same_event(k, e, org_names)), None)
+            if dup:
+                also = dup.setdefault("_also", [])
+                if e["org"] not in also:
+                    also.append(e["org"])
+            else:
+                kept.append(e)
+        out += kept
+    for e in out:
+        also = e.pop("_also", None)
+        if also:
+            e["notes"] = (e["notes"] + "; " if e["notes"] else "") + "also listed by " + ", ".join(also)
+    return out
+
+
 def read_json(path, default):
     try:
         return json.loads(path.read_text())
@@ -71,7 +135,7 @@ def read_json(path, default):
 
 
 def main():
-    cfg = json.loads((ROOT / "sources.json").read_text())
+    cfg = load_sources()
     days = cfg.get("window_days", 31)
     today = dt.date.today()
     start, end = today, today + dt.timedelta(days=days)
@@ -153,6 +217,9 @@ def main():
         if key not in seen:
             seen.add(key)
             unique.append(e)
+    own_only = {s["name"] for s in sources if s.get("own_events_only")}
+    unique = merge_cross_org(unique, own_only, [s["name"] for s in sources],
+                             {s["name"]: (s.get("manual") or {}).get("url", "") for s in sources})
     unique.sort(key=lambda e: (e["_sort"], e["org"]))
     for e in unique:
         e.pop("_sort")

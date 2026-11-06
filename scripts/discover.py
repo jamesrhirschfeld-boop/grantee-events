@@ -23,6 +23,8 @@ import sys
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
+from sources_io import load_sources, read_raw
+
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 OUT = ROOT / "build" / "discovery"
@@ -48,6 +50,24 @@ TOOL = {
         "required": ["urls"],
     },
 }
+
+
+TICKETING = ("eventbrite.", "ovationtix.", "spektrix.", "audienceview", "tickettailor.", "universe.com", "tessitura",
+             "etix.com", "showclix.", "ticketleap.", "seatengine.", "squadup.", "givebutter.", "theatermania.", "my.")
+
+
+def reg_domain(url):
+    host = urlparse(url).netloc.lower().split(":")[0]
+    parts = host.split(".")
+    return ".".join(parts[-2:]) if len(parts) >= 2 else host
+
+
+def same_site_or_ticketing(url, home_domains):
+    """Accept a calendar on the organization's own domain, or on a ticketing platform. Anything else (another
+    organization's site that the homepage happens to link to) is dropped: it is a different source."""
+    d = reg_domain(url)
+    host = urlparse(url).netloc.lower()
+    return d in home_domains or any(t in host for t in TICKETING)
 
 
 def choose(client, name, home, links):
@@ -76,7 +96,7 @@ def discover_one(slug):
     import scrape
     from textutil import find_dates
 
-    cfg = json.loads((ROOT / "sources.json").read_text())
+    cfg = load_sources()
     src = next(s for s in cfg["sources"] if s["slug"] == slug)
     days = cfg.get("window_days", 31)
     today = dt.date.today()
@@ -120,7 +140,9 @@ def discover_one(slug):
                 links.sort(key=lambda th: (not KEYWORDS.search(th[0] + " " + th[1]),))
                 chosen = choose(client, src["name"], final, links[:150])
                 valid = {h for _, h in links}
-                candidates += [final] + [u for u in chosen if u in valid and u != final]
+                home_domains = {reg_domain(w) for w in src["websites"]} | {reg_domain(final)}
+                candidates += [final] + [u for u in chosen if u in valid and u != final
+                                         and same_site_or_ticketing(u, home_domains)]
             if not candidates:
                 res["status"] = ("blocked_robots" if blocked_robots else "blocked_bot" if bot_wall
                                  else "unreachable")
@@ -172,14 +194,16 @@ def main():
     a = ap.parse_args()
 
     cfg_path = ROOT / "sources.json"
-    cfg = json.loads(cfg_path.read_text())
+    cfg = load_sources()
     today = dt.date.today()
 
     def eligible(s):
-        if not s.get("active", True) or s.get("pages") or s.get("manual") or s.get("verified"):
+        if not s.get("active", True) or s.get("manual") or s.get("verified"):
             return False
-        if a.slugs:
+        if a.slugs:  # asked for by name: check again even if pages were found before
             return s["slug"] in a.slugs.split(",")
+        if s.get("pages"):
+            return False
         if a.retry:
             return True
         c = s.get("discovery", {}).get("checked")
@@ -208,11 +232,13 @@ def main():
     with cf.ThreadPoolExecutor(max_workers=a.workers) as ex:
         for slug, r in ex.map(job, todo):
             # Re-read before each write so a concurrent edit is not lost.
-            cur = json.loads(cfg_path.read_text())
+            cur = read_raw()
             tgt = next(s for s in cur["sources"] if s["slug"] == slug)
             tgt["discovery"] = {"status": r["status"], "checked": today.isoformat(), "note": r.get("note", "")}
             if r["status"] in ("ok", "no_events_found") and r.get("pages"):
                 tgt["pages"] = r["pages"]
+            else:
+                tgt.pop("pages", None)  # a failed re-check must not leave an older, possibly wrong, page behind
             cfg_path.write_text(json.dumps(cur, ensure_ascii=False, indent=1) + "\n")
             counts[r["status"]] = counts.get(r["status"], 0) + 1
             print(f"  {r['status']:<18} {tgt['name'][:42]:<42} {r.get('note','')[:90]}", flush=True)

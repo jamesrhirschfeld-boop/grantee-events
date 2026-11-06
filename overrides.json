@@ -1,0 +1,19 @@
+{
+  "nyphil": {
+    "pages": null,
+    "manual": {
+      "file": "nyphil.pdf",
+      "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
+      "max_age_days": 45
+    },
+    "notes": "nyphil.org's robots.txt asks automated tools to stay out. Reads the chronological listing PDF NY Phil publishes in its newsroom; save it as manual/nyphil.pdf."
+  },
+  "dance-nyc": {
+    "own_events_only": true,
+    "scope": "Include only events that Dance/NYC itself produces or presents (its own programs, convenings, performances under its own name). Exclude every event by another organization, venue or artist that merely appears on its community calendar, even if Dance/NYC promotes it."
+  },
+  "bronx-council-on-the-arts": {
+    "own_events_only": true,
+    "scope": "Include only events that Bronx Council on the Arts itself produces or presents (its own programs and festivals under its own name). Exclude every event by another organization, venue or artist that merely appears on its calendar or listings, even if the Council promotes it."
+  }
+}

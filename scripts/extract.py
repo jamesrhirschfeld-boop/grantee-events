@@ -12,6 +12,7 @@ from pathlib import Path
 
 import anthropic
 
+from sources_io import load_sources
 from textutil import chunk_text
 
 CHUNK_CHARS = 70_000
@@ -35,7 +36,7 @@ TOOL = {
                     "properties": {
                         "date": {"type": "string", "description": "YYYY-MM-DD"},
                         "start_time": {"type": "string", "description": "e.g. '7:30 PM'; empty string if not stated"},
-                        "title": {"type": "string"},
+                        "title": {"type": "string", "description": "The event name only: no date, time or venue appended"},
                         "location": {"type": "string", "description": "Venue name, plus street address only if the page gives it"},
                         "description": {"type": "string", "description": "One or two sentences in your own words, max 220 characters"},
                         "discipline": {"type": "string", "enum": DISCIPLINES},
@@ -59,7 +60,7 @@ Window: {start} to {end} inclusive.
 
 Rules:
 - Include only LIVE PERFORMANCES open to the public that take place in New York City (the five boroughs) and fall inside the window: concerts, recitals, plays and musicals, dance, opera, readings and staged readings, cabaret, performance art, parades and festival performances, open rehearsals or previews that the public can attend, and film screenings only when live performers are part of the event.
-- Exclude everything else, even if the organization offers it: talks, lectures, panels, conversations, book events, classes, workshops, masterclasses, camps, auditions, exhibitions and gallery openings, film-only screenings, guided tours, fundraisers and galas, networking, meetings, volunteer days, membership or ticket packages, and online-only events. Exclude anything outside the five boroughs (tour dates elsewhere) and past dates. When unsure whether something is a performance or a talk or class, leave it out.
+- Exclude everything else, even if the organization offers it: talks, lectures, panels, conversations, book events, classes, workshops, masterclasses, camps, auditions, exhibitions and gallery openings, film-only screenings, guided tours, fundraisers and galas, networking, meetings, volunteer days, membership or ticket packages, wellness sessions, participatory classes even when they include live music, and online-only events. Exclude anything outside the five boroughs (tour dates elsewhere) and past dates. When unsure whether something is a performance or a talk or class, leave it out.
 - One entry per performance (a separate entry for each date and showtime). If the page shows a recurring series (e.g. "Every Tuesday" or "Saturdays, listed dates"), expand it into individual dates only when the page text states the days, the start date and either an end date or an explicit list of dates; otherwise list the next occurrence only and say so in notes.
 - Use only what the page says. If a time, venue or description is not stated, leave it empty or say so in notes. Never guess.
 - Links appear inline as ⟨https://...⟩ immediately after the link text they belong to. Use the link that belongs to that performance's own page (not a generic ticketing or home page). If there is none, leave url empty.
@@ -129,7 +130,7 @@ def extract_chunk(client, prompt, pages):
 def main():
     import concurrent.futures as cf
 
-    cfg = json.loads((ROOT / "sources.json").read_text())
+    cfg = load_sources()
     days = cfg.get("window_days", 31)
     OUT.mkdir(parents=True, exist_ok=True)
     for f in OUT.glob("*.json"):

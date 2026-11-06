@@ -17,6 +17,7 @@ from urllib.parse import urljoin, urlparse
 from playwright.sync_api import TimeoutError as PWTimeout
 from playwright.sync_api import sync_playwright
 
+from sources_io import load_sources
 from textutil import median_date
 
 UA = "Mozilla/5.0 (compatible; NYCGranteeEventsBot/1.0)"
@@ -242,7 +243,7 @@ def scrape_source(ctx, src, end, days):
 
 def run_one(slug):
     """Child-process entry point: scrape a single organization and write its raw file."""
-    cfg = json.loads((ROOT / "sources.json").read_text())
+    cfg = load_sources()
     days = cfg.get("window_days", 31)
     end = dt.date.today() + dt.timedelta(days=days)
     src = next(s for s in cfg["sources"] if s["slug"] == slug)
@@ -267,7 +268,7 @@ def main(argv):
     import os
     import subprocess
 
-    cfg = json.loads((ROOT / "sources.json").read_text())
+    cfg = load_sources()
     only = set(argv)
     todo = [s for s in cfg["sources"]
             if s.get("active", True) and (s.get("pages") or s.get("manual")) and (not only or s["slug"] in only)]

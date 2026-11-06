@@ -27,6 +27,7 @@ if [ "$SRC" != "$DEST" ]; then
     rsync -a "$SRC/mac/" "$DEST/mac/"
     cp "$SRC/docs/index.html" "$DEST/docs/index.html"
     cp "$SRC/requirements.txt" "$DEST/requirements.txt"
+    cp "$SRC/overrides.json" "$DEST/overrides.json"
   fi
 fi
 # One-time switch to the full grantee list (schema 2). After that, your copy is kept, because it holds what discovery learns.
