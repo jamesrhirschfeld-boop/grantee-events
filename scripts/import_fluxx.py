@@ -97,7 +97,7 @@ def main(path):
             officers[entry["slug"]] = str(g(po_col)).strip()
         seen_dom.update(domain(w) for w in sites)
 
-    kept_old = [dict(s, active=False) for s in old["sources"]
+    kept_old = [s if s.get("source") == "my_orgs.csv" else dict(s, active=False) for s in old["sources"]
                 if not any(domain(w) in seen_dom for w in s.get("websites", []))]
     out = {"schema": 2, "window_days": old.get("window_days", 60), "sources": sources + kept_old}
     cfg_path.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n")

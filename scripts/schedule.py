@@ -52,7 +52,8 @@ TOOL = {
                            "days": {"type": "array", "items": {"type": "string", "enum": WEEKDAYS}},
                            "times": {"type": "array", "items": {"type": "string"}},
                            "from": {"type": "string", "description": "YYYY-MM-DD this pattern starts; empty = run start"},
-                           "to": {"type": "string", "description": "YYYY-MM-DD this pattern ends; empty = run end"}},
+                           "to": {"type": "string", "description": "YYYY-MM-DD this pattern ends; empty = run end"},
+                           "assumed": {"type": "boolean", "description": "true if the page shows this pattern without saying which dates it covers and you are applying it to the whole run"}},
                            "required": ["days", "times"]}},
             "run_start": {"type": "string", "description": "First performance (include previews) YYYY-MM-DD; empty if unknown"},
             "run_end": {"type": "string", "description": "Last performance YYYY-MM-DD; empty if unknown"},
@@ -73,6 +74,7 @@ Rules:
 - Use only what the page states. Never guess a day, time or date.
 - If the page lists performances date by date (a calendar, a list of dates and times), return them in "explicit".
 - If it states a repeating pattern ("Tue-Sat 7:30pm, Sat & Sun 2pm, no performance Mon") with run dates, return it in "weekly" with run_start and run_end. Use separate weekly entries when the pattern changes (previews vs. regular run; "Week 1" vs "Week 2"), setting from/to.
+- A weekly pattern shown in the run/schedule block WITHOUT its own date range (even if it sits near a "previews" date) is the production's regular schedule: apply it to the whole run and set assumed=true. Only restrict it to a sub-range when the page explicitly says the pattern applies just to those dates. Extra one-off performances (special matinees) go in "explicit" in addition.
 - List dark days or cancelled dates stated on the page in "no_performance".
 - Previews, opening night and press performances are performances: include them.
 - Ignore box-office hours, gallery hours, talkbacks, pre-show events and streaming-only dates.
@@ -101,7 +103,7 @@ def pdate(s):
         return None
 
 
-def expand(sched, lo, hi):
+def expand(sched, lo, hi, assumed_out=None):
     """Turn a model-read schedule into a sorted list of (date, time) inside [lo, hi]. Pure date math, no model."""
     if sched.get("status") == "not_stated":
         return []
@@ -126,6 +128,8 @@ def expand(sched, lo, hi):
             if d.weekday() in days:
                 for t in times:
                     out.add((d, t))
+                    if w.get("assumed") and assumed_out is not None:
+                        assumed_out.add((d, t))
             d += dt.timedelta(days=1)
     dark = {pdate(x) for x in sched.get("no_performance") or []}
     return sorted(p for p in out if p[0] not in dark)
@@ -153,11 +157,20 @@ def is_run_event(e, listing_urls, site_domains, reg_domain):
     return bool(RUN_NOTE.search(e.get("notes") or "")) or e.get("discipline") == "Theater"
 
 
-def build_events(proto, pairs):
+ASSUMED_NOTE = "weekly schedule assumed from the show page; confirm before attending"
+
+
+def build_events(proto, pairs, assumed=()):
     base = {k: v for k, v in proto.items() if k not in ("date", "start_time")}
     base["notes"] = "; ".join(x.strip() for x in (proto.get("notes") or "").split(";")
                               if x.strip() and not RUN_NOTE.search(x))
-    return [dict(base, date=d.isoformat(), start_time=t) for d, t in pairs]
+    out = []
+    for d, t in pairs:
+        e = dict(base, date=d.isoformat(), start_time=t)
+        if (d, t) in assumed:
+            e["notes"] = "; ".join(x for x in (e["notes"], ASSUMED_NOTE) if x)
+        out.append(e)
+    return out
 
 
 def apply(events, groups_result):
@@ -179,7 +192,7 @@ def apply(events, groups_result):
         if id(e) in replaced:
             protos.setdefault((e.get("url") or "").split("#")[0], e)
     for u, proto in protos.items():
-        for ne in build_events(proto, groups_result[u]):
+        for ne in build_events(proto, groups_result[u], groups_result.get(("assumed", u), ())):
             k = (ne["title"], ne["date"], ne["start_time"])
             if k not in seen:
                 seen.add(k)
@@ -276,7 +289,10 @@ def run_one(slug):
                                 extra += "\n\n--- TICKETING PAGE ---\n" + t2
                         if extra:
                             sched = ask(client, proto["title"], today, end, text[:6000] + extra)
-                    pairs = expand(sched, today, end)
+                    assumed = set()
+                    pairs = expand(sched, today, end, assumed)
+                    if assumed:
+                        result[("assumed", url)] = assumed
                 else:
                     pairs = [pr for pr in pairs if today <= pr[0] <= end]
                 if pairs and len(pairs) > 1 or (pairs and pairs[0][0] != pdate(proto["date"])):

@@ -18,6 +18,7 @@ if [ -z "$ANTHROPIC_API_KEY" ]; then echo "No API key in Keychain."; notify "No 
 PY=.venv/bin/python
 rm -f build/warnings.txt
 # Find calendar pages for a batch of organizations not looked at yet (skips quickly when none are due).
+$PY scripts/sync_orgs.py
 $PY scripts/discover.py --limit "${DISCOVER_LIMIT:-60}" || echo "discover reported an error"
 $PY scripts/scrape.py   || echo "scrape reported an error"
 $PY scripts/extract.py  || echo "extract reported an error"

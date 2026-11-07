@@ -10,6 +10,7 @@ export ANTHROPIC_API_KEY="$(security find-generic-password -a "$USER" -s nyc-gra
 SLUGS="$*"
 if [ -z "$SLUGS" ]; then read -r -p "Organization slug(s), e.g. new-york-city-center: " SLUGS; fi
 PY=.venv/bin/python
+$PY scripts/sync_orgs.py
 $PY scripts/scrape.py $SLUGS
 $PY scripts/extract.py $SLUGS
 $PY scripts/schedule.py $SLUGS

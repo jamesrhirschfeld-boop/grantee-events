@@ -200,7 +200,18 @@ def grab(page, spec, end):
     if spec.get("reveal_hidden"):
         page.evaluate(REVEAL_JS)
     text = page.evaluate(TAG_LINKS_JS)
-    return text[:MAX_CHARS]
+    sel = spec.get("next_selector")  # month-by-month calendars: click "next" once per further month in the window
+    if sel:
+        today = dt.date.today()
+        for _ in range((end.year - today.year) * 12 + end.month - today.month):
+            try:
+                btn = page.locator(sel).locator("visible=true").first
+                btn.click(timeout=5000)
+            except Exception:
+                break
+            page.wait_for_timeout(1500)
+            text += "\n\n=== NEXT MONTH ===\n" + page.evaluate(TAG_LINKS_JS)
+    return text[:MAX_CHARS * 3] if sel else text[:MAX_CHARS]
 
 
 def read_manual(path):

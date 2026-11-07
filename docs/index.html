@@ -348,8 +348,8 @@
     box.appendChild(el("summary", "", "Coverage: " + c.with_events + " of " + c.total + " organizations have listings"));
     var sections = [
       ["no_events", "No performances listed on their site for these dates"],
-      ["no_source", "No automatic source yet (calendar not found or not checked)"],
-      ["blocked", "Site asks automated tools not to read it"],
+      ["no_source", "No automatic source yet (calendar not found, site did not load or not checked)"],
+      ["blocked", "Blocked: these sites do not allow automated readers (bot protection, firewall or robots.txt)"],
       ["failed", "Could not be read this week"]
     ];
     sections.forEach(function (sec) {

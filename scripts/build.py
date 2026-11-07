@@ -190,9 +190,13 @@ def main():
 
         if not (src.get("pages") or src.get("manual")):
             reason = src.get("discovery", {}).get("status", "not_checked")
-            health[org] = {"status": "no_source", "events": 0, "reason": reason}
-            cov["no_source"].append({"name": org, "site": site, "reason": reason,
-                                     "note": src.get("discovery", {}).get("note", "")})
+            note = src.get("discovery", {}).get("note", "")
+            firewall = reason == "unreachable" and bool(re.search(
+                r"ERR_HTTP2_PROTOCOL_ERROR|ERR_CONNECTION_RESET|ERR_EMPTY_RESPONSE|ERR_CONNECTION_CLOSED", note))
+            blocked = reason in ("blocked_bot", "blocked_robots") or firewall
+            health[org] = {"status": "blocked" if blocked else "no_source", "events": 0, "reason": reason}
+            cov["blocked" if blocked else "no_source"].append(
+                {"name": org, "site": site, "reason": reason, "note": note})
             continue
 
         path = EXTRACTED / f"{src['slug']}.json"

@@ -12,6 +12,7 @@ if [ -z "$N" ]; then ARGS="--sample 25"
 elif [ "$N" = "all" ]; then ARGS=""
 elif [[ "$N" =~ ^[0-9]+$ ]]; then ARGS="--limit $N"
 else ARGS="--slugs $N"; fi
+.venv/bin/python scripts/sync_orgs.py
 .venv/bin/python scripts/discover.py $ARGS | tee "logs/discover-$(date +%Y-%m-%d-%H%M).log"
 echo
 echo "Next: run the weekly update (mac/run_weekly.sh) to scrape and publish, or send me the summary above."

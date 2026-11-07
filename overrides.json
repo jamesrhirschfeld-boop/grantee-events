@@ -75,5 +75,15 @@
   "braata-productions": {
     "scope": "Braata Productions is a performing arts company. Treat every event listed under UPCOMING EVENTS on its events page as a ticketed performance event and include it, even if the title sounds like a festival or market (for example 'Christmas Grand Market 2026 - QUEENS'). The borough in the title is where it takes place. Ignore the 'Digital Stage' items and the placeholder text 'Add a Title'.",
     "notes": "Events listed on its page are its seasonal productions; confirmed by the program officer."
+  },
+  "irish-repertory-theatre": {
+    "pages": [
+      {
+        "url": "https://irishrep.org/whats-on/calendar",
+        "next_selector": ".next"
+      }
+    ],
+    "verified": true,
+    "notes": "Month-grid calendar; the scraper clicks 'next' once per further month in the window so every performance and time is captured."
   }
 }

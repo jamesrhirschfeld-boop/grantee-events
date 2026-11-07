@@ -6,6 +6,7 @@ cd "$(dirname "$0")/.." || exit 1
 if [ ! -x .venv/bin/python ] && [ -x "$HOME/nyc-events/.venv/bin/python" ]; then cd "$HOME/nyc-events" || exit 1; fi
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
 echo "Rebuilding the page..."
+.venv/bin/python scripts/sync_orgs.py
 .venv/bin/python scripts/build.py || { echo "Build failed."; read -r -p "Press Return to close."; exit 1; }
 if git remote get-url origin >/dev/null 2>&1; then
   git add docs/index.html docs/events.json docs/events.js sources.json
