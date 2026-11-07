@@ -38,6 +38,7 @@ echo "Now readable: $(echo $FOUND | wc -w | tr -d ' ') organizations"
 if [ -n "$FOUND" ]; then
   $PY scripts/scrape.py $FOUND
   $PY scripts/extract.py $FOUND
+  $PY scripts/schedule.py $FOUND
   $PY scripts/times.py $FOUND
 fi
 

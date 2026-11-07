@@ -330,6 +330,10 @@
       not_checked: "not checked yet",
       no_events_found: "calendar found but nothing in the window"
     };
+    // A connection the site cuts off on purpose (firewall refusing automated readers) is a block, not an outage.
+    if (r === "unreachable" && /ERR_HTTP2_PROTOCOL_ERROR|ERR_CONNECTION_RESET|ERR_EMPTY_RESPONSE|ERR_CONNECTION_CLOSED/.test(n)) {
+      return "blocked: the site's firewall refuses automated readers";
+    }
     if (map[r]) {
       var extra = (r === "unreachable" || r === "error") && n.indexOf(": ") > -1 ? n.slice(n.indexOf(": ") + 2) : "";
       return map[r] + (extra ? " (" + extra + ")" : "");

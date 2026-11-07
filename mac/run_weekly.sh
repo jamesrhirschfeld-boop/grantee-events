@@ -21,6 +21,7 @@ rm -f build/warnings.txt
 $PY scripts/discover.py --limit "${DISCOVER_LIMIT:-60}" || echo "discover reported an error"
 $PY scripts/scrape.py   || echo "scrape reported an error"
 $PY scripts/extract.py  || echo "extract reported an error"
+$PY scripts/schedule.py || echo "schedule reported an error"   # expand theater runs to every performance day
 $PY scripts/times.py    || echo "times reported an error"   # fill missing start times from each event's own page
 $PY scripts/build.py    || { echo "build failed"; notify "Build failed. See logs in ~/nyc-events/logs"; exit 1; }
 
