@@ -10,7 +10,7 @@ Order of trust, per show:
 Nothing is invented: if the page does not state a schedule, the original entry stays as it was.
 
 Usage: schedule.py [slug ...]    (no slugs = every organization with run-type events)
-Needs ANTHROPIC_API_KEY. Model: SCHEDULE_MODEL (default claude-haiku-5-5).
+Needs ANTHROPIC_API_KEY. Model: SCHEDULE_MODEL (default claude-sonnet-5-5).
 """
 import concurrent.futures as cf
 import datetime as dt
@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 OUT = ROOT / "build" / "extracted"
-MODEL = os.environ.get("SCHEDULE_MODEL", "claude-haiku-5-5")
+MODEL = os.environ.get("SCHEDULE_MODEL", "claude-sonnet-5-5")  # reading a schedule off a page needs the stronger model
 MAX_SHOWS_PER_ORG = int(os.environ.get("SCHEDULE_MAX_SHOWS", "25"))
 PAGE_CHARS = 16_000
 MAX_DAYS = 200
@@ -74,6 +74,7 @@ Rules:
 - Use only what the page states. Never guess a day, time or date.
 - If the page lists performances date by date (a calendar, a list of dates and times), return them in "explicit".
 - If it states a repeating pattern ("Tue-Sat 7:30pm, Sat & Sun 2pm, no performance Mon") with run dates, return it in "weekly" with run_start and run_end. Use separate weekly entries when the pattern changes (previews vs. regular run; "Week 1" vs "Week 2"), setting from/to.
+- Example: a block reading "ENTIRE RUN Oct 15-Nov 22 / PREVIEWS Oct 15-21 / Thu-Sat 7:00 PM / Sat & Sun 3:00 PM matinee / SPECIAL WEEKDAY MATINEES Wed Oct 28 11:00 AM" means: weekly = [Thu,Fri,Sat 7:00 PM; Sat,Sun 3:00 PM] for the whole run (assumed=true), run_start Oct 15, run_end Nov 22, plus an explicit Oct 28 11:00 AM. Previews are part of the run, not a separate schedule.
 - A weekly pattern shown in the run/schedule block WITHOUT its own date range (even if it sits near a "previews" date) is the production's regular schedule: apply it to the whole run and set assumed=true. Only restrict it to a sub-range when the page explicitly says the pattern applies just to those dates. Extra one-off performances (special matinees) go in "explicit" in addition.
 - List dark days or cancelled dates stated on the page in "no_performance".
 - Previews, opening night and press performances are performances: include them.
@@ -261,9 +262,17 @@ def run_one(slug):
     today = dt.date.today()
     end = today + dt.timedelta(days=cfg_days)
     shows = {}
+    per_url = {}
+    for e in events:
+        per_url.setdefault((e.get("url") or "").split("#")[0], []).append(e)
     for e in events:
         if is_run_event(e, listing, domains, reg_domain):
-            shows.setdefault((e["url"].split("#")[0]), e)
+            u = e["url"].split("#")[0]
+            group = per_url[u]
+            # Already listed day by day (with times) by a real calendar: that is authoritative, leave it alone.
+            if len(group) >= 3 and all((x.get("start_time") or "").strip() for x in group):
+                continue
+            shows.setdefault(u, e)
     if not shows or src.get("manual"):
         return "0/0"
     client = anthropic.Anthropic(max_retries=5)
@@ -326,7 +335,7 @@ def main(argv):
             continue
         domains = {reg_domain(w) for w in (src.get("websites") or [])}
         listing = {p["url"].split("{")[0].rstrip("/") for p in (src.get("pages") or [])}
-        if any(is_run_event(e, listing, domains, reg_domain) for e in json.loads(f.read_text()).get("events", [])):
+        if any(is_run_event(e, listing, domains, reg_domain) for e in json.loads(f.read_text()).get("events", [])):  # run_one skips shows a calendar already lists day by day
             todo.append(src["slug"])
 
     def job(slug):

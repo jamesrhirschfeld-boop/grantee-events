@@ -1,0 +1,273 @@
+Organization  ->  slug (use the slug after one_org.command)
+
+651 ARTS  ->  651-arts
+92NY Harkness Dance Center  ->  92ny-harkness-dance-center
+A Better Jamaica  ->  a-better-jamaica
+A.R.T./New York  ->  a-r-t-new-york
+AILEY  ->  ailey
+Abrons Arts Center  ->  abrons-arts-center
+Alarm Will Sound  ->  alarm-will-sound
+American Ballet Theatre  ->  american-ballet-theatre
+American Classical Orchestra  ->  american-classical-orchestra
+American Composers Orchestra  ->  american-composers-orchestra
+American Lyric Theater  ->  american-lyric-theater
+American Modern Opera Company  ->  american-modern-opera-company
+American Opera Projects  ->  american-opera-projects
+American Symphony Orchestra  ->  american-symphony-orchestra
+Americas Society  ->  americas-society
+Angela’s Pulse  ->  angela-s-pulse
+Apollo Theater  ->  apollo-theater
+Ars Nova  ->  ars-nova
+Arts for Art  ->  arts-for-art
+Asase Yaa Cultural Arts Foundation  ->  asase-yaa-cultural-arts-foundation
+Asian American Arts Alliance (A4)  ->  asian-american-arts-alliance-a4
+Atlantic Theater Company  ->  atlantic-theater-company
+BAAD! Bronx Academy of Arts and Dance  ->  baad-bronx-academy-of-arts-and-dance
+BRIC  ->  bric
+Ballet Hispánico  ->  ballet-hisp-nico
+Bang on a Can  ->  bang-on-a-can
+Baryshnikov Arts  ->  baryshnikov-arts
+Bedlam  ->  bedlam
+Belongó  ->  alja
+Beth Morrison Projects  ->  beth-morrison-projects
+Beyond Booking  ->  beyond-booking
+Big Dance Theater  ->  big-dance-theater
+Bindlestiff Family Cirkus  ->  bindlestiff-family-cirkus
+Black Spectrum Theatre Co, Inc.  ->  black-spectrum-theatre-co-inc
+Black Trans Femmes in the Arts  ->  black-trans-femmes-in-the-arts
+Blank Forms  ->  blank-forms
+Braata Productions  ->  braata-productions
+Breaking the Binary Theatre  ->  breaking-the-binary-theatre
+Bronx Arts Ensemble  ->  bronx-arts-ensemble
+Bronx Council on the Arts  ->  bronx-council-on-the-arts
+Brooklyn Academy of Music  ->  brooklyn-academy-of-music
+Brooklyn Arts Council  ->  brooklyn-arts-council
+Brooklyn Arts Exchange  ->  brooklyn-arts-exchange
+Calpulli Mexican Dance Company  ->  calpulli-mexican-dance-company
+Camille A. Brown & Dancers  ->  camille-a-brown-dancers
+Caribbean Cultural Center African Diaspora Institute  ->  caribbean-cultural-center-african-diaspo
+Carnegie Hall  ->  carnegie
+Casita Maria Center for Arts and Education  ->  casita-maria-center-for-arts-and-educati
+Center for Performance Research  ->  center-for-performance-research
+Center for Traditional Music and Dance  ->  center-for-traditional-music-and-dance
+Chamber Music America  ->  chamber-music-america
+Chamber Music Society of Lincoln Center  ->  chamber-music-society-of-lincoln-center
+Chinese Theatre Works  ->  chinese-theatre-works
+Circle O  ->  circle-o
+City Parks Foundation  ->  city-parks-foundation
+Classic Stage Company  ->  classic-stage-company
+Clubbed Thumb  ->  clubbed-thumb
+Composers Now  ->  composers-now
+Counterpart  ->  counterpart
+Culture Lab LIC  ->  culture-lab-lic
+Culture and Arts Policy Institute  ->  culture-and-arts-policy-institute
+CultureHub  ->  culturehub
+Dance Heginbotham  ->  dance-heginbotham
+Dance Lab New York  ->  dance-lab-new-york
+Dance Theatre of Harlem  ->  dance-theatre-of-harlem
+Dance/NYC  ->  dance-nyc
+Dancing in the Streets  ->  dancing-in-the-streets
+Danspace Project  ->  danspace-project
+Dorrance Dance  ->  dorrance-dance
+EMERGE125  ->  emerge125
+EPIC Players  ->  epic-players
+ETHEL  ->  ethel
+El Taller Latino Americano  ->  el-taller-latino-americano
+Elevator Repair Service  ->  elevator-repair-service
+Emily Johnson / Catalyst  ->  emily-johnson-catalyst
+En Garde Arts  ->  en-garde-arts
+Ensemble Studio Theatre  ->  ensemble-studio-theatre
+Entertainment Community Fund  ->  entertainment-community-fund
+FRIGID New York  ->  frigid-new-york
+Fiasco Theater  ->  fiasco-theater
+Flamenco Vivo Carlota Santana  ->  flamenco-vivo-carlota-santana
+Flushing Town Hall  ->  flushing-town-hall
+Forces of Nature Dance Theatre  ->  forces-of-nature-dance-theatre
+Gallim Dance  ->  gallim-dance
+Gibney Dance  ->  gibney-dance
+Gotham Early Music Scene  ->  gotham-early-music-scene
+HBArts Collective  ->  hbarts-collective
+HERE  ->  here
+Haiti Cultural Exchange  ->  haiti-cultural-exchange
+Harlem Stage  ->  harlem-stage
+Heartbeat Opera  ->  heartbeat-opera
+Hi-ARTS  ->  hi-arts
+Hostos Center for the Arts & Culture  ->  hostos-center-for-the-arts-culture
+Houses On The Moon Theater Co.  ->  houses-on-the-moon-theater-co
+IATI Theater  ->  iati-theater
+ID Studio Theater  ->  id-studio-theater
+INTAR  ->  intar
+ISSUE Project Room  ->  issue-project-room
+IlluminArt Productions  ->  illuminart-productions
+Imani Winds  ->  imani-winds
+IndieSpace  ->  indiespace
+Indo American Arts Council  ->  indo-american-arts-council
+International Contemporary Ensemble  ->  international-contemporary-ensemble
+Irish Arts Center  ->  irish-arts-center
+Irish Repertory Theatre  ->  irish-repertory-theatre
+JACK Arts  ->  jack-arts
+JACK Quartet  ->  jack-quartet
+JCAL  ->  jcal
+Jalopy Theatre and School of Folk Music  ->  jalopy-theatre-and-school-of-folk-music
+Jamel Gaines Creative Outlet  ->  jamel-gaines-creative-outlet
+Japan Society  ->  japan-society
+Jazz Foundation of America  ->  jazz-foundation-of-america
+Jazz Power Initiative  ->  jazz-power-initiative
+Jazz at Lincoln Center  ->  jazz-at-lincoln-center
+Jazzmobile  ->  jazzmobile
+José Limón Dance Foundation  ->  jos-lim-n-dance-foundation
+Kaufman Music Center  ->  kaufman-music-center
+Keen Company  ->  keen-company
+Kinetic Light  ->  kinetic-light
+Kupferberg Center for the Arts at Queens College  ->  kupferberg-center-for-the-arts-at-queens
+Kyle Abraham Dance Vanguard  ->  kyle-abraham-dance-vanguard
+L'Alliance New York  ->  l-alliance-new-york
+LAByrinth Theater Company  ->  labyrinth-theater-company
+LEIMAY  ->  leimay
+La MaMa Experimental Theatre Club  ->  la-mama-experimental-theatre-club
+League of American Orchestras  ->  league-of-american-orchestras
+Lehman Center  ->  lehman-center
+Les Ballets Trockadero de Monte Carlo  ->  les-ballets-trockadero-de-monte-carlo
+Lincoln Center Theater  ->  lincoln-center-theater
+Lincoln Center for the Performing Arts  ->  lincoln-center-for-the-performing-arts
+Lotus Music & Dance  ->  lotus-music-dance
+Lower Manhattan Cultural Council  ->  lower-manhattan-cultural-council
+MCC Theater  ->  mcc-theater
+MOVE|NYC|  ->  move-nyc
+Ma-Yi Theater Company  ->  ma-yi-theater-company
+Mabou Mines  ->  mabou-mines
+Mama Foundation for the Arts  ->  mama-foundation-for-the-arts
+Manhattan Theatre Club  ->  manhattan-theatre-club
+Mark Morris Dance Group  ->  mark-morris-dance-group
+Martha Graham Dance Company  ->  martha-graham-dance-company
+MasterVoices  ->  mastervoices
+Miller Theatre  ->  miller-theatre
+Mint Theater Company  ->  mint-theater-company
+Monica Bill Barnes & Company  ->  monica-bill-barnes-company
+Movement Research  ->  movement-research
+Multicultural Music Group  ->  multicultural-music-group
+Music from the Sole  ->  music-from-the-sole
+Musical Theatre Factory  ->  musical-theatre-factory
+NAATCO  ->  naatco
+NAMT  ->  namt
+National Black Theatre  ->  national-black-theatre
+National Sawdust  ->  national-sawdust
+National Yiddish Theatre Folksbiene  ->  national-yiddish-theatre-folksbiene
+New 42  ->  new-42
+New Dramatists  ->  new-dramatists
+New Federal Theatre  ->  new-federal-theatre
+New Georges  ->  new-georges
+New Music USA  ->  new-music-usa
+New York Chinese Cultural Center  ->  new-york-chinese-cultural-center
+New York City Ballet  ->  new-york-city-ballet
+New York City Center  ->  new-york-city-center
+New York City Children's Theater  ->  new-york-city-children-s-theater
+New York City Players  ->  new-york-city-players
+New York Classical Theatre  ->  new-york-classical-theatre
+New York Live Arts  ->  new-york-live-arts
+New York Philharmonic  ->  nyphil
+New York Public Radio  ->  new-york-public-radio
+New York Stage and Film  ->  new-york-stage-and-film
+New York Theatre Ballet  ->  new-york-theatre-ballet
+New York Theatre Workshop  ->  new-york-theatre-workshop
+New Yorkers for Culture and Arts  ->  new-yorkers-for-culture-and-arts
+Nuyorican Poets Cafe  ->  nuyorican-poets-cafe
+OPERA America  ->  opera-america
+Omnium Circus  ->  omnium-circus
+Orchestra of St. Luke's  ->  orchestra-of-st-luke-s
+Orpheus Chamber Orchestra  ->  orpheus-chamber-orchestra
+PAC NYC  ->  pac-nyc
+Page 73 Productions  ->  page-73-productions
+Pan Asian Repertory Theatre  ->  pan-asian-repertory-theatre
+Park Avenue Armory  ->  park-avenue-armory
+Parsons Dance  ->  parsons-dance
+Paul Taylor Dance Company  ->  paul-taylor-dance-company
+Performance Space New York  ->  performance-space-new-york
+Pick Up Performance Co.  ->  pick-up-performance-co
+Pink Fang  ->  pink-fang
+Pioneers Collective  ->  pioneers-collective
+Pipeline Theatre Company  ->  pipeline-theatre-company
+Playwrights Horizons  ->  playwrights-horizons
+Pregones/Puerto Rican Traveling Theater  ->  pregones-puerto-rican-traveling-theater
+Primary Stages  ->  primary-stages
+Prospect Musicals  ->  prospect-musicals
+Queens Theatre  ->  queens-theatre
+Rattlestick Playwrights Theater  ->  rattlestick-playwrights-theater
+Red Bull Theater  ->  red-bull-theater
+Repertorio Español  ->  repertorio-espa-ol
+Ronald K. Brown/EVIDENCE  ->  ronald-k-brown-evidence
+Roulette  ->  roulette
+Roundabout Theatre Company  ->  roundabout-theatre-company
+STREB  ->  streb
+Second Stage Theater  ->  second-stage-theater
+Signature Theatre  ->  signature
+Skirball Center for the Performing Arts  ->  skirball-center-for-the-performing-arts
+Snug Harbor  ->  snug-harbor
+Soho Rep  ->  soho-rep
+Sphinx Organization  ->  sphinx-organization
+St. Ann's Warehouse  ->  st-ann-s-warehouse
+Staten Island Arts  ->  staten-island-arts
+Sweat Variant  ->  sweat-variant
+Symphony Space  ->  symphony-space
+Sō Percussion  ->  s-percussion
+TDF  ->  tdf
+TRIBE - Multidisciplinary Visual Performances  ->  tribe-multidisciplinary-visual-performan
+Talea Ensemble  ->  talea-ensemble
+Target Margin Theater  ->  target-margin-theater
+Teatro Círculo  ->  teatro-c-rculo
+Teatro SEA  ->  teatro-sea
+Tectonic Theater Project  ->  tectonic-theater-project
+Thalia Spanish Theatre  ->  thalia-spanish-theatre
+The Billie Holiday Theatre  ->  the-billie-holiday-theatre
+The Bronx River Art Center  ->  the-bronx-river-art-center
+The Bushwick Starr  ->  the-bushwick-starr
+The Chocolate Factory Theater  ->  the-chocolate-factory-theater
+The Civilians  ->  the-civilians
+The Classical Theatre of Harlem  ->  the-classical-theatre-of-harlem
+The Clemente  ->  the-clemente
+The Drama League of New York  ->  the-drama-league-of-new-york
+The Flea Theater  ->  the-flea-theater
+The Harlem Chamber Players  ->  the-harlem-chamber-players
+The House Foundation for the Arts  ->  the-house-foundation-for-the-arts
+The Jazz Gallery  ->  the-jazz-gallery
+The Joyce Theater  ->  the-joyce-theater
+The Kitchen  ->  the-kitchen
+The Knights  ->  the-knights
+The Louis Armstrong House Museum  ->  the-louis-armstrong-house-museum
+The Metropolitan Opera  ->  the-metropolitan-opera
+The Movement Theatre Company  ->  the-movement-theatre-company
+The National Jazz Museum in Harlem  ->  the-national-jazz-museum-in-harlem
+The New Group  ->  the-new-group
+The New York Public Library for the Performing Arts  ->  the-new-york-public-library-for-the-perf
+The People’s Theatre  ->  the-people-s-theatre
+The Play Company  ->  the-play-company
+The Playwrights Realm  ->  the-playwrights-realm
+The Public Theater  ->  the-public-theater
+The Shed  ->  the-shed
+The Tank  ->  the-tank
+The Wooster Group  ->  the-wooster-group
+Theater Breaking Through Barriers  ->  theater-breaking-through-barriers
+Theater Mitu  ->  theater-mitu
+Theatre Communications Group  ->  theatre-communications-group
+Theatre for a New Audience  ->  theatre-for-a-new-audience
+Theatre of the Oppressed NYC  ->  theatre-of-the-oppressed-nyc
+Transport Group Theatre Company  ->  transport-group-theatre-company
+Trisha Brown Dance Company  ->  trisha-brown-dance-company
+Triskelion Arts  ->  triskelion-arts
+Urban Bush Women  ->  urban-bush-women
+Vineyard Theatre  ->  vineyard-theatre
+Voices of Ascension  ->  voices-of-ascension
+WHEDco, Bronx Music Heritage Center (BMHC), Bronx Music Hall (BMH)  ->  whedco-bronx-music-heritage-center-bmhc-
+WP Theater  ->  wp-theater
+Waterwell  ->  waterwell
+Women of Color in the Arts  ->  women-of-color-in-the-arts
+Working Theater  ->  working-theater
+Works & Process  ->  works-process
+World Music Institute  ->  world-music-institute
+Yaa Samar! Dance Theatre  ->  yaa-samar-dance-theatre
+Yarn/Wire  ->  yarn-wire
+artEquity  ->  artequity
+the TEAM  ->  the-team
+viBe Theater Experience  ->  vibe-theater-experience
+wild project  ->  wild-project
+¡Oye! Group  ->  oye-group
