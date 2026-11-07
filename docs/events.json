@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-06T22:23:05+00:00",
+ "generated_at": "2026-11-07T16:51:45+00:00",
  "window": {
-  "start": "2026-11-06",
-  "end": "2027-01-05"
+  "start": "2026-11-07",
+  "end": "2027-01-06"
  },
  "orgs": [
   "92NY Harkness Dance Center",
@@ -12,7 +12,6 @@
   "American Classical Orchestra",
   "American Composers Orchestra",
   "Apollo Theater",
-  "Ars Nova",
   "Atlantic Theater Company",
   "BAAD! Bronx Academy of Arts and Dance",
   "Bang on a Can",
@@ -20,6 +19,7 @@
   "Belongó",
   "Bindlestiff Family Cirkus",
   "Blank Forms",
+  "Braata Productions",
   "Breaking the Binary Theatre",
   "BRIC",
   "Bronx Council on the Arts",
@@ -47,7 +47,6 @@
   "Gallim Dance",
   "Gibney Dance",
   "HBArts Collective",
-  "HERE",
   "Houses On The Moon Theater Co.",
   "IATI Theater",
   "ID Studio Theater",
@@ -82,7 +81,6 @@
   "Multicultural Music Group",
   "National Black Theatre",
   "National Sawdust",
-  "New Georges",
   "New Music USA",
   "New York City Ballet",
   "New York City Center",
@@ -126,15 +124,12 @@
   "The Louis Armstrong House Museum",
   "The Metropolitan Opera",
   "The National Jazz Museum in Harlem",
-  "The New Group",
   "The People’s Theatre",
-  "The Play Company",
   "The Tank",
   "Theatre for a New Audience",
   "Theatre of the Oppressed NYC",
   "TRIBE - Multidisciplinary Visual Performances",
   "Triskelion Arts",
-  "Vineyard Theatre",
   "Voices of Ascension",
   "wild project",
   "Works & Process",
@@ -142,90 +137,87 @@
   "Yarn/Wire"
  ],
  "counts": {
-  "92NY Harkness Dance Center": 11,
-  "A.R.T./New York": 5,
-  "Abrons Arts Center": 6,
+  "92NY Harkness Dance Center": 10,
+  "A.R.T./New York": 3,
+  "Abrons Arts Center": 5,
   "Belongó": 3,
   "AILEY": 45,
   "American Classical Orchestra": 1,
   "American Composers Orchestra": 1,
-  "Apollo Theater": 11,
-  "Ars Nova": 1,
-  "Atlantic Theater Company": 2,
-  "BAAD! Bronx Academy of Arts and Dance": 6,
+  "Apollo Theater": 10,
+  "Atlantic Theater Company": 1,
+  "BAAD! Bronx Academy of Arts and Dance": 5,
   "Bang on a Can": 1,
   "Bedlam": 1,
   "Blank Forms": 3,
   "BRIC": 5,
-  "Brooklyn Academy of Music": 8,
-  "Carnegie Hall": 32,
+  "Brooklyn Academy of Music": 7,
+  "Carnegie Hall": 31,
   "Center for Performance Research": 3,
   "Center for Traditional Music and Dance": 6,
-  "Chamber Music Society of Lincoln Center": 18,
+  "Chamber Music Society of Lincoln Center": 17,
   "Classic Stage Company": 3,
   "Dance Heginbotham": 15,
   "Dance Lab New York": 1,
-  "Danspace Project": 10,
+  "Danspace Project": 9,
   "Dorrance Dance": 5,
   "En Garde Arts": 1,
   "Ensemble Studio Theatre": 5,
-  "ETHEL": 4,
+  "ETHEL": 3,
   "Fiasco Theater": 6,
   "Flamenco Vivo Carlota Santana": 2,
   "Flushing Town Hall": 7,
   "Gallim Dance": 6,
   "Gibney Dance": 3,
-  "HERE": 2,
   "International Contemporary Ensemble": 3,
-  "Irish Repertory Theatre": 4,
+  "Irish Repertory Theatre": 2,
   "ISSUE Project Room": 5,
   "JACK Arts": 7,
   "JACK Quartet": 1,
   "JCAL": 2,
-  "Jazz at Lincoln Center": 23,
+  "Jazz at Lincoln Center": 20,
   "Jazz Foundation of America": 1,
   "Kaufman Music Center": 8,
-  "Kupferberg Center for the Arts at Queens College": 14,
-  "La MaMa Experimental Theatre Club": 22,
+  "Kupferberg Center for the Arts at Queens College": 12,
+  "La MaMa Experimental Theatre Club": 18,
   "Les Ballets Trockadero de Monte Carlo": 1,
-  "Lincoln Center for the Performing Arts": 161,
-  "Lincoln Center Theater": 3,
-  "Jalopy Theatre and School of Folk Music": 18,
+  "Lincoln Center for the Performing Arts": 150,
+  "Lincoln Center Theater": 1,
+  "Jalopy Theatre and School of Folk Music": 17,
   "The Louis Armstrong House Museum": 1,
   "Lower Manhattan Cultural Council": 1,
   "Mabou Mines": 2,
   "Mama Foundation for the Arts": 1,
-  "Manhattan Theatre Club": 6,
+  "Manhattan Theatre Club": 4,
   "Martha Graham Dance Company": 2,
   "MasterVoices": 1,
   "Miller Theatre": 6,
   "Movement Research": 5,
   "National Black Theatre": 2,
-  "National Sawdust": 23,
-  "New Georges": 2,
-  "New Music USA": 33,
+  "National Sawdust": 22,
+  "New Music USA": 30,
   "New York City Ballet": 48,
-  "New York City Center": 13,
+  "New York City Center": 12,
   "New York Philharmonic": 32,
   "New York Theatre Workshop": 1,
-  "Orchestra of St. Luke's": 25,
+  "Orchestra of St. Luke's": 24,
   "Orpheus Chamber Orchestra": 2,
   "The People’s Theatre": 5,
-  "Performance Space New York": 4,
+  "Performance Space New York": 3,
   "Pick Up Performance Co.": 3,
   "Playwrights Horizons": 2,
-  "Pregones/Puerto Rican Traveling Theater": 7,
+  "Pregones/Puerto Rican Traveling Theater": 6,
   "Primary Stages": 1,
   "Prospect Musicals": 1,
-  "Queens Theatre": 9,
-  "Repertorio Español": 9,
+  "Queens Theatre": 7,
+  "Repertorio Español": 8,
   "Roulette": 10,
-  "Roundabout Theatre Company": 4,
-  "Second Stage Theater": 101,
-  "Signature Theatre": 21,
-  "Skirball Center for the Performing Arts": 8,
+  "Roundabout Theatre Company": 1,
+  "Second Stage Theater": 99,
+  "Signature Theatre": 20,
+  "Skirball Center for the Performing Arts": 7,
   "Snug Harbor": 1,
-  "STREB": 2,
+  "STREB": 1,
   "Symphony Space": 6,
   "Talea Ensemble": 1,
   "Teatro Círculo": 1,
@@ -235,27 +227,25 @@
   "The Chocolate Factory Theater": 12,
   "The Classical Theatre of Harlem": 1,
   "The Harlem Chamber Players": 3,
-  "The Jazz Gallery": 25,
-  "The Joyce Theater": 7,
+  "The Jazz Gallery": 24,
+  "The Joyce Theater": 6,
   "The Knights": 1,
-  "The Metropolitan Opera": 10,
+  "The Metropolitan Opera": 9,
   "The National Jazz Museum in Harlem": 6,
-  "The New Group": 1,
-  "The Play Company": 1,
-  "The Tank": 30,
+  "The Tank": 22,
   "TDF": 1,
   "Theatre for a New Audience": 21,
-  "Vineyard Theatre": 1,
   "World Music Institute": 3,
   "Yarn/Wire": 1,
   "Houses On The Moon Theater Co.": 1,
-  "Japan Society": 3,
-  "New York Live Arts": 16,
+  "Japan Society": 2,
+  "New York Live Arts": 15,
   "Bronx Council on the Arts": 2,
+  "Braata Productions": 3,
   "Jazz Power Initiative": 2,
   "Multicultural Music Group": 1,
   "INTAR": 3,
-  "ID Studio Theater": 4,
+  "ID Studio Theater": 3,
   "Lotus Music & Dance": 2,
   "Calpulli Mexican Dance Company": 5,
   "Thalia Spanish Theatre": 1,
@@ -268,17 +258,17 @@
   "Voices of Ascension": 4,
   "Works & Process": 18,
   "The Clemente": 3,
-  "wild project": 3,
+  "wild project": 2,
   "Lehman Center": 7,
   "TRIBE - Multidisciplinary Visual Performances": 3,
   "Composers Now": 1,
   "HBArts Collective": 2,
   "Bindlestiff Family Cirkus": 1,
-  "PAC NYC": 31,
+  "PAC NYC": 29,
   "Omnium Circus": 3,
   "Breaking the Binary Theatre": 1,
-  "IATI Theater": 11,
-  "Culture Lab LIC": 16
+  "IATI Theater": 10,
+  "Culture Lab LIC": 13
  },
  "health": {
   "651 ARTS": {
@@ -288,7 +278,7 @@
   },
   "92NY Harkness Dance Center": {
    "status": "ok",
-   "events": 11
+   "events": 10
   },
   "A Better Jamaica": {
    "status": "empty",
@@ -297,11 +287,11 @@
   },
   "A.R.T./New York": {
    "status": "ok",
-   "events": 5
+   "events": 3
   },
   "Abrons Arts Center": {
    "status": "ok",
-   "events": 6
+   "events": 5
   },
   "Belongó": {
    "status": "ok",
@@ -336,11 +326,12 @@
   },
   "Apollo Theater": {
    "status": "ok",
-   "events": 11
+   "events": 10
   },
   "Ars Nova": {
-   "status": "ok",
-   "events": 1
+   "status": "empty",
+   "events": 0,
+   "reason": "no performances listed in the window"
   },
   "Arts for Art": {
    "status": "empty",
@@ -354,11 +345,11 @@
   },
   "Atlantic Theater Company": {
    "status": "ok",
-   "events": 2
+   "events": 1
   },
   "BAAD! Bronx Academy of Arts and Dance": {
    "status": "ok",
-   "events": 6
+   "events": 5
   },
   "Ballet Hispánico": {
    "status": "empty",
@@ -403,7 +394,7 @@
   },
   "Brooklyn Academy of Music": {
    "status": "ok",
-   "events": 8
+   "events": 7
   },
   "Brooklyn Arts Council": {
    "status": "empty",
@@ -422,7 +413,7 @@
   },
   "Carnegie Hall": {
    "status": "ok",
-   "events": 32
+   "events": 31
   },
   "Center for Performance Research": {
    "status": "ok",
@@ -439,7 +430,7 @@
   },
   "Chamber Music Society of Lincoln Center": {
    "status": "ok",
-   "events": 18
+   "events": 17
   },
   "City Parks Foundation": {
    "status": "empty",
@@ -475,7 +466,7 @@
   },
   "Danspace Project": {
    "status": "ok",
-   "events": 10
+   "events": 9
   },
   "Dorrance Dance": {
    "status": "ok",
@@ -501,7 +492,7 @@
   },
   "ETHEL": {
    "status": "ok",
-   "events": 4
+   "events": 3
   },
   "Fiasco Theater": {
    "status": "ok",
@@ -549,8 +540,9 @@
    "reason": "no performances listed in the window"
   },
   "HERE": {
-   "status": "ok",
-   "events": 2
+   "status": "empty",
+   "events": 0,
+   "reason": "no performances listed in the window"
   },
   "Hi-ARTS": {
    "status": "empty",
@@ -588,7 +580,7 @@
   },
   "Irish Repertory Theatre": {
    "status": "ok",
-   "events": 4
+   "events": 2
   },
   "ISSUE Project Room": {
    "status": "ok",
@@ -608,7 +600,7 @@
   },
   "Jazz at Lincoln Center": {
    "status": "ok",
-   "events": 23
+   "events": 20
   },
   "Jazz Foundation of America": {
    "status": "ok",
@@ -630,7 +622,7 @@
   },
   "Kupferberg Center for the Arts at Queens College": {
    "status": "ok",
-   "events": 14
+   "events": 12
   },
   "Kyle Abraham Dance Vanguard": {
    "status": "empty",
@@ -639,7 +631,7 @@
   },
   "La MaMa Experimental Theatre Club": {
    "status": "ok",
-   "events": 22
+   "events": 18
   },
   "LAByrinth Theater Company": {
    "status": "empty",
@@ -657,15 +649,15 @@
   },
   "Lincoln Center for the Performing Arts": {
    "status": "ok",
-   "events": 161
+   "events": 150
   },
   "Lincoln Center Theater": {
    "status": "ok",
-   "events": 3
+   "events": 1
   },
   "Jalopy Theatre and School of Folk Music": {
    "status": "ok",
-   "events": 18
+   "events": 17
   },
   "The Louis Armstrong House Museum": {
    "status": "ok",
@@ -690,7 +682,7 @@
   },
   "Manhattan Theatre Club": {
    "status": "ok",
-   "events": 6
+   "events": 4
   },
   "Mark Morris Dance Group": {
    "status": "empty",
@@ -744,7 +736,7 @@
   },
   "National Sawdust": {
    "status": "ok",
-   "events": 23
+   "events": 22
   },
   "New Dramatists": {
    "status": "empty",
@@ -752,12 +744,13 @@
    "reason": "no performances listed in the window"
   },
   "New Georges": {
-   "status": "ok",
-   "events": 2
+   "status": "empty",
+   "events": 0,
+   "reason": "no performances listed in the window"
   },
   "New Music USA": {
    "status": "ok",
-   "events": 33
+   "events": 30
   },
   "New York City Ballet": {
    "status": "ok",
@@ -765,7 +758,7 @@
   },
   "New York City Center": {
    "status": "ok",
-   "events": 13
+   "events": 12
   },
   "New York City Children's Theater": {
    "status": "no_source",
@@ -817,7 +810,7 @@
   },
   "Orchestra of St. Luke's": {
    "status": "ok",
-   "events": 25
+   "events": 24
   },
   "Orpheus Chamber Orchestra": {
    "status": "ok",
@@ -854,7 +847,7 @@
   },
   "Performance Space New York": {
    "status": "ok",
-   "events": 4
+   "events": 3
   },
   "Pick Up Performance Co.": {
    "status": "ok",
@@ -871,7 +864,7 @@
   },
   "Pregones/Puerto Rican Traveling Theater": {
    "status": "ok",
-   "events": 7
+   "events": 6
   },
   "Primary Stages": {
    "status": "ok",
@@ -883,7 +876,7 @@
   },
   "Queens Theatre": {
    "status": "ok",
-   "events": 9
+   "events": 7
   },
   "Rattlestick Playwrights Theater": {
    "status": "empty",
@@ -897,7 +890,7 @@
   },
   "Repertorio Español": {
    "status": "ok",
-   "events": 9
+   "events": 8
   },
   "Roulette": {
    "status": "ok",
@@ -905,19 +898,19 @@
   },
   "Roundabout Theatre Company": {
    "status": "ok",
-   "events": 4
+   "events": 1
   },
   "Second Stage Theater": {
    "status": "ok",
-   "events": 101
+   "events": 99
   },
   "Signature Theatre": {
    "status": "ok",
-   "events": 21
+   "events": 20
   },
   "Skirball Center for the Performing Arts": {
    "status": "ok",
-   "events": 8
+   "events": 7
   },
   "Snug Harbor": {
    "status": "ok",
@@ -940,7 +933,7 @@
   },
   "STREB": {
    "status": "ok",
-   "events": 2
+   "events": 1
   },
   "Symphony Space": {
    "status": "ok",
@@ -1015,11 +1008,11 @@
   },
   "The Jazz Gallery": {
    "status": "ok",
-   "events": 25
+   "events": 24
   },
   "The Joyce Theater": {
    "status": "ok",
-   "events": 7
+   "events": 6
   },
   "The Kitchen": {
    "status": "empty",
@@ -1032,7 +1025,7 @@
   },
   "The Metropolitan Opera": {
    "status": "ok",
-   "events": 10
+   "events": 9
   },
   "The National Jazz Museum in Harlem": {
    "status": "ok",
@@ -1044,12 +1037,14 @@
    "reason": "no_calendar_found"
   },
   "The New Group": {
-   "status": "ok",
-   "events": 1
+   "status": "empty",
+   "events": 0,
+   "reason": "no performances listed in the window"
   },
   "The Play Company": {
-   "status": "ok",
-   "events": 1
+   "status": "empty",
+   "events": 0,
+   "reason": "no performances listed in the window"
   },
   "The Playwrights Realm": {
    "status": "empty",
@@ -1068,7 +1063,7 @@
   },
   "The Tank": {
    "status": "ok",
-   "events": 30
+   "events": 22
   },
   "the TEAM": {
    "status": "empty",
@@ -1124,8 +1119,9 @@
    "reason": "no_calendar_found"
   },
   "Vineyard Theatre": {
-   "status": "ok",
-   "events": 1
+   "status": "empty",
+   "events": 0,
+   "reason": "no performances listed in the window"
   },
   "Waterwell": {
    "status": "empty",
@@ -1161,11 +1157,11 @@
   },
   "Japan Society": {
    "status": "ok",
-   "events": 3
+   "events": 2
   },
   "New York Live Arts": {
    "status": "ok",
-   "events": 16
+   "events": 15
   },
   "Bronx Council on the Arts": {
    "status": "ok",
@@ -1182,9 +1178,8 @@
    "reason": "no performances listed in the window"
   },
   "Braata Productions": {
-   "status": "empty",
-   "events": 0,
-   "reason": "no performances listed in the window"
+   "status": "ok",
+   "events": 3
   },
   "LEIMAY": {
    "status": "empty",
@@ -1215,7 +1210,7 @@
   },
   "ID Studio Theater": {
    "status": "ok",
-   "events": 4
+   "events": 3
   },
   "Lotus Music & Dance": {
    "status": "ok",
@@ -1367,7 +1362,7 @@
   },
   "wild project": {
    "status": "ok",
-   "events": 3
+   "events": 2
   },
   "Emily Johnson / Catalyst": {
    "status": "no_source",
@@ -1431,7 +1426,7 @@
   },
   "PAC NYC": {
    "status": "ok",
-   "events": 31
+   "events": 29
   },
   "IlluminArt Productions": {
    "status": "empty",
@@ -1463,11 +1458,11 @@
   },
   "IATI Theater": {
    "status": "ok",
-   "events": 11
+   "events": 10
   },
   "Culture Lab LIC": {
    "status": "ok",
-   "events": 16
+   "events": 13
   },
   "Culture and Arts Policy Institute": {
    "status": "empty",
@@ -1502,8 +1497,8 @@
  },
  "coverage": {
   "total": 271,
-  "with_events": 135,
-  "no_events": 104,
+  "with_events": 130,
+  "no_events": 109,
   "no_source": 30,
   "blocked": 0,
   "failed": 0
@@ -1525,6 +1520,10 @@
    {
     "name": "American Lyric Theater",
     "site": "https://www.altnyc.org"
+   },
+   {
+    "name": "Ars Nova",
+    "site": "https://www.arsnovanyc.com"
    },
    {
     "name": "Arts for Art",
@@ -1593,6 +1592,10 @@
    {
     "name": "Harlem Stage",
     "site": "https://www.harlemstage.org"
+   },
+   {
+    "name": "HERE",
+    "site": "https://www.here.org"
    },
    {
     "name": "Hi-ARTS",
@@ -1665,6 +1668,10 @@
    {
     "name": "New Dramatists",
     "site": "https://www.newdramatists.org"
+   },
+   {
+    "name": "New Georges",
+    "site": "https://www.newgeorges.org"
    },
    {
     "name": "New York City Players",
@@ -1751,6 +1758,14 @@
     "site": "https://www.thekitchen.org"
    },
    {
+    "name": "The New Group",
+    "site": "https://www.thenewgroup.org"
+   },
+   {
+    "name": "The Play Company",
+    "site": "https://www.playco.org"
+   },
+   {
     "name": "The Playwrights Realm",
     "site": "https://www.playwrightsrealm.org"
    },
@@ -1783,6 +1798,10 @@
     "site": "https://www.urbanbushwomen.org"
    },
    {
+    "name": "Vineyard Theatre",
+    "site": "https://www.vineyardtheatre.org"
+   },
+   {
     "name": "Waterwell",
     "site": "https://www.waterwell.org"
    },
@@ -1805,10 +1824,6 @@
    {
     "name": "Angela’s Pulse",
     "site": "https://angelaspulse.org"
-   },
-   {
-    "name": "Braata Productions",
-    "site": "https://www.braataproductions.org"
    },
    {
     "name": "LEIMAY",
@@ -2114,942 +2129,6 @@
  },
  "warnings": [],
  "events": [
-  {
-   "date": "2026-11-06",
-   "time": "11:00 AM",
-   "title": "De Papel",
-   "org": "Lincoln Center for the Performing Arts",
-   "location": "Lincoln Center (specific venue not stated)",
-   "description": "Family show from Lincoln Center Presents' Kids, Teens, and Families programming.",
-   "discipline": "Family/Education",
-   "genre": "family show",
-   "url": "https://www.lincolncenter.org/series/lincoln-center-presents/de-papel-848",
-   "notes": "Family performance"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "11:00 AM",
-   "title": "La Gringa",
-   "org": "Repertorio Español",
-   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
-   "description": "Carmen Rivera's play, directed by René Buch, billed as part of the company's 30 years in repertory.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://repertorio.nyc/show/292/la-gringa",
-   "notes": "11 AM weekday show; presented in Spanish per company's focus (language not stated on page)"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "11:30 AM",
-   "title": "STREB Open Rehearsal",
-   "org": "STREB",
-   "location": "STREB EXTREME ACTION rehearsal space (venue not stated on page), New York",
-   "description": "Public can watch the STREB EXTREME ACTION company at work in an open rehearsal; RSVP requested.",
-   "discipline": "Dance",
-   "genre": "PopAction / extreme action",
-   "url": "https://docs.google.com/forms/d/e/1FAIpQLSekpr78ag44Lf32ckr5-OCMVCrMgq66sQha7lbkzRNA4PS-cw/viewform?usp=header",
-   "notes": "Recurs Tuesdays-Fridays 11:30am-3:15pm (from Sept 8, no end date stated); only next occurrence listed. RSVP required; schedule subject to change."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "2:00 PM",
-   "title": "De Papel",
-   "org": "Lincoln Center for the Performing Arts",
-   "location": "Lincoln Center (specific venue not stated)",
-   "description": "Family show from Lincoln Center Presents' Kids, Teens, and Families programming.",
-   "discipline": "Family/Education",
-   "genre": "family show",
-   "url": "https://www.lincolncenter.org/series/lincoln-center-presents/de-papel-848",
-   "notes": "Family performance"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "3:00 PM",
-   "title": "Atalanta: The Long Shot",
-   "org": "Culture Lab LIC",
-   "location": "Culture Lab LIC",
-   "description": "A new queer musical by Lucier & Rose retelling the myth of Atalanta, the ancient Greek Amazon heroine. Part of the New Works Festival.",
-   "discipline": "Theater",
-   "genre": "new musical",
-   "url": "https://events.humanitix.com/atalanta-the-long-shot",
-   "notes": "Listed as 3-6pm; pre-show experience 30 min before performance."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "3:00 PM",
-   "title": "De Papel",
-   "org": "Lincoln Center for the Performing Arts",
-   "location": "Lincoln Center (specific venue not stated)",
-   "description": "Family show from Lincoln Center Presents' Kids, Teens, and Families programming.",
-   "discipline": "Family/Education",
-   "genre": "family show",
-   "url": "https://www.lincolncenter.org/series/lincoln-center-presents/de-papel-848",
-   "notes": "Family performance"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "3:00 PM",
-   "title": "My Mobster",
-   "org": "The Tank",
-   "location": "The Tank",
-   "description": "One-woman show about a sheltered American girl who meets a handsome stranger in Italy and chaos follows.",
-   "discipline": "Theater",
-   "genre": "solo show",
-   "url": "https://thetanknyc.org/calendar-1/mymobster",
-   "notes": "Run continues through Nov 23, 2026; specific performance days not stated, so only next occurrence listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "3:00 PM",
-   "title": "Marshlight",
-   "org": "The Tank",
-   "location": "The Tank",
-   "description": "Art, love and psychosis in post-WWII Cape Cod, with a long-held secret threatening a young musician's life in Vietnam-era New York.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://thetanknyc.org/calendar-1/marshlight",
-   "notes": "Run ends Nov 9, 2026; specific performance days not stated, so only next occurrence listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "6:00 PM",
-   "title": "Fridays in Arnhold: The Study Series",
-   "org": "92NY Harkness Dance Center",
-   "location": "92NY, Lexington Avenue at 91st/92nd St",
-   "description": "Showing of new dance work by Thomas Hogan, Shelby Green, Louise Coleman and Marissa Chen.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.92ny.org/event/fridays-in-arnhold-the-study-series",
-   "notes": "Free in-person tickets"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "6:00 PM",
-   "title": "Hip Hop FinFest Volume 5: Collective Care is Self Care",
-   "org": "Abrons Arts Center",
-   "location": "Abrons Arts Center",
-   "description": "Fifth edition of a hip hop festival presented by Pocket's Change, themed around collective care.",
-   "discipline": "Multidisciplinary",
-   "genre": "hip hop",
-   "url": "https://www.abronsartscenter.org/programs/hiphop-finfest5",
-   "notes": "Page gives no program details; classified as a festival event."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "6:00 PM",
-   "title": "Rush Hour Performance | Humoreske: Schumann and Scriabin",
-   "org": "Lincoln Center for the Performing Arts",
-   "location": "The Juilliard School, Lincoln Center",
-   "description": "Early-evening Juilliard recital of music by Schumann and Scriabin.",
-   "discipline": "Music",
-   "genre": "classical",
-   "url": "https://www.juilliard.edu/event/187896/rush-hour-performance-humoreske-schumann-and-scriabin",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-06",
-   "time": "6:00 PM",
-   "title": "Jennifer Wharton's Bonegasm",
-   "org": "PAC NYC",
-   "location": "Lobby Stage, PAC NYC",
-   "description": "Bonegasm, led by trombonist Jennifer Wharton, plays a free set in the PAC NYC lobby.",
-   "discipline": "Music",
-   "genre": "jazz",
-   "url": "https://pacnyc.org/whats-on/jennifer-whartons-bonegasm/",
-   "notes": "Free Music at PAC NYC series; RSVP offered"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "why would you hurt me on a dying planet?",
-   "org": "Ars Nova",
-   "location": "Ars Nova",
-   "description": "A show by Kat Sotelo presented by Ars Nova, listed as the organization's current upcoming event.",
-   "discipline": "Other",
-   "genre": "",
-   "url": "https://arsnovanyc.com/events/why-would-you-hurt-me-on-a-dying-planet/",
-   "notes": "Venue address not stated on the page; genre/format not stated."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "Fifty fun facts sobre Olivia [mi madre]",
-   "org": "IATI Theater",
-   "location": "IATI Theater - Mainstage",
-   "description": "A bilingual play about a teenage boy coping with his mother's medical crisis while navigating cultures, languages and identity, mixing humor, memory and autofiction.",
-   "discipline": "Theater",
-   "genre": "bilingual new play",
-   "url": "",
-   "notes": "Run Nov 6–22; Thu & Fri 7 PM, Sat & Sun 3 PM. Tickets on sale."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "Jason Marsalis Presents the Rare Works of Ellis Marsalis",
-   "org": "Jazz at Lincoln Center",
-   "location": "Dizzy's Club, Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "Jason Marsalis presents lesser-known compositions by Ellis Marsalis in a Dizzy's Club engagement (Nov 5–6).",
-   "discipline": "Music",
-   "genre": "jazz",
-   "url": "https://ticketing.jazz.org/21688/",
-   "notes": "Based on Dizzy's general 7PM & 9PM nightly shows; a 9:00 PM show is also listed.; also listed by Lincoln Center for the Performing Arts"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "A Few Good Men",
-   "org": "Lincoln Center for the Performing Arts",
-   "location": "Lincoln Center Theater",
-   "description": "Lincoln Center Theater production of the courtroom drama.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "Venue not stated beyond Lincoln Center Theater; also listed by Lincoln Center Theater"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "School Girls; or, The African Mean Girls Play",
-   "org": "Manhattan Theatre Club",
-   "location": "Samuel J. Friedman Theatre",
-   "description": "Jocelyn Bioh's comedy about a group of mean girls at a Ghanaian boarding school, directed by Whitney White.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/school-girls-or-the-african-mean-girls-play/",
-   "notes": "Venue inferred from calendar/ticket link. Run continues through Nov 15, but only the dates on the calendar are listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "The Unbelievers",
-   "org": "Manhattan Theatre Club",
-   "location": "New York City Center",
-   "description": "New play by Nick Payne, directed by Knud Adams, presented off-Broadway.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/the-unbelievers/",
-   "notes": "Only dates on the calendar are listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "Alkemie opens its 2026-2027 season with \"A Worthy Mirror\" album release concerts",
-   "org": "New Music USA",
-   "location": "Urbane Arts Club, St. Paul's Episcopal Church",
-   "description": "Season-opening concert marking the release of Alkemie's album \"A Worthy Mirror.\" The listing runs Nov 5–6; only Nov 6 falls in the window.",
-   "discipline": "Music",
-   "genre": "new music / album release",
-   "url": "https://newmusicusa.org/events/alkemie-opens-its-2026-2027-season-with-a-worthy-mirror-album-release-concerts/",
-   "notes": "Listing covers Nov 5–6; Nov 6 is the only in-window date."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "Composers Concordance Presents CompCord @Harlem Jazz featuring Sound Liberation 'Ella Fitzgerald Inspired'",
-   "org": "New Music USA",
-   "location": "15 Mt Morris Park W, New York City",
-   "description": "Composers Concordance concert with the group Sound Liberation performing music inspired by Ella Fitzgerald.",
-   "discipline": "Music",
-   "genre": "jazz / new music",
-   "url": "https://newmusicusa.org/events/composers-concordance-presents-compcord-harlem-jazz-featuring-sound-liberation-ella-fitzgerald-inspired/",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "DJ Marcy MD",
-   "org": "PAC NYC",
-   "location": "Metropolis by Marcus Samuelsson, PAC NYC",
-   "description": "A DJ set at Metropolis as part of the free music series.",
-   "discipline": "Music",
-   "genre": "DJ set",
-   "url": "https://pacnyc.org/whats-on/dj-marcy-md/",
-   "notes": "Free Music at PAC NYC series"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "The Visitors",
-   "org": "Second Stage Theater",
-   "location": "The Irene Diamond Stage, The Pershing Square Signature Center, 480 W 42nd Street",
-   "description": "World premiere comedy-drama by Bryna Turner about a woman who asks her three siblings for a life-changing favor.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "King of the Yees",
-   "org": "Signature Theatre",
-   "location": "Signature Theatre",
-   "description": "Performance of the play King of the Yees as part of Signature's season.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4213",
-   "notes": "ASL interpreted"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "TJG Residency Commission '26 presents Jonathan Paik \"Catch Me Weeping in Reverent Awe\"",
-   "org": "The Jazz Gallery",
-   "location": "The Jazz Gallery, 1158 Broadway 5th floor",
-   "description": "Pianist-composer Jonathan Paik premieres a commissioned work with samplers, DX7, two guitars, bass and drums.",
-   "discipline": "Music",
-   "genre": "jazz / new composition",
-   "url": "https://jazzgallery.org/calendar/jonathan-paik-nov-6-7",
-   "notes": "Two sets, 7pm and 9pm ET; free for members."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "Rope",
-   "org": "The New Group",
-   "location": "",
-   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "Fast and Furious: A show about collective experience",
-   "org": "The Tank",
-   "location": "The Tank",
-   "description": "Five artists riff on shared experiences of New Yorkers and internet-scrollers, making fun and meaning of moments we all notice together.",
-   "discipline": "Theater",
-   "genre": "devised show",
-   "url": "https://thetanknyc.org/calendar-1/2026/9/16/fast-and-furious-a-show-about-collective-experience",
-   "notes": "Run continues through Nov 19, 2026; specific performance days not stated, so only next occurrence listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "Show Trial",
-   "org": "The Tank",
-   "location": "The Tank",
-   "description": "Absurdist satire of the 1950 Prague treason trial of Milada Horáková, where guilt is scripted and truth is manufactured.",
-   "discipline": "Theater",
-   "genre": "satire",
-   "url": "https://thetanknyc.org/calendar-1/showtrial",
-   "notes": "Run ends Nov 8, 2026; specific performance days not stated, so only next occurrence listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "Just Keep Waiting",
-   "org": "The Tank",
-   "location": "The Tank",
-   "description": "A physical, emotionally honest piece about the shared experience of waiting for something to begin, change, or arrive.",
-   "discipline": "Theater",
-   "genre": "physical theater",
-   "url": "https://thetanknyc.org/calendar-1/2026/10/5/justkeepwaiting",
-   "notes": "Run ends Nov 7, 2026; specific performance days not stated, so only next occurrence listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:00 PM",
-   "title": "The List",
-   "org": "The Tank",
-   "location": "The Tank",
-   "description": "After a friend's suicide, two surviving best friends confront each other at the funeral over who is on 'The List'.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://thetanknyc.org/calendar-1/thelist",
-   "notes": "Run ends Nov 14, 2026; specific performance days not stated, so only next occurrence listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "Naima Ramos-Chapman: In Place of Monuments",
-   "org": "Apollo Theater",
-   "location": "The Apollo Stages at The Victoria",
-   "description": "A work-in-process presentation about the friendship of two Black American and Caribbean friends and how state-sanctioned violence threatens them.",
-   "discipline": "Theater",
-   "genre": "new work in process",
-   "url": "https://www.apollotheater.org/event/apollo-new-works-naima-ramos-in-place-of-monuments",
-   "notes": "Listed as sold out; Apollo Works in Process"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "Turn. Turning. TURNT.",
-   "org": "Brooklyn Academy of Music",
-   "location": "BAM (Brooklyn Academy of Music)",
-   "description": "Cynthia Oliver's three-part performance draws on sound, design and light, with work made before, during and after the 2020 pandemic.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.bam.org/dance/2026/turn-turning-turnt",
-   "notes": "Next Wave. Run ends Nov 7."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "Jean Rondeau, Harpsichord",
-   "org": "Carnegie Hall",
-   "location": "Weill Recital Hall",
-   "description": "Harpsichord recital by Jean Rondeau.",
-   "discipline": "Music",
-   "genre": "classical",
-   "url": "https://www.carnegiehall.org/calendar/2026/11/06/jean-rondeau-harpsichord-0730pm",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "Beethoven Piano Sonatas II",
-   "org": "Chamber Music Society of Lincoln Center",
-   "location": "Daniel and Joanna S. Rose Studio at CMS",
-   "description": "Second installment of CMS's Beethoven piano sonata cycle, performed in the Rose Studio.",
-   "discipline": "Music",
-   "genre": "classical",
-   "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/beethoven-piano-sonatas-ii",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "Atalanta: The Long Shot",
-   "org": "Culture Lab LIC",
-   "location": "Culture Lab LIC",
-   "description": "A new queer musical by Lucier & Rose retelling the myth of Atalanta, the ancient Greek Amazon heroine. Part of the New Works Festival.",
-   "discipline": "Theater",
-   "genre": "new musical",
-   "url": "https://events.humanitix.com/atalanta-the-long-shot",
-   "notes": "Listed as 7:30-10:30pm; pre-show experience 30 min before performance."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "Almendares (Estreno)",
-   "org": "ID Studio Theater",
-   "location": "ID Studio Theater",
-   "description": "World premiere play by Oscar González Barreto, directed by Leyma López. Three siblings reunite at their family bar after eight years apart; the lower level is staged as the bar.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://bit.ly/AlmendaresEstreno",
-   "notes": "World premiere run Oct 29–Nov 14, 2026; page text is in Spanish and English."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "The Age is Yours, My Liege! A Tale of Proto-Japan",
-   "org": "Japan Society",
-   "location": "Japan Society",
-   "description": "A Performing Arts 2026-27 season presentation at Japan Society, subtitled as a tale of proto-Japan. The listing page gives no further details.",
-   "discipline": "Other",
-   "genre": "",
-   "url": "https://japansociety.org/events/the-age-is-yours-my-liege-a-tale-of-proto-japan/",
-   "notes": "Listing page gives no description or street address; performance type not specified. Also performs Nov 7."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "ALBA Musik: Contemporary Flamenco",
-   "org": "Lincoln Center for the Performing Arts",
-   "location": "Lincoln Center (specific venue not stated)",
-   "description": "Contemporary flamenco performance presented by Lincoln Center Presents.",
-   "discipline": "Music",
-   "genre": "contemporary flamenco",
-   "url": "https://www.lincolncenter.org/series/lincoln-center-presents/alba-musik-contemporary-flamenco-767",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "National Sawdust and Sarah Williams Present Daniela Mack: 'SUR' Songs of Astor Piazzolla with JP Jofre and His Quintet",
-   "org": "National Sawdust",
-   "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
-   "description": "Mezzo-soprano Daniela Mack and bandoneonist JP Jofre with his quintet perform Piazzolla songs from the album SUR.",
-   "discipline": "Music",
-   "genre": "Argentine tango / classical",
-   "url": "https://www.nationalsawdust.org/event/daniela-mack-sur-album-release-co-produced-by-national-sawdust-and-sarah-williams",
-   "notes": "Album release concert"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "In the Heights",
-   "org": "New York City Center",
-   "location": "New York City Center, 131 W 55th St",
-   "description": "Concert staging of the Miranda/Hudes musical about neighbors in Washington Heights, directed by David Mendizábal.",
-   "discipline": "Theater",
-   "genre": "musical",
-   "url": "https://www.nycitycenter.org/",
-   "notes": "Annual Gala presentation run. A Community Night is also listed for this date at 6pm."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "this is the beginning, this is the end",
-   "org": "New York Live Arts",
-   "location": "New York Live Arts, 219 W 19th Street",
-   "description": "World premiere new work by choreographer Joanna Kotze, presented as part of the New York Live Arts season.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://newyorklivearts.org/event/this-is-the-beginning-this-is-the-end/",
-   "notes": "World premiere"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "7:30 PM",
-   "title": "Sankai Juku: TOTEM—Void and Height",
-   "org": "Skirball Center for the Performing Arts",
-   "location": "NYU Skirball Center, 566 LaGuardia Pl, New York, NY",
-   "description": "Final work by the Japanese butoh company's visionary founder, presented as a North American premiere.",
-   "discipline": "Dance",
-   "genre": "butoh",
-   "url": "https://nyuskirball.org/performance/totem/",
-   "notes": "North American premiere; run Nov 5–7"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "8:00 PM",
-   "title": "Dancing Futures: Zainab Floyd",
-   "org": "BAAD! Bronx Academy of Arts and Dance",
-   "location": "BAAD! Bronx Academy of Arts and Dance, Westchester Avenue, The Bronx",
-   "description": "A Dancing Futures presentation featuring choreographer Zainab Floyd at BAAD!.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.eventbrite.com/e/dancing-futures-zainab-floyd-tickets-1998516268959?aff=ebdsoporgprofile",
-   "notes": "Listing says '8:00 PM and 1 more' showtime; the other date/time is not stated, so only this one is listed. Tickets from $5."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "8:00 PM",
-   "title": "Sunset Jazz",
-   "org": "Culture Lab LIC",
-   "location": "Culture Lab LIC",
-   "description": "Weekly live jazz night in the gallery space with drinks; seating is limited.",
-   "discipline": "Music",
-   "genre": "jazz",
-   "url": "https://www.culturelablic.org/sunset-jazz",
-   "notes": "Free; RSVP via Humanitix. Held every Friday at 8 PM; page gives no end date, so only the next occurrence is listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "8:00 PM",
-   "title": "Malika Zarra",
-   "org": "Kupferberg Center for the Arts at Queens College",
-   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
-   "description": "Concert by singer-songwriter Malika Zarra.",
-   "discipline": "Music",
-   "genre": "",
-   "url": "https://kupferbergcenter.org/event/malika/",
-   "notes": "also listed by New Music USA"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "8:00 PM",
-   "title": "Puccini's Tosca",
-   "org": "Lincoln Center for the Performing Arts",
-   "location": "The Metropolitan Opera, Lincoln Center",
-   "description": "Metropolitan Opera performance of Puccini's Tosca.",
-   "discipline": "Opera",
-   "genre": "opera",
-   "url": "https://www.metopera.org/season/2026-27-season/tosca/",
-   "notes": "also listed by The Metropolitan Opera"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "8:00 PM",
-   "title": "August Wilson's Seven Guitars",
-   "org": "Lincoln Center for the Performing Arts",
-   "location": "Lincoln Center Theater",
-   "description": "Lincoln Center Theater production of August Wilson's play.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "also listed by Lincoln Center Theater"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "8:00 PM",
-   "title": "Airs / Battle Premiere / Esplanade",
-   "org": "Orchestra of St. Luke's",
-   "location": "Lincoln Center",
-   "description": "Evening of Paul Taylor dance repertory, with a new-work premiere on the bill, listed on the OSL calendar.",
-   "discipline": "Dance",
-   "genre": "modern dance",
-   "url": "https://oslmusic.org/calendar/2026/11/06/airs-battle-premiere-esplanade-8pm/",
-   "notes": "Tickets link to the David H. Koch Theater's Paul Taylor page."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "8:00 PM",
-   "title": "Clara Ulrich: Yo Quiero Ser Mi Marido",
-   "org": "Queens Theatre",
-   "location": "The Claire Shulman Theater, Queens Theatre, 14 United Nations Avenue South",
-   "description": "Spanish-language live show by Clara Ulrich, presented by Tiranube Entertainment.",
-   "discipline": "Other",
-   "genre": "Spanish-language live show",
-   "url": "https://www.queenstheatre.org/events/clara-ulrich-yo-quiero-ser-mi-marido-zvg4",
-   "notes": "Visiting presenter."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "8:00 PM",
-   "title": "The Fantasticks",
-   "org": "Second Stage Theater",
-   "location": "Hayes Theater, 240 West 44th Street",
-   "description": "Broadway premiere of the long-running musical about two mothers scheming to make their sons fall in love, reimagined by lyricist Tom Jones and directed by Christopher Gattelli.",
-   "discipline": "Theater",
-   "genre": "musical",
-   "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-06",
-   "time": "9:00 PM",
-   "title": "Jason Marsalis Presents the Rare Works of Ellis Marsalis",
-   "org": "Jazz at Lincoln Center",
-   "location": "Dizzy's Club, Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "Jason Marsalis presents lesser-known compositions by Ellis Marsalis in a Dizzy's Club engagement (Nov 5–6).",
-   "discipline": "Music",
-   "genre": "jazz",
-   "url": "https://ticketing.jazz.org/21688/",
-   "notes": "Based on Dizzy's general 7PM & 9PM nightly shows.; also listed by Lincoln Center for the Performing Arts"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "9:30 PM",
-   "title": "SCAPE",
-   "org": "The Tank",
-   "location": "The Tank",
-   "description": "On the last night before her childhood home is sold, a young woman gets a call from her dead father and faces the child-self she buried.",
-   "discipline": "Theater",
-   "genre": "psychological drama",
-   "url": "https://thetanknyc.org/calendar-1/scape",
-   "notes": "Run ends Nov 7, 2026; specific performance days not stated, so only next occurrence listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Aftermath",
-   "org": "A.R.T./New York",
-   "location": "A.R.T./New York Theatres",
-   "description": "Play by David Zax about a journalist who has survived a Taliban kidnapping and is trying to reconnect with his family at home. Directed by Colton Pometta.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://art-newyork.org/events/aftermath-2/",
-   "notes": "Presented by The InterCircle (rental, not produced by A.R.T./New York). Run Oct 19–Nov 8, 2026; individual showtimes not stated, so only the next date is listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "The Morbs",
-   "org": "A.R.T./New York",
-   "location": "A.R.T./New York Theatres",
-   "description": "Comic horror play by Jen Diamond in which sorority sisters hole up in a cabin as a terrifying illness spreads. Directed by Lily Kanter Riopelle.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://art-newyork.org/events/the-morbs/",
-   "notes": "Presented by Egg & Spoon (rental). Run Oct 26–Nov 14, 2026; showtimes not stated, so only the next date is listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "I Became We",
-   "org": "Atlantic Theater Company",
-   "location": "Atlantic Theater Company (specific venue not stated on page)",
-   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": "Run continues through Nov 22, 2026. Page gives no individual showtimes or days, so only the next occurrence (today) is listed; check the production page for the schedule."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Kyle Marshall Choreography: Bound",
-   "org": "Danspace Project",
-   "location": "Danspace Project, St. Mark's Church, 131 East 10th St.",
-   "description": "Dance program by Kyle Marshall Choreography at Danspace; the calendar lists it for Nov 5–7 with no further detail on the page.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://danspaceproject.org/calendar/fw2026-marshall/",
-   "notes": "Calendar shows run Nov 5–7; showtimes not stated on page text. Nov 5 is before the window."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "ETHEL at the Metropolitan Museum of Art",
-   "org": "ETHEL",
-   "location": "Metropolitan Museum of Art, New York, NY",
-   "description": "ETHEL performance at the Metropolitan Museum of Art, listed on the ensemble's calendar. No program details given on the page.",
-   "discipline": "Music",
-   "genre": "",
-   "url": "https://www.bandsintown.com/e/109064520?affil_code=js_ethelcentral.org&app_id=js_ethelcentral.org&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget",
-   "notes": "Start time and program not stated on page."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "The Kick Inside",
-   "org": "HERE",
-   "location": "HERE",
-   "description": "The Million Underscores present a show about Alenka, who struggles to communicate in a city where language is warped by algorithms, feelings and animal impulses, and her house starts talking.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://here.org/shows/the-kick-inside/",
-   "notes": "Run listed as October 21 - November 7; individual showtimes not stated on page, so only the next occurrence is listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Arias with a Twist",
-   "org": "HERE",
-   "location": "HERE",
-   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
-   "discipline": "Theater",
-   "genre": "musical puppetry cabaret",
-   "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "Run listed as September 17 - December 20; showtimes and specific dates not stated, so only the next occurrence in the window is listed."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "The Hairy Ape",
-   "org": "Irish Repertory Theatre",
-   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
-   "description": "Mainstage production of The Hairy Ape, extended through December 6.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": "Run Sept 25–Dec 6, 2026 (just extended). Page gives no individual showtimes; date shown is the window start, not a confirmed performance date."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "New Works Fall Festival 2026",
-   "org": "Irish Repertory Theatre",
-   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
-   "description": "Festival of new works on the mainstage, running Nov 2–23.",
-   "discipline": "Theater",
-   "genre": "new works festival",
-   "url": "https://irishrep.org/whats-on/new-works-fall-festival-2026",
-   "notes": "Run Nov 2–23, 2026. Page gives no individual dates/times; date shown is the window start, not a confirmed performance date.; also listed by Jalopy Theatre and School of Folk Music"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Marsalis' Swinging Cities",
-   "org": "Jazz at Lincoln Center",
-   "location": "Rose Theater, Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "The Jazz at Lincoln Center Orchestra with Wynton Marsalis plays selections from his Vitoria, Shanghai and Marciac suites, reflecting his travels and ties to cities worldwide.",
-   "discipline": "Music",
-   "genre": "jazz big band",
-   "url": "https://jazz.org/concert/marsalis-swinging-cities-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
-   "notes": "Showtime not stated on page.; also listed by Lincoln Center for the Performing Arts"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Marie Antoinette",
-   "org": "Kupferberg Center for the Arts at Queens College",
-   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
-   "description": "Queens College Department of Drama, Theatre and Dance stage production of Marie Antoinette.",
-   "discipline": "Theater",
-   "genre": "student theater production",
-   "url": "https://kupferbergcenter.org/event/marie-antoinette/",
-   "notes": "Run listed as Thu-Sun, Oct 29-Nov 8; showtime not stated on listing page."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "The Greatest Story Ever",
-   "org": "La MaMa Experimental Theatre Club",
-   "location": "La MaMa Experimental Theatre Club",
-   "description": "Paul Budraitis's intimate, interactive performance about a stolen spaceship, a taxi driver and a distant star, with the audience part of the story.",
-   "discipline": "Theater",
-   "genre": "solo/interactive performance",
-   "url": "https://lamama.org/the-greatest-story-ever/",
-   "notes": "Run Oct 29-Nov 8, 2026; this entry is the first date in the window. Individual showtimes not stated on page."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Kate Rigg with Slanty Eyed Mama",
-   "org": "La MaMa Experimental Theatre Club",
-   "location": "La MaMa Experimental Theatre Club",
-   "description": "Work-in-progress showing of a new spoken word, rock and comedy show by NYSCA artists-in-residence Slanty Eyed Mama.",
-   "discipline": "Theater",
-   "genre": "spoken word/rock/comedy",
-   "url": "https://lamama.org/kateriggwithslantyeyedmama/",
-   "notes": "Run Nov 1-7, 2026; first date in window listed. Showtimes not stated."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Maayuma li Mubirr (Healing Scars)",
-   "org": "La MaMa Experimental Theatre Club",
-   "location": "La MaMa Experimental Theatre Club",
-   "description": "Moogahlin Performing Arts of Australia presents a piece on the self-healing journey of First Peoples reconciling grief from injustice across generations.",
-   "discipline": "Theater",
-   "genre": "Indigenous theatre",
-   "url": "https://lamama.org/maayuma-li-mubirr/",
-   "notes": "Run Nov 4-6; only Nov 6 is in window. Showtime not stated."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "All My R(el)ations",
-   "org": "La MaMa Experimental Theatre Club",
-   "location": "La MaMa Experimental Theatre Club",
-   "description": "Aanmitaagzi of Canada presents a multidisciplinary dance theatre project about community and identity in the face of adversity.",
-   "discipline": "Dance",
-   "genre": "Indigenous dance theatre",
-   "url": "https://lamama.org/all-my-relations/",
-   "notes": "Run Nov 4-6; only Nov 6 is in window. Showtime not stated."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Legerdemain",
-   "org": "New Georges",
-   "location": "The Tank",
-   "description": "New play by Lynn Rosen, directed by Julie Kramer, presented at The Tank as a New Georges Supported Production.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://thetanknyc.org/calendar-1/legerdemain",
-   "notes": "Run listed as Oct 29 to Nov 21; the page gives no individual show days or times, so only the next date in the window is listed (assumed to be within the run). Check the link for the schedule.; also listed by The Tank"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "W.T.F. Warner, Thomlinson, & Farrow",
-   "org": "New Georges",
-   "location": "MITU580",
-   "description": "New play by Sauda Aziza Jackson, directed by April Sweeney, staged at MITU580 as a New Georges Supported Production.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://www.onthestage.tickets/show/necessary-digression/6a4e5041e3267546a5eaf4c5/tickets#/productions-view",
-   "notes": "Run listed as Oct 23 to Nov 7; the page gives no individual show days or times, so only the next date in the window is listed. Check the ticket link for the schedule."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Playing Safe: Queering the Indigenous Performance Archive",
-   "org": "Performance Space New York",
-   "location": "Performance Space New York",
-   "description": "A new performance by Vance Wright, curated by Tania Willard and Dana Claxton, reworking the Indigenous performance archive through a queer lens.",
-   "discipline": "Multidisciplinary",
-   "genre": "performance art",
-   "url": "https://performancespacenewyork.org/shows/playing-safe-queering-the-indigenous-performance-archive/",
-   "notes": "Run is Nov 5-7; showtime not stated on page."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Leave a Message After…The Beep",
-   "org": "Pregones/Puerto Rican Traveling Theater",
-   "location": "Puerto Rican Traveling Theater (PRTT), 304 W 47th St., New York, NY 10036",
-   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican writers and artists.",
-   "discipline": "Theater",
-   "genre": "musical theater",
-   "url": "https://pregonesprtt.org/the-beep-2026-27/",
-   "notes": "Run listed as Oct 15–Nov 22, 2026; individual performance dates and times not stated on the page. Date shown is the start of the window, not a confirmed showtime."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Our Town",
-   "org": "Queens Theatre",
-   "location": "The Studio Theater, Queens Theatre, 14 United Nations Avenue South",
-   "description": "Titan Theatre Company stages Thornton Wilder's classic play about everyday life in a small town.",
-   "discipline": "Theater",
-   "genre": "classic play",
-   "url": "https://www.queenstheatre.org/events/our-town-51mn",
-   "notes": "Run listed as Oct 30 - Nov 8; individual showtimes not stated, so only the next date in the window is listed. Visiting presenter."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "The Imaginary Invalid",
-   "org": "Roundabout Theatre Company",
-   "location": "Todd Haimes Theatre",
-   "description": "Bill Irwin stars in his own new adaptation of Molière's comedy about a hypochondriac, on Broadway.",
-   "discipline": "Theater",
-   "genre": "comedy / play",
-   "url": "https://www.roundabouttheatre.org/production/2026-2027-season/the-imaginary-invalid/",
-   "notes": "Run Sep. 25 – Nov. 22, 2026. Page gives no individual showtimes or weekly schedule; listed as the next occurrence only (first day in window)."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "The Heart",
-   "org": "Roundabout Theatre Company",
-   "location": "Laura Pels Theatre (Harold and Miriam Steinberg Center for Theatre)",
-   "description": "A play following two families and a medical team through a single 24-hour span after a young surfer's life ends and an organ recipient gets a second chance.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://www.roundabouttheatre.org/production/2026-2027-season/the-heart/",
-   "notes": "Run Oct. 8 – Dec. 13, 2026. Page gives no individual showtimes or weekly schedule; listed as the next occurrence only (first day in window)."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Richard O'Brien's The Rocky Horror Show",
-   "org": "Roundabout Theatre Company",
-   "location": "Studio 54",
-   "description": "Broadway staging of the cult musical The Rocky Horror Show.",
-   "discipline": "Theater",
-   "genre": "musical",
-   "url": "https://www.roundabouttheatre.org/production/2025-2026-season/richard-o-brien-s-the-rocky-horror-show/",
-   "notes": "Running now through Feb. 28, 2027. Page gives no individual showtimes or weekly schedule; listed as the next occurrence only (first day in window)."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Garth Fagan Dance",
-   "org": "The Joyce Theater",
-   "location": "The Joyce Theater",
-   "description": "Rochester-based company marks its 55th season with a blend of modern, post-modern, Afro-Caribbean and ballet influences.",
-   "discipline": "Dance",
-   "genre": "modern dance",
-   "url": "https://www.joyce.org/performances/garth-fagan-dance-f2nq",
-   "notes": "Run Nov 4–8; listed from today's date. Individual showtimes not given on page."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "The Nicest Body Ever Seen Around These Parts",
-   "org": "The Play Company",
-   "location": "",
-   "description": "A Play Company production listed on the calendar with a run from October 7 to November 7, 2026. The page gives no further details.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://playco.org/event/the-nicest-body-ever-seen",
-   "notes": "The run ends Nov 7, 2026. The page does not give showtimes, specific performance days or a venue, so only the next date in the window is listed. Check the event page for the schedule."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "Ms. Blakk for President",
-   "org": "Vineyard Theatre",
-   "location": "Vineyard Theatre",
-   "description": "A play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "Run is October 22 - November 29, 2026. The page gives no days or showtimes, so only the next occurrence in the window is listed, and the time is not stated."
-  },
-  {
-   "date": "2026-11-06",
-   "time": "",
-   "title": "The Holes",
-   "org": "wild project",
-   "location": "Wild Project",
-   "description": "A new play by Max Wolf Friedlich, directed by Michael Herwitz, with Bubba Weiler, Grantham Coleman, Tina Benko and Jack Mulhern.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://thewildproject.org/performances/the-holes/",
-   "notes": "Run continues through 2026-11-29; the page gives no individual showtimes, so only the first date in the window is listed. Tickets about $71.09–$103.07 including fees."
-  },
   {
    "date": "2026-11-07",
    "time": "11:00 AM",
@@ -11693,6 +10772,18 @@
   {
    "date": "2026-12-04",
    "time": "",
+   "title": "Christmas Grand Market 2026 - QUEENS",
+   "org": "Braata Productions",
+   "location": "Queens (venue not stated on page)",
+   "description": "Family Christmas celebration built on the Jamaican Grand Market tradition, blending Christmas customs from across the Caribbean.",
+   "discipline": "Multidisciplinary",
+   "genre": "Caribbean cultural Christmas",
+   "url": "https://www.braataproductions.org/upcoming-events/christmas-grand-market-2026-queens",
+   "notes": "Ticketed; family event; time and venue not stated on the page. Tickets: https://givebutter.com/CGM2026"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "",
    "title": "Minor Music at the End of the World",
    "org": "Brooklyn Academy of Music",
    "location": "BAM (Brooklyn Academy of Music)",
@@ -12144,7 +11235,7 @@
    "discipline": "Multidisciplinary",
    "genre": "Native American traditional music and dance",
    "url": "https://www.flushingtownhall.org/show-details/2026-native-american-market-social",
-   "notes": "Market/social event with performance elements; RSVP required. Start time not stated."
+   "notes": "Market/social event with performance elements; RSVP required. Start time not stated.; also listed by Braata Productions"
   },
   {
    "date": "2026-12-05",
@@ -12457,6 +11548,18 @@
    "genre": "singer-songwriter",
    "url": "https://newmusicusa.org/events/laura-itandehui-3/",
    "notes": "also listed by World Music Institute"
+  },
+  {
+   "date": "2026-12-06",
+   "time": "",
+   "title": "Christmas Grand Market 2026 - BRONX",
+   "org": "Braata Productions",
+   "location": "Bronx (venue not stated on page)",
+   "description": "Family Christmas celebration built on the Jamaican Grand Market tradition, blending Christmas customs from across the Caribbean.",
+   "discipline": "Multidisciplinary",
+   "genre": "Caribbean cultural Christmas",
+   "url": "https://www.braataproductions.org/upcoming-events/christmas-grand-market-2026-bronx",
+   "notes": "Ticketed; family event; time and venue not stated on the page. Tickets: https://givebutter.com/CGM2026"
   },
   {
    "date": "2026-12-06",
