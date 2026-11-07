@@ -71,5 +71,9 @@
     "verified": true,
     "scope": "The events page lists each production as a run with date range (e.g. 'November 12-21, 2026'). Each production's own page gives the weekly schedule (e.g. 'Thursday - Saturday at 7pm'). Expand each run inside the window into one entry per performance using that schedule. Exclude book launches, lectures and works-in-process sessions such as Saturday Salons.",
     "notes": "Events page lists runs; each production page has the weekly schedule. Followed one level."
+  },
+  "braata-productions": {
+    "scope": "Braata Productions is a performing arts company. Treat every event listed under UPCOMING EVENTS on its events page as a ticketed performance event and include it, even if the title sounds like a festival or market (for example 'Christmas Grand Market 2026 - QUEENS'). The borough in the title is where it takes place. Ignore the 'Digital Stage' items and the placeholder text 'Add a Title'.",
+    "notes": "Events listed on its page are its seasonal productions; confirmed by the program officer."
   }
 }
