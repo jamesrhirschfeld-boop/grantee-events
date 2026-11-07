@@ -1,5 +1,5 @@
 window.EVENTS = {
- "generated_at": "2026-11-07T16:51:45+00:00",
+ "generated_at": "2026-11-07T23:31:40+00:00",
  "window": {
   "start": "2026-11-07",
   "end": "2027-01-06"
@@ -47,6 +47,7 @@ window.EVENTS = {
   "Gallim Dance",
   "Gibney Dance",
   "HBArts Collective",
+  "HERE",
   "Houses On The Moon Theater Co.",
   "IATI Theater",
   "ID Studio Theater",
@@ -124,12 +125,14 @@ window.EVENTS = {
   "The Louis Armstrong House Museum",
   "The Metropolitan Opera",
   "The National Jazz Museum in Harlem",
+  "The New Group",
   "The People’s Theatre",
   "The Tank",
   "Theatre for a New Audience",
   "Theatre of the Oppressed NYC",
   "TRIBE - Multidisciplinary Visual Performances",
   "Triskelion Arts",
+  "Vineyard Theatre",
   "Voices of Ascension",
   "wild project",
   "Works & Process",
@@ -137,7 +140,7 @@ window.EVENTS = {
   "Yarn/Wire"
  ],
  "counts": {
-  "92NY Harkness Dance Center": 10,
+  "92NY Harkness Dance Center": 15,
   "A.R.T./New York": 3,
   "Abrons Arts Center": 5,
   "Belongó": 3,
@@ -145,22 +148,22 @@ window.EVENTS = {
   "American Classical Orchestra": 1,
   "American Composers Orchestra": 1,
   "Apollo Theater": 10,
-  "Atlantic Theater Company": 1,
+  "Atlantic Theater Company": 26,
   "BAAD! Bronx Academy of Arts and Dance": 5,
   "Bang on a Can": 1,
   "Bedlam": 1,
   "Blank Forms": 3,
   "BRIC": 5,
-  "Brooklyn Academy of Music": 7,
+  "Brooklyn Academy of Music": 32,
   "Carnegie Hall": 31,
   "Center for Performance Research": 3,
   "Center for Traditional Music and Dance": 6,
   "Chamber Music Society of Lincoln Center": 17,
-  "Classic Stage Company": 3,
+  "Classic Stage Company": 24,
   "Dance Heginbotham": 15,
   "Dance Lab New York": 1,
   "Danspace Project": 9,
-  "Dorrance Dance": 5,
+  "Dorrance Dance": 2,
   "En Garde Arts": 1,
   "Ensemble Studio Theatre": 5,
   "ETHEL": 3,
@@ -168,14 +171,15 @@ window.EVENTS = {
   "Flamenco Vivo Carlota Santana": 2,
   "Flushing Town Hall": 7,
   "Gallim Dance": 6,
-  "Gibney Dance": 3,
+  "Gibney Dance": 4,
+  "HERE": 43,
   "International Contemporary Ensemble": 3,
-  "Irish Repertory Theatre": 2,
+  "Irish Repertory Theatre": 136,
   "ISSUE Project Room": 5,
   "JACK Arts": 7,
   "JACK Quartet": 1,
   "JCAL": 2,
-  "Jazz at Lincoln Center": 20,
+  "Jazz at Lincoln Center": 26,
   "Jazz Foundation of America": 1,
   "Kaufman Music Center": 8,
   "Kupferberg Center for the Arts at Queens College": 12,
@@ -189,7 +193,7 @@ window.EVENTS = {
   "Mabou Mines": 2,
   "Mama Foundation for the Arts": 1,
   "Manhattan Theatre Club": 4,
-  "Martha Graham Dance Company": 2,
+  "Martha Graham Dance Company": 3,
   "MasterVoices": 1,
   "Miller Theatre": 6,
   "Movement Research": 5,
@@ -206,13 +210,13 @@ window.EVENTS = {
   "Performance Space New York": 3,
   "Pick Up Performance Co.": 3,
   "Playwrights Horizons": 2,
-  "Pregones/Puerto Rican Traveling Theater": 6,
-  "Primary Stages": 1,
+  "Pregones/Puerto Rican Traveling Theater": 20,
+  "Primary Stages": 44,
   "Prospect Musicals": 1,
-  "Queens Theatre": 7,
-  "Repertorio Español": 8,
+  "Queens Theatre": 9,
+  "Repertorio Español": 29,
   "Roulette": 10,
-  "Roundabout Theatre Company": 1,
+  "Roundabout Theatre Company": 3,
   "Second Stage Theater": 99,
   "Signature Theatre": 20,
   "Skirball Center for the Performing Arts": 7,
@@ -220,7 +224,7 @@ window.EVENTS = {
   "STREB": 1,
   "Symphony Space": 6,
   "Talea Ensemble": 1,
-  "Teatro Círculo": 1,
+  "Teatro Círculo": 8,
   "Entertainment Community Fund": 3,
   "The Billie Holiday Theatre": 3,
   "The Bushwick Starr": 6,
@@ -228,18 +232,20 @@ window.EVENTS = {
   "The Classical Theatre of Harlem": 1,
   "The Harlem Chamber Players": 3,
   "The Jazz Gallery": 24,
-  "The Joyce Theater": 6,
+  "The Joyce Theater": 57,
   "The Knights": 1,
-  "The Metropolitan Opera": 9,
+  "The Metropolitan Opera": 48,
   "The National Jazz Museum in Harlem": 6,
-  "The Tank": 22,
+  "The New Group": 24,
+  "The Tank": 82,
   "TDF": 1,
   "Theatre for a New Audience": 21,
+  "Vineyard Theatre": 22,
   "World Music Institute": 3,
   "Yarn/Wire": 1,
   "Houses On The Moon Theater Co.": 1,
   "Japan Society": 2,
-  "New York Live Arts": 15,
+  "New York Live Arts": 17,
   "Bronx Council on the Arts": 2,
   "Braata Productions": 3,
   "Jazz Power Initiative": 2,
@@ -248,17 +254,17 @@ window.EVENTS = {
   "ID Studio Theater": 3,
   "Lotus Music & Dance": 2,
   "Calpulli Mexican Dance Company": 5,
-  "Thalia Spanish Theatre": 1,
+  "Thalia Spanish Theatre": 20,
   "Theatre of the Oppressed NYC": 1,
   "Teatro SEA": 1,
-  "CultureHub": 2,
+  "CultureHub": 6,
   "EPIC Players": 1,
   "Triskelion Arts": 7,
   "FRIGID New York": 6,
   "Voices of Ascension": 4,
   "Works & Process": 18,
   "The Clemente": 3,
-  "wild project": 2,
+  "wild project": 13,
   "Lehman Center": 7,
   "TRIBE - Multidisciplinary Visual Performances": 3,
   "Composers Now": 1,
@@ -268,7 +274,7 @@ window.EVENTS = {
   "Omnium Circus": 3,
   "Breaking the Binary Theatre": 1,
   "IATI Theater": 10,
-  "Culture Lab LIC": 13
+  "Culture Lab LIC": 17
  },
  "health": {
   "651 ARTS": {
@@ -278,7 +284,7 @@ window.EVENTS = {
   },
   "92NY Harkness Dance Center": {
    "status": "ok",
-   "events": 10
+   "events": 15
   },
   "A Better Jamaica": {
    "status": "empty",
@@ -345,7 +351,7 @@ window.EVENTS = {
   },
   "Atlantic Theater Company": {
    "status": "ok",
-   "events": 1
+   "events": 26
   },
   "BAAD! Bronx Academy of Arts and Dance": {
    "status": "ok",
@@ -361,12 +367,12 @@ window.EVENTS = {
    "events": 1
   },
   "Baryshnikov Arts": {
-   "status": "no_source",
+   "status": "blocked",
    "events": 0,
    "reason": "unreachable"
   },
   "Brooklyn Arts Exchange": {
-   "status": "no_source",
+   "status": "blocked",
    "events": 0,
    "reason": "unreachable"
   },
@@ -394,7 +400,7 @@ window.EVENTS = {
   },
   "Brooklyn Academy of Music": {
    "status": "ok",
-   "events": 7
+   "events": 32
   },
   "Brooklyn Arts Council": {
    "status": "empty",
@@ -439,7 +445,7 @@ window.EVENTS = {
   },
   "Classic Stage Company": {
    "status": "ok",
-   "events": 3
+   "events": 24
   },
   "Clubbed Thumb": {
    "status": "empty",
@@ -470,7 +476,7 @@ window.EVENTS = {
   },
   "Dorrance Dance": {
    "status": "ok",
-   "events": 5
+   "events": 2
   },
   "Elevator Repair Service": {
    "status": "no_source",
@@ -527,10 +533,10 @@ window.EVENTS = {
   },
   "Gibney Dance": {
    "status": "ok",
-   "events": 3
+   "events": 4
   },
   "Gotham Early Music Scene": {
-   "status": "no_source",
+   "status": "blocked",
    "events": 0,
    "reason": "unreachable"
   },
@@ -540,9 +546,8 @@ window.EVENTS = {
    "reason": "no performances listed in the window"
   },
   "HERE": {
-   "status": "empty",
-   "events": 0,
-   "reason": "no performances listed in the window"
+   "status": "ok",
+   "events": 43
   },
   "Hi-ARTS": {
    "status": "empty",
@@ -580,7 +585,7 @@ window.EVENTS = {
   },
   "Irish Repertory Theatre": {
    "status": "ok",
-   "events": 2
+   "events": 136
   },
   "ISSUE Project Room": {
    "status": "ok",
@@ -600,7 +605,7 @@ window.EVENTS = {
   },
   "Jazz at Lincoln Center": {
    "status": "ok",
-   "events": 20
+   "events": 26
   },
   "Jazz Foundation of America": {
    "status": "ok",
@@ -691,7 +696,7 @@ window.EVENTS = {
   },
   "Martha Graham Dance Company": {
    "status": "ok",
-   "events": 2
+   "events": 3
   },
   "MasterVoices": {
    "status": "ok",
@@ -864,11 +869,11 @@ window.EVENTS = {
   },
   "Pregones/Puerto Rican Traveling Theater": {
    "status": "ok",
-   "events": 6
+   "events": 20
   },
   "Primary Stages": {
    "status": "ok",
-   "events": 1
+   "events": 44
   },
   "Prospect Musicals": {
    "status": "ok",
@@ -876,7 +881,7 @@ window.EVENTS = {
   },
   "Queens Theatre": {
    "status": "ok",
-   "events": 7
+   "events": 9
   },
   "Rattlestick Playwrights Theater": {
    "status": "empty",
@@ -890,7 +895,7 @@ window.EVENTS = {
   },
   "Repertorio Español": {
    "status": "ok",
-   "events": 8
+   "events": 29
   },
   "Roulette": {
    "status": "ok",
@@ -898,7 +903,7 @@ window.EVENTS = {
   },
   "Roundabout Theatre Company": {
    "status": "ok",
-   "events": 1
+   "events": 3
   },
   "Second Stage Theater": {
    "status": "ok",
@@ -950,7 +955,7 @@ window.EVENTS = {
   },
   "Teatro Círculo": {
    "status": "ok",
-   "events": 1
+   "events": 8
   },
   "Tectonic Theater Project": {
    "status": "empty",
@@ -1012,7 +1017,7 @@ window.EVENTS = {
   },
   "The Joyce Theater": {
    "status": "ok",
-   "events": 6
+   "events": 57
   },
   "The Kitchen": {
    "status": "empty",
@@ -1025,7 +1030,7 @@ window.EVENTS = {
   },
   "The Metropolitan Opera": {
    "status": "ok",
-   "events": 9
+   "events": 48
   },
   "The National Jazz Museum in Harlem": {
    "status": "ok",
@@ -1037,9 +1042,8 @@ window.EVENTS = {
    "reason": "no_calendar_found"
   },
   "The New Group": {
-   "status": "empty",
-   "events": 0,
-   "reason": "no performances listed in the window"
+   "status": "ok",
+   "events": 24
   },
   "The Play Company": {
    "status": "empty",
@@ -1052,18 +1056,18 @@ window.EVENTS = {
    "reason": "no performances listed in the window"
   },
   "The Public Theater": {
-   "status": "no_source",
+   "status": "blocked",
    "events": 0,
    "reason": "blocked_bot"
   },
   "The Shed": {
-   "status": "no_source",
+   "status": "blocked",
    "events": 0,
    "reason": "blocked_robots"
   },
   "The Tank": {
    "status": "ok",
-   "events": 22
+   "events": 82
   },
   "the TEAM": {
    "status": "empty",
@@ -1119,9 +1123,8 @@ window.EVENTS = {
    "reason": "no_calendar_found"
   },
   "Vineyard Theatre": {
-   "status": "empty",
-   "events": 0,
-   "reason": "no performances listed in the window"
+   "status": "ok",
+   "events": 22
   },
   "Waterwell": {
    "status": "empty",
@@ -1161,7 +1164,7 @@ window.EVENTS = {
   },
   "New York Live Arts": {
    "status": "ok",
-   "events": 15
+   "events": 17
   },
   "Bronx Council on the Arts": {
    "status": "ok",
@@ -1252,7 +1255,7 @@ window.EVENTS = {
   },
   "Thalia Spanish Theatre": {
    "status": "ok",
-   "events": 1
+   "events": 20
   },
   "Theatre of the Oppressed NYC": {
    "status": "ok",
@@ -1294,7 +1297,7 @@ window.EVENTS = {
   },
   "CultureHub": {
    "status": "ok",
-   "events": 2
+   "events": 6
   },
   "Americas Society": {
    "status": "empty",
@@ -1351,7 +1354,7 @@ window.EVENTS = {
    "events": 3
   },
   "Ronald K. Brown/EVIDENCE": {
-   "status": "no_source",
+   "status": "blocked",
    "events": 0,
    "reason": "unreachable"
   },
@@ -1362,10 +1365,10 @@ window.EVENTS = {
   },
   "wild project": {
    "status": "ok",
-   "events": 2
+   "events": 13
   },
   "Emily Johnson / Catalyst": {
-   "status": "no_source",
+   "status": "blocked",
    "events": 0,
    "reason": "blocked_robots"
   },
@@ -1462,7 +1465,7 @@ window.EVENTS = {
   },
   "Culture Lab LIC": {
    "status": "ok",
-   "events": 13
+   "events": 17
   },
   "Culture and Arts Policy Institute": {
    "status": "empty",
@@ -1497,10 +1500,10 @@ window.EVENTS = {
  },
  "coverage": {
   "total": 271,
-  "with_events": 130,
-  "no_events": 109,
-  "no_source": 30,
-  "blocked": 0,
+  "with_events": 133,
+  "no_events": 106,
+  "no_source": 23,
+  "blocked": 7,
   "failed": 0
  },
  "coverage_orgs": {
@@ -1592,10 +1595,6 @@ window.EVENTS = {
    {
     "name": "Harlem Stage",
     "site": "https://www.harlemstage.org"
-   },
-   {
-    "name": "HERE",
-    "site": "https://www.here.org"
    },
    {
     "name": "Hi-ARTS",
@@ -1758,10 +1757,6 @@ window.EVENTS = {
     "site": "https://www.thekitchen.org"
    },
    {
-    "name": "The New Group",
-    "site": "https://www.thenewgroup.org"
-   },
-   {
     "name": "The Play Company",
     "site": "https://www.playco.org"
    },
@@ -1796,10 +1791,6 @@ window.EVENTS = {
    {
     "name": "Urban Bush Women",
     "site": "https://www.urbanbushwomen.org"
-   },
-   {
-    "name": "Vineyard Theatre",
-    "site": "https://www.vineyardtheatre.org"
    },
    {
     "name": "Waterwell",
@@ -1950,18 +1941,6 @@ window.EVENTS = {
     "note": "no page with dates found; may need a manual calendar URL"
    },
    {
-    "name": "Baryshnikov Arts",
-    "site": "https://www.baryshnikovarts.org",
-    "reason": "unreachable",
-    "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.baryshnikovarts.org/"
-   },
-   {
-    "name": "Brooklyn Arts Exchange",
-    "site": "https://www.bax.org",
-    "reason": "unreachable",
-    "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bax.org/"
-   },
-   {
     "name": "Elevator Repair Service",
     "site": "https://www.elevator.org",
     "reason": "no_calendar_found",
@@ -1972,12 +1951,6 @@ window.EVENTS = {
     "site": "https://www.fiaf.org",
     "reason": "no_calendar_found",
     "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "Gotham Early Music Scene",
-    "site": "https://www.gemsny.org",
-    "reason": "unreachable",
-    "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.gemsny.org/"
    },
    {
     "name": "Hostos Center for the Arts & Culture",
@@ -2028,18 +2001,6 @@ window.EVENTS = {
     "note": "no page with dates found; may need a manual calendar URL"
    },
    {
-    "name": "The Public Theater",
-    "site": "https://www.publictheater.org",
-    "reason": "blocked_bot",
-    "note": "bot protection page instead of the site"
-   },
-   {
-    "name": "The Shed",
-    "site": "https://www.theshed.org",
-    "reason": "blocked_robots",
-    "note": "robots.txt asks automated tools to stay out of the event pages"
-   },
-   {
     "name": "Theatre Communications Group",
     "site": "https://www.tcg.org",
     "reason": "no_calendar_found",
@@ -2076,22 +2037,10 @@ window.EVENTS = {
     "note": "no page with dates found; may need a manual calendar URL"
    },
    {
-    "name": "Ronald K. Brown/EVIDENCE",
-    "site": "https://www.evidencedance.com",
-    "reason": "unreachable",
-    "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.evidencedance.com/"
-   },
-   {
     "name": "artEquity",
     "site": "https://www.artEquity.org",
     "reason": "no_calendar_found",
     "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "Emily Johnson / Catalyst",
-    "site": "https://www.catalystdance.com",
-    "reason": "blocked_robots",
-    "note": "robots.txt asks automated tools to stay out"
    },
    {
     "name": "Jazzmobile",
@@ -2124,7 +2073,50 @@ window.EVENTS = {
     "note": "no page with dates found; may need a manual calendar URL"
    }
   ],
-  "blocked": [],
+  "blocked": [
+   {
+    "name": "Baryshnikov Arts",
+    "site": "https://www.baryshnikovarts.org",
+    "reason": "unreachable",
+    "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.baryshnikovarts.org/"
+   },
+   {
+    "name": "Brooklyn Arts Exchange",
+    "site": "https://www.bax.org",
+    "reason": "unreachable",
+    "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bax.org/"
+   },
+   {
+    "name": "Gotham Early Music Scene",
+    "site": "https://www.gemsny.org",
+    "reason": "unreachable",
+    "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.gemsny.org/"
+   },
+   {
+    "name": "The Public Theater",
+    "site": "https://www.publictheater.org",
+    "reason": "blocked_bot",
+    "note": "bot protection page instead of the site"
+   },
+   {
+    "name": "The Shed",
+    "site": "https://www.theshed.org",
+    "reason": "blocked_robots",
+    "note": "robots.txt asks automated tools to stay out of the event pages"
+   },
+   {
+    "name": "Ronald K. Brown/EVIDENCE",
+    "site": "https://www.evidencedance.com",
+    "reason": "unreachable",
+    "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.evidencedance.com/"
+   },
+   {
+    "name": "Emily Johnson / Catalyst",
+    "site": "https://www.catalystdance.com",
+    "reason": "blocked_robots",
+    "note": "robots.txt asks automated tools to stay out"
+   }
+  ],
   "failed": []
  },
  "warnings": [],
@@ -2176,6 +2168,30 @@ window.EVENTS = {
    "genre": "classic American play",
    "url": "https://www.fiascotheater.com/the-verge-events/free-childcare-in-partnership-with-broadway-babysitters-and-paal",
    "notes": "Childcare is limited and requires pre-registration; ticket link is sent after childcare spot is confirmed."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "2:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "2:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-11-07",
@@ -2252,6 +2268,18 @@ window.EVENTS = {
   {
    "date": "2026-11-07",
    "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -2284,6 +2312,42 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4408",
    "notes": "Audio described"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "2:00 PM",
+   "title": "Garth Fagan Dance",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Rochester-based company marks its 55th season with a blend of modern, post-modern, Afro-Caribbean and ballet influences.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://www.joyce.org/performances/garth-fagan-dance-f2nq",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "2:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "2:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
   },
   {
    "date": "2026-11-07",
@@ -2324,6 +2388,18 @@ window.EVENTS = {
   {
    "date": "2026-11-07",
    "time": "3:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "3:00 PM",
    "title": "En el tiempo de las mariposas",
    "org": "Repertorio Español",
    "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
@@ -2351,11 +2427,35 @@ window.EVENTS = {
    "title": "Steps",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "Margot returns home and finds her stepsister's journal, reliving the memories of the past she fled.",
+   "description": "Margot returns home and reads her stepsister's journal, reliving the past she fled.",
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/steps",
-   "notes": "Run ends Nov 10, 2026; specific performance days not stated, so only next occurrence listed."
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "5:00 PM",
+   "title": "Diamonds and Rust: The Artistry and Activism of Joan Baez",
+   "org": "92NY Harkness Dance Center",
+   "location": "92NY, 1395 Lexington Avenue",
+   "description": "Lyrics & Lyricists tribute to Joan Baez and her songs, featuring Broadway veteran Andréa Burns.",
+   "discipline": "Music",
+   "genre": "folk/songbook tribute",
+   "url": "https://www.92ny.org/event/celebrating-joan-baez",
+   "notes": "only the first date (Nov 7) is shown, time not stated."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "5:00 PM",
+   "title": "The Kick Inside",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "The Million Underscores present a show about Alenka, who struggles to communicate in a city where language is warped by algorithms, feelings and animal impulses, and her house starts talking.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://here.org/shows/the-kick-inside/",
+   "notes": ""
   },
   {
    "date": "2026-11-07",
@@ -2372,6 +2472,54 @@ window.EVENTS = {
   {
    "date": "2026-11-07",
    "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:00 PM",
    "title": "Jeremy Pelt – 50th Birthday Celebration",
    "org": "Jazz at Lincoln Center",
    "location": "Dizzy's Club, Frederick P. Rose Hall, Broadway at 60th Street",
@@ -2380,6 +2528,18 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21693/",
    "notes": "Based on Dizzy's general 7PM & 9PM nightly shows.; also listed by Lincoln Center for the Performing Arts"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:00 PM",
+   "title": "Marie Antoinette",
+   "org": "Kupferberg Center for the Arts at Queens College",
+   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
+   "description": "Queens College Department of Drama, Theatre and Dance stage production of Marie Antoinette.",
+   "discipline": "Theater",
+   "genre": "student theater production",
+   "url": "https://kupferbergcenter.org/event/marie-antoinette/",
+   "notes": ""
   },
   {
    "date": "2026-11-07",
@@ -2404,6 +2564,30 @@ window.EVENTS = {
    "genre": "torch songs",
    "url": "https://pacnyc.org/whats-on/marie-claire-giraud-torch-songs/",
    "notes": "Free Music at PAC NYC series; RSVP offered"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
   },
   {
    "date": "2026-11-07",
@@ -2467,6 +2651,54 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-07",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:00 PM",
+   "title": "Just Keep Waiting",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "A physical, emotionally honest piece about the shared experience of waiting for something to begin, change or arrive.",
+   "discipline": "Theater",
+   "genre": "physical theater",
+   "url": "https://thetanknyc.org/calendar-1/2026/10/5/justkeepwaiting",
+   "notes": "Run Nov 4–7, 2026; Nov 7 is the final date."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:00 PM",
+   "title": "Legerdemain",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "On the eve of Halloween with a strangler at large, a waitress and her devoted customer form an unlikely friendship.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/legerdemain",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
    "time": "7:30 PM",
    "title": "Sandbox Percussion: Seven Pillars",
    "org": "92NY Harkness Dance Center",
@@ -2487,7 +2719,7 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.bam.org/dance/2026/turn-turning-turnt",
-   "notes": "Next Wave. Final performance of the run."
+   "notes": ""
   },
   {
    "date": "2026-11-07",
@@ -2516,6 +2748,18 @@ window.EVENTS = {
   {
    "date": "2026-11-07",
    "time": "7:30 PM",
+   "title": "Kyle Marshall Choreography: Bound",
+   "org": "Danspace Project",
+   "location": "Danspace Project, St. Mark's Church, 131 East 10th St.",
+   "description": "Dance program by Kyle Marshall Choreography at Danspace; the calendar lists it for Nov 5–7 with no further detail on the page.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://danspaceproject.org/calendar/fw2026-marshall/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:30 PM",
    "title": "Almendares (Estreno)",
    "org": "ID Studio Theater",
    "location": "ID Studio Theater",
@@ -2536,6 +2780,18 @@ window.EVENTS = {
    "genre": "",
    "url": "https://japansociety.org/events/the-age-is-yours-my-liege-a-tale-of-proto-japan/",
    "notes": "Listing page gives no description or street address; performance type not specified."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:30 PM",
+   "title": "Marsalis' Swinging Cities",
+   "org": "Jazz at Lincoln Center",
+   "location": "Rose Theater, Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "The Jazz at Lincoln Center Orchestra with Wynton Marsalis plays selections from his Vitoria, Shanghai and Marciac suites, reflecting his travels and ties to cities worldwide.",
+   "discipline": "Music",
+   "genre": "jazz big band",
+   "url": "https://jazz.org/concert/marsalis-swinging-cities-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
+   "notes": ""
   },
   {
    "date": "2026-11-07",
@@ -2624,6 +2880,30 @@ window.EVENTS = {
   {
    "date": "2026-11-07",
    "time": "7:30 PM",
+   "title": "Our Town",
+   "org": "Queens Theatre",
+   "location": "The Studio Theater, Queens Theatre, 14 United Nations Avenue South",
+   "description": "Titan Theatre Company stages Thornton Wilder's classic play about everyday life in a small town.",
+   "discipline": "Theater",
+   "genre": "classic play",
+   "url": "https://www.queenstheatre.org/events/our-town-51mn",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:30 PM",
+   "title": "The Heart",
+   "org": "Roundabout Theatre Company",
+   "location": "Laura Pels Theatre (Harold and Miriam Steinberg Center for Theatre)",
+   "description": "A play following two families and a medical team through a single 24-hour span after a young surfer's life ends and an organ recipient gets a second chance.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.roundabouttheatre.org/production/2026-2027-season/the-heart/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:30 PM",
    "title": "Sankai Juku: TOTEM—Void and Height",
    "org": "Skirball Center for the Performing Arts",
    "location": "NYU Skirball Center, 566 LaGuardia Pl, New York, NY",
@@ -2631,7 +2911,19 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "butoh",
    "url": "https://nyuskirball.org/performance/totem/",
-   "notes": "North American premiere; run Nov 5–7"
+   "notes": "North American premiere"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "7:30 PM",
+   "title": "Garth Fagan Dance",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Rochester-based company marks its 55th season with a blend of modern, post-modern, Afro-Caribbean and ballet influences.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://www.joyce.org/performances/garth-fagan-dance-f2nq",
+   "notes": ""
   },
   {
    "date": "2026-11-07",
@@ -2720,6 +3012,18 @@ window.EVENTS = {
   {
    "date": "2026-11-07",
    "time": "8:00 PM",
+   "title": "Playing Safe: Queering the Indigenous Performance Archive",
+   "org": "Performance Space New York",
+   "location": "Performance Space New York",
+   "description": "A new performance by Vance Wright, curated by Tania Willard and Dana Claxton, reworking the Indigenous performance archive through a queer lens.",
+   "discipline": "Multidisciplinary",
+   "genre": "performance art",
+   "url": "https://performancespacenewyork.org/shows/playing-safe-queering-the-indigenous-performance-archive/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "8:00 PM",
    "title": "Tammy McCann: The Legendary Ladies of Jazz",
    "org": "Queens Theatre",
    "location": "The Claire Shulman Theater, Queens Theatre, 14 United Nations Avenue South",
@@ -2727,6 +3031,18 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.queenstheatre.org/events/tammy-mccann-nrmf",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
+   "time": "8:00 PM",
+   "title": "The Imaginary Invalid",
+   "org": "Roundabout Theatre Company",
+   "location": "Todd Haimes Theatre",
+   "description": "Bill Irwin stars in his own new adaptation of Molière's comedy about a hypochondriac, on Broadway.",
+   "discipline": "Theater",
+   "genre": "comedy / play",
+   "url": "https://www.roundabouttheatre.org/production/2026-2027-season/the-imaginary-invalid/",
    "notes": ""
   },
   {
@@ -2755,6 +3071,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-07",
+   "time": "8:30 PM",
+   "title": "The Kick Inside",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "The Million Underscores present a show about Alenka, who struggles to communicate in a city where language is warped by algorithms, feelings and animal impulses, and her house starts talking.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://here.org/shows/the-kick-inside/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-07",
    "time": "9:00 PM",
    "title": "Jeremy Pelt – 50th Birthday Celebration",
    "org": "Jazz at Lincoln Center",
@@ -2767,15 +3095,27 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-07",
-   "time": "",
-   "title": "Diamonds and Rust: The Artistry and Activism of Joan Baez",
-   "org": "92NY Harkness Dance Center",
-   "location": "92NY, 1395 Lexington Avenue",
-   "description": "Lyrics & Lyricists tribute to Joan Baez and her songs, featuring Broadway veteran Andréa Burns.",
-   "discipline": "Music",
-   "genre": "folk/songbook tribute",
-   "url": "https://www.92ny.org/event/celebrating-joan-baez",
-   "notes": "Page lists multiple dates and times; only the first date (Nov 7) is shown, time not stated."
+   "time": "9:30 PM",
+   "title": "SCAPE",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "On the last night before her childhood home is sold, a young woman gets a call from her dead father and confronts her buried child-self.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/scape",
+   "notes": "Run Nov 4–7, 2026; Nov 7 is the final date."
+  },
+  {
+   "date": "2026-11-07",
+   "time": "9:30 PM",
+   "title": "The List",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "After Lily's suicide, her friend Cori tells Angela at the funeral that she is on 'The List' and not welcome inside.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/thelist",
+   "notes": ""
   },
   {
    "date": "2026-11-07",
@@ -2788,18 +3128,6 @@ window.EVENTS = {
    "genre": "Shakespeare / classic play",
    "url": "https://ci.ovationtix.com/33875/production/1282155",
    "notes": "Return engagement runs Nov 7–29, 2026. The page doesn't give individual performance dates or showtimes, so only the first date is listed. Check the ticket page for the schedule."
-  },
-  {
-   "date": "2026-11-07",
-   "time": "",
-   "title": "Kyle Marshall Choreography: Bound",
-   "org": "Danspace Project",
-   "location": "Danspace Project, St. Mark's Church, 131 East 10th St.",
-   "description": "Dance program by Kyle Marshall Choreography at Danspace; the calendar lists it for Nov 5–7 with no further detail on the page.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://danspaceproject.org/calendar/fw2026-marshall/",
-   "notes": "Calendar shows run Nov 5–7; showtimes not stated on page text."
   },
   {
    "date": "2026-11-07",
@@ -2840,30 +3168,6 @@ window.EVENTS = {
   {
    "date": "2026-11-07",
    "time": "",
-   "title": "The Good Thief",
-   "org": "Irish Repertory Theatre",
-   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
-   "description": "Studio Theatre production of The Good Thief.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Run Nov 7–Dec 13, 2026. Page gives no individual showtimes; only the opening date is listed."
-  },
-  {
-   "date": "2026-11-07",
-   "time": "",
-   "title": "Marsalis' Swinging Cities",
-   "org": "Jazz at Lincoln Center",
-   "location": "Rose Theater, Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "The Jazz at Lincoln Center Orchestra with Wynton Marsalis plays selections from his Vitoria, Shanghai and Marciac suites, reflecting his travels and ties to cities worldwide.",
-   "discipline": "Music",
-   "genre": "jazz big band",
-   "url": "https://jazz.org/concert/marsalis-swinging-cities-the-jazz-at-lincoln-center-orchestra-with-wynton-marsalis/",
-   "notes": "Showtime not stated on page."
-  },
-  {
-   "date": "2026-11-07",
-   "time": "",
    "title": "Family Concert: Who Is Duke Ellington?",
    "org": "Jazz at Lincoln Center",
    "location": "Rose Theater, Frederick P. Rose Hall, Broadway at 60th Street",
@@ -2876,18 +3180,6 @@ window.EVENTS = {
   {
    "date": "2026-11-07",
    "time": "",
-   "title": "Marie Antoinette",
-   "org": "Kupferberg Center for the Arts at Queens College",
-   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
-   "description": "Queens College Department of Drama, Theatre and Dance stage production of Marie Antoinette.",
-   "discipline": "Theater",
-   "genre": "student theater production",
-   "url": "https://kupferbergcenter.org/event/marie-antoinette/",
-   "notes": "Run listed as Thu-Sun, Oct 29-Nov 8; showtime not stated on listing page."
-  },
-  {
-   "date": "2026-11-07",
-   "time": "",
    "title": "Spiderwoman Theater Gala: Celebrating 50 Years",
    "org": "La MaMa Experimental Theatre Club",
    "location": "La MaMa Experimental Theatre Club",
@@ -2896,30 +3188,6 @@ window.EVENTS = {
    "genre": "tribute performance",
    "url": "https://lamama.org/celebrating-50-years-a-spiderwoman-gala/",
    "notes": "Titled a gala; page describes it as a tribute performance. Time not stated."
-  },
-  {
-   "date": "2026-11-07",
-   "time": "",
-   "title": "Playing Safe: Queering the Indigenous Performance Archive",
-   "org": "Performance Space New York",
-   "location": "Performance Space New York",
-   "description": "A new performance by Vance Wright, curated by Tania Willard and Dana Claxton, reworking the Indigenous performance archive through a queer lens.",
-   "discipline": "Multidisciplinary",
-   "genre": "performance art",
-   "url": "https://performancespacenewyork.org/shows/playing-safe-queering-the-indigenous-performance-archive/",
-   "notes": "Run is Nov 5-7; showtime not stated on page."
-  },
-  {
-   "date": "2026-11-07",
-   "time": "",
-   "title": "Fantasma",
-   "org": "Primary Stages",
-   "location": "59E59 Theaters, 59 East 59th St.",
-   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://www.primarystages.org/fantasma",
-   "notes": "Run is November 7 - December 20, 2026; the page gives no individual performance dates or showtimes, so only the first date is listed. Tickets are sold through 59E59."
   },
   {
    "date": "2026-11-07",
@@ -2944,6 +3212,18 @@ window.EVENTS = {
    "genre": "holiday spectacular",
    "url": "https://www.tdf.org/accessibility-services/tdf-autism-friendly-performances/christmas-spectacular-starring-the-radio-city-rockettes/",
    "notes": "Autism Friendly Performance; tickets are bought by signing up through TDF's form. Page lists status as On Sale."
+  },
+  {
+   "date": "2026-11-08",
+   "time": "10:30 AM",
+   "title": "Violet's Magic Glasses",
+   "org": "92NY Harkness Dance Center",
+   "location": "92NY, 1395 Lexington Avenue",
+   "description": "A new musical about learning differences, friendship and perseverance, with lively songs and humor.",
+   "discipline": "Family/Education",
+   "genre": "family musical",
+   "url": "https://www.92ny.org/event/violet-s-magic-glasses",
+   "notes": "only the first date (Nov 8) is shown, time not stated."
   },
   {
    "date": "2026-11-08",
@@ -2984,6 +3264,30 @@ window.EVENTS = {
   {
    "date": "2026-11-08",
    "time": "2:00 PM",
+   "title": "Diamonds and Rust: The Artistry and Activism of Joan Baez",
+   "org": "92NY Harkness Dance Center",
+   "location": "92NY, 1395 Lexington Avenue",
+   "description": "Lyrics & Lyricists tribute to Joan Baez and her songs, featuring Broadway veteran Andréa Burns.",
+   "discipline": "Music",
+   "genre": "folk/songbook tribute",
+   "url": "https://www.92ny.org/event/celebrating-joan-baez",
+   "notes": "only the first date (Nov 7) is shown, time not stated."
+  },
+  {
+   "date": "2026-11-08",
+   "time": "2:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-08",
+   "time": "2:00 PM",
    "title": "Historias in Motion Launch: ¡Y Yo Ya Estaba!",
    "org": "Bronx Council on the Arts",
    "location": "Not stated on page (South Bronx)",
@@ -2992,6 +3296,18 @@ window.EVENTS = {
    "genre": "live music and public art",
    "url": "https://www.bronxarts.org/events/historias-in-motion-launch-y-yo-ya-estaba-2026-11-08.html",
    "notes": "RSVP via Eventbrite; venue not stated in listing text; event is partly an art unveiling."
+  },
+  {
+   "date": "2026-11-08",
+   "time": "2:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
   },
   {
    "date": "2026-11-08",
@@ -3015,6 +3331,18 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://www.nycitycenter.org/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-08",
+   "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -3055,6 +3383,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-08",
+   "time": "2:00 PM",
+   "title": "Garth Fagan Dance",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Rochester-based company marks its 55th season with a blend of modern, post-modern, Afro-Caribbean and ballet influences.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://www.joyce.org/performances/garth-fagan-dance-f2nq",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-08",
    "time": "3:00 PM",
    "title": "Fifty fun facts sobre Olivia [mi madre]",
    "org": "IATI Theater",
@@ -3064,6 +3404,42 @@ window.EVENTS = {
    "genre": "bilingual new play",
    "url": "",
    "notes": "Run Nov 6–22; Thu & Fri 7 PM, Sat & Sun 3 PM. Tickets on sale."
+  },
+  {
+   "date": "2026-11-08",
+   "time": "3:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-08",
+   "time": "3:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-08",
+   "time": "3:00 PM",
+   "title": "Marie Antoinette",
+   "org": "Kupferberg Center for the Arts at Queens College",
+   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
+   "description": "Queens College Department of Drama, Theatre and Dance stage production of Marie Antoinette.",
+   "discipline": "Theater",
+   "genre": "student theater production",
+   "url": "https://kupferbergcenter.org/event/marie-antoinette/",
+   "notes": ""
   },
   {
    "date": "2026-11-08",
@@ -3116,6 +3492,30 @@ window.EVENTS = {
   {
    "date": "2026-11-08",
    "time": "3:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-08",
+   "time": "3:00 PM",
+   "title": "Our Town",
+   "org": "Queens Theatre",
+   "location": "The Studio Theater, Queens Theatre, 14 United Nations Avenue South",
+   "description": "Titan Theatre Company stages Thornton Wilder's classic play about everyday life in a small town.",
+   "discipline": "Theater",
+   "genre": "classic play",
+   "url": "https://www.queenstheatre.org/events/our-town-51mn",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-08",
+   "time": "3:00 PM",
    "title": "La breve y maravillosa vida de Oscar Wao",
    "org": "Repertorio Español",
    "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
@@ -3128,6 +3528,18 @@ window.EVENTS = {
   {
    "date": "2026-11-08",
    "time": "3:00 PM",
+   "title": "Show Trial",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Absurdist satire of the 1950 Prague treason trial of Milada Horáková, where guilt is scripted and truth is manufactured.",
+   "discipline": "Theater",
+   "genre": "satire",
+   "url": "https://thetanknyc.org/calendar-1/showtrial",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-08",
+   "time": "3:00 PM",
    "title": "Object/Subject",
    "org": "The Tank",
    "location": "The Tank",
@@ -3135,7 +3547,19 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/8/18/object-subject",
-   "notes": "Run Nov 8–9, 2026; specific performance days not stated, so only first occurrence listed."
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-08",
+   "time": "4:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
   },
   {
    "date": "2026-11-08",
@@ -3176,6 +3600,18 @@ window.EVENTS = {
   {
    "date": "2026-11-08",
    "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-08",
+   "time": "7:00 PM",
    "title": "Jeremy Pelt – 50th Birthday Celebration",
    "org": "Jazz at Lincoln Center",
    "location": "Dizzy's Club, Frederick P. Rose Hall, Broadway at 60th Street",
@@ -3184,6 +3620,30 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21693/",
    "notes": "Based on Dizzy's general 7PM & 9PM nightly shows."
+  },
+  {
+   "date": "2026-11-08",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-08",
+   "time": "7:00 PM",
+   "title": "My Mobster",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "One-woman show about a sheltered American girl who meets a handsome stranger in Italy and chaos follows.",
+   "discipline": "Theater",
+   "genre": "solo show",
+   "url": "https://thetanknyc.org/calendar-1/mymobster",
+   "notes": ""
   },
   {
    "date": "2026-11-08",
@@ -3235,27 +3695,15 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-08",
-   "time": "",
-   "title": "Violet's Magic Glasses",
-   "org": "92NY Harkness Dance Center",
-   "location": "92NY, 1395 Lexington Avenue",
-   "description": "A new musical about learning differences, friendship and perseverance, with lively songs and humor.",
-   "discipline": "Family/Education",
-   "genre": "family musical",
-   "url": "https://www.92ny.org/event/violet-s-magic-glasses",
-   "notes": "Page lists multiple dates and times; only the first date (Nov 8) is shown, time not stated."
-  },
-  {
-   "date": "2026-11-08",
-   "time": "",
-   "title": "Marie Antoinette",
-   "org": "Kupferberg Center for the Arts at Queens College",
-   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
-   "description": "Queens College Department of Drama, Theatre and Dance stage production of Marie Antoinette.",
+   "time": "9:30 PM",
+   "title": "Steps",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Margot returns home and reads her stepsister's journal, reliving the past she fled.",
    "discipline": "Theater",
-   "genre": "student theater production",
-   "url": "https://kupferbergcenter.org/event/marie-antoinette/",
-   "notes": "Closing day of run listed as Thu-Sun, Oct 29-Nov 8; showtime not stated on listing page."
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/steps",
+   "notes": "performance days not stated, so only the first date is listed."
   },
   {
    "date": "2026-11-09",
@@ -3319,6 +3767,42 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-09",
+   "time": "7:00 PM",
+   "title": "Marshlight",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Art, love and psychosis in post-WWII Cape Cod, with a long-held secret threatening a young musician's life in Vietnam-era New York.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/marshlight",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-09",
+   "time": "7:00 PM",
+   "title": "Object/Subject",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "A play about photography, obsession and body parts, involving a love triangle with Man Ray and a true-crime podcaster.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/2026/8/18/object-subject",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-09",
+   "time": "7:30 PM",
+   "title": "Diamonds and Rust: The Artistry and Activism of Joan Baez",
+   "org": "92NY Harkness Dance Center",
+   "location": "92NY, 1395 Lexington Avenue",
+   "description": "Lyrics & Lyricists tribute to Joan Baez and her songs, featuring Broadway veteran Andréa Burns.",
+   "discipline": "Music",
+   "genre": "folk/songbook tribute",
+   "url": "https://www.92ny.org/event/celebrating-joan-baez",
+   "notes": "only the first date (Nov 7) is shown, time not stated."
+  },
+  {
+   "date": "2026-11-09",
    "time": "7:30 PM",
    "title": "Puccini's Tosca",
    "org": "Lincoln Center for the Performing Arts",
@@ -3355,6 +3839,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-09",
+   "time": "9:30 PM",
+   "title": "Steps",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Margot returns home and reads her stepsister's journal, reliving the past she fled.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/steps",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-09",
    "time": "",
    "title": "The Queens Musical Passport",
    "org": "Flushing Town Hall",
@@ -3382,12 +3878,12 @@ window.EVENTS = {
    "time": "",
    "title": "I F@cking Hate Luma",
    "org": "Pregones/Puerto Rican Traveling Theater",
-   "location": "Puerto Rican Traveling Theater (PRTT), 304 W 47th St., New York, NY 10036",
+   "location": "Manhattan (PRTT, 304 W 47th St.)",
    "description": "A play about family, disappointment and the pain of watching loved ones hurt one another.",
    "discipline": "Theater",
-   "genre": "new play",
+   "genre": "play",
    "url": "https://pregonesprtt.org/i-fcking-hate-luma-2026-27/",
-   "notes": "Single date listed; start time not stated on the page."
+   "notes": "Single date; time not stated on page. Venue listed only as Manhattan; address is PRTT's from the page footer."
   },
   {
    "date": "2026-11-10",
@@ -3440,6 +3936,30 @@ window.EVENTS = {
   {
    "date": "2026-11-10",
    "time": "7:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-10",
+   "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-10",
+   "time": "7:00 PM",
    "title": "Memberfest: Crystal Skillman",
    "org": "Ensemble Studio Theatre",
    "location": "Ensemble Studio Theatre",
@@ -3488,6 +4008,18 @@ window.EVENTS = {
   {
    "date": "2026-11-10",
    "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-10",
+   "time": "7:00 PM",
    "title": "King of the Yees",
    "org": "Signature Theatre",
    "location": "Signature Theatre",
@@ -3500,14 +4032,38 @@ window.EVENTS = {
   {
    "date": "2026-11-10",
    "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-10",
+   "time": "7:00 PM",
    "title": "The Waco Tapes",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "Documentary-style play about the 1993 Waco standoff, scripted entirely from recorded government negotiation transcripts.",
+   "description": "Docudrama of the 1993 Waco standoff, scripted entirely from recorded FBI negotiation transcripts.",
    "discipline": "Theater",
    "genre": "documentary theater",
    "url": "https://thetanknyc.org/calendar-1/2026/4/13/wacotapes",
-   "notes": "Run ends Nov 14, 2026; specific performance days not stated, so only next occurrence listed."
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-10",
+   "time": "7:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
   },
   {
    "date": "2026-11-10",
@@ -3555,7 +4111,7 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/medea/",
-   "notes": ""
+   "notes": "also listed by The Metropolitan Opera"
   },
   {
    "date": "2026-11-10",
@@ -3655,6 +4211,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-10",
+   "time": "9:30 PM",
+   "title": "Steps",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Margot returns home and reads her stepsister's journal, reliving the past she fled.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/steps",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-10",
    "time": "",
    "title": "Weekly Live Jazz at The Pocket",
    "org": "Belongó",
@@ -3676,6 +4244,30 @@ window.EVENTS = {
    "genre": "storytelling",
    "url": "https://tickets.frigid.nyc/event/6897:1556",
    "notes": "Start time not stated on page."
+  },
+  {
+   "date": "2026-11-11",
+   "time": "2:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "2:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-11-11",
@@ -3740,6 +4332,30 @@ window.EVENTS = {
   {
    "date": "2026-11-11",
    "time": "7:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:00 PM",
    "title": "GALLIM at The Joyce Theater – Opening Night",
    "org": "Gallim Dance",
    "location": "The Joyce Theater",
@@ -3747,7 +4363,43 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.joyce.org/performances/gallim-rhr7",
-   "notes": "Page ties opening night to the Dream Gala (gala party at 8:45 PM is a fundraiser and not included); the opening night link goes to gala tickets. Regular tickets via the Joyce."
+   "notes": "Page ties opening night to the Dream Gala (gala party at 8:45 PM is a fundraiser and not included); the opening night link goes to gala tickets. Regular tickets via the Joyce.; also listed by The Joyce Theater"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": "Sold out"
   },
   {
    "date": "2026-11-11",
@@ -3772,6 +4424,18 @@ window.EVENTS = {
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/11/spindrift-last-look-brandenburgs-7pm/",
    "notes": "Tickets link to the David H. Koch Theater's Paul Taylor page."
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
   },
   {
    "date": "2026-11-11",
@@ -3811,6 +4475,42 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-11",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:00 PM",
+   "title": "The List",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "After Lily's suicide, her friend Cori tells Angela at the funeral that she is on 'The List' and not welcome inside.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/thelist",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-11",
    "time": "7:30 PM",
    "title": "BFA Fall Concert",
    "org": "AILEY",
@@ -3820,6 +4520,18 @@ window.EVENTS = {
    "genre": "student dance concert",
    "url": "https://ailey.org/events/bfa-fall-concert-111126-730pm",
    "notes": "The Ailey School; venue not stated"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:30 PM",
+   "title": "adaku, part 2: she shivers with it",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Okwui Okpokwasili and Peter Born present a futuristic tale of a young woman's spiritual awakening told through sound, song and movement.",
+   "discipline": "Dance",
+   "genre": "dance-theater",
+   "url": "https://www.bam.org/dance/2026/adaku2",
+   "notes": ""
   },
   {
    "date": "2026-11-11",
@@ -3843,7 +4555,7 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/lincoln-in-the-bardo/",
-   "notes": ""
+   "notes": "also listed by The Metropolitan Opera"
   },
   {
    "date": "2026-11-11",
@@ -3983,23 +4695,11 @@ window.EVENTS = {
    "title": "Top of the Mornin'",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "Set at a Milwaukee radio news show hosted by Jimmy and Darren, with breaking news and maybe a song or two.",
+   "description": "A comedic show set at a Milwaukee radio station with two hosts, breaking news and possibly some songs.",
    "discipline": "Theater",
    "genre": "comedy",
    "url": "https://thetanknyc.org/calendar-1/2026/10/5/topofthemornin",
-   "notes": "Run ends Nov 21, 2026; specific performance days not stated, so only next occurrence listed."
-  },
-  {
-   "date": "2026-11-11",
-   "time": "",
-   "title": "adaku, part 2: she shivers with it",
-   "org": "Brooklyn Academy of Music",
-   "location": "BAM (Brooklyn Academy of Music)",
-   "description": "Okwui Okpokwasili and Peter Born present a futuristic tale of a young woman's spiritual awakening told through sound, song and movement.",
-   "discipline": "Dance",
-   "genre": "dance-theater",
-   "url": "https://www.bam.org/dance/2026/adaku2",
-   "notes": "Next Wave. Run Nov 11–15; only the first date listed, individual showtimes not stated on page."
+   "notes": "performance days not stated, so only the first date is listed."
   },
   {
    "date": "2026-11-11",
@@ -4024,18 +4724,6 @@ window.EVENTS = {
    "genre": "puppetry",
    "url": "https://lamama.org/endless-forms/",
    "notes": "Puppet Festival 2026; run Nov 11-14. Showtimes not stated."
-  },
-  {
-   "date": "2026-11-11",
-   "time": "",
-   "title": "GALLIM",
-   "org": "The Joyce Theater",
-   "location": "The Joyce Theater",
-   "description": "Repertory program as the company nears its 20th anniversary, balancing past works with a look ahead.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.joyce.org/performances/gallim-rhr7",
-   "notes": "Run Nov 11–15; individual showtimes not given on page."
   },
   {
    "date": "2026-11-12",
@@ -4076,6 +4764,18 @@ window.EVENTS = {
   {
    "date": "2026-11-12",
    "time": "6:00 PM",
+   "title": "Tethering: An Arcade with Deep Soul Ties",
+   "org": "CultureHub",
+   "location": "CultureHub (street address not stated on page)",
+   "description": "A game-show-style live piece about forming deep bonds with people, aliens, angels, land and music.",
+   "discipline": "Multidisciplinary",
+   "genre": "digital storytelling / game show",
+   "url": "https://www.culturehub.org/events/tethering-an-arcade-with-deep-soul-ties",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-12",
+   "time": "6:00 PM",
    "title": "New Music from Washington and Jackson",
    "org": "PAC NYC",
    "location": "Lobby Stage, PAC NYC",
@@ -4088,6 +4788,42 @@ window.EVENTS = {
   {
    "date": "2026-11-12",
    "time": "7:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:00 PM",
    "title": "Fifty fun facts sobre Olivia [mi madre]",
    "org": "IATI Theater",
    "location": "IATI Theater - Mainstage",
@@ -4096,6 +4832,30 @@ window.EVENTS = {
    "genre": "bilingual new play",
    "url": "",
    "notes": "Run Nov 6–22; Thu & Fri 7 PM, Sat & Sun 3 PM. Tickets on sale."
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-11-12",
@@ -4160,6 +4920,30 @@ window.EVENTS = {
   {
    "date": "2026-11-12",
    "time": "7:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, The Pershing Square Signature Center, 480 W 42nd Street",
@@ -4208,14 +4992,50 @@ window.EVENTS = {
   {
    "date": "2026-11-12",
    "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:00 PM",
+   "title": "Legerdemain",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "On the eve of Halloween with a strangler at large, a waitress and her devoted customer form an unlikely friendship.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/legerdemain",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:00 PM",
    "title": "Gi60 NYC 2026 - One Minute Theatre Festival",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "An evening of one-minute plays performed by a company of actors.",
+   "description": "An evening of tiny one-minute plays performed by a company of actors.",
    "discipline": "Theater",
    "genre": "short plays festival",
    "url": "https://thetanknyc.org/calendar-1/gi60",
-   "notes": "Festival runs Nov 12–15, 2026; specific performance days not stated, so only first occurrence listed."
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
   },
   {
    "date": "2026-11-12",
@@ -4268,6 +5088,18 @@ window.EVENTS = {
   {
    "date": "2026-11-12",
    "time": "7:30 PM",
+   "title": "adaku, part 2: she shivers with it",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Okwui Okpokwasili and Peter Born present a futuristic tale of a young woman's spiritual awakening told through sound, song and movement.",
+   "discipline": "Dance",
+   "genre": "dance-theater",
+   "url": "https://www.bam.org/dance/2026/adaku2",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:30 PM",
    "title": "Sonic Spectrum I",
    "org": "Chamber Music Society of Lincoln Center",
    "location": "Daniel and Joanna S. Rose Studio at CMS",
@@ -4299,7 +5131,19 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8714",
-   "notes": "Includes curtain chat."
+   "notes": "Includes curtain chat.; also listed by The Joyce Theater"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:30 PM",
+   "title": "a living altar",
+   "org": "JACK Arts",
+   "location": "JACK",
+   "description": "Treya Lam's sound- and breath-based gathering, presented as a communal offering of solidarity in response to collective crises.",
+   "discipline": "Multidisciplinary",
+   "genre": "sound/performance",
+   "url": "https://www.jackny.org/treyalam-alivingaltar",
+   "notes": ""
   },
   {
    "date": "2026-11-12",
@@ -4376,6 +5220,18 @@ window.EVENTS = {
   {
    "date": "2026-11-12",
    "time": "7:30 PM",
+   "title": "Dead Centre: Deaf Republic",
+   "org": "Skirball Center for the Performing Arts",
+   "location": "NYU Skirball Center, 566 LaGuardia Pl, New York, NY",
+   "description": "International political theater piece from Dead Centre, presented as a North American premiere.",
+   "discipline": "Theater",
+   "genre": "political theater",
+   "url": "https://nyuskirball.org/performance/deaf-republic/",
+   "notes": "which date has which time is not stated"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:30 PM",
    "title": "Revelry: Queen Esther",
    "org": "Symphony Space",
    "location": "Symphony Space, 2537 Broadway at 95th St.",
@@ -4447,6 +5303,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-12",
+   "time": "8:00 PM",
+   "title": "Christian Warner",
+   "org": "Triskelion Arts",
+   "location": "Triskelion Arts",
+   "description": "Fall 2026 performance by Christian Warner in Triskelion Arts' season. The listing page gives no further details.",
+   "discipline": "Dance",
+   "genre": "",
+   "url": "https://www.triskelionarts.org/fall-2026-performances/christian-warner",
+   "notes": "Listed as Nov 12-14; discipline inferred from Triskelion's programming."
+  },
+  {
+   "date": "2026-11-12",
    "time": "9:00 PM",
    "title": "Django Reinhardt NY Festival",
    "org": "Lincoln Center for the Performing Arts",
@@ -4459,27 +5327,15 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-12",
-   "time": "",
-   "title": "Tethering: An Arcade with Deep Soul Ties",
-   "org": "CultureHub",
-   "location": "CultureHub (street address not stated on page)",
-   "description": "A game-show-style live piece about forming deep bonds with people, aliens, angels, land and music.",
-   "discipline": "Multidisciplinary",
-   "genre": "digital storytelling / game show",
-   "url": "https://www.culturehub.org/events/tethering-an-arcade-with-deep-soul-ties",
-   "notes": "Page lists a run Nov 12 to Nov 20 without specific days or times; only the first date is listed. Showtime and venue not stated. Tickets required."
-  },
-  {
-   "date": "2026-11-12",
-   "time": "",
-   "title": "a living altar",
-   "org": "JACK Arts",
-   "location": "JACK",
-   "description": "Treya Lam's sound- and breath-based gathering, presented as a communal offering of solidarity in response to collective crises.",
-   "discipline": "Multidisciplinary",
-   "genre": "sound/performance",
-   "url": "https://www.jackny.org/treyalam-alivingaltar",
-   "notes": "Run listed as Nov 12-15; showtimes not stated on page."
+   "time": "9:30 PM",
+   "title": "Top of the Mornin'",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "A comedic show set at a Milwaukee radio station with two hosts, breaking news and possibly some songs.",
+   "discipline": "Theater",
+   "genre": "comedy",
+   "url": "https://thetanknyc.org/calendar-1/2026/10/5/topofthemornin",
+   "notes": "performance days not stated, so only the first date is listed."
   },
   {
    "date": "2026-11-12",
@@ -4530,30 +5386,6 @@ window.EVENTS = {
    "notes": "Venue and start time not stated on the page; NYC location not confirmed by the page text."
   },
   {
-   "date": "2026-11-12",
-   "time": "",
-   "title": "Dead Centre: Deaf Republic",
-   "org": "Skirball Center for the Performing Arts",
-   "location": "NYU Skirball Center, 566 LaGuardia Pl, New York, NY",
-   "description": "International political theater piece from Dead Centre, presented as a North American premiere.",
-   "discipline": "Theater",
-   "genre": "political theater",
-   "url": "https://nyuskirball.org/performance/deaf-republic/",
-   "notes": "Homepage lists showtimes 7:30 PM and 3:00 PM for Nov 12–15; which date has which time is not stated"
-  },
-  {
-   "date": "2026-11-12",
-   "time": "",
-   "title": "Christian Warner",
-   "org": "Triskelion Arts",
-   "location": "Triskelion Arts",
-   "description": "Fall 2026 performance by Christian Warner in Triskelion Arts' season. The listing page gives no further details.",
-   "discipline": "Dance",
-   "genre": "",
-   "url": "https://www.triskelionarts.org/fall-2026-performances/christian-warner",
-   "notes": "Listed as Nov 12-14; showtimes and street address not stated on the page; discipline inferred from Triskelion's programming."
-  },
-  {
    "date": "2026-11-13",
    "time": "11:00 AM",
    "title": "Historical Performance Chamber Music at the Metropolitan Museum of Art",
@@ -4563,6 +5395,18 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "historical performance chamber music",
    "url": "https://www.juilliard.edu/event/189751/historical-performance-chamber-music-metropolitan-museum-art",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "11:00 AM",
+   "title": "La breve y maravillosa vida de Oscar Wao",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Stage adaptation of Junot Díaz's novel, adapted and directed by Marco Antonio Rodríguez.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/153/la-breve-y-maravillosa-vida-de-oscar-wao",
    "notes": ""
   },
   {
@@ -4592,6 +5436,18 @@ window.EVENTS = {
   {
    "date": "2026-11-13",
    "time": "6:00 PM",
+   "title": "Tethering: An Arcade with Deep Soul Ties",
+   "org": "CultureHub",
+   "location": "CultureHub (street address not stated on page)",
+   "description": "A game-show-style live piece about forming deep bonds with people, aliens, angels, land and music.",
+   "discipline": "Multidisciplinary",
+   "genre": "digital storytelling / game show",
+   "url": "https://www.culturehub.org/events/tethering-an-arcade-with-deep-soul-ties",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "6:00 PM",
    "title": "Rush Hour Performance | Acoustic Exploration in Electronics",
    "org": "Lincoln Center for the Performing Arts",
    "location": "The Juilliard School, Lincoln Center",
@@ -4616,6 +5472,18 @@ window.EVENTS = {
   {
    "date": "2026-11-13",
    "time": "7:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:00 PM",
    "title": "Free Community Concert: Calidore String Quartet",
    "org": "Chamber Music Society of Lincoln Center",
    "location": "Stone Circle Theatre, Queens, NY",
@@ -4624,6 +5492,18 @@ window.EVENTS = {
    "genre": "classical string quartet",
    "url": "",
    "notes": "Free event; Barbaralee Diamonstein-Spielvogel Community Concerts"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
   },
   {
    "date": "2026-11-13",
@@ -4640,6 +5520,18 @@ window.EVENTS = {
   {
    "date": "2026-11-13",
    "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:00 PM",
    "title": "Fifty fun facts sobre Olivia [mi madre]",
    "org": "IATI Theater",
    "location": "IATI Theater - Mainstage",
@@ -4648,6 +5540,30 @@ window.EVENTS = {
    "genre": "bilingual new play",
    "url": "",
    "notes": "Run Nov 6–22; Thu & Fri 7 PM, Sat & Sun 3 PM. Tickets on sale."
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-11-13",
@@ -4700,6 +5616,30 @@ window.EVENTS = {
   {
    "date": "2026-11-13",
    "time": "7:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, The Pershing Square Signature Center, 480 W 42nd Street",
@@ -4747,6 +5687,42 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-13",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:00 PM",
+   "title": "Legerdemain",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "On the eve of Halloween with a strangler at large, a waitress and her devoted customer form an unlikely friendship.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/legerdemain",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
    "time": "7:30 PM",
    "title": "BFA Fall Concert",
    "org": "AILEY",
@@ -4772,6 +5748,18 @@ window.EVENTS = {
   {
    "date": "2026-11-13",
    "time": "7:30 PM",
+   "title": "adaku, part 2: she shivers with it",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Okwui Okpokwasili and Peter Born present a futuristic tale of a young woman's spiritual awakening told through sound, song and movement.",
+   "discipline": "Dance",
+   "genre": "dance-theater",
+   "url": "https://www.bam.org/dance/2026/adaku2",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:30 PM",
    "title": "New York Philharmonic: Puccini's Tosca (opera in concert)",
    "org": "Carnegie Hall",
    "location": "Stern Auditorium / Perelman Stage",
@@ -4791,7 +5779,7 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8715",
-   "notes": ""
+   "notes": "also listed by The Joyce Theater"
   },
   {
    "date": "2026-11-13",
@@ -4808,6 +5796,30 @@ window.EVENTS = {
   {
    "date": "2026-11-13",
    "time": "7:30 PM",
+   "title": "a living altar",
+   "org": "JACK Arts",
+   "location": "JACK",
+   "description": "Treya Lam's sound- and breath-based gathering, presented as a communal offering of solidarity in response to collective crises.",
+   "discipline": "Multidisciplinary",
+   "genre": "sound/performance",
+   "url": "https://www.jackny.org/treyalam-alivingaltar",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:30 PM",
+   "title": "The Eddie Palmieri Experience: An All-Star Celebration",
+   "org": "Jazz at Lincoln Center",
+   "location": "Rose Theater, Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "All-star tribute to Eddie Palmieri in his 90th birthday year, music directed by Louis Fouché and Luques Curtis with Palmieri alumni and guests such as Donald Harrison and Chief Adjuah.",
+   "discipline": "Music",
+   "genre": "Latin jazz / salsa",
+   "url": "https://jazz.org/concert/the-eddie-palmieri-experience-an-all-star-celebration/",
+   "notes": "also listed by Lincoln Center for the Performing Arts"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:30 PM",
    "title": "Cherubini's Medea",
    "org": "Lincoln Center for the Performing Arts",
    "location": "The Metropolitan Opera, Lincoln Center",
@@ -4815,7 +5827,7 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/medea/",
-   "notes": ""
+   "notes": "also listed by The Metropolitan Opera"
   },
   {
    "date": "2026-11-13",
@@ -4868,6 +5880,18 @@ window.EVENTS = {
   {
    "date": "2026-11-13",
    "time": "7:30 PM",
+   "title": "Dead Centre: Deaf Republic",
+   "org": "Skirball Center for the Performing Arts",
+   "location": "NYU Skirball Center, 566 LaGuardia Pl, New York, NY",
+   "description": "International political theater piece from Dead Centre, presented as a North American premiere.",
+   "discipline": "Theater",
+   "genre": "political theater",
+   "url": "https://nyuskirball.org/performance/deaf-republic/",
+   "notes": "which date has which time is not stated"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:30 PM",
    "title": "Elektra",
    "org": "Theatre for a New Audience",
    "location": "Polonsky Shakespeare Center",
@@ -4888,6 +5912,18 @@ window.EVENTS = {
    "genre": "contemporary dance",
    "url": "https://www.eventbrite.com/e/dancing-futures-jeevika-bhat-tickets-1998516469559?aff=ebdsoporgprofile",
    "notes": "Listing says 'and 1 more' showtime not specified; only first listed. Tickets from $5."
+  },
+  {
+   "date": "2026-11-13",
+   "time": "8:00 PM",
+   "title": "Sunset Jazz",
+   "org": "Culture Lab LIC",
+   "location": "Culture Lab LIC",
+   "description": "Weekly live jazz night in the gallery space with drinks; seating is limited.",
+   "discipline": "Music",
+   "genre": "jazz",
+   "url": "https://www.culturelablic.org/sunset-jazz",
+   "notes": "Free; RSVP via Humanitix. Held every Friday at 8 PM"
   },
   {
    "date": "2026-11-13",
@@ -4951,6 +5987,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-13",
+   "time": "8:00 PM",
+   "title": "Christian Warner",
+   "org": "Triskelion Arts",
+   "location": "Triskelion Arts",
+   "description": "Fall 2026 performance by Christian Warner in Triskelion Arts' season. The listing page gives no further details.",
+   "discipline": "Dance",
+   "genre": "",
+   "url": "https://www.triskelionarts.org/fall-2026-performances/christian-warner",
+   "notes": "Listed as Nov 12-14; discipline inferred from Triskelion's programming."
+  },
+  {
+   "date": "2026-11-13",
    "time": "8 PM",
    "title": "Bia Ferreira",
    "org": "World Music Institute",
@@ -4983,7 +6031,7 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "international showcase",
    "url": "https://thetanknyc.org/calendar-1/sinfronteras",
-   "notes": "Two nights, Nov 13–14, 2026; only first listed."
+   "notes": "Two-night event, Nov 13 and 14."
   },
   {
    "date": "2026-11-13",
@@ -5012,50 +6060,26 @@ window.EVENTS = {
   {
    "date": "2026-11-13",
    "time": "",
-   "title": "a living altar",
-   "org": "JACK Arts",
-   "location": "JACK",
-   "description": "Treya Lam's sound- and breath-based gathering, presented as a communal offering of solidarity in response to collective crises.",
-   "discipline": "Multidisciplinary",
-   "genre": "sound/performance",
-   "url": "https://www.jackny.org/treyalam-alivingaltar",
-   "notes": "Run listed as Nov 12-15; showtimes not stated on page."
-  },
-  {
-   "date": "2026-11-13",
-   "time": "",
-   "title": "The Eddie Palmieri Experience: An All-Star Celebration",
-   "org": "Jazz at Lincoln Center",
-   "location": "Rose Theater, Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "All-star tribute to Eddie Palmieri in his 90th birthday year, music directed by Louis Fouché and Luques Curtis with Palmieri alumni and guests such as Donald Harrison and Chief Adjuah.",
-   "discipline": "Music",
-   "genre": "Latin jazz / salsa",
-   "url": "https://jazz.org/concert/the-eddie-palmieri-experience-an-all-star-celebration/",
-   "notes": "Showtime not stated on page.; also listed by Lincoln Center for the Performing Arts"
-  },
-  {
-   "date": "2026-11-13",
-   "time": "",
-   "title": "Dead Centre: Deaf Republic",
-   "org": "Skirball Center for the Performing Arts",
-   "location": "NYU Skirball Center, 566 LaGuardia Pl, New York, NY",
-   "description": "International political theater piece from Dead Centre, presented as a North American premiere.",
+   "title": "The Waco Tapes",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Docudrama of the 1993 Waco standoff, scripted entirely from recorded FBI negotiation transcripts.",
    "discipline": "Theater",
-   "genre": "political theater",
-   "url": "https://nyuskirball.org/performance/deaf-republic/",
-   "notes": "Homepage lists showtimes 7:30 PM and 3:00 PM for Nov 12–15; which date has which time is not stated"
+   "genre": "documentary theater",
+   "url": "https://thetanknyc.org/calendar-1/2026/4/13/wacotapes",
+   "notes": "performance days not stated, so only the first date is listed."
   },
   {
-   "date": "2026-11-13",
-   "time": "",
-   "title": "Christian Warner",
-   "org": "Triskelion Arts",
-   "location": "Triskelion Arts",
-   "description": "Fall 2026 performance by Christian Warner in Triskelion Arts' season. The listing page gives no further details.",
-   "discipline": "Dance",
-   "genre": "",
-   "url": "https://www.triskelionarts.org/fall-2026-performances/christian-warner",
-   "notes": "Listed as Nov 12-14; showtimes and street address not stated on the page; discipline inferred from Triskelion's programming."
+   "date": "2026-11-14",
+   "time": "10:30 AM",
+   "title": "Violet's Magic Glasses",
+   "org": "92NY Harkness Dance Center",
+   "location": "92NY, 1395 Lexington Avenue",
+   "description": "A new musical about learning differences, friendship and perseverance, with lively songs and humor.",
+   "discipline": "Family/Education",
+   "genre": "family musical",
+   "url": "https://www.92ny.org/event/violet-s-magic-glasses",
+   "notes": "only the first date (Nov 8) is shown, time not stated."
   },
   {
    "date": "2026-11-14",
@@ -5091,7 +6115,7 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/tosca/",
-   "notes": ""
+   "notes": "also listed by The Metropolitan Opera"
   },
   {
    "date": "2026-11-14",
@@ -5139,7 +6163,31 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.apollotheater.org/event/hopeboykindance",
-   "notes": "Two performances this date (2:00 PM and 7:00 PM)"
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "2:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "2:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
   },
   {
    "date": "2026-11-14",
@@ -5151,7 +6199,7 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8716",
-   "notes": "Matinee"
+   "notes": "Matinee; also listed by The Joyce Theater"
   },
   {
    "date": "2026-11-14",
@@ -5164,6 +6212,30 @@ window.EVENTS = {
    "genre": "contemporary dance",
    "url": "https://www.hbartscollective.org/events-performances/hbarts-collective-presents-hopeboykindance-a-collection-y9hm7",
    "notes": "Matinee. Doors 1:30 PM. General admission, first-come first-served; limit of four tickets per household."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "2:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "2:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-11-14",
@@ -5240,6 +6312,18 @@ window.EVENTS = {
   {
    "date": "2026-11-14",
    "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -5275,6 +6359,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-14",
+   "time": "2:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "2:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
    "time": "3:00 PM",
    "title": "Zekari! New York's Preeminent Traditional Georgian Polyphonic Singing Ensemble",
    "org": "Center for Traditional Music and Dance",
@@ -5300,14 +6408,38 @@ window.EVENTS = {
   {
    "date": "2026-11-14",
    "time": "3:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "3:00 PM",
    "title": "Myth of The Fox",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "Original dance theatre piece inspired by the Japanese Nine-Tailed Fox legend, exploring love, war, power and humans' bond with spirits.",
+   "description": "Original dance theatre piece inspired by the Japanese Nine-Tailed Fox legend, exploring love, war, power and spirits.",
    "discipline": "Dance",
    "genre": "dance theatre",
    "url": "https://thetanknyc.org/calendar-1/2026/8/26/myth-of-fox",
-   "notes": "Listed 3:00 PM–4:30 PM."
+   "notes": "Listed 3:00–4:30 PM."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "3:00 PM",
+   "title": "The Waco Tapes",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Docudrama of the 1993 Waco standoff, scripted entirely from recorded FBI negotiation transcripts.",
+   "discipline": "Theater",
+   "genre": "documentary theater",
+   "url": "https://thetanknyc.org/calendar-1/2026/4/13/wacotapes",
+   "notes": "performance days not stated, so only the first date is listed."
   },
   {
    "date": "2026-11-14",
@@ -5331,7 +6463,19 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.apollotheater.org/event/hopeboykindance",
-   "notes": "Two performances this date (2:00 PM and 7:00 PM)"
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
   },
   {
    "date": "2026-11-14",
@@ -5372,6 +6516,18 @@ window.EVENTS = {
   {
    "date": "2026-11-14",
    "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:00 PM",
    "title": "icchā",
    "org": "Culture Lab LIC",
    "location": "Culture Lab LIC",
@@ -5392,6 +6548,42 @@ window.EVENTS = {
    "genre": "contemporary dance",
    "url": "https://www.hbartscollective.org/events-performances/hbarts-collective-presents-hopeboykindance-a-collection",
    "notes": "Evening show. Doors 6:30 PM. General admission, first-come first-served; limit of four tickets per household."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-11-14",
@@ -5428,6 +6620,42 @@ window.EVENTS = {
    "genre": "",
    "url": "https://pacnyc.org/whats-on/lisa-marie-simmons/",
    "notes": "Free Music at PAC NYC series; RSVP offered"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:00 PM",
+   "title": "La breve y maravillosa vida de Oscar Wao",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Stage adaptation of Junot Díaz's novel, adapted and directed by Marco Antonio Rodríguez.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/153/la-breve-y-maravillosa-vida-de-oscar-wao",
+   "notes": ""
   },
   {
    "date": "2026-11-14",
@@ -5479,6 +6707,42 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-14",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:00 PM",
+   "title": "Legerdemain",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "On the eve of Halloween with a strangler at large, a waitress and her devoted customer form an unlikely friendship.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/legerdemain",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
    "time": "7:30 PM",
    "title": "Daily Diversions (World Premiere)",
    "org": "Abrons Arts Center",
@@ -5504,6 +6768,18 @@ window.EVENTS = {
   {
    "date": "2026-11-14",
    "time": "7:30 PM",
+   "title": "adaku, part 2: she shivers with it",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Okwui Okpokwasili and Peter Born present a futuristic tale of a young woman's spiritual awakening told through sound, song and movement.",
+   "discipline": "Dance",
+   "genre": "dance-theater",
+   "url": "https://www.bam.org/dance/2026/adaku2",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:30 PM",
    "title": "Tercio Flamenco November 14",
    "org": "Flamenco Vivo Carlota Santana",
    "location": "El Barrio ArtSpace, 215 E 99th St, New York",
@@ -5523,7 +6799,7 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8717",
-   "notes": ""
+   "notes": "also listed by The Joyce Theater"
   },
   {
    "date": "2026-11-14",
@@ -5548,6 +6824,30 @@ window.EVENTS = {
    "genre": "contemporary",
    "url": "https://iceorg.org/events/fridman-gallery",
    "notes": "Page provides no program description."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:30 PM",
+   "title": "a living altar",
+   "org": "JACK Arts",
+   "location": "JACK",
+   "description": "Treya Lam's sound- and breath-based gathering, presented as a communal offering of solidarity in response to collective crises.",
+   "discipline": "Multidisciplinary",
+   "genre": "sound/performance",
+   "url": "https://www.jackny.org/treyalam-alivingaltar",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:30 PM",
+   "title": "The Eddie Palmieri Experience: An All-Star Celebration",
+   "org": "Jazz at Lincoln Center",
+   "location": "Rose Theater, Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "All-star tribute to Eddie Palmieri in his 90th birthday year, music directed by Louis Fouché and Luques Curtis with Palmieri alumni and guests such as Donald Harrison and Chief Adjuah.",
+   "discipline": "Music",
+   "genre": "Latin jazz / salsa",
+   "url": "https://jazz.org/concert/the-eddie-palmieri-experience-an-all-star-celebration/",
+   "notes": "also listed by Lincoln Center for the Performing Arts"
   },
   {
    "date": "2026-11-14",
@@ -5600,6 +6900,18 @@ window.EVENTS = {
   {
    "date": "2026-11-14",
    "time": "7:30 PM",
+   "title": "Dead Centre: Deaf Republic",
+   "org": "Skirball Center for the Performing Arts",
+   "location": "NYU Skirball Center, 566 LaGuardia Pl, New York, NY",
+   "description": "International political theater piece from Dead Centre, presented as a North American premiere.",
+   "discipline": "Theater",
+   "genre": "political theater",
+   "url": "https://nyuskirball.org/performance/deaf-republic/",
+   "notes": "which date has which time is not stated"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:30 PM",
    "title": "Elektra",
    "org": "Theatre for a New Audience",
    "location": "Polonsky Shakespeare Center",
@@ -5643,7 +6955,7 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "contemporary opera",
    "url": "https://www.metopera.org/season/2026-27-season/lincoln-in-the-bardo/",
-   "notes": ""
+   "notes": "also listed by The Metropolitan Opera"
   },
   {
    "date": "2026-11-14",
@@ -5696,6 +7008,18 @@ window.EVENTS = {
   {
    "date": "2026-11-14",
    "time": "8:00 PM",
+   "title": "VITALY: An Evening of Wonders",
+   "org": "Queens Theatre",
+   "location": "The Claire Shulman Theater, Queens Theatre, 14 United Nations Avenue South",
+   "description": "Family-friendly evening of wonders with performer Vitaly.",
+   "discipline": "Family/Education",
+   "genre": "family variety show",
+   "url": "https://www.queenstheatre.org/events/vitaly-1j7r",
+   "notes": "also performs Nov 15."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "8:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -5704,6 +7028,18 @@ window.EVENTS = {
    "genre": "musical",
    "url": "https://2st.com/shows/the-fantasticks",
    "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "8:00 PM",
+   "title": "Christian Warner",
+   "org": "Triskelion Arts",
+   "location": "Triskelion Arts",
+   "description": "Fall 2026 performance by Christian Warner in Triskelion Arts' season. The listing page gives no further details.",
+   "discipline": "Dance",
+   "genre": "",
+   "url": "https://www.triskelionarts.org/fall-2026-performances/christian-warner",
+   "notes": "Listed as Nov 12-14; discipline inferred from Triskelion's programming."
   },
   {
    "date": "2026-11-14",
@@ -5743,6 +7079,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-14",
+   "time": "9:30 PM",
+   "title": "Sin Fronteras",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Nine artists from eight countries perform over two nights, in English or Spanish with bilingual supertitles.",
+   "discipline": "Multidisciplinary",
+   "genre": "international showcase",
+   "url": "https://thetanknyc.org/calendar-1/sinfronteras",
+   "notes": "Second of two nights."
+  },
+  {
+   "date": "2026-11-14",
+   "time": "9:30 PM",
+   "title": "The List",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "After Lily's suicide, her friend Cori tells Angela at the funeral that she is on 'The List' and not welcome inside.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/thelist",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
    "time": "10:00 PM",
    "title": "Adeva",
    "org": "Apollo Theater",
@@ -5752,30 +7112,6 @@ window.EVENTS = {
    "genre": "house",
    "url": "https://www.apollotheater.org/event/apollo-music-cafe-adeva",
    "notes": "Apollo Music Café"
-  },
-  {
-   "date": "2026-11-14",
-   "time": "",
-   "title": "a living altar",
-   "org": "JACK Arts",
-   "location": "JACK",
-   "description": "Treya Lam's sound- and breath-based gathering, presented as a communal offering of solidarity in response to collective crises.",
-   "discipline": "Multidisciplinary",
-   "genre": "sound/performance",
-   "url": "https://www.jackny.org/treyalam-alivingaltar",
-   "notes": "Run listed as Nov 12-15; showtimes not stated on page."
-  },
-  {
-   "date": "2026-11-14",
-   "time": "",
-   "title": "The Eddie Palmieri Experience: An All-Star Celebration",
-   "org": "Jazz at Lincoln Center",
-   "location": "Rose Theater, Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "All-star tribute to Eddie Palmieri in his 90th birthday year, music directed by Louis Fouché and Luques Curtis with Palmieri alumni and guests such as Donald Harrison and Chief Adjuah.",
-   "discipline": "Music",
-   "genre": "Latin jazz / salsa",
-   "url": "https://jazz.org/concert/the-eddie-palmieri-experience-an-all-star-celebration/",
-   "notes": "Showtime not stated on page.; also listed by Lincoln Center for the Performing Arts"
   },
   {
    "date": "2026-11-14",
@@ -5816,18 +7152,6 @@ window.EVENTS = {
   {
    "date": "2026-11-14",
    "time": "",
-   "title": "VITALY: An Evening of Wonders",
-   "org": "Queens Theatre",
-   "location": "The Claire Shulman Theater, Queens Theatre, 14 United Nations Avenue South",
-   "description": "Family-friendly evening of wonders with performer Vitaly.",
-   "discipline": "Family/Education",
-   "genre": "family variety show",
-   "url": "https://www.queenstheatre.org/events/vitaly-1j7r",
-   "notes": "Showtime not stated on the page; also performs Nov 15."
-  },
-  {
-   "date": "2026-11-14",
-   "time": "",
    "title": "DO NOT TRY THIS AT HOME",
    "org": "STREB",
    "location": "New Victory Theater, New York, NY",
@@ -5838,28 +7162,16 @@ window.EVENTS = {
    "notes": "Run listed as November 14-29, 2026; page gives no individual show dates or times, so only the first date is listed. Check the New Victory page for the schedule."
   },
   {
-   "date": "2026-11-14",
-   "time": "",
-   "title": "Dead Centre: Deaf Republic",
-   "org": "Skirball Center for the Performing Arts",
-   "location": "NYU Skirball Center, 566 LaGuardia Pl, New York, NY",
-   "description": "International political theater piece from Dead Centre, presented as a North American premiere.",
-   "discipline": "Theater",
-   "genre": "political theater",
-   "url": "https://nyuskirball.org/performance/deaf-republic/",
-   "notes": "Homepage lists showtimes 7:30 PM and 3:00 PM for Nov 12–15; which date has which time is not stated"
-  },
-  {
-   "date": "2026-11-14",
-   "time": "",
-   "title": "Christian Warner",
-   "org": "Triskelion Arts",
-   "location": "Triskelion Arts",
-   "description": "Fall 2026 performance by Christian Warner in Triskelion Arts' season. The listing page gives no further details.",
-   "discipline": "Dance",
-   "genre": "",
-   "url": "https://www.triskelionarts.org/fall-2026-performances/christian-warner",
-   "notes": "Listed as Nov 12-14; showtimes and street address not stated on the page; discipline inferred from Triskelion's programming."
+   "date": "2026-11-15",
+   "time": "10:30 AM",
+   "title": "Violet's Magic Glasses",
+   "org": "92NY Harkness Dance Center",
+   "location": "92NY, 1395 Lexington Avenue",
+   "description": "A new musical about learning differences, friendship and perseverance, with lively songs and humor.",
+   "discipline": "Family/Education",
+   "genre": "family musical",
+   "url": "https://www.92ny.org/event/violet-s-magic-glasses",
+   "notes": "only the first date (Nov 8) is shown, time not stated."
   },
   {
    "date": "2026-11-15",
@@ -5876,6 +7188,18 @@ window.EVENTS = {
   {
    "date": "2026-11-15",
    "time": "2:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "2:00 PM",
    "title": "New York Philharmonic: Puccini's Tosca (opera in concert)",
    "org": "Carnegie Hall",
    "location": "Stern Auditorium / Perelman Stage",
@@ -5888,6 +7212,18 @@ window.EVENTS = {
   {
    "date": "2026-11-15",
    "time": "2:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "2:00 PM",
    "title": "GALLIM at The Joyce Theater",
    "org": "Gallim Dance",
    "location": "The Joyce Theater",
@@ -5895,7 +7231,7 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8718",
-   "notes": "Matinee"
+   "notes": "Matinee; also listed by The Joyce Theater"
   },
   {
    "date": "2026-11-15",
@@ -5920,6 +7256,30 @@ window.EVENTS = {
    "genre": "musical",
    "url": "https://www.nycitycenter.org/",
    "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "2:00 PM",
+   "title": "VITALY: An Evening of Wonders",
+   "org": "Queens Theatre",
+   "location": "The Claire Shulman Theater, Queens Theatre, 14 United Nations Avenue South",
+   "description": "Family-friendly evening of wonders with performer Vitaly.",
+   "discipline": "Family/Education",
+   "genre": "family variety show",
+   "url": "https://www.queenstheatre.org/events/vitaly-1j7r",
+   "notes": "also performs Nov 15."
   },
   {
    "date": "2026-11-15",
@@ -5955,6 +7315,30 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4412",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "2:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 PM",
+   "title": "adaku, part 2: she shivers with it",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Okwui Okpokwasili and Peter Born present a futuristic tale of a young woman's spiritual awakening told through sound, song and movement.",
+   "discipline": "Dance",
+   "genre": "dance-theater",
+   "url": "https://www.bam.org/dance/2026/adaku2",
    "notes": ""
   },
   {
@@ -5996,6 +7380,42 @@ window.EVENTS = {
   {
    "date": "2026-11-15",
    "time": "3:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 PM",
+   "title": "a living altar",
+   "org": "JACK Arts",
+   "location": "JACK",
+   "description": "Treya Lam's sound- and breath-based gathering, presented as a communal offering of solidarity in response to collective crises.",
+   "discipline": "Multidisciplinary",
+   "genre": "sound/performance",
+   "url": "https://www.jackny.org/treyalam-alivingaltar",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 PM",
    "title": "Salcedo's Latin Soul: Pops y Palmas Album Release Party",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts at Queens College, Flushing",
@@ -6032,6 +7452,18 @@ window.EVENTS = {
   {
    "date": "2026-11-15",
    "time": "3:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 PM",
    "title": "Toc Toc",
    "org": "Repertorio Español",
    "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
@@ -6039,6 +7471,54 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy",
    "url": "https://repertorio.nyc/show/2650/toc-toc",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 PM",
+   "title": "Dead Centre: Deaf Republic",
+   "org": "Skirball Center for the Performing Arts",
+   "location": "NYU Skirball Center, 566 LaGuardia Pl, New York, NY",
+   "description": "International political theater piece from Dead Centre, presented as a North American premiere.",
+   "discipline": "Theater",
+   "genre": "political theater",
+   "url": "https://nyuskirball.org/performance/deaf-republic/",
+   "notes": "which date has which time is not stated"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 PM",
+   "title": "Legerdemain",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "On the eve of Halloween with a strangler at large, a waitress and her devoted customer form an unlikely friendship.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/legerdemain",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 PM",
+   "title": "Gi60 NYC 2026 - One Minute Theatre Festival",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "An evening of tiny one-minute plays performed by a company of actors.",
+   "discipline": "Theater",
+   "genre": "short plays festival",
+   "url": "https://thetanknyc.org/calendar-1/gi60",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-15",
+   "time": "4:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
    "notes": ""
   },
   {
@@ -6104,6 +7584,18 @@ window.EVENTS = {
   {
    "date": "2026-11-15",
    "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "7:00 PM",
    "title": "Composers Concordance Presents WATER & SPACE: An Immersive Multimedia Concert of Contemporary Music and Visual Art",
    "org": "New Music USA",
    "location": "Westbeth, 55 Bethune Street, New York City",
@@ -6128,14 +7620,38 @@ window.EVENTS = {
   {
    "date": "2026-11-15",
    "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "7:00 PM",
+   "title": "My Mobster",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "One-woman show about a sheltered American girl who meets a handsome stranger in Italy and chaos follows.",
+   "discipline": "Theater",
+   "genre": "solo show",
+   "url": "https://thetanknyc.org/calendar-1/mymobster",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-15",
+   "time": "7:00 PM",
    "title": "Floor 13 Theatrical Laboratory Presents SEASON 3: Wars & Diners",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "Two plays in one night: three couples facing wartime loss and renewal, and a modern Lysistrata set in rural Florida.",
+   "description": "Two plays in one night: a wartime story of three couples and a modern Lysistrata set in rural Florida.",
    "discipline": "Theater",
-   "genre": "double bill",
+   "genre": "new plays",
    "url": "https://thetanknyc.org/calendar-1/war-songs-and-a-diner-lockdown",
-   "notes": "Run through Nov 22, 2026; specific performance days not stated, so only first occurrence listed."
+   "notes": "performance days not stated, so only the first date is listed."
   },
   {
    "date": "2026-11-15",
@@ -6188,50 +7704,26 @@ window.EVENTS = {
   {
    "date": "2026-11-15",
    "time": "9:30 PM",
+   "title": "Floor 13 Theatrical Laboratory Presents SEASON 3: Wars & Diners",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Two plays in one night: a wartime story of three couples and a modern Lysistrata set in rural Florida.",
+   "discipline": "Theater",
+   "genre": "new plays",
+   "url": "https://thetanknyc.org/calendar-1/war-songs-and-a-diner-lockdown",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-15",
+   "time": "9:30 PM",
    "title": "Olivia's Invited",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "An outcast tries to clear her name on the day of a big party after deaths at parties she attended.",
+   "description": "Shunned after deaths at parties she attends, Olivia tries to clear her name on the day of a big party.",
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/11/15/olivias-invited",
-   "notes": "Run Nov 15–16, 2026; specific days not stated, only first listed."
-  },
-  {
-   "date": "2026-11-15",
-   "time": "",
-   "title": "a living altar",
-   "org": "JACK Arts",
-   "location": "JACK",
-   "description": "Treya Lam's sound- and breath-based gathering, presented as a communal offering of solidarity in response to collective crises.",
-   "discipline": "Multidisciplinary",
-   "genre": "sound/performance",
-   "url": "https://www.jackny.org/treyalam-alivingaltar",
-   "notes": "Run listed as Nov 12-15; showtimes not stated on page."
-  },
-  {
-   "date": "2026-11-15",
-   "time": "",
-   "title": "VITALY: An Evening of Wonders",
-   "org": "Queens Theatre",
-   "location": "The Claire Shulman Theater, Queens Theatre, 14 United Nations Avenue South",
-   "description": "Family-friendly evening of wonders with performer Vitaly.",
-   "discipline": "Family/Education",
-   "genre": "family variety show",
-   "url": "https://www.queenstheatre.org/events/vitaly-1j7r",
-   "notes": "Showtime not stated on the page; also performs Nov 14."
-  },
-  {
-   "date": "2026-11-15",
-   "time": "",
-   "title": "Dead Centre: Deaf Republic",
-   "org": "Skirball Center for the Performing Arts",
-   "location": "NYU Skirball Center, 566 LaGuardia Pl, New York, NY",
-   "description": "International political theater piece from Dead Centre, presented as a North American premiere.",
-   "discipline": "Theater",
-   "genre": "political theater",
-   "url": "https://nyuskirball.org/performance/deaf-republic/",
-   "notes": "Homepage lists showtimes 7:30 PM and 3:00 PM for Nov 12–15; which date has which time is not stated"
+   "notes": "performance days not stated, so only the first date is listed."
   },
   {
    "date": "2026-11-15",
@@ -6308,6 +7800,30 @@ window.EVENTS = {
   {
    "date": "2026-11-16",
    "time": "7:00 PM",
+   "title": "Legerdemain",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "On the eve of Halloween with a strangler at large, a waitress and her devoted customer form an unlikely friendship.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/legerdemain",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-16",
+   "time": "7:00 PM",
+   "title": "Floor 13 Theatrical Laboratory Presents SEASON 3: Wars & Diners",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Two plays in one night: a wartime story of three couples and a modern Lysistrata set in rural Florida.",
+   "discipline": "Theater",
+   "genre": "new plays",
+   "url": "https://thetanknyc.org/calendar-1/war-songs-and-a-diner-lockdown",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-16",
+   "time": "7:00 PM",
    "title": "VOX: American Voices Opera Lab",
    "org": "Works & Process",
    "location": "Guggenheim New York",
@@ -6375,7 +7891,7 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera, new production",
    "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
-   "notes": "Opening date of a run through Dec 4"
+   "notes": ""
   },
   {
    "date": "2026-11-16",
@@ -6403,6 +7919,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-16",
+   "time": "9:30 PM",
+   "title": "Floor 13 Theatrical Laboratory Presents SEASON 3: Wars & Diners",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Two plays in one night: a wartime story of three couples and a modern Lysistrata set in rural Florida.",
+   "discipline": "Theater",
+   "genre": "new plays",
+   "url": "https://thetanknyc.org/calendar-1/war-songs-and-a-diner-lockdown",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-16",
+   "time": "9:30 PM",
+   "title": "Olivia's Invited",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Shunned after deaths at parties she attends, Olivia tries to clear her name on the day of a big party.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/2026/11/15/olivias-invited",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-16",
    "time": "",
    "title": "Broadway Close Up: Bound for Broadway",
    "org": "Kaufman Music Center",
@@ -6415,15 +7955,27 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-17",
+   "time": "11:00 AM",
+   "title": "En el tiempo de las mariposas",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Caridad Svich's stage adaptation of Julia Álvarez's novel, directed by José Zayas.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/291/en-el-tiempo-de-las-mariposas",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-17",
    "time": "3:00 PM",
    "title": "Masha Masha Masha!",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "A contemporary, comedic reimagining of Chekhov's Three Sisters about a prominent Black family reuniting during a pandemic.",
+   "description": "A contemporary, comic reimagining of Chekhov's Three Sisters about a prominent Black family reunited during a pandemic.",
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/11/17/mashamashamasha",
-   "notes": "Listed 3:00 PM–7:00 PM on Nov 17, 2026; may be a staged presentation, format not specified."
+   "notes": "Page lists Nov 17, 3:00 PM–7:00 PM"
   },
   {
    "date": "2026-11-17",
@@ -6448,6 +8000,30 @@ window.EVENTS = {
    "genre": "Afro Latin jazz / parade",
    "url": "https://www.afrolatinjazz.org/events/belongo-at-harlem-holiday-lights-2026",
    "notes": "Free and open to all; no registration required."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
   },
   {
    "date": "2026-11-17",
@@ -6500,6 +8076,18 @@ window.EVENTS = {
   {
    "date": "2026-11-17",
    "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, The Pershing Square Signature Center, 480 W 42nd Street",
@@ -6524,6 +8112,18 @@ window.EVENTS = {
   {
    "date": "2026-11-17",
    "time": "7:00 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:00 PM",
    "title": "TJG Mentor Series Vol. 12, Ed. 2 - Logan Richardson & Esteban Castro",
    "org": "The National Jazz Museum in Harlem",
    "location": "The National Jazz Museum in Harlem, 58 West 129th Street",
@@ -6532,6 +8132,42 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://jmih.org/event/tjg-mentor-series-vol-12-ed-2-logan-richardson-esteban-castro/",
    "notes": "venue per museum address on page; format (performance) not confirmed."
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:00 PM",
+   "title": "Masha Masha Masha!",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "A contemporary, comic reimagining of Chekhov's Three Sisters about a prominent Black family reunited during a pandemic.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/2026/11/17/mashamashamasha",
+   "notes": "Page lists Nov 17, 3:00 PM–7:00 PM"
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
   },
   {
    "date": "2026-11-17",
@@ -6579,7 +8215,7 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/tosca/",
-   "notes": ""
+   "notes": "also listed by The Metropolitan Opera"
   },
   {
    "date": "2026-11-17",
@@ -6639,19 +8275,31 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance theatre",
    "url": "https://thetanknyc.org/calendar-1/electraunlimited",
-   "notes": "Run Nov 17–18, 2026; only first occurrence listed."
+   "notes": "performance days not stated, so only the first date is listed."
   },
   {
-   "date": "2026-11-17",
-   "time": "",
-   "title": "Complexions Contemporary Ballet",
-   "org": "The Joyce Theater",
-   "location": "The Joyce Theater",
-   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
-   "discipline": "Dance",
-   "genre": "contemporary ballet",
-   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": "Run Nov 17–29; individual showtimes not given on page."
+   "date": "2026-11-18",
+   "time": "11:00 AM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only."
+  },
+  {
+   "date": "2026-11-18",
+   "time": "11:00 AM",
+   "title": "En el tiempo de las mariposas",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Caridad Svich's stage adaptation of Julia Álvarez's novel, directed by José Zayas.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/291/en-el-tiempo-de-las-mariposas",
+   "notes": ""
   },
   {
    "date": "2026-11-18",
@@ -6664,6 +8312,42 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
    "notes": "Student Matinee"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "2:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-18",
+   "time": "2:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "2:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-11-18",
@@ -6704,6 +8388,66 @@ window.EVENTS = {
   {
    "date": "2026-11-18",
    "time": "7:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:00 PM",
    "title": "Agadez: Queendoms",
    "org": "New Music USA",
    "location": "DROM, New York",
@@ -6736,6 +8480,18 @@ window.EVENTS = {
    "genre": "",
    "url": "https://pacnyc.org/whats-on/laur/",
    "notes": "Free Music at PAC NYC series; RSVP offered"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
   },
   {
    "date": "2026-11-18",
@@ -6800,14 +8556,38 @@ window.EVENTS = {
   {
    "date": "2026-11-18",
    "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:00 PM",
    "title": "Epiphora",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "A piece about threesomes, triangles and throuples, and what to do when your eyes water and won't stop.",
+   "description": "A play about threesomes, triangles and throuples, asking what to do when your eyes water and won't stop.",
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/10/5/epiphora",
-   "notes": "Run through Nov 24, 2026; specific performance days not stated, so only first occurrence listed."
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
   },
   {
    "date": "2026-11-18",
@@ -6831,6 +8611,18 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.apollotheater.org/event/juilliard-at-the-apollo-filles-de-kilimanjaro",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:30 PM",
+   "title": "La Distance",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Tiago Rodrigues's drama about a daughter who chooses exile on Mars and the father left struggling to stay connected across the distance.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.bam.org/theater/2026/la-distance",
    "notes": ""
   },
   {
@@ -6880,6 +8672,18 @@ window.EVENTS = {
    "genre": "accessible opera",
    "url": "https://www.nationalsawdust.org/event/opera-praktikos-presents-la-sonnambula",
    "notes": "Part of makemake; also listed by New Music USA"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:30 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
   },
   {
    "date": "2026-11-18",
@@ -6935,23 +8739,11 @@ window.EVENTS = {
    "title": "another cold evening with ethan and lee",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "Returning by popular demand: Ethan writes while Lee wears the headphones, and the audience waits to see what happens.",
+   "description": "Return engagement in which Ethan writes, Lee wears headphones, and the audience waits to see what happens.",
    "discipline": "Theater",
    "genre": "experimental",
    "url": "https://thetanknyc.org/calendar-1/anothercoldevening",
-   "notes": "Listed 9:30 PM–11:00 PM."
-  },
-  {
-   "date": "2026-11-18",
-   "time": "",
-   "title": "La Distance",
-   "org": "Brooklyn Academy of Music",
-   "location": "BAM (Brooklyn Academy of Music)",
-   "description": "Tiago Rodrigues's drama about a daughter who chooses exile on Mars and the father left struggling to stay connected across the distance.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": "Next Wave. Run Nov 18–29; only the first date listed, individual showtimes not stated on page."
+   "notes": "Listed 9:30–11:00 PM."
   },
   {
    "date": "2026-11-18",
@@ -6966,6 +8758,30 @@ window.EVENTS = {
    "notes": "Start time not stated on page."
   },
   {
+   "date": "2026-11-18",
+   "time": "",
+   "title": "Electra Untitled",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Dance theatre adaptation of Sophocles' Electra in dialogue with Sartre's The Flies, seen through a female and queer lens.",
+   "discipline": "Dance",
+   "genre": "dance theatre",
+   "url": "https://thetanknyc.org/calendar-1/electraunlimited",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "11:00 AM",
+   "title": "La Gringa",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Carmen Rivera's play, directed by René Buch, billed as part of the company's 30 years in repertory.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/292/la-gringa",
+   "notes": "11 AM weekday show; presented in Spanish per company's focus (language not stated on page)"
+  },
+  {
    "date": "2026-11-19",
    "time": "2:00 PM",
    "title": "Live from Harlem - JFA Presents: African Rhythms Alumni Quintet feat. Vishnu Wood",
@@ -6976,6 +8792,30 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://jmih.org/event/live-from-harlem-jfa-presents-african-rhythms-alumni-quintet/",
    "notes": "venue per museum address on page."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "2:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-19",
+   "time": "6:00 PM",
+   "title": "Tethering: An Arcade with Deep Soul Ties",
+   "org": "CultureHub",
+   "location": "CultureHub (street address not stated on page)",
+   "description": "A game-show-style live piece about forming deep bonds with people, aliens, angels, land and music.",
+   "discipline": "Multidisciplinary",
+   "genre": "digital storytelling / game show",
+   "url": "https://www.culturehub.org/events/tethering-an-arcade-with-deep-soul-ties",
+   "notes": ""
   },
   {
    "date": "2026-11-19",
@@ -7028,6 +8868,30 @@ window.EVENTS = {
   {
    "date": "2026-11-19",
    "time": "7:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 PM",
    "title": "Fifty fun facts sobre Olivia [mi madre]",
    "org": "IATI Theater",
    "location": "IATI Theater - Mainstage",
@@ -7036,6 +8900,30 @@ window.EVENTS = {
    "genre": "bilingual new play",
    "url": "",
    "notes": "Run Nov 6–22; Thu & Fri 7 PM, Sat & Sun 3 PM. Tickets on sale."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Sold out; listed as Patron Night"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-11-19",
@@ -7084,6 +8972,30 @@ window.EVENTS = {
    "genre": "DJ set",
    "url": "https://pacnyc.org/whats-on/dj-malik-rio-2/",
    "notes": "Free Music at PAC NYC series"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
   },
   {
    "date": "2026-11-19",
@@ -7160,14 +9072,50 @@ window.EVENTS = {
   {
    "date": "2026-11-19",
    "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 PM",
+   "title": "Fast and Furious: A show about collective experience",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Five artists create a show about the shared experiences of New Yorkers, internet scrollers and everyday observers.",
+   "discipline": "Theater",
+   "genre": "devised/new work",
+   "url": "https://thetanknyc.org/calendar-1/2026/9/16/fast-and-furious-a-show-about-collective-experience",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 PM",
+   "title": "Legerdemain",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "On the eve of Halloween with a strangler at large, a waitress and her devoted customer form an unlikely friendship.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/legerdemain",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 PM",
    "title": "New York New Music Festival",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "Inaugural festival celebrating NYC's contemporary classical community, with six concerts by six local ensembles.",
+   "description": "Inaugural festival of six concerts by six NYC-based contemporary classical ensembles.",
    "discipline": "Music",
    "genre": "contemporary classical",
    "url": "https://thetanknyc.org/calendar-1/2026/9/22/newyorknewmusicfestival",
-   "notes": "Festival runs Nov 19–21, 2026; individual concert times not stated, only first listed."
+   "notes": "individual concert dates and ensembles not stated, so only the first date is listed."
   },
   {
    "date": "2026-11-19",
@@ -7179,6 +9127,30 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.apollotheater.org/event/juilliard-at-the-apollo-filles-de-kilimanjaro",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:30 PM",
+   "title": "La Distance",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Tiago Rodrigues's drama about a daughter who chooses exile on Mars and the father left struggling to stay connected across the distance.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.bam.org/theater/2026/la-distance",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:30 PM",
+   "title": "Einstein on the Beach–50th Anniversary Concert",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "The Philip Glass Ensemble performs the Glass/Wilson opera in concert for its 50th anniversary, with an artistic installation by Es Devlin.",
+   "discipline": "Music",
+   "genre": "contemporary classical / opera in concert",
+   "url": "https://www.bam.org/music/2026/einstein-on-the-beach-50",
    "notes": ""
   },
   {
@@ -7208,6 +9180,18 @@ window.EVENTS = {
   {
    "date": "2026-11-19",
    "time": "7:30 PM",
+   "title": "Barnard/Columbia Dances at New York Live Arts",
+   "org": "New York Live Arts",
+   "location": "New York Live Arts, 219 W 19th Street",
+   "description": "Dance program from Barnard College and Columbia students presented at New York Live Arts.",
+   "discipline": "Dance",
+   "genre": "college dance",
+   "url": "https://newyorklivearts.org/event/barnard-columbia-dances-at-new-york-live-arts-5/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:30 PM",
    "title": "Roberto González-Monjas Conducting Debut, with Frank Huang",
    "org": "New York Philharmonic",
    "location": "Wu Tsai Theater, David Geffen Hall at Lincoln Center",
@@ -7228,6 +9212,18 @@ window.EVENTS = {
    "genre": "contemporary dance",
    "url": "https://givebutter.com/blackvelvet",
    "notes": "Page lists 'November 19–21, 7:30 p.m.' without a year; 2026 inferred from its place among upcoming events."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:30 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
   },
   {
    "date": "2026-11-19",
@@ -7279,6 +9275,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-19",
+   "time": "8:00 PM",
+   "title": "Medea",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Cherubini's Greek tragedy with Sonya Yoncheva as the vengeful sorceress and Michael Spyres as Giasone.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/medea/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-19",
    "time": "9:00 PM",
    "title": "Wanhal, Britten, & Reinecke",
    "org": "Chamber Music Society of Lincoln Center",
@@ -7291,6 +9299,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-19",
+   "time": "9:30 PM",
+   "title": "My Mobster",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "One-woman show about a sheltered American girl who meets a handsome stranger in Italy and chaos follows.",
+   "discipline": "Theater",
+   "genre": "solo show",
+   "url": "https://thetanknyc.org/calendar-1/mymobster",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-19",
+   "time": "9:30 PM",
+   "title": "New York New Music Festival",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Inaugural festival of six concerts by six NYC-based contemporary classical ensembles.",
+   "discipline": "Music",
+   "genre": "contemporary classical",
+   "url": "https://thetanknyc.org/calendar-1/2026/9/22/newyorknewmusicfestival",
+   "notes": "individual concert dates and ensembles not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-19",
    "time": "10:00 PM",
    "title": "makemake Presents Ecstatica feat. Cuéntame",
    "org": "National Sawdust",
@@ -7300,18 +9332,6 @@ window.EVENTS = {
    "genre": "DJ / dance night",
    "url": "https://www.nationalsawdust.org/event/makemake-presents-ecstatica-feat-cuentame",
    "notes": "DJ night"
-  },
-  {
-   "date": "2026-11-19",
-   "time": "",
-   "title": "Einstein on the Beach–50th Anniversary Concert",
-   "org": "Brooklyn Academy of Music",
-   "location": "BAM (Brooklyn Academy of Music)",
-   "description": "The Philip Glass Ensemble performs the Glass/Wilson opera in concert for its 50th anniversary, with an artistic installation by Es Devlin.",
-   "discipline": "Music",
-   "genre": "contemporary classical / opera in concert",
-   "url": "https://www.bam.org/music/2026/einstein-on-the-beach-50",
-   "notes": "Next Wave. Run Nov 19–21; only the first date listed, showtimes not stated on page."
   },
   {
    "date": "2026-11-19",
@@ -7336,18 +9356,6 @@ window.EVENTS = {
    "genre": "dance puppetry",
    "url": "https://lamama.org/everything-that-follows/",
    "notes": "Puppet Festival 2026; run Nov 19-23. Showtimes not stated."
-  },
-  {
-   "date": "2026-11-19",
-   "time": "",
-   "title": "Barnard/Columbia Dances at New York Live Arts",
-   "org": "New York Live Arts",
-   "location": "New York Live Arts, 219 W 19th Street",
-   "description": "Dance program from Barnard College and Columbia students presented at New York Live Arts.",
-   "discipline": "Dance",
-   "genre": "college dance",
-   "url": "https://newyorklivearts.org/event/barnard-columbia-dances-at-new-york-live-arts-5/",
-   "notes": "Showtime not stated on page; run listed as Nov 19-21"
   },
   {
    "date": "2026-11-19",
@@ -7412,6 +9420,18 @@ window.EVENTS = {
   {
    "date": "2026-11-20",
    "time": "6:00 PM",
+   "title": "Tethering: An Arcade with Deep Soul Ties",
+   "org": "CultureHub",
+   "location": "CultureHub (street address not stated on page)",
+   "description": "A game-show-style live piece about forming deep bonds with people, aliens, angels, land and music.",
+   "discipline": "Multidisciplinary",
+   "genre": "digital storytelling / game show",
+   "url": "https://www.culturehub.org/events/tethering-an-arcade-with-deep-soul-ties",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "6:00 PM",
    "title": "Historical Performance Chamber Music with Schola Cantorum Basel",
    "org": "Lincoln Center for the Performing Arts",
    "location": "The Juilliard School",
@@ -7472,6 +9492,42 @@ window.EVENTS = {
   {
    "date": "2026-11-20",
    "time": "7:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
    "title": "Fifty fun facts sobre Olivia [mi madre]",
    "org": "IATI Theater",
    "location": "IATI Theater - Mainstage",
@@ -7496,6 +9552,42 @@ window.EVENTS = {
   {
    "date": "2026-11-20",
    "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
+   "title": "Journey Through Jazz: The Great American Songbook",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "The Jazz at Lincoln Center Orchestra, led by Chris Crenshaw, explores the Great American Songbook with vocalist Carmen Bradford in an informative concert.",
+   "discipline": "Music",
+   "genre": "jazz big band / Great American Songbook",
+   "url": "https://jazz.org/concert/journey-through-jazz-the-great-american-songbook-the-jazz-at-lincoln-center-orchestra/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
    "title": "Composers Concordance Presents Berten D'Hollander - Flute & Warren Nicholson - Guitar",
    "org": "New Music USA",
    "location": "Saint John's in the Village, 218 West 11th Street, NYC",
@@ -7503,6 +9595,30 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary classical",
    "url": "https://newmusicusa.org/events/composers-concordance-presents-berten-dhollander-flute-warren-nicholson-guitar/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -7568,6 +9684,18 @@ window.EVENTS = {
   {
    "date": "2026-11-20",
    "time": "7:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
    "title": "Next Dance",
    "org": "The Chocolate Factory Theater",
    "location": "The Chocolate Factory Theater, 38-33 24th Street, Long Island City",
@@ -7603,6 +9731,54 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-20",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
+   "title": "Legerdemain",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "On the eve of Halloween with a strangler at large, a waitress and her devoted customer form an unlikely friendship.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/legerdemain",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
+   "title": "New York New Music Festival",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Inaugural festival of six concerts by six NYC-based contemporary classical ensembles.",
+   "discipline": "Music",
+   "genre": "contemporary classical",
+   "url": "https://thetanknyc.org/calendar-1/2026/9/22/newyorknewmusicfestival",
+   "notes": "individual concert dates and ensembles not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
    "time": "7:30 PM",
    "title": "Juilliard at The Apollo: Kind of Blue",
    "org": "Apollo Theater",
@@ -7624,6 +9800,30 @@ window.EVENTS = {
    "genre": "",
    "url": "https://bricartsmedia.org/event/max-bric-present-maxmachina-fall-2026/",
    "notes": "Details not given on calendar page."
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:30 PM",
+   "title": "La Distance",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Tiago Rodrigues's drama about a daughter who chooses exile on Mars and the father left struggling to stay connected across the distance.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.bam.org/theater/2026/la-distance",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:30 PM",
+   "title": "Einstein on the Beach–50th Anniversary Concert",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "The Philip Glass Ensemble performs the Glass/Wilson opera in concert for its 50th anniversary, with an artistic installation by Es Devlin.",
+   "discipline": "Music",
+   "genre": "contemporary classical / opera in concert",
+   "url": "https://www.bam.org/music/2026/einstein-on-the-beach-50",
+   "notes": ""
   },
   {
    "date": "2026-11-20",
@@ -7671,7 +9871,19 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://gibneydance.org/event/off-the-record/",
-   "notes": "Ticketed. Page lists run as Nov 20–21 (ends 9:00 PM Nov 21)."
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:30 PM",
+   "title": "mine to keep",
+   "org": "JACK Arts",
+   "location": "JACK",
+   "description": "Cara Hagan's ghost story drawing on Black American folklore, exploring bodies, labor and what the dispossessed reclaim.",
+   "discipline": "Multidisciplinary",
+   "genre": "ghost story / folklore-based new work",
+   "url": "https://www.jackny.org/carahagan-minetokeep",
+   "notes": ""
   },
   {
    "date": "2026-11-20",
@@ -7683,7 +9895,19 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet / new music",
    "url": "https://newmusicusa.org/events/last-light-a-ballet-by-miro-magloire-to-music-by-wang-lu/",
-   "notes": "New Music USA grantee; listing runs Nov 20–21"
+   "notes": "New Music USA grantee"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:30 PM",
+   "title": "Barnard/Columbia Dances at New York Live Arts",
+   "org": "New York Live Arts",
+   "location": "New York Live Arts, 219 W 19th Street",
+   "description": "Dance program from Barnard College and Columbia students presented at New York Live Arts.",
+   "discipline": "Dance",
+   "genre": "college dance",
+   "url": "https://newyorklivearts.org/event/barnard-columbia-dances-at-new-york-live-arts-5/",
+   "notes": ""
   },
   {
    "date": "2026-11-20",
@@ -7736,6 +9960,18 @@ window.EVENTS = {
   {
    "date": "2026-11-20",
    "time": "7:30 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:30 PM",
    "title": "Elektra",
    "org": "Theatre for a New Audience",
    "location": "Polonsky Shakespeare Center",
@@ -7772,6 +10008,18 @@ window.EVENTS = {
   {
    "date": "2026-11-20",
    "time": "8:00 PM",
+   "title": "Sunset Jazz",
+   "org": "Culture Lab LIC",
+   "location": "Culture Lab LIC",
+   "description": "Weekly live jazz night in the gallery space with drinks; seating is limited.",
+   "discipline": "Music",
+   "genre": "jazz",
+   "url": "https://www.culturelablic.org/sunset-jazz",
+   "notes": "Free; RSVP via Humanitix. Held every Friday at 8 PM"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "8:00 PM",
    "title": "Arabesque / Messengers, Maidens, and the End of Something Else / No Longer Silent",
    "org": "Orchestra of St. Luke's",
    "location": "Lincoln Center",
@@ -7795,6 +10043,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-20",
+   "time": "8:00 PM",
+   "title": "Tosca",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Puccini's thriller about a jealous diva, her painter lover and a ruthless police chief, in the Met's grand production.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/tosca/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "9:00 PM",
+   "title": "Journey Through Jazz: The Great American Songbook",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "The Jazz at Lincoln Center Orchestra, led by Chris Crenshaw, explores the Great American Songbook with vocalist Carmen Bradford in an informative concert.",
+   "discipline": "Music",
+   "genre": "jazz big band / Great American Songbook",
+   "url": "https://jazz.org/concert/journey-through-jazz-the-great-american-songbook-the-jazz-at-lincoln-center-orchestra/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
    "time": "9:30 PM",
    "title": "makemake Presents Ecstatica feat. Joy Guidry",
    "org": "National Sawdust",
@@ -7804,6 +10076,30 @@ window.EVENTS = {
    "genre": "experimental / ambient",
    "url": "https://www.nationalsawdust.org/event/makemake-presents-ecstatica-feat-joy-guidry",
    "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "9:30 PM",
+   "title": "Top of the Mornin'",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "A comedic show set at a Milwaukee radio station with two hosts, breaking news and possibly some songs.",
+   "discipline": "Theater",
+   "genre": "comedy",
+   "url": "https://thetanknyc.org/calendar-1/2026/10/5/topofthemornin",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-20",
+   "time": "9:30 PM",
+   "title": "New York New Music Festival",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Inaugural festival of six concerts by six NYC-based contemporary classical ensembles.",
+   "discipline": "Music",
+   "genre": "contemporary classical",
+   "url": "https://thetanknyc.org/calendar-1/2026/9/22/newyorknewmusicfestival",
+   "notes": "individual concert dates and ensembles not stated, so only the first date is listed."
   },
   {
    "date": "2026-11-20",
@@ -7844,30 +10140,90 @@ window.EVENTS = {
   {
    "date": "2026-11-20",
    "time": "",
-   "title": "mine to keep",
-   "org": "JACK Arts",
-   "location": "JACK",
-   "description": "Cara Hagan's ghost story drawing on Black American folklore, exploring bodies, labor and what the dispossessed reclaim.",
-   "discipline": "Multidisciplinary",
-   "genre": "ghost story / folklore-based new work",
-   "url": "https://www.jackny.org/carahagan-minetokeep",
-   "notes": "Run listed as Nov 20-22; showtimes not stated on page."
+   "title": "Do Not Turn Off My Telenovela",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "Pregones Theater, 571 Walton Ave., Bronx",
+   "description": "A playful send-up of and tribute to the high-drama, serialized storytelling of classic telenovelas.",
+   "discipline": "Theater",
+   "genre": "comedy / telenovela parody",
+   "url": "https://pregonesprtt.org/do-not-turn-off-my-telenovela-2026-27/",
+   "notes": "Time not stated on page."
   },
   {
-   "date": "2026-11-20",
-   "time": "",
-   "title": "Journey Through Jazz: The Great American Songbook",
-   "org": "Jazz at Lincoln Center",
-   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "The Jazz at Lincoln Center Orchestra, led by Chris Crenshaw, explores the Great American Songbook with vocalist Carmen Bradford in an informative concert.",
-   "discipline": "Music",
-   "genre": "jazz big band / Great American Songbook",
-   "url": "https://jazz.org/concert/journey-through-jazz-the-great-american-songbook-the-jazz-at-lincoln-center-orchestra/",
-   "notes": "Showtime and specific hall not stated on page."
+   "date": "2026-11-21",
+   "time": "1:00 PM",
+   "title": "Jenůfa",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Opening of Janáček's drama in a new Claus Guth staging, with Asmik Grigorian in the title role and Tomáš Hanus conducting.",
+   "discipline": "Opera",
+   "genre": "opera, new production",
+   "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
+   "notes": ""
   },
   {
-   "date": "2026-11-20",
-   "time": "",
+   "date": "2026-11-21",
+   "time": "2:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "2:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "2:00 PM",
+   "title": "Off The Record",
+   "org": "Gibney Dance",
+   "location": "Gibney (specific venue/address not stated on page)",
+   "description": "Evening of new choreography created by Gibney Company's Artistic Associates.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://gibneydance.org/event/off-the-record/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "2:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "2:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "2:00 PM",
    "title": "Barnard/Columbia Dances at New York Live Arts",
    "org": "New York Live Arts",
    "location": "New York Live Arts, 219 W 19th Street",
@@ -7875,31 +10231,7 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "college dance",
    "url": "https://newyorklivearts.org/event/barnard-columbia-dances-at-new-york-live-arts-5/",
-   "notes": "Showtime not stated on page; run listed as Nov 19-21"
-  },
-  {
-   "date": "2026-11-20",
-   "time": "",
-   "title": "Do Not Turn Off My Telenovela",
-   "org": "Pregones/Puerto Rican Traveling Theater",
-   "location": "Pregones Theater, 571 Walton Ave., Bronx, NY 10451",
-   "description": "A comic send-up of and tribute to the high-drama, serialized storytelling of classic telenovelas.",
-   "discipline": "Theater",
-   "genre": "comedy / telenovela parody",
-   "url": "https://pregonesprtt.org/do-not-turn-off-my-telenovela-2026-27/",
-   "notes": "Start time not stated on the page."
-  },
-  {
-   "date": "2026-11-20",
-   "time": "",
-   "title": "Navidad en Colombia 2026",
-   "org": "Thalia Spanish Theatre",
-   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
-   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
-   "discipline": "Dance",
-   "genre": "Colombian folkloric music and dance",
-   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Page lists a run of November 20 – December 20, 2026 but gives no weekday/showtime schedule, so only the first date is listed; check the theatre for individual showtimes. Returns by popular demand."
+   "notes": ""
   },
   {
    "date": "2026-11-21",
@@ -7912,6 +10244,18 @@ window.EVENTS = {
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/21/cloven-kingdom-tensile-involvement-under-the-rhythm-2-2pm/",
    "notes": "Tickets link to the David H. Koch Theater's Paul Taylor page."
+  },
+  {
+   "date": "2026-11-21",
+   "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
   },
   {
    "date": "2026-11-21",
@@ -7952,6 +10296,42 @@ window.EVENTS = {
   {
    "date": "2026-11-21",
    "time": "2:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "2:00 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "2:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "2:00 PM",
    "title": "Elektra",
    "org": "Theatre for a New Audience",
    "location": "Polonsky Shakespeare Center",
@@ -7960,6 +10340,18 @@ window.EVENTS = {
    "genre": "classic play adaptation",
    "url": "https://tfana.org/events/elektra-2026-11-21-200-pm",
    "notes": "Calendar tags this performance with talkbacks."
+  },
+  {
+   "date": "2026-11-21",
+   "time": "2:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
   },
   {
    "date": "2026-11-21",
@@ -7987,6 +10379,42 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-21",
+   "time": "3:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "3:00 PM",
+   "title": "My Mobster",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "One-woman show about a sheltered American girl who meets a handsome stranger in Italy and chaos follows.",
+   "discipline": "Theater",
+   "genre": "solo show",
+   "url": "https://thetanknyc.org/calendar-1/mymobster",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "3:00 PM",
+   "title": "New York New Music Festival",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Inaugural festival of six concerts by six NYC-based contemporary classical ensembles.",
+   "discipline": "Music",
+   "genre": "contemporary classical",
+   "url": "https://thetanknyc.org/calendar-1/2026/9/22/newyorknewmusicfestival",
+   "notes": "individual concert dates and ensembles not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-21",
    "time": "4:00 PM",
    "title": "MAX + BRIC Present MAXmachina Fall 2026",
    "org": "BRIC",
@@ -7996,6 +10424,18 @@ window.EVENTS = {
    "genre": "",
    "url": "https://bricartsmedia.org/event/max-bric-present-maxmachina-fall-2026/",
    "notes": "Details not given on calendar page."
+  },
+  {
+   "date": "2026-11-21",
+   "time": "4:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
   },
   {
    "date": "2026-11-21",
@@ -8011,6 +10451,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-21",
+   "time": "4:30 PM",
+   "title": "Journey Through Jazz: The Great American Songbook",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "The Jazz at Lincoln Center Orchestra, led by Chris Crenshaw, explores the Great American Songbook with vocalist Carmen Bradford in an informative concert.",
+   "discipline": "Music",
+   "genre": "jazz big band / Great American Songbook",
+   "url": "https://jazz.org/concert/journey-through-jazz-the-great-american-songbook-the-jazz-at-lincoln-center-orchestra/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
    "time": "5:00 PM",
    "title": "James Austin Smith and Friends: Time Enough: A Well-Being Concert",
    "org": "Carnegie Hall",
@@ -8020,6 +10472,30 @@ window.EVENTS = {
    "genre": "chamber / well-being concert",
    "url": "https://www.carnegiehall.org/calendar/2026/11/21/james-austin-smith-and-friends-0500pm",
    "notes": "Well-Being Concert"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "6:00 PM",
+   "title": "We Talked a Door Into Being",
+   "org": "CultureHub",
+   "location": "CultureHub (street address not stated on page)",
+   "description": "Three AI-driven puppets wait for their creator to return and hope to go outside and see the real world.",
+   "discipline": "Theater",
+   "genre": "AI puppetry / residency showing",
+   "url": "https://www.culturehub.org/events/we-talked-a-door-into-being",
+   "notes": "RSVP required. Time and venue not stated on page; format (performance vs. installation) not fully clear."
   },
   {
    "date": "2026-11-21",
@@ -8072,6 +10548,42 @@ window.EVENTS = {
   {
    "date": "2026-11-21",
    "time": "7:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
    "title": "The Palacios Sisters",
    "org": "INTAR",
    "location": "INTAR Theatre (venue not explicitly stated for this production)",
@@ -8080,6 +10592,78 @@ window.EVENTS = {
    "genre": "new play / UNIT52 workshop production",
    "url": "https://intartheatre.app.getcuebox.com/o/NSJ51G7N/shows/FYYG0L9J",
    "notes": "Year not stated on page; inferred as 2026 from weekdays and page order. UNIT52 workshop production."
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
+   "title": "Journey Through Jazz: The Great American Songbook",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "The Jazz at Lincoln Center Orchestra, led by Chris Crenshaw, explores the Great American Songbook with vocalist Carmen Bradford in an informative concert.",
+   "discipline": "Music",
+   "genre": "jazz big band / Great American Songbook",
+   "url": "https://jazz.org/concert/journey-through-jazz-the-great-american-songbook-the-jazz-at-lincoln-center-orchestra/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
+   "title": "Parejas Disparejas: Lo chistoso del amor",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Saulo García's comedy about the funny side of love, directed by Juan Carlos Talero.",
+   "discipline": "Theater",
+   "genre": "comedy",
+   "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
+   "notes": ""
   },
   {
    "date": "2026-11-21",
@@ -8120,6 +10704,18 @@ window.EVENTS = {
   {
    "date": "2026-11-21",
    "time": "7:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
    "title": "Next Dance",
    "org": "The Chocolate Factory Theater",
    "location": "The Chocolate Factory Theater, 38-33 24th Street, Long Island City",
@@ -8143,6 +10739,54 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-21",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
+   "title": "Legerdemain",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "On the eve of Halloween with a strangler at large, a waitress and her devoted customer form an unlikely friendship.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/legerdemain",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
+   "title": "New York New Music Festival",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Inaugural festival of six concerts by six NYC-based contemporary classical ensembles.",
+   "discipline": "Music",
+   "genre": "contemporary classical",
+   "url": "https://thetanknyc.org/calendar-1/2026/9/22/newyorknewmusicfestival",
+   "notes": "individual concert dates and ensembles not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
    "time": "7:30 PM",
    "title": "MAX + BRIC Present MAXmachina Fall 2026",
    "org": "BRIC",
@@ -8152,6 +10796,30 @@ window.EVENTS = {
    "genre": "",
    "url": "https://bricartsmedia.org/event/max-bric-present-maxmachina-fall-2026/",
    "notes": "Details not given on calendar page."
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:30 PM",
+   "title": "La Distance",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Tiago Rodrigues's drama about a daughter who chooses exile on Mars and the father left struggling to stay connected across the distance.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.bam.org/theater/2026/la-distance",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:30 PM",
+   "title": "Einstein on the Beach–50th Anniversary Concert",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "The Philip Glass Ensemble performs the Glass/Wilson opera in concert for its 50th anniversary, with an artistic installation by Es Devlin.",
+   "discipline": "Music",
+   "genre": "contemporary classical / opera in concert",
+   "url": "https://www.bam.org/music/2026/einstein-on-the-beach-50",
+   "notes": ""
   },
   {
    "date": "2026-11-21",
@@ -8192,6 +10860,30 @@ window.EVENTS = {
   {
    "date": "2026-11-21",
    "time": "7:30 PM",
+   "title": "Off The Record",
+   "org": "Gibney Dance",
+   "location": "Gibney (specific venue/address not stated on page)",
+   "description": "Evening of new choreography created by Gibney Company's Artistic Associates.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://gibneydance.org/event/off-the-record/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:30 PM",
+   "title": "mine to keep",
+   "org": "JACK Arts",
+   "location": "JACK",
+   "description": "Cara Hagan's ghost story drawing on Black American folklore, exploring bodies, labor and what the dispossessed reclaim.",
+   "discipline": "Multidisciplinary",
+   "genre": "ghost story / folklore-based new work",
+   "url": "https://www.jackny.org/carahagan-minetokeep",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:30 PM",
    "title": "LPR Presents: Rising Appalachia with support from Viv & Riley",
    "org": "National Sawdust",
    "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
@@ -8211,7 +10903,19 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet / new music",
    "url": "https://newmusicusa.org/events/last-light-a-ballet-by-miro-magloire-to-music-by-wang-lu/",
-   "notes": "New Music USA grantee; listing runs Nov 20–21"
+   "notes": "New Music USA grantee"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:30 PM",
+   "title": "Barnard/Columbia Dances at New York Live Arts",
+   "org": "New York Live Arts",
+   "location": "New York Live Arts, 219 W 19th Street",
+   "description": "Dance program from Barnard College and Columbia students presented at New York Live Arts.",
+   "discipline": "Dance",
+   "genre": "college dance",
+   "url": "https://newyorklivearts.org/event/barnard-columbia-dances-at-new-york-live-arts-5/",
+   "notes": ""
   },
   {
    "date": "2026-11-21",
@@ -8264,6 +10968,18 @@ window.EVENTS = {
   {
    "date": "2026-11-21",
    "time": "7:30 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:30 PM",
    "title": "Elektra",
    "org": "Theatre for a New Audience",
    "location": "Polonsky Shakespeare Center",
@@ -8299,7 +11015,31 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-21",
-   "time": "",
+   "time": "8:00 PM",
+   "title": "Medea",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Cherubini's Greek tragedy with Sonya Yoncheva as the vengeful sorceress and Michael Spyres as Giasone.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/medea/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "9:00 PM",
    "title": "We Talked a Door Into Being",
    "org": "CultureHub",
    "location": "CultureHub (street address not stated on page)",
@@ -8308,6 +11048,18 @@ window.EVENTS = {
    "genre": "AI puppetry / residency showing",
    "url": "https://www.culturehub.org/events/we-talked-a-door-into-being",
    "notes": "RSVP required. Time and venue not stated on page; format (performance vs. installation) not fully clear."
+  },
+  {
+   "date": "2026-11-21",
+   "time": "9:30 PM",
+   "title": "Top of the Mornin'",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "A comedic show set at a Milwaukee radio station with two hosts, breaking news and possibly some songs.",
+   "discipline": "Theater",
+   "genre": "comedy",
+   "url": "https://thetanknyc.org/calendar-1/2026/10/5/topofthemornin",
+   "notes": "performance days not stated, so only the first date is listed."
   },
   {
    "date": "2026-11-21",
@@ -8320,54 +11072,6 @@ window.EVENTS = {
    "genre": "",
    "url": "https://www.bandsintown.com/e/109064516?affil_code=js_ethelcentral.org&app_id=js_ethelcentral.org&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget",
    "notes": "Start time and program not stated on page."
-  },
-  {
-   "date": "2026-11-21",
-   "time": "",
-   "title": "Off The Record",
-   "org": "Gibney Dance",
-   "location": "Gibney (specific venue/address not stated on page)",
-   "description": "Evening of new choreography created by Gibney Company's Artistic Associates.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://gibneydance.org/event/off-the-record/",
-   "notes": "Ticketed. Start time for Nov 21 not stated; page shows the run ending 9:00 PM on Nov 21."
-  },
-  {
-   "date": "2026-11-21",
-   "time": "",
-   "title": "The Dead, 1904",
-   "org": "Irish Repertory Theatre",
-   "location": "The American Irish Historical Society",
-   "description": "Staging of The Dead, 1904 at the American Irish Historical Society.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": "Run Nov 21, 2026–Jan 3, 2027. Page gives no individual showtimes; only the first date is listed."
-  },
-  {
-   "date": "2026-11-21",
-   "time": "",
-   "title": "mine to keep",
-   "org": "JACK Arts",
-   "location": "JACK",
-   "description": "Cara Hagan's ghost story drawing on Black American folklore, exploring bodies, labor and what the dispossessed reclaim.",
-   "discipline": "Multidisciplinary",
-   "genre": "ghost story / folklore-based new work",
-   "url": "https://www.jackny.org/carahagan-minetokeep",
-   "notes": "Run listed as Nov 20-22; showtimes not stated on page."
-  },
-  {
-   "date": "2026-11-21",
-   "time": "",
-   "title": "Journey Through Jazz: The Great American Songbook",
-   "org": "Jazz at Lincoln Center",
-   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "The Jazz at Lincoln Center Orchestra, led by Chris Crenshaw, explores the Great American Songbook with vocalist Carmen Bradford in an informative concert.",
-   "discipline": "Music",
-   "genre": "jazz big band / Great American Songbook",
-   "url": "https://jazz.org/concert/journey-through-jazz-the-great-american-songbook-the-jazz-at-lincoln-center-orchestra/",
-   "notes": "Showtime and specific hall not stated on page."
   },
   {
    "date": "2026-11-21",
@@ -8396,26 +11100,26 @@ window.EVENTS = {
   {
    "date": "2026-11-21",
    "time": "",
-   "title": "Barnard/Columbia Dances at New York Live Arts",
-   "org": "New York Live Arts",
-   "location": "New York Live Arts, 219 W 19th Street",
-   "description": "Dance program from Barnard College and Columbia students presented at New York Live Arts.",
-   "discipline": "Dance",
-   "genre": "college dance",
-   "url": "https://newyorklivearts.org/event/barnard-columbia-dances-at-new-york-live-arts-5/",
-   "notes": "Showtime not stated on page; run listed as Nov 19-21"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "",
    "title": "Do Not Turn Off My Telenovela",
    "org": "Pregones/Puerto Rican Traveling Theater",
-   "location": "Pregones Theater, 571 Walton Ave., Bronx, NY 10451",
-   "description": "A comic send-up of and tribute to the high-drama, serialized storytelling of classic telenovelas.",
+   "location": "Pregones Theater, 571 Walton Ave., Bronx",
+   "description": "A playful send-up of and tribute to the high-drama, serialized storytelling of classic telenovelas.",
    "discipline": "Theater",
    "genre": "comedy / telenovela parody",
    "url": "https://pregonesprtt.org/do-not-turn-off-my-telenovela-2026-27/",
-   "notes": "Start time not stated on the page."
+   "notes": "Time not stated on page."
+  },
+  {
+   "date": "2026-11-22",
+   "time": "10:30 AM",
+   "title": "Violet's Magic Glasses",
+   "org": "92NY Harkness Dance Center",
+   "location": "92NY, 1395 Lexington Avenue",
+   "description": "A new musical about learning differences, friendship and perseverance, with lively songs and humor.",
+   "discipline": "Family/Education",
+   "genre": "family musical",
+   "url": "https://www.92ny.org/event/violet-s-magic-glasses",
+   "notes": "only the first date (Nov 8) is shown, time not stated."
   },
   {
    "date": "2026-11-22",
@@ -8428,6 +11132,30 @@ window.EVENTS = {
    "genre": "family show for babies",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/rain-for-babies-and-their-carers",
    "notes": "Family event; specific venue not stated on page."
+  },
+  {
+   "date": "2026-11-22",
+   "time": "2:00 PM",
+   "title": "I Became We",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "A new play by Mona Pirnot, now playing as part of Atlantic's 2026|2027 season and described as a New York Times Critic's Pick.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://atlantictheater.org/production/i-became-we/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "2:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
   },
   {
    "date": "2026-11-22",
@@ -8451,6 +11179,18 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical song recital",
    "url": "https://www.juilliard.edu/event/186751/liederabend-collaboration-opera-rara",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -8492,6 +11232,18 @@ window.EVENTS = {
   {
    "date": "2026-11-22",
    "time": "2:00 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "2:00 PM",
    "title": "Elektra",
    "org": "Theatre for a New Audience",
    "location": "Polonsky Shakespeare Center",
@@ -8499,6 +11251,18 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic play adaptation",
    "url": "https://tfana.org/events/elektra-2026-11-22-200-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "2:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
    "notes": ""
   },
   {
@@ -8512,6 +11276,18 @@ window.EVENTS = {
    "genre": "showcase",
    "url": "https://ailey.org/events/voices-visions-showcase-112226-3pm",
    "notes": "Venue not stated"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "3:00 PM",
+   "title": "La Distance",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Tiago Rodrigues's drama about a daughter who chooses exile on Mars and the father left struggling to stay connected across the distance.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.bam.org/theater/2026/la-distance",
+   "notes": ""
   },
   {
    "date": "2026-11-22",
@@ -8536,6 +11312,30 @@ window.EVENTS = {
    "genre": "bilingual new play",
    "url": "",
    "notes": "Closing performance. Run Nov 6–22; Thu & Fri 7 PM, Sat & Sun 3 PM. Tickets on sale."
+  },
+  {
+   "date": "2026-11-22",
+   "time": "3:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "3:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-11-22",
@@ -8576,14 +11376,50 @@ window.EVENTS = {
   {
    "date": "2026-11-22",
    "time": "3:00 PM",
+   "title": "Leave a Message After…The Beep",
+   "org": "Pregones/Puerto Rican Traveling Theater",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A musical theater collection of poems, stories and melodies drawn from the works of celebrated Puerto Rican artists.",
+   "discipline": "Theater",
+   "genre": "musical theater",
+   "url": "https://pregonesprtt.org/the-beep-2026-27/",
+   "notes": "page gives no individual show dates or times. Entry shows the first date in the window only.; weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "3:00 PM",
+   "title": "Parejas Disparejas: Lo chistoso del amor",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Saulo García's comedy about the funny side of love, directed by Juan Carlos Talero.",
+   "discipline": "Theater",
+   "genre": "comedy",
+   "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "3:00 PM",
    "title": "Neighbors 5",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "Real-life neighbors and dancers Regina Nejman and Despina Sophia Stamos turn everyday proximity into choreography.",
+   "description": "Real-life neighbors and dancers Regina Nejman and Despina Sophia Stamos create choreography from everyday proximity.",
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://thetanknyc.org/calendar-1/2026/8/18/neighbors5",
-   "notes": "Listed 3:00 PM–4:30 PM."
+   "notes": "Listed 3:00–4:30 PM."
+  },
+  {
+   "date": "2026-11-22",
+   "time": "3:00 PM",
+   "title": "Legerdemain",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "On the eve of Halloween with a strangler at large, a waitress and her devoted customer form an unlikely friendship.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/legerdemain",
+   "notes": ""
   },
   {
    "date": "2026-11-22",
@@ -8612,6 +11448,18 @@ window.EVENTS = {
   {
    "date": "2026-11-22",
    "time": "4:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "4:00 PM",
    "title": "Roman Fever by Edith Wharton: An Opera in One Act",
    "org": "New Music USA",
    "location": "Merkin Hall, 129 West 67th Street, New York, NY 10023",
@@ -8620,6 +11468,18 @@ window.EVENTS = {
    "genre": "chamber opera",
    "url": "https://newmusicusa.org/events/roman-fever-by-edith-wharton-an-opera-in-one-act/",
    "notes": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "4:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
   },
   {
    "date": "2026-11-22",
@@ -8632,6 +11492,18 @@ window.EVENTS = {
    "genre": "new play / UNIT52 workshop production",
    "url": "https://intartheatre.app.getcuebox.com/o/NSJ51G7N/shows/FYYG0L9J",
    "notes": "Year not stated on page; inferred as 2026 from weekdays and page order. UNIT52 workshop production."
+  },
+  {
+   "date": "2026-11-22",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Sold out"
   },
   {
    "date": "2026-11-22",
@@ -8671,6 +11543,42 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-22",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "7:00 PM",
+   "title": "Floor 13 Theatrical Laboratory Presents SEASON 3: Wars & Diners",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Two plays in one night: a wartime story of three couples and a modern Lysistrata set in rural Florida.",
+   "discipline": "Theater",
+   "genre": "new plays",
+   "url": "https://thetanknyc.org/calendar-1/war-songs-and-a-diner-lockdown",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-22",
    "time": "7:30 PM",
    "title": "@CPR | PLAYTIME <3: Pixeltongue, Tyler Eschendal, Sawyer Adler",
    "org": "Center for Performance Research",
@@ -8680,6 +11588,18 @@ window.EVENTS = {
    "genre": "contemporary performance",
    "url": "https://www.cprnyc.org/events/playtime-nov22",
    "notes": "Listed 7:30–9:00 PM."
+  },
+  {
+   "date": "2026-11-22",
+   "time": "7:30 PM",
+   "title": "mine to keep",
+   "org": "JACK Arts",
+   "location": "JACK",
+   "description": "Cara Hagan's ghost story drawing on Black American folklore, exploring bodies, labor and what the dispossessed reclaim.",
+   "discipline": "Multidisciplinary",
+   "genre": "ghost story / folklore-based new work",
+   "url": "https://www.jackny.org/carahagan-minetokeep",
+   "notes": ""
   },
   {
    "date": "2026-11-22",
@@ -8743,15 +11663,27 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-22",
-   "time": "",
-   "title": "mine to keep",
-   "org": "JACK Arts",
-   "location": "JACK",
-   "description": "Cara Hagan's ghost story drawing on Black American folklore, exploring bodies, labor and what the dispossessed reclaim.",
-   "discipline": "Multidisciplinary",
-   "genre": "ghost story / folklore-based new work",
-   "url": "https://www.jackny.org/carahagan-minetokeep",
-   "notes": "Run listed as Nov 20-22; showtimes not stated on page."
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-22",
+   "time": "9:30 PM",
+   "title": "Floor 13 Theatrical Laboratory Presents SEASON 3: Wars & Diners",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Two plays in one night: a wartime story of three couples and a modern Lysistrata set in rural Florida.",
+   "discipline": "Theater",
+   "genre": "new plays",
+   "url": "https://thetanknyc.org/calendar-1/war-songs-and-a-diner-lockdown",
+   "notes": "performance days not stated, so only the first date is listed."
   },
   {
    "date": "2026-11-22",
@@ -8827,6 +11759,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-23",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-23",
+   "time": "7:00 PM",
+   "title": "My Mobster",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "One-woman show about a sheltered American girl who meets a handsome stranger in Italy and chaos follows.",
+   "discipline": "Theater",
+   "genre": "solo show",
+   "url": "https://thetanknyc.org/calendar-1/mymobster",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-23",
    "time": "7:30 PM",
    "title": "Janáček's Jenůfa",
    "org": "Lincoln Center for the Performing Arts",
@@ -8834,6 +11790,18 @@ window.EVENTS = {
    "description": "Metropolitan Opera performance of Janáček's Jenůfa.",
    "discipline": "Opera",
    "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-23",
+   "time": "7:30 PM",
+   "title": "Jenůfa",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Opening of Janáček's drama in a new Claus Guth staging, with Asmik Grigorian in the title role and Tomáš Hanus conducting.",
+   "discipline": "Opera",
+   "genre": "opera, new production",
    "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
    "notes": ""
   },
@@ -8887,6 +11855,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-24",
+   "time": "11:00 AM",
+   "title": "El Quijote",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Santiago García's adaptation of Cervantes' classic, directed by Jorge Alí Triana.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/293/el-quijote",
+   "notes": "11 AM weekday show"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "2:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-24",
    "time": "6:30 PM",
    "title": "LOUR",
    "org": "PAC NYC",
@@ -8907,7 +11899,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play with music",
    "url": "https://www.classicstage.org/lefty/",
-   "notes": "Run extended through Nov 29, 2026; only this and one other showtime are listed on the page as best availability."
+   "notes": ""
   },
   {
    "date": "2026-11-24",
@@ -8920,6 +11912,54 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.ensemblestudiotheatre.org/show-details/memberfest-sasha-diamond",
    "notes": "Ticketed; venue address not stated on page; format not described"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-24",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-24",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-24",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
   },
   {
    "date": "2026-11-24",
@@ -8959,6 +11999,54 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-24",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-24",
+   "time": "7:00 PM",
+   "title": "Epiphora",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "A play about threesomes, triangles and throuples, asking what to do when your eyes water and won't stop.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/2026/10/5/epiphora",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-11-24",
+   "time": "7:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-24",
+   "time": "7:30 PM",
+   "title": "La Distance",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Tiago Rodrigues's drama about a daughter who chooses exile on Mars and the father left struggling to stay connected across the distance.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.bam.org/theater/2026/la-distance",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-24",
    "time": "7:30 PM",
    "title": "A Christmas Carol",
    "org": "PAC NYC",
@@ -8968,6 +12056,18 @@ window.EVENTS = {
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
    "notes": "Closed captioned; Tiny Tim played by Micah Fay Lupin"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "7:30 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
   },
   {
    "date": "2026-11-24",
@@ -9003,7 +12103,31 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play with music",
    "url": "https://www.classicstage.org/lefty/",
-   "notes": "Matinee. Run extended through Nov 29, 2026; the full schedule is not listed on the page."
+   "notes": ""
+  },
+  {
+   "date": "2026-11-25",
+   "time": "2:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-25",
+   "time": "2:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-11-25",
@@ -9032,6 +12156,18 @@ window.EVENTS = {
   {
    "date": "2026-11-25",
    "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-25",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -9055,6 +12191,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-25",
+   "time": "2:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-25",
    "time": "6:30 PM",
    "title": "Kate Douglas",
    "org": "PAC NYC",
@@ -9064,6 +12212,42 @@ window.EVENTS = {
    "genre": "",
    "url": "https://pacnyc.org/whats-on/kate-douglas/",
    "notes": "Free Music at PAC NYC series"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-25",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-25",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-11-25",
@@ -9103,6 +12287,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-25",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-25",
+   "time": "7:30 PM",
+   "title": "La Distance",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Tiago Rodrigues's drama about a daughter who chooses exile on Mars and the father left struggling to stay connected across the distance.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.bam.org/theater/2026/la-distance",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-25",
    "time": "7:30 PM",
    "title": "Rouvali Conducts Schubert's Great Symphony",
    "org": "Lincoln Center for the Performing Arts",
@@ -9124,6 +12332,18 @@ window.EVENTS = {
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
    "notes": "Closed captioned; Tiny Tim played by Titan Cody Love"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "7:30 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
   },
   {
    "date": "2026-11-25",
@@ -9224,6 +12444,66 @@ window.EVENTS = {
   {
    "date": "2026-11-27",
    "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-27",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-27",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-27",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-27",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-27",
+   "time": "7:00 PM",
    "title": "Herlin Riley and Friends",
    "org": "Lincoln Center for the Performing Arts",
    "location": "Jazz at Lincoln Center",
@@ -9244,6 +12524,18 @@ window.EVENTS = {
    "genre": "DJ set",
    "url": "https://pacnyc.org/whats-on/dj-tali/",
    "notes": "Free Music at PAC NYC series"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
   },
   {
    "date": "2026-11-27",
@@ -9272,6 +12564,18 @@ window.EVENTS = {
   {
    "date": "2026-11-27",
    "time": "7:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "7:00 PM",
    "title": "Joe Martin Quartet",
    "org": "The Jazz Gallery",
    "location": "The Jazz Gallery, 1158 Broadway 5th floor",
@@ -9280,6 +12584,30 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/joe-martin-nov-27-28-2026",
    "notes": "Two sets, 7pm and 9pm ET."
+  },
+  {
+   "date": "2026-11-27",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-27",
+   "time": "7:30 PM",
+   "title": "La Distance",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Tiago Rodrigues's drama about a daughter who chooses exile on Mars and the father left struggling to stay connected across the distance.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.bam.org/theater/2026/la-distance",
+   "notes": ""
   },
   {
    "date": "2026-11-27",
@@ -9304,6 +12632,18 @@ window.EVENTS = {
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
    "notes": "also listed by New York Philharmonic"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "7:30 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
   },
   {
    "date": "2026-11-27",
@@ -9439,6 +12779,66 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-28",
+   "time": "1:00 PM",
+   "title": "Jenůfa",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Opening of Janáček's drama in a new Claus Guth staging, with Asmik Grigorian in the title role and Tomáš Hanus conducting.",
+   "discipline": "Opera",
+   "genre": "opera, new production",
+   "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "2:00 PM",
+   "title": "La Distance",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Tiago Rodrigues's drama about a daughter who chooses exile on Mars and the father left struggling to stay connected across the distance.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.bam.org/theater/2026/la-distance",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "2:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "2:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "2:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
    "time": "2:00 PM",
    "title": "A Few Good Men",
    "org": "Lincoln Center for the Performing Arts",
@@ -9488,6 +12888,18 @@ window.EVENTS = {
   {
    "date": "2026-11-28",
    "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -9512,6 +12924,42 @@ window.EVENTS = {
   {
    "date": "2026-11-28",
    "time": "2:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "2:00 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "2:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "2:00 PM",
    "title": "Elektra",
    "org": "Theatre for a New Audience",
    "location": "Polonsky Shakespeare Center",
@@ -9519,6 +12967,30 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic play adaptation",
    "url": "https://tfana.org/events/elektra-2026-11-28-200-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "2:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "4:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
    "notes": ""
   },
   {
@@ -9532,6 +13004,66 @@ window.EVENTS = {
    "genre": "",
    "url": "https://pacnyc.org/whats-on/horacio-martinez/",
    "notes": "Free Music at PAC NYC series"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-11-28",
@@ -9572,6 +13104,18 @@ window.EVENTS = {
   {
    "date": "2026-11-28",
    "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -9596,6 +13140,18 @@ window.EVENTS = {
   {
    "date": "2026-11-28",
    "time": "7:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "7:00 PM",
    "title": "Joe Martin Quartet",
    "org": "The Jazz Gallery",
    "location": "The Jazz Gallery, 1158 Broadway 5th floor",
@@ -9604,6 +13160,42 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/joe-martin-nov-27-28-2026",
    "notes": "Two sets, 7pm and 9pm ET."
+  },
+  {
+   "date": "2026-11-28",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "7:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
+   "time": "7:30 PM",
+   "title": "La Distance",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Tiago Rodrigues's drama about a daughter who chooses exile on Mars and the father left struggling to stay connected across the distance.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.bam.org/theater/2026/la-distance",
+   "notes": ""
   },
   {
    "date": "2026-11-28",
@@ -9616,6 +13208,18 @@ window.EVENTS = {
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
    "notes": "also listed by New York Philharmonic"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "7:30 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
   },
   {
    "date": "2026-11-28",
@@ -9703,6 +13307,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-28",
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
    "time": "9:00 PM",
    "title": "Herlin Riley and Friends",
    "org": "Lincoln Center for the Performing Arts",
@@ -9776,6 +13392,30 @@ window.EVENTS = {
   {
    "date": "2026-11-29",
    "time": "2:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -9800,6 +13440,18 @@ window.EVENTS = {
   {
    "date": "2026-11-29",
    "time": "2:00 PM",
+   "title": "Complexions Contemporary Ballet",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Homecoming season for the contemporary ballet company directed by Dwight Rhoden and Desmond Richardson.",
+   "discipline": "Dance",
+   "genre": "contemporary ballet",
+   "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "2:00 PM",
    "title": "Elektra",
    "org": "Theatre for a New Audience",
    "location": "Polonsky Shakespeare Center",
@@ -9807,6 +13459,54 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic play adaptation",
    "url": "https://tfana.org/events/elektra-2026-11-29-200-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "2:00 PM",
+   "title": "Ms. Blakk for President",
+   "org": "Vineyard Theatre",
+   "location": "Vineyard Theatre",
+   "description": "Play inspired by a true story, written by Tarell Alvin McCraney and Tina Landau and directed by Landau. It is currently running at the Vineyard.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "3:00 PM",
+   "title": "La Distance",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "Tiago Rodrigues's drama about a daughter who chooses exile on Mars and the father left struggling to stay connected across the distance.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.bam.org/theater/2026/la-distance",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "3:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "3:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
    "notes": ""
   },
   {
@@ -9848,6 +13548,18 @@ window.EVENTS = {
   {
    "date": "2026-11-29",
    "time": "4:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "4:00 PM",
    "title": "A Charlie Brown Christmas",
    "org": "Lehman Center",
    "location": "Lehman Center for the Performing Arts",
@@ -9856,6 +13568,30 @@ window.EVENTS = {
    "genre": "holiday family show",
    "url": "https://www.lehmancenter.org/events/charlie-brown-live",
    "notes": "Family show"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "4:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
   },
   {
    "date": "2026-11-29",
@@ -9908,6 +13644,30 @@ window.EVENTS = {
   {
    "date": "2026-11-29",
    "time": "7:00 PM",
+   "title": "Waiting for Lefty",
+   "org": "Classic Stage Company",
+   "location": "Classic Stage Company, Lynn F. Angelson Theater, 136 East 13th Street",
+   "description": "Clifford Odets' 1935 drama of striking taxi drivers, restaged with original music and movement and directed by Steven Pasquale, with the theater turned into a union hall.",
+   "discipline": "Theater",
+   "genre": "play with music",
+   "url": "https://www.classicstage.org/lefty/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "7:00 PM",
    "title": "A Christmas Carol",
    "org": "PAC NYC",
    "location": "Perelman Performing Arts Center, PAC NYC",
@@ -9916,6 +13676,18 @@ window.EVENTS = {
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
    "notes": "Closed captioned; Tiny Tim played by Titan Cody Love"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "7:00 PM",
+   "title": "Rope",
+   "org": "The New Group",
+   "location": "",
+   "description": "Gordon Greenberg's stage adaptation of Patrick Hamilton's play, directed by Scott Elliott, presented by The New Group.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
+   "notes": ""
   },
   {
    "date": "2026-11-29",
@@ -9939,6 +13711,18 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic play adaptation",
    "url": "https://tfana.org/events/elektra-2026-11-29-730-pm",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
    "notes": ""
   },
   {
@@ -10011,7 +13795,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "solo show",
    "url": "https://thetanknyc.org/calendar-1/stumblingstones",
-   "notes": "Listed 7:00 PM–8:30 PM."
+   "notes": "Listed 7:00–8:30 PM."
   },
   {
    "date": "2026-11-30",
@@ -10051,6 +13835,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-30",
+   "time": "7:30 PM",
+   "title": "Jenůfa",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Opening of Janáček's drama in a new Claus Guth staging, with Asmik Grigorian in the title role and Tomáš Hanus conducting.",
+   "discipline": "Opera",
+   "genre": "opera, new production",
+   "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-30",
    "time": "9:00 PM",
    "title": "Future of Jazz Orchestra: Echoes Forward: The Living Lineage of Jazz From Ellington to Marsalis to This Very Instant",
    "org": "Lincoln Center for the Performing Arts",
@@ -10075,6 +13871,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-01",
+   "time": "11:00 AM",
+   "title": "La breve y maravillosa vida de Oscar Wao",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Stage adaptation of Junot Díaz's novel, adapted and directed by Marco Antonio Rodríguez.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/153/la-breve-y-maravillosa-vida-de-oscar-wao",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-01",
    "time": "6:00 PM",
    "title": "Steven Beck, piano",
    "org": "Miller Theatre",
@@ -10088,6 +13896,18 @@ window.EVENTS = {
   {
    "date": "2026-12-01",
    "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Listed as opening night"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "7:00 PM",
    "title": "Open Performance",
    "org": "Movement Research",
    "location": "Not stated on page",
@@ -10096,6 +13916,18 @@ window.EVENTS = {
    "genre": "experimental dance",
    "url": "",
    "notes": "Venue not stated on page"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
   },
   {
    "date": "2026-12-01",
@@ -10139,11 +13971,11 @@ window.EVENTS = {
    "title": "Circ",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "An eighteen-year-old's elective circumcision brings his excised body part to life in human form, demanding answers.",
+   "description": "After an elective circumcision, an eighteen-year-old is confronted by his excised body part in human form and must revisit memories of queerness and sexuality.",
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/circ",
-   "notes": "Run through Dec 7, 2026; specific performance days not stated, so only first occurrence listed."
+   "notes": "performance days not stated, so only the first date is listed."
   },
   {
    "date": "2026-12-01",
@@ -10183,15 +14015,39 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-01",
+   "time": "7:30 PM",
+   "title": "A Very SW!NG OUT Holiday",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce-produced seasonal swing show returning for an encore run with new surprises and live music.",
+   "discipline": "Dance",
+   "genre": "swing / holiday",
+   "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
+   "notes": "live music"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "7:30 PM",
+   "title": "Samson et Dalila",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Opening of Saint-Saëns's biblical opera with Aigul Akhmetshina and Clay Hilley, conducted by Giacomo Sagripanti.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-01",
    "time": "",
    "title": "Doomscroll",
    "org": "Pregones/Puerto Rican Traveling Theater",
-   "location": "Pregones Theater, 571 Walton Ave., Bronx, NY 10451",
-   "description": "Forum theater piece continuing the company's four-decade tradition of audience-engaged theater addressing social impacts.",
+   "location": "Pregones Theater, 571 Walton Ave., Bronx",
+   "description": "Forum theater piece continuing the company's four decades of forum theater practice begun in the 1980s.",
    "discipline": "Theater",
    "genre": "forum theater",
    "url": "https://pregonesprtt.org/doomscroll-2026-27/",
-   "notes": "Run listed as Dec 1–12, 2026; individual performance dates and times not stated. Date shown is the first day of the run."
+   "notes": "Run is Dec 1–12, 2026; page gives no individual show dates or times. Entry shows first date only."
   },
   {
    "date": "2026-12-01",
@@ -10206,16 +14062,40 @@ window.EVENTS = {
    "notes": "Time and venue not stated on the events listing page; NYC location not confirmed on the page. Tickets listed."
   },
   {
-   "date": "2026-12-01",
-   "time": "",
-   "title": "A Very SW!NG OUT Holiday",
-   "org": "The Joyce Theater",
-   "location": "The Joyce Theater",
-   "description": "Joyce-produced seasonal swing show returning for an encore run with new surprises and live music.",
-   "discipline": "Dance",
-   "genre": "swing / holiday",
-   "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
-   "notes": "Run Dec 1–6; live music; individual showtimes not given on page."
+   "date": "2026-12-02",
+   "time": "11:00 AM",
+   "title": "La casa de Bernarda Alba",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "García Lorca's drama directed by René Buch.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/684/la-casa-de-bernarda-alba",
+   "notes": "11 AM weekday show"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "2:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-02",
+   "time": "2:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
   },
   {
    "date": "2026-12-02",
@@ -10244,6 +14124,54 @@ window.EVENTS = {
   {
    "date": "2026-12-02",
    "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-02",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-02",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-02",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -10251,6 +14179,18 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-02",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -10307,11 +14247,23 @@ window.EVENTS = {
    "title": "Puppets of War",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "Political satire using puppetry and games to show how a nation crumbles under its authoritarian regime.",
+   "description": "Political satire using puppetry and games to show how a nation crumbles under an authoritarian regime.",
    "discipline": "Theater",
    "genre": "puppetry satire",
    "url": "https://thetanknyc.org/calendar-1/puppetsofwar",
-   "notes": "Run through Dec 11, 2026; only first occurrence listed."
+   "notes": "time and performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-12-02",
+   "time": "7:30 PM",
+   "title": "\"HUMAN\"",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "A puppetry-driven performance set at the ocean floor, asking what being human means in a world with no humans left.",
+   "discipline": "Theater",
+   "genre": "puppetry",
+   "url": "https://www.bam.org/theater/2026/human",
+   "notes": ""
   },
   {
    "date": "2026-12-02",
@@ -10339,6 +14291,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-02",
+   "time": "7:30 PM",
+   "title": "A Very SW!NG OUT Holiday",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce-produced seasonal swing show returning for an encore run with new surprises and live music.",
+   "discipline": "Dance",
+   "genre": "swing / holiday",
+   "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
+   "notes": "live music"
+  },
+  {
+   "date": "2026-12-02",
    "time": "8:00 PM",
    "title": "Hélène Grimaud, Piano",
    "org": "Carnegie Hall",
@@ -10359,19 +14323,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/loosetooth",
-   "notes": "Run through Dec 6, 2026; only first occurrence listed."
-  },
-  {
-   "date": "2026-12-02",
-   "time": "",
-   "title": "\"HUMAN\"",
-   "org": "Brooklyn Academy of Music",
-   "location": "BAM (Brooklyn Academy of Music)",
-   "description": "A puppetry-driven performance set at the ocean floor, asking what being human means in a world with no humans left.",
-   "discipline": "Theater",
-   "genre": "puppetry",
-   "url": "https://www.bam.org/theater/2026/human",
-   "notes": "Next Wave, ages 6+. Run Dec 2–5; only the first date listed, showtimes not stated on page."
+   "notes": "time and performance days not stated, so only the first date is listed."
   },
   {
    "date": "2026-12-02",
@@ -10400,6 +14352,66 @@ window.EVENTS = {
   {
    "date": "2026-12-03",
    "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Listed as GreenSeats Night"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7:00 PM",
+   "title": "Sensations: Culture, Community, Courage",
+   "org": "Kupferberg Center for the Arts at Queens College",
+   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
+   "description": "Queens College Department of Theatre and Dance production themed on culture, community and courage.",
+   "discipline": "Multidisciplinary",
+   "genre": "theatre and dance",
+   "url": "https://kupferbergcenter.org/event/sensations/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -10407,6 +14419,18 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -10463,11 +14487,11 @@ window.EVENTS = {
    "title": "The Game",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "Five women navigate love, ambition and sacrifice in professional football's shadow, reclaiming their lives.",
+   "description": "Five women navigate love, ambition and sacrifice in the shadow of professional football, reclaiming their lives.",
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/12/3/the-game",
-   "notes": "Run through Dec 8, 2026; only first occurrence listed."
+   "notes": "time and performance days not stated, so only the first date is listed."
   },
   {
    "date": "2026-12-03",
@@ -10475,11 +14499,11 @@ window.EVENTS = {
    "title": "SERIALS",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "Late-night episodic play competition premiering five original 10-minute works each weekend, fully staged.",
+   "description": "Late-night episodic play competition with five new 10-minute works fully staged and premiered live each weekend.",
    "discipline": "Theater",
-   "genre": "short plays competition",
+   "genre": "new short plays",
    "url": "https://thetanknyc.org/calendar-1/serialsdec",
-   "notes": "Runs Dec 3–5, 2026; only first occurrence listed."
+   "notes": ""
   },
   {
    "date": "2026-12-03",
@@ -10491,6 +14515,18 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12326",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7:30 PM",
+   "title": "\"HUMAN\"",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "A puppetry-driven performance set at the ocean floor, asking what being human means in a world with no humans left.",
+   "discipline": "Theater",
+   "genre": "puppetry",
+   "url": "https://www.bam.org/theater/2026/human",
    "notes": ""
   },
   {
@@ -10508,6 +14544,18 @@ window.EVENTS = {
   {
    "date": "2026-12-03",
    "time": "7:30 PM",
+   "title": "ZviDance Presents an Evening of Two Works",
+   "org": "New York Live Arts",
+   "location": "New York Live Arts, 219 W 19th Street",
+   "description": "ZviDance presents an evening featuring two works.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://newyorklivearts.org/event/zvidance-presents-an-evening-of-two-works/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7:30 PM",
    "title": "Ryan Bancroft Conducting Debut, with Bruce Liu",
    "org": "New York Philharmonic",
    "location": "Wu Tsai Theater, David Geffen Hall at Lincoln Center",
@@ -10516,6 +14564,18 @@ window.EVENTS = {
    "genre": "classical orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
    "notes": ""
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7:30 PM",
+   "title": "A Very SW!NG OUT Holiday",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce-produced seasonal swing show returning for an encore run with new surprises and live music.",
+   "discipline": "Dance",
+   "genre": "swing / holiday",
+   "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
+   "notes": "live music"
   },
   {
    "date": "2026-12-03",
@@ -10543,6 +14603,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-03",
+   "time": "8:00 PM",
+   "title": "Split Bill #49",
+   "org": "Triskelion Arts",
+   "location": "Triskelion Arts",
+   "description": "Split Bill #49, a shared-evening program in Triskelion Arts' Fall 2026 season. The listing page gives no further details.",
+   "discipline": "Dance",
+   "genre": "",
+   "url": "https://www.triskelionarts.org/fall-2026-performances/split-bill-49",
+   "notes": "Listed as Dec 3-5; discipline inferred."
+  },
+  {
+   "date": "2026-12-03",
    "time": "",
    "title": "Bang at a Can at the Jewish Museum",
    "org": "Bang on a Can",
@@ -10552,18 +14624,6 @@ window.EVENTS = {
    "genre": "contemporary",
    "url": "https://bangonacan.org/events/bang-at-a-can-at-the-jewish-museum/",
    "notes": "Time and program not stated; page says 'stay tuned for news'. City not stated on page."
-  },
-  {
-   "date": "2026-12-03",
-   "time": "",
-   "title": "Sensations: Culture, Community, Courage",
-   "org": "Kupferberg Center for the Arts at Queens College",
-   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
-   "description": "Queens College Department of Theatre and Dance production themed on culture, community and courage.",
-   "discipline": "Multidisciplinary",
-   "genre": "theatre and dance",
-   "url": "https://kupferbergcenter.org/event/sensations/",
-   "notes": "Run listed Thu-Sun, Dec 3-6; showtime not stated."
   },
   {
    "date": "2026-12-03",
@@ -10588,30 +14648,6 @@ window.EVENTS = {
    "genre": "object theatre",
    "url": "https://lamama.org/en-mer-avec-louise-bourgeois/",
    "notes": "Puppet Festival 2026; run Dec 3-6. Showtimes not stated."
-  },
-  {
-   "date": "2026-12-03",
-   "time": "",
-   "title": "ZviDance Presents an Evening of Two Works",
-   "org": "New York Live Arts",
-   "location": "New York Live Arts, 219 W 19th Street",
-   "description": "ZviDance presents an evening featuring two works.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://newyorklivearts.org/event/zvidance-presents-an-evening-of-two-works/",
-   "notes": "Showtime not stated; run listed as Dec 3-5"
-  },
-  {
-   "date": "2026-12-03",
-   "time": "",
-   "title": "Split Bill #49",
-   "org": "Triskelion Arts",
-   "location": "Triskelion Arts",
-   "description": "Split Bill #49, a shared-evening program in Triskelion Arts' Fall 2026 season. The listing page gives no further details.",
-   "discipline": "Dance",
-   "genre": "",
-   "url": "https://www.triskelionarts.org/fall-2026-performances/split-bill-49",
-   "notes": "Listed as Dec 3-5; showtimes and street address not stated on the page; discipline inferred."
   },
   {
    "date": "2026-12-04",
@@ -10652,6 +14688,54 @@ window.EVENTS = {
   {
    "date": "2026-12-04",
    "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre, Irish Repertory Theatre",
+   "description": "Studio Theatre production of The Good Thief at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
+   "description": "Mainstage production of The Hairy Ape at the Irish Rep.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
    "title": "Keith Michael's The Nutcracker",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts at Queens College, Flushing",
@@ -10664,6 +14748,18 @@ window.EVENTS = {
   {
    "date": "2026-12-04",
    "time": "7:00 PM",
+   "title": "Sensations: Culture, Community, Courage",
+   "org": "Kupferberg Center for the Arts at Queens College",
+   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
+   "description": "Queens College Department of Theatre and Dance production themed on culture, community and courage.",
+   "discipline": "Multidisciplinary",
+   "genre": "theatre and dance",
+   "url": "https://kupferbergcenter.org/event/sensations/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
    "title": "Composers Concordance Presents String Quartet+",
    "org": "New Music USA",
    "location": "Hungarian House, 213 East 82nd Street, New York City",
@@ -10671,6 +14767,18 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary chamber",
    "url": "https://newmusicusa.org/events/composers-concordance-presents-string-quartet-2/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -10700,6 +14808,30 @@ window.EVENTS = {
   {
    "date": "2026-12-04",
    "time": "7:00 PM",
+   "title": "Campanitas de Cristal (Crystal Bells)",
+   "org": "Teatro Círculo",
+   "location": "Teatro Círculo",
+   "description": "A musical tribute to Puerto Rican culture and holiday traditions, curated and directed by Maestro Pablo Zinger.",
+   "discipline": "Music",
+   "genre": "Puerto Rican holiday musical tribute",
+   "url": "https://teatrocirculo.org/campanitas-de-cristal/",
+   "notes": "the page gives no individual show dates or times, so only the first date is listed. Venue address not stated. ADA accessible."
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
    "title": "broken (iteration III- for LIC)",
    "org": "The Chocolate Factory Theater",
    "location": "The Chocolate Factory Theater, 38-33 24th Street, Long Island City",
@@ -10723,6 +14855,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-04",
+   "time": "7:00 PM",
+   "title": "Loose Tooth",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Three strangers held overnight in LaGuardia's security holding room must reckon with themselves and each other.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/loosetooth",
+   "notes": "time and performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-12-04",
    "time": "7:30 PM",
    "title": "Ailey at New York City Center",
    "org": "AILEY",
@@ -10736,6 +14880,30 @@ window.EVENTS = {
   {
    "date": "2026-12-04",
    "time": "7:30 PM",
+   "title": "\"HUMAN\"",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "A puppetry-driven performance set at the ocean floor, asking what being human means in a world with no humans left.",
+   "discipline": "Theater",
+   "genre": "puppetry",
+   "url": "https://www.bam.org/theater/2026/human",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:30 PM",
+   "title": "Minor Music at the End of the World",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "A multidisciplinary performance in three movements, inspired by Saidiya Hartman essays and a W.E.B. Du Bois story, on Black life at the end of the world.",
+   "discipline": "Theater",
+   "genre": "multidisciplinary performance",
+   "url": "https://www.bam.org/theater/2026/minor-music",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:30 PM",
    "title": "From the Sea to the Stars: Sounds of the World",
    "org": "New Music USA",
    "location": "Our Saviours Atonement Lutheran Church, New York, NY",
@@ -10743,6 +14911,42 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://newmusicusa.org/events/from-the-sea-to-the-stars-sounds-of-the-world/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:30 PM",
+   "title": "ZviDance Presents an Evening of Two Works",
+   "org": "New York Live Arts",
+   "location": "New York Live Arts, 219 W 19th Street",
+   "description": "ZviDance presents an evening featuring two works.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://newyorklivearts.org/event/zvidance-presents-an-evening-of-two-works/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:30 PM",
+   "title": "A Very SW!NG OUT Holiday",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce-produced seasonal swing show returning for an encore run with new surprises and live music.",
+   "discipline": "Dance",
+   "genre": "swing / holiday",
+   "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
+   "notes": "live music"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:30 PM",
+   "title": "Jenůfa",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Opening of Janáček's drama in a new Claus Guth staging, with Asmik Grigorian in the title role and Tomáš Hanus conducting.",
+   "discipline": "Opera",
+   "genre": "opera, new production",
+   "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
    "notes": ""
   },
   {
@@ -10760,6 +14964,18 @@ window.EVENTS = {
   {
    "date": "2026-12-04",
    "time": "8:00 PM",
+   "title": "Sunset Jazz",
+   "org": "Culture Lab LIC",
+   "location": "Culture Lab LIC",
+   "description": "Weekly live jazz night in the gallery space with drinks; seating is limited.",
+   "discipline": "Music",
+   "genre": "jazz",
+   "url": "https://www.culturelablic.org/sunset-jazz",
+   "notes": "Free; RSVP via Humanitix. Held every Friday at 8 PM"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "8:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -10768,6 +14984,18 @@ window.EVENTS = {
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
    "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "8:00 PM",
+   "title": "Split Bill #49",
+   "org": "Triskelion Arts",
+   "location": "Triskelion Arts",
+   "description": "Split Bill #49, a shared-evening program in Triskelion Arts' Fall 2026 season. The listing page gives no further details.",
+   "discipline": "Dance",
+   "genre": "",
+   "url": "https://www.triskelionarts.org/fall-2026-performances/split-bill-49",
+   "notes": "Listed as Dec 3-5; discipline inferred."
   },
   {
    "date": "2026-12-04",
@@ -10784,30 +15012,6 @@ window.EVENTS = {
   {
    "date": "2026-12-04",
    "time": "",
-   "title": "Minor Music at the End of the World",
-   "org": "Brooklyn Academy of Music",
-   "location": "BAM (Brooklyn Academy of Music)",
-   "description": "A multidisciplinary performance in three movements, inspired by Saidiya Hartman essays and a W.E.B. Du Bois story, on Black life at the end of the world.",
-   "discipline": "Theater",
-   "genre": "multidisciplinary performance",
-   "url": "https://www.bam.org/theater/2026/minor-music",
-   "notes": "Next Wave. Run Dec 4–6; only the first date listed, showtimes not stated on page."
-  },
-  {
-   "date": "2026-12-04",
-   "time": "",
-   "title": "Sensations: Culture, Community, Courage",
-   "org": "Kupferberg Center for the Arts at Queens College",
-   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
-   "description": "Queens College Department of Theatre and Dance production themed on culture, community and courage.",
-   "discipline": "Multidisciplinary",
-   "genre": "theatre and dance",
-   "url": "https://kupferbergcenter.org/event/sensations/",
-   "notes": "Run listed Thu-Sun, Dec 3-6; showtime not stated."
-  },
-  {
-   "date": "2026-12-04",
-   "time": "",
    "title": "To the Playground",
    "org": "La MaMa Experimental Theatre Club",
    "location": "La MaMa Experimental Theatre Club",
@@ -10816,18 +15020,6 @@ window.EVENTS = {
    "genre": "new theater",
    "url": "https://lamama.org/to-the-playground/",
    "notes": "Run Dec 4-20, 2026. Showtimes not stated."
-  },
-  {
-   "date": "2026-12-04",
-   "time": "",
-   "title": "ZviDance Presents an Evening of Two Works",
-   "org": "New York Live Arts",
-   "location": "New York Live Arts, 219 W 19th Street",
-   "description": "ZviDance presents an evening featuring two works.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://newyorklivearts.org/event/zvidance-presents-an-evening-of-two-works/",
-   "notes": "Showtime not stated; run listed as Dec 3-5"
   },
   {
    "date": "2026-12-04",
@@ -10846,36 +15038,24 @@ window.EVENTS = {
    "time": "",
    "title": "Maybe Next Time",
    "org": "Pregones/Puerto Rican Traveling Theater",
-   "location": "Puerto Rican Traveling Theater (PRTT), 304 W 47th St., New York, NY 10036",
-   "description": "A continuous, contentious love story on repeat, searching for an ending that is more than a body count.",
+   "location": "PRTT, 304 W 47th St., Manhattan",
+   "description": "A continuous, contentious love story on repeat, searching for an ending that's more than a body count.",
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://pregonesprtt.org/maybe-next-time-2026-27/",
-   "notes": "Run listed as Dec 4–20, 2026; individual performance dates and times not stated. Date shown is the first day of the run."
+   "notes": "Run is Dec 4–20, 2026; page gives no individual show dates or times. Entry shows first date only."
   },
   {
    "date": "2026-12-04",
    "time": "",
    "title": "The Tragedy of Macbeth (Staged Reading)",
    "org": "Pregones/Puerto Rican Traveling Theater",
-   "location": "Pregones Theater, 571 Walton Ave., Bronx, NY 10451",
-   "description": "Word To The People presents a staged reading of Shakespeare's tragedy.",
+   "location": "Pregones Theater, 571 Walton Ave., Bronx",
+   "description": "Word To The People presents a staged reading of Shakespeare's Macbeth.",
    "discipline": "Theater",
    "genre": "staged reading",
    "url": "https://pregonesprtt.org/the-tragedy-of-macbeth-2026-27/",
-   "notes": "Start time not stated on the page."
-  },
-  {
-   "date": "2026-12-04",
-   "time": "",
-   "title": "Campanitas de Cristal (Crystal Bells)",
-   "org": "Teatro Círculo",
-   "location": "Teatro Círculo",
-   "description": "A musical tribute to Puerto Rican culture and holiday traditions, curated and directed by Maestro Pablo Zinger.",
-   "discipline": "Music",
-   "genre": "Puerto Rican holiday musical tribute",
-   "url": "https://teatrocirculo.org/campanitas-de-cristal/",
-   "notes": "Run is listed as December 4–13, 2026; the page gives no individual show dates or times, so only the first date is listed. Venue address not stated. ADA accessible."
+   "notes": "Time not stated on page."
   },
   {
    "date": "2026-12-04",
@@ -10902,18 +15082,6 @@ window.EVENTS = {
    "notes": "Listed as Dec 4–6, 'coming soon'; individual times and lineup not yet announced."
   },
   {
-   "date": "2026-12-04",
-   "time": "",
-   "title": "Split Bill #49",
-   "org": "Triskelion Arts",
-   "location": "Triskelion Arts",
-   "description": "Split Bill #49, a shared-evening program in Triskelion Arts' Fall 2026 season. The listing page gives no further details.",
-   "discipline": "Dance",
-   "genre": "",
-   "url": "https://www.triskelionarts.org/fall-2026-performances/split-bill-49",
-   "notes": "Listed as Dec 3-5; showtimes and street address not stated on the page; discipline inferred."
-  },
-  {
    "date": "2026-12-05",
    "time": "12:00 PM",
    "title": "Very Young People's Concerts: Make Believe",
@@ -10924,6 +15092,18 @@ window.EVENTS = {
    "genre": "family chamber concert",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
    "notes": "Relaxed performance; pre-concert activities at 11:00 AM"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "12:00 PM",
+   "title": "Samson et Dalila",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Opening of Saint-Saëns's biblical opera with Aigul Akhmetshina and Clay Hilley, conducted by Giacomo Sagripanti.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
+   "notes": ""
   },
   {
    "date": "2026-12-05",
@@ -10952,6 +15132,18 @@ window.EVENTS = {
   {
    "date": "2026-12-05",
    "time": "2:00 PM",
+   "title": "\"HUMAN\"",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "A puppetry-driven performance set at the ocean floor, asking what being human means in a world with no humans left.",
+   "discipline": "Theater",
+   "genre": "puppetry",
+   "url": "https://www.bam.org/theater/2026/human",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2:00 PM",
    "title": "Inspector Pulse in a Good Mode",
    "org": "Chamber Music Society of Lincoln Center",
    "location": "Alice Tully Hall",
@@ -10964,6 +15156,30 @@ window.EVENTS = {
   {
    "date": "2026-12-05",
    "time": "2:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre",
+   "description": "Irish Rep production of The Good Thief in the Studio Theatre.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage",
+   "description": "Irish Rep production of The Hairy Ape on the Mainstage.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -10971,6 +15187,30 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2:00 PM",
+   "title": "ZviDance Presents an Evening of Two Works",
+   "org": "New York Live Arts",
+   "location": "New York Live Arts, 219 W 19th Street",
+   "description": "ZviDance presents an evening featuring two works.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://newyorklivearts.org/event/zvidance-presents-an-evening-of-two-works/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -10996,6 +15236,42 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
    "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2:00 PM",
+   "title": "Campanitas de Cristal (Crystal Bells)",
+   "org": "Teatro Círculo",
+   "location": "Teatro Círculo",
+   "description": "A musical tribute to Puerto Rican culture and holiday traditions, curated and directed by Maestro Pablo Zinger.",
+   "discipline": "Music",
+   "genre": "Puerto Rican holiday musical tribute",
+   "url": "https://teatrocirculo.org/campanitas-de-cristal/",
+   "notes": "the page gives no individual show dates or times, so only the first date is listed. Venue address not stated. ADA accessible."
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2:00 PM",
+   "title": "A Very SW!NG OUT Holiday",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce-produced seasonal swing show returning for an encore run with new surprises and live music.",
+   "discipline": "Dance",
+   "genre": "swing / holiday",
+   "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
+   "notes": "live music"
   },
   {
    "date": "2026-12-05",
@@ -11027,11 +15303,11 @@ window.EVENTS = {
    "title": "ON TIME",
    "org": "The Tank",
    "location": "The Tank",
-   "description": "Two actors play ten characters across 160 years in a sweeping story of queer love, heartbreak and survival.",
+   "description": "Two actors portray ten characters across 160 years in an exploration of queer love, heartbreak and survival.",
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/10/20/ontime",
-   "notes": "Run through Dec 8, 2026; only first occurrence listed."
+   "notes": ""
   },
   {
    "date": "2026-12-05",
@@ -11044,6 +15320,30 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance, about 30 minutes; presented by Works & Process.; also listed by Works & Process"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "4:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Sold out"
   },
   {
    "date": "2026-12-05",
@@ -11068,6 +15368,66 @@ window.EVENTS = {
    "genre": "klezmer",
    "url": "https://ctmd.org/events/6491/",
    "notes": "Part of Yiddish New York series; listed 7:00–9:00 pm"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre",
+   "description": "Irish Rep production of The Good Thief in the Studio Theatre.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage",
+   "description": "Irish Rep production of The Hairy Ape on the Mainstage.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:00 PM",
+   "title": "Sensations: Culture, Community, Courage",
+   "org": "Kupferberg Center for the Arts at Queens College",
+   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
+   "description": "Queens College Department of Theatre and Dance production themed on culture, community and courage.",
+   "discipline": "Multidisciplinary",
+   "genre": "theatre and dance",
+   "url": "https://kupferbergcenter.org/event/sensations/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
   },
   {
    "date": "2026-12-05",
@@ -11120,6 +15480,30 @@ window.EVENTS = {
   {
    "date": "2026-12-05",
    "time": "7:00 PM",
+   "title": "Campanitas de Cristal (Crystal Bells)",
+   "org": "Teatro Círculo",
+   "location": "Teatro Círculo",
+   "description": "A musical tribute to Puerto Rican culture and holiday traditions, curated and directed by Maestro Pablo Zinger.",
+   "discipline": "Music",
+   "genre": "Puerto Rican holiday musical tribute",
+   "url": "https://teatrocirculo.org/campanitas-de-cristal/",
+   "notes": "the page gives no individual show dates or times, so only the first date is listed. Venue address not stated. ADA accessible."
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:00 PM",
    "title": "broken (iteration III- for LIC)",
    "org": "The Chocolate Factory Theater",
    "location": "The Chocolate Factory Theater, 38-33 24th Street, Long Island City",
@@ -11143,6 +15527,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-05",
+   "time": "7:00 PM",
+   "title": "Puppets of War",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Political satire using puppetry and games to show how a nation crumbles under an authoritarian regime.",
+   "discipline": "Theater",
+   "genre": "puppetry satire",
+   "url": "https://thetanknyc.org/calendar-1/puppetsofwar",
+   "notes": "time and performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:00 PM",
+   "title": "The Game",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Five women navigate love, ambition and sacrifice in the shadow of professional football, reclaiming their lives.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/2026/12/3/the-game",
+   "notes": "time and performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-12-05",
    "time": "7:30 PM",
    "title": "Ailey at New York City Center",
    "org": "AILEY",
@@ -11151,6 +15559,30 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12526-eve",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:30 PM",
+   "title": "\"HUMAN\"",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "A puppetry-driven performance set at the ocean floor, asking what being human means in a world with no humans left.",
+   "discipline": "Theater",
+   "genre": "puppetry",
+   "url": "https://www.bam.org/theater/2026/human",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:30 PM",
+   "title": "Minor Music at the End of the World",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "A multidisciplinary performance in three movements, inspired by Saidiya Hartman essays and a W.E.B. Du Bois story, on Black life at the end of the world.",
+   "discipline": "Theater",
+   "genre": "multidisciplinary performance",
+   "url": "https://www.bam.org/theater/2026/minor-music",
    "notes": ""
   },
   {
@@ -11168,6 +15600,18 @@ window.EVENTS = {
   {
    "date": "2026-12-05",
    "time": "7:30 PM",
+   "title": "ZviDance Presents an Evening of Two Works",
+   "org": "New York Live Arts",
+   "location": "New York Live Arts, 219 W 19th Street",
+   "description": "ZviDance presents an evening featuring two works.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://newyorklivearts.org/event/zvidance-presents-an-evening-of-two-works/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:30 PM",
    "title": "Ryan Bancroft Conducting Debut, with Bruce Liu",
    "org": "New York Philharmonic",
    "location": "Wu Tsai Theater, David Geffen Hall at Lincoln Center",
@@ -11176,6 +15620,18 @@ window.EVENTS = {
    "genre": "classical orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
    "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:30 PM",
+   "title": "A Very SW!NG OUT Holiday",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce-produced seasonal swing show returning for an encore run with new surprises and live music.",
+   "discipline": "Dance",
+   "genre": "swing / holiday",
+   "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
+   "notes": "live music"
   },
   {
    "date": "2026-12-05",
@@ -11227,6 +15683,42 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-05",
+   "time": "8:00 PM",
+   "title": "Split Bill #49",
+   "org": "Triskelion Arts",
+   "location": "Triskelion Arts",
+   "description": "Split Bill #49, a shared-evening program in Triskelion Arts' Fall 2026 season. The listing page gives no further details.",
+   "discipline": "Dance",
+   "genre": "",
+   "url": "https://www.triskelionarts.org/fall-2026-performances/split-bill-49",
+   "notes": "Listed as Dec 3-5; discipline inferred."
+  },
+  {
+   "date": "2026-12-05",
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Performance of The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Sold out"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "9:30 PM",
+   "title": "SERIALS",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Late-night episodic play competition with five new 10-minute works fully staged and premiered live each weekend.",
+   "discipline": "Theater",
+   "genre": "new short plays",
+   "url": "https://thetanknyc.org/calendar-1/serialsdec",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
    "time": "",
    "title": "2026 Native American Market & Social",
    "org": "Flushing Town Hall",
@@ -11236,18 +15728,6 @@ window.EVENTS = {
    "genre": "Native American traditional music and dance",
    "url": "https://www.flushingtownhall.org/show-details/2026-native-american-market-social",
    "notes": "Market/social event with performance elements; RSVP required. Start time not stated.; also listed by Braata Productions"
-  },
-  {
-   "date": "2026-12-05",
-   "time": "",
-   "title": "Sensations: Culture, Community, Courage",
-   "org": "Kupferberg Center for the Arts at Queens College",
-   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
-   "description": "Queens College Department of Theatre and Dance production themed on culture, community and courage.",
-   "discipline": "Multidisciplinary",
-   "genre": "theatre and dance",
-   "url": "https://kupferbergcenter.org/event/sensations/",
-   "notes": "Run listed Thu-Sun, Dec 3-6; showtime not stated."
   },
   {
    "date": "2026-12-05",
@@ -11276,18 +15756,6 @@ window.EVENTS = {
   {
    "date": "2026-12-05",
    "time": "",
-   "title": "ZviDance Presents an Evening of Two Works",
-   "org": "New York Live Arts",
-   "location": "New York Live Arts, 219 W 19th Street",
-   "description": "ZviDance presents an evening featuring two works.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://newyorklivearts.org/event/zvidance-presents-an-evening-of-two-works/",
-   "notes": "Showtime not stated; run listed as Dec 3-5"
-  },
-  {
-   "date": "2026-12-05",
-   "time": "",
    "title": "Nobody's Coming: Or what your friends without kids worry about at night",
    "org": "The Clemente",
    "location": "The Clemente Center, Flamboyán Theater, 107 Suffolk Street",
@@ -11310,16 +15778,16 @@ window.EVENTS = {
    "notes": "Listed as Dec 4–6, 'coming soon'; individual times and lineup not yet announced."
   },
   {
-   "date": "2026-12-05",
-   "time": "",
-   "title": "Split Bill #49",
-   "org": "Triskelion Arts",
-   "location": "Triskelion Arts",
-   "description": "Split Bill #49, a shared-evening program in Triskelion Arts' Fall 2026 season. The listing page gives no further details.",
-   "discipline": "Dance",
-   "genre": "",
-   "url": "https://www.triskelionarts.org/fall-2026-performances/split-bill-49",
-   "notes": "Listed as Dec 3-5; showtimes and street address not stated on the page; discipline inferred."
+   "date": "2026-12-06",
+   "time": "10:30 AM",
+   "title": "WeBop Family Jazz Party: A Holiday Jazz Jam",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "Interactive holiday-themed live music party where little ones and their grown-ups sing, clap and dance; designed for ages 8 months to 8 years.",
+   "discipline": "Family/Education",
+   "genre": "family jazz",
+   "url": "https://jazz.org/concert/webop-family-jazz-party-a-holiday-jazz-jam/",
+   "notes": "Family event"
   },
   {
    "date": "2026-12-06",
@@ -11332,6 +15800,18 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance, about 30 minutes; presented by Works & Process.; also listed by Works & Process"
+  },
+  {
+   "date": "2026-12-06",
+   "time": "12:30 PM",
+   "title": "WeBop Family Jazz Party: A Holiday Jazz Jam",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "Interactive holiday-themed live music party where little ones and their grown-ups sing, clap and dance; designed for ages 8 months to 8 years.",
+   "discipline": "Family/Education",
+   "genre": "family jazz",
+   "url": "https://jazz.org/concert/webop-family-jazz-party-a-holiday-jazz-jam/",
+   "notes": "Family event"
   },
   {
    "date": "2026-12-06",
@@ -11384,6 +15864,18 @@ window.EVENTS = {
   {
    "date": "2026-12-06",
    "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -11404,6 +15896,30 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
    "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "2:00 PM",
+   "title": "Campanitas de Cristal (Crystal Bells)",
+   "org": "Teatro Círculo",
+   "location": "Teatro Círculo",
+   "description": "A musical tribute to Puerto Rican culture and holiday traditions, curated and directed by Maestro Pablo Zinger.",
+   "discipline": "Music",
+   "genre": "Puerto Rican holiday musical tribute",
+   "url": "https://teatrocirculo.org/campanitas-de-cristal/",
+   "notes": "the page gives no individual show dates or times, so only the first date is listed. Venue address not stated. ADA accessible."
+  },
+  {
+   "date": "2026-12-06",
+   "time": "2:00 PM",
+   "title": "A Very SW!NG OUT Holiday",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce-produced seasonal swing show returning for an encore run with new surprises and live music.",
+   "discipline": "Dance",
+   "genre": "swing / holiday",
+   "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
+   "notes": "live music"
   },
   {
    "date": "2026-12-06",
@@ -11431,6 +15947,66 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-06",
+   "time": "2:30 PM",
+   "title": "WeBop Family Jazz Party: A Holiday Jazz Jam",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "Interactive holiday-themed live music party where little ones and their grown-ups sing, clap and dance; designed for ages 8 months to 8 years.",
+   "discipline": "Family/Education",
+   "genre": "family jazz",
+   "url": "https://jazz.org/concert/webop-family-jazz-party-a-holiday-jazz-jam/",
+   "notes": "Family event"
+  },
+  {
+   "date": "2026-12-06",
+   "time": "3:00 PM",
+   "title": "Minor Music at the End of the World",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "A multidisciplinary performance in three movements, inspired by Saidiya Hartman essays and a W.E.B. Du Bois story, on Black life at the end of the world.",
+   "discipline": "Theater",
+   "genre": "multidisciplinary performance",
+   "url": "https://www.bam.org/theater/2026/minor-music",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "3:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre",
+   "description": "Irish Rep production of The Good Thief in the Studio Theatre.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "3:00 PM",
+   "title": "The Hairy Ape",
+   "org": "Irish Repertory Theatre",
+   "location": "Francis J. Greenburger Mainstage",
+   "description": "Irish Rep production of The Hairy Ape on the Mainstage.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-hairy-ape",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "3:00 PM",
+   "title": "Sensations: Culture, Community, Courage",
+   "org": "Kupferberg Center for the Arts at Queens College",
+   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
+   "description": "Queens College Department of Theatre and Dance production themed on culture, community and courage.",
+   "discipline": "Multidisciplinary",
+   "genre": "theatre and dance",
+   "url": "https://kupferbergcenter.org/event/sensations/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
    "time": "3:00 PM",
    "title": "New York Philharmonic Ensembles at Merkin Hall",
    "org": "New York Philharmonic",
@@ -11444,6 +16020,18 @@ window.EVENTS = {
   {
    "date": "2026-12-06",
    "time": "3:00 PM",
+   "title": "La ternura",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Alfredo Sanzol's play directed by Leyma López.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/1792/la-ternura",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "3:00 PM",
    "title": "Maria Stuarda",
    "org": "The Metropolitan Opera",
    "location": "Metropolitan Opera",
@@ -11451,7 +16039,43 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/maria-stuarda/",
-   "notes": "First date of a run through Dec 22"
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "3:00 PM",
+   "title": "Loose Tooth",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Three strangers held overnight in LaGuardia's security holding room must reckon with themselves and each other.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/loosetooth",
+   "notes": "time and performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-12-06",
+   "time": "4:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "4:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
   },
   {
    "date": "2026-12-06",
@@ -11464,6 +16088,18 @@ window.EVENTS = {
    "genre": "Baroque",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/baroque-wind-concertos",
    "notes": "Baroque Festival"
+  },
+  {
+   "date": "2026-12-06",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Listed as sold out"
   },
   {
    "date": "2026-12-06",
@@ -11499,6 +16135,30 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12626-eve",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "7:00 PM",
+   "title": "ON TIME",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Two actors portray ten characters across 160 years in an exploration of queer love, heartbreak and survival.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/2026/10/20/ontime",
    "notes": ""
   },
   {
@@ -11551,6 +16211,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-06",
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
    "time": "",
    "title": "Christmas Grand Market 2026 - BRONX",
    "org": "Braata Productions",
@@ -11572,30 +16244,6 @@ window.EVENTS = {
    "genre": "Mexican folkloric dance",
    "url": "https://31175.danceticketing.com/r/4692/62834",
    "notes": "Start time not stated on page."
-  },
-  {
-   "date": "2026-12-06",
-   "time": "",
-   "title": "WeBop Family Jazz Party: A Holiday Jazz Jam",
-   "org": "Jazz at Lincoln Center",
-   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "Interactive holiday-themed live music party where little ones and their grown-ups sing, clap and dance; designed for ages 8 months to 8 years.",
-   "discipline": "Family/Education",
-   "genre": "family jazz",
-   "url": "https://jazz.org/concert/webop-family-jazz-party-a-holiday-jazz-jam/",
-   "notes": "Family event; showtime and specific hall not stated."
-  },
-  {
-   "date": "2026-12-06",
-   "time": "",
-   "title": "Sensations: Culture, Community, Courage",
-   "org": "Kupferberg Center for the Arts at Queens College",
-   "location": "Kupferberg Center for the Arts at Queens College, Flushing",
-   "description": "Queens College Department of Theatre and Dance production themed on culture, community and courage.",
-   "discipline": "Multidisciplinary",
-   "genre": "theatre and dance",
-   "url": "https://kupferbergcenter.org/event/sensations/",
-   "notes": "Run listed Thu-Sun, Dec 3-6; showtime not stated."
   },
   {
    "date": "2026-12-06",
@@ -11659,6 +16307,42 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-07",
+   "time": "7:00 PM",
+   "title": "Circ",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "After an elective circumcision, an eighteen-year-old is confronted by his excised body part in human form and must revisit memories of queerness and sexuality.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/circ",
+   "notes": "performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-12-07",
+   "time": "7:00 PM",
+   "title": "ON TIME",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Two actors portray ten characters across 160 years in an exploration of queer love, heartbreak and survival.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/2026/10/20/ontime",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-07",
+   "time": "7:00 PM",
+   "title": "International Human Rights Art Festival",
+   "org": "wild project",
+   "location": "Wild Project",
+   "description": "A multi-day festival of human-rights-themed art and performance.",
+   "discipline": "Multidisciplinary",
+   "genre": "festival",
+   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
+   "notes": "individual performance dates, times and venue are not given on this page, so only the first day is listed."
+  },
+  {
+   "date": "2026-12-07",
    "time": "7:30 PM",
    "title": "Music Mondays presents Cantus",
    "org": "New Music USA",
@@ -11718,18 +16402,6 @@ window.EVENTS = {
    "notes": "Organized by Sarah Schulman; time not stated."
   },
   {
-   "date": "2026-12-07",
-   "time": "",
-   "title": "International Human Rights Art Festival",
-   "org": "wild project",
-   "location": "Wild Project",
-   "description": "A multi-day festival of human-rights-themed art and performance.",
-   "discipline": "Multidisciplinary",
-   "genre": "festival",
-   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "Festival runs December 7–13, 2026; individual performance dates, times and venue are not given on this page, so only the first day is listed."
-  },
-  {
    "date": "2026-12-08",
    "time": "10:15 AM",
    "title": "The Carnival of the Animals",
@@ -11740,6 +16412,18 @@ window.EVENTS = {
    "genre": "classical",
    "url": "https://oslmusic.org/calendar/2026/12/08/the-carnival-of-the-animals-10am/",
    "notes": "Likely a family/school-oriented show; page does not state audience."
+  },
+  {
+   "date": "2026-12-08",
+   "time": "11:00 AM",
+   "title": "La Gringa",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Carmen Rivera's play, directed by René Buch, billed as part of the company's 30 years in repertory.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/292/la-gringa",
+   "notes": "11 AM weekday show; presented in Spanish per company's focus (language not stated on page)"
   },
   {
    "date": "2026-12-08",
@@ -11768,6 +16452,18 @@ window.EVENTS = {
   {
    "date": "2026-12-08",
    "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -11775,6 +16471,18 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -11800,6 +16508,42 @@ window.EVENTS = {
    "genre": "staged reading, clown, new play",
    "url": "https://www.thebushwickstarr.org/starr-reading-series",
    "notes": "Free admission; tickets available at the door. Street address not given on page."
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:00 PM",
+   "title": "The Game",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Five women navigate love, ambition and sacrifice in the shadow of professional football, reclaiming their lives.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/2026/12/3/the-game",
+   "notes": "time and performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:00 PM",
+   "title": "ON TIME",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Two actors portray ten characters across 160 years in an exploration of queer love, heartbreak and survival.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://thetanknyc.org/calendar-1/2026/10/20/ontime",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:00 PM",
+   "title": "International Human Rights Art Festival",
+   "org": "wild project",
+   "location": "Wild Project",
+   "description": "A multi-day festival of human-rights-themed art and performance.",
+   "discipline": "Multidisciplinary",
+   "genre": "festival",
+   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
+   "notes": "individual performance dates, times and venue are not given on this page, so only the first day is listed."
   },
   {
    "date": "2026-12-08",
@@ -11851,6 +16595,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-08",
+   "time": "7:30 PM",
+   "title": "TAO Dance Theater",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce debut pairing two works from the company's Numerical Series, 13 and 14.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:30 PM",
+   "title": "Samson et Dalila",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Opening of Saint-Saëns's biblical opera with Aigul Akhmetshina and Clay Hilley, conducted by Giacomo Sagripanti.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-08",
    "time": "",
    "title": "William Suh, cello",
    "org": "Kaufman Music Center",
@@ -11860,18 +16628,6 @@ window.EVENTS = {
    "genre": "classical",
    "url": "https://www.kaufmanmusiccenter.org/mch/event/william-suh-cello/",
    "notes": "Start time not stated on page."
-  },
-  {
-   "date": "2026-12-08",
-   "time": "",
-   "title": "TAO Dance Theater",
-   "org": "The Joyce Theater",
-   "location": "The Joyce Theater",
-   "description": "Joyce debut pairing two works from the company's Numerical Series, 13 and 14.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
-   "notes": "Run Dec 8–13; individual showtimes not given on page."
   },
   {
    "date": "2026-12-09",
@@ -11887,6 +16643,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-09",
+   "time": "11:00 AM",
+   "title": "La Gringa",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Carmen Rivera's play, directed by René Buch, billed as part of the company's 30 years in repertory.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/292/la-gringa",
+   "notes": "11 AM weekday show; presented in Spanish per company's focus (language not stated on page)"
+  },
+  {
+   "date": "2026-12-09",
    "time": "11:45 AM",
    "title": "The Carnival of the Animals",
    "org": "Orchestra of St. Luke's",
@@ -11896,6 +16664,18 @@ window.EVENTS = {
    "genre": "classical",
    "url": "https://oslmusic.org/calendar/2026/12/09/the-carnival-of-the-animals-6-11am/",
    "notes": "Likely a family/school-oriented show; page does not state audience."
+  },
+  {
+   "date": "2026-12-09",
+   "time": "2:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre",
+   "description": "Irish Rep production of The Good Thief in the Studio Theatre.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
   },
   {
    "date": "2026-12-09",
@@ -11936,6 +16716,42 @@ window.EVENTS = {
   {
    "date": "2026-12-09",
    "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-09",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Listed as sold out"
+  },
+  {
+   "date": "2026-12-09",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre",
+   "description": "Irish Rep production of The Good Thief in the Studio Theatre.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": "Listed as sold out"
+  },
+  {
+   "date": "2026-12-09",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -11967,6 +16783,18 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Baroque",
    "url": "https://oslmusic.org/calendar/2026/12/09/a-venetian-christmas-7pm/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-09",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -12019,6 +16847,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-09",
+   "time": "7:00 PM",
+   "title": "Puppets of War",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Political satire using puppetry and games to show how a nation crumbles under an authoritarian regime.",
+   "discipline": "Theater",
+   "genre": "puppetry satire",
+   "url": "https://thetanknyc.org/calendar-1/puppetsofwar",
+   "notes": "time and performance days not stated, so only the first date is listed."
+  },
+  {
+   "date": "2026-12-09",
+   "time": "7:00 PM",
+   "title": "International Human Rights Art Festival",
+   "org": "wild project",
+   "location": "Wild Project",
+   "description": "A multi-day festival of human-rights-themed art and performance.",
+   "discipline": "Multidisciplinary",
+   "genre": "festival",
+   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
+   "notes": "individual performance dates, times and venue are not given on this page, so only the first day is listed."
+  },
+  {
+   "date": "2026-12-09",
    "time": "7:30 PM",
    "title": "Ailey at New York City Center",
    "org": "AILEY",
@@ -12032,6 +16884,30 @@ window.EVENTS = {
   {
    "date": "2026-12-09",
    "time": "7:30 PM",
+   "title": "TAO Dance Theater",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce debut pairing two works from the company's Numerical Series, 13 and 14.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-09",
+   "time": "7:30 PM",
+   "title": "Maria Stuarda",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Donizetti's opera about Mary, Queen of Scots, first performance of the listed run.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/maria-stuarda/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-09",
+   "time": "7:30 PM",
    "title": "Candlelight Christmas",
    "org": "Voices of Ascension",
    "location": "Church of the Ascension",
@@ -12040,6 +16916,18 @@ window.EVENTS = {
    "genre": "classical choral / holiday",
    "url": "https://www.voicesofascension.org/candlelight-christmas-concerts-2026",
    "notes": "37th annual concert series."
+  },
+  {
+   "date": "2026-12-09",
+   "time": "8:30 PM",
+   "title": "International Human Rights Art Festival",
+   "org": "wild project",
+   "location": "Wild Project",
+   "description": "A multi-day festival of human-rights-themed art and performance.",
+   "discipline": "Multidisciplinary",
+   "genre": "festival",
+   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
+   "notes": "individual performance dates, times and venue are not given on this page, so only the first day is listed."
   },
   {
    "date": "2026-12-09",
@@ -12091,6 +16979,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-10",
+   "time": "11:00 AM",
+   "title": "El Quijote",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Santiago García's adaptation of Cervantes' classic, directed by Jorge Alí Triana.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/293/el-quijote",
+   "notes": "11 AM weekday show"
+  },
+  {
+   "date": "2026-12-10",
    "time": "11:45 AM",
    "title": "The Carnival of the Animals",
    "org": "Orchestra of St. Luke's",
@@ -12112,6 +17012,42 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.ensemblestudiotheatre.org/show-details/first-light-things-we-burn-for-love-by-marcus-yi",
    "notes": "RSVP required; venue address not stated on page; format not described"
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Listed as sold out"
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre",
+   "description": "Irish Rep production of The Good Thief in the Studio Theatre.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
   },
   {
    "date": "2026-12-10",
@@ -12152,6 +17088,18 @@ window.EVENTS = {
   {
    "date": "2026-12-10",
    "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -12184,6 +17132,18 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/hannah-marks-dec-9-10-2026",
    "notes": "Two sets, 7pm and 9pm ET; free for members."
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7:00 PM",
+   "title": "International Human Rights Art Festival",
+   "org": "wild project",
+   "location": "Wild Project",
+   "description": "A multi-day festival of human-rights-themed art and performance.",
+   "discipline": "Multidisciplinary",
+   "genre": "festival",
+   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
+   "notes": "individual performance dates, times and venue are not given on this page, so only the first day is listed."
   },
   {
    "date": "2026-12-10",
@@ -12224,6 +17184,18 @@ window.EVENTS = {
   {
    "date": "2026-12-10",
    "time": "7:30 PM",
+   "title": "TAO Dance Theater",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce debut pairing two works from the company's Numerical Series, 13 and 14.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7:30 PM",
    "title": "Candlelight Christmas",
    "org": "Voices of Ascension",
    "location": "Church of the Ascension",
@@ -12244,6 +17216,18 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://www.eventbrite.com/e/thursday-night-jazz-presents-tyreek-mcdole-tickets-1993490765543",
    "notes": ""
+  },
+  {
+   "date": "2026-12-10",
+   "time": "8:30 PM",
+   "title": "International Human Rights Art Festival",
+   "org": "wild project",
+   "location": "Wild Project",
+   "description": "A multi-day festival of human-rights-themed art and performance.",
+   "discipline": "Multidisciplinary",
+   "genre": "festival",
+   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
+   "notes": "individual performance dates, times and venue are not given on this page, so only the first day is listed."
   },
   {
    "date": "2026-12-10",
@@ -12319,6 +17303,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-11",
+   "time": "6:30 PM",
+   "title": "Graham 2 Holiday Show",
+   "org": "Martha Graham Dance Company",
+   "location": "Martha Graham Center",
+   "description": "Graham 2, the company's junior ensemble, presents a holiday program honoring Virginie Mécène, with guest company Buglisi Dance Theater.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://marthagraham.org/studioseries/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
+   "title": "I'mPossible Holiday Wonders",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "A holiday circus show featuring multi-abled artists, live music and storytelling.",
+   "discipline": "Family/Education",
+   "genre": "circus",
+   "url": "https://www.bam.org/holiday/2026/impossible",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-11",
    "time": "7:00 PM",
    "title": "Peter & The Wolf",
    "org": "Dance Heginbotham",
@@ -12332,6 +17340,54 @@ window.EVENTS = {
   {
    "date": "2026-12-11",
    "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Listed as sold out"
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre",
+   "description": "Irish Rep production of The Good Thief in the Studio Theatre.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -12340,6 +17396,30 @@ window.EVENTS = {
    "genre": "musical",
    "url": "https://2st.com/shows/the-fantasticks",
    "notes": ""
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
+   "title": "Campanitas de Cristal (Crystal Bells)",
+   "org": "Teatro Círculo",
+   "location": "Teatro Círculo",
+   "description": "A musical tribute to Puerto Rican culture and holiday traditions, curated and directed by Maestro Pablo Zinger.",
+   "discipline": "Music",
+   "genre": "Puerto Rican holiday musical tribute",
+   "url": "https://teatrocirculo.org/campanitas-de-cristal/",
+   "notes": "the page gives no individual show dates or times, so only the first date is listed. Venue address not stated. ADA accessible."
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
   },
   {
    "date": "2026-12-11",
@@ -12363,7 +17443,19 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/the-magic-flute/",
-   "notes": "First date of a run through Jan 2"
+   "notes": ""
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
+   "title": "International Human Rights Art Festival",
+   "org": "wild project",
+   "location": "Wild Project",
+   "description": "A multi-day festival of human-rights-themed art and performance.",
+   "discipline": "Multidisciplinary",
+   "genre": "festival",
+   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
+   "notes": "individual performance dates, times and venue are not given on this page, so only the first day is listed."
   },
   {
    "date": "2026-12-11",
@@ -12392,6 +17484,18 @@ window.EVENTS = {
   {
    "date": "2026-12-11",
    "time": "7:30 PM",
+   "title": "Bria Bacon + Annie MingHao Wang",
+   "org": "Danspace Project",
+   "location": "Danspace Project, St. Mark's Church, 131 East 10th St.",
+   "description": "Shared dance program featuring Bria Bacon and Annie MingHao Wang, listed on the Danspace calendar for Dec 11–12.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://danspaceproject.org/calendar/fw2026-bacon-wang/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:30 PM",
    "title": "inti figgis-vizueta's Music for Transitions with Andrew Yee and Rothko String Quartet",
    "org": "National Sawdust",
    "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
@@ -12415,6 +17519,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-11",
+   "time": "7:30 PM",
+   "title": "TAO Dance Theater",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce debut pairing two works from the company's Numerical Series, 13 and 14.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-11",
    "time": "8:00 PM",
    "title": "Los Nutcrackers: A Christmas Carajo",
    "org": "BAAD! Bronx Academy of Arts and Dance",
@@ -12424,6 +17540,18 @@ window.EVENTS = {
    "genre": "holiday",
    "url": "https://www.eventbrite.com/e/los-nutcrackers-a-christmas-carajo-tickets-2003792759083?aff=ebdsoporgprofile",
    "notes": "Listing shows first date Dec 11 at 8:00 PM 'and 5 more' performances; the other dates are not stated. Tickets from $5."
+  },
+  {
+   "date": "2026-12-11",
+   "time": "8:00 PM",
+   "title": "Sunset Jazz",
+   "org": "Culture Lab LIC",
+   "location": "Culture Lab LIC",
+   "description": "Weekly live jazz night in the gallery space with drinks; seating is limited.",
+   "discipline": "Music",
+   "genre": "jazz",
+   "url": "https://www.culturelablic.org/sunset-jazz",
+   "notes": "Free; RSVP via Humanitix. Held every Friday at 8 PM"
   },
   {
    "date": "2026-12-11",
@@ -12459,7 +17587,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "choral / holiday",
    "url": "https://newmusicusa.org/events/young-new-yorkers-chorus-presents-holiday-modulations-2/",
-   "notes": "Listing runs Dec 11–12"
+   "notes": ""
   },
   {
    "date": "2026-12-11",
@@ -12472,6 +17600,30 @@ window.EVENTS = {
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
    "notes": ""
+  },
+  {
+   "date": "2026-12-11",
+   "time": "8:30 PM",
+   "title": "International Human Rights Art Festival",
+   "org": "wild project",
+   "location": "Wild Project",
+   "description": "A multi-day festival of human-rights-themed art and performance.",
+   "discipline": "Multidisciplinary",
+   "genre": "festival",
+   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
+   "notes": "individual performance dates, times and venue are not given on this page, so only the first day is listed."
+  },
+  {
+   "date": "2026-12-11",
+   "time": "9:30 PM",
+   "title": "Puppets of War",
+   "org": "The Tank",
+   "location": "The Tank",
+   "description": "Political satire using puppetry and games to show how a nation crumbles under an authoritarian regime.",
+   "discipline": "Theater",
+   "genre": "puppetry satire",
+   "url": "https://thetanknyc.org/calendar-1/puppetsofwar",
+   "notes": "time and performance days not stated, so only the first date is listed."
   },
   {
    "date": "2026-12-11",
@@ -12500,18 +17652,6 @@ window.EVENTS = {
   {
    "date": "2026-12-11",
    "time": "",
-   "title": "I'mPossible Holiday Wonders",
-   "org": "Brooklyn Academy of Music",
-   "location": "BAM (Brooklyn Academy of Music)",
-   "description": "A holiday circus show featuring multi-abled artists, live music and storytelling.",
-   "discipline": "Family/Education",
-   "genre": "circus",
-   "url": "https://www.bam.org/holiday/2026/impossible",
-   "notes": "All ages. Run Dec 11–13; only the first date listed, showtimes not stated on page."
-  },
-  {
-   "date": "2026-12-11",
-   "time": "",
    "title": "Navidad",
    "org": "Calpulli Mexican Dance Company",
    "location": "Flushing Town Hall",
@@ -12524,18 +17664,6 @@ window.EVENTS = {
   {
    "date": "2026-12-11",
    "time": "",
-   "title": "Bria Bacon + Annie MingHao Wang",
-   "org": "Danspace Project",
-   "location": "Danspace Project, St. Mark's Church, 131 East 10th St.",
-   "description": "Shared dance program featuring Bria Bacon and Annie MingHao Wang, listed on the Danspace calendar for Dec 11–12.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://danspaceproject.org/calendar/fw2026-bacon-wang/",
-   "notes": "Showtime not stated on page text."
-  },
-  {
-   "date": "2026-12-11",
-   "time": "",
    "title": "Country/Convenience",
    "org": "La MaMa Experimental Theatre Club",
    "location": "La MaMa Experimental Theatre Club",
@@ -12544,18 +17672,6 @@ window.EVENTS = {
    "genre": "experimental operetta",
    "url": "https://lamama.org/country-convenience/",
    "notes": "Workshop performance; run Dec 11-13, 2026. Showtimes not stated."
-  },
-  {
-   "date": "2026-12-11",
-   "time": "",
-   "title": "Graham 2 Holiday Show",
-   "org": "Martha Graham Dance Company",
-   "location": "Martha Graham Center",
-   "description": "Graham 2, the company's junior ensemble, presents a holiday program honoring Virginie Mécène, with guest company Buglisi Dance Theater.",
-   "discipline": "Dance",
-   "genre": "modern dance",
-   "url": "https://marthagraham.org/studioseries/",
-   "notes": "Part of the Studio Series. Showtime not stated on page."
   },
   {
    "date": "2026-12-11",
@@ -12595,6 +17711,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-12",
+   "time": "1:00 PM",
+   "title": "Maria Stuarda",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Donizetti's opera about Mary, Queen of Scots, first performance of the listed run.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/maria-stuarda/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
    "time": "2:00 PM",
    "title": "Ailey at New York City Center",
    "org": "AILEY",
@@ -12604,6 +17732,42 @@ window.EVENTS = {
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121226-mat",
    "notes": "Family Matinee; post-performance Q&A"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "2:00 PM",
+   "title": "I'mPossible Holiday Wonders",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "A holiday circus show featuring multi-abled artists, live music and storytelling.",
+   "discipline": "Family/Education",
+   "genre": "circus",
+   "url": "https://www.bam.org/holiday/2026/impossible",
+   "notes": "also listed by Omnium Circus"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "2:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre",
+   "description": "Irish Rep production of The Good Thief in the Studio Theatre.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "2:00 PM",
+   "title": "Graham 2 Holiday Show",
+   "org": "Martha Graham Dance Company",
+   "location": "Martha Graham Center",
+   "description": "Graham 2, the company's junior ensemble, presents a holiday program honoring Virginie Mécène, with guest company Buglisi Dance Theater.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://marthagraham.org/studioseries/",
+   "notes": ""
   },
   {
    "date": "2026-12-12",
@@ -12632,14 +17796,14 @@ window.EVENTS = {
   {
    "date": "2026-12-12",
    "time": "2:00 PM",
-   "title": "I'mPossible Holiday Wonders",
-   "org": "Omnium Circus",
-   "location": "BAM Howard Gilman Opera House, 30 Lafayette Ave, Brooklyn",
-   "description": "A 75-minute holiday circus show with high-flying stunts, performed by a diverse group of multi-abled artists.",
-   "discipline": "Other",
-   "genre": "inclusive circus",
-   "url": "https://omniumcircus.org/event/brooklyn-nyc-bam-howard-gilman-opera-house/",
-   "notes": "Special daytime show. Other showtimes on this date are not listed on the page."
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
   },
   {
    "date": "2026-12-12",
@@ -12652,6 +17816,30 @@ window.EVENTS = {
    "genre": "musical",
    "url": "https://2st.com/shows/the-fantasticks",
    "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "2:00 PM",
+   "title": "Campanitas de Cristal (Crystal Bells)",
+   "org": "Teatro Círculo",
+   "location": "Teatro Círculo",
+   "description": "A musical tribute to Puerto Rican culture and holiday traditions, curated and directed by Maestro Pablo Zinger.",
+   "discipline": "Music",
+   "genre": "Puerto Rican holiday musical tribute",
+   "url": "https://teatrocirculo.org/campanitas-de-cristal/",
+   "notes": "the page gives no individual show dates or times, so only the first date is listed. Venue address not stated. ADA accessible."
+  },
+  {
+   "date": "2026-12-12",
+   "time": "2:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
   },
   {
    "date": "2026-12-12",
@@ -12691,6 +17879,102 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-12",
+   "time": "3:00 PM",
+   "title": "International Human Rights Art Festival",
+   "org": "wild project",
+   "location": "Wild Project",
+   "description": "A multi-day festival of human-rights-themed art and performance.",
+   "discipline": "Multidisciplinary",
+   "genre": "festival",
+   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
+   "notes": "individual performance dates, times and venue are not given on this page, so only the first day is listed."
+  },
+  {
+   "date": "2026-12-12",
+   "time": "4:00 PM",
+   "title": "Atlantic for Kids: Finn",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "Family production in Atlantic's kids series, beginning its run in December.",
+   "discipline": "Family/Education",
+   "genre": "family theater",
+   "url": "https://atlantictheater.org/production/finn/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "4:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Listed as sold out"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "6:30 PM",
+   "title": "Graham 2 Holiday Show",
+   "org": "Martha Graham Dance Company",
+   "location": "Martha Graham Center",
+   "description": "Graham 2, the company's junior ensemble, presents a holiday program honoring Virginie Mécène, with guest company Buglisi Dance Theater.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://marthagraham.org/studioseries/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "7:00 PM",
+   "title": "I'mPossible Holiday Wonders",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "A holiday circus show featuring multi-abled artists, live music and storytelling.",
+   "discipline": "Family/Education",
+   "genre": "circus",
+   "url": "https://www.bam.org/holiday/2026/impossible",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "7:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre",
+   "description": "Irish Rep production of The Good Thief in the Studio Theatre.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
    "time": "7:00 PM",
    "title": "Jeannette Sorrell Conducts Handel's Messiah",
    "org": "New York Philharmonic",
@@ -12700,6 +17984,18 @@ window.EVENTS = {
    "genre": "classical choral",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
    "notes": "Presented by Gary W. Parr"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
   },
   {
    "date": "2026-12-12",
@@ -12728,6 +18024,30 @@ window.EVENTS = {
   {
    "date": "2026-12-12",
    "time": "7:00 PM",
+   "title": "Campanitas de Cristal (Crystal Bells)",
+   "org": "Teatro Círculo",
+   "location": "Teatro Círculo",
+   "description": "A musical tribute to Puerto Rican culture and holiday traditions, curated and directed by Maestro Pablo Zinger.",
+   "discipline": "Music",
+   "genre": "Puerto Rican holiday musical tribute",
+   "url": "https://teatrocirculo.org/campanitas-de-cristal/",
+   "notes": "the page gives no individual show dates or times, so only the first date is listed. Venue address not stated. ADA accessible."
+  },
+  {
+   "date": "2026-12-12",
+   "time": "7:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "7:00 PM",
    "title": "Caribbean Theatre Festival: Caribbean Calling — Roots & Resurgence",
    "org": "The Billie Holiday Theatre",
    "location": "The Billie Holiday Theatre, 1368 Fulton Street, Brooklyn, NY 11216",
@@ -12751,6 +18071,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-12",
+   "time": "7:00 PM",
+   "title": "International Human Rights Art Festival",
+   "org": "wild project",
+   "location": "Wild Project",
+   "description": "A multi-day festival of human-rights-themed art and performance.",
+   "discipline": "Multidisciplinary",
+   "genre": "festival",
+   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
+   "notes": "individual performance dates, times and venue are not given on this page, so only the first day is listed."
+  },
+  {
+   "date": "2026-12-12",
    "time": "7:30 PM",
    "title": "Ailey at New York City Center",
    "org": "AILEY",
@@ -12764,6 +18096,18 @@ window.EVENTS = {
   {
    "date": "2026-12-12",
    "time": "7:30 PM",
+   "title": "Bria Bacon + Annie MingHao Wang",
+   "org": "Danspace Project",
+   "location": "Danspace Project, St. Mark's Church, 131 East 10th St.",
+   "description": "Shared dance program featuring Bria Bacon and Annie MingHao Wang, listed on the Danspace calendar for Dec 11–12.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://danspaceproject.org/calendar/fw2026-bacon-wang/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "7:30 PM",
    "title": "Caleb Wheeler Curtis & Jason Moran: \"Incantation\" Album Release Celebration",
    "org": "National Sawdust",
    "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
@@ -12771,6 +18115,18 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.nationalsawdust.org/event/caleb-wheeler-curtis-jason-moran-incantation-album-release-celebration",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "7:30 PM",
+   "title": "TAO Dance Theater",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce debut pairing two works from the company's Numerical Series, 13 and 14.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
    "notes": ""
   },
   {
@@ -12807,7 +18163,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "choral / holiday",
    "url": "https://newmusicusa.org/events/young-new-yorkers-chorus-presents-holiday-modulations-2/",
-   "notes": "Listing runs Dec 11–12"
+   "notes": ""
   },
   {
    "date": "2026-12-12",
@@ -12820,6 +18176,30 @@ window.EVENTS = {
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
    "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "8:00 PM",
+   "title": "Samson et Dalila",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Opening of Saint-Saëns's biblical opera with Aigul Akhmetshina and Clay Hilley, conducted by Giacomo Sagripanti.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Listed as sold out"
   },
   {
    "date": "2026-12-12",
@@ -12836,18 +18216,6 @@ window.EVENTS = {
   {
    "date": "2026-12-12",
    "time": "",
-   "title": "Atlantic for Kids: Finn",
-   "org": "Atlantic Theater Company",
-   "location": "Atlantic Theater Company (specific venue not stated on page)",
-   "description": "Family production in Atlantic's kids series, beginning its run in December.",
-   "discipline": "Family/Education",
-   "genre": "family theater",
-   "url": "https://atlantictheater.org/production/finn/",
-   "notes": "Run is Dec 12, 2026 – Jan 31, 2027. Page gives no individual showtimes or days, so only the first date is listed; see the production page for the schedule."
-  },
-  {
-   "date": "2026-12-12",
-   "time": "",
    "title": "Navidad",
    "org": "Calpulli Mexican Dance Company",
    "location": "Flushing Town Hall",
@@ -12856,18 +18224,6 @@ window.EVENTS = {
    "genre": "Mexican folkloric dance",
    "url": "https://www.flushingtownhall.org/show-details/calpullis-navidad",
    "notes": "Start time not stated on page."
-  },
-  {
-   "date": "2026-12-12",
-   "time": "",
-   "title": "Bria Bacon + Annie MingHao Wang",
-   "org": "Danspace Project",
-   "location": "Danspace Project, St. Mark's Church, 131 East 10th St.",
-   "description": "Shared dance program featuring Bria Bacon and Annie MingHao Wang, listed on the Danspace calendar for Dec 11–12.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://danspaceproject.org/calendar/fw2026-bacon-wang/",
-   "notes": "Showtime not stated on page text."
   },
   {
    "date": "2026-12-12",
@@ -12884,18 +18240,6 @@ window.EVENTS = {
   {
    "date": "2026-12-12",
    "time": "",
-   "title": "Graham 2 Holiday Show",
-   "org": "Martha Graham Dance Company",
-   "location": "Martha Graham Center",
-   "description": "Graham 2, the company's junior ensemble, presents a holiday program honoring Virginie Mécène, with guest company Buglisi Dance Theater.",
-   "discipline": "Dance",
-   "genre": "modern dance",
-   "url": "https://marthagraham.org/studioseries/",
-   "notes": "Part of the Studio Series. Showtime not stated on page."
-  },
-  {
-   "date": "2026-12-12",
-   "time": "",
    "title": "Condolence Or A Rug & An Elf",
    "org": "Pick Up Performance Co.",
    "location": "New York Live Arts",
@@ -12904,6 +18248,18 @@ window.EVENTS = {
    "genre": "new work",
    "url": "https://newyorklivearts.org/event/condolence-or-a-rug-an-elf/",
    "notes": "Page gives the run as Dec 10–12, 2026; individual showtimes not stated.; also listed by New York Live Arts"
+  },
+  {
+   "date": "2026-12-13",
+   "time": "11:00 AM",
+   "title": "Atlantic for Kids: Finn",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "Family production in Atlantic's kids series, beginning its run in December.",
+   "discipline": "Family/Education",
+   "genre": "family theater",
+   "url": "https://atlantictheater.org/production/finn/",
+   "notes": ""
   },
   {
    "date": "2026-12-13",
@@ -12980,6 +18336,18 @@ window.EVENTS = {
   {
    "date": "2026-12-13",
    "time": "2:00 PM",
+   "title": "I'mPossible Holiday Wonders",
+   "org": "Brooklyn Academy of Music",
+   "location": "BAM (Brooklyn Academy of Music)",
+   "description": "A holiday circus show featuring multi-abled artists, live music and storytelling.",
+   "discipline": "Family/Education",
+   "genre": "circus",
+   "url": "https://www.bam.org/holiday/2026/impossible",
+   "notes": "also listed by Omnium Circus"
+  },
+  {
+   "date": "2026-12-13",
+   "time": "2:00 PM",
    "title": "Jeannette Sorrell Conducts Handel's Messiah",
    "org": "New York Philharmonic",
    "location": "Wu Tsai Theater, David Geffen Hall at Lincoln Center",
@@ -12992,14 +18360,14 @@ window.EVENTS = {
   {
    "date": "2026-12-13",
    "time": "2:00 PM",
-   "title": "I'mPossible Holiday Wonders",
-   "org": "Omnium Circus",
-   "location": "BAM Howard Gilman Opera House, 30 Lafayette Ave, Brooklyn",
-   "description": "A 75-minute holiday circus show with high-flying stunts, performed by a diverse group of multi-abled artists.",
-   "discipline": "Other",
-   "genre": "inclusive circus",
-   "url": "https://omniumcircus.org/event/brooklyn-nyc-bam-howard-gilman-opera-house/",
-   "notes": "Special daytime show. The run's listing ends at 7:00 PM on this date; that showtime is not described separately."
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
   },
   {
    "date": "2026-12-13",
@@ -13016,6 +18384,30 @@ window.EVENTS = {
   {
    "date": "2026-12-13",
    "time": "2:00 PM",
+   "title": "Campanitas de Cristal (Crystal Bells)",
+   "org": "Teatro Círculo",
+   "location": "Teatro Círculo",
+   "description": "A musical tribute to Puerto Rican culture and holiday traditions, curated and directed by Maestro Pablo Zinger.",
+   "discipline": "Music",
+   "genre": "Puerto Rican holiday musical tribute",
+   "url": "https://teatrocirculo.org/campanitas-de-cristal/",
+   "notes": "the page gives no individual show dates or times, so only the first date is listed. Venue address not stated. ADA accessible."
+  },
+  {
+   "date": "2026-12-13",
+   "time": "2:00 PM",
+   "title": "TAO Dance Theater",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Joyce debut pairing two works from the company's Numerical Series, 13 and 14.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-13",
+   "time": "2:00 PM",
    "title": "The Knights Before Christmas with Peoples' Symphony Concerts",
    "org": "The Knights",
    "location": "",
@@ -13024,6 +18416,18 @@ window.EVENTS = {
    "genre": "classical",
    "url": "https://www.theknightsnyc.com/performances-all/psc-dec-2026",
    "notes": "check the event page. NYC location inferred from the presenter, not stated."
+  },
+  {
+   "date": "2026-12-13",
+   "time": "2:00 PM",
+   "title": "The Magic Flute—Holiday Presentation",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Mozart's The Magic Flute presented as a holiday offering.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/the-magic-flute/",
+   "notes": ""
   },
   {
    "date": "2026-12-13",
@@ -13040,6 +18444,18 @@ window.EVENTS = {
   {
    "date": "2026-12-13",
    "time": "3:00 PM",
+   "title": "The Good Thief",
+   "org": "Irish Repertory Theatre",
+   "location": "W. Scott McLucas Studio Theatre",
+   "description": "Irish Rep production of The Good Thief in the Studio Theatre.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-13",
+   "time": "3:00 PM",
    "title": "The Magic School Bus Live",
    "org": "Lehman Center",
    "location": "Lehman Center for the Performing Arts",
@@ -13048,6 +18464,42 @@ window.EVENTS = {
    "genre": "family show",
    "url": "https://www.lehmancenter.org/events/magic-school-bus-live",
    "notes": "Family show"
+  },
+  {
+   "date": "2026-12-13",
+   "time": "3:00 PM",
+   "title": "La llamada",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Musical by Javier Ambrossi and Javier Calvo, directed by Rafa Sánchez.",
+   "discipline": "Theater",
+   "genre": "musical",
+   "url": "https://repertorio.nyc/show/1369/la-llamada",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-13",
+   "time": "3:00 PM",
+   "title": "International Human Rights Art Festival",
+   "org": "wild project",
+   "location": "Wild Project",
+   "description": "A multi-day festival of human-rights-themed art and performance.",
+   "discipline": "Multidisciplinary",
+   "genre": "festival",
+   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
+   "notes": "individual performance dates, times and venue are not given on this page, so only the first day is listed."
+  },
+  {
+   "date": "2026-12-13",
+   "time": "4:00 PM",
+   "title": "Atlantic for Kids: Finn",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "Family production in Atlantic's kids series, beginning its run in December.",
+   "discipline": "Family/Education",
+   "genre": "family theater",
+   "url": "https://atlantictheater.org/production/finn/",
+   "notes": ""
   },
   {
    "date": "2026-12-13",
@@ -13064,6 +18516,18 @@ window.EVENTS = {
   {
    "date": "2026-12-13",
    "time": "4:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-13",
+   "time": "4:00 PM",
    "title": "Handel's Messiah: QCCS 86th Annual Winter Concert",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts at Queens College, Flushing",
@@ -13072,6 +18536,18 @@ window.EVENTS = {
    "genre": "classical choral",
    "url": "https://kupferbergcenter.org/event/qccs-12132026/",
    "notes": ""
+  },
+  {
+   "date": "2026-12-13",
+   "time": "4:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
   },
   {
    "date": "2026-12-13",
@@ -13084,6 +18560,18 @@ window.EVENTS = {
    "genre": "Baroque",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/the-brandenburg-concertos",
    "notes": ""
+  },
+  {
+   "date": "2026-12-13",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Listed as sold out"
   },
   {
    "date": "2026-12-13",
@@ -13112,6 +18600,18 @@ window.EVENTS = {
   {
    "date": "2026-12-13",
    "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-13",
+   "time": "7:00 PM",
    "title": "Rotunda Holiday Concert: The Metropolitan Opera Chorus Artists",
    "org": "Works & Process",
    "location": "Guggenheim New York",
@@ -13120,6 +18620,18 @@ window.EVENTS = {
    "genre": "holiday / opera chorus",
    "url": "",
    "notes": "Tickets $30-$95"
+  },
+  {
+   "date": "2026-12-13",
+   "time": "7:00 PM",
+   "title": "International Human Rights Art Festival",
+   "org": "wild project",
+   "location": "Wild Project",
+   "description": "A multi-day festival of human-rights-themed art and performance.",
+   "discipline": "Multidisciplinary",
+   "genre": "festival",
+   "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
+   "notes": "individual performance dates, times and venue are not given on this page, so only the first day is listed."
   },
   {
    "date": "2026-12-13",
@@ -13144,6 +18656,18 @@ window.EVENTS = {
    "genre": "bluegrass",
    "url": "https://www.viewcy.com/event/michael_daves__jacob_2",
    "notes": "Doors 7:30pm; $25."
+  },
+  {
+   "date": "2026-12-13",
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
   },
   {
    "date": "2026-12-13",
@@ -13219,6 +18743,42 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-15",
+   "time": "11:00 AM",
+   "title": "En el tiempo de las mariposas",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Caridad Svich's stage adaptation of Julia Álvarez's novel, directed by José Zayas.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/291/en-el-tiempo-de-las-mariposas",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-15",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Listed as sold out"
+  },
+  {
+   "date": "2026-12-15",
+   "time": "7:00 PM",
+   "title": "Big Band Holidays",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "The Jazz at Lincoln Center Orchestra under Chris Crenshaw plays swinging holiday favorites with vocalists Georgia Heers and Catherine Russell.",
+   "discipline": "Music",
+   "genre": "holiday jazz big band",
+   "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-15",
    "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
@@ -13227,6 +18787,18 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-15",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -13268,6 +18840,18 @@ window.EVENTS = {
   {
    "date": "2026-12-15",
    "time": "7:30 PM",
+   "title": "Samson et Dalila",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Opening of Saint-Saëns's biblical opera with Aigul Akhmetshina and Clay Hilley, conducted by Giacomo Sagripanti.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-15",
+   "time": "7:30 PM",
    "title": "Candlelight Christmas",
    "org": "Voices of Ascension",
    "location": "Church of the Ascension",
@@ -13288,18 +18872,6 @@ window.EVENTS = {
    "genre": "Mexican folkloric dance",
    "url": "https://elmuseo.org/event/navidad-by-calpulli-mexican-dance-company/",
    "notes": "Start time not stated on page."
-  },
-  {
-   "date": "2026-12-15",
-   "time": "",
-   "title": "Big Band Holidays",
-   "org": "Jazz at Lincoln Center",
-   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "The Jazz at Lincoln Center Orchestra under Chris Crenshaw plays swinging holiday favorites with vocalists Georgia Heers and Catherine Russell.",
-   "discipline": "Music",
-   "genre": "holiday jazz big band",
-   "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": "Run listed as Dec 15–20; individual showtimes not stated."
   },
   {
    "date": "2026-12-15",
@@ -13339,6 +18911,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-16",
+   "time": "11:00 AM",
+   "title": "La Gringa",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Carmen Rivera's play, directed by René Buch, billed as part of the company's 30 years in repertory.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/292/la-gringa",
+   "notes": "11 AM weekday show; presented in Spanish per company's focus (language not stated on page)"
+  },
+  {
+   "date": "2026-12-16",
    "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
@@ -13364,6 +18948,42 @@ window.EVENTS = {
   {
    "date": "2026-12-16",
    "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-16",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-16",
+   "time": "7:00 PM",
+   "title": "Big Band Holidays",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "The Jazz at Lincoln Center Orchestra under Chris Crenshaw plays swinging holiday favorites with vocalists Georgia Heers and Catherine Russell.",
+   "discipline": "Music",
+   "genre": "holiday jazz big band",
+   "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-16",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -13383,6 +19003,18 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical chamber",
    "url": "https://oslmusic.org/calendar/2026/12/16/hildegard-von-bingen-and-sofia-gubaidulina-7pm/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-16",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -13459,15 +19091,63 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-16",
-   "time": "",
-   "title": "Big Band Holidays",
-   "org": "Jazz at Lincoln Center",
-   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "The Jazz at Lincoln Center Orchestra under Chris Crenshaw plays swinging holiday favorites with vocalists Georgia Heers and Catherine Russell.",
-   "discipline": "Music",
-   "genre": "holiday jazz big band",
-   "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": "Run listed as Dec 15–20; individual showtimes not stated."
+   "time": "7:30 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-16",
+   "time": "7:30 PM",
+   "title": "Maria Stuarda",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Donizetti's opera about Mary, Queen of Scots, first performance of the listed run.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/maria-stuarda/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-17",
+   "time": "11:00 AM",
+   "title": "La Gringa",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Carmen Rivera's play, directed by René Buch, billed as part of the company's 30 years in repertory.",
+   "discipline": "Theater",
+   "genre": "play",
+   "url": "https://repertorio.nyc/show/292/la-gringa",
+   "notes": "11 AM weekday show; presented in Spanish per company's focus (language not stated on page)"
+  },
+  {
+   "date": "2026-12-17",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-17",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
   },
   {
    "date": "2026-12-17",
@@ -13479,6 +19159,18 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-17",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -13507,6 +19199,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-17",
+   "time": "7:00 PM",
+   "title": "The Magic Flute—Holiday Presentation",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Mozart's The Magic Flute presented as a holiday offering.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/the-magic-flute/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-17",
    "time": "7:30 PM",
    "title": "Ailey at New York City Center",
    "org": "AILEY",
@@ -13516,6 +19220,18 @@ window.EVENTS = {
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121726",
    "notes": "All New Works"
+  },
+  {
+   "date": "2026-12-17",
+   "time": "7:30 PM",
+   "title": "Big Band Holidays",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "The Jazz at Lincoln Center Orchestra under Chris Crenshaw plays swinging holiday favorites with vocalists Georgia Heers and Catherine Russell.",
+   "discipline": "Music",
+   "genre": "holiday jazz big band",
+   "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
+   "notes": ""
   },
   {
    "date": "2026-12-17",
@@ -13543,15 +19259,15 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-17",
-   "time": "",
-   "title": "Big Band Holidays",
-   "org": "Jazz at Lincoln Center",
-   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "The Jazz at Lincoln Center Orchestra under Chris Crenshaw plays swinging holiday favorites with vocalists Georgia Heers and Catherine Russell.",
-   "discipline": "Music",
-   "genre": "holiday jazz big band",
-   "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": "Run listed as Dec 15–20; individual showtimes not stated."
+   "time": "7:30 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
   },
   {
    "date": "2026-12-17",
@@ -13592,6 +19308,30 @@ window.EVENTS = {
   {
    "date": "2026-12-18",
    "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Listed as sold out"
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:00 PM",
    "title": "MARIQUITA AND ENCARNACIÓN: An Afro-Uruguayan Story",
    "org": "Multicultural Music Group",
    "location": "Lovinger Theater, Lehman College, 250 Bedford Park Boulevard West, The Bronx, NY 10468",
@@ -13604,6 +19344,30 @@ window.EVENTS = {
   {
    "date": "2026-12-18",
    "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:00 PM",
+   "title": "Parejas Disparejas: Lo chistoso del amor",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Saulo García's comedy about the funny side of love, directed by Juan Carlos Talero.",
+   "discipline": "Theater",
+   "genre": "comedy",
+   "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -13612,6 +19376,18 @@ window.EVENTS = {
    "genre": "musical",
    "url": "https://2st.com/shows/the-fantasticks",
    "notes": ""
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
   },
   {
    "date": "2026-12-18",
@@ -13652,6 +19428,30 @@ window.EVENTS = {
   {
    "date": "2026-12-18",
    "time": "7:30 PM",
+   "title": "Juliette Mapp + Vicky Shick",
+   "org": "Danspace Project",
+   "location": "Danspace Project, St. Mark's Church, 131 East 10th St.",
+   "description": "Shared dance program featuring Juliette Mapp and Vicky Shick, listed on the Danspace calendar for Dec 18–19.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://danspaceproject.org/calendar/fw2026-mapp-shick/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:30 PM",
+   "title": "Big Band Holidays",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "The Jazz at Lincoln Center Orchestra under Chris Crenshaw plays swinging holiday favorites with vocalists Georgia Heers and Catherine Russell.",
+   "discipline": "Music",
+   "genre": "holiday jazz big band",
+   "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:30 PM",
    "title": "The Art of the Score: Harry Potter and the Sorcerer's Stone",
    "org": "New York Philharmonic",
    "location": "Wu Tsai Theater, David Geffen Hall at Lincoln Center",
@@ -13659,6 +19459,30 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "film with live orchestra",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:30 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:30 PM",
+   "title": "Samson et Dalila",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Opening of Saint-Saëns's biblical opera with Aigul Akhmetshina and Clay Hilley, conducted by Giacomo Sagripanti.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
    "notes": ""
   },
   {
@@ -13710,28 +19534,16 @@ window.EVENTS = {
    "notes": ""
   },
   {
-   "date": "2026-12-18",
-   "time": "",
-   "title": "Juliette Mapp + Vicky Shick",
-   "org": "Danspace Project",
-   "location": "Danspace Project, St. Mark's Church, 131 East 10th St.",
-   "description": "Shared dance program featuring Juliette Mapp and Vicky Shick, listed on the Danspace calendar for Dec 18–19.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://danspaceproject.org/calendar/fw2026-mapp-shick/",
-   "notes": "Showtime not stated on page text."
-  },
-  {
-   "date": "2026-12-18",
-   "time": "",
-   "title": "Big Band Holidays",
-   "org": "Jazz at Lincoln Center",
-   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "The Jazz at Lincoln Center Orchestra under Chris Crenshaw plays swinging holiday favorites with vocalists Georgia Heers and Catherine Russell.",
-   "discipline": "Music",
-   "genre": "holiday jazz big band",
-   "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": "Run listed as Dec 15–20; individual showtimes not stated."
+   "date": "2026-12-19",
+   "time": "11:00 AM",
+   "title": "Atlantic for Kids: Finn",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "Family production in Atlantic's kids series, beginning its run in December.",
+   "discipline": "Family/Education",
+   "genre": "family theater",
+   "url": "https://atlantictheater.org/production/finn/",
+   "notes": ""
   },
   {
    "date": "2026-12-19",
@@ -13744,6 +19556,18 @@ window.EVENTS = {
    "genre": "family rock concert",
    "url": "https://www.queenstheatre.org/events/the-great-holiday-rock-show-4mm3",
    "notes": "Family event."
+  },
+  {
+   "date": "2026-12-19",
+   "time": "1:00 PM",
+   "title": "The Magic Flute—Holiday Presentation",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Mozart's The Magic Flute presented as a holiday offering.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/the-magic-flute/",
+   "notes": ""
   },
   {
    "date": "2026-12-19",
@@ -13772,6 +19596,18 @@ window.EVENTS = {
   {
    "date": "2026-12-19",
    "time": "2:00 PM",
+   "title": "Big Band Holidays",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "The Jazz at Lincoln Center Orchestra under Chris Crenshaw plays swinging holiday favorites with vocalists Georgia Heers and Catherine Russell.",
+   "discipline": "Music",
+   "genre": "holiday jazz big band",
+   "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -13779,6 +19615,18 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
    "notes": ""
   },
   {
@@ -13795,6 +19643,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-19",
+   "time": "2:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
+  },
+  {
+   "date": "2026-12-19",
    "time": "2:30 PM",
    "title": "Conrad Tao: A Well-Being Concert",
    "org": "Carnegie Hall",
@@ -13804,6 +19664,42 @@ window.EVENTS = {
    "genre": "well-being concert",
    "url": "https://www.carnegiehall.org/calendar/2026/12/19/conrad-tao-0230pm",
    "notes": "Well-Being Concert"
+  },
+  {
+   "date": "2026-12-19",
+   "time": "3:00 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "4:00 PM",
+   "title": "Atlantic for Kids: Finn",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "Family production in Atlantic's kids series, beginning its run in December.",
+   "discipline": "Family/Education",
+   "genre": "family theater",
+   "url": "https://atlantictheater.org/production/finn/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "4:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
   },
   {
    "date": "2026-12-19",
@@ -13831,6 +19727,54 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-19",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "7:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "7:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "7:00 PM",
+   "title": "Parejas Disparejas: Lo chistoso del amor",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Saulo García's comedy about the funny side of love, directed by Juan Carlos Talero.",
+   "discipline": "Theater",
+   "genre": "comedy",
+   "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
    "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
@@ -13840,6 +19784,18 @@ window.EVENTS = {
    "genre": "musical",
    "url": "https://2st.com/shows/the-fantasticks",
    "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "7:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
   },
   {
    "date": "2026-12-19",
@@ -13868,6 +19824,30 @@ window.EVENTS = {
   {
    "date": "2026-12-19",
    "time": "7:30 PM",
+   "title": "Juliette Mapp + Vicky Shick",
+   "org": "Danspace Project",
+   "location": "Danspace Project, St. Mark's Church, 131 East 10th St.",
+   "description": "Shared dance program featuring Juliette Mapp and Vicky Shick, listed on the Danspace calendar for Dec 18–19.",
+   "discipline": "Dance",
+   "genre": "contemporary dance",
+   "url": "https://danspaceproject.org/calendar/fw2026-mapp-shick/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "7:30 PM",
+   "title": "Big Band Holidays",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "The Jazz at Lincoln Center Orchestra under Chris Crenshaw plays swinging holiday favorites with vocalists Georgia Heers and Catherine Russell.",
+   "discipline": "Music",
+   "genre": "holiday jazz big band",
+   "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "7:30 PM",
    "title": "The Art of the Score: Harry Potter and the Sorcerer's Stone",
    "org": "New York Philharmonic",
    "location": "Wu Tsai Theater, David Geffen Hall at Lincoln Center",
@@ -13875,6 +19855,18 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "film with live orchestra",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "7:30 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
    "notes": ""
   },
   {
@@ -13915,15 +19907,27 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-19",
-   "time": "",
-   "title": "Juliette Mapp + Vicky Shick",
-   "org": "Danspace Project",
-   "location": "Danspace Project, St. Mark's Church, 131 East 10th St.",
-   "description": "Shared dance program featuring Juliette Mapp and Vicky Shick, listed on the Danspace calendar for Dec 18–19.",
-   "discipline": "Dance",
-   "genre": "contemporary dance",
-   "url": "https://danspaceproject.org/calendar/fw2026-mapp-shick/",
-   "notes": "Showtime not stated on page text."
+   "time": "8:00 PM",
+   "title": "Maria Stuarda",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Donizetti's opera about Mary, Queen of Scots, first performance of the listed run.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/maria-stuarda/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
   },
   {
    "date": "2026-12-19",
@@ -13940,18 +19944,6 @@ window.EVENTS = {
   {
    "date": "2026-12-19",
    "time": "",
-   "title": "Big Band Holidays",
-   "org": "Jazz at Lincoln Center",
-   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
-   "description": "The Jazz at Lincoln Center Orchestra under Chris Crenshaw plays swinging holiday favorites with vocalists Georgia Heers and Catherine Russell.",
-   "discipline": "Music",
-   "genre": "holiday jazz big band",
-   "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": "Run listed as Dec 15–20; individual showtimes not stated."
-  },
-  {
-   "date": "2026-12-19",
-   "time": "",
    "title": "The La MaMa Family's Winter Wonderland Performance",
    "org": "La MaMa Experimental Theatre Club",
    "location": "La MaMa Experimental Theatre Club",
@@ -13960,6 +19952,18 @@ window.EVENTS = {
    "genre": "family variety",
    "url": "https://lamama.org/the-la-mama-familys-winter-wonderland-performance/",
    "notes": "La MaMa Kids family event, all ages. Time not stated."
+  },
+  {
+   "date": "2026-12-20",
+   "time": "11:00 AM",
+   "title": "Atlantic for Kids: Finn",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "Family production in Atlantic's kids series, beginning its run in December.",
+   "discipline": "Family/Education",
+   "genre": "family theater",
+   "url": "https://atlantictheater.org/production/finn/",
+   "notes": ""
   },
   {
    "date": "2026-12-20",
@@ -13988,6 +19992,18 @@ window.EVENTS = {
   {
    "date": "2026-12-20",
    "time": "2:00 PM",
+   "title": "Arias with a Twist",
+   "org": "HERE",
+   "location": "HERE",
+   "description": "Joey Arias and Basil Twist's musical extravaganza returns to its original home for a limited engagement.",
+   "discipline": "Theater",
+   "genre": "musical puppetry cabaret",
+   "url": "https://here.org/shows/arias-with-a-twist-2026/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "2:00 PM",
    "title": "Big Band Holidays",
    "org": "Jazz at Lincoln Center",
    "location": "Frederick P. Rose Hall, Broadway at 60th Street",
@@ -13995,7 +20011,7 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "holiday jazz big band",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": "Sunday 2pm concert is a relaxed performance."
+   "notes": ""
   },
   {
    "date": "2026-12-20",
@@ -14012,6 +20028,18 @@ window.EVENTS = {
   {
    "date": "2026-12-20",
    "time": "2:00 PM",
+   "title": "Fantasma",
+   "org": "Primary Stages",
+   "location": "59E59 Theaters, 59 East 59th St.",
+   "description": "New play by Benjamin Benne about three generations of women making Guatemalan chuchitos in a Christmas Eve kitchen, exploring memory and the limits of recording it. Directed by Laurie Woolery.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://www.primarystages.org/fantasma",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -14020,6 +20048,66 @@ window.EVENTS = {
    "genre": "musical",
    "url": "https://2st.com/shows/the-fantasticks",
    "notes": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "2:00 PM",
+   "title": "The Magic Flute—Holiday Presentation",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Mozart's The Magic Flute presented as a holiday offering.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/the-magic-flute/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "3:00 PM",
+   "title": "Parejas Disparejas: Lo chistoso del amor",
+   "org": "Repertorio Español",
+   "location": "Repertorio Español, 138 East 27th Street, New York, NY 10016",
+   "description": "Saulo García's comedy about the funny side of love, directed by Juan Carlos Talero.",
+   "discipline": "Theater",
+   "genre": "comedy",
+   "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "3:00 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "4:00 PM",
+   "title": "Atlantic for Kids: Finn",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "Family production in Atlantic's kids series, beginning its run in December.",
+   "discipline": "Family/Education",
+   "genre": "family theater",
+   "url": "https://atlantictheater.org/production/finn/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "4:00 PM",
+   "title": "Navidad en Colombia 2026",
+   "org": "Thalia Spanish Theatre",
+   "location": "Thalia Spanish Theatre, 41-17 Greenpoint Ave, Sunnyside, NY 11104",
+   "description": "Colombian Christmas traditions presented through folkloric music and dance by Mestizo Dance Company, with guest singer María Escobar.",
+   "discipline": "Dance",
+   "genre": "Colombian folkloric music and dance",
+   "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
+   "notes": "weekly schedule assumed from the show page; confirm before attending"
   },
   {
    "date": "2026-12-20",
@@ -14032,6 +20120,18 @@ window.EVENTS = {
    "genre": "well-being concert",
    "url": "https://www.carnegiehall.org/calendar/2026/12/20/joshua-roman-cello-camila-meza-vocals-and-guitar-zane-rodulfo-percussion-0500pm",
    "notes": "Well-Being Concert"
+  },
+  {
+   "date": "2026-12-20",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
   },
   {
    "date": "2026-12-20",
@@ -14068,6 +20168,42 @@ window.EVENTS = {
    "genre": "new musical",
    "url": "https://www.classicstage.org/penelope/",
    "notes": "Engagement runs Dec 10–20; only the Dec 20 showtime is listed on the page. Venue assumed from the theater's address on the page."
+  },
+  {
+   "date": "2026-12-20",
+   "time": "7:00 PM",
+   "title": "Big Band Holidays",
+   "org": "Jazz at Lincoln Center",
+   "location": "Frederick P. Rose Hall, Broadway at 60th Street",
+   "description": "The Jazz at Lincoln Center Orchestra under Chris Crenshaw plays swinging holiday favorites with vocalists Georgia Heers and Catherine Russell.",
+   "discipline": "Music",
+   "genre": "holiday jazz big band",
+   "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-21",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Listed as sold out"
   },
   {
    "date": "2026-12-21",
@@ -14108,6 +20244,18 @@ window.EVENTS = {
   {
    "date": "2026-12-22",
    "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "Listed as sold out"
+  },
+  {
+   "date": "2026-12-22",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -14143,6 +20291,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-22",
+   "time": "7:30 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-22",
+   "time": "7:30 PM",
+   "title": "Maria Stuarda",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Donizetti's opera about Mary, Queen of Scots, first performance of the listed run.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/maria-stuarda/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-22",
    "time": "",
    "title": "Degenerates",
    "org": "Playwrights Horizons",
@@ -14168,6 +20340,18 @@ window.EVENTS = {
   {
    "date": "2026-12-23",
    "time": "2:00 PM",
+   "title": "The Nutcracker Suite",
+   "org": "Dorrance Dance",
+   "location": "NYU Skirball Center, 566 LaGuardia Place, New York, NY",
+   "description": "Dorrance Dance's tap version of the holiday classic, set to the Ellington-Strayhorn arrangement of Tchaikovsky, performed by a large ensemble of tap dancers.",
+   "discipline": "Dance",
+   "genre": "tap dance",
+   "url": "https://www.dorrancedance.com/upcoming-shows/nyu-skirball",
+   "notes": "time not stated."
+  },
+  {
+   "date": "2026-12-23",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -14187,6 +20371,30 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://2st.com/shows/the-fantasticks",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-23",
+   "time": "3:00 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-23",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
    "notes": ""
   },
   {
@@ -14239,15 +20447,39 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-23",
-   "time": "",
-   "title": "The Nutcracker Suite",
-   "org": "Dorrance Dance",
-   "location": "NYU Skirball Center, 566 LaGuardia Place, New York, NY",
-   "description": "Dorrance Dance's tap version of the holiday classic, set to the Ellington-Strayhorn arrangement of Tchaikovsky, performed by a large ensemble of tap dancers.",
+   "time": "7:30 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
    "discipline": "Dance",
-   "genre": "tap dance",
-   "url": "https://www.dorrancedance.com/upcoming-shows/nyu-skirball",
-   "notes": "Page lists a run of Dec 23-27 without individual showtimes; time not stated."
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-23",
+   "time": "7:30 PM",
+   "title": "Samson et Dalila",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Opening of Saint-Saëns's biblical opera with Aigul Akhmetshina and Clay Hilley, conducted by Giacomo Sagripanti.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-24",
+   "time": "12:00 PM",
+   "title": "The Magic Flute—Holiday Presentation",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Mozart's The Magic Flute presented as a holiday offering.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/the-magic-flute/",
+   "notes": ""
   },
   {
    "date": "2026-12-24",
@@ -14287,6 +20519,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-24",
+   "time": "3:00 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-24",
    "time": "7:00 PM",
    "title": "New York String Orchestra",
    "org": "Carnegie Hall",
@@ -14298,28 +20542,16 @@ window.EVENTS = {
    "notes": ""
   },
   {
-   "date": "2026-12-24",
-   "time": "",
-   "title": "The Nutcracker Suite",
-   "org": "Dorrance Dance",
-   "location": "NYU Skirball Center, 566 LaGuardia Place, New York, NY",
-   "description": "Dorrance Dance's tap version of the holiday classic, set to the Ellington-Strayhorn arrangement of Tchaikovsky, performed by a large ensemble of tap dancers.",
-   "discipline": "Dance",
-   "genre": "tap dance",
-   "url": "https://www.dorrancedance.com/upcoming-shows/nyu-skirball",
-   "notes": "Page lists a run of Dec 23-27 without individual showtimes; time not stated."
-  },
-  {
-   "date": "2026-12-25",
-   "time": "",
-   "title": "The Nutcracker Suite",
-   "org": "Dorrance Dance",
-   "location": "NYU Skirball Center, 566 LaGuardia Place, New York, NY",
-   "description": "Dorrance Dance's tap version of the holiday classic, set to the Ellington-Strayhorn arrangement of Tchaikovsky, performed by a large ensemble of tap dancers.",
-   "discipline": "Dance",
-   "genre": "tap dance",
-   "url": "https://www.dorrancedance.com/upcoming-shows/nyu-skirball",
-   "notes": "Page lists a run of Dec 23-27 without individual showtimes; time not stated."
+   "date": "2026-12-26",
+   "time": "12:00 PM",
+   "title": "The Magic Flute—Holiday Presentation",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Mozart's The Magic Flute presented as a holiday offering.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/the-magic-flute/",
+   "notes": ""
   },
   {
    "date": "2026-12-26",
@@ -14359,6 +20591,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-26",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-26",
+   "time": "6:00 PM",
+   "title": "The Magic Flute—Holiday Presentation",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Mozart's The Magic Flute presented as a holiday offering.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/the-magic-flute/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-26",
    "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
@@ -14383,6 +20639,18 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-26",
+   "time": "7:30 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-26",
    "time": "8:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
@@ -14391,6 +20659,18 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-26",
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
    "notes": ""
   },
   {
@@ -14404,18 +20684,6 @@ window.EVENTS = {
    "genre": "Yiddish culture festival",
    "url": "https://ctmd.org/events/yiddish-new-york-13th-annual-festival/",
    "notes": "Festival runs Dec 26–31; start time and individual performance schedule not stated on listing; includes non-performance programming"
-  },
-  {
-   "date": "2026-12-26",
-   "time": "",
-   "title": "The Nutcracker Suite",
-   "org": "Dorrance Dance",
-   "location": "NYU Skirball Center, 566 LaGuardia Place, New York, NY",
-   "description": "Dorrance Dance's tap version of the holiday classic, set to the Ellington-Strayhorn arrangement of Tchaikovsky, performed by a large ensemble of tap dancers.",
-   "discipline": "Dance",
-   "genre": "tap dance",
-   "url": "https://www.dorrancedance.com/upcoming-shows/nyu-skirball",
-   "notes": "Page lists a run of Dec 23-27 without individual showtimes; time not stated."
   },
   {
    "date": "2026-12-27",
@@ -14444,6 +20712,18 @@ window.EVENTS = {
   {
    "date": "2026-12-27",
    "time": "2:00 PM",
+   "title": "The Nutcracker Suite",
+   "org": "Dorrance Dance",
+   "location": "NYU Skirball Center, 566 LaGuardia Place, New York, NY",
+   "description": "Dorrance Dance's tap version of the holiday classic, set to the Ellington-Strayhorn arrangement of Tchaikovsky, performed by a large ensemble of tap dancers.",
+   "discipline": "Dance",
+   "genre": "tap dance",
+   "url": "https://www.dorrancedance.com/upcoming-shows/nyu-skirball",
+   "notes": "time not stated."
+  },
+  {
+   "date": "2026-12-27",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -14451,6 +20731,30 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://2st.com/shows/the-fantasticks",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-27",
+   "time": "3:00 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-27",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
    "notes": ""
   },
   {
@@ -14479,15 +20783,39 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-27",
-   "time": "",
-   "title": "The Nutcracker Suite",
-   "org": "Dorrance Dance",
-   "location": "NYU Skirball Center, 566 LaGuardia Place, New York, NY",
-   "description": "Dorrance Dance's tap version of the holiday classic, set to the Ellington-Strayhorn arrangement of Tchaikovsky, performed by a large ensemble of tap dancers.",
+   "time": "7:30 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
    "discipline": "Dance",
-   "genre": "tap dance",
-   "url": "https://www.dorrancedance.com/upcoming-shows/nyu-skirball",
-   "notes": "Page lists a run of Dec 23-27 without individual showtimes; time not stated."
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-27",
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-28",
+   "time": "11:00 AM",
+   "title": "The Magic Flute—Holiday Presentation",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Mozart's The Magic Flute presented as a holiday offering.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/the-magic-flute/",
+   "notes": ""
   },
   {
    "date": "2026-12-28",
@@ -14499,6 +20827,18 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-28",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
    "notes": ""
   },
   {
@@ -14540,6 +20880,18 @@ window.EVENTS = {
   {
    "date": "2026-12-29",
    "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-29",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -14572,6 +20924,30 @@ window.EVENTS = {
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122926",
    "notes": "All Ailey"
+  },
+  {
+   "date": "2026-12-29",
+   "time": "7:30 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-30",
+   "time": "12:00 PM",
+   "title": "The Magic Flute—Holiday Presentation",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Mozart's The Magic Flute presented as a holiday offering.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/the-magic-flute/",
+   "notes": ""
   },
   {
    "date": "2026-12-30",
@@ -14612,6 +20988,18 @@ window.EVENTS = {
   {
    "date": "2026-12-30",
    "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-30",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -14646,6 +21034,18 @@ window.EVENTS = {
    "notes": "All New Works"
   },
   {
+   "date": "2026-12-30",
+   "time": "7:30 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
    "date": "2026-12-31",
    "time": "2:00 PM",
    "title": "Ailey at New York City Center",
@@ -14671,6 +21071,30 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-31",
+   "time": "4:00 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-31",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-31",
    "time": "6:30 PM",
    "title": "La Fanciulla del West",
    "org": "The Metropolitan Opera",
@@ -14679,7 +21103,7 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera, new production",
    "url": "https://www.metopera.org/season/2026-27-season/la-fanciulla-del-west/",
-   "notes": "First date of a run through Jan 30"
+   "notes": ""
   },
   {
    "date": "2026-12-31",
@@ -14696,6 +21120,18 @@ window.EVENTS = {
   {
    "date": "2027-01-01",
    "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-01",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -14703,6 +21139,18 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://2st.com/shows/the-fantasticks",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-02",
+   "time": "12:00 PM",
+   "title": "The Magic Flute—Holiday Presentation",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Mozart's The Magic Flute presented as a holiday offering.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/the-magic-flute/",
    "notes": ""
   },
   {
@@ -14755,6 +21203,54 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-02",
+   "time": "3:00 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-02",
+   "time": "4:00 PM",
+   "title": "Atlantic for Kids: Finn",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "Family production in Atlantic's kids series, beginning its run in December.",
+   "discipline": "Family/Education",
+   "genre": "family theater",
+   "url": "https://atlantictheater.org/production/finn/",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-02",
+   "time": "5:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-02",
+   "time": "6:00 PM",
+   "title": "The Magic Flute—Holiday Presentation",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Mozart's The Magic Flute presented as a holiday offering.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/the-magic-flute/",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-02",
    "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
@@ -14791,6 +21287,18 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-02",
+   "time": "7:30 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-02",
    "time": "8:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
@@ -14800,6 +21308,30 @@ window.EVENTS = {
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
    "notes": "Final scheduled evening performance"
+  },
+  {
+   "date": "2027-01-02",
+   "time": "8:30 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-03",
+   "time": "11:00 AM",
+   "title": "Atlantic for Kids: Finn",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "Family production in Atlantic's kids series, beginning its run in December.",
+   "discipline": "Family/Education",
+   "genre": "family theater",
+   "url": "https://atlantictheater.org/production/finn/",
+   "notes": ""
   },
   {
    "date": "2027-01-03",
@@ -14851,6 +21383,30 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-03",
+   "time": "3:00 PM",
+   "title": "Les Ballets Trockadero de Monte Carlo",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "The comic, gender-bending ballet company returns for a three-week holiday season.",
+   "discipline": "Dance",
+   "genre": "comic ballet",
+   "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-03",
+   "time": "4:00 PM",
+   "title": "Atlantic for Kids: Finn",
+   "org": "Atlantic Theater Company",
+   "location": "Atlantic Theater Company (specific venue not stated on page)",
+   "description": "Family production in Atlantic's kids series, beginning its run in December.",
+   "discipline": "Family/Education",
+   "genre": "family theater",
+   "url": "https://atlantictheater.org/production/finn/",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-03",
    "time": "7:00 PM",
    "title": "Ailey at New York City Center",
    "org": "AILEY",
@@ -14872,6 +21428,18 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://entertainmentcommunity.org/events/other-desert-cities-special-benefit-performance",
    "notes": "Benefit performance for Entertainment Community Fund."
+  },
+  {
+   "date": "2027-01-03",
+   "time": "7:00 PM",
+   "title": "The Dead, 1904",
+   "org": "Irish Repertory Theatre",
+   "location": "The American Irish Historical Society",
+   "description": "Irish Rep presents The Dead, 1904 at the American Irish Historical Society.",
+   "discipline": "Theater",
+   "genre": "",
+   "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": ""
   },
   {
    "date": "2027-01-03",
@@ -14899,6 +21467,30 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-05",
+   "time": "7:30 PM",
+   "title": "Sekou McMiller & Friends: Palladium Nights",
+   "org": "The Joyce Theater",
+   "location": "The Joyce Theater",
+   "description": "Celebration of the golden age of Latin dance and music, the group's first Joyce appearance.",
+   "discipline": "Dance",
+   "genre": "Latin dance and music",
+   "url": "https://www.joyce.org/performances/sekou-mcmiller-and-friends-7z58",
+   "notes": "live music"
+  },
+  {
+   "date": "2027-01-05",
+   "time": "7:30 PM",
+   "title": "La Fanciulla del West",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "New production of Puccini's Gold Rush-era opera, first performance of the listed run.",
+   "discipline": "Opera",
+   "genre": "opera, new production",
+   "url": "https://www.metopera.org/season/2026-27-season/la-fanciulla-del-west/",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-05",
    "time": "",
    "title": "Mix and Master",
    "org": "Roundabout Theatre Company",
@@ -14910,8 +21502,8 @@ window.EVENTS = {
    "notes": "Run Jan. 5 – Feb. 28, 2027. Venue, showtimes and description not stated on the page; only the run start date is in the window."
   },
   {
-   "date": "2027-01-05",
-   "time": "",
+   "date": "2027-01-06",
+   "time": "7:30 PM",
    "title": "Sekou McMiller & Friends: Palladium Nights",
    "org": "The Joyce Theater",
    "location": "The Joyce Theater",
@@ -14919,7 +21511,19 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Latin dance and music",
    "url": "https://www.joyce.org/performances/sekou-mcmiller-and-friends-7z58",
-   "notes": "Run Jan 5–10 (only the opening date falls in window start); live music; individual showtimes not given on page."
+   "notes": "live music"
+  },
+  {
+   "date": "2027-01-06",
+   "time": "7:30 PM",
+   "title": "Tosca",
+   "org": "The Metropolitan Opera",
+   "location": "Metropolitan Opera",
+   "description": "Puccini's thriller about a jealous diva, her painter lover and a ruthless police chief, in the Met's grand production.",
+   "discipline": "Opera",
+   "genre": "opera",
+   "url": "https://www.metopera.org/season/2026-27-season/tosca/",
+   "notes": ""
   }
  ]
 };
