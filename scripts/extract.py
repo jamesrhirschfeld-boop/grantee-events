@@ -76,6 +76,18 @@ def window(days):
     return today, today, today + dt.timedelta(days=days)
 
 
+def dedupe(events):
+    """The same performance often appears on several pages (festival page, artist page, calendar). Keep one entry per
+    title, date and start time: the one with the fullest location, a link and the longest description."""
+    best = {}
+    for e in events:
+        k = ((e.get("title") or "").strip().lower(), e.get("date"), (e.get("start_time") or "").strip().lower())
+        score = (len(e.get("location") or ""), bool(e.get("url")), len(e.get("description") or ""))
+        if k not in best or score > best[k][0]:
+            best[k] = (score, e)
+    return [v[1] for v in best.values()]
+
+
 def extract_org(client, raw, days, scope="", strict=False):
     today, start, end = window(days)
     pages = "\n\n".join(f"=== PAGE {p['url']} ===\n{p['text']}" for p in raw["pages"])
@@ -102,7 +114,7 @@ def extract_org(client, raw, days, scope="", strict=False):
                 "listing only if it appears complete in this part.)"
             )
         events += extract_chunk(client, prompt + note, chunk)
-    return events
+    return dedupe(events)
 
 
 class Truncated(Exception):

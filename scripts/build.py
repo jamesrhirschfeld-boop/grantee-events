@@ -103,6 +103,11 @@ def _same_event(a, b, org_names):
         return True
     if len(_tokens(a["title"]) & _tokens(b["title"])) >= 2:
         return True
+    # One title is the other plus a subtitle or a presenter ("adaku, part 2" / "adaku, part 2: she shivers with it").
+    nx, ny = re.sub(r"[^a-z0-9]+", " ", x).strip(), re.sub(r"[^a-z0-9]+", " ", y).strip()
+    short, long_ = sorted((nx, ny), key=len)
+    if len(short) >= 5 and (long_.startswith(short + " ") or long_.endswith(" " + short)):
+        return True
     # One organization presenting at the other's venue (e.g. a Philharmonic concert listed by Carnegie Hall too):
     # same date and time, and one listing's location names the other organization.
     if ta and tb:
