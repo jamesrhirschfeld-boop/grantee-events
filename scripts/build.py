@@ -144,6 +144,7 @@ def merge_cross_org(events, own_only, org_names, generic_urls):
         also = e.pop("_also", None)
         if also:
             e["notes"] = (e["notes"] + "; " if e["notes"] else "") + "also listed by " + ", ".join(also)
+            e["also"] = sorted(also)  # the page's organization filter also matches these
     return out
 
 
@@ -286,7 +287,7 @@ def main():
     for e in unique:
         e.pop("_sort")
 
-    listed = sorted({e["org"] for e in unique}, key=str.lower)
+    listed = sorted({e["org"] for e in unique} | {o for e in unique for o in e.get("also", [])}, key=str.lower)
     coverage = {
         "total": len(sources),
         "with_events": len(listed),

@@ -278,14 +278,14 @@
     var list = $("list");
     list.textContent = "";
     var shown = data.events.filter(function (e) {
-      if (org && e.org !== org) return false;
+      if (org && e.org !== org && (e.also || []).indexOf(org) === -1) return false;
       if (disc && e.discipline !== disc) return false;
       if (po && e.officer !== po) return false;
       if (from && e.date < from) return false;
       if (to && e.date > to) return false;
       if (mat && !isMatinee(e)) return false;
       if (q) {
-        var hay = (e.title + " " + e.location + " " + e.description + " " + e.org + " " + e.genre).toLowerCase();
+        var hay = (e.title + " " + e.location + " " + e.description + " " + e.org + " " + (e.also || []).join(" ") + " " + e.genre).toLowerCase();
         if (hay.indexOf(q) === -1) return false;
       }
       return true;
