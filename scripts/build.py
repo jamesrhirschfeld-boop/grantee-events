@@ -33,6 +33,21 @@ def parse_time(s):
     return h * 60 + mi
 
 
+# Notes the extractor writes when it only had a run or a first date. Once an entry has its own date and time they are
+# misleading, so they are dropped (the rest of the note, e.g. "free", "sold out", stays).
+_STALE = re.compile(r"showtimes? (is |are )?not stated|no individual|individual (show)?times? not|only the (first|next|start)|"
+                    r"first date in the window|next occurrence|run continues|only the dates|listed separately|"
+                    r"page gives (no|the run)|^run\b|world premiere run|runs? (nov|dec|jan|oct)", re.I)
+
+
+def tidy_notes(notes, has_time):
+    if not has_time or not notes:
+        return notes
+    parts = [x.strip() for x in re.split(r"(?<=[.;])\s+|;\s*", notes) if x.strip()]
+    keep = [x for x in parts if not _STALE.search(x)]
+    return "; ".join(x.rstrip(".") for x in keep).strip()
+
+
 def clean(ev, org, default_discipline, start, end):
     try:
         date = dt.date.fromisoformat(ev["date"])
@@ -63,7 +78,7 @@ def clean(ev, org, default_discipline, start, end):
         "discipline": disc,
         "genre": (ev.get("genre") or "").strip(),
         "url": url,
-        "notes": (ev.get("notes") or "").strip(),
+        "notes": tidy_notes((ev.get("notes") or "").strip(), bool(t)),
         "_sort": (date.isoformat(), parse_time(t) if parse_time(t) is not None else 9999),
     }
 

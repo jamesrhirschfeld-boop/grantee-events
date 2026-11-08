@@ -158,7 +158,7 @@ def is_run_event(e, listing_urls, site_domains, reg_domain):
     return bool(RUN_NOTE.search(e.get("notes") or "")) or e.get("discipline") == "Theater"
 
 
-ASSUMED_NOTE = "weekly schedule assumed from the show page; confirm before attending"
+ASSUMED_NOTE = "weekly schedule assumed from the show page, so confirm before attending"
 
 
 def build_events(proto, pairs, assumed=()):
