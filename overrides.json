@@ -101,5 +101,17 @@
     "own_events_only": true,
     "notes": "Formerly FIAF; the old address fiaf.org refuses automated readers (403), lallianceny.org loads fine. Only the Crossing the Line festival is wanted; the festival page links each artist's performance page.",
     "scope": "Include only performances that are part of the Crossing The Line festival (the festival's own lineup of performances, produced by L'Alliance New York with partners). Exclude everything else on the site: film screenings and series, talks, classes, Family Saturdays, Bastille Day, galas, awards, library and language-center events. Exclude festival performances outside the five boroughs (for example PS21 in Chatham, New York)."
+  },
+  "irish-arts-center": {
+    "pages": [
+      {
+        "url": "https://irishartscenter.org/whats-on",
+        "follow_links_matching": "/event/",
+        "max_follow": 25
+      }
+    ],
+    "verified": true,
+    "notes": "Calendar at /whats-on is readable; each entry links to an event page with dates, times and location. Borderline literary and listening events are included on purpose.",
+    "scope": "Include live performances open to the public at Irish Arts Center and its partner venues in New York City: music concerts and sessions (including the recurring free Big City Folk Song Club and Traditional Irish Sessions in the Café, listed on their stated dates), dance and theatre productions, and literary events built around live readings or performance (for example PoetryFest and its Friday launch reading, and listening parties that include a live musical performance), with a note saying what kind of event it is. Exclude exhibitions and installations, residencies, classes and workshops, gift cards, and conversations or talks with no performance."
   }
 }
