@@ -270,6 +270,7 @@ def scrape_source(ctx, src, end, days):
                         pats = [pats] if isinstance(pats, str) else pats
                         if (
                             any(pt in href for pt in pats)
+                            and not any(x in href for x in (spec.get("follow_links_exclude") or []))
                             and urlparse(href).netloc == base
                             and href != url
                             and href not in seen

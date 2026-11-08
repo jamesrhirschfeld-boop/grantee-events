@@ -113,5 +113,40 @@
     "verified": true,
     "notes": "Calendar at /whats-on is readable; each entry links to an event page with dates, times and location. Borderline literary and listening events are included on purpose.",
     "scope": "Include live performances open to the public at Irish Arts Center and its partner venues in New York City: music concerts and sessions (including the recurring free Big City Folk Song Club and Traditional Irish Sessions in the Café, listed on their stated dates), dance and theatre productions, and literary events built around live readings or performance (for example PoetryFest and its Friday launch reading, and listening parties that include a live musical performance), with a note saying what kind of event it is. Exclude exhibitions and installations, residencies, classes and workshops, gift cards, and conversations or talks with no performance."
+  },
+  "working-theater": {
+    "pages": [
+      {
+        "url": "https://www.theworkingtheater.org/happenings",
+        "follow_links_matching": "theworkingtheater.org/",
+        "follow_links_exclude": [
+          "/s/",
+          "/donate",
+          "/cart",
+          "/mailinglist",
+          "/staff",
+          "/board",
+          "/supporters",
+          "/reports",
+          "/history",
+          "/mission",
+          "/news",
+          "/aboutus",
+          "/ourwork",
+          "/joinin",
+          "/happenings",
+          "/season42",
+          "/slidingscale",
+          "/training",
+          "/brickbybrick",
+          "/workwithus",
+          "/mpcfapplications",
+          "/contact"
+        ],
+        "max_follow": 12
+      }
+    ],
+    "verified": true,
+    "notes": "The season page (/happenings) is a set of image tiles with no text; each tile links to a show page that gives its date. The scraper follows those pages. Tickets are sold through OvationTix, but dates are on Working Theater's own pages."
   }
 }
