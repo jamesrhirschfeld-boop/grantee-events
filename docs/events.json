@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T17:02:47+00:00",
+ "generated_at": "2026-11-08T17:24:27+00:00",
  "window": {
   "start": "2026-11-08",
   "end": "2027-01-07"
@@ -47,6 +47,7 @@
   "FRIGID New York",
   "Gallim Dance",
   "Gibney Dance",
+  "Haiti Cultural Exchange",
   "HBArts Collective",
   "HERE",
   "Houses On The Moon Theater Co.",
@@ -256,6 +257,7 @@
   "INTAR": 3,
   "ID Studio Theater": 2,
   "Lotus Music & Dance": 2,
+  "Haiti Cultural Exchange": 4,
   "Calpulli Mexican Dance Company": 5,
   "Thalia Spanish Theatre": 20,
   "Theatre of the Oppressed NYC": 1,
@@ -1226,9 +1228,8 @@
    "reason": "no_calendar_found"
   },
   "Haiti Cultural Exchange": {
-   "status": "empty",
-   "events": 0,
-   "reason": "no performances listed in the window"
+   "status": "ok",
+   "events": 4
   },
   "WHEDco, Bronx Music Heritage Center (BMHC), Bronx Music Hall (BMH)": {
    "status": "empty",
@@ -1502,8 +1503,8 @@
  },
  "coverage": {
   "total": 271,
-  "with_events": 135,
-  "no_events": 107,
+  "with_events": 136,
+  "no_events": 106,
   "no_source": 22,
   "blocked": 7,
   "failed": 0
@@ -1829,10 +1830,6 @@
    {
     "name": "Chinese Theatre Works",
     "site": "https://chinesetheatreworks.org"
-   },
-   {
-    "name": "Haiti Cultural Exchange",
-    "site": "https://www.haiticulturalx.org"
    },
    {
     "name": "WHEDco, Bronx Music Heritage Center (BMHC), Bronx Music Hall (BMH)",
@@ -3800,6 +3797,18 @@
    "genre": "new music",
    "url": "https://pacnyc.org/whats-on/new-music-from-washington-and-jackson/",
    "notes": "Free Music at PAC NYC series; RSVP offered"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "6:30 PM",
+   "title": "Mizik Ayiti! Residency Late Fall Series | Bonga & Sanba Kebyesou Danlè",
+   "org": "Haiti Cultural Exchange",
+   "location": "Haiti Cultural Exchange, 35 Lafayette Ave, Brooklyn, NY 11217",
+   "description": "Thursday-night residency concert with Haitian drum masters Bonga and Sanba Kebyesou Danlè, performing rasin and Vodou-jazz repertoire with rotating guest musicians.",
+   "discipline": "Music",
+   "genre": "Haitian rasin / Vodou jazz",
+   "url": "https://haiticulturalx.org/event/mizik-ayiti-residency-late-fall-series-bonga-sanba-kebyesou-danle/",
+   "notes": "Doors at 6 PM; 45-minute sets at 6:30 PM and 7:45 PM; Ticketed (includes a complimentary beverage); limited capacity, RSVP strongly recommended"
   },
   {
    "date": "2026-11-12",
@@ -8082,6 +8091,18 @@
    "genre": "classical",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/wanhal-britten-and-reinecke",
    "notes": "Rose Studio Series"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "6:30 PM",
+   "title": "Mizik Ayiti! Residency Late Fall Series | Bonga & Sanba Kebyesou Danlè",
+   "org": "Haiti Cultural Exchange",
+   "location": "Haiti Cultural Exchange, 35 Lafayette Ave, Brooklyn, NY 11217",
+   "description": "Thursday-night residency concert with Haitian drum masters Bonga and Sanba Kebyesou Danlè, performing rasin and Vodou-jazz repertoire with rotating guest musicians.",
+   "discipline": "Music",
+   "genre": "Haitian rasin / Vodou jazz",
+   "url": "https://haiticulturalx.org/event/mizik-ayiti-residency-late-fall-series-bonga-sanba-kebyesou-danle/",
+   "notes": "Doors at 6 PM; 45-minute sets at 6:30 PM and 7:45 PM; Ticketed (includes a complimentary beverage); limited capacity, RSVP strongly recommended"
   },
   {
    "date": "2026-11-19",
@@ -13800,6 +13821,18 @@
   },
   {
    "date": "2026-12-03",
+   "time": "6:30 PM",
+   "title": "Mizik Ayiti! Residency Late Fall Series | Bonga & Sanba Kebyesou Danlè",
+   "org": "Haiti Cultural Exchange",
+   "location": "Haiti Cultural Exchange, 35 Lafayette Ave, Brooklyn, NY 11217",
+   "description": "Thursday-night residency concert with Haitian drum masters Bonga and Sanba Kebyesou Danlè, performing rasin and Vodou-jazz repertoire with rotating guest musicians.",
+   "discipline": "Music",
+   "genre": "Haitian rasin / Vodou jazz",
+   "url": "https://haiticulturalx.org/event/mizik-ayiti-residency-late-fall-series-bonga-sanba-kebyesou-danle/",
+   "notes": "Doors at 6 PM; 45-minute sets at 6:30 PM and 7:45 PM; Ticketed (includes a complimentary beverage); limited capacity, RSVP strongly recommended"
+  },
+  {
+   "date": "2026-12-03",
    "time": "7:00 PM",
    "title": "Arias with a Twist",
    "org": "HERE",
@@ -16596,6 +16629,18 @@
    "genre": "new play",
    "url": "https://www.ensemblestudiotheatre.org/show-details/first-light-things-we-burn-for-love-by-marcus-yi",
    "notes": "RSVP required; venue address not stated on page; format not described"
+  },
+  {
+   "date": "2026-12-10",
+   "time": "6:30 PM",
+   "title": "Mizik Ayiti! Residency Late Fall Series | Bonga & Sanba Kebyesou Danlè",
+   "org": "Haiti Cultural Exchange",
+   "location": "Haiti Cultural Exchange, 35 Lafayette Ave, Brooklyn, NY 11217",
+   "description": "Thursday-night residency concert with Haitian drum masters Bonga and Sanba Kebyesou Danlè, performing rasin and Vodou-jazz repertoire with rotating guest musicians.",
+   "discipline": "Music",
+   "genre": "Haitian rasin / Vodou jazz",
+   "url": "https://haiticulturalx.org/event/mizik-ayiti-residency-late-fall-series-bonga-sanba-kebyesou-danle/",
+   "notes": "Doors at 6 PM; 45-minute sets at 6:30 PM and 7:45 PM; Ticketed (includes a complimentary beverage); limited capacity, RSVP strongly recommended; Final night of the series"
   },
   {
    "date": "2026-12-10",
