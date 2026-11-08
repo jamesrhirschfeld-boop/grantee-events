@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T00:55:04+00:00",
+ "generated_at": "2026-11-08T00:55:42+00:00",
  "window": {
   "start": "2026-11-07",
   "end": "2027-01-06"
@@ -30,6 +30,7 @@
   "Center for Traditional Music and Dance",
   "Chamber Music Society of Lincoln Center",
   "Classic Stage Company",
+  "Composers Now",
   "Culture Lab LIC",
   "CultureHub",
   "Dance Heginbotham",
@@ -39,6 +40,7 @@
   "En Garde Arts",
   "Ensemble Studio Theatre",
   "Entertainment Community Fund",
+  "EPIC Players",
   "ETHEL",
   "Fiasco Theater",
   "Flamenco Vivo Carlota Santana",
@@ -1501,7 +1503,7 @@
  },
  "coverage": {
   "total": 271,
-  "with_events": 134,
+  "with_events": 136,
   "no_events": 106,
   "no_source": 22,
   "blocked": 7,
@@ -2150,7 +2152,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/lincoln-in-the-bardo/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-07",
@@ -2222,7 +2227,10 @@
    "discipline": "Family/Education",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/ypc-nov",
-   "notes": "Young People's Concert; also listed by New York Philharmonic"
+   "notes": "Young People's Concert; also listed by New York Philharmonic",
+   "also": [
+    "New York Philharmonic"
+   ]
   },
   {
    "date": "2026-11-07",
@@ -2522,7 +2530,10 @@
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21693/",
-   "notes": "Based on Dizzy's general 7PM & 9PM nightly shows; also listed by Lincoln Center for the Performing Arts"
+   "notes": "Based on Dizzy's general 7PM & 9PM nightly shows; also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-07",
@@ -2726,7 +2737,10 @@
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/gershwins-an-american-in-paris",
-   "notes": "also listed by Lincoln Center for the Performing Arts"
+   "notes": "also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-07",
@@ -2810,7 +2824,10 @@
    "discipline": "Music",
    "genre": "classical orchestral",
    "url": "https://www.nyphil.org/concerts-tickets/2627/thibaudet-performs-liszt",
-   "notes": "also listed by New York Philharmonic"
+   "notes": "also listed by New York Philharmonic",
+   "also": [
+    "New York Philharmonic"
+   ]
   },
   {
    "date": "2026-11-07",
@@ -2954,7 +2971,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/medea/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-07",
@@ -3086,7 +3106,10 @@
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21693/",
-   "notes": "Based on Dizzy's general 7PM & 9PM nightly shows; also listed by Lincoln Center for the Performing Arts"
+   "notes": "Based on Dizzy's general 7PM & 9PM nightly shows; also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-07",
@@ -3158,7 +3181,10 @@
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.flushingtownhall.org/show-details/queens-jazz-orchestra-the-jimmy-heath-centennial-concert",
-   "notes": "Start time not stated on page. Table packages with wine and charcuterie available. Tickets: https://ci.ovationtix.com/35689/production/1286563; also listed by Lincoln Center for the Performing Arts"
+   "notes": "Start time not stated on page. Table packages with wine and charcuterie available. Tickets: https://ci.ovationtix.com/35689/production/1286563; also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-07",
@@ -3170,7 +3196,10 @@
    "discipline": "Family/Education",
    "genre": "jazz big band",
    "url": "https://jazz.org/concert/family-concert-who-is-duke-ellington/",
-   "notes": "Family concert, relaxed performance. Showtime not stated.; also listed by Lincoln Center for the Performing Arts"
+   "notes": "Family concert, relaxed performance. Showtime not stated.; also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-07",
@@ -3734,7 +3763,10 @@
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21698/",
-   "notes": "Based on Dizzy's general 7PM & 9PM nightly shows; also listed by Lincoln Center for the Performing Arts"
+   "notes": "Based on Dizzy's general 7PM & 9PM nightly shows; also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-09",
@@ -3806,7 +3838,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/tosca/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-09",
@@ -3830,7 +3865,10 @@
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21698/",
-   "notes": "Based on Dizzy's general 7PM & 9PM nightly shows; also listed by Lincoln Center for the Performing Arts"
+   "notes": "Based on Dizzy's general 7PM & 9PM nightly shows; also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-09",
@@ -4082,7 +4120,10 @@
    "discipline": "Music",
    "genre": "contemporary classical",
    "url": "https://www.carnegiehall.org/calendar/2026/11/10/juilliard-at-zankel-hall-0730pm",
-   "notes": "also listed by Lincoln Center for the Performing Arts"
+   "notes": "also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-10",
@@ -4106,7 +4147,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/medea/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-10",
@@ -4358,7 +4402,10 @@
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.joyce.org/performances/gallim-rhr7",
-   "notes": "Page ties opening night to the Dream Gala (gala party at 8:45 PM is a fundraiser and not included); the opening night link goes to gala tickets; Regular tickets via the Joyce; also listed by The Joyce Theater"
+   "notes": "Page ties opening night to the Dream Gala (gala party at 8:45 PM is a fundraiser and not included); the opening night link goes to gala tickets; Regular tickets via the Joyce; also listed by The Joyce Theater",
+   "also": [
+    "The Joyce Theater"
+   ]
   },
   {
    "date": "2026-11-11",
@@ -4526,7 +4573,10 @@
    "discipline": "Dance",
    "genre": "dance-theater",
    "url": "https://www.bam.org/dance/2026/adaku2",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-11",
@@ -4550,7 +4600,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/lincoln-in-the-bardo/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-11",
@@ -5066,7 +5119,10 @@
    "discipline": "Music",
    "genre": "classical",
    "url": "https://aconyc.org/season-42/capricious/",
-   "notes": "Season 42 concert; also listed by Lincoln Center for the Performing Arts"
+   "notes": "Season 42 concert; also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-12",
@@ -5090,7 +5146,10 @@
    "discipline": "Dance",
    "genre": "dance-theater",
    "url": "https://www.bam.org/dance/2026/adaku2",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-12",
@@ -5102,7 +5161,10 @@
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/sonic-spectrum-i",
-   "notes": "also listed by Lincoln Center for the Performing Arts"
+   "notes": "also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-12",
@@ -5126,7 +5188,10 @@
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8714",
-   "notes": "Includes curtain chat; also listed by The Joyce Theater"
+   "notes": "Includes curtain chat; also listed by The Joyce Theater",
+   "also": [
+    "The Joyce Theater"
+   ]
   },
   {
    "date": "2026-11-12",
@@ -5750,7 +5815,10 @@
    "discipline": "Dance",
    "genre": "dance-theater",
    "url": "https://www.bam.org/dance/2026/adaku2",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-13",
@@ -5762,7 +5830,10 @@
    "discipline": "Opera",
    "genre": "opera in concert",
    "url": "https://www.carnegiehall.org/calendar/2026/11/13/new-york-philharmonic-0730pm",
-   "notes": "also listed by New York Philharmonic"
+   "notes": "also listed by New York Philharmonic",
+   "also": [
+    "New York Philharmonic"
+   ]
   },
   {
    "date": "2026-11-13",
@@ -5774,7 +5845,10 @@
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8715",
-   "notes": "also listed by The Joyce Theater"
+   "notes": "also listed by The Joyce Theater",
+   "also": [
+    "The Joyce Theater"
+   ]
   },
   {
    "date": "2026-11-13",
@@ -5810,7 +5884,10 @@
    "discipline": "Music",
    "genre": "Latin jazz / salsa",
    "url": "https://jazz.org/concert/the-eddie-palmieri-experience-an-all-star-celebration/",
-   "notes": "also listed by Lincoln Center for the Performing Arts"
+   "notes": "also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-13",
@@ -5822,7 +5899,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/medea/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-13",
@@ -6110,7 +6190,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/tosca/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-14",
@@ -6194,7 +6277,10 @@
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8716",
-   "notes": "Matinee; also listed by The Joyce Theater"
+   "notes": "Matinee; also listed by The Joyce Theater",
+   "also": [
+    "The Joyce Theater"
+   ]
   },
   {
    "date": "2026-11-14",
@@ -6770,7 +6856,10 @@
    "discipline": "Dance",
    "genre": "dance-theater",
    "url": "https://www.bam.org/dance/2026/adaku2",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-14",
@@ -6794,7 +6883,10 @@
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8717",
-   "notes": "also listed by The Joyce Theater"
+   "notes": "also listed by The Joyce Theater",
+   "also": [
+    "The Joyce Theater"
+   ]
   },
   {
    "date": "2026-11-14",
@@ -6842,7 +6934,10 @@
    "discipline": "Music",
    "genre": "Latin jazz / salsa",
    "url": "https://jazz.org/concert/the-eddie-palmieri-experience-an-all-star-celebration/",
-   "notes": "also listed by Lincoln Center for the Performing Arts"
+   "notes": "also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-14",
@@ -6950,7 +7045,10 @@
    "discipline": "Opera",
    "genre": "contemporary opera",
    "url": "https://www.metopera.org/season/2026-27-season/lincoln-in-the-bardo/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-14",
@@ -7202,7 +7300,11 @@
    "discipline": "Opera",
    "genre": "opera in concert",
    "url": "https://www.carnegiehall.org/calendar/2026/11/15/new-york-philharmonic-0200pm",
-   "notes": "also listed by Lincoln Center for the Performing Arts, New York Philharmonic"
+   "notes": "also listed by Lincoln Center for the Performing Arts, New York Philharmonic",
+   "also": [
+    "Lincoln Center for the Performing Arts",
+    "New York Philharmonic"
+   ]
   },
   {
    "date": "2026-11-15",
@@ -7226,7 +7328,10 @@
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8718",
-   "notes": "Matinee; also listed by The Joyce Theater"
+   "notes": "Matinee; also listed by The Joyce Theater",
+   "also": [
+    "The Joyce Theater"
+   ]
   },
   {
    "date": "2026-11-15",
@@ -7334,7 +7439,10 @@
    "discipline": "Dance",
    "genre": "dance-theater",
    "url": "https://www.bam.org/dance/2026/adaku2",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-15",
@@ -7418,7 +7526,10 @@
    "discipline": "Music",
    "genre": "Latin soul",
    "url": "https://kupferbergcenter.org/event/salcedo/",
-   "notes": "also listed by New Music USA"
+   "notes": "also listed by New Music USA",
+   "also": [
+    "New Music USA"
+   ]
   },
   {
    "date": "2026-11-15",
@@ -7538,7 +7649,10 @@
    "discipline": "Music",
    "genre": "classical string quartet",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/the-schumann-quartett",
-   "notes": "Quartet Series; also listed by Lincoln Center for the Performing Arts"
+   "notes": "Quartet Series; also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-15",
@@ -7754,7 +7868,10 @@
    "discipline": "Music",
    "genre": "classical, new music",
    "url": "https://harlemchamberplayers.org/event/composers-now-cheswatyr-commissions-concert-2026",
-   "notes": "Listed end time 7:00 PM; also listed by Composers Now"
+   "notes": "Listed end time 7:00 PM; also listed by Composers Now",
+   "also": [
+    "Composers Now"
+   ]
   },
   {
    "date": "2026-11-16",
@@ -7838,7 +7955,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-16",
@@ -8186,7 +8306,10 @@
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/faures-second-piano-quartet",
-   "notes": "also listed by Lincoln Center for the Performing Arts"
+   "notes": "also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-17",
@@ -8198,7 +8321,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/tosca/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-17",
@@ -8606,7 +8732,10 @@
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-18",
@@ -8654,7 +8783,10 @@
    "discipline": "Opera",
    "genre": "accessible opera",
    "url": "https://www.nationalsawdust.org/event/opera-praktikos-presents-la-sonnambula",
-   "notes": "Part of makemake; also listed by New Music USA"
+   "notes": "Part of makemake; also listed by New Music USA",
+   "also": [
+    "New Music USA"
+   ]
   },
   {
    "date": "2026-11-18",
@@ -8702,7 +8834,10 @@
    "discipline": "Music",
    "genre": "contemporary",
    "url": "https://iceorg.org/events/2026/11/18/qasim-naqvi-slow-television",
-   "notes": "Page provides no program description; also listed by Roulette"
+   "notes": "Page provides no program description; also listed by Roulette",
+   "also": [
+    "Roulette"
+   ]
   },
   {
    "date": "2026-11-18",
@@ -9122,7 +9257,10 @@
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-19",
@@ -9386,7 +9524,10 @@
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/gonzalez-monjas-conducts",
-   "notes": "Month inferred from page order (listing shows only '20'); also listed by New York Philharmonic"
+   "notes": "Month inferred from page order (listing shows only '20'); also listed by New York Philharmonic",
+   "also": [
+    "New York Philharmonic"
+   ]
   },
   {
    "date": "2026-11-20",
@@ -9806,7 +9947,10 @@
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-20",
@@ -9938,7 +10082,10 @@
    "discipline": "Multidisciplinary",
    "genre": "transdisciplinary",
    "url": "https://nyuskirball.org/performance/joris-lacoste-nexus-de-ladoration/",
-   "notes": "North American premiere; Crossing the Line Festival; also listed by L'Alliance New York"
+   "notes": "North American premiere; Crossing the Line Festival; also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-20",
@@ -10118,7 +10265,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://art-newyork.org/events/curious-incident-epic/",
-   "notes": "Presented by EPIC Players (rental). Run Nov 20–Dec 6, 2026; showtimes not stated, so only the first date is listed.; also listed by EPIC Players"
+   "notes": "Presented by EPIC Players (rental). Run Nov 20–Dec 6, 2026; showtimes not stated, so only the first date is listed.; also listed by EPIC Players",
+   "also": [
+    "EPIC Players"
+   ]
   },
   {
    "date": "2026-11-20",
@@ -10454,7 +10604,10 @@
    "discipline": "Music",
    "genre": "jazz jam",
    "url": "https://jmih.org/event/intergenerational-jazz-power-jam-eli-yamin-quartet/",
-   "notes": "Jam session; venue per museum address on page; also listed by Jazz Power Initiative"
+   "notes": "Jam session; venue per museum address on page; also listed by Jazz Power Initiative",
+   "also": [
+    "Jazz Power Initiative"
+   ]
   },
   {
    "date": "2026-11-21",
@@ -10814,7 +10967,10 @@
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-21",
@@ -10850,7 +11006,10 @@
    "discipline": "Dance",
    "genre": "contemporary dance / live music",
    "url": "https://www.danceheginbotham.org/events-1/2026/11/21-the-party-scene",
-   "notes": "Family friendly; guests encouraged to wear festive sweaters; Ends about 8:30 PM; also listed by Kaufman Music Center"
+   "notes": "Family friendly; guests encouraged to wear festive sweaters; Ends about 8:30 PM; also listed by Kaufman Music Center",
+   "also": [
+    "Kaufman Music Center"
+   ]
   },
   {
    "date": "2026-11-21",
@@ -10970,7 +11129,10 @@
    "discipline": "Multidisciplinary",
    "genre": "transdisciplinary",
    "url": "https://nyuskirball.org/performance/joris-lacoste-nexus-de-ladoration/",
-   "notes": "North American premiere; Crossing the Line Festival; also listed by L'Alliance New York"
+   "notes": "North American premiere; Crossing the Line Festival; also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-21",
@@ -11306,7 +11468,10 @@
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-22",
@@ -11810,7 +11975,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-23",
@@ -12050,7 +12218,10 @@
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-24",
@@ -12314,7 +12485,10 @@
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-25",
@@ -12326,7 +12500,10 @@
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
-   "notes": "also listed by New York Philharmonic"
+   "notes": "also listed by New York Philharmonic",
+   "also": [
+    "New York Philharmonic"
+   ]
   },
   {
    "date": "2026-11-25",
@@ -12410,7 +12587,10 @@
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21897/",
-   "notes": "Dizzy's lists shows nightly at 7PM & 9PM; specific showtimes for this date not stated.; also listed by Lincoln Center for the Performing Arts"
+   "notes": "Dizzy's lists shows nightly at 7PM & 9PM; specific showtimes for this date not stated.; also listed by Lincoln Center for the Performing Arts",
+   "also": [
+    "Lincoln Center for the Performing Arts"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -12614,7 +12794,10 @@
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -12626,7 +12809,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -12638,7 +12824,10 @@
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
-   "notes": "also listed by New York Philharmonic"
+   "notes": "also listed by New York Philharmonic",
+   "also": [
+    "New York Philharmonic"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -12710,7 +12899,10 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": "also listed by New York City Ballet"
+   "notes": "also listed by New York City Ballet",
+   "also": [
+    "New York City Ballet"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -12782,7 +12974,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -12794,7 +12989,10 @@
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -12866,7 +13064,10 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": "also listed by New York City Ballet"
+   "notes": "also listed by New York City Ballet",
+   "also": [
+    "New York City Ballet"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -13190,7 +13391,10 @@
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -13202,7 +13406,10 @@
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
-   "notes": "also listed by New York Philharmonic"
+   "notes": "also listed by New York Philharmonic",
+   "also": [
+    "New York Philharmonic"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -13286,7 +13493,10 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": "also listed by New York City Ballet"
+   "notes": "also listed by New York City Ballet",
+   "also": [
+    "New York City Ballet"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -13370,7 +13580,10 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": "also listed by New York City Ballet"
+   "notes": "also listed by New York City Ballet",
+   "also": [
+    "New York City Ballet"
+   ]
   },
   {
    "date": "2026-11-29",
@@ -13478,7 +13691,10 @@
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": "also listed by L'Alliance New York"
+   "notes": "also listed by L'Alliance New York",
+   "also": [
+    "L'Alliance New York"
+   ]
   },
   {
    "date": "2026-11-29",
@@ -13610,7 +13826,10 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": "also listed by New York City Ballet"
+   "notes": "also listed by New York City Ballet",
+   "also": [
+    "New York City Ballet"
+   ]
   },
   {
    "date": "2026-11-29",
@@ -13802,7 +14021,10 @@
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
-   "notes": "also listed by The Metropolitan Opera"
+   "notes": "also listed by The Metropolitan Opera",
+   "also": [
+    "The Metropolitan Opera"
+   ]
   },
   {
    "date": "2026-11-30",
@@ -15122,7 +15344,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-05",
@@ -15290,7 +15515,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-05",
@@ -15326,7 +15554,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-05",
@@ -15662,7 +15893,10 @@
    "discipline": "Music",
    "genre": "gospel / inspirational",
    "url": "https://www.americancomposers.org/performances-events/a-night-of-inspiration",
-   "notes": "Tickets via Carnegie Hall; also listed by Carnegie Hall"
+   "notes": "Tickets via Carnegie Hall; also listed by Carnegie Hall",
+   "also": [
+    "Carnegie Hall"
+   ]
   },
   {
    "date": "2026-12-05",
@@ -15746,7 +15980,10 @@
    "discipline": "Multidisciplinary",
    "genre": "Native American traditional music and dance",
    "url": "https://www.flushingtownhall.org/show-details/2026-native-american-market-social",
-   "notes": "Market/social event with performance elements; RSVP required. Start time not stated.; also listed by Braata Productions"
+   "notes": "Market/social event with performance elements; RSVP required. Start time not stated.; also listed by Braata Productions",
+   "also": [
+    "Braata Productions"
+   ]
   },
   {
    "date": "2026-12-05",
@@ -15818,7 +16055,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-06",
@@ -15842,7 +16082,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-06",
@@ -15962,7 +16205,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-06",
@@ -16238,7 +16484,10 @@
    "discipline": "Music",
    "genre": "singer-songwriter",
    "url": "https://newmusicusa.org/events/laura-itandehui-3/",
-   "notes": "also listed by World Music Institute"
+   "notes": "also listed by World Music Institute",
+   "also": [
+    "World Music Institute"
+   ]
   },
   {
    "date": "2026-12-06",
@@ -17330,7 +17579,10 @@
    "discipline": "Theater",
    "genre": "new work",
    "url": "https://newyorklivearts.org/event/condolence-or-a-rug-an-elf/",
-   "notes": "Page gives the run as Dec 10–12, 2026; individual showtimes not stated.; also listed by New York Live Arts"
+   "notes": "Page gives the run as Dec 10–12, 2026; individual showtimes not stated.; also listed by New York Live Arts",
+   "also": [
+    "New York Live Arts"
+   ]
   },
   {
    "date": "2026-12-10",
@@ -17366,7 +17618,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-11",
@@ -17402,7 +17657,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-11",
@@ -17726,7 +17984,10 @@
    "discipline": "Dance",
    "genre": "Mexican folkloric dance",
    "url": "https://www.flushingtownhall.org/show-details/calpullis-navidad",
-   "notes": "Start time not stated on page.; also listed by Thalia Spanish Theatre"
+   "notes": "Start time not stated on page.; also listed by Thalia Spanish Theatre",
+   "also": [
+    "Thalia Spanish Theatre"
+   ]
   },
   {
    "date": "2026-12-11",
@@ -17750,7 +18011,10 @@
    "discipline": "Theater",
    "genre": "new work",
    "url": "https://newyorklivearts.org/event/condolence-or-a-rug-an-elf/",
-   "notes": "Page gives the run as Dec 10–12, 2026; individual showtimes not stated.; also listed by New York Live Arts"
+   "notes": "Page gives the run as Dec 10–12, 2026; individual showtimes not stated.; also listed by New York Live Arts",
+   "also": [
+    "New York Live Arts"
+   ]
   },
   {
    "date": "2026-12-12",
@@ -17762,7 +18026,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-12",
@@ -17774,7 +18041,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-12",
@@ -17810,7 +18080,10 @@
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.bam.org/holiday/2026/impossible",
-   "notes": "also listed by Omnium Circus"
+   "notes": "also listed by Omnium Circus",
+   "also": [
+    "Omnium Circus"
+   ]
   },
   {
    "date": "2026-12-12",
@@ -17930,7 +18203,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-12",
@@ -18302,7 +18578,10 @@
    "discipline": "Family/Education",
    "genre": "Mexican music and dance",
    "url": "https://www.flushingtownhall.org/show-details/calpullis-navidad",
-   "notes": "Family show. Start time not stated.; also listed by Calpulli Mexican Dance Company"
+   "notes": "Family show. Start time not stated.; also listed by Calpulli Mexican Dance Company",
+   "also": [
+    "Calpulli Mexican Dance Company"
+   ]
   },
   {
    "date": "2026-12-12",
@@ -18314,7 +18593,10 @@
    "discipline": "Theater",
    "genre": "new work",
    "url": "https://newyorklivearts.org/event/condolence-or-a-rug-an-elf/",
-   "notes": "Page gives the run as Dec 10–12, 2026; individual showtimes not stated.; also listed by New York Live Arts"
+   "notes": "Page gives the run as Dec 10–12, 2026; individual showtimes not stated.; also listed by New York Live Arts",
+   "also": [
+    "New York Live Arts"
+   ]
   },
   {
    "date": "2026-12-13",
@@ -18338,7 +18620,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-13",
@@ -18374,7 +18659,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-13",
@@ -18410,7 +18698,10 @@
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.bam.org/holiday/2026/impossible",
-   "notes": "also listed by Omnium Circus"
+   "notes": "also listed by Omnium Circus",
+   "also": [
+    "Omnium Circus"
+   ]
   },
   {
    "date": "2026-12-13",
@@ -18518,7 +18809,10 @@
    "discipline": "Family/Education",
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
-   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process"
+   "notes": "Family performance, about 30 minutes; presented by Works & Process; also listed by Works & Process",
+   "also": [
+    "Works & Process"
+   ]
   },
   {
    "date": "2026-12-13",
@@ -18746,7 +19040,10 @@
    "discipline": "Dance",
    "genre": "Mexican folkloric dance",
    "url": "https://elmuseo.org/event/navidad-by-calpulli-mexican-dance-company/",
-   "notes": "Start time not stated on page.; also listed by Thalia Spanish Theatre"
+   "notes": "Start time not stated on page.; also listed by Thalia Spanish Theatre",
+   "also": [
+    "Thalia Spanish Theatre"
+   ]
   },
   {
    "date": "2026-12-14",
@@ -18962,7 +19259,10 @@
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": "Run listed as Dec 15, 2026 – Jan 3, 2027; the page gives no individual show dates or times, so only the first date is listed. Check the Joyce page for the schedule.; also listed by The Joyce Theater"
+   "notes": "Run listed as Dec 15, 2026 – Jan 3, 2027; the page gives no individual show dates or times, so only the first date is listed. Check the Joyce page for the schedule.; also listed by The Joyce Theater",
+   "also": [
+    "The Joyce Theater"
+   ]
   },
   {
    "date": "2026-12-15",
