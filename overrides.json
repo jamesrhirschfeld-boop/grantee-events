@@ -148,5 +148,18 @@
     ],
     "verified": true,
     "notes": "The season page (/happenings) is a set of image tiles with no text; each tile links to a show page that gives its date. The scraper follows those pages. Tickets are sold through OvationTix, but dates are on Working Theater's own pages."
+  },
+  "paul-taylor-dance-company": {
+    "pages": [
+      {
+        "url": "https://www.davidhkochtheater.com/tickets-and-events/paul-taylor"
+      },
+      {
+        "url": "https://paultaylordance.org/performances/newyorkseason/"
+      }
+    ],
+    "verified": true,
+    "notes": "The company's own season page gives the works by date but no times; the David H. Koch Theater page (robots.txt allows it) lists every performance with its time. Both are read.",
+    "scope": "Paul Taylor Dance Company's New York season at the David H. Koch Theater, Lincoln Center (Nov 3-22, 2026). Make one entry per performance, using the date and time from the Koch Theater page's list of performances. Use the title 'Paul Taylor Dance Company: New York Season' and, in the description, name the works on the program for that date when the company's season page gives them (its season calendar lists each work with its dates; matinees marked MAT, evenings EVE). The 2:00 PM Saturday matinees on Nov 14 and Nov 21 are Family Express performances: say so in notes. Exclude the Taylor Gala dinner and party, the Single Mingle pre-show socials, 'Sunday with Taylor' studio sessions, classes, and the digital program."
   }
 }
