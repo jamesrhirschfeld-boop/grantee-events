@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T16:50:36+00:00",
+ "generated_at": "2026-11-08T17:02:47+00:00",
  "window": {
   "start": "2026-11-08",
   "end": "2027-01-07"
@@ -94,6 +94,7 @@
   "Orchestra of St. Luke's",
   "Orpheus Chamber Orchestra",
   "PAC NYC",
+  "Paul Taylor Dance Company",
   "Performance Space New York",
   "Pick Up Performance Co.",
   "Playwrights Horizons",
@@ -207,6 +208,7 @@
   "New York Theatre Workshop": 1,
   "Orchestra of St. Luke's": 24,
   "Orpheus Chamber Orchestra": 2,
+  "Paul Taylor Dance Company": 15,
   "The People’s Theatre": 4,
   "Performance Space New York": 2,
   "Pick Up Performance Co.": 3,
@@ -842,9 +844,8 @@
    "reason": "no performances listed in the window"
   },
   "Paul Taylor Dance Company": {
-   "status": "empty",
-   "events": 0,
-   "reason": "no performances listed in the window"
+   "status": "ok",
+   "events": 15
   },
   "The People’s Theatre": {
    "status": "ok",
@@ -1501,8 +1502,8 @@
  },
  "coverage": {
   "total": 271,
-  "with_events": 134,
-  "no_events": 108,
+  "with_events": 135,
+  "no_events": 107,
   "no_source": 22,
   "blocked": 7,
   "failed": 0
@@ -1712,10 +1713,6 @@
    {
     "name": "Parsons Dance",
     "site": "https://www.parsonsdance.org"
-   },
-   {
-    "name": "Paul Taylor Dance Company",
-    "site": "https://www.paultaylordance.org"
    },
    {
     "name": "Pink Fang",
@@ -2427,6 +2424,18 @@
   {
    "date": "2026-11-08",
    "time": "3:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Program: Brandenburgs, Messengers, Maidens and the End of Something Else (NY premiere, Pam Tanowitz), and No Longer Silent (Company premiere, Robert Battle). Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9723",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-08",
+   "time": "3:00 PM",
    "title": "Leave a Message After…The Beep",
    "org": "Pregones/Puerto Rican Traveling Theater",
    "location": "PRTT, 304 W 47th St., Manhattan",
@@ -2952,6 +2961,18 @@
   {
    "date": "2026-11-10",
    "time": "7:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Program: Arabesque, …Byzantium, and Esplanade. Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9724",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-10",
+   "time": "7:00 PM",
    "title": "Fantasma",
    "org": "Primary Stages",
    "location": "59E59 Theaters, 59 East 59th St.",
@@ -3389,6 +3410,18 @@
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/11/spindrift-last-look-brandenburgs-7pm/",
    "notes": "Tickets link to the David H; Koch Theater's Paul Taylor page"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Program: Brandenburgs, Last Look, and Spindrift. Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9725",
+   "notes": ""
   },
   {
    "date": "2026-11-11",
@@ -3899,6 +3932,18 @@
    "genre": "DJ set",
    "url": "https://pacnyc.org/whats-on/dj-so-money/",
    "notes": "Free Music at PAC NYC series"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Program: Arabesque, Piazzolla Caldera, and 30 Incoming (world premiere, Lauren Lovette). Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9726",
+   "notes": ""
   },
   {
    "date": "2026-11-12",
@@ -4998,6 +5043,18 @@
   {
    "date": "2026-11-13",
    "time": "8:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Program: Brandenburgs, Last Look, and Under the Rhythm (Robert Battle). Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9727",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "8:00 PM",
    "title": "Triple Canopy Symposium 2026 (Day 1)",
    "org": "Roulette",
    "location": "Roulette, 509 Atlantic Ave, Brooklyn",
@@ -5360,6 +5417,18 @@
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/14/cloven-kingdom-tensile-involvement-under-the-rhythm-2pm/",
    "notes": "Tickets link to the David H; Koch Theater's Paul Taylor page"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "2:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Matinee program: Cloven Kingdom, Under the Rhythm, and Tensile Involvement (Alwin Nikolais, Company premiere). Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9728",
+   "notes": "Family Express performance: 75-minute, family-friendly show"
   },
   {
    "date": "2026-11-14",
@@ -6084,6 +6153,18 @@
   {
    "date": "2026-11-14",
    "time": "8:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Evening program: …Byzantium, Messengers, Maidens and the End of Something Else (NY premiere), and No Longer Silent (Company premiere). Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9729",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-14",
+   "time": "8:00 PM",
    "title": "VITALY: An Evening of Wonders",
    "org": "Queens Theatre",
    "location": "The Claire Shulman Theater, Queens Theatre, 14 United Nations Avenue South",
@@ -6549,6 +6630,18 @@
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/15/spindrift-3-epitaphs-tensile-involvement-piazzolla-caldera-3pm/",
    "notes": "Tickets link to the David H; Koch Theater's Paul Taylor page"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Program: 3 Epitaphs, Piazzolla Caldera, Spindrift, and Tensile Involvement (Company premiere). Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9730",
+   "notes": ""
   },
   {
    "date": "2026-11-15",
@@ -7174,6 +7267,18 @@
   {
    "date": "2026-11-17",
    "time": "7:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Program: Cloven Kingdom, Under the Rhythm, and 30 Incoming (world premiere, Lauren Lovette). Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9731",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:00 PM",
    "title": "Fantasma",
    "org": "Primary Stages",
    "location": "59E59 Theaters, 59 East 59th St.",
@@ -7596,6 +7701,18 @@
    "genre": "",
    "url": "https://pacnyc.org/whats-on/laur/",
    "notes": "Free Music at PAC NYC series; RSVP offered"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Program: Arabesque, Esplanade, and Last Look. Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9732",
+   "notes": ""
   },
   {
    "date": "2026-11-18",
@@ -8097,6 +8214,18 @@
    "genre": "DJ set",
    "url": "https://pacnyc.org/whats-on/dj-malik-rio-2/",
    "notes": "Free Music at PAC NYC series"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Program: Piazzolla Caldera, Spindrift, and A Starling (world premiere, Robert Battle). Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9733",
+   "notes": ""
   },
   {
    "date": "2026-11-19",
@@ -9205,6 +9334,18 @@
   {
    "date": "2026-11-20",
    "time": "8:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Program: Arabesque, Messengers, Maidens and the End of Something Else (NY premiere), and No Longer Silent (Company premiere). Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9734",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "8:00 PM",
    "title": "Breaks: A Solo Performance by Jessica Cook (Night 2)",
    "org": "Roulette",
    "location": "Roulette, 509 Atlantic Ave, Brooklyn",
@@ -9432,6 +9573,18 @@
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/21/cloven-kingdom-tensile-involvement-under-the-rhythm-2-2pm/",
    "notes": "Tickets link to the David H; Koch Theater's Paul Taylor page"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "2:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Matinee program: Cloven Kingdom, Under the Rhythm, and Tensile Involvement (Company premiere). Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9735",
+   "notes": "Family Express performance: 75-minute, family-friendly show"
   },
   {
    "date": "2026-11-21",
@@ -10240,6 +10393,18 @@
   {
    "date": "2026-11-21",
    "time": "8:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Evening program: 3 Epitaphs, Airs, Esplanade, and Tensile Involvement (Company premiere). Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9736",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-21",
+   "time": "8:00 PM",
    "title": "Medea",
    "org": "The Metropolitan Opera",
    "location": "Metropolitan Opera",
@@ -10611,6 +10776,18 @@
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/22/byzantium-battle-premiere-brandenburgs-3pm/",
    "notes": "Tickets link to the David H; Koch Theater's Paul Taylor page"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "3:00 PM",
+   "title": "Paul Taylor Dance Company: New York Season",
+   "org": "Paul Taylor Dance Company",
+   "location": "David H. Koch Theater, Lincoln Center",
+   "description": "Closing-day program: Brandenburgs, …Byzantium, and A Starling (world premiere, Robert Battle). Live music by Orchestra of St. Luke's.",
+   "discipline": "Dance",
+   "genre": "modern dance",
+   "url": "https://tickets.davidhkochtheater.com/booking/production/9737",
+   "notes": ""
   },
   {
    "date": "2026-11-22",
