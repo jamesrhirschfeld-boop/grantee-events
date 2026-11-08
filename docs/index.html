@@ -414,6 +414,13 @@
     fill($("disc"), Array.from(new Set(d.events.map(function (e) { return e.discipline; }))).sort());
     $("from").min = $("to").min = d.window.start;
     $("from").max = $("to").max = d.window.end;
+    // Choosing a start date moves the end-date picker to that month (and never allows an end before the start).
+    function syncDates() {
+      var f = $("from").value, t = $("to");
+      t.min = f && f > d.window.start ? f : d.window.start;
+      if (f && t.value && t.value < f) t.value = f;
+    }
+    $("from").addEventListener("change", syncDates);
     ["q", "org", "disc", "po", "from", "to", "mat"].forEach(function (id) {
       if (!$(id)) return;
       $(id).addEventListener("input", render);
@@ -421,7 +428,7 @@
     });
     $("clear").addEventListener("click", function () {
       $("q").value = ""; $("org").value = ""; $("disc").value = ""; if ($("po")) $("po").value = "";
-      $("from").value = ""; $("to").value = ""; $("mat").checked = false;
+      $("from").value = ""; $("to").value = ""; $("to").min = d.window.start; $("mat").checked = false;
       render();
     });
     render();

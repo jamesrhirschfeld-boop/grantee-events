@@ -48,6 +48,15 @@ def tidy_notes(notes, has_time):
     return "; ".join(x.rstrip(".") for x in keep).strip()
 
 
+def name_key(name):
+    """Alphabetize without a leading 'The' / 'A' / 'An' ('The Joyce Theater' files under J)."""
+    n = name.strip().lower()
+    for art in ("the ", "an ", "a "):
+        if n.startswith(art) and len(n) > len(art) + 2:
+            return n[len(art):]
+    return n
+
+
 def clean(ev, org, default_discipline, start, end):
     try:
         date = dt.date.fromisoformat(ev["date"])
@@ -287,7 +296,9 @@ def main():
     for e in unique:
         e.pop("_sort")
 
-    listed = sorted({e["org"] for e in unique} | {o for e in unique for o in e.get("also", [])}, key=str.lower)
+    listed = sorted({e["org"] for e in unique} | {o for e in unique for o in e.get("also", [])}, key=name_key)
+    for items in cov.values():  # coverage lists alphabetize the same way
+        items.sort(key=lambda o: name_key(o["name"]))
     coverage = {
         "total": len(sources),
         "with_events": len(listed),
