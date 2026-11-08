@@ -204,5 +204,17 @@
     "verified": true,
     "notes": "The 'Upcoming' page lists only some productions. The home page links to each show's own page (for example /out-of-this-world, a concert at Symphony Space). Tickets for some shows are sold by the host theater (Symphony Space, 59E59) or OvationTix.",
     "scope": "Include Red Bull Theater's own public performances, including its annual concert benefit and Revelation Readings, whichever New York City theater hosts them (for example Symphony Space, 59E59). A ticketed concert or staged production counts as a performance even when it raises funds; say so in notes. Use the venue named on the show's page as the location. Exclude donation pages, group-sales pages, classes and education programs."
+  },
+  "haiti-cultural-exchange": {
+    "pages": [
+      {
+        "url": "https://haiticulturalx.org/events/",
+        "follow_links_matching": "/event/",
+        "max_follow": 15
+      }
+    ],
+    "verified": true,
+    "notes": "The events page mixes exhibitions, workshops and receptions with performances, and lists the Mizik Ayiti residency only as a range (Nov 5 - Dec 10). The residency's own page lists the exact Thursday dates, so event pages are followed.",
+    "scope": "Include only live music, dance and performance events open to the public. The main case is the Mizik Ayiti! Residency series (Thursday-night concerts): use the specific dates the event page lists (for example Nov 5, 12 and 19 and Dec 3 and 10), one entry per date, start time 6:30 PM when the page says sets begin at 6:30 (note that there is a second set at 7:45 and that doors are at 6), never a single entry for the whole range. Also include performances such as dance showcases and live concerts. Exclude exhibitions and 'on view' listings, workshops and classes (including the Ti Atis Second Saturdays family workshops), receptions, artist talks, book events, author conversations and listening parties without live performance, and salons that are discussions. If a salon or tribute event features live readings or music as its main content, include it with a note."
   }
 }
