@@ -1,5 +1,5 @@
 window.EVENTS = {
- "generated_at": "2026-11-08T00:34:11+00:00",
+ "generated_at": "2026-11-08T00:53:58+00:00",
  "window": {
   "start": "2026-11-07",
   "end": "2027-01-06"
@@ -65,6 +65,7 @@ window.EVENTS = {
   "JCAL",
   "Kaufman Music Center",
   "Kupferberg Center for the Arts at Queens College",
+  "L'Alliance New York",
   "La MaMa Experimental Theatre Club",
   "Lehman Center",
   "Les Ballets Trockadero de Monte Carlo",
@@ -170,6 +171,7 @@ window.EVENTS = {
   "Fiasco Theater": 6,
   "Flamenco Vivo Carlota Santana": 2,
   "Flushing Town Hall": 7,
+  "L'Alliance New York": 64,
   "Gallim Dance": 6,
   "Gibney Dance": 4,
   "HERE": 43,
@@ -523,9 +525,8 @@ window.EVENTS = {
    "reason": "no performances listed in the window"
   },
   "L'Alliance New York": {
-   "status": "no_source",
-   "events": 0,
-   "reason": "no_calendar_found"
+   "status": "ok",
+   "events": 64
   },
   "Gallim Dance": {
    "status": "ok",
@@ -1500,9 +1501,9 @@ window.EVENTS = {
  },
  "coverage": {
   "total": 271,
-  "with_events": 133,
+  "with_events": 134,
   "no_events": 106,
-  "no_source": 23,
+  "no_source": 22,
   "blocked": 7,
   "failed": 0
  },
@@ -1943,12 +1944,6 @@ window.EVENTS = {
    {
     "name": "Elevator Repair Service",
     "site": "https://www.elevator.org",
-    "reason": "no_calendar_found",
-    "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "L'Alliance New York",
-    "site": "https://www.fiaf.org",
     "reason": "no_calendar_found",
     "note": "no page with dates found; may need a manual calendar URL"
    },
@@ -4548,6 +4543,18 @@ window.EVENTS = {
   {
    "date": "2026-11-11",
    "time": "7:30 PM",
+   "title": "adaku, part 2",
+   "org": "L'Alliance New York",
+   "location": "BAM Fisher",
+   "description": "Okwui Okpokwasili and Peter Born's sweat variant continue a speculative trilogy about one family's ties to the transatlantic slave trade, blending dance, theater and visual art.",
+   "discipline": "Dance",
+   "genre": "contemporary dance-theater",
+   "url": "https://lallianceny.org/event/adaku-part-2/",
+   "notes": "Crossing The Line festival; presented by BAM in association with L'Alliance New York"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "7:30 PM",
    "title": "Mazzoli's Lincoln in the Bardo",
    "org": "Lincoln Center for the Performing Arts",
    "location": "The Metropolitan Opera, Lincoln Center",
@@ -5156,6 +5163,18 @@ window.EVENTS = {
    "genre": "jazz / chamber / folk",
    "url": "https://www.viewcy.com/event/cascadence_w_alexa_b",
    "notes": "Doors 7pm; $20 advance / $25 day of show"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "7:30 PM",
+   "title": "adaku, part 2",
+   "org": "L'Alliance New York",
+   "location": "BAM Fisher",
+   "description": "Okwui Okpokwasili and Peter Born's sweat variant continue a speculative trilogy about one family's ties to the transatlantic slave trade, blending dance, theater and visual art.",
+   "discipline": "Dance",
+   "genre": "contemporary dance-theater",
+   "url": "https://lallianceny.org/event/adaku-part-2/",
+   "notes": "Crossing The Line festival; presented by BAM in association with L'Alliance New York"
   },
   {
    "date": "2026-11-12",
@@ -5816,6 +5835,18 @@ window.EVENTS = {
    "genre": "Latin jazz / salsa",
    "url": "https://jazz.org/concert/the-eddie-palmieri-experience-an-all-star-celebration/",
    "notes": "also listed by Lincoln Center for the Performing Arts"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "7:30 PM",
+   "title": "adaku, part 2",
+   "org": "L'Alliance New York",
+   "location": "BAM Fisher",
+   "description": "Okwui Okpokwasili and Peter Born's sweat variant continue a speculative trilogy about one family's ties to the transatlantic slave trade, blending dance, theater and visual art.",
+   "discipline": "Dance",
+   "genre": "contemporary dance-theater",
+   "url": "https://lallianceny.org/event/adaku-part-2/",
+   "notes": "Crossing The Line festival; presented by BAM in association with L'Alliance New York"
   },
   {
    "date": "2026-11-13",
@@ -6852,6 +6883,18 @@ window.EVENTS = {
   {
    "date": "2026-11-14",
    "time": "7:30 PM",
+   "title": "adaku, part 2",
+   "org": "L'Alliance New York",
+   "location": "BAM Fisher",
+   "description": "Okwui Okpokwasili and Peter Born's sweat variant continue a speculative trilogy about one family's ties to the transatlantic slave trade, blending dance, theater and visual art.",
+   "discipline": "Dance",
+   "genre": "contemporary dance-theater",
+   "url": "https://lallianceny.org/event/adaku-part-2/",
+   "notes": "Crossing The Line festival; presented by BAM in association with L'Alliance New York"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "7:30 PM",
    "title": "THE JAZMINES: a rage play – and for legal reasons, a parody",
    "org": "Lincoln Center for the Performing Arts",
    "location": "Lincoln Center Presents",
@@ -7424,6 +7467,18 @@ window.EVENTS = {
    "genre": "Latin soul",
    "url": "https://kupferbergcenter.org/event/salcedo/",
    "notes": "also listed by New Music USA"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 PM",
+   "title": "adaku, part 2",
+   "org": "L'Alliance New York",
+   "location": "BAM Fisher",
+   "description": "Okwui Okpokwasili and Peter Born's sweat variant continue a speculative trilogy about one family's ties to the transatlantic slave trade, blending dance, theater and visual art.",
+   "discipline": "Dance",
+   "genre": "contemporary dance-theater",
+   "url": "https://lallianceny.org/event/adaku-part-2/",
+   "notes": "Crossing The Line festival; presented by BAM in association with L'Alliance New York"
   },
   {
    "date": "2026-11-15",
@@ -8623,7 +8678,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": ""
+   "notes": "also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-18",
@@ -9139,7 +9194,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": ""
+   "notes": "also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-19",
@@ -9176,6 +9231,18 @@ window.EVENTS = {
    "genre": "new performance work / staged reading",
    "url": "https://danspaceproject.org/calendar/fw2026-jones/",
    "notes": "$20+ ($10+ with membership)"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "7:30 PM",
+   "title": "Losing Your Bag",
+   "org": "L'Alliance New York",
+   "location": "Le Skyroom, L'Alliance New York, 22 East 60th Street, 8th Floor",
+   "description": "One-woman play by Pascal Rambert starring Pauline Chalamet, about an overqualified young window cleaner raging at social divides and loneliness.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://lallianceny.org/event/losing-your-bag/",
+   "notes": "Crossing The Line festival; English-language world premiere"
   },
   {
    "date": "2026-11-19",
@@ -9811,7 +9878,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": ""
+   "notes": "also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-20",
@@ -9888,6 +9955,18 @@ window.EVENTS = {
   {
    "date": "2026-11-20",
    "time": "7:30 PM",
+   "title": "Losing Your Bag",
+   "org": "L'Alliance New York",
+   "location": "Le Skyroom, L'Alliance New York, 22 East 60th Street, 8th Floor",
+   "description": "One-woman play by Pascal Rambert starring Pauline Chalamet, about an overqualified young window cleaner raging at social divides and loneliness.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://lallianceny.org/event/losing-your-bag/",
+   "notes": "Crossing The Line festival; English-language world premiere"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:30 PM",
    "title": "LAST LIGHT - A Ballet by Miro Magloire to music by Wang Lu",
    "org": "New Music USA",
    "location": "Mark Morris Dance Center, 3 Lafayette Avenue, Brooklyn, NY 11217",
@@ -9931,7 +10010,7 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "transdisciplinary",
    "url": "https://nyuskirball.org/performance/joris-lacoste-nexus-de-ladoration/",
-   "notes": "North American premiere; Crossing the Line Festival"
+   "notes": "North American premiere; Crossing the Line Festival; also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-20",
@@ -10807,7 +10886,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": ""
+   "notes": "also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-21",
@@ -10884,6 +10963,18 @@ window.EVENTS = {
   {
    "date": "2026-11-21",
    "time": "7:30 PM",
+   "title": "Losing Your Bag",
+   "org": "L'Alliance New York",
+   "location": "Le Skyroom, L'Alliance New York, 22 East 60th Street, 8th Floor",
+   "description": "One-woman play by Pascal Rambert starring Pauline Chalamet, about an overqualified young window cleaner raging at social divides and loneliness.",
+   "discipline": "Theater",
+   "genre": "new play",
+   "url": "https://lallianceny.org/event/losing-your-bag/",
+   "notes": "Crossing The Line festival; English-language world premiere"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "7:30 PM",
    "title": "LPR Presents: Rising Appalachia with support from Viv & Riley",
    "org": "National Sawdust",
    "location": "National Sawdust, 80 North 6th St, Brooklyn, NY 11249",
@@ -10951,7 +11042,7 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "transdisciplinary",
    "url": "https://nyuskirball.org/performance/joris-lacoste-nexus-de-ladoration/",
-   "notes": "North American premiere; Crossing the Line Festival"
+   "notes": "North American premiere; Crossing the Line Festival; also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-21",
@@ -11287,7 +11378,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": ""
+   "notes": "also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-22",
@@ -12043,7 +12134,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": ""
+   "notes": "also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-24",
@@ -12307,7 +12398,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": ""
+   "notes": "also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-25",
@@ -12607,7 +12698,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": ""
+   "notes": "also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-27",
@@ -12799,7 +12890,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": ""
+   "notes": "also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-28",
@@ -13195,7 +13286,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": ""
+   "notes": "also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-28",
@@ -13483,7 +13574,7 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
-   "notes": ""
+   "notes": "also listed by L'Alliance New York"
   },
   {
    "date": "2026-11-29",
@@ -14412,6 +14503,18 @@ window.EVENTS = {
   {
    "date": "2026-12-03",
    "time": "7:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -14756,6 +14859,18 @@ window.EVENTS = {
    "genre": "theatre and dance",
    "url": "https://kupferbergcenter.org/event/sensations/",
    "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
   },
   {
    "date": "2026-12-04",
@@ -15420,6 +15535,18 @@ window.EVENTS = {
   {
    "date": "2026-12-05",
    "time": "7:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:00 PM",
    "title": "Fantasma",
    "org": "Primary Stages",
    "location": "59E59 Theaters, 59 East 59th St.",
@@ -15860,6 +15987,18 @@ window.EVENTS = {
    "genre": "orchestral",
    "url": "https://www.carnegiehall.org/calendar/2026/12/06/chamber-orchestra-of-europe-0200pm",
    "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "2:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
   },
   {
    "date": "2026-12-06",
@@ -16464,6 +16603,18 @@ window.EVENTS = {
   {
    "date": "2026-12-08",
    "time": "7:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -16748,6 +16899,18 @@ window.EVENTS = {
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
    "notes": "Listed as sold out"
+  },
+  {
+   "date": "2026-12-09",
+   "time": "7:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
   },
   {
    "date": "2026-12-09",
@@ -17048,6 +17211,18 @@ window.EVENTS = {
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
    "notes": ""
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
   },
   {
    "date": "2026-12-10",
@@ -17372,6 +17547,18 @@ window.EVENTS = {
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
    "notes": ""
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
   },
   {
    "date": "2026-12-11",
@@ -17976,6 +18163,18 @@ window.EVENTS = {
   {
    "date": "2026-12-12",
    "time": "7:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "7:00 PM",
    "title": "Jeannette Sorrell Conducts Handel's Messiah",
    "org": "New York Philharmonic",
    "location": "Wu Tsai Theater, David Geffen Hall at Lincoln Center",
@@ -18344,6 +18543,18 @@ window.EVENTS = {
    "genre": "circus",
    "url": "https://www.bam.org/holiday/2026/impossible",
    "notes": "also listed by Omnium Circus"
+  },
+  {
+   "date": "2026-12-13",
+   "time": "2:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
   },
   {
    "date": "2026-12-13",
@@ -18984,6 +19195,18 @@ window.EVENTS = {
   {
    "date": "2026-12-16",
    "time": "7:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
+  },
+  {
+   "date": "2026-12-16",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "Venue not stated on page",
@@ -19148,6 +19371,18 @@ window.EVENTS = {
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
    "notes": ""
+  },
+  {
+   "date": "2026-12-17",
+   "time": "7:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
   },
   {
    "date": "2026-12-17",
@@ -19328,6 +19563,18 @@ window.EVENTS = {
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
    "notes": "Listed as sold out"
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
   },
   {
    "date": "2026-12-18",
@@ -19752,6 +19999,18 @@ window.EVENTS = {
   {
    "date": "2026-12-19",
    "time": "7:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
+  },
+  {
+   "date": "2026-12-19",
+   "time": "7:00 PM",
    "title": "Fantasma",
    "org": "Primary Stages",
    "location": "59E59 Theaters, 59 East 59th St.",
@@ -20012,6 +20271,18 @@ window.EVENTS = {
    "genre": "holiday jazz big band",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
    "notes": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "2:00 PM",
+   "title": "Saigon",
+   "org": "L'Alliance New York",
+   "location": "St. Ann's Warehouse",
+   "description": "Caroline Guiela Nguyen's play set in a restaurant, moving between 1990s France and 1950s Vietnam as people rebuild their lives across generations.",
+   "discipline": "Theater",
+   "genre": "contemporary play",
+   "url": "https://lallianceny.org/event/saigon/",
+   "notes": "Crossing The Line festival; US premiere; presented by St; Ann's Warehouse"
   },
   {
    "date": "2026-12-20",
