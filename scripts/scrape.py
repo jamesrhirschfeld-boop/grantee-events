@@ -18,7 +18,10 @@ from urllib.parse import urljoin, urlparse
 from playwright.sync_api import TimeoutError as PWTimeout
 from playwright.sync_api import sync_playwright
 
+from autofollow import LINK_INFO_JS, candidate_links, is_thin, rank_with_model, reg_domain
+
 from sources_io import load_sources
+from autofollow import LINK_INFO_JS, candidate_links, is_thin, rank_with_model, reg_domain
 from textutil import median_date
 
 UA = "Mozilla/5.0 (compatible; NYCGranteeEventsBot/1.0)"
@@ -245,6 +248,47 @@ def manual_source(src):
     return result
 
 
+def over_budget():
+    import os, time
+    b = os.environ.get("SCRAPE_DEADLINE")
+    return bool(b) and time.time() > float(b)
+
+
+def follow_auto(page, url, spec, result, src):
+    """The page is thin on dates (titles, tiles, menus): pick the links that look like individual shows and read them."""
+    import os
+    try:
+        infos = page.evaluate(LINK_INFO_JS)
+    except Exception:
+        return
+    doms = {reg_domain(url)} | {reg_domain(w) for w in (src.get("websites") or [])}
+    already = {p["url"] for p in result["pages"]}
+    cands = candidate_links(infos, url, already, doms)
+    keep = int(spec.get("max_follow", 10))
+    if len(cands) > keep and os.environ.get("ANTHROPIC_API_KEY"):
+        try:
+            import anthropic
+            cands = rank_with_model(anthropic.Anthropic(), src["name"], url, infos, cands, keep)
+        except Exception:
+            pass
+    n = 0
+    for href in cands[:keep]:
+        if over_budget():
+            result["errors"].append("time budget reached; remaining links not read")
+            break
+        if not allowed(href):
+            continue
+        try:
+            load(page, href)
+            if spec.get("reveal_hidden"):
+                page.evaluate(REVEAL_JS)
+            result["pages"].append({"url": href, "text": page.evaluate(TAG_LINKS_JS)[:30_000]})
+            n += 1
+        except Exception as e:
+            result["errors"].append(f"{href}: {e}")
+    result["auto_followed"] = result.get("auto_followed", 0) + n
+
+
 def scrape_source(ctx, src, end, days):
     """Render one organization's pages. Returns the result dict that is saved to build/raw/<slug>.json."""
     result = {"slug": src["slug"], "name": src["name"], "pages": [], "errors": []}
@@ -261,6 +305,8 @@ def scrape_source(ctx, src, end, days):
                     result["errors"].append(f"{url}: bot protection page, skipped")
                     continue
                 result["pages"].append({"url": url, "text": text})
+                if spec.get("follow") != "off" and not spec.get("follow_links_matching") and is_thin(text, dt.date.today(), end):
+                    follow_auto(page, url, spec, result, src)
                 if spec.get("follow_links_matching"):
                     base = urlparse(url).netloc
                     seen, follow = set(), []
@@ -278,6 +324,9 @@ def scrape_source(ctx, src, end, days):
                             seen.add(href)
                             follow.append(href)
                     for href in follow[: spec.get("max_follow", 8)]:
+                        if over_budget():
+                            result["errors"].append("time budget reached; remaining links not read")
+                            break
                         if not allowed(href):
                             result["errors"].append(f"{href}: disallowed by robots.txt, skipped")
                             continue
@@ -295,6 +344,8 @@ def scrape_source(ctx, src, end, days):
 
 
 def run_one(slug):
+    import os, time
+    os.environ.setdefault('SCRAPE_DEADLINE', str(time.time() + float(os.environ.get('SCRAPE_BUDGET', 330))))
     """Child-process entry point: scrape a single organization and write its raw file."""
     cfg = load_sources()
     days = cfg.get("window_days", 60)
@@ -339,8 +390,10 @@ def main(argv):
             return f"{src['slug']}: manual file, {len(r['pages'])} pages, {len(r['errors'])} errors"
         try:
             own_limit = int(src.get("scrape_timeout", limit))  # organizations that follow many pages can ask for longer
+            import time as _t
+            env = dict(os.environ, SCRAPE_DEADLINE=str(_t.time() + max(own_limit - 60, 60)))  # stop following links, keep what we have
             subprocess.run([sys.executable, str(Path(__file__)), "--one", src["slug"]],
-                           timeout=own_limit, capture_output=True, text=True)
+                           timeout=own_limit, capture_output=True, text=True, env=env)
         except subprocess.TimeoutExpired:
             (RAW / f"{src['slug']}.json").write_text(json.dumps(
                 {"slug": src["slug"], "name": src["name"], "pages": [], "errors": [f"timed out after {own_limit}s"]}))
