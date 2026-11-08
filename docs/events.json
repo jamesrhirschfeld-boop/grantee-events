@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T17:24:27+00:00",
+ "generated_at": "2026-11-08T17:37:08+00:00",
  "window": {
   "start": "2026-11-08",
   "end": "2027-01-07"
@@ -16,6 +16,7 @@
   "BAAD! Bronx Academy of Arts and Dance",
   "Bang on a Can",
   "Belongó",
+  "The Billie Holiday Theatre",
   "Bindlestiff Family Cirkus",
   "Blank Forms",
   "Braata Productions",
@@ -23,12 +24,16 @@
   "BRIC",
   "Bronx Council on the Arts",
   "Brooklyn Academy of Music",
+  "The Bushwick Starr",
   "Calpulli Mexican Dance Company",
   "Carnegie Hall",
   "Center for Performance Research",
   "Center for Traditional Music and Dance",
   "Chamber Music Society of Lincoln Center",
+  "The Chocolate Factory Theater",
   "Classic Stage Company",
+  "The Classical Theatre of Harlem",
+  "The Clemente",
   "Composers Now",
   "Culture Lab LIC",
   "CultureHub",
@@ -48,6 +53,7 @@
   "Gallim Dance",
   "Gibney Dance",
   "Haiti Cultural Exchange",
+  "The Harlem Chamber Players",
   "HBArts Collective",
   "HERE",
   "Houses On The Moon Theater Co.",
@@ -64,9 +70,12 @@
   "Japan Society",
   "Jazz at Lincoln Center",
   "Jazz Foundation of America",
+  "The Jazz Gallery",
   "Jazz Power Initiative",
   "JCAL",
+  "The Joyce Theater",
   "Kaufman Music Center",
+  "The Knights",
   "Kupferberg Center for the Arts at Queens College",
   "L'Alliance New York",
   "La MaMa Experimental Theatre Club",
@@ -75,16 +84,20 @@
   "Lincoln Center for the Performing Arts",
   "Lincoln Center Theater",
   "Lotus Music & Dance",
+  "The Louis Armstrong House Museum",
   "Lower Manhattan Cultural Council",
   "Mabou Mines",
   "Mama Foundation for the Arts",
   "Martha Graham Dance Company",
   "MasterVoices",
+  "The Metropolitan Opera",
   "Miller Theatre",
   "Movement Research",
   "Multicultural Music Group",
   "National Black Theatre",
+  "The National Jazz Museum in Harlem",
   "National Sawdust",
+  "The New Group",
   "New Music USA",
   "New York City Ballet",
   "New York City Center",
@@ -96,6 +109,7 @@
   "Orpheus Chamber Orchestra",
   "PAC NYC",
   "Paul Taylor Dance Company",
+  "The People’s Theatre",
   "Performance Space New York",
   "Pick Up Performance Co.",
   "Playwrights Horizons",
@@ -103,6 +117,7 @@
   "Primary Stages",
   "Prospect Musicals",
   "Queens Theatre",
+  "Red Bull Theater",
   "Repertorio Español",
   "Roulette",
   "Roundabout Theatre Company",
@@ -112,24 +127,10 @@
   "STREB",
   "Symphony Space",
   "Talea Ensemble",
+  "The Tank",
   "TDF",
   "Teatro Círculo",
   "Thalia Spanish Theatre",
-  "The Billie Holiday Theatre",
-  "The Bushwick Starr",
-  "The Chocolate Factory Theater",
-  "The Classical Theatre of Harlem",
-  "The Clemente",
-  "The Harlem Chamber Players",
-  "The Jazz Gallery",
-  "The Joyce Theater",
-  "The Knights",
-  "The Louis Armstrong House Museum",
-  "The Metropolitan Opera",
-  "The National Jazz Museum in Harlem",
-  "The New Group",
-  "The People’s Theatre",
-  "The Tank",
   "Theatre for a New Audience",
   "Theatre of the Oppressed NYC",
   "TRIBE - Multidisciplinary Visual Performances",
@@ -218,6 +219,7 @@
   "Primary Stages": 42,
   "Prospect Musicals": 1,
   "Queens Theatre": 7,
+  "Red Bull Theater": 1,
   "Repertorio Español": 28,
   "Roulette": 9,
   "Roundabout Theatre Company": 1,
@@ -892,9 +894,8 @@
    "reason": "no performances listed in the window"
   },
   "Red Bull Theater": {
-   "status": "empty",
-   "events": 0,
-   "reason": "no performances listed in the window"
+   "status": "ok",
+   "events": 1
   },
   "Repertorio Español": {
    "status": "ok",
@@ -1503,18 +1504,14 @@
  },
  "coverage": {
   "total": 271,
-  "with_events": 136,
-  "no_events": 106,
+  "with_events": 137,
+  "no_events": 105,
   "no_source": 22,
   "blocked": 7,
   "failed": 0
  },
  "coverage_orgs": {
   "no_events": [
-   {
-    "name": "A Better Jamaica",
-    "site": "https://www.abetterjamaica.org"
-   },
    {
     "name": "Alarm Will Sound",
     "site": "https://www.alarmwillsound.com"
@@ -1526,6 +1523,22 @@
    {
     "name": "American Lyric Theater",
     "site": "https://www.altnyc.org"
+   },
+   {
+    "name": "American Opera Projects",
+    "site": "https://www.aopopera.org"
+   },
+   {
+    "name": "American Symphony Orchestra",
+    "site": "https://americansymphony.org"
+   },
+   {
+    "name": "Americas Society",
+    "site": "https://www.as-coa.org"
+   },
+   {
+    "name": "Angela’s Pulse",
+    "site": "https://angelaspulse.org"
    },
    {
     "name": "Ars Nova",
@@ -1540,6 +1553,10 @@
     "site": "https://www.asaseyaaent.org"
    },
    {
+    "name": "Asian American Arts Alliance (A4)",
+    "site": "https://www.aaartsalliance.org"
+   },
+   {
     "name": "Ballet Hispánico",
     "site": "https://www.ballethispanico.org"
    },
@@ -1552,8 +1569,24 @@
     "site": "https://www.bethmorrisonprojects.org"
    },
    {
+    "name": "A Better Jamaica",
+    "site": "https://www.abetterjamaica.org"
+   },
+   {
     "name": "Big Dance Theater",
     "site": "https://www.bigdancetheater.org"
+   },
+   {
+    "name": "Black Spectrum Theatre Co, Inc.",
+    "site": "http://www.blackspectrum.com"
+   },
+   {
+    "name": "Black Trans Femmes in the Arts",
+    "site": "https://www.btfacollective.org"
+   },
+   {
+    "name": "The Bronx River Art Center",
+    "site": "https://www.bronxriverart.org"
    },
    {
     "name": "Brooklyn Arts Council",
@@ -1568,16 +1601,36 @@
     "site": "https://www.cccadi.org"
    },
    {
+    "name": "Casita Maria Center for Arts and Education",
+    "site": "https://www.casitamaria.org"
+   },
+   {
     "name": "Chamber Music America",
     "site": "https://chambermusicamerica.org/"
+   },
+   {
+    "name": "Chinese Theatre Works",
+    "site": "https://chinesetheatreworks.org"
+   },
+   {
+    "name": "Circle O",
+    "site": "https://www.circleo.org/"
    },
    {
     "name": "City Parks Foundation",
     "site": "https://www.cityparksfoundation.org"
    },
    {
+    "name": "The Civilians",
+    "site": "https://www.thecivilians.org"
+   },
+   {
     "name": "Clubbed Thumb",
     "site": "https://www.clubbedthumb.org"
+   },
+   {
+    "name": "Culture and Arts Policy Institute",
+    "site": "https://culturepolicy.org/"
    },
    {
     "name": "Dance Theatre of Harlem",
@@ -1588,12 +1641,24 @@
     "site": "https://www.dance.nyc"
    },
    {
+    "name": "Dancing in the Streets",
+    "site": "https://www.dancinginthestreets.org"
+   },
+   {
+    "name": "The Drama League of New York",
+    "site": "https://www.dramaleague.org"
+   },
+   {
+    "name": "El Taller Latino Americano",
+    "site": "https://www.tallerlatino.org"
+   },
+   {
     "name": "EMERGE125",
     "site": "https://emerge125.org"
    },
    {
-    "name": "National Yiddish Theatre Folksbiene",
-    "site": "https://www.nytf.org"
+    "name": "The Flea Theater",
+    "site": "https://www.theflea.org"
    },
    {
     "name": "Forces of Nature Dance Theatre",
@@ -1604,12 +1669,20 @@
     "site": "https://www.harlemstage.org"
    },
    {
+    "name": "Heartbeat Opera",
+    "site": "https://www.heartbeatopera.org"
+   },
+   {
     "name": "Hi-ARTS",
     "site": "https://www.hi-artsnyc.org"
    },
    {
     "name": "The House Foundation for the Arts",
     "site": "https://www.meredithmonk.org"
+   },
+   {
+    "name": "IlluminArt Productions",
+    "site": "https://www.illuminart.org"
    },
    {
     "name": "Imani Winds",
@@ -1620,12 +1693,24 @@
     "site": "https://www.indiespace.org"
    },
    {
+    "name": "Indo American Arts Council",
+    "site": "https://www.iaac.us"
+   },
+   {
     "name": "José Limón Dance Foundation",
     "site": "https://www.limon.nyc"
    },
    {
     "name": "Keen Company",
     "site": "https://www.keencompany.org"
+   },
+   {
+    "name": "Kinetic Light",
+    "site": "https://www.kineticlight.org"
+   },
+   {
+    "name": "The Kitchen",
+    "site": "https://www.thekitchen.org"
    },
    {
     "name": "Kyle Abraham Dance Vanguard",
@@ -1638,6 +1723,10 @@
    {
     "name": "League of American Orchestras",
     "site": "https://www.americanorchestras.org"
+   },
+   {
+    "name": "LEIMAY",
+    "site": "https://www.leimay.org"
    },
    {
     "name": "Ma-Yi Theater Company",
@@ -1664,12 +1753,24 @@
     "site": "https://www.monicabillbarnes.com"
    },
    {
+    "name": "The Movement Theatre Company",
+    "site": "https://www.themovementtheatrecompany.org"
+   },
+   {
     "name": "MOVE|NYC|",
     "site": "https://www.movenyc.nyc"
    },
    {
+    "name": "Music from the Sole",
+    "site": "https://www.musicfromthesole.com"
+   },
+   {
     "name": "NAMT",
     "site": "https://www.namt.org"
+   },
+   {
+    "name": "National Yiddish Theatre Folksbiene",
+    "site": "https://www.nytf.org"
    },
    {
     "name": "New Dramatists",
@@ -1680,8 +1781,16 @@
     "site": "https://www.newgeorges.org"
    },
    {
+    "name": "New York Chinese Cultural Center",
+    "site": "https://www.nychineseculturalcenter.org"
+   },
+   {
     "name": "New York City Players",
     "site": "https://www.nycplayers.org"
+   },
+   {
+    "name": "New York Classical Theatre",
+    "site": "https://www.nyclassical.org"
    },
    {
     "name": "The New York Public Library for the Performing Arts",
@@ -1698,6 +1807,10 @@
    {
     "name": "New Yorkers for Culture and Arts",
     "site": "https://www.ny4ca.org"
+   },
+   {
+    "name": "Nuyorican Poets Cafe",
+    "site": "https://www.nuyorican.org"
    },
    {
     "name": "OPERA America",
@@ -1720,48 +1833,12 @@
     "site": "https://www.pinkfang.org"
    },
    {
-    "name": "Rattlestick Playwrights Theater",
-    "site": "https://www.rattlestick.org"
+    "name": "Pioneers Collective",
+    "site": "https://www.pioneersgoeast.org"
    },
    {
-    "name": "Red Bull Theater",
-    "site": "https://www.redbulltheater.com"
-   },
-   {
-    "name": "Snug Harbor",
-    "site": "https://www.snug-harbor.org"
-   },
-   {
-    "name": "Soho Rep",
-    "site": "https://www.sohorep.org"
-   },
-   {
-    "name": "Target Margin Theater",
-    "site": "https://www.targetmargin.org"
-   },
-   {
-    "name": "Tectonic Theater Project",
-    "site": "https://www.tectonictheaterproject.org"
-   },
-   {
-    "name": "American Opera Projects",
-    "site": "https://www.aopopera.org"
-   },
-   {
-    "name": "The Civilians",
-    "site": "https://www.thecivilians.org"
-   },
-   {
-    "name": "The Drama League of New York",
-    "site": "https://www.dramaleague.org"
-   },
-   {
-    "name": "The Flea Theater",
-    "site": "https://www.theflea.org"
-   },
-   {
-    "name": "The Kitchen",
-    "site": "https://www.thekitchen.org"
+    "name": "Pipeline Theatre Company",
+    "site": "https://www.pipelinetheatre.org"
    },
    {
     "name": "The Play Company",
@@ -1772,12 +1849,40 @@
     "site": "https://www.playwrightsrealm.org"
    },
    {
+    "name": "Rattlestick Playwrights Theater",
+    "site": "https://www.rattlestick.org"
+   },
+   {
+    "name": "Snug Harbor",
+    "site": "https://www.snug-harbor.org"
+   },
+   {
+    "name": "Soho Rep",
+    "site": "https://www.sohorep.org"
+   },
+   {
+    "name": "Sphinx Organization",
+    "site": "https://www.sphinxmusic.org"
+   },
+   {
+    "name": "Staten Island Arts",
+    "site": "https://www.statenislandarts.org"
+   },
+   {
+    "name": "Target Margin Theater",
+    "site": "https://www.targetmargin.org"
+   },
+   {
     "name": "the TEAM",
     "site": "https://www.theteamplays.org"
    },
    {
-    "name": "The Wooster Group",
-    "site": "https://www.thewoostergroup.org"
+    "name": "Teatro SEA",
+    "site": "https://www.teatrosea.org"
+   },
+   {
+    "name": "Tectonic Theater Project",
+    "site": "https://www.tectonictheaterproject.org"
    },
    {
     "name": "Theater Breaking Through Barriers",
@@ -1804,142 +1909,64 @@
     "site": "https://www.waterwell.org"
    },
    {
+    "name": "WHEDco, Bronx Music Heritage Center (BMHC), Bronx Music Hall (BMH)",
+    "site": "https://whedco.org"
+   },
+   {
     "name": "Women of Color in the Arts",
     "site": "https://www.womenofcolorinthearts.org/"
+   },
+   {
+    "name": "The Wooster Group",
+    "site": "https://www.thewoostergroup.org"
    },
    {
     "name": "WP Theater",
     "site": "https://www.wptheater.org"
    },
    {
-    "name": "Staten Island Arts",
-    "site": "https://www.statenislandarts.org"
-   },
-   {
-    "name": "Angela’s Pulse",
-    "site": "https://angelaspulse.org"
-   },
-   {
-    "name": "LEIMAY",
-    "site": "https://www.leimay.org"
-   },
-   {
     "name": "Yaa Samar! Dance Theatre",
     "site": "https://www.ysdt.org"
    },
    {
-    "name": "Chinese Theatre Works",
-    "site": "https://chinesetheatreworks.org"
-   },
-   {
-    "name": "WHEDco, Bronx Music Heritage Center (BMHC), Bronx Music Hall (BMH)",
-    "site": "https://whedco.org"
-   },
-   {
-    "name": "El Taller Latino Americano",
-    "site": "https://www.tallerlatino.org"
-   },
-   {
-    "name": "New York Chinese Cultural Center",
-    "site": "https://www.nychineseculturalcenter.org"
-   },
-   {
-    "name": "Teatro SEA",
-    "site": "https://www.teatrosea.org"
-   },
-   {
-    "name": "Nuyorican Poets Cafe",
-    "site": "https://www.nuyorican.org"
-   },
-   {
-    "name": "Casita Maria Center for Arts and Education",
-    "site": "https://www.casitamaria.org"
-   },
-   {
-    "name": "Heartbeat Opera",
-    "site": "https://www.heartbeatopera.org"
-   },
-   {
-    "name": "American Symphony Orchestra",
-    "site": "https://americansymphony.org"
-   },
-   {
-    "name": "Pipeline Theatre Company",
-    "site": "https://www.pipelinetheatre.org"
-   },
-   {
-    "name": "Americas Society",
-    "site": "https://www.as-coa.org"
-   },
-   {
-    "name": "The Movement Theatre Company",
-    "site": "https://www.themovementtheatrecompany.org"
-   },
-   {
-    "name": "Dancing in the Streets",
-    "site": "https://www.dancinginthestreets.org"
-   },
-   {
-    "name": "Asian American Arts Alliance (A4)",
-    "site": "https://www.aaartsalliance.org"
-   },
-   {
-    "name": "New York Classical Theatre",
-    "site": "https://www.nyclassical.org"
-   },
-   {
-    "name": "Kinetic Light",
-    "site": "https://www.kineticlight.org"
-   },
-   {
-    "name": "Sphinx Organization",
-    "site": "https://www.sphinxmusic.org"
-   },
-   {
-    "name": "Black Trans Femmes in the Arts",
-    "site": "https://www.btfacollective.org"
-   },
-   {
-    "name": "Pioneers Collective",
-    "site": "https://www.pioneersgoeast.org"
-   },
-   {
-    "name": "IlluminArt Productions",
-    "site": "https://www.illuminart.org"
-   },
-   {
     "name": "¡Oye! Group",
     "site": "https://www.oyegroup.org/"
-   },
-   {
-    "name": "Indo American Arts Council",
-    "site": "https://www.iaac.us"
-   },
-   {
-    "name": "Culture and Arts Policy Institute",
-    "site": "https://culturepolicy.org/"
-   },
-   {
-    "name": "Black Spectrum Theatre Co, Inc.",
-    "site": "http://www.blackspectrum.com"
-   },
-   {
-    "name": "Music from the Sole",
-    "site": "https://www.musicfromthesole.com"
-   },
-   {
-    "name": "The Bronx River Art Center",
-    "site": "https://www.bronxriverart.org"
-   },
-   {
-    "name": "Circle O",
-    "site": "https://www.circleo.org/"
    }
   ],
   "no_source": [
    {
     "name": "651 ARTS",
     "site": "https://www.651arts.org",
+    "reason": "no_calendar_found",
+    "note": "no page with dates found; may need a manual calendar URL"
+   },
+   {
+    "name": "American Modern Opera Company",
+    "site": "https://www.runningamoc.org",
+    "reason": "no_calendar_found",
+    "note": "no page with dates found; may need a manual calendar URL"
+   },
+   {
+    "name": "artEquity",
+    "site": "https://www.artEquity.org",
+    "reason": "no_calendar_found",
+    "note": "no page with dates found; may need a manual calendar URL"
+   },
+   {
+    "name": "Beyond Booking",
+    "site": "https://www.beyondbooking.org",
+    "reason": "no_calendar_found",
+    "note": "no page with dates found; may need a manual calendar URL"
+   },
+   {
+    "name": "Bronx Arts Ensemble",
+    "site": "https://www.bronxartsensemble.org",
+    "reason": "no_calendar_found",
+    "note": "no page with dates found; may need a manual calendar URL"
+   },
+   {
+    "name": "Counterpart",
+    "site": "https://yourcounterpart.org/",
     "reason": "no_calendar_found",
     "note": "no page with dates found; may need a manual calendar URL"
    },
@@ -1952,6 +1979,42 @@
    {
     "name": "Hostos Center for the Arts & Culture",
     "site": "https://www.hostos.cuny.edu/culturearts",
+    "reason": "no_calendar_found",
+    "note": "no page with dates found; may need a manual calendar URL"
+   },
+   {
+    "name": "Jamel Gaines Creative Outlet",
+    "site": "https://www.creativeoutlet.org",
+    "reason": "no_calendar_found",
+    "note": "no page with dates found; may need a manual calendar URL"
+   },
+   {
+    "name": "Jazzmobile",
+    "site": "https://www.jazzmobile.org",
+    "reason": "no_calendar_found",
+    "note": "no page with dates found; may need a manual calendar URL"
+   },
+   {
+    "name": "Musical Theatre Factory",
+    "site": "https://www.mtf.nyc",
+    "reason": "no_calendar_found",
+    "note": "no page with dates found; may need a manual calendar URL"
+   },
+   {
+    "name": "NAATCO",
+    "site": "https://www.naatco.org",
+    "reason": "no_calendar_found",
+    "note": "no page with dates found; may need a manual calendar URL"
+   },
+   {
+    "name": "New 42",
+    "site": "https://www.new42.org",
+    "reason": "no_calendar_found",
+    "note": "no page with dates found; may need a manual calendar URL"
+   },
+   {
+    "name": "New Federal Theatre",
+    "site": "https://www.newfederaltheatre.com",
     "reason": "no_calendar_found",
     "note": "no page with dates found; may need a manual calendar URL"
    },
@@ -1974,26 +2037,20 @@
     "note": "no page with dates found; may need a manual calendar URL"
    },
    {
-    "name": "Sō Percussion",
-    "site": "https://www.sopercussion.com",
-    "reason": "no_calendar_found",
-    "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
     "name": "St. Ann's Warehouse",
     "site": "https://www.stannswarehouse.org",
     "reason": "no_calendar_found",
     "note": "no page with dates found; may need a manual calendar URL"
    },
    {
-    "name": "Counterpart",
-    "site": "https://yourcounterpart.org/",
+    "name": "Sweat Variant",
+    "site": "https://www.sweatvariant.com/",
     "reason": "no_calendar_found",
     "note": "no page with dates found; may need a manual calendar URL"
    },
    {
-    "name": "New 42",
-    "site": "https://www.new42.org",
+    "name": "Sō Percussion",
+    "site": "https://www.sopercussion.com",
     "reason": "no_calendar_found",
     "note": "no page with dates found; may need a manual calendar URL"
    },
@@ -2006,66 +2063,6 @@
    {
     "name": "viBe Theater Experience",
     "site": "https://www.vibetheater.org",
-    "reason": "no_calendar_found",
-    "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "NAATCO",
-    "site": "https://www.naatco.org",
-    "reason": "no_calendar_found",
-    "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "New Federal Theatre",
-    "site": "https://www.newfederaltheatre.com",
-    "reason": "no_calendar_found",
-    "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "Jamel Gaines Creative Outlet",
-    "site": "https://www.creativeoutlet.org",
-    "reason": "no_calendar_found",
-    "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "Musical Theatre Factory",
-    "site": "https://www.mtf.nyc",
-    "reason": "no_calendar_found",
-    "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "artEquity",
-    "site": "https://www.artEquity.org",
-    "reason": "no_calendar_found",
-    "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "Jazzmobile",
-    "site": "https://www.jazzmobile.org",
-    "reason": "no_calendar_found",
-    "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "Beyond Booking",
-    "site": "https://www.beyondbooking.org",
-    "reason": "no_calendar_found",
-    "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "American Modern Opera Company",
-    "site": "https://www.runningamoc.org",
-    "reason": "no_calendar_found",
-    "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "Bronx Arts Ensemble",
-    "site": "https://www.bronxartsensemble.org",
-    "reason": "no_calendar_found",
-    "note": "no page with dates found; may need a manual calendar URL"
-   },
-   {
-    "name": "Sweat Variant",
-    "site": "https://www.sweatvariant.com/",
     "reason": "no_calendar_found",
     "note": "no page with dates found; may need a manual calendar URL"
    }
@@ -2084,6 +2081,12 @@
     "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bax.org/"
    },
    {
+    "name": "Emily Johnson / Catalyst",
+    "site": "https://www.catalystdance.com",
+    "reason": "blocked_robots",
+    "note": "robots.txt asks automated tools to stay out"
+   },
+   {
     "name": "Gotham Early Music Scene",
     "site": "https://www.gemsny.org",
     "reason": "unreachable",
@@ -2096,22 +2099,16 @@
     "note": "bot protection page instead of the site"
    },
    {
-    "name": "The Shed",
-    "site": "https://www.theshed.org",
-    "reason": "blocked_robots",
-    "note": "robots.txt asks automated tools to stay out of the event pages"
-   },
-   {
     "name": "Ronald K. Brown/EVIDENCE",
     "site": "https://www.evidencedance.com",
     "reason": "unreachable",
     "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.evidencedance.com/"
    },
    {
-    "name": "Emily Johnson / Catalyst",
-    "site": "https://www.catalystdance.com",
+    "name": "The Shed",
+    "site": "https://www.theshed.org",
     "reason": "blocked_robots",
-    "note": "robots.txt asks automated tools to stay out"
+    "note": "robots.txt asks automated tools to stay out of the event pages"
    }
   ],
   "failed": []
@@ -18381,6 +18378,18 @@
    "genre": "jazz jam",
    "url": "https://jmih.org/event/monday-night-jam-hosted-by-jfa-3/",
    "notes": "Open jam; venue per museum address on page"
+  },
+  {
+   "date": "2026-12-14",
+   "time": "7:00 PM",
+   "title": "Out of This World",
+   "org": "Red Bull Theater",
+   "location": "Peter Norton Symphony Space, 2537 Broadway at 95th Street",
+   "description": "Concert staging of Cole Porter's 1950 musical about Jupiter disguising himself to woo a mortal, adapted from Plautus' Amphitryon. Directed by Marc Vietor with music direction by Greg Pliska.",
+   "discipline": "Theater",
+   "genre": "concert musical",
+   "url": "https://www.redbulltheater.com/out-of-this-world",
+   "notes": "Red Bull Theater's annual concert benefit; ticketed event that raises funds for the company; Venue name taken from the ticket link (Symphony Space); the page gives only the address"
   },
   {
    "date": "2026-12-14",
