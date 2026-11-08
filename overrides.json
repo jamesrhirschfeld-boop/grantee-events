@@ -161,5 +161,48 @@
     "verified": true,
     "notes": "The company's own season page gives the works by date but no times; the David H. Koch Theater page (robots.txt allows it) lists every performance with its time. Both are read.",
     "scope": "Paul Taylor Dance Company's New York season at the David H. Koch Theater, Lincoln Center (Nov 3-22, 2026). Make one entry per performance, using the date and time from the Koch Theater page's list of performances. Use the title 'Paul Taylor Dance Company: New York Season' and, in the description, name the works on the program for that date when the company's season page gives them (its season calendar lists each work with its dates; matinees marked MAT, evenings EVE). The 2:00 PM Saturday matinees on Nov 14 and Nov 21 are Family Express performances: say so in notes. Exclude the Taylor Gala dinner and party, the Single Mingle pre-show socials, 'Sunday with Taylor' studio sessions, classes, and the digital program."
+  },
+  "red-bull-theater": {
+    "pages": [
+      {
+        "url": "https://www.redbulltheater.com/",
+        "follow_links_matching": "redbulltheater.com/",
+        "follow_links_exclude": [
+          "group-tickets",
+          "/support",
+          "/programs",
+          "/education",
+          "/about",
+          "/history",
+          "/donate",
+          "/privacy",
+          "/contact",
+          "/mailing",
+          "?lightbox"
+        ],
+        "max_follow": 10
+      },
+      {
+        "url": "https://www.redbulltheater.com/all-events",
+        "follow_links_matching": "redbulltheater.com/",
+        "follow_links_exclude": [
+          "group-tickets",
+          "/support",
+          "/programs",
+          "/education",
+          "/about",
+          "/history",
+          "/donate",
+          "/privacy",
+          "/contact",
+          "/mailing",
+          "?lightbox"
+        ],
+        "max_follow": 10
+      }
+    ],
+    "verified": true,
+    "notes": "The 'Upcoming' page lists only some productions. The home page links to each show's own page (for example /out-of-this-world, a concert at Symphony Space). Tickets for some shows are sold by the host theater (Symphony Space, 59E59) or OvationTix.",
+    "scope": "Include Red Bull Theater's own public performances, including its annual concert benefit and Revelation Readings, whichever New York City theater hosts them (for example Symphony Space, 59E59). A ticketed concert or staged production counts as a performance even when it raises funds; say so in notes. Use the venue named on the show's page as the location. Exclude donation pages, group-sales pages, classes and education programs."
   }
 }
