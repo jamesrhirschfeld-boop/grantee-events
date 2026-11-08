@@ -338,11 +338,12 @@ def main(argv):
             (RAW / f"{src['slug']}.json").write_text(json.dumps(r, ensure_ascii=False, indent=1))
             return f"{src['slug']}: manual file, {len(r['pages'])} pages, {len(r['errors'])} errors"
         try:
+            own_limit = int(src.get("scrape_timeout", limit))  # organizations that follow many pages can ask for longer
             subprocess.run([sys.executable, str(Path(__file__)), "--one", src["slug"]],
-                           timeout=limit, capture_output=True, text=True)
+                           timeout=own_limit, capture_output=True, text=True)
         except subprocess.TimeoutExpired:
             (RAW / f"{src['slug']}.json").write_text(json.dumps(
-                {"slug": src["slug"], "name": src["name"], "pages": [], "errors": [f"timed out after {limit}s"]}))
+                {"slug": src["slug"], "name": src["name"], "pages": [], "errors": [f"timed out after {own_limit}s"]}))
         f = RAW / f"{src['slug']}.json"
         if not f.exists():
             f.write_text(json.dumps({"slug": src["slug"], "name": src["name"], "pages": [],

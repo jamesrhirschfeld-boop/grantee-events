@@ -178,32 +178,28 @@
           "/privacy",
           "/contact",
           "/mailing",
-          "?lightbox"
-        ],
-        "max_follow": 10
-      },
-      {
-        "url": "https://www.redbulltheater.com/all-events",
-        "follow_links_matching": "redbulltheater.com/",
-        "follow_links_exclude": [
-          "group-tickets",
-          "/support",
-          "/programs",
-          "/education",
-          "/about",
-          "/history",
-          "/donate",
-          "/privacy",
-          "/contact",
-          "/mailing",
-          "?lightbox"
+          "?lightbox",
+          "friend-benefits",
+          "heroescircle",
+          "gala",
+          "other-ways-to-give",
+          "podversation",
+          "podcast",
+          "intensive",
+          "teaching-artist",
+          "shakespeare-in-schools",
+          "/team",
+          "bull-sessions",
+          "hispanic-golden-age",
+          "all-events"
         ],
         "max_follow": 10
       }
     ],
     "verified": true,
     "notes": "The 'Upcoming' page lists only some productions. The home page links to each show's own page (for example /out-of-this-world, a concert at Symphony Space). Tickets for some shows are sold by the host theater (Symphony Space, 59E59) or OvationTix.",
-    "scope": "Include Red Bull Theater's own public performances, including its annual concert benefit and Revelation Readings, whichever New York City theater hosts them (for example Symphony Space, 59E59). A ticketed concert or staged production counts as a performance even when it raises funds; say so in notes. Use the venue named on the show's page as the location. Exclude donation pages, group-sales pages, classes and education programs."
+    "scope": "Include Red Bull Theater's own public performances, including its annual concert benefit and Revelation Readings, whichever New York City theater hosts them (for example Symphony Space, 59E59). A ticketed concert or staged production counts as a performance even when it raises funds; say so in notes. Use the venue named on the show's page as the location. Exclude donation pages, group-sales pages, classes and education programs.",
+    "scrape_timeout": 900
   },
   "haiti-cultural-exchange": {
     "pages": [
