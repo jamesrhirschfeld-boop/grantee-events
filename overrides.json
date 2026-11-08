@@ -85,5 +85,21 @@
     ],
     "verified": true,
     "notes": "Month-grid calendar; the scraper clicks 'next' once per further month in the window so every performance and time is captured."
+  },
+  "l-alliance-new-york": {
+    "websites": [
+      "https://lallianceny.org/"
+    ],
+    "pages": [
+      {
+        "url": "https://lallianceny.org/event/crossing-the-line-2026/",
+        "follow_links_matching": "/event/",
+        "max_follow": 25
+      }
+    ],
+    "verified": true,
+    "own_events_only": true,
+    "notes": "Formerly FIAF; the old address fiaf.org refuses automated readers (403), lallianceny.org loads fine. Only the Crossing the Line festival is wanted; the festival page links each artist's performance page.",
+    "scope": "Include only performances that are part of the Crossing The Line festival (the festival's own lineup of performances, produced by L'Alliance New York with partners). Exclude everything else on the site: film screenings and series, talks, classes, Family Saturdays, Bastille Day, galas, awards, library and language-center events. Exclude festival performances outside the five boroughs (for example PS21 in Chatham, New York)."
   }
 }
