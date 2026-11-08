@@ -6,10 +6,12 @@ export ANTHROPIC_API_KEY="$(security find-generic-password -a "$USER" -s nyc-gra
 [ -z "$ANTHROPIC_API_KEY" ] && { echo "No API key in Keychain. Run setup.command."; read -n 1 -s -r; exit 1; }
 caffeinate -i -w $$ &
 echo "How many organizations? Press Return for a trial of 25 random ones, type a number, or 'all'."
+echo "Or type  notfound  to re-check every organization whose calendar was not found (or showed nothing), using the new link-following."
 echo "Or type specific names from sources.json (slugs), comma-separated, to check them again, e.g. a-better-jamaica"
 read -r N
 if [ -z "$N" ]; then ARGS="--sample 25"
 elif [ "$N" = "all" ]; then ARGS=""
+elif [ "$N" = "notfound" ]; then ARGS="--status no_calendar_found,no_events_found"
 elif [[ "$N" =~ ^[0-9]+$ ]]; then ARGS="--limit $N"
 else ARGS="--slugs $N"; fi
 .venv/bin/python scripts/sync_orgs.py

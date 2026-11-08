@@ -114,6 +114,7 @@ def discover_one(slug):
     import anthropic
     from playwright.sync_api import sync_playwright
 
+    import autofollow
     import scrape
     from textutil import find_dates
 
@@ -194,7 +195,7 @@ def discover_one(slug):
                                "unreachable": "homepage did not load" + (": " + errors[-1] if errors else "")}[res["status"]]
                 finish()
                 return
-            scored, tried, walled = [], set(), []
+            scored, tried, walled, link_cache = [], set(), [], {}
 
             def score(urls):
                 nonlocal blocked_robots, bot_wall
@@ -215,6 +216,10 @@ def discover_one(slug):
                         continue
                     ds = [d for d in find_dates(text, today) if today <= d <= end]
                     scored.append((len(set(ds)), len(find_dates(text, today)), url))
+                    try:
+                        link_cache[url] = page.evaluate(autofollow.LINK_INFO_JS)
+                    except Exception:
+                        pass
 
             def is_good(sc):
                 # 3+ dates anywhere is a calendar; 1-2 dates count when the address itself looks like a listing
@@ -235,10 +240,36 @@ def discover_one(slug):
                 hop = [h for h in hop if same_site_or_ticketing(h, home_domains)]
                 hop.sort(key=lambda h: not is_ticketing(h))
                 score(hop[:4])
+            follow_hit = None
+            if scored and not any(is_good(sc) for sc in scored):
+                # No page lists dates itself (tiles, titles, menus). Look one level down: if the individual show/event
+                # pages state dates, the scraper will follow them automatically (see autofollow.py).
+                doms = {reg_domain(w) for w in src["websites"]}
+                bases = sorted(scored, key=lambda sc: (not calendarish(sc[2]), -sc[1]))[:2]
+                for _, _, base in bases:
+                    found, hits = set(), 0
+                    for u in autofollow.candidate_links(link_cache.get(base, []), base, tried, doms)[:6]:
+                        if not scrape.allowed(u):
+                            continue
+                        try:
+                            t = scrape.grab(page, {"url": u, "expand": False}, end)
+                        except Exception:
+                            continue
+                        ds = {d for d in find_dates(t, today) if today <= d <= end}
+                        if ds:
+                            hits, found = hits + 1, found | ds
+                    if hits >= 2 or len(found) >= 3:
+                        follow_hit = (base, hits, len(found))
+                        break
             browser.close()
         scored.sort(reverse=True)
         good = [s for s in scored if is_good(s)]
-        if good:
+        if not good and follow_hit:
+            res["status"] = "ok"
+            res["pages"] = [{"url": follow_hit[0]}]
+            res["note"] = (f"dates are on the individual show pages ({follow_hit[2]} dates on {follow_hit[1]} pages "
+                           f"followed from {follow_hit[0]})")
+        elif good:
             res["status"] = "ok"
             res["pages"] = [{"url": u} for _, _, u in good[:2]]
             res["note"] = "; ".join(f"{n} dates in window at {u}" for n, _, u in good[:2])
@@ -269,6 +300,7 @@ def main():
     ap.add_argument("--limit", type=int)
     ap.add_argument("--slugs")
     ap.add_argument("--retry", action="store_true")
+    ap.add_argument("--status", help="re-check organizations whose last discovery status is one of these, e.g. no_calendar_found,no_events_found")
     ap.add_argument("--workers", type=int, default=int(os.environ.get("SCRAPE_WORKERS", "4")))
     a = ap.parse_args()
 
@@ -281,6 +313,8 @@ def main():
             return False
         if a.slugs:  # asked for by name: check again even if pages were found before
             return s["slug"] in a.slugs.split(",")
+        if a.status:
+            return s.get("discovery", {}).get("status") in a.status.split(",")
         if s.get("pages"):
             return False
         if a.retry:
