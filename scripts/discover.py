@@ -54,6 +54,9 @@ TOOL = {
 }
 
 
+COMMON_PATHS = ["/tickets", "/events", "/calendar", "/whats-on", "/season", "/performances", "/schedule", "/shows",
+                "/tickets-and-events", "/programs"]
+
 TICKETING = ("eventbrite.", "ovationtix.", "spektrix.", "audienceview", "tickettailor.", "universe.com", "tessitura",
              "etix.com", "showclix.", "ticketleap.", "seatengine.", "squadup.", "givebutter.", "theatermania.", "my.")
 
@@ -136,6 +139,7 @@ def discover_one(slug):
             ctx = browser.new_context(viewport={"width": 1400, "height": 1000}, user_agent=scrape.UA)
             page = ctx.new_page()
             candidates, blocked_robots, bot_wall, loaded_any = [], 0, 0, False
+            sparse = False
             errors = []
             all_links = []
 
@@ -182,6 +186,12 @@ def discover_one(slug):
                     links.append((t, h))
                 links.sort(key=lambda th: (not KEYWORDS.search(th[0] + " " + th[1]),))
                 all_links += links
+                if len(links) < 10:
+                    # Menus built without ordinary links (scripts, buttons): the page shows nothing to follow, so
+                    # also try the addresses that nearly every arts site uses for its calendar.
+                    sparse = True
+                    root = "{0.scheme}://{0.netloc}".format(urlparse(final))
+                    candidates += [root + p for p in COMMON_PATHS]
                 chosen = choose(client, src["name"], final, links[:150])
                 valid = {h for _, h in links}
                 home_domains = {reg_domain(w) for w in src["websites"]} | {reg_domain(final)}
@@ -226,7 +236,7 @@ def discover_one(slug):
                 # (small organizations and quiet months legitimately have only a few)
                 return sc[0] >= MIN_DATES or (sc[0] >= 1 and calendarish(sc[2]))
 
-            score(list(dict.fromkeys(candidates))[:5])
+            score(list(dict.fromkeys(candidates))[: 5 + (len(COMMON_PATHS) if sparse else 0)])
             if not any(is_good(sc) for sc in scored):
                 # Second hop: many sites send "Calendar"/"Tickets" visitors to another page or a ticketing platform.
                 hop, seen_h = [], set()

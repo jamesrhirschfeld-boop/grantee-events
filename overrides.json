@@ -221,5 +221,12 @@
     "scope": "Each show page lists many performances at partner venues (libraries, museums, theaters). List every performance as its own entry with that day's time, and use the venue named for that date as the location."
    }
   ]
+ },
+ "new-york-theatre-ballet": {
+  "pages": [
+   {
+    "url": "https://nytb.org/tickets"
+   }
+  ]
  }
 }
