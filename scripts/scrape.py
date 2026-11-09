@@ -101,6 +101,15 @@ def expand_urls(url, days):
     return [url]
 
 
+def load_fast(page, url):
+    """For individual show pages: wait for the page to build, not for every tracker to go quiet."""
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=25_000)
+    except PWTimeout:
+        pass
+    page.wait_for_timeout(2500)
+
+
 def load(page, url):
     try:
         page.goto(url, wait_until="networkidle", timeout=40_000)
@@ -259,7 +268,7 @@ def over_budget():
     return bool(b) and time.time() > float(b)
 
 
-def follow_auto(page, url, spec, result, src):
+def follow_auto(page, url, spec, result, src, keep=lambda: None):
     """The page is thin on dates (titles, tiles, menus): pick the links that look like individual shows and read them."""
     import os
     try:
@@ -269,34 +278,39 @@ def follow_auto(page, url, spec, result, src):
     doms = {reg_domain(url)} | {reg_domain(w) for w in (src.get("websites") or [])}
     already = {p["url"] for p in result["pages"]}
     cands = candidate_links(infos, url, already, doms)
-    keep = int(spec.get("max_follow", 10))
-    if len(cands) > keep and os.environ.get("ANTHROPIC_API_KEY"):
+    keep_n = int(spec.get("max_follow", 6))
+    if len(cands) > keep_n and os.environ.get("ANTHROPIC_API_KEY"):
         try:
             import anthropic
-            cands = rank_with_model(anthropic.Anthropic(), src["name"], url, infos, cands, keep)
+            cands = rank_with_model(anthropic.Anthropic(), src["name"], url, infos, cands, keep_n)
         except Exception:
             pass
     n = 0
-    for href in cands[:keep]:
+    for href in cands[:keep_n]:
         if over_budget():
             result["errors"].append("time budget reached; remaining links not read")
             break
         if not allowed(href):
             continue
         try:
-            load(page, href)
+            load_fast(page, href)
             if spec.get("reveal_hidden"):
                 page.evaluate(REVEAL_JS)
             result["pages"].append({"url": href, "text": page.evaluate(TAG_LINKS_JS)[:30_000]})
             n += 1
+            keep()
         except Exception as e:
             result["errors"].append(f"{href}: {e}")
     result["auto_followed"] = result.get("auto_followed", 0) + n
 
 
-def scrape_source(ctx, src, end, days):
+def scrape_source(ctx, src, end, days, on_progress=None):
     """Render one organization's pages. Returns the result dict that is saved to build/raw/<slug>.json."""
     result = {"slug": src["slug"], "name": src["name"], "pages": [], "errors": []}
+
+    def keep():  # save what has been read so far, so a timeout later never throws the earlier pages away
+        if on_progress:
+            on_progress(result)
     page = ctx.new_page()
     for spec in src["pages"]:
         for url in expand_urls(spec["url"], days):
@@ -310,8 +324,9 @@ def scrape_source(ctx, src, end, days):
                     result["errors"].append(f"{url}: bot protection page, skipped")
                     continue
                 result["pages"].append({"url": url, "text": text})
+                keep()
                 if spec.get("follow") != "off" and not spec.get("follow_links_matching") and is_thin(text, dt.date.today(), end):
-                    follow_auto(page, url, spec, result, src)
+                    follow_auto(page, url, spec, result, src, keep)
                 if spec.get("follow_links_matching"):
                     base = urlparse(url).netloc
                     seen, follow = set(), []
@@ -340,6 +355,7 @@ def scrape_source(ctx, src, end, days):
                             if spec.get("reveal_hidden"):
                                 page.evaluate(REVEAL_JS)
                             result["pages"].append({"url": href, "text": page.evaluate(TAG_LINKS_JS)[:30_000]})
+                            keep()
                         except Exception as e:  # one bad detail page shouldn't sink the org
                             result["errors"].append(f"{href}: {e}")
             except Exception as e:
@@ -360,8 +376,10 @@ def run_one(slug):
     with sync_playwright() as p:
         browser = p.chromium.launch()
         ctx = browser.new_context(viewport={"width": 1400, "height": 1000}, user_agent=UA)
+        def save(r):
+            (RAW / f"{slug}.json").write_text(json.dumps(r, ensure_ascii=False, indent=1))
         try:
-            result = scrape_source(ctx, src, end, days)
+            result = scrape_source(ctx, src, end, days, on_progress=save)
         finally:
             browser.close()
     (RAW / f"{slug}.json").write_text(json.dumps(result, ensure_ascii=False, indent=1))
@@ -396,12 +414,23 @@ def main(argv):
         try:
             own_limit = int(src.get("scrape_timeout", limit))  # organizations that follow many pages can ask for longer
             import time as _t
-            env = dict(os.environ, SCRAPE_DEADLINE=str(_t.time() + max(own_limit - 60, 60)))  # stop following links, keep what we have
+            env = dict(os.environ, SCRAPE_DEADLINE=str(_t.time() + max(own_limit - 100, 60)))  # stop following links, keep what we have
             subprocess.run([sys.executable, str(Path(__file__)), "--one", src["slug"]],
                            timeout=own_limit, capture_output=True, text=True, env=env)
         except subprocess.TimeoutExpired:
-            (RAW / f"{src['slug']}.json").write_text(json.dumps(
-                {"slug": src["slug"], "name": src["name"], "pages": [], "errors": [f"timed out after {own_limit}s"]}))
+            part = RAW / f"{src['slug']}.json"
+            kept = None
+            try:  # pages saved by the child before it was stopped are kept (written during this run)
+                if part.exists() and part.stat().st_mtime >= _t.time() - own_limit - 30:
+                    kept = json.loads(part.read_text())
+            except Exception:
+                kept = None
+            if kept and kept.get("pages"):
+                kept.setdefault("errors", []).append(f"timed out after {own_limit}s; kept the {len(kept['pages'])} pages read so far")
+                part.write_text(json.dumps(kept, ensure_ascii=False, indent=1))
+            else:
+                part.write_text(json.dumps(
+                    {"slug": src["slug"], "name": src["name"], "pages": [], "errors": [f"timed out after {own_limit}s"]}))
         f = RAW / f"{src['slug']}.json"
         if not f.exists():
             f.write_text(json.dumps({"slug": src["slug"], "name": src["name"], "pages": [],

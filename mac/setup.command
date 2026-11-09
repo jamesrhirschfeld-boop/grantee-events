@@ -27,7 +27,8 @@ if [ "$SRC" != "$DEST" ]; then
     rsync -a "$SRC/mac/" "$DEST/mac/"
     cp "$SRC/docs/index.html" "$DEST/docs/index.html"
     cp "$SRC/requirements.txt" "$DEST/requirements.txt"
-    [ -f "$DEST/my_orgs.csv" ] || cp "$SRC/my_orgs.csv" "$DEST/my_orgs.csv"
+    # The organization list: take the Documents copy when it is newer than the working copy (so edits made there count).
+    rsync -a --update "$SRC/my_orgs.csv" "$DEST/my_orgs.csv"
     cp "$SRC/overrides.json" "$DEST/overrides.json"
   fi
 fi

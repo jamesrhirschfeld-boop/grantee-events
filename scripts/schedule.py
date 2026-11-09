@@ -232,7 +232,31 @@ def ground(sched, text):
     return sched
 
 
+_SC = {}  # this organization's saved model readings: unchanged show page -> no new API call
+SC_MAX_AGE = 60  # an unchanged show page keeps the same schedule for the whole run
+
+
+def _sc_key(title, text):
+    import hashlib
+    return hashlib.sha256(f"{MODEL}|{title}|{text[:PAGE_CHARS]}".encode()).hexdigest()
+
+
 def ask(client, title, today, end, text):
+    key = _sc_key(title, text)
+    hit = _SC.get(key)
+    if hit:
+        try:
+            if 0 <= (today - dt.date.fromisoformat(hit["saved"])).days <= SC_MAX_AGE:
+                import copy
+                return copy.deepcopy(hit["sched"])
+        except Exception:
+            pass
+    sched = _ask(client, title, today, end, text)
+    _SC[key] = {"saved": today.isoformat(), "sched": sched}
+    return sched
+
+
+def _ask(client, title, today, end, text):
     msg = client.messages.create(
         model=MODEL, max_tokens=3000, tools=[TOOL], tool_choice={"type": "auto"},
         messages=[{"role": "user", "content": PROMPT.format(title=title, today=today, end=end, text=text[:PAGE_CHARS])}])
@@ -276,6 +300,21 @@ def ticket_links(page, base_domain, reg_domain):
 
 
 def run_one(slug):
+    cf = ROOT / "build" / "cache" / f"schedule-{slug}.json"
+    _SC.clear()
+    try:
+        _SC.update(json.loads(cf.read_text()))
+    except Exception:
+        pass
+    try:
+        return _run_one(slug)
+    finally:
+        cf.parent.mkdir(parents=True, exist_ok=True)
+        keep = {k: v for k, v in _SC.items() if (dt.date.today() - dt.date.fromisoformat(v["saved"])).days <= SC_MAX_AGE}
+        cf.write_text(json.dumps(keep, ensure_ascii=False))
+
+
+def _run_one(slug):
     import anthropic
     from playwright.sync_api import TimeoutError as PWTimeout
     from playwright.sync_api import sync_playwright

@@ -37,7 +37,8 @@ SKIP_WORDS = re.compile(
     r"volunteer|contact|privacy|terms|faq|faqs|shop|store|cart|checkout|account|login|signin|newsletter|mailing|subscribe|"
     r"accessibility|history|mission|rentals?|rent|sponsor|sponsors|supporters|reports?|policies|policy|search|tag|category|"
     r"author|feed|wp-admin|wp-json|cdn-cgi|gift-?cards?|group-?tickets?|group-?sales|visit|directions|parking|"
-    r"jobs|employment|internships?|apply|applications?|resources|archive|archives|past-?events?|history)(/|$|-)", re.I)
+    r"jobs|employment|internships?|apply|applications?|resources|archive|archives|past-?events?|history|people|person|bios?|biography|"
+    r"artists?-bios?|cast|creative-team|donors?|partners?|press-?releases?|newsroom|blog|news)(/|$|-)", re.I)
 FILE_EXT = re.compile(r"\.(pdf|jpe?g|png|gif|svg|zip|docx?|xlsx?|mp3|mp4|ics)(\?|$)", re.I)
 
 # Hosts whose pages sit behind bot protection: never followed (we don't bypass it).

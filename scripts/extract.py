@@ -17,8 +17,12 @@ from sources_io import load_sources
 from textutil import chunk_text
 
 CHUNK_CHARS = 70_000
+CACHE = None  # set below once ROOT is known
+CACHE_MAX_AGE_DAYS = 10  # an unchanged page is not re-read for a week; after that it is read again regardless
+CACHE_EXTRA_DAYS = 14   # extract a little past the page's window so a reused result still covers the following week
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "build" / "raw"
+CACHE = ROOT / "build" / "cache"
 OUT = ROOT / "build" / "extracted"
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5")
 
@@ -86,6 +90,37 @@ def dedupe(events):
         if k not in best or score > best[k][0]:
             best[k] = (score, e)
     return [v[1] for v in best.values()]
+
+
+def cache_key(raw, scope, strict):
+    """Fingerprint of everything the answer depends on except the date: the page text, the org's rules and the prompt."""
+    import hashlib
+    h = hashlib.sha256()
+    h.update(INSTRUCTIONS.encode())
+    h.update(MODEL.encode())
+    h.update(f"{scope}|{strict}|{raw.get('name')}".encode())
+    for p in raw["pages"]:
+        h.update(p["url"].encode())
+        h.update(p["text"].encode())
+    return h.hexdigest()
+
+
+def cached_events(slug, key):
+    f = CACHE / f"{slug}.json"
+    try:
+        c = json.loads(f.read_text())
+        age = (dt.date.today() - dt.date.fromisoformat(c["saved"])).days
+        if c["key"] == key and 0 <= age <= CACHE_MAX_AGE_DAYS:
+            return c["events"]
+    except Exception:
+        pass
+    return None
+
+
+def save_cache(slug, key, events):
+    CACHE.mkdir(parents=True, exist_ok=True)
+    (CACHE / f"{slug}.json").write_text(json.dumps({"key": key, "saved": dt.date.today().isoformat(), "events": events},
+                                                   ensure_ascii=False))
 
 
 def extract_org(client, raw, days, scope="", strict=False):
@@ -200,10 +235,17 @@ def main():
     def job(item):
         src, raw = item
         try:
-            events = extract_org(client, raw, days, src.get("scope", ""), not src.get("performing_arts_majority", True))
+            scope, strict = src.get("scope", ""), not src.get("performing_arts_majority", True)
+            use_cache = not os.environ.get("EXTRACT_NO_CACHE") and not only
+            key = cache_key(raw, scope, strict)
+            events = cached_events(src["slug"], key) if use_cache else None
+            note = " (unchanged page: reused last result, no API call)" if events is not None else ""
+            if events is None:
+                events = extract_org(client, raw, days + CACHE_EXTRA_DAYS, scope, strict)
+                save_cache(src["slug"], key, events)
             (OUT / f"{src['slug']}.json").write_text(
                 json.dumps({"slug": src["slug"], "events": events}, ensure_ascii=False, indent=1))
-            return f"{src['slug']}: {len(events)} events"
+            return f"{src['slug']}: {len(events)} events{note}"
         except Exception as e:
             return f"{src['slug']}: FAILED {e}"
 
