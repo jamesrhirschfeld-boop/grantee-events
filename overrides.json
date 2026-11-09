@@ -1,216 +1,225 @@
 {
-  "_settings": {
-    "window_days": 60
+ "_settings": {
+  "window_days": 60
+ },
+ "nyphil": {
+  "pages": null,
+  "manual": {
+   "file": "nyphil.pdf",
+   "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
+   "max_age_days": 45
   },
-  "nyphil": {
-    "pages": null,
-    "manual": {
-      "file": "nyphil.pdf",
-      "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-      "max_age_days": 45
-    },
-    "notes": "nyphil.org's robots.txt asks automated tools to stay out. Reads the chronological listing PDF NY Phil publishes in its newsroom; save it as manual/nyphil.pdf."
+  "notes": "nyphil.org's robots.txt asks automated tools to stay out. Reads the chronological listing PDF NY Phil publishes in its newsroom; save it as manual/nyphil.pdf."
+ },
+ "dance-nyc": {
+  "own_events_only": true,
+  "scope": "Include only events that Dance/NYC itself produces or presents (its own programs, convenings, performances under its own name). Exclude every event by another organization, venue or artist that merely appears on its community calendar, even if Dance/NYC promotes it."
+ },
+ "bronx-council-on-the-arts": {
+  "own_events_only": true,
+  "scope": "Include only events that Bronx Council on the Arts itself produces or presents (its own programs and festivals under its own name). Exclude every event by another organization, venue or artist that merely appears on its calendar or listings, even if the Council promotes it."
+ },
+ "new-york-city-center": {
+  "pages": null,
+  "manual": {
+   "file": "nycc.pdf",
+   "url": "https://www.nycitycenter.org/",
+   "max_age_days": 120
   },
-  "dance-nyc": {
-    "own_events_only": true,
-    "scope": "Include only events that Dance/NYC itself produces or presents (its own programs, convenings, performances under its own name). Exclude every event by another organization, venue or artist that merely appears on its community calendar, even if Dance/NYC promotes it."
-  },
-  "bronx-council-on-the-arts": {
-    "own_events_only": true,
-    "scope": "Include only events that Bronx Council on the Arts itself produces or presents (its own programs and festivals under its own name). Exclude every event by another organization, venue or artist that merely appears on its calendar or listings, even if the Council promotes it."
-  },
-  "new-york-city-center": {
-    "pages": null,
-    "manual": {
-      "file": "nycc.pdf",
-      "url": "https://www.nycitycenter.org/",
-      "max_age_days": 120
-    },
-    "notes": "nycitycenter.org shows a bot-protection page. Reads the 2026-27 season announcement PDF City Center published; save it as manual/nycc.pdf.",
-    "scope": "This source is City Center's 2026-27 season announcement. Its last page is a schedule: each production has a run (e.g. 'Oct 28 - Nov 15, 2026') and weekly showtimes. Expand every run inside the window into one entry per performance. Weekly patterns: 'WEEK 1' is the first calendar week of the run starting on the run's opening date, and each following WEEK is the next Tuesday-through-Sunday block; a weekday range such as 'Tue - Fri 7:30pm' means each of those days at that time; '2 & 7:30pm' on Sat means two performances that day (2:00 PM and 7:30 PM). Work out each date's weekday carefully from the calendar (for reference, Oct 28 2026 is a Wednesday, Nov 6 2026 is a Friday, Dec 2 2026 is a Wednesday) and never list a performance on a day that the pattern does not give. The annual gala presentation (In the Heights) is a ticketed public production: INCLUDE it. 'Community Night' lines (e.g. 'Fri Nov 6 | 6pm') are public performances at a special time: include them with a note. Exclude 'Pre-Show Dance Lesson' lines. Where a run lists no showtimes (e.g. Alvin Ailey American Dance Theater, Dec 2 2026 - Jan 3 2027), list one entry on the opening date, leave the time empty, and note the full run dates. Use start_time empty rather than guessing. Location is New York City Center, 131 West 55th Street, Manhattan. Skip anything in the past. Ignore the press-release text; it adds no dates."
-  },
-  "repertorio-espa-ol": {
-    "pages": [
-      {
-        "url": "https://repertorio.nyc/performances"
-      }
+  "notes": "nycitycenter.org shows a bot-protection page. Reads the 2026-27 season announcement PDF City Center published; save it as manual/nycc.pdf.",
+  "scope": "This source is City Center's 2026-27 season announcement. Its last page is a schedule: each production has a run (e.g. 'Oct 28 - Nov 15, 2026') and weekly showtimes. Expand every run inside the window into one entry per performance. Weekly patterns: 'WEEK 1' is the first calendar week of the run starting on the run's opening date, and each following WEEK is the next Tuesday-through-Sunday block; a weekday range such as 'Tue - Fri 7:30pm' means each of those days at that time; '2 & 7:30pm' on Sat means two performances that day (2:00 PM and 7:30 PM). Work out each date's weekday carefully from the calendar (for reference, Oct 28 2026 is a Wednesday, Nov 6 2026 is a Friday, Dec 2 2026 is a Wednesday) and never list a performance on a day that the pattern does not give. The annual gala presentation (In the Heights) is a ticketed public production: INCLUDE it. 'Community Night' lines (e.g. 'Fri Nov 6 | 6pm') are public performances at a special time: include them with a note. Exclude 'Pre-Show Dance Lesson' lines. Where a run lists no showtimes (e.g. Alvin Ailey American Dance Theater, Dec 2 2026 - Jan 3 2027), list one entry on the opening date, leave the time empty, and note the full run dates. Use start_time empty rather than guessing. Location is New York City Center, 131 West 55th Street, Manhattan. Skip anything in the past. Ignore the press-release text; it adds no dates."
+ },
+ "repertorio-espa-ol": {
+  "pages": [
+   {
+    "url": "https://repertorio.nyc/performances"
+   }
+  ],
+  "verified": true,
+  "notes": "Calendar page supplied by the user. The site needs JavaScript; the headless browser renders it."
+ },
+ "the-billie-holiday-theatre": {
+  "websites": [
+   "https://thebillieholidaytheatre.org/"
+  ],
+  "notes": "The Fluxx address redirects here; updated after the diagnose check."
+ },
+ "second-stage-theater": {
+  "pages": [
+   {
+    "url": "https://2st.com/",
+    "follow_links_matching": "/shows/",
+    "max_follow": 10,
+    "reveal_hidden": true
+   }
+  ],
+  "verified": true,
+  "scope": "Each production page has a performance calendar for one or more months. Grids are labelled 'MONTH: November 2026'; a day number with times beneath it (e.g. 04 then 2pm and 7pm) is a performance on that date in the labelled month. Days with no time are dark; ignore leading/trailing days that belong to the neighboring month. Notes such as 'Student Matinee', 'Audio Described' (AD) or 'Open Captioned' (OC) go in the notes field. Use the production's own page as each event's url.",
+  "notes": "Homepage lists productions without dates; each /shows/ page has its run and a calendar hidden in tabs. Followed one level, hidden sections revealed."
+ },
+ "the-chocolate-factory-theater": {
+  "pages": [
+   {
+    "url": "https://chocolatefactorytheater.org/events/",
+    "follow_links_matching": [
+     "-2026/",
+     "-2027/"
     ],
-    "verified": true,
-    "notes": "Calendar page supplied by the user. The site needs JavaScript; the headless browser renders it."
-  },
-  "the-billie-holiday-theatre": {
-    "websites": [
-      "https://thebillieholidaytheatre.org/"
+    "max_follow": 12
+   }
+  ],
+  "verified": true,
+  "scope": "The events page lists each production as a run with date range (e.g. 'November 12-21, 2026'). Each production's own page gives the weekly schedule (e.g. 'Thursday - Saturday at 7pm'). Expand each run inside the window into one entry per performance using that schedule. Exclude book launches, lectures and works-in-process sessions such as Saturday Salons.",
+  "notes": "Events page lists runs; each production page has the weekly schedule. Followed one level."
+ },
+ "braata-productions": {
+  "scope": "Braata Productions is a performing arts company. Treat every event listed under UPCOMING EVENTS on its events page as a ticketed performance event and include it, even if the title sounds like a festival or market (for example 'Christmas Grand Market 2026 - QUEENS'). The borough in the title is where it takes place. Ignore the 'Digital Stage' items and the placeholder text 'Add a Title'.",
+  "notes": "Events listed on its page are its seasonal productions; confirmed by the program officer."
+ },
+ "irish-repertory-theatre": {
+  "pages": [
+   {
+    "url": "https://irishrep.org/whats-on/calendar",
+    "next_selector": ".next"
+   }
+  ],
+  "verified": true,
+  "notes": "Month-grid calendar; the scraper clicks 'next' once per further month in the window so every performance and time is captured."
+ },
+ "l-alliance-new-york": {
+  "websites": [
+   "https://lallianceny.org/"
+  ],
+  "pages": [
+   {
+    "url": "https://lallianceny.org/event/crossing-the-line-2026/",
+    "follow_links_matching": "/event/",
+    "max_follow": 25
+   }
+  ],
+  "verified": true,
+  "own_events_only": true,
+  "notes": "Formerly FIAF; the old address fiaf.org refuses automated readers (403), lallianceny.org loads fine. Only the Crossing the Line festival is wanted; the festival page links each artist's performance page.",
+  "scope": "Include only performances that are part of the Crossing The Line festival (the festival's own lineup of performances, produced by L'Alliance New York with partners). Exclude everything else on the site: film screenings and series, talks, classes, Family Saturdays, Bastille Day, galas, awards, library and language-center events. Exclude festival performances outside the five boroughs (for example PS21 in Chatham, New York)."
+ },
+ "irish-arts-center": {
+  "pages": [
+   {
+    "url": "https://irishartscenter.org/whats-on",
+    "follow_links_matching": "/event/",
+    "max_follow": 25
+   }
+  ],
+  "verified": true,
+  "notes": "Calendar at /whats-on is readable; each entry links to an event page with dates, times and location. Borderline literary and listening events are included on purpose.",
+  "scope": "Include live performances open to the public at Irish Arts Center and its partner venues in New York City: music concerts and sessions (including the recurring free Big City Folk Song Club and Traditional Irish Sessions in the Café, listed on their stated dates), dance and theatre productions, and literary events built around live readings or performance (for example PoetryFest and its Friday launch reading, and listening parties that include a live musical performance), with a note saying what kind of event it is. Exclude exhibitions and installations, residencies, classes and workshops, gift cards, and conversations or talks with no performance. Where one evening has two separately timed sessions (for example the Traditional Irish Sessions: a slow session at 6pm and a traditional session at 8pm), list each session as its own entry with its own start time, using only the specific dates the event page lists."
+ },
+ "working-theater": {
+  "pages": [
+   {
+    "url": "https://www.theworkingtheater.org/happenings",
+    "follow_links_matching": "theworkingtheater.org/",
+    "follow_links_exclude": [
+     "/s/",
+     "/donate",
+     "/cart",
+     "/mailinglist",
+     "/staff",
+     "/board",
+     "/supporters",
+     "/reports",
+     "/history",
+     "/mission",
+     "/news",
+     "/aboutus",
+     "/ourwork",
+     "/joinin",
+     "/happenings",
+     "/season42",
+     "/slidingscale",
+     "/training",
+     "/brickbybrick",
+     "/workwithus",
+     "/mpcfapplications",
+     "/contact"
     ],
-    "notes": "The Fluxx address redirects here; updated after the diagnose check."
-  },
-  "second-stage-theater": {
-    "pages": [
-      {
-        "url": "https://2st.com/",
-        "follow_links_matching": "/shows/",
-        "max_follow": 10,
-        "reveal_hidden": true
-      }
+    "max_follow": 12
+   }
+  ],
+  "verified": true,
+  "notes": "The season page (/happenings) is a set of image tiles with no text; each tile links to a show page that gives its date. The scraper follows those pages. Tickets are sold through OvationTix, but dates are on Working Theater's own pages."
+ },
+ "paul-taylor-dance-company": {
+  "pages": [
+   {
+    "url": "https://www.davidhkochtheater.com/tickets-and-events/paul-taylor"
+   },
+   {
+    "url": "https://paultaylordance.org/performances/newyorkseason/"
+   }
+  ],
+  "verified": true,
+  "notes": "The company's own season page gives the works by date but no times; the David H. Koch Theater page (robots.txt allows it) lists every performance with its time. Both are read.",
+  "scope": "Paul Taylor Dance Company's New York season at the David H. Koch Theater, Lincoln Center (Nov 3-22, 2026). Make one entry per performance, using the date and time from the Koch Theater page's list of performances. Use the title 'Paul Taylor Dance Company: New York Season' and, in the description, name the works on the program for that date when the company's season page gives them (its season calendar lists each work with its dates; matinees marked MAT, evenings EVE). The 2:00 PM Saturday matinees on Nov 14 and Nov 21 are Family Express performances: say so in notes. Exclude the Taylor Gala dinner and party, the Single Mingle pre-show socials, 'Sunday with Taylor' studio sessions, classes, and the digital program."
+ },
+ "red-bull-theater": {
+  "pages": [
+   {
+    "url": "https://www.redbulltheater.com/",
+    "follow_links_matching": "redbulltheater.com/",
+    "follow_links_exclude": [
+     "group-tickets",
+     "/support",
+     "/programs",
+     "/education",
+     "/about",
+     "/history",
+     "/donate",
+     "/privacy",
+     "/contact",
+     "/mailing",
+     "?lightbox",
+     "friend-benefits",
+     "heroescircle",
+     "gala",
+     "other-ways-to-give",
+     "podversation",
+     "podcast",
+     "intensive",
+     "teaching-artist",
+     "shakespeare-in-schools",
+     "/team",
+     "bull-sessions",
+     "hispanic-golden-age",
+     "all-events"
     ],
-    "verified": true,
-    "scope": "Each production page has a performance calendar for one or more months. Grids are labelled 'MONTH: November 2026'; a day number with times beneath it (e.g. 04 then 2pm and 7pm) is a performance on that date in the labelled month. Days with no time are dark; ignore leading/trailing days that belong to the neighboring month. Notes such as 'Student Matinee', 'Audio Described' (AD) or 'Open Captioned' (OC) go in the notes field. Use the production's own page as each event's url.",
-    "notes": "Homepage lists productions without dates; each /shows/ page has its run and a calendar hidden in tabs. Followed one level, hidden sections revealed."
-  },
-  "the-chocolate-factory-theater": {
-    "pages": [
-      {
-        "url": "https://chocolatefactorytheater.org/events/",
-        "follow_links_matching": [
-          "-2026/",
-          "-2027/"
-        ],
-        "max_follow": 12
-      }
-    ],
-    "verified": true,
-    "scope": "The events page lists each production as a run with date range (e.g. 'November 12-21, 2026'). Each production's own page gives the weekly schedule (e.g. 'Thursday - Saturday at 7pm'). Expand each run inside the window into one entry per performance using that schedule. Exclude book launches, lectures and works-in-process sessions such as Saturday Salons.",
-    "notes": "Events page lists runs; each production page has the weekly schedule. Followed one level."
-  },
-  "braata-productions": {
-    "scope": "Braata Productions is a performing arts company. Treat every event listed under UPCOMING EVENTS on its events page as a ticketed performance event and include it, even if the title sounds like a festival or market (for example 'Christmas Grand Market 2026 - QUEENS'). The borough in the title is where it takes place. Ignore the 'Digital Stage' items and the placeholder text 'Add a Title'.",
-    "notes": "Events listed on its page are its seasonal productions; confirmed by the program officer."
-  },
-  "irish-repertory-theatre": {
-    "pages": [
-      {
-        "url": "https://irishrep.org/whats-on/calendar",
-        "next_selector": ".next"
-      }
-    ],
-    "verified": true,
-    "notes": "Month-grid calendar; the scraper clicks 'next' once per further month in the window so every performance and time is captured."
-  },
-  "l-alliance-new-york": {
-    "websites": [
-      "https://lallianceny.org/"
-    ],
-    "pages": [
-      {
-        "url": "https://lallianceny.org/event/crossing-the-line-2026/",
-        "follow_links_matching": "/event/",
-        "max_follow": 25
-      }
-    ],
-    "verified": true,
-    "own_events_only": true,
-    "notes": "Formerly FIAF; the old address fiaf.org refuses automated readers (403), lallianceny.org loads fine. Only the Crossing the Line festival is wanted; the festival page links each artist's performance page.",
-    "scope": "Include only performances that are part of the Crossing The Line festival (the festival's own lineup of performances, produced by L'Alliance New York with partners). Exclude everything else on the site: film screenings and series, talks, classes, Family Saturdays, Bastille Day, galas, awards, library and language-center events. Exclude festival performances outside the five boroughs (for example PS21 in Chatham, New York)."
-  },
-  "irish-arts-center": {
-    "pages": [
-      {
-        "url": "https://irishartscenter.org/whats-on",
-        "follow_links_matching": "/event/",
-        "max_follow": 25
-      }
-    ],
-    "verified": true,
-    "notes": "Calendar at /whats-on is readable; each entry links to an event page with dates, times and location. Borderline literary and listening events are included on purpose.",
-    "scope": "Include live performances open to the public at Irish Arts Center and its partner venues in New York City: music concerts and sessions (including the recurring free Big City Folk Song Club and Traditional Irish Sessions in the Café, listed on their stated dates), dance and theatre productions, and literary events built around live readings or performance (for example PoetryFest and its Friday launch reading, and listening parties that include a live musical performance), with a note saying what kind of event it is. Exclude exhibitions and installations, residencies, classes and workshops, gift cards, and conversations or talks with no performance. Where one evening has two separately timed sessions (for example the Traditional Irish Sessions: a slow session at 6pm and a traditional session at 8pm), list each session as its own entry with its own start time, using only the specific dates the event page lists."
-  },
-  "working-theater": {
-    "pages": [
-      {
-        "url": "https://www.theworkingtheater.org/happenings",
-        "follow_links_matching": "theworkingtheater.org/",
-        "follow_links_exclude": [
-          "/s/",
-          "/donate",
-          "/cart",
-          "/mailinglist",
-          "/staff",
-          "/board",
-          "/supporters",
-          "/reports",
-          "/history",
-          "/mission",
-          "/news",
-          "/aboutus",
-          "/ourwork",
-          "/joinin",
-          "/happenings",
-          "/season42",
-          "/slidingscale",
-          "/training",
-          "/brickbybrick",
-          "/workwithus",
-          "/mpcfapplications",
-          "/contact"
-        ],
-        "max_follow": 12
-      }
-    ],
-    "verified": true,
-    "notes": "The season page (/happenings) is a set of image tiles with no text; each tile links to a show page that gives its date. The scraper follows those pages. Tickets are sold through OvationTix, but dates are on Working Theater's own pages."
-  },
-  "paul-taylor-dance-company": {
-    "pages": [
-      {
-        "url": "https://www.davidhkochtheater.com/tickets-and-events/paul-taylor"
-      },
-      {
-        "url": "https://paultaylordance.org/performances/newyorkseason/"
-      }
-    ],
-    "verified": true,
-    "notes": "The company's own season page gives the works by date but no times; the David H. Koch Theater page (robots.txt allows it) lists every performance with its time. Both are read.",
-    "scope": "Paul Taylor Dance Company's New York season at the David H. Koch Theater, Lincoln Center (Nov 3-22, 2026). Make one entry per performance, using the date and time from the Koch Theater page's list of performances. Use the title 'Paul Taylor Dance Company: New York Season' and, in the description, name the works on the program for that date when the company's season page gives them (its season calendar lists each work with its dates; matinees marked MAT, evenings EVE). The 2:00 PM Saturday matinees on Nov 14 and Nov 21 are Family Express performances: say so in notes. Exclude the Taylor Gala dinner and party, the Single Mingle pre-show socials, 'Sunday with Taylor' studio sessions, classes, and the digital program."
-  },
-  "red-bull-theater": {
-    "pages": [
-      {
-        "url": "https://www.redbulltheater.com/",
-        "follow_links_matching": "redbulltheater.com/",
-        "follow_links_exclude": [
-          "group-tickets",
-          "/support",
-          "/programs",
-          "/education",
-          "/about",
-          "/history",
-          "/donate",
-          "/privacy",
-          "/contact",
-          "/mailing",
-          "?lightbox",
-          "friend-benefits",
-          "heroescircle",
-          "gala",
-          "other-ways-to-give",
-          "podversation",
-          "podcast",
-          "intensive",
-          "teaching-artist",
-          "shakespeare-in-schools",
-          "/team",
-          "bull-sessions",
-          "hispanic-golden-age",
-          "all-events"
-        ],
-        "max_follow": 10
-      }
-    ],
-    "verified": true,
-    "notes": "The 'Upcoming' page lists only some productions. The home page links to each show's own page (for example /out-of-this-world, a concert at Symphony Space). Tickets for some shows are sold by the host theater (Symphony Space, 59E59) or OvationTix.",
-    "scope": "Include Red Bull Theater's own public performances, including its annual concert benefit and Revelation Readings, whichever New York City theater hosts them (for example Symphony Space, 59E59). A ticketed concert or staged production counts as a performance even when it raises funds; say so in notes. Use the venue named on the show's page as the location. Exclude donation pages, group-sales pages, classes and education programs.",
-    "scrape_timeout": 900
-  },
-  "haiti-cultural-exchange": {
-    "pages": [
-      {
-        "url": "https://haiticulturalx.org/events/",
-        "follow_links_matching": "/event/",
-        "max_follow": 15
-      }
-    ],
-    "verified": true,
-    "notes": "The events page mixes exhibitions, workshops and receptions with performances, and lists the Mizik Ayiti residency only as a range (Nov 5 - Dec 10). The residency's own page lists the exact Thursday dates, so event pages are followed.",
-    "scope": "Include only live music, dance and performance events open to the public. The main case is the Mizik Ayiti! Residency series (Thursday-night concerts): use the specific dates the event page lists (for example Nov 5, 12 and 19 and Dec 3 and 10), one entry per date, start time 6:30 PM when the page says sets begin at 6:30 (note that there is a second set at 7:45 and that doors are at 6), never a single entry for the whole range. Also include performances such as dance showcases and live concerts. Exclude exhibitions and 'on view' listings, workshops and classes (including the Ti Atis Second Saturdays family workshops), receptions, artist talks, book events, author conversations and listening parties without live performance, and salons that are discussions. If a salon or tribute event features live readings or music as its main content, include it with a note."
-  }
+    "max_follow": 10
+   }
+  ],
+  "verified": true,
+  "notes": "The 'Upcoming' page lists only some productions. The home page links to each show's own page (for example /out-of-this-world, a concert at Symphony Space). Tickets for some shows are sold by the host theater (Symphony Space, 59E59) or OvationTix.",
+  "scope": "Include Red Bull Theater's own public performances, including its annual concert benefit and Revelation Readings, whichever New York City theater hosts them (for example Symphony Space, 59E59). A ticketed concert or staged production counts as a performance even when it raises funds; say so in notes. Use the venue named on the show's page as the location. Exclude donation pages, group-sales pages, classes and education programs.",
+  "scrape_timeout": 900
+ },
+ "haiti-cultural-exchange": {
+  "pages": [
+   {
+    "url": "https://haiticulturalx.org/events/",
+    "follow_links_matching": "/event/",
+    "max_follow": 15
+   }
+  ],
+  "verified": true,
+  "notes": "The events page mixes exhibitions, workshops and receptions with performances, and lists the Mizik Ayiti residency only as a range (Nov 5 - Dec 10). The residency's own page lists the exact Thursday dates, so event pages are followed.",
+  "scope": "Include only live music, dance and performance events open to the public. The main case is the Mizik Ayiti! Residency series (Thursday-night concerts): use the specific dates the event page lists (for example Nov 5, 12 and 19 and Dec 3 and 10), one entry per date, start time 6:30 PM when the page says sets begin at 6:30 (note that there is a second set at 7:45 and that doors are at 6), never a single entry for the whole range. Also include performances such as dance showcases and live concerts. Exclude exhibitions and 'on view' listings, workshops and classes (including the Ti Atis Second Saturdays family workshops), receptions, artist talks, book events, author conversations and listening parties without live performance, and salons that are discussions. If a salon or tribute event features live readings or music as its main content, include it with a note."
+ },
+ "new-york-city-children-s-theater": {
+  "pages": [
+   {
+    "url": "https://www.nycchildrenstheater.org/shows-and-events/current-season/",
+    "max_follow": 12,
+    "scope": "Each show page lists many performances at partner venues (libraries, museums, theaters). List every performance as its own entry with that day's time, and use the venue named for that date as the location."
+   }
+  ]
+ }
 }

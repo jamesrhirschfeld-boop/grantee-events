@@ -14,7 +14,7 @@
    "active": true,
    "discovery": {
     "status": "no_calendar_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "no page with dates found; may need a manual calendar URL"
    }
   },
@@ -54,8 +54,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (1 overall): https://abetterjamaica.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (1 overall); checked again every run: https://abetterjamaica.org/"
    },
    "pages": [
     {
@@ -146,8 +146,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (14 overall): https://www.alarmwillsound.com/events/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (14 overall); checked again every run: https://www.alarmwillsound.com/events/"
    },
    "pages": [
     {
@@ -190,13 +190,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (2 overall): https://www.abt.org/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "dates are on the individual show pages (4 dates on 1 pages followed from https://www.abt.org/performances/spring-season/)"
    },
    "pages": [
     {
-     "url": "https://www.abt.org/"
+     "url": "https://www.abt.org/performances/spring-season/"
     }
    ]
   },
@@ -211,13 +211,16 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (10 overall): https://aconyc.org/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://aconyc.org/season-42/virtuoso/; 1 dates in window at https://aconyc.org/season-42/light-of-my-life/"
    },
    "pages": [
     {
-     "url": "https://aconyc.org/"
+     "url": "https://aconyc.org/season-42/virtuoso/"
+    },
+    {
+     "url": "https://aconyc.org/season-42/light-of-my-life/"
     }
    ]
   },
@@ -232,9 +235,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (15 overall): https://www.americancomposers.org/performances-events"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.americancomposers.org/performances-events"
    },
    "pages": [
     {
@@ -254,12 +257,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (1 overall): https://www.altnyc.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (2 overall); checked again every run: https://www.altnyc.org/composer-librettist-development-program"
    },
    "pages": [
     {
-     "url": "https://www.altnyc.org/"
+     "url": "https://www.altnyc.org/composer-librettist-development-program"
     }
    ]
   },
@@ -299,12 +302,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (4 overall): https://arsnovanyc.com/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (2 overall); checked again every run: https://arsnovanyc.com/upcoming-events/"
    },
    "pages": [
     {
-     "url": "https://arsnovanyc.com/"
+     "url": "https://arsnovanyc.com/upcoming-events/"
     }
    ]
   },
@@ -320,12 +323,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (19 overall): https://artsforart.org/ingardens-2026/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://artsforart.org/programs/"
    },
    "pages": [
     {
-     "url": "https://artsforart.org/ingardens-2026/"
+     "url": "https://artsforart.org/programs/"
     }
    ]
   },
@@ -341,8 +344,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (14 overall): https://www.asaseyaaent.org/events-press-media/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (14 overall); checked again every run: https://www.asaseyaaent.org/events-press-media/"
    },
    "pages": [
     {
@@ -361,13 +364,16 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (22 overall): https://atlantictheater.org/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://atlantictheater.org/productions/; 2 dates in window at https://atlantictheater.org/productions"
    },
    "pages": [
     {
-     "url": "https://atlantictheater.org/"
+     "url": "https://atlantictheater.org/productions/"
+    },
+    {
+     "url": "https://atlantictheater.org/productions"
     }
    ]
   },
@@ -403,15 +409,10 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (30 overall): https://www.ballethispanico.org/performances"
-   },
-   "pages": [
-    {
-     "url": "https://www.ballethispanico.org/performances"
-    }
-   ]
+    "status": "error",
+    "checked": "2026-11-08",
+    "note": "timed out or crashed"
+   }
   },
   {
    "slug": "bang-on-a-can",
@@ -446,7 +447,7 @@
    "active": true,
    "discovery": {
     "status": "unreachable",
-    "checked": "2026-11-06",
+    "checked": "2026-11-09",
     "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.baryshnikovarts.org/"
    }
   },
@@ -462,7 +463,7 @@
    "active": true,
    "discovery": {
     "status": "unreachable",
-    "checked": "2026-11-06",
+    "checked": "2026-11-09",
     "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bax.org/"
    }
   },
@@ -477,13 +478,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (3 overall): https://bedlam.org/othello"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "18 dates in window at https://ci.ovationtix.com/33875/production/1282155"
    },
    "pages": [
     {
-     "url": "https://bedlam.org/othello"
+     "url": "https://ci.ovationtix.com/33875/production/1282155"
     }
    ]
   },
@@ -498,9 +499,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (5 overall): https://www.bethmorrisonprojects.org/season"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "dates are on the individual show pages (2 dates on 2 pages followed from https://www.bethmorrisonprojects.org/season)"
    },
    "pages": [
     {
@@ -564,13 +565,16 @@
    "performing_arts_majority": false,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (3 overall): https://bricartsmedia.org/events/calendar/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://bricartsmedia.org/events/calendar/; 1 dates in window at https://bricartsmedia.org/events/"
    },
    "pages": [
     {
      "url": "https://bricartsmedia.org/events/calendar/"
+    },
+    {
+     "url": "https://bricartsmedia.org/events/"
     }
    ]
   },
@@ -609,9 +613,9 @@
    "performing_arts_majority": false,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (1 overall): https://www.brooklynartscouncil.org/what-we-do/on-demand-programming"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.brooklynartscouncil.org/what-we-do/on-demand-programming"
    },
    "pages": [
     {
@@ -631,8 +635,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (1 overall): https://www.camilleabrown.org/upcoming"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (1 overall); checked again every run: https://www.camilleabrown.org/upcoming"
    },
    "pages": [
     {
@@ -737,12 +741,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (4 overall): https://chambermusicamerica.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (5 overall); checked again every run: https://chambermusicamerica.org/news/now-playing-summer-2026/"
    },
    "pages": [
     {
-     "url": "https://chambermusicamerica.org/"
+     "url": "https://chambermusicamerica.org/news/now-playing-summer-2026/"
     }
    ]
   },
@@ -781,9 +785,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (11 overall): https://cityparksfoundation.org/calendar/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://cityparksfoundation.org/calendar/"
    },
    "pages": [
     {
@@ -824,8 +828,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (19 overall): https://www.clubbedthumb.org/productions/2025/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (19 overall); checked again every run: https://www.clubbedthumb.org/productions/2025/"
    },
    "pages": [
     {
@@ -866,12 +870,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (1 overall): https://dancelabny.org/labaret-2026/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://dancelabny.org/programs/productionpreplab/"
    },
    "pages": [
     {
-     "url": "https://dancelabny.org/labaret-2026/"
+     "url": "https://dancelabny.org/programs/productionpreplab/"
     }
    ]
   },
@@ -887,12 +891,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (7 overall): https://www.dancetheatreofharlem.org/tour"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (1 overall); checked again every run: https://www.dancetheatreofharlem.org/upcomingevents/"
    },
    "pages": [
     {
-     "url": "https://www.dancetheatreofharlem.org/tour"
+     "url": "https://www.dancetheatreofharlem.org/upcomingevents/"
     }
    ]
   },
@@ -977,7 +981,7 @@
    "active": true,
    "discovery": {
     "status": "no_calendar_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "no page with dates found; may need a manual calendar URL"
    }
   },
@@ -992,9 +996,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (20 overall): https://emerge125.org/calendar-events"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://emerge125.org/calendar-events"
    },
    "pages": [
     {
@@ -1013,11 +1017,14 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (3 overall): https://www.engardearts.org/currentproductions"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "3 dates in window at https://www.engardearts.org/tmohold; 1 dates in window at https://www.engardearts.org/currentproductions"
    },
    "pages": [
+    {
+     "url": "https://www.engardearts.org/tmohold"
+    },
     {
      "url": "https://www.engardearts.org/currentproductions"
     }
@@ -1103,9 +1110,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (4 overall): https://flamenco-vivo.org/events/category/fv-events/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://flamenco-vivo.org/events/category/fv-events/"
    },
    "pages": [
     {
@@ -1148,13 +1155,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (9 overall): https://nytf.org/fiddler-on-the-roof/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "dates are on the individual show pages (3 dates on 3 pages followed from https://nytf.org/amid-falling-walls/)"
    },
    "pages": [
     {
-     "url": "https://nytf.org/fiddler-on-the-roof/"
+     "url": "https://nytf.org/amid-falling-walls/"
     }
    ]
   },
@@ -1169,15 +1176,10 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (14 overall): https://www.forcesofnature.org/events"
-   },
-   "pages": [
-    {
-     "url": "https://www.forcesofnature.org/events"
-    }
-   ]
+    "status": "error",
+    "checked": "2026-11-08",
+    "note": "timed out or crashed"
+   }
   },
   {
    "slug": "l-alliance-new-york",
@@ -1255,7 +1257,7 @@
    "active": true,
    "discovery": {
     "status": "unreachable",
-    "checked": "2026-11-06",
+    "checked": "2026-11-09",
     "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.gemsny.org/"
    }
   },
@@ -1271,12 +1273,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (11 overall): https://www.harlemstage.org/e-moves-festival-2026"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://www.harlemstage.org/programming"
    },
    "pages": [
     {
-     "url": "https://www.harlemstage.org/e-moves-festival-2026"
+     "url": "https://www.harlemstage.org/programming"
     }
    ]
   },
@@ -1291,9 +1293,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (15 overall): https://here.org/shows"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://here.org/shows"
    },
    "pages": [
     {
@@ -1312,13 +1314,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (44 overall): https://www.hi-artsnyc.org/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://www.hi-artsnyc.org/calendar"
    },
    "pages": [
     {
-     "url": "https://www.hi-artsnyc.org/"
+     "url": "https://www.hi-artsnyc.org/calendar"
     }
    ]
   },
@@ -1333,10 +1335,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
-   }
+    "status": "no_events_found",
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (1 overall); checked again every run: https://www.hostos.cuny.edu/culturearts/events/performing-arts.shtml"
+   },
+   "pages": [
+    {
+     "url": "https://www.hostos.cuny.edu/culturearts/events/performing-arts.shtml"
+    }
+   ]
   },
   {
    "slug": "the-house-foundation-for-the-arts",
@@ -1391,9 +1398,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (6 overall): https://www.indiespace.org/programs"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.indiespace.org/programs"
    },
    "pages": [
     {
@@ -1505,9 +1512,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (2 overall): https://www.jackny.org/fall-2026-season"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://www.jackny.org/fall-2026-season"
    },
    "pages": [
     {
@@ -1526,13 +1533,16 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (8 overall): https://www.jackquartet.com/upcoming-performances"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://www.jackquartet.com/upcoming-performances; 2 dates in window at https://www.jackquartet.com/events"
    },
    "pages": [
     {
      "url": "https://www.jackquartet.com/upcoming-performances"
+    },
+    {
+     "url": "https://www.jackquartet.com/events"
     }
    ]
   },
@@ -1595,13 +1605,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (9 overall): https://jazzfoundation.org/monday-night-jam/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "dates are on the individual show pages (2 dates on 2 pages followed from https://jazzfoundation.org/events)"
    },
    "pages": [
     {
-     "url": "https://jazzfoundation.org/monday-night-jam/"
+     "url": "https://jazzfoundation.org/events"
     }
    ]
   },
@@ -1616,13 +1626,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (5 overall): https://www.limon.nyc/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "dates are on the individual show pages (11 dates on 2 pages followed from https://www.limon.nyc/performances)"
    },
    "pages": [
     {
-     "url": "https://www.limon.nyc/"
+     "url": "https://www.limon.nyc/performances"
     }
    ]
   },
@@ -1662,8 +1672,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (1 overall): https://www.keencompany.org/tickets"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (1 overall); checked again every run: https://www.keencompany.org/tickets"
    },
    "pages": [
     {
@@ -1752,8 +1762,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (6 overall): https://labtheater.org/stripped2026"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (6 overall); checked again every run: https://labtheater.org/stripped2026"
    },
    "pages": [
     {
@@ -1772,9 +1782,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (26 overall): https://americanorchestras.org/learn/upcoming-events/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://americanorchestras.org/learn/upcoming-events/"
    },
    "pages": [
     {
@@ -1835,13 +1845,16 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (11 overall): https://www.lct.org/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.lct.org/shows/the-reading-series/; 1 dates in window at https://www.lct.org/shows/"
    },
    "pages": [
     {
-     "url": "https://www.lct.org/"
+     "url": "https://www.lct.org/shows/the-reading-series/"
+    },
+    {
+     "url": "https://www.lct.org/shows/"
     }
    ]
   },
@@ -1877,9 +1890,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (15 overall): https://www.louisarmstronghouse.org/events/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "3 dates in window at https://www.louisarmstronghouse.org/events/"
    },
    "pages": [
     {
@@ -1898,13 +1911,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (3 overall): https://lmcc.net/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://lmcc.net/events/"
    },
    "pages": [
     {
-     "url": "https://lmcc.net/"
+     "url": "https://lmcc.net/events/"
     }
    ]
   },
@@ -1919,13 +1932,16 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (6 overall): https://ma-yitheatre.org/shows"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://ma-yitheatre.org/shows; 2 dates in window at https://ma-yitheatre.org/shows/intro-to-playwriting-showcase-2-and-3/"
    },
    "pages": [
     {
      "url": "https://ma-yitheatre.org/shows"
+    },
+    {
+     "url": "https://ma-yitheatre.org/shows/intro-to-playwriting-showcase-2-and-3/"
     }
    ]
   },
@@ -1940,9 +1956,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (16 overall): https://www.maboumines.org/current/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "dates are on the individual show pages (2 dates on 2 pages followed from https://www.maboumines.org/current/)"
    },
    "pages": [
     {
@@ -1962,12 +1978,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (1 overall): https://www.mamafoundation.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (1 overall); checked again every run: https://www.mamafoundation.org/programs"
    },
    "pages": [
     {
-     "url": "https://www.mamafoundation.org/"
+     "url": "https://www.mamafoundation.org/programs"
     }
    ]
   },
@@ -2003,15 +2019,10 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (3 overall): https://markmorrisdancegroup.org/the-dance-group/performances"
-   },
-   "pages": [
-    {
-     "url": "https://markmorrisdancegroup.org/the-dance-group/performances"
-    }
-   ]
+    "status": "error",
+    "checked": "2026-11-08",
+    "note": "timed out or crashed"
+   }
   },
   {
    "slug": "martha-graham-dance-company",
@@ -2048,13 +2059,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (9 overall): https://www.mastervoices.org/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.mastervoices.org/upcoming-performances"
    },
    "pages": [
     {
-     "url": "https://www.mastervoices.org/"
+     "url": "https://www.mastervoices.org/upcoming-performances"
     }
    ]
   },
@@ -2069,9 +2080,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (4 overall): https://mcctheater.org/our-2026-27-season/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://mcctheater.org/our-2026-27-season/"
    },
    "pages": [
     {
@@ -2115,12 +2126,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (1 overall): https://minttheater.org/readings/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://minttheater.org/production-archives/"
    },
    "pages": [
     {
-     "url": "https://minttheater.org/readings/"
+     "url": "https://minttheater.org/production-archives/"
     }
    ]
   },
@@ -2136,8 +2147,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (10 overall): https://www.monicabillbarnes.com/calendar-1"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (10 overall); checked again every run: https://www.monicabillbarnes.com/calendar-1"
    },
    "pages": [
     {
@@ -2156,9 +2167,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (34 overall): https://www.movenyc.nyc/events"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.movenyc.nyc/events"
    },
    "pages": [
     {
@@ -2201,9 +2212,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (6 overall): https://namt.org/events/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://namt.org/events/"
    },
    "pages": [
     {
@@ -2222,9 +2233,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (12 overall): https://nationalblacktheatre.org/season/2026-2027-season/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "4 dates in window at https://nationalblacktheatre.org/season/2026-2027-season/"
    },
    "pages": [
     {
@@ -2268,8 +2279,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (4 overall): https://www.newdramatists.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (4 overall); checked again every run: https://www.newdramatists.org/"
    },
    "pages": [
     {
@@ -2289,12 +2300,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (5 overall): https://newgeorges.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (16 overall); checked again every run: https://newgeorges.org/supported-productions/"
    },
    "pages": [
     {
-     "url": "https://newgeorges.org/"
+     "url": "https://newgeorges.org/supported-productions/"
     }
    ]
   },
@@ -2371,7 +2382,7 @@
    "active": true,
    "discovery": {
     "status": "no_calendar_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "no page with dates found; may need a manual calendar URL"
    }
   },
@@ -2387,12 +2398,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (1 overall): https://www.nycplayers.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://www.nycplayers.org/projects/showy-lady-slipper/"
    },
    "pages": [
     {
-     "url": "https://www.nycplayers.org/"
+     "url": "https://www.nycplayers.org/projects/showy-lady-slipper/"
     }
    ]
   },
@@ -2445,9 +2456,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (3 overall): https://www.nypublicradio.org/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "dates are on the individual show pages (1 dates on 3 pages followed from https://www.nypublicradio.org/)"
    },
    "pages": [
     {
@@ -2466,15 +2477,10 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (13 overall): https://www.newyorkstageandfilm.org/2026-summer-season"
-   },
-   "pages": [
-    {
-     "url": "https://www.newyorkstageandfilm.org/2026-summer-season"
-    }
-   ]
+    "status": "error",
+    "checked": "2026-11-08",
+    "note": "timed out or crashed"
+   }
   },
   {
    "slug": "new-york-theatre-ballet",
@@ -2488,7 +2494,7 @@
    "active": true,
    "discovery": {
     "status": "no_calendar_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "no page with dates found; may need a manual calendar URL"
    }
   },
@@ -2503,11 +2509,14 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (8 overall): https://www.nytw.org/2026-27-season/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://www.nytw.org/show/wild-rose/; 1 dates in window at https://www.nytw.org/2026-27-season/"
    },
    "pages": [
+    {
+     "url": "https://www.nytw.org/show/wild-rose/"
+    },
     {
      "url": "https://www.nytw.org/2026-27-season/"
     }
@@ -2525,8 +2534,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (1 overall): https://www.ny4ca.org/programs"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (1 overall); checked again every run: https://www.ny4ca.org/programs"
    },
    "pages": [
     {
@@ -2545,13 +2554,16 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (10 overall): https://www.operaamerica.org/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.operaamerica.org/calendar/; 1 dates in window at https://www.operaamerica.org/calendar"
    },
    "pages": [
     {
-     "url": "https://www.operaamerica.org/"
+     "url": "https://www.operaamerica.org/calendar/"
+    },
+    {
+     "url": "https://www.operaamerica.org/calendar"
     }
    ]
   },
@@ -2608,9 +2620,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (2 overall): https://page73.org/productions-1"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://page73.org/productions-1"
    },
    "pages": [
     {
@@ -2630,12 +2642,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (8 overall): https://www.panasianrep.org/mainstage-202627"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (3 overall); checked again every run: https://www.panasianrep.org/productions"
    },
    "pages": [
     {
-     "url": "https://www.panasianrep.org/mainstage-202627"
+     "url": "https://www.panasianrep.org/productions"
     }
    ]
   },
@@ -2650,10 +2662,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
-   }
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "9 dates in window at https://www.armoryonpark.org/; 2 dates in window at https://www.armoryonpark.org/season-events/current-season/"
+   },
+   "pages": [
+    {
+     "url": "https://www.armoryonpark.org/"
+    },
+    {
+     "url": "https://www.armoryonpark.org/season-events/current-season/"
+    }
+   ]
   },
   {
    "slug": "parsons-dance",
@@ -2666,9 +2686,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (21 overall): https://www.parsonsdance.org/upcoming-performances"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.parsonsdance.org/upcoming-performances"
    },
    "pages": [
     {
@@ -2757,8 +2777,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (11 overall): https://www.pickupperformance.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 2 dates in the window (11 overall); checked again every run: https://www.pickupperformance.org/"
    },
    "pages": [
     {
@@ -2778,8 +2798,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (5 overall): https://pinkfang.org/engagement/events"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (5 overall); checked again every run: https://pinkfang.org/engagement/events"
    },
    "pages": [
     {
@@ -2799,12 +2819,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (3 overall): https://www.playwrightshorizons.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://www.playwrightshorizons.org/shows/production-history/2020s/2627"
    },
    "pages": [
     {
-     "url": "https://www.playwrightshorizons.org/"
+     "url": "https://www.playwrightshorizons.org/shows/production-history/2020s/2627"
     }
    ]
   },
@@ -2843,11 +2863,14 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (6 overall): https://www.primarystages.org/shows-events/on-stage"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.primarystages.org/tickets; 1 dates in window at https://www.primarystages.org/shows-events/on-stage"
    },
    "pages": [
+    {
+     "url": "https://www.primarystages.org/tickets"
+    },
     {
      "url": "https://www.primarystages.org/shows-events/on-stage"
     }
@@ -2864,13 +2887,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (6 overall): https://www.prospectmusicals.org/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.prospectmusicals.org/showsandevents"
    },
    "pages": [
     {
-     "url": "https://www.prospectmusicals.org/"
+     "url": "https://www.prospectmusicals.org/showsandevents"
     }
    ]
   },
@@ -2909,13 +2932,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (7 overall): https://www.rattlestick.org/theater"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "10 dates in window at https://www.rattlestick.org/production-archive-temp"
    },
    "pages": [
     {
-     "url": "https://www.rattlestick.org/theater"
+     "url": "https://www.rattlestick.org/production-archive-temp"
     }
    ]
   },
@@ -3099,10 +3122,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
-   }
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "dates are on the individual show pages (6 dates on 1 pages followed from https://sopercussion.com/events/)"
+   },
+   "pages": [
+    {
+     "url": "https://sopercussion.com/events/"
+    }
+   ]
   },
   {
    "slug": "soho-rep",
@@ -3136,9 +3164,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
+    "status": "blocked_bot",
+    "checked": "2026-11-08",
+    "note": "bot protection page on the calendar: https://stannswarehouse.org/"
    }
   },
   {
@@ -3152,9 +3180,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (3 overall): https://www.streb.org/company/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "dates are on the individual show pages (13 dates on 2 pages followed from https://www.streb.org/company/)"
    },
    "pages": [
     {
@@ -3219,12 +3247,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (1 overall): https://www.targetmargin.org/project251/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://web.ovationtix.com/trs/store/282/alldonations/26032"
    },
    "pages": [
     {
-     "url": "https://www.targetmargin.org/project251/"
+     "url": "https://web.ovationtix.com/trs/store/282/alldonations/26032"
     }
    ]
   },
@@ -3239,13 +3267,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (6 overall): https://teatrocirculo.org/main-stage/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://teatrocirculo.org/tickets/"
    },
    "pages": [
     {
-     "url": "https://teatrocirculo.org/main-stage/"
+     "url": "https://teatrocirculo.org/tickets/"
     }
    ]
   },
@@ -3261,8 +3289,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (3 overall): https://www.tectonictheaterproject.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (3 overall); checked again every run: https://www.tectonictheaterproject.org/"
    },
    "pages": [
     {
@@ -3303,8 +3331,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (15 overall): https://www.aopopera.org/events-2"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (15 overall); checked again every run: https://www.aopopera.org/events-2"
    },
    "pages": [
     {
@@ -3390,12 +3418,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (8 overall): https://thecivilians.org/upcoming"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://thecivilians.org/productions"
    },
    "pages": [
     {
-     "url": "https://thecivilians.org/upcoming"
+     "url": "https://thecivilians.org/productions"
     }
    ]
   },
@@ -3411,7 +3439,7 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "calendar page found but 1 dates in the window (1 overall); checked again every run: https://www.cthnyc.org/now-playing/"
    },
    "pages": [
@@ -3453,7 +3481,7 @@
    "active": true,
    "discovery": {
     "status": "no_calendar_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "no page with dates found; may need a manual calendar URL"
    }
   },
@@ -3469,7 +3497,7 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "calendar page found but 0 dates in the window (1 overall); checked again every run: https://theflea.org/2026-season"
    },
    "pages": [
@@ -3655,7 +3683,7 @@
    "active": true,
    "discovery": {
     "status": "no_calendar_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "no page with dates found; may need a manual calendar URL"
    }
   },
@@ -3713,7 +3741,7 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "calendar page found but 0 dates in the window (2 overall); checked again every run: https://www.playwrightsrealm.org/season"
    },
    "pages": [
@@ -3790,7 +3818,7 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "calendar page found but 0 dates in the window (3 overall); checked again every run: https://theteamplays.org/shows/"
    },
    "pages": [
@@ -3856,7 +3884,7 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://theatermitu.org/programs/"
    },
    "pages": [
@@ -3876,10 +3904,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
-   }
+    "status": "no_events_found",
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://www.tcg.org/Web/Web/Our-Work/Grant-and-Professional-Development-Programs/Grant-and-Professional-Development-Programs.aspx?hkey=f76ab2b3-b7c3-4ba4-ba1f-6d646a865014"
+   },
+   "pages": [
+    {
+     "url": "https://www.tcg.org/Web/Web/Our-Work/Grant-and-Professional-Development-Programs/Grant-and-Professional-Development-Programs.aspx?hkey=f76ab2b3-b7c3-4ba4-ba1f-6d646a865014"
+    }
+   ]
   },
   {
    "slug": "tdf",
@@ -3941,7 +3974,7 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "calendar page found but 0 dates in the window (4 overall); checked again every run: https://transportgroup.org/2026-27-season/"
    },
    "pages": [
@@ -4003,10 +4036,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
-   }
+    "status": "no_events_found",
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://vibetheater.org/wellness-program"
+   },
+   "pages": [
+    {
+     "url": "https://vibetheater.org/wellness-program"
+    }
+   ]
   },
   {
    "slug": "vineyard-theatre",
@@ -4044,7 +4082,7 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "calendar page found but 1 dates in the window (1 overall); checked again every run: https://www.waterwell.org/"
    },
    "pages": [
@@ -4065,7 +4103,7 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "calendar page found but 0 dates in the window (8 overall); checked again every run: https://www.womenofcolorinthearts.org/programs"
    },
    "pages": [
@@ -4131,7 +4169,7 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "calendar page found but 0 dates in the window (6 overall); checked again every run: https://wptheater.org/season-year/2026-2027/"
    },
    "pages": [
@@ -4272,7 +4310,7 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://statenislandarts.org/programs/"
    },
    "pages": [
@@ -4358,15 +4396,10 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "calendar page found but 0 dates in the window (1 overall); checked again every run: https://www.eventbrite.com/e/dabke-workshop-tickets-1996027743713?aff=ebdsoporgprofile"
-   },
-   "pages": [
-    {
-     "url": "https://www.eventbrite.com/e/dabke-workshop-tickets-1996027743713?aff=ebdsoporgprofile"
-    }
-   ]
+    "status": "error",
+    "checked": "2026-11-08",
+    "note": "timed out or crashed"
+   }
   },
   {
    "slug": "jazz-power-initiative",
@@ -4521,7 +4554,7 @@
    "active": true,
    "discovery": {
     "status": "no_calendar_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "no page with dates found; may need a manual calendar URL"
    }
   },
@@ -4558,13 +4591,13 @@
    "performing_arts_majority": false,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (3 overall): https://whedco.org/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://ci.ovationtix.com/36821"
    },
    "pages": [
     {
-     "url": "https://whedco.org/"
+     "url": "https://ci.ovationtix.com/36821"
     }
    ]
   },
@@ -4579,9 +4612,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
+    "status": "error",
+    "checked": "2026-11-08",
+    "note": "timed out or crashed"
    }
   },
   {
@@ -4596,12 +4629,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (2 overall): https://tallerlatino.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (177 overall); checked again every run: https://tallerlatino.org/events-archive"
    },
    "pages": [
     {
-     "url": "https://tallerlatino.org/"
+     "url": "https://tallerlatino.org/events-archive"
     }
    ]
   },
@@ -4640,9 +4673,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (5 overall): https://www.nychineseculturalcenter.org/events-1"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.nychineseculturalcenter.org/events-1"
    },
    "pages": [
     {
@@ -4661,9 +4694,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (8 overall): https://thaliatheatre.org/our-productions/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://thaliatheatre.org/our-productions/"
    },
    "pages": [
     {
@@ -4706,13 +4739,16 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (9 overall): https://teatrosea.org/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "6 dates in window at https://teatrosea.org/teatro-sea-announces-its-40th-anniversary-season-and-the-reopening-of-its-historic-home-at-the-clemente-center/; 5 dates in window at https://ci.ovationtix.com/27335"
    },
    "pages": [
     {
-     "url": "https://teatrosea.org/"
+     "url": "https://teatrosea.org/teatro-sea-announces-its-40th-anniversary-season-and-the-reopening-of-its-historic-home-at-the-clemente-center/"
+    },
+    {
+     "url": "https://ci.ovationtix.com/27335"
     }
    ]
   },
@@ -4728,12 +4764,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (4 overall): https://www.nuyorican.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://www.nuyorican.org/types-of-events"
    },
    "pages": [
     {
-     "url": "https://www.nuyorican.org/"
+     "url": "https://www.nuyorican.org/types-of-events"
     }
    ]
   },
@@ -4749,12 +4785,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (7 overall): https://www.casitamaria.org/south-bronx-culture-festival"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (1 overall); checked again every run: https://www.casitamaria.org/events"
    },
    "pages": [
     {
-     "url": "https://www.casitamaria.org/south-bronx-culture-festival"
+     "url": "https://www.casitamaria.org/events"
     }
    ]
   },
@@ -4769,13 +4805,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (3 overall): https://www.heartbeatopera.org/2627season"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "3 dates in window at https://www.heartbeatopera.org/past-productions"
    },
    "pages": [
     {
-     "url": "https://www.heartbeatopera.org/2627season"
+     "url": "https://www.heartbeatopera.org/past-productions"
     }
    ]
   },
@@ -4790,9 +4826,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (18 overall): https://americansymphony.org/concert-notes/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://americansymphony.org/concert-notes/"
    },
    "pages": [
     {
@@ -4812,12 +4848,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (2 overall): https://pipelinetheatre.org/on-stage-now/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://pipelinetheatre.org/productions/"
    },
    "pages": [
     {
-     "url": "https://pipelinetheatre.org/on-stage-now/"
+     "url": "https://pipelinetheatre.org/productions/"
     }
    ]
   },
@@ -4832,9 +4868,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
+    "status": "error",
+    "checked": "2026-11-08",
+    "note": "timed out or crashed"
    }
   },
   {
@@ -4869,15 +4905,10 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (7 overall): https://www.as-coa.org/"
-   },
-   "pages": [
-    {
-     "url": "https://www.as-coa.org/"
-    }
-   ]
+    "status": "blocked_bot",
+    "checked": "2026-11-08",
+    "note": "bot protection page on the calendar: https://www.as-coa.org/"
+   }
   },
   {
    "slug": "the-movement-theatre-company",
@@ -4891,12 +4922,12 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (7 overall): https://www.themovementtheatrecompany.org/home"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://www.themovementtheatrecompany.org/artistic-programs"
    },
    "pages": [
     {
-     "url": "https://www.themovementtheatrecompany.org/home"
+     "url": "https://www.themovementtheatrecompany.org/artistic-programs"
     }
    ]
   },
@@ -4911,10 +4942,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
-   }
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://givebutter.com/october-2026-groundwork-copy-3xd8dc; 1 dates in window at https://givebutter.com/november-mtfxr-date"
+   },
+   "pages": [
+    {
+     "url": "https://givebutter.com/october-2026-groundwork-copy-3xd8dc"
+    },
+    {
+     "url": "https://givebutter.com/november-mtfxr-date"
+    }
+   ]
   },
   {
    "slug": "dancing-in-the-streets",
@@ -4927,15 +4966,10 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (2 overall): https://www.dancinginthestreets.org/sbct"
-   },
-   "pages": [
-    {
-     "url": "https://www.dancinginthestreets.org/sbct"
-    }
-   ]
+    "status": "error",
+    "checked": "2026-11-08",
+    "note": "timed out or crashed"
+   }
   },
   {
    "slug": "epic-players",
@@ -4996,13 +5030,16 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (5 overall): https://www.aaartsalliance.org/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://www.aaartsalliance.org/events?f%5Bdiscipline%5D=33; 2 dates in window at https://www.aaartsalliance.org/events"
    },
    "pages": [
     {
-     "url": "https://www.aaartsalliance.org/"
+     "url": "https://www.aaartsalliance.org/events?f%5Bdiscipline%5D=33"
+    },
+    {
+     "url": "https://www.aaartsalliance.org/events"
     }
    ]
   },
@@ -5039,8 +5076,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (7 overall): https://nyclassical.org/bard-and-beyond"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 1 dates in the window (7 overall); checked again every run: https://nyclassical.org/bard-and-beyond"
    },
    "pages": [
     {
@@ -5126,7 +5163,7 @@
    "active": true,
    "discovery": {
     "status": "unreachable",
-    "checked": "2026-11-06",
+    "checked": "2026-11-09",
     "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.evidencedance.com/"
    }
   },
@@ -5141,10 +5178,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
-   }
+    "status": "no_events_found",
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://artequity.org/programs-projects/"
+   },
+   "pages": [
+    {
+     "url": "https://artequity.org/programs-projects/"
+    }
+   ]
   },
   {
    "slug": "wild-project",
@@ -5195,7 +5237,7 @@
    "active": true,
    "discovery": {
     "status": "no_calendar_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "no page with dates found; may need a manual calendar URL"
    }
   },
@@ -5234,9 +5276,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (99 overall): https://itsatribe.org/events/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://itsatribe.org/events/"
    },
    "pages": [
     {
@@ -5256,8 +5298,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (1 overall): https://www.kineticlight.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 1 dates in the window (1 overall); checked again every run: https://www.kineticlight.org/"
    },
    "pages": [
     {
@@ -5321,9 +5363,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (2 overall): https://www.hbartscollective.org/events-performances"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.hbartscollective.org/events-performances"
    },
    "pages": [
     {
@@ -5343,8 +5385,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (4 overall): https://www.btfacollective.org/programs-1"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (4 overall); checked again every run: https://www.btfacollective.org/programs-1"
    },
    "pages": [
     {
@@ -5363,13 +5405,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (7 overall): https://bindlestiff.org/open_stage/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://bindlestiff.org/events/"
    },
    "pages": [
     {
-     "url": "https://bindlestiff.org/open_stage/"
+     "url": "https://bindlestiff.org/events/"
     }
    ]
   },
@@ -5384,10 +5426,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
-   }
+    "status": "no_events_found",
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://www.beyondbooking.org/programs"
+   },
+   "pages": [
+    {
+     "url": "https://www.beyondbooking.org/programs"
+    }
+   ]
   },
   {
    "slug": "pioneers-collective",
@@ -5400,9 +5447,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (7 overall): https://pioneersgoeast.org/performance/film"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://pioneersgoeast.org/performance/film"
    },
    "pages": [
     {
@@ -5421,10 +5468,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
-   }
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "dates are on the individual show pages (1 dates on 4 pages followed from https://runningamoc.org/calendar/)"
+   },
+   "pages": [
+    {
+     "url": "https://runningamoc.org/calendar/"
+    }
+   ]
   },
   {
    "slug": "pac-nyc",
@@ -5503,13 +5555,13 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (3 overall): https://www.btb-nyc.com/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "dates are on the individual show pages (3 dates on 2 pages followed from https://www.btb-nyc.com/programs)"
    },
    "pages": [
     {
-     "url": "https://www.btb-nyc.com/"
+     "url": "https://www.btb-nyc.com/programs"
     }
    ]
   },
@@ -5525,8 +5577,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (5 overall): https://www.oyegroup.org/events"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (5 overall); checked again every run: https://www.oyegroup.org/events"
    },
    "pages": [
     {
@@ -5545,10 +5597,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_calendar_found",
-    "checked": "2026-11-06",
-    "note": "no page with dates found; may need a manual calendar URL"
-   }
+    "status": "no_events_found",
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (0 overall); checked again every run: https://givebutter.com/bae"
+   },
+   "pages": [
+    {
+     "url": "https://givebutter.com/bae"
+    }
+   ]
   },
   {
    "slug": "indo-american-arts-council",
@@ -5561,13 +5618,16 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 1 dates in the window (2 overall): https://iaac.us/"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://iaac.us/tickets/; 1 dates in window at https://iaac.us/events/"
    },
    "pages": [
     {
-     "url": "https://iaac.us/"
+     "url": "https://iaac.us/tickets/"
+    },
+    {
+     "url": "https://iaac.us/events/"
     }
    ]
   },
@@ -5582,9 +5642,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (13 overall): https://www.iatitheater.org/calendar"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.iatitheater.org/calendar"
    },
    "pages": [
     {
@@ -5628,8 +5688,8 @@
    "active": true,
    "discovery": {
     "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (3 overall): https://culturepolicy.org/"
+    "checked": "2026-11-08",
+    "note": "calendar page found but 0 dates in the window (3 overall); checked again every run: https://culturepolicy.org/"
    },
    "pages": [
     {
@@ -5649,7 +5709,7 @@
    "active": true,
    "discovery": {
     "status": "no_calendar_found",
-    "checked": "2026-11-06",
+    "checked": "2026-11-08",
     "note": "no page with dates found; may need a manual calendar URL"
    }
   },
@@ -5664,11 +5724,14 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (16 overall): https://ci.ovationtix.com/31625"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "2 dates in window at https://www.blackspectrum.com/upcoming-shows-events; 2 dates in window at https://ci.ovationtix.com/31625"
    },
    "pages": [
+    {
+     "url": "https://www.blackspectrum.com/upcoming-shows-events"
+    },
     {
      "url": "https://ci.ovationtix.com/31625"
     }
@@ -5685,9 +5748,9 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 0 dates in the window (3 overall): https://www.musicfromthesole.com/upcoming-events.html"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "dates are on the individual show pages (5 dates on 1 pages followed from https://www.musicfromthesole.com/upcoming-events.html)"
    },
    "pages": [
     {
@@ -5706,13 +5769,16 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "no_events_found",
-    "checked": "2026-11-06",
-    "note": "best page has 2 dates in the window (4 overall): https://www.bronxriverart.org/events.cfm"
+    "status": "ok",
+    "checked": "2026-11-08",
+    "note": "1 dates in window at https://www.bronxriverart.org/events.cfm; 1 dates in window at https://www.bronxriverart.org/events"
    },
    "pages": [
     {
      "url": "https://www.bronxriverart.org/events.cfm"
+    },
+    {
+     "url": "https://www.bronxriverart.org/events"
     }
    ]
   },
