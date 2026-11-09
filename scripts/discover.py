@@ -35,7 +35,7 @@ MIN_DATES = 3
 
 KEYWORDS = re.compile(r"event|calendar|what.?s.?on|whats-on|season|perform|show|tickets|schedule|program|concert|"
                       r"live|theat|stage|music|dance|visit|see|agenda|festival", re.I)
-BOT_WALL = re.compile(r"access denied|captcha|verify you are (a )?human|just a moment|attention required|"
+BOT_WALL = re.compile(r"502 bad gateway|403 forbidden|access denied|captcha|verify you are (a )?human|just a moment|attention required|"
                       r"enable javascript and cookies|request blocked|pardon our interruption|security verification|"
                       r"protect against malicious bots|checking your browser|unusual traffic", re.I)
 

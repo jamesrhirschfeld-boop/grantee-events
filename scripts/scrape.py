@@ -34,9 +34,14 @@ BOT_WALL = re.compile(r"access denied|captcha|verify you are (a )?human|just a m
                       r"protect against malicious bots|checking your browser|unusual traffic", re.I)
 
 
+ERROR_PAGE = re.compile(r"\b(502 bad gateway|503 service (temporarily )?unavailable|403 forbidden|401 unauthorized|"
+                        r"429 too many requests|access forbidden)\b", re.I)
+
+
 def is_bot_wall(text):
-    """A short page that is a bot-protection screen instead of content. We never try to get past these."""
-    return len(text) < 800 and bool(BOT_WALL.search(text))
+    """A short page that is a bot-protection screen (or a bare server refusal such as '502 Bad Gateway' shown only to
+    our scraper) instead of content. We never try to get past these."""
+    return (len(text) < 800 and bool(BOT_WALL.search(text))) or (len(text) < 300 and bool(ERROR_PAGE.search(text)))
 
 
 TAG_LINKS_JS = """

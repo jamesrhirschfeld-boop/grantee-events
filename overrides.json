@@ -213,19 +213,37 @@
   "notes": "The events page mixes exhibitions, workshops and receptions with performances, and lists the Mizik Ayiti residency only as a range (Nov 5 - Dec 10). The residency's own page lists the exact Thursday dates, so event pages are followed.",
   "scope": "Include only live music, dance and performance events open to the public. The main case is the Mizik Ayiti! Residency series (Thursday-night concerts): use the specific dates the event page lists (for example Nov 5, 12 and 19 and Dec 3 and 10), one entry per date, start time 6:30 PM when the page says sets begin at 6:30 (note that there is a second set at 7:45 and that doors are at 6), never a single entry for the whole range. Also include performances such as dance showcases and live concerts. Exclude exhibitions and 'on view' listings, workshops and classes (including the Ti Atis Second Saturdays family workshops), receptions, artist talks, book events, author conversations and listening parties without live performance, and salons that are discussions. If a salon or tribute event features live readings or music as its main content, include it with a note."
  },
+ "new-york-theatre-ballet": {
+  "pages": [
+   {
+    "url": "https://nytb.org/tickets"
+   }
+  ]
+ },
  "new-york-city-children-s-theater": {
   "pages": [
    {
     "url": "https://www.nycchildrenstheater.org/shows-and-events/current-season/",
     "max_follow": 12,
-    "scope": "Each show page lists many performances at partner venues (libraries, museums, theaters). List every performance as its own entry with that day's time, and use the venue named for that date as the location."
+    "scope": "Each show page lists many performances at partner venues. List every performance as its own entry with that day's time, and use the venue named for that date as the location."
    }
   ]
  },
- "new-york-theatre-ballet": {
+ "new-42": {
+  "websites": [
+   "https://www.newvictory.org"
+  ],
   "pages": [
    {
-    "url": "https://nytb.org/tickets"
+    "url": "https://www.newvictory.org/tickets-and-events",
+    "follow_links_matching": "/events/",
+    "follow_links_exclude": [
+     "school-performance",
+     "workshop",
+     "action-pack"
+    ],
+    "max_follow": 12,
+    "scope": "Public performances at the New Victory Theater only (not school-only performances or workshops). Each show page states its performance dates and times; list every performance."
    }
   ]
  }
