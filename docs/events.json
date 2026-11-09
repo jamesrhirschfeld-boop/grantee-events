@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T20:00:18+00:00",
+ "generated_at": "2026-11-09T21:15:40+00:00",
  "window": {
   "start": "2026-11-09",
   "end": "2027-01-08"
@@ -210,7 +210,7 @@
   "La MaMa Experimental Theatre Club": 18,
   "Les Ballets Trockadero de Monte Carlo": 1,
   "Lincoln Center for the Performing Arts": 178,
-  "Lincoln Center Theater": 2,
+  "Lincoln Center Theater": 121,
   "Jalopy Theatre and School of Folk Music": 17,
   "The Louis Armstrong House Museum": 1,
   "Lower Manhattan Cultural Council": 3,
@@ -232,7 +232,7 @@
   "New York Philharmonic": 31,
   "New York Public Radio": 1,
   "New York Theatre Ballet": 11,
-  "New York Theatre Workshop": 3,
+  "New York Theatre Workshop": 47,
   "OPERA America": 1,
   "Orchestra of St. Luke's": 23,
   "Orpheus Chamber Orchestra": 2,
@@ -277,7 +277,7 @@
   "Theatre for a New Audience": 2,
   "Vineyard Theatre": 21,
   "Working Theater": 1,
-  "World Music Institute": 2,
+  "World Music Institute": 3,
   "Yarn/Wire": 1,
   "Houses On The Moon Theater Co.": 1,
   "Japan Society": 1,
@@ -695,9 +695,8 @@
    "events": 178
   },
   "Lincoln Center Theater": {
-   "status": "failed",
-   "events": 2,
-   "reason": "the page did not load or could not be read this week"
+   "status": "ok",
+   "events": 121
   },
   "Jalopy Theatre and School of Folk Music": {
    "status": "ok",
@@ -836,9 +835,8 @@
    "events": 11
   },
   "New York Theatre Workshop": {
-   "status": "failed",
-   "events": 3,
-   "reason": "the page did not load or could not be read this week"
+   "status": "ok",
+   "events": 47
   },
   "New Yorkers for Culture and Arts": {
    "status": "empty",
@@ -1174,9 +1172,8 @@
    "events": 1
   },
   "World Music Institute": {
-   "status": "failed",
-   "events": 2,
-   "reason": "the page did not load or could not be read this week"
+   "status": "ok",
+   "events": 3
   },
   "WP Theater": {
    "status": "empty",
@@ -1349,7 +1346,7 @@
   "Dancing in the Streets": {
    "status": "no_source",
    "events": 0,
-   "reason": "error"
+   "reason": "not_checked"
   },
   "EPIC Players": {
    "status": "ok",
@@ -1927,9 +1924,9 @@
    },
    {
     "name": "Dancing in the Streets",
-    "site": "https://www.dancinginthestreets.org",
-    "reason": "error",
-    "note": "timed out or crashed"
+    "site": "https://itsshowtime.nyc/",
+    "reason": "not_checked",
+    "note": ""
    },
    {
     "name": "Elevator Repair Service",
@@ -2066,11 +2063,8 @@
   "failed": []
  },
  "warnings": [
-  "Lincoln Center Theater: the page did not load or could not be read this week; showing 2 events from the last successful update. The site layout may have changed.",
   "Mama Foundation for the Arts: the page was read but no performances were found; showing 1 events from the last successful update. The site layout may have changed.",
-  "New York Theatre Workshop: the page did not load or could not be read this week; showing 3 events from the last successful update. The site layout may have changed.",
   "Playwrights Horizons: the page was read but no performances were found; showing 2 events from the last successful update. The site layout may have changed.",
-  "World Music Institute: the page did not load or could not be read this week; showing 2 events from the last successful update. The site layout may have changed.",
   "Breaking the Binary Theatre: the page was read but no performances were found; showing 1 events from the last successful update. The site layout may have changed."
  ],
  "events": [
@@ -2235,7 +2229,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-09",
@@ -2493,7 +2490,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-10",
@@ -2727,7 +2727,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-10",
@@ -2850,7 +2853,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "Matinee"
+   "notes": "Matinee; also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-11",
@@ -3267,7 +3273,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-11",
@@ -3279,7 +3288,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-11",
@@ -3564,7 +3576,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-12",
@@ -4044,7 +4059,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-12",
@@ -4350,7 +4368,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-13",
@@ -4767,6 +4788,18 @@
   {
    "date": "2026-11-13",
    "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-13",
+   "time": "8:00 PM",
    "title": "Bia Ferreira",
    "org": "New Music USA",
    "location": "Nublu",
@@ -4839,14 +4872,14 @@
   {
    "date": "2026-11-13",
    "time": "8 PM",
-   "title": "Bia Ferreira",
+   "title": "Bia Ferreira (with DJ)",
    "org": "World Music Institute",
-   "location": "Nublu",
-   "description": "World Music Institute presents Brazilian singer-songwriter Bia Ferreira in concert at Nublu.",
+   "location": "Nublu, 151 Avenue C",
+   "description": "Brazilian singer-songwriter and multi-instrumentalist blends afro-diasporic rhythms, soul, blues and reggae. Part of the Let's Dance series with a DJ.",
    "discipline": "Music",
-   "genre": "world music",
+   "genre": "Brazilian / Afro-diasporic",
    "url": "https://www.worldmusicinstitute.org/bia-ferreira-at-nublu/",
-   "notes": "from previous update"
+   "notes": "Doors 7 PM; Standing room only, 21+; Tickets $25 advance / $35 day of show"
   },
   {
    "date": "2026-11-13",
@@ -5161,7 +5194,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-14",
@@ -5173,7 +5209,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-14",
@@ -5968,7 +6007,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-14",
@@ -5980,7 +6022,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-14",
@@ -6503,7 +6548,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-15",
@@ -7209,7 +7257,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-17",
@@ -7431,7 +7482,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-17",
@@ -7575,7 +7629,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-18",
@@ -7587,7 +7644,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-18",
@@ -7892,14 +7952,14 @@
   {
    "date": "2026-11-18",
    "time": "7 PM",
-   "title": "AGADEZ 'Queendoms'",
+   "title": "AGADEZ - Queendoms, with Special Guest Mauro Durante",
    "org": "World Music Institute",
-   "location": "DROM",
-   "description": "AGADEZ performs its 'Queendoms' program at DROM, presented by World Music Institute.",
+   "location": "Drom, 85 Avenue A, Manhattan",
+   "description": "Italian singer-songwriter AGADEZ and violinist-percussionist Mauro Durante lead a musical ritual on the Sacred Feminine of the Mediterranean, from Queendoms to Taranta.",
    "discipline": "Music",
-   "genre": "world music",
+   "genre": "world music / Taranta",
    "url": "https://www.worldmusicinstitute.org/agadezatdrom/",
-   "notes": "from previous update"
+   "notes": "Doors 6:30 PM; Presented by WMI in a promotional partnership; $35 seated / $30 standing"
   },
   {
    "date": "2026-11-18",
@@ -8034,7 +8094,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-18",
@@ -8046,7 +8109,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-18",
@@ -8328,7 +8394,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-19",
@@ -8709,7 +8778,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-19",
@@ -9039,7 +9111,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-20",
@@ -9458,6 +9533,18 @@
   {
    "date": "2026-11-20",
    "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-20",
+   "time": "8:00 PM",
    "title": "Arabesque / Messengers, Maidens, and the End of Something Else / No Longer Silent",
    "org": "Orchestra of St. Luke's",
    "location": "Lincoln Center",
@@ -9723,7 +9810,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-21",
@@ -9747,7 +9837,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-21",
@@ -10647,7 +10740,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-21",
@@ -10659,7 +10755,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-21",
@@ -11109,7 +11208,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-22",
@@ -11121,7 +11223,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-22",
@@ -11520,7 +11625,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-23",
@@ -11775,7 +11883,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-24",
@@ -11788,6 +11899,18 @@
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21739/21740",
    "notes": ""
+  },
+  {
+   "date": "2026-11-24",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": "Among the first two performances (CheapTix, $25 seats per the page legend)"
   },
   {
    "date": "2026-11-24",
@@ -11982,7 +12105,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-25",
@@ -11994,7 +12120,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-25",
@@ -12118,6 +12247,18 @@
   },
   {
    "date": "2026-11-25",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": "Among the first two performances (CheapTix, $25 seats per the page legend)"
+  },
+  {
+   "date": "2026-11-25",
    "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
@@ -12204,7 +12345,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-25",
@@ -12216,7 +12360,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-25",
@@ -12279,7 +12426,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -12291,7 +12441,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -12412,6 +12565,18 @@
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
    "notes": "For ages 7 and up"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
   },
   {
    "date": "2026-11-27",
@@ -12564,7 +12729,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -12576,7 +12744,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -12753,7 +12924,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -12765,7 +12939,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -13000,6 +13177,18 @@
   },
   {
    "date": "2026-11-28",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-28",
    "time": "7:00 PM",
    "title": "Horacio Martinez",
    "org": "PAC NYC",
@@ -13158,7 +13347,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -13170,7 +13362,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -13288,6 +13483,18 @@
   },
   {
    "date": "2026-11-29",
+   "time": "2 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
    "time": "2:00 PM",
    "title": "Fantasma",
    "org": "Primary Stages",
@@ -13395,7 +13602,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-29",
@@ -13407,7 +13617,10 @@
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "also listed by Lincoln Center Theater",
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-29",
@@ -13582,6 +13795,18 @@
   },
   {
    "date": "2026-11-29",
+   "time": "7:30 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-11-29",
    "time": "8:30 PM",
    "title": "The Dead, 1904",
    "org": "Irish Repertory Theatre",
@@ -13729,6 +13954,18 @@
   },
   {
    "date": "2026-11-30",
+   "time": "8:00 PM",
+   "title": "The Composer Series: Benj Pasek & Justin Paul",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "One-night evening of songs and stories with Pasek & Paul joined by emerging composers Barlow & Bear, Marie Dresselhuis, Joriah Kwamé, Oliver Richman and Jaheem King Toombs.",
+   "discipline": "Music",
+   "genre": "musical theater songwriters",
+   "url": "https://www.lct.org/shows/benj-pasek-and-justin-paul/",
+   "notes": "One night only; ticketed; Includes discussion alongside performances"
+  },
+  {
+   "date": "2026-11-30",
    "time": "9:00 PM",
    "title": "Future of Jazz Orchestra: Echoes Forward: The Living Lineage of Jazz From Ellington to Marsalis to This Very Instant",
    "org": "Lincoln Center for the Performing Arts",
@@ -13738,18 +13975,6 @@
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21753/21755",
    "notes": ""
-  },
-  {
-   "date": "2026-11-30",
-   "time": "",
-   "title": "The Composer Series: Benj Pasek & Justin Paul",
-   "org": "Lincoln Center Theater",
-   "location": "Beaumont Theater, Lincoln Center Theater",
-   "description": "One-night-only event in LCT's Composer Series featuring songwriting duo Benj Pasek and Justin Paul.",
-   "discipline": "Music",
-   "genre": "musical theater",
-   "url": "https://www.lct.org/shows/benj-pasek-and-justin-paul/",
-   "notes": "Start time not stated on the page; ticketed.; from previous update"
   },
   {
    "date": "2026-11-30",
@@ -13814,6 +14039,30 @@
   {
    "date": "2026-12-01",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-01",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-01",
+   "time": "7:00 PM",
    "title": "Open Performance",
    "org": "Movement Research",
    "location": "Not stated on the calendar listing",
@@ -13822,6 +14071,18 @@
    "genre": "work-in-progress showings",
    "url": "",
    "notes": "Listed on the full calendar only; venue not stated (the Nov 17 edition was at The Bob)"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
   },
   {
    "date": "2026-12-01",
@@ -14042,6 +14303,30 @@
   {
    "date": "2026-12-02",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-02",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-02",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -14169,6 +14454,18 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-02",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -14341,6 +14638,30 @@
   },
   {
    "date": "2026-12-02",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-02",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-02",
    "time": "9:30 PM",
    "title": "Loose Tooth",
    "org": "The Tank",
@@ -14400,6 +14721,18 @@
    "discipline": "Theater",
    "genre": "holiday",
    "url": "https://www.tdf.org/shows/23508/the-very-gay-christmas-prince/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-03",
+   "time": "1:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": ""
   },
   {
@@ -14537,6 +14870,18 @@
   {
    "date": "2026-12-03",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -14544,6 +14889,18 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -14948,6 +15305,30 @@
   {
    "date": "2026-12-04",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
    "title": "Composers Concordance Presents String Quartet+",
    "org": "New Music USA",
    "location": "Hungarian House, 213 East 82nd Street, New York City",
@@ -14955,6 +15336,18 @@
    "discipline": "Music",
    "genre": "contemporary chamber",
    "url": "https://newmusicusa.org/events/composers-concordance-presents-string-quartet-2/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -15443,6 +15836,30 @@
   {
    "date": "2026-12-05",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -15463,6 +15880,18 @@
    "genre": "contemporary dance",
    "url": "https://newyorklivearts.org/event/zvidance-presents-an-evening-of-two-works/",
    "notes": "Listed as Dec 3-5"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
   },
   {
    "date": "2026-12-05",
@@ -15953,6 +16382,18 @@
   {
    "date": "2026-12-05",
    "time": "7:30 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "7:30 PM",
    "title": "A Very SW!NG OUT Holiday",
    "org": "The Joyce Theater",
    "location": "The Joyce Theater",
@@ -15988,6 +16429,30 @@
    "genre": "devised mask/bouffon theater",
    "url": "https://events.humanitix.com/the-8th",
    "notes": "Presented by notAmuse Theater; 8-9pm"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-05",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
   },
   {
    "date": "2026-12-05",
@@ -16228,6 +16693,18 @@
   },
   {
    "date": "2026-12-06",
+   "time": "2 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
    "time": "2:00 PM",
    "title": "Fantasma",
    "org": "Primary Stages",
@@ -16395,6 +16872,30 @@
    "discipline": "Multidisciplinary",
    "genre": "theater and dance",
    "url": "https://kupferbergcenter.org/event/sensations/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "3:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "3:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": ""
   },
   {
@@ -16591,6 +17092,18 @@
   },
   {
    "date": "2026-12-06",
+   "time": "7:30 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-06",
    "time": "8:00 PM",
    "title": "The 8th",
    "org": "Culture Lab LIC",
@@ -16624,6 +17137,18 @@
    "genre": "",
    "url": "https://newmusicusa.org/events/laura-itandehui-3/",
    "notes": ""
+  },
+  {
+   "date": "2026-12-06",
+   "time": "8 PM",
+   "title": "Laura Itandehui",
+   "org": "World Music Institute",
+   "location": "Public Records, 233 Butler Street, Brooklyn",
+   "description": "NYC debut of Oaxacan singer Laura Itandehui, whose music moves through jazz, bolero, son, cumbia, vallenato and salsa.",
+   "discipline": "Music",
+   "genre": "contemporary Latin",
+   "url": "https://www.worldmusicinstitute.org/laura-itandehui/",
+   "notes": "Doors 7 PM; Next Gen Series; Standing room only, 21+; Broadcast live on WKCR 89.9 FM; $25 advance / $35 day of show"
   },
   {
    "date": "2026-12-06",
@@ -16691,11 +17216,11 @@
    "title": "The Reading Series: Blood Sisters by Goldie Patrick",
    "org": "Lincoln Center Theater",
    "location": "Claire Tow Theater, Lincoln Center Theater, 150 West 65th Street",
-   "description": "One-night-only reading of a new play by Goldie Patrick, chosen by Dominique Morisseau, with an open conversation between playwrights before the reading.",
+   "description": "One-night staged reading of a new play by Goldie Patrick, chosen by Dominique Morisseau, as part of LCT's Reading Series.",
    "discipline": "Theater",
    "genre": "staged reading / new play",
    "url": "https://www.lct.org/shows/the-reading-series/",
-   "notes": "Series readings are described as free public events with RSVP; RSVPs for this date not yet open (interest list on page); from previous update"
+   "notes": "Series described as free public readings with an open playwright conversation beforehand; RSVPs not yet open (interest list available)"
   },
   {
    "date": "2026-12-07",
@@ -16928,6 +17453,30 @@
   {
    "date": "2026-12-08",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -16935,6 +17484,18 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -17191,6 +17752,18 @@
   },
   {
    "date": "2026-12-09",
+   "time": "1:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-09",
    "time": "2:00 PM",
    "title": "The Matter of the Disappearance of Michael Anthony Smith, Jr.",
    "org": "En Garde Arts",
@@ -17211,6 +17784,18 @@
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-09",
+   "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
    "notes": ""
   },
   {
@@ -17312,6 +17897,18 @@
   {
    "date": "2026-12-09",
    "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-09",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -17331,6 +17928,18 @@
    "discipline": "Music",
    "genre": "classical / choral",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-09",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -17479,6 +18088,18 @@
   },
   {
    "date": "2026-12-09",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-09",
    "time": "8:30 PM",
    "title": "Celebration of Human Rights",
    "org": "wild project",
@@ -17611,6 +18232,18 @@
   },
   {
    "date": "2026-12-10",
+   "time": "1:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-10",
    "time": "3:00 PM",
    "title": "First Light: things we burn for love by Marcus Yi",
    "org": "Ensemble Studio Theatre",
@@ -17708,6 +18341,18 @@
   {
    "date": "2026-12-10",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -17727,6 +18372,18 @@
    "discipline": "Music",
    "genre": "classical / choral",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -18112,6 +18769,42 @@
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
    "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
   },
   {
    "date": "2026-12-11",
@@ -18572,6 +19265,30 @@
   {
    "date": "2026-12-12",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -18592,6 +19309,18 @@
    "genre": "holiday",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
    "notes": "Artists and repertoire to be announced"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "2 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
   },
   {
    "date": "2026-12-12",
@@ -18995,6 +19724,18 @@
   {
    "date": "2026-12-12",
    "time": "7:30 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "7:30 PM",
    "title": "TAO Dance Theater",
    "org": "The Joyce Theater",
    "location": "The Joyce Theater",
@@ -19027,6 +19768,30 @@
    "genre": "",
    "url": "https://issueprojectroom.org/event/joel-watson",
    "notes": "Suzanne Fiol Curatorial Fellowship 2026; ticketed"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-12",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
   },
   {
    "date": "2026-12-12",
@@ -19409,6 +20174,30 @@
   {
    "date": "2026-12-13",
    "time": "3:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-13",
+   "time": "3:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-13",
+   "time": "3:00 PM",
    "title": "Balkan Erotic Epic",
    "org": "Park Avenue Armory",
    "location": "Wade Thompson Drill Hall, Park Avenue Armory",
@@ -19755,6 +20544,18 @@
    "notes": ""
   },
   {
+   "date": "2026-12-14",
+   "time": "",
+   "title": "The Composer Series Featuring Lin-Manuel Miranda",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater (series venue; not stated for this date)",
+   "description": "Next installment of LCT's Composer Series pairing a celebrated songwriter with emerging composers.",
+   "discipline": "Music",
+   "genre": "musical theater songwriters",
+   "url": "https://www.lct.org/shows/benj-pasek-and-justin-paul/",
+   "notes": "Start time and on-sale details not yet announced on the page."
+  },
+  {
    "date": "2026-12-15",
    "time": "11:00 AM",
    "title": "En el tiempo de las mariposas",
@@ -19793,6 +20594,30 @@
   {
    "date": "2026-12-15",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-15",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-15",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -19800,6 +20625,18 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-15",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -19975,6 +20812,18 @@
   },
   {
    "date": "2026-12-16",
+   "time": "1:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-16",
    "time": "2:00 PM",
    "title": "The Matter of the Disappearance of Michael Anthony Smith, Jr.",
    "org": "En Garde Arts",
@@ -19984,6 +20833,18 @@
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
    "notes": "Matinee; Contains blood and themes of physical violence"
+  },
+  {
+   "date": "2026-12-16",
+   "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
   },
   {
    "date": "2026-12-16",
@@ -20072,6 +20933,18 @@
   {
    "date": "2026-12-16",
    "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-16",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -20079,6 +20952,18 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-16",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -20203,6 +21088,18 @@
   },
   {
    "date": "2026-12-16",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-16",
    "time": "",
    "title": "Anthony Devito: Jersey Boy",
    "org": "TDF",
@@ -20300,6 +21197,30 @@
   {
    "date": "2026-12-17",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-17",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-17",
+   "time": "7:00 PM",
    "title": "Etudes",
    "org": "Mabou Mines",
    "location": "Mabou Mines Theater, 150 First Avenue, New York, NY 10009",
@@ -20319,6 +21240,18 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-17",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -20516,6 +21449,30 @@
   {
    "date": "2026-12-18",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:00 PM",
    "title": "MARIQUITA AND ENCARNACIÓN: An Afro-Uruguayan Story",
    "org": "Multicultural Music Group",
    "location": "Lovinger Theater, Lehman College, 250 Bedford Park Boulevard West, The Bronx, NY 10468",
@@ -20524,6 +21481,18 @@
    "genre": "new composition / Afro-Uruguayan",
    "url": "https://multiculturalmusic.org/upcomingevents/mariquita-and-encarnacion",
    "notes": "Program also includes a panel discussion on Black Uruguay and the history of slavery in South America; Listed as 7:00 PM to 8:30 PM"
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
   },
   {
    "date": "2026-12-18",
@@ -20852,6 +21821,30 @@
   {
    "date": "2026-12-19",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -20859,6 +21852,18 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "2 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -21176,6 +22181,18 @@
   {
    "date": "2026-12-19",
    "time": "7:30 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "7:30 PM",
    "title": "Les Ballets Trockadero de Monte Carlo",
    "org": "The Joyce Theater",
    "location": "The Joyce Theater",
@@ -21208,6 +22225,30 @@
    "genre": "experimental",
    "url": "https://issueprojectroom.org/event/leila-bordreuil-numinosum",
    "notes": "Ticketed; season closer"
+  },
+  {
+   "date": "2026-12-19",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-19",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
   },
   {
    "date": "2026-12-19",
@@ -21343,6 +22384,18 @@
   },
   {
    "date": "2026-12-20",
+   "time": "2 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-20",
    "time": "2:00 PM",
    "title": "Fantasma",
    "org": "Primary Stages",
@@ -21363,6 +22416,30 @@
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "3:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-20",
+   "time": "3:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": ""
   },
   {
@@ -21572,6 +22649,30 @@
   {
    "date": "2026-12-22",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-22",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-22",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -21579,6 +22680,18 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-22",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -21668,6 +22781,30 @@
   {
    "date": "2026-12-23",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-23",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-23",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -21675,6 +22812,18 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-23",
+   "time": "2 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -21776,6 +22925,18 @@
   {
    "date": "2026-12-23",
    "time": "7:30 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-23",
+   "time": "7:30 PM",
    "title": "Les Ballets Trockadero de Monte Carlo",
    "org": "The Joyce Theater",
    "location": "The Joyce Theater",
@@ -21798,6 +22959,30 @@
    "notes": "start time not stated on page; other dates not listed"
   },
   {
+   "date": "2026-12-23",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-23",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
    "date": "2026-12-24",
    "time": "2:00 PM",
    "title": "Ailey at New York City Center",
@@ -21807,6 +22992,30 @@
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122426",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-24",
+   "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-24",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": ""
   },
   {
@@ -21908,6 +23117,30 @@
   {
    "date": "2026-12-26",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-26",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-26",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -21915,6 +23148,18 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-26",
+   "time": "2 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -21980,6 +23225,18 @@
   {
    "date": "2026-12-26",
    "time": "7:30 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-26",
+   "time": "7:30 PM",
    "title": "Les Ballets Trockadero de Monte Carlo",
    "org": "The Joyce Theater",
    "location": "The Joyce Theater",
@@ -21987,6 +23244,30 @@
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-26",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-26",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": ""
   },
   {
@@ -22064,6 +23345,42 @@
   {
    "date": "2026-12-27",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-27",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-27",
+   "time": "2 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-27",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -22136,6 +23453,30 @@
   {
    "date": "2026-12-27",
    "time": "7:30 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-27",
+   "time": "7:30 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-27",
+   "time": "7:30 PM",
    "title": "Les Ballets Trockadero de Monte Carlo",
    "org": "The Joyce Theater",
    "location": "The Joyce Theater",
@@ -22171,6 +23512,18 @@
   },
   {
    "date": "2026-12-28",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-28",
    "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
@@ -22196,6 +23549,18 @@
   {
    "date": "2026-12-29",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-29",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -22203,6 +23568,18 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-29",
+   "time": "2 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -22216,6 +23593,18 @@
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25340",
    "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+  },
+  {
+   "date": "2026-12-29",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
   },
   {
    "date": "2026-12-29",
@@ -22256,6 +23645,18 @@
   {
    "date": "2026-12-29",
    "time": "7:30 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-29",
+   "time": "7:30 PM",
    "title": "Les Ballets Trockadero de Monte Carlo",
    "org": "The Joyce Theater",
    "location": "The Joyce Theater",
@@ -22263,6 +23664,18 @@
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-29",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
    "notes": ""
   },
   {
@@ -22304,6 +23717,30 @@
   {
    "date": "2026-12-30",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-30",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-30",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -22311,6 +23748,18 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-30",
+   "time": "2 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
    "notes": ""
   },
   {
@@ -22388,6 +23837,18 @@
   {
    "date": "2026-12-30",
    "time": "7:30 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-30",
+   "time": "7:30 PM",
    "title": "Les Ballets Trockadero de Monte Carlo",
    "org": "The Joyce Theater",
    "location": "The Joyce Theater",
@@ -22395,6 +23856,42 @@
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-30",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden and starring Tom Blyth, Krysta Rodriguez and Bradley Whitford.",
+   "discipline": "Theater",
+   "genre": "Broadway play",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-30",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": ""
+  },
+  {
+   "date": "2026-12-31",
+   "time": "1:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "revival / play",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": ""
   },
   {
@@ -22543,6 +24040,18 @@
   },
   {
    "date": "2027-01-02",
+   "time": "2 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-02",
    "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
@@ -22640,14 +24149,14 @@
   {
    "date": "2027-01-02",
    "time": "7:30 PM",
-   "title": "Wild Rose (closed-captioned performance)",
+   "title": "Wild Rose",
    "org": "New York Theatre Workshop",
-   "location": "New York Theatre Workshop",
-   "description": "US premiere of a new country-music musical about a Glasgow singer fresh out of jail who dreams of Nashville. This performance offers closed captioning.",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": "Closed captioning performance; Full performance schedule is in a PDF calendar not shown in page text; only accessibility-designated dates listed here; from previous update"
+   "notes": "Closed-captioned performance"
   },
   {
    "date": "2027-01-02",
@@ -22735,15 +24244,15 @@
   },
   {
    "date": "2027-01-03",
-   "time": "2:00 PM",
-   "title": "Wild Rose (closed-captioned performance)",
+   "time": "2 PM",
+   "title": "Wild Rose",
    "org": "New York Theatre Workshop",
-   "location": "New York Theatre Workshop",
-   "description": "US premiere of a new country-music musical about a Glasgow singer fresh out of jail who dreams of Nashville. This matinee offers closed captioning.",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": "Closed captioning performance; Full performance schedule is in a PDF calendar not shown in page text; only accessibility-designated dates listed here; from previous update"
+   "notes": "Closed-captioned performance"
   },
   {
    "date": "2027-01-03",
@@ -22842,6 +24351,18 @@
    "notes": ""
   },
   {
+   "date": "2027-01-03",
+   "time": "7:30 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
    "date": "2027-01-04",
    "time": "5:00 PM",
    "title": "Winter Lantern Festival",
@@ -22864,6 +24385,18 @@
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25347",
    "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+  },
+  {
+   "date": "2027-01-05",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
   },
   {
    "date": "2027-01-05",
@@ -22927,6 +24460,18 @@
   },
   {
    "date": "2027-01-06",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
+  },
+  {
+   "date": "2027-01-06",
    "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
@@ -22972,6 +24517,18 @@
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25349",
    "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+  },
+  {
+   "date": "2027-01-07",
+   "time": "7 PM",
+   "title": "Wild Rose",
+   "org": "New York Theatre Workshop",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
+   "discipline": "Theater",
+   "genre": "new musical",
+   "url": "https://www.nytw.org/show/wild-rose/",
+   "notes": ""
   },
   {
    "date": "2027-01-07",
@@ -23047,15 +24604,15 @@
   },
   {
    "date": "2027-01-08",
-   "time": "7:00 PM",
-   "title": "Wild Rose (ASL-interpreted performance)",
+   "time": "7 PM",
+   "title": "Wild Rose",
    "org": "New York Theatre Workshop",
-   "location": "New York Theatre Workshop",
-   "description": "US premiere of a new country-music musical about a Glasgow singer fresh out of jail who dreams of Nashville. This performance is ASL interpreted.",
+   "location": "New York Theatre Workshop, 79 East 4th St",
+   "description": "US premiere musical about a Glasgow woman fresh out of jail who dreams of becoming a country singer in Nashville, with songs by leading female country artists.",
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": "ASL-interpreted performance; preferred ASL viewing seats via HandsOn; Full performance schedule is in a PDF calendar not shown in page text; only accessibility-designated dates listed here; from previous update"
+   "notes": "ASL-interpreted performance"
   },
   {
    "date": "2027-01-08",
