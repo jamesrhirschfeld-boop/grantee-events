@@ -1,5 +1,5 @@
 window.EVENTS = {
- "generated_at": "2026-11-09T21:15:40+00:00",
+ "generated_at": "2026-11-09T21:32:09+00:00",
  "window": {
   "start": "2026-11-09",
   "end": "2027-01-08"
