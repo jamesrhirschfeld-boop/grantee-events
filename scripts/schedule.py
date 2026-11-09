@@ -201,13 +201,44 @@ def apply(events, groups_result):
     return out
 
 
+_TIME_IN_TEXT = re.compile(r"\b(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s?m\b\.?|\bnoon\b", re.I)
+
+
+def times_in(text):
+    """Every clock time that literally appears in the page text, normalized ('7pm' and '7:00 PM' are the same)."""
+    out = set()
+    for m in _TIME_IN_TEXT.finditer(text or ""):
+        if m.group(0).lower() == "noon":
+            out.add("12:00 PM")
+        else:
+            out.add(norm_time(f"{m.group(1)}:{m.group(2) or '00'} {m.group(3)}m"))
+    out.discard("")
+    return out
+
+
+def ground(sched, text):
+    """The model may only report times the page actually shows. A time that is not in the text is dropped (an event
+    keeps its date but loses the invented time); a weekly pattern left with no stated time is dropped entirely."""
+    seen = times_in(text)
+    for x in sched.get("explicit") or []:
+        if x.get("time") and norm_time(x["time"]) not in seen:
+            x["time"] = ""
+    kept = []
+    for w in sched.get("weekly") or []:
+        w["times"] = [t for t in (w.get("times") or []) if norm_time(t) in seen]
+        if w["times"]:
+            kept.append(w)
+    sched["weekly"] = kept
+    return sched
+
+
 def ask(client, title, today, end, text):
     msg = client.messages.create(
         model=MODEL, max_tokens=3000, tools=[TOOL], tool_choice={"type": "auto"},
         messages=[{"role": "user", "content": PROMPT.format(title=title, today=today, end=end, text=text[:PAGE_CHARS])}])
     for b in msg.content:
         if b.type == "tool_use":
-            return b.input
+            return ground(b.input, text[:PAGE_CHARS])
     return {"status": "not_stated", "explicit": [], "weekly": [], "run_start": "", "run_end": "", "no_performance": []}
 
 

@@ -235,15 +235,8 @@
   ],
   "pages": [
    {
-    "url": "https://www.newvictory.org/tickets-and-events",
-    "follow_links_matching": "/events/",
-    "follow_links_exclude": [
-     "school-performance",
-     "workshop",
-     "action-pack"
-    ],
-    "max_follow": 12,
-    "scope": "Public performances at the New Victory Theater only (not school-only performances or workshops). Each show page states its performance dates and times; list every performance."
+    "url": "https://www.newvictory.org/calendar",
+    "scope": "Public performances at the New Victory Theater only. The page lists every performance by date and time; list each one with its stated time and note sensory-friendly, sign-interpreted, audio-described or talk-back performances in the notes."
    }
   ]
  }
