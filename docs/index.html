@@ -492,15 +492,15 @@
     data = d;
     $("sub").textContent = "Performances from each organization’s own website, " + fmtDay(today) + " through " + fmtDay(d.window.end) +
       ". Last updated " + fmtUpdated(d.generated_at) + ".";
-    if (d.warnings && d.warnings.length) {
-      var w = el("div", "warn");
-      w.appendChild(el("strong", "", "Some listings may be out of date:"));
-      var ul = el("ul");
-      d.warnings.forEach(function (t) { ul.appendChild(el("li", "", t)); });
-      w.appendChild(ul);
-      $("warn").appendChild(w);
-    }
     renderCoverage(d);
+    if (d.warnings && d.warnings.length) {  // at the very bottom, collapsed: not a banner over the listings
+      var wd = el("details", "cov");
+      wd.appendChild(el("summary", "", "Listings that may be out of date (" + d.warnings.length + ")"));
+      var wul = el("ul"); wul.style.columns = "1";
+      d.warnings.forEach(function (t) { wul.appendChild(el("li", "", t)); });
+      wd.appendChild(wul);
+      $("cov").appendChild(wd);
+    }
     if (d.officers && d.officers.length) {
       var sel = el("select"); sel.id = "po"; sel.setAttribute("aria-label", "Program officer");
       var all = el("option", "", "All program officers"); all.value = ""; sel.appendChild(all);
@@ -518,7 +518,16 @@
       var f = $("from").value, t = $("to");
       t.min = f && f > d.window.start ? f : d.window.start;
       if (f && t.value && t.value < f) t.value = f;
+      // If the user hasn't picked an end date, show the last day of the start month so the box matches the picker.
+      if (f && (!t.value || t.dataset.auto === "1")) {
+        var p = f.split("-"), last = new Date(+p[0], +p[1], 0).getDate();
+        var e = p[0] + "-" + p[1] + "-" + (last < 10 ? "0" : "") + last;
+        t.value = e > d.window.end ? d.window.end : e;
+        t.dataset.auto = "1";
+      }
+      if (!f && t.dataset.auto === "1") { t.value = ""; t.dataset.auto = ""; }
     }
+    $("to").addEventListener("input", function () { this.dataset.auto = ""; });
     $("from").addEventListener("change", syncDates);
     ["q", "org", "disc", "po", "from", "to", "mat"].forEach(function (id) {
       if (!$(id)) return;
