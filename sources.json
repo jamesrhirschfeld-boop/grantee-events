@@ -4959,17 +4959,12 @@
    "slug": "dancing-in-the-streets",
    "name": "Dancing in the Streets",
    "websites": [
-    "https://www.dancinginthestreets.org"
+    "https://itsshowtime.nyc/"
    ],
    "default_discipline": "Dance",
    "borough": "Bronx",
    "performing_arts_majority": true,
-   "active": true,
-   "discovery": {
-    "status": "error",
-    "checked": "2026-11-08",
-    "note": "timed out or crashed"
-   }
+   "active": true
   },
   {
    "slug": "epic-players",

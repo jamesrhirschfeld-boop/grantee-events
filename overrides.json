@@ -239,5 +239,8 @@
     "scope": "Public performances at the New Victory Theater only. The page lists every performance by date and time; list each one with its stated time and note sensory-friendly, sign-interpreted, audio-described or talk-back performances in the notes."
    }
   ]
+ },
+ "lincoln-center-theater": {
+  "scope": "List only ticketed public performances of a production (plays, musicals, readings and concert series). Do not list talks, discussions, pre-show or post-show events, rehearsals, or any date or time the page does not clearly give as a performance. If a date shows no performance, do not list one."
  }
 }
