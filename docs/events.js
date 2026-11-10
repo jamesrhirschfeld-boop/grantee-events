@@ -1,5 +1,5 @@
 window.EVENTS = {
- "generated_at": "2026-11-10T14:56:45+00:00",
+ "generated_at": "2026-11-10T15:57:41+00:00",
  "window": {
   "start": "2026-11-10",
   "end": "2027-01-09"
@@ -2087,7 +2087,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic play",
    "url": "https://repertorio.nyc/show/684/la-casa-de-bernarda-alba",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2099,7 +2100,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "open rehearsal",
    "url": "https://www.streb.org/community/",
-   "notes": "Free; RSVP requested; schedule subject to change"
+   "notes": "Free; RSVP requested; schedule subject to change",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2111,7 +2113,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.juilliard.edu/event/187901/rush-hour-performance-don-sakulprasertying-jazz-organ-quartet",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2123,7 +2126,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "new music",
    "url": "https://www.millertheatre.com/events/hub-new-music",
-   "notes": "Free; Pop-Up Concerts series"
+   "notes": "Free; Pop-Up Concerts series",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2135,7 +2139,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "free jazz / creative improvised music",
    "url": "https://artsforart.org/events/jeff-schlanger-memorial/",
-   "notes": "Free entry; RSVP requested; Doors 6:00 PM; also includes films and speakers; Co-presented by The Clemente with El Taller Latino Americano; Start time shown is the 6:30 PM program; the Flamboyan Theatre portion is listed at 7:00 PM"
+   "notes": "Free entry; RSVP requested; Doors 6:00 PM; also includes films and speakers; Co-presented by The Clemente with El Taller Latino Americano; Start time shown is the 6:30 PM program; the Flamboyan Theatre portion is listed at 7:00 PM",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2147,7 +2152,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": "Limited availability"
+   "notes": "Limited availability",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2159,7 +2165,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.ensemblestudiotheatre.org/show-details/memberfest-crystal-skillman",
-   "notes": "Venue address not stated on page; format (reading/showcase) not stated"
+   "notes": "Venue address not stated on page; format (reading/showcase) not stated",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2171,7 +2178,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play development",
    "url": "https://irishrep.org/whats-on/class",
-   "notes": "Part of New Works Fall Festival 2026; $20; about 1 hr 30 min, no intermission"
+   "notes": "Part of New Works Fall Festival 2026; $20; about 1 hr 30 min, no intermission",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2184,6 +2192,7 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21701/",
    "notes": "Dizzy's lists nightly sets at 7 PM and 9 PM; this is the 7 PM set; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -2199,6 +2208,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -2213,7 +2223,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play readings",
    "url": "https://ma-yitheatre.org/shows/intro-to-playwriting-showcase-2-and-3/",
-   "notes": "Free; RSVP required; Showcase of student work (Tuesday presentation)"
+   "notes": "Free; RSVP required; Showcase of student work (Tuesday presentation)",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2225,7 +2236,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/school-girls-or-the-african-mean-girls-play/",
-   "notes": "Final performance is Sunday (Nov 15)"
+   "notes": "Final performance is Sunday (Nov 15)",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2237,7 +2249,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/the-unbelievers/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2249,7 +2262,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/10/arabesque-byzantium-esplanade-7pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2261,7 +2275,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9724",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2273,7 +2288,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Preview performance; discounted preview seating listed"
+   "notes": "Preview performance; discounted preview seating listed",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2285,7 +2301,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy / play",
    "url": "https://criterionticketing.com/the-imaginary-invalid/11-10-2026--7pm",
-   "notes": "Page notes that on Nov 10 the role usually played by Rachel Bloom will be played by Madeline Seidman; Tickets from $65"
+   "notes": "Page notes that on Nov 10 the role usually played by Rachel Bloom will be played by Madeline Seidman; Tickets from $65",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2297,7 +2314,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://criterionticketing.com/the-heart/11-10-2026--7pm",
-   "notes": "Tickets from $139; only this date is listed with a showtime on the pages"
+   "notes": "Tickets from $139; only this date is listed with a showtime on the pages",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2309,7 +2327,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=5601",
-   "notes": "Almost sold out"
+   "notes": "Almost sold out",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2321,7 +2340,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "documentary theater",
    "url": "https://thetanknyc.org/calendar-1/2026/4/13/wacotapes",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2333,7 +2353,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2345,7 +2366,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "experimental",
    "url": "https://www.blankforms.org/events/keiji-haino-solo-duo-with-loren-connors",
-   "notes": "Sold out; Doors 6:30 PM"
+   "notes": "Sold out; Doors 6:30 PM",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2358,6 +2380,7 @@ window.EVENTS = {
    "genre": "contemporary classical",
    "url": "https://www.carnegiehall.org/calendar/2026/11/10/juilliard-at-zankel-hall-0730pm",
    "notes": "also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -2372,7 +2395,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical recital",
    "url": "https://www.carnegiehall.org/calendar/2026/11/10/santiago-canonvalencia-cello-victor-santiago-asuncion-piano-0730pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2384,7 +2408,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance theatre",
    "url": "https://irishartscenter.org/event/specky-clark-oona-doherty",
-   "notes": "Tickets $25/$49/$59"
+   "notes": "Tickets $25/$49/$59",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2397,6 +2422,7 @@ window.EVENTS = {
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/medea/",
    "notes": "also listed by The Metropolitan Opera",
+   "free": false,
    "also": [
     "The Metropolitan Opera"
    ]
@@ -2411,7 +2437,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/nemanja-radulovic-andamp-double-sens-66",
-   "notes": "Choose-What-You-Pay ticketing"
+   "notes": "Choose-What-You-Pay ticketing",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2423,7 +2450,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://www.nycitycenter.org/",
-   "notes": "Annual Gala Presentation"
+   "notes": "Annual Gala Presentation",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2436,6 +2464,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -2450,7 +2479,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://newmusicusa.org/events/faure-beethoven-brahms-barnes/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2462,7 +2492,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2475,6 +2506,7 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21701/",
    "notes": "Dizzy's lists nightly sets at 7 PM and 9 PM; this is the 9 PM set; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -2489,7 +2521,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "open mic / variety",
    "url": "https://tickets.frigid.nyc/event/6897:24",
-   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket"
+   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2501,7 +2534,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://thetanknyc.org/calendar-1/steps",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2513,7 +2547,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Afro Latin jazz",
    "url": "https://www.afrolatinjazz.org/events/weekly-live-jazz-at-the-pocket",
-   "notes": "Recurring every Tuesday since June 2, 2026 with no end date stated, so only the next occurrence is listed. Start time not stated on the page."
+   "notes": "Recurring every Tuesday since June 2, 2026 with no end date stated, so only the next occurrence is listed. Start time not stated on the page.",
+   "free": false
   },
   {
    "date": "2026-11-10",
@@ -2525,7 +2560,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "storytelling",
    "url": "https://tickets.frigid.nyc/event/6897:1556",
-   "notes": "Gotham Storytelling Festival 2026. Start time not stated."
+   "notes": "Gotham Storytelling Festival 2026. Start time not stated.",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2537,7 +2573,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2549,7 +2586,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2562,6 +2600,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "Matinee; also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -2576,7 +2615,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/school-girls-or-the-african-mean-girls-play/",
-   "notes": "Final performance is Sunday (Nov 15)"
+   "notes": "Final performance is Sunday (Nov 15)",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2588,7 +2628,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/the-unbelievers/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2600,7 +2641,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy / play",
    "url": "https://criterionticketing.com/the-imaginary-invalid/11-11-2026--2pm",
-   "notes": "Matinee; Production runs through Nov 22, 2026; only this and the Nov 10 showtime are listed with dates on the pages"
+   "notes": "Matinee; Production runs through Nov 22, 2026; only this and the Nov 10 showtime are listed with dates on the pages",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2612,7 +2654,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2624,7 +2667,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2636,7 +2680,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/show/king-of-the-yees/",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2648,7 +2693,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "monologues and new music",
    "url": "https://www.juilliard.edu/event/187906/rush-hour-performance-classics-classics-monologues-and-new-music",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2660,7 +2706,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "open mic",
    "url": "https://www.nuyorican.org/openmics",
-   "notes": "Held every Wednesday except the first of the month; $10 in person; also livestreamed; Street address not given on page"
+   "notes": "Held every Wednesday except the first of the month; $10 in person; also livestreamed; Street address not given on page",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2672,7 +2719,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": "Limited availability"
+   "notes": "Limited availability",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2684,7 +2732,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2696,7 +2745,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2708,7 +2758,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2721,6 +2772,7 @@ window.EVENTS = {
    "genre": "jazz / gypsy jazz",
    "url": "https://ticketing.jazz.org/21704/",
    "notes": "Dizzy's lists nightly sets at 7 PM and 9 PM; 7 PM set; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -2735,7 +2787,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/school-girls-or-the-african-mean-girls-play/",
-   "notes": "Final performance is Sunday (Nov 15)"
+   "notes": "Final performance is Sunday (Nov 15)",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2747,7 +2800,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/the-unbelievers/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2759,7 +2813,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/11/spindrift-last-look-brandenburgs-7pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2771,7 +2826,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9725",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2783,7 +2839,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Preview performance; discounted preview seating listed"
+   "notes": "Preview performance; discounted preview seating listed",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2795,7 +2852,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2807,7 +2865,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4216",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2819,7 +2878,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/yvonne-rogers-nov-11-2026",
-   "notes": "Two sets: 7pm and 9pm"
+   "notes": "Two sets: 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2831,7 +2891,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.joyce.org/performances/gallim-rhr7",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2843,7 +2904,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play / thriller",
    "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
-   "notes": "Open Caption performance; the page does not list other individual showtimes"
+   "notes": "Open Caption performance; the page does not list other individual showtimes",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2855,7 +2917,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://thetanknyc.org/calendar-1/thelist",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2867,7 +2930,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2879,7 +2943,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "student dance concert",
    "url": "https://ailey.org/events/bfa-fall-concert-111126-730pm",
-   "notes": "The Ailey School; venue not specified on page"
+   "notes": "The Ailey School; venue not specified on page",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2892,6 +2957,7 @@ window.EVENTS = {
    "genre": "dance-theater",
    "url": "https://www.bam.org/dance/2026/adaku2",
    "notes": "Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -2906,7 +2972,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "vocal recital",
    "url": "https://www.carnegiehall.org/calendar/2026/11/11/aigul-akhmetshina-mezzosoprano-jonathan-palmer-lakeland-piano-0730pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2918,7 +2985,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance theatre",
    "url": "https://irishartscenter.org/event/specky-clark-oona-doherty",
-   "notes": "Tickets $25/$49/$59"
+   "notes": "Tickets $25/$49/$59",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2931,6 +2999,7 @@ window.EVENTS = {
    "genre": "contemporary opera",
    "url": "https://www.metopera.org/season/2026-27-season/lincoln-in-the-bardo/",
    "notes": "also listed by The Metropolitan Opera",
+   "free": false,
    "also": [
     "The Metropolitan Opera"
    ]
@@ -2945,7 +3014,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "indie pop / folk-rock",
    "url": "https://www.nationalsawdust.org/event/bailen-swim-at-your-own-risk-tour",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2957,7 +3027,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://www.nycitycenter.org/",
-   "notes": "Annual Gala Presentation"
+   "notes": "Annual Gala Presentation",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2969,7 +3040,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://newyorklivearts.org/event/this-is-the-beginning-this-is-the-end/",
-   "notes": "World premiere; tickets start at $30"
+   "notes": "World premiere; tickets start at $30",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -2982,6 +3054,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -2997,6 +3070,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -3011,7 +3085,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "experimental solo",
    "url": "https://roulette.org/event/matana-roberts-presents-off-the-record/",
-   "notes": "Tickets $25"
+   "notes": "Tickets $25",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -3023,7 +3098,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -3035,7 +3111,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Appalachian folk / bluegrass / country",
    "url": "https://www.viewcy.com/event/the_garrett_boys",
-   "notes": "Doors 8pm; $20 advance / $25 day of show"
+   "notes": "Doors 8pm; $20 advance / $25 day of show",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -3048,6 +3125,7 @@ window.EVENTS = {
    "genre": "jazz / gypsy jazz",
    "url": "https://ticketing.jazz.org/21704/",
    "notes": "9 PM set; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -3062,7 +3140,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Gypsy jazz",
    "url": "https://ticketing.jazz.org/21704/21706",
-   "notes": "Page lists 9:00 PM and 9:30 PM with the same link; venue room not stated"
+   "notes": "Page lists 9:00 PM and 9:30 PM with the same link; venue room not stated",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -3074,7 +3153,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy/musical",
    "url": "https://thetanknyc.org/calendar-1/2026/10/5/topofthemornin",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -3086,7 +3166,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "storytelling / solo performance",
    "url": "https://tickets.frigid.nyc/event/6897:1536",
-   "notes": "Gotham Storytelling Festival 2026. Page lists a run Nov 11–Dec 9 without specific dates or times; only the first date is listed."
+   "notes": "Gotham Storytelling Festival 2026. Page lists a run Nov 11–Dec 9 without specific dates or times; only the first date is listed.",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -3098,7 +3179,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "clown / storytelling",
    "url": "https://tickets.frigid.nyc/event/6897:1562",
-   "notes": "Gotham Storytelling Festival 2026. Start time not stated."
+   "notes": "Gotham Storytelling Festival 2026. Start time not stated.",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -3110,7 +3192,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.flushingtownhall.org/show-details/monthly-jazz-jam-honoring-military-veteran-musicians",
-   "notes": "Open jam, ticketed; time not stated on page."
+   "notes": "Open jam, ticketed; time not stated on page.",
+   "free": false
   },
   {
    "date": "2026-11-11",
@@ -3122,7 +3205,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "tabletop puppetry",
    "url": "https://lamama.org/endless-forms/",
-   "notes": "Puppet Festival 2026. Run listed as Nov 11-14; only first date listed since individual showtimes are not stated. No time given."
+   "notes": "Puppet Festival 2026. Run listed as Nov 11-14; only first date listed since individual showtimes are not stated. No time given.",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3134,7 +3218,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic adaptation",
    "url": "https://repertorio.nyc/show/293/el-quijote",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3147,6 +3232,7 @@ window.EVENTS = {
    "genre": "funk / jazz",
    "url": "https://jazzfoundation.org/events/the-jazz-foundation-of-america-presents-john-cooksey-and-spontaneous-combustion/",
    "notes": "Free; listed 2:00-3:00 PM; also listed by The National Jazz Museum in Harlem",
+   "free": false,
    "also": [
     "The National Jazz Museum in Harlem"
    ]
@@ -3161,7 +3247,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.juilliard.edu/event/187911/rush-hour-performance-grand-duo-schubert-and-brahms",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3173,7 +3260,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "game show / digital storytelling",
    "url": "https://www.culturehub.org/events/tethering-an-arcade-with-deep-soul-ties",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3185,7 +3273,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "new music",
    "url": "https://pacnyc.org/whats-on/new-music-from-washington-and-jackson/",
-   "notes": "Free Music at PAC NYC series; RSVP available"
+   "notes": "Free Music at PAC NYC series; RSVP available",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3197,7 +3286,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Haitian rasin / Vodou jazz",
    "url": "https://haiticulturalx.org/event/mizik-ayiti-residency-late-fall-series-bonga-sanba-kebyesou-danle/",
-   "notes": "Doors at 6 PM; 45-minute sets at 6:30 and a second set at 7:45; Tickets include a complimentary beverage; limited capacity, RSVP recommended"
+   "notes": "Doors at 6 PM; 45-minute sets at 6:30 and a second set at 7:45; Tickets include a complimentary beverage; limited capacity, RSVP recommended",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3209,7 +3299,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": "Audio Description available at this performance"
+   "notes": "Audio Description available at this performance",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3221,7 +3312,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3233,7 +3325,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "bilingual new play",
    "url": "https://www.iatitheater.org/shows/2026/olivia",
-   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM"
+   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3245,7 +3338,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3257,7 +3351,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3270,6 +3365,7 @@ window.EVENTS = {
    "genre": "jazz / gypsy jazz",
    "url": "https://ticketing.jazz.org/21704/",
    "notes": "7 PM set; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -3285,6 +3381,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -3299,7 +3396,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/school-girls-or-the-african-mean-girls-play/",
-   "notes": "Final performance is Sunday (Nov 15)"
+   "notes": "Final performance is Sunday (Nov 15)",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3311,7 +3409,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary art song",
    "url": "https://newmusicusa.org/events/composers-concordance-presents-art-of-the-art-song-ljiljana-winkler-soprano/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3323,7 +3422,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/12/arabesque-lovette-premiere-piazzolla-caldera-7pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3335,7 +3435,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "DJ set",
    "url": "https://pacnyc.org/whats-on/dj-so-money/",
-   "notes": "Free Music at PAC NYC series"
+   "notes": "Free Music at PAC NYC series",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3347,7 +3448,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9726",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3359,7 +3461,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater",
    "url": "https://pregonesprtt.org/the-beep-2026-27/",
-   "notes": "weekly schedule assumed from the show page, so confirm before attending"
+   "notes": "weekly schedule assumed from the show page, so confirm before attending",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3371,7 +3474,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Preview performance; discounted preview seating listed"
+   "notes": "Preview performance; discounted preview seating listed",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3383,7 +3487,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3395,7 +3500,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4217",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3407,7 +3513,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "stand-up comedy",
    "url": "https://thaliatheatre.org/2026/10/21/subcampeon-return/",
-   "notes": "Performance in English; Tickets $25"
+   "notes": "Performance in English; Tickets $25",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3419,7 +3526,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://chocolatefactorytheater.org/neil-greenberg-2026/",
-   "notes": "Tickets $15-275"
+   "notes": "Tickets $15-275",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3431,7 +3539,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/jonathan-suazo-nov-12",
-   "notes": "Two sets: 7pm and 9pm; free for members"
+   "notes": "Two sets: 7pm and 9pm; free for members",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3443,7 +3552,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jmih.org/event/music-on-the-brain-from-signal-to-sound-with-dr-tommy-vaughan-and-patience-higgins/",
-   "notes": "Free with RSVP; also viewable online; Part talk/conversation, part live quartet performance"
+   "notes": "Free with RSVP; also viewable online; Part talk/conversation, part live quartet performance",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3455,7 +3565,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/legerdemain",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3467,7 +3578,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "short plays festival",
    "url": "https://thetanknyc.org/calendar-1/gi60",
-   "notes": "Festival listed Nov 12 – Nov 15, 2026"
+   "notes": "Festival listed Nov 12 – Nov 15, 2026",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3479,7 +3591,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3491,7 +3604,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "student dance concert",
    "url": "https://ailey.org/events/bfa-fall-concert-111226-730pm",
-   "notes": "The Ailey School; venue not specified on page"
+   "notes": "The Ailey School; venue not specified on page",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3503,7 +3617,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "",
    "url": "https://www.abronsartscenter.org/programs/dailydiversions",
-   "notes": "World premiere"
+   "notes": "World premiere",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3516,6 +3631,7 @@ window.EVENTS = {
    "genre": "classical, period instruments",
    "url": "https://aconyc.org/season-42/capricious/",
    "notes": "Part of the Celebrate Beethoven! series; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -3530,7 +3646,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "experimental",
    "url": "https://www.blankforms.org/events/keiji-haino",
-   "notes": "Sold out; Doors 6:30 PM"
+   "notes": "Sold out; Doors 6:30 PM",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3543,6 +3660,7 @@ window.EVENTS = {
    "genre": "dance-theater",
    "url": "https://www.bam.org/dance/2026/adaku2",
    "notes": "Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -3558,6 +3676,7 @@ window.EVENTS = {
    "genre": "chamber music",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/sonic-spectrum-i",
    "notes": "also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -3572,7 +3691,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic American play",
    "url": "https://www.fiascotheater.com/the-verge-events/expand-the-canon-community-night-post-show-discussion",
-   "notes": "Special community night with post-show discussion; page lists 7:30–10:30 PM; Tickets via The Public Theater"
+   "notes": "Special community night with post-show discussion; page lists 7:30–10:30 PM; Tickets via The Public Theater",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3585,6 +3705,7 @@ window.EVENTS = {
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8714",
    "notes": "Performance includes a Curtain Chat; also listed by The Joyce Theater",
+   "free": false,
    "also": [
     "The Joyce Theater"
    ]
@@ -3599,7 +3720,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance theatre",
    "url": "https://irishartscenter.org/event/specky-clark-oona-doherty",
-   "notes": "Tickets $25/$49/$59"
+   "notes": "Tickets $25/$49/$59",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3611,7 +3733,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "musical ritual / spiritual jazz, folk",
    "url": "https://www.jackny.org/treyalam-alivingaltar",
-   "notes": "Audience invited to bring flowers and cuttings and take home living plants; Address from the Mine to Keep ticket page (same venue)"
+   "notes": "Audience invited to bring flowers and cuttings and take home living plants; Address from the Mine to Keep ticket page (same venue)",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3623,7 +3746,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz / chamber / experimental folk",
    "url": "https://www.viewcy.com/event/cascadence_w_alexa_b",
-   "notes": "Doors 7pm; $20 advance / $25 day of show"
+   "notes": "Doors 7pm; $20 advance / $25 day of show",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3635,7 +3759,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "music theater",
    "url": "https://www.kaufmanmusiccenter.org/mch/event/kurt-weill-and-bertolt-brechts-happy-end/",
-   "notes": "Listed as sold out"
+   "notes": "Listed as sold out",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3647,7 +3772,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "staged reading",
    "url": "https://lamama.org/experiments-reading-seder/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3659,7 +3785,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater reading",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/the-precipice-637",
-   "notes": "Reading of a new musical; Lincoln Center Presents; Details taken from a listing teaser"
+   "notes": "Reading of a new musical; Lincoln Center Presents; Details taken from a listing teaser",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3671,7 +3798,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.juilliard.edu/event/185546/juilliard-drama-presents-moors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3683,7 +3811,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "early music",
    "url": "https://www.millertheatre.com/events/gesualdo-six-fading",
-   "notes": "Tickets starting at $35; Early Music series"
+   "notes": "Tickets starting at $35; Early Music series",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3695,7 +3824,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://www.nycitycenter.org/",
-   "notes": "Annual Gala Presentation"
+   "notes": "Annual Gala Presentation",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3707,7 +3837,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://newyorklivearts.org/event/this-is-the-beginning-this-is-the-end/",
-   "notes": "World premiere; tickets start at $30; Stay Late conversation with Kay Takeda this night"
+   "notes": "World premiere; tickets start at $30; Stay Late conversation with Kay Takeda this night",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3719,7 +3850,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musicals concert",
    "url": "https://www.prospectmusicals.org/musicaltheaterlab-2026",
-   "notes": "One night only; 20th annual Musical Theater Lab"
+   "notes": "One night only; 20th annual Musical Theater Lab",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3731,7 +3863,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "international political theater",
    "url": "https://nyuskirball.org/performance/deaf-republic/",
-   "notes": "which time applies to which date is not stated"
+   "notes": "which time applies to which date is not stated",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3743,7 +3876,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "cabaret",
    "url": "https://www.symphonyspace.org/events/revelry-queen-esther-3",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3755,7 +3889,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.eventbrite.com/e/thursday-night-jazz-presents-idris-frederick-tickets-1993489591030",
-   "notes": "Ticketed via Eventbrite; listed 8:00-9:30 pm"
+   "notes": "Ticketed via Eventbrite; listed 8:00-9:30 pm",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3768,6 +3903,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -3782,7 +3918,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/the-unbelievers/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3794,7 +3931,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "art rock",
    "url": "https://www.nationalsawdust.org/event/lpr-presents-diles-que-no-me-maten",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3806,7 +3944,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3818,7 +3957,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance-theater / sound bath",
    "url": "https://www.triskelionarts.org/fall-2026-performances/christian-warner",
-   "notes": "General admission; early-bird and at-the-door pricing"
+   "notes": "General admission; early-bird and at-the-door pricing",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3830,7 +3970,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "developmental play / stand-up",
    "url": "https://tickets.frigid.nyc/event/6897:1544",
-   "notes": "Gotham Storytelling Festival 2026; Developmental script-in-hand presentation; pay-what-you-can option"
+   "notes": "Gotham Storytelling Festival 2026; Developmental script-in-hand presentation; pay-what-you-can option",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3843,6 +3984,7 @@ window.EVENTS = {
    "genre": "jazz / gypsy jazz",
    "url": "https://ticketing.jazz.org/21704/",
    "notes": "9 PM set; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -3857,7 +3999,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy/musical",
    "url": "https://thetanknyc.org/calendar-1/2026/10/5/topofthemornin",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-12",
@@ -3869,7 +4012,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "storytelling / comedy",
    "url": "https://tickets.frigid.nyc/event/6897:1550",
-   "notes": "Gotham Storytelling Festival 2026. Page lists Nov 12–14; individual showtimes not stated, only the first date is listed."
+   "notes": "Gotham Storytelling Festival 2026. Page lists Nov 12–14; individual showtimes not stated, only the first date is listed.",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -3881,7 +4025,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "early music / chamber",
    "url": "https://www.juilliard.edu/event/189751/historical-performance-chamber-music-metropolitan-museum-art",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -3893,7 +4038,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "adaptation",
    "url": "https://repertorio.nyc/show/153/la-breve-y-maravillosa-vida-de-oscar-wao",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -3905,7 +4051,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "student dance concert",
    "url": "https://ailey.org/events/bfa-fall-concert-111326-4pm",
-   "notes": "The Ailey School; venue not specified on page"
+   "notes": "The Ailey School; venue not specified on page",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -3917,7 +4064,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance/theater",
    "url": "https://www.92ny.org/event/fridays-in-arnhold-omri-drumlevich",
-   "notes": "Free in-person tickets"
+   "notes": "Free in-person tickets",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -3929,7 +4077,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary",
    "url": "https://www.juilliard.edu/event/187916/rush-hour-performance-acoustic-exploration-electronics",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -3941,7 +4090,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/shabnam-abedi-and-joe-block/",
-   "notes": "Free Music at PAC NYC series; RSVP available"
+   "notes": "Free Music at PAC NYC series; RSVP available",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -3953,7 +4103,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "new opera in progress",
    "url": "https://www.aaartsalliance.org/events/norfolk-an-opera-in-progress",
-   "notes": "Venue not stated on the page text; RSVP via Eventbrite; Listed 7-8 PM"
+   "notes": "Venue not stated on the page text; RSVP via Eventbrite; Listed 7-8 PM",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -3965,7 +4116,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -3977,7 +4129,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical string quartet",
    "url": "",
-   "notes": "Free event"
+   "notes": "Free event",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -3989,7 +4142,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary kathak",
    "url": "https://events.humanitix.com/iccha",
-   "notes": "Part of New Works Festival; listed as 7-8pm"
+   "notes": "Part of New Works Festival; listed as 7-8pm",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4001,7 +4155,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "game show / digital storytelling",
    "url": "https://www.culturehub.org/events/tethering-an-arcade-with-deep-soul-ties",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4013,7 +4168,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4025,7 +4181,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "bilingual new play",
    "url": "https://www.iatitheater.org/shows/2026/olivia",
-   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM"
+   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4037,7 +4194,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4049,7 +4207,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4062,6 +4221,7 @@ window.EVENTS = {
    "genre": "jazz / gypsy jazz",
    "url": "https://ticketing.jazz.org/21704/",
    "notes": "7 PM set; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -4077,6 +4237,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -4091,7 +4252,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://www.lincolncenter.org/venue/alice-tully-hall/legacy-in-sound-ithaca-college-at-lincoln-center-931",
-   "notes": "Outside licensee: Ithaca College"
+   "notes": "Outside licensee: Ithaca College",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4103,7 +4265,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/school-girls-or-the-african-mean-girls-play/",
-   "notes": "Final performance is Sunday (Nov 15)"
+   "notes": "Final performance is Sunday (Nov 15)",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4115,7 +4278,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/the-unbelievers/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4127,7 +4291,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "DJ set",
    "url": "https://pacnyc.org/whats-on/dj-cory-giles/",
-   "notes": "Free Music at PAC NYC series"
+   "notes": "Free Music at PAC NYC series",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4139,7 +4304,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater",
    "url": "https://pregonesprtt.org/the-beep-2026-27/",
-   "notes": "weekly schedule assumed from the show page, so confirm before attending"
+   "notes": "weekly schedule assumed from the show page, so confirm before attending",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4151,7 +4317,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Preview performance; discounted preview seating listed"
+   "notes": "Preview performance; discounted preview seating listed",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4163,7 +4330,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4175,7 +4343,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4218",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4187,7 +4356,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "stand-up comedy",
    "url": "https://thaliatheatre.org/2026/10/21/subcampeon-return/",
-   "notes": "Performance in English; Tickets $25"
+   "notes": "Performance in English; Tickets $25",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4199,7 +4369,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://chocolatefactorytheater.org/neil-greenberg-2026/",
-   "notes": "Tickets $15-275"
+   "notes": "Tickets $15-275",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4211,7 +4382,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/max-pollak-nov-13-2026",
-   "notes": "Two sets: 7pm and 9pm"
+   "notes": "Two sets: 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4223,7 +4395,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/legerdemain",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4235,7 +4408,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "short plays festival",
    "url": "https://thetanknyc.org/calendar-1/gi60",
-   "notes": "Festival listed Nov 12 – Nov 15, 2026"
+   "notes": "Festival listed Nov 12 – Nov 15, 2026",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4247,7 +4421,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4259,7 +4434,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "student dance concert",
    "url": "https://ailey.org/events/bfa-fall-concert-111326-730pm",
-   "notes": "The Ailey School; venue not specified on page"
+   "notes": "The Ailey School; venue not specified on page",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4271,7 +4447,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "",
    "url": "https://www.abronsartscenter.org/programs/dailydiversions",
-   "notes": "World premiere"
+   "notes": "World premiere",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4284,6 +4461,7 @@ window.EVENTS = {
    "genre": "dance-theater",
    "url": "https://www.bam.org/dance/2026/adaku2",
    "notes": "Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -4299,6 +4477,7 @@ window.EVENTS = {
    "genre": "opera in concert",
    "url": "https://www.carnegiehall.org/calendar/2026/11/13/new-york-philharmonic-0730pm",
    "notes": "also listed by Lincoln Center for the Performing Arts, New York Philharmonic",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts",
     "New York Philharmonic"
@@ -4315,6 +4494,7 @@ window.EVENTS = {
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8715",
    "notes": "also listed by The Joyce Theater",
+   "free": false,
    "also": [
     "The Joyce Theater"
    ]
@@ -4329,7 +4509,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play (world premiere)",
    "url": "https://bit.ly/AlmendaresEstreno",
-   "notes": "Directed by Leyma López; only Nov 13 and 14 fall in the window"
+   "notes": "Directed by Leyma López; only Nov 13 and 14 fall in the window",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4341,7 +4522,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance theatre",
    "url": "https://irishartscenter.org/event/specky-clark-oona-doherty",
-   "notes": "Tickets $25/$49/$59"
+   "notes": "Tickets $25/$49/$59",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4353,7 +4535,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "musical ritual / spiritual jazz, folk",
    "url": "https://www.jackny.org/treyalam-alivingaltar",
-   "notes": "Audience invited to bring flowers and cuttings and take home living plants; Address from the Mine to Keep ticket page (same venue)"
+   "notes": "Audience invited to bring flowers and cuttings and take home living plants; Address from the Mine to Keep ticket page (same venue)",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4366,6 +4549,7 @@ window.EVENTS = {
    "genre": "Latin jazz / salsa",
    "url": "https://jazz.org/concert/the-eddie-palmieri-experience-an-all-star-celebration/",
    "notes": "also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -4381,6 +4565,7 @@ window.EVENTS = {
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/medea/",
    "notes": "also listed by The Metropolitan Opera",
+   "free": false,
    "also": [
     "The Metropolitan Opera"
    ]
@@ -4395,7 +4580,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "salsa",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/luisito-gandoacutemez-andamp-calle-107-271",
-   "notes": "Part of ¡VAYA!; in-person and livestream; social dance event"
+   "notes": "Part of ¡VAYA!; in-person and livestream; social dance event",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4407,7 +4593,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "instrumental jazz / funk",
    "url": "https://www.nationalsawdust.org/event/surprise-chef-early-set",
-   "notes": "Early set"
+   "notes": "Early set",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4419,7 +4606,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://www.nycitycenter.org/",
-   "notes": "Annual Gala Presentation"
+   "notes": "Annual Gala Presentation",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4431,7 +4619,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://newyorklivearts.org/event/this-is-the-beginning-this-is-the-end/",
-   "notes": "World premiere; tickets start at $30"
+   "notes": "World premiere; tickets start at $30",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4443,7 +4632,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "international political theater",
    "url": "https://nyuskirball.org/performance/deaf-republic/",
-   "notes": "which time applies to which date is not stated"
+   "notes": "which time applies to which date is not stated",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4455,7 +4645,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "dance / performance art",
    "url": "https://www.aaartsalliance.org/events/psywar",
-   "notes": "Work-in-progress showing; performance 8-9:45 PM, then after party with DJ, more performances and vendors; Ticketed; fundraiser for further development"
+   "notes": "Work-in-progress showing; performance 8-9:45 PM, then after party with DJ, more performances and vendors; Ticketed; fundraiser for further development",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4467,7 +4658,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.eventbrite.com/e/dancing-futures-jeevika-bhat-tickets-1998516469559?aff=ebdsoporgprofile",
-   "notes": "Listing says only 'Friday • 8:00 PM and 1 more'; date inferred as the upcoming Friday; A second date is not stated; Tickets from $5"
+   "notes": "Listing says only 'Friday • 8:00 PM and 1 more'; date inferred as the upcoming Friday; A second date is not stated; Tickets from $5",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4479,7 +4671,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://events.humanitix.com/sunset-jazz-at-cllic",
-   "notes": "Free; RSVP recommended"
+   "notes": "Free; RSVP recommended",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4491,7 +4684,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "experimental",
    "url": "https://issueprojectroom.org/event/eden-girma-dreamclubradi0",
-   "notes": "Artists-in-Residence 2026; ticketed; Street address not given on page"
+   "notes": "Artists-in-Residence 2026; ticketed; Street address not given on page",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4503,7 +4697,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4515,7 +4710,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://newmusicusa.org/events/bia-ferreira/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4527,7 +4723,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/13/under-the-rhythm-last-look-brandenburgs-8pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4539,7 +4736,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9727",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4551,7 +4749,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "performance",
    "url": "https://roulette.org/event/triple-canopy-symposium-2026-day-1/",
-   "notes": "Ticket price not stated on page"
+   "notes": "Ticket price not stated on page",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4563,7 +4762,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4575,7 +4775,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance-theater / sound bath",
    "url": "https://www.triskelionarts.org/fall-2026-performances/christian-warner",
-   "notes": "General admission; early-bird and at-the-door pricing"
+   "notes": "General admission; early-bird and at-the-door pricing",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4587,7 +4788,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Brazilian / Afro-diasporic",
    "url": "https://www.worldmusicinstitute.org/bia-ferreira-at-nublu/",
-   "notes": "Doors 7 PM; Standing room only, 21+; Tickets $25 advance / $35 day of show"
+   "notes": "Doors 7 PM; Standing room only, 21+; Tickets $25 advance / $35 day of show",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4599,7 +4801,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.viewcy.com/event/jen_hodge_celebrates",
-   "notes": "Doors 8pm; $25 advance / $30 day of show"
+   "notes": "Doors 8pm; $25 advance / $30 day of show",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4611,7 +4814,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz / gypsy jazz",
    "url": "https://ticketing.jazz.org/21704/",
-   "notes": "9 PM set"
+   "notes": "9 PM set",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4623,7 +4827,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "documentary theater",
    "url": "https://thetanknyc.org/calendar-1/2026/4/13/wacotapes",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4635,7 +4840,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "international showcase",
    "url": "https://thetanknyc.org/calendar-1/sinfronteras",
-   "notes": "Listed for Nov 13 – Nov 14, 2026"
+   "notes": "Listed for Nov 13 – Nov 14, 2026",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4647,7 +4853,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "soul / R&B",
    "url": "https://www.apollotheater.org/event/apollo-music-cafe-jane-handcock",
-   "notes": "Apollo Music Café"
+   "notes": "Apollo Music Café",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4659,7 +4866,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "instrumental jazz / funk",
    "url": "https://www.nationalsawdust.org/event/surprise-chef-late-set",
-   "notes": "Late set"
+   "notes": "Late set",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4671,7 +4879,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "storytelling",
    "url": "https://tickets.frigid.nyc/event/6897:1551",
-   "notes": "Gotham Storytelling Festival 2026. Mature audiences. Start time not stated."
+   "notes": "Gotham Storytelling Festival 2026. Mature audiences. Start time not stated.",
+   "free": false
   },
   {
    "date": "2026-11-13",
@@ -4683,7 +4892,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "storytelling",
    "url": "https://tickets.frigid.nyc/event/6897:1542",
-   "notes": "Gotham Storytelling Festival 2026. Start time not stated."
+   "notes": "Gotham Storytelling Festival 2026. Start time not stated.",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4695,7 +4905,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://www.92ny.org/event/violet-s-magic-glasses",
-   "notes": "this is the first listed date (Nov 14); Start time not stated"
+   "notes": "this is the first listed date (Nov 14); Start time not stated",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4707,7 +4918,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "festival performances",
    "url": "https://bricartsmedia.org/event/bric-house-party-presents-brooklyn-brujeria-day-ii-magic-market-fair-noche-de-salsa-fiesta/",
-   "notes": "Free, all ages, 12–5 PM"
+   "notes": "Free, all ages, 12–5 PM",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4719,7 +4931,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family rock concert",
    "url": "https://www.queenstheatre.org/events/the-beatles-f78q",
-   "notes": "Family/kids concert"
+   "notes": "Family/kids concert",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4731,7 +4944,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz / trumpet parade",
    "url": "https://www.louisarmstronghouse.org/event-details/lahm-youth-trumpet-parade-fall-2026/",
-   "notes": "Runs 12:30–1:15 PM; Community event; the page does not state ticket or price details"
+   "notes": "Runs 12:30–1:15 PM; Community event; the page does not state ticket or price details",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4743,7 +4957,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "creative improvised music / jazz",
    "url": "https://jazzfoundation.org/events/the-jazz-foundation-of-america-presents-rare-thing-w-cooper-moore-dick-griffin-warren-smith-karen-borca-trio-melanie-dyer-new-muse-trio-kelvyn-bell-abdou-mboup/",
-   "notes": "Free; RSVP requested via wordupbooks.com; page lists 1:00 PM to 11:59 PM; full schedule not in page text"
+   "notes": "Free; RSVP requested via wordupbooks.com; page lists 1:00 PM to 11:59 PM; full schedule not in page text",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4755,7 +4970,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/tosca/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4767,7 +4983,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "student production",
    "url": "https://www.juilliard.edu/event/185556/juilliard-drama-presents-moors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4779,7 +4996,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "performance",
    "url": "https://roulette.org/event/triple-canopy-symposium-2026-day-2/",
-   "notes": "ticket price not stated"
+   "notes": "ticket price not stated",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4791,7 +5009,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic American play",
    "url": "https://www.fiascotheater.com/the-verge-events/audio-description-open-captioning",
-   "notes": "Access performance with audio description and open captioning"
+   "notes": "Access performance with audio description and open captioning",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4803,7 +5022,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.apollotheater.org/event/hopeboykindance",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4815,7 +5035,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4828,6 +5049,7 @@ window.EVENTS = {
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8716",
    "notes": "Matinee; also listed by The Joyce Theater",
+   "free": false,
    "also": [
     "The Joyce Theater"
    ]
@@ -4842,7 +5064,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary modern dance",
    "url": "https://www.hbartscollective.org/events-performances/hbarts-collective-presents-hopeboykindance-a-collection-y9hm7",
-   "notes": "Matinee; Doors 1:30 PM; general admission, first-come first-served; limit of four tickets per household"
+   "notes": "Matinee; Doors 1:30 PM; general admission, first-come first-served; limit of four tickets per household",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4854,7 +5077,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance theatre",
    "url": "https://irishartscenter.org/event/specky-clark-oona-doherty",
-   "notes": "Tickets $25/$49/$59"
+   "notes": "Tickets $25/$49/$59",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4866,7 +5090,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4878,7 +5103,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4890,7 +5116,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary classical",
    "url": "https://www.jackquartet.com/upcoming-performances/met-cloisters-feldman",
-   "notes": "Met Live Arts event; ticket includes Museum admission on the day (during Museum hours); Listed as 2:00–4:30 PM"
+   "notes": "Met Live Arts event; ticket includes Museum admission on the day (during Museum hours); Listed as 2:00–4:30 PM",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4903,6 +5130,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -4918,6 +5146,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -4932,7 +5161,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "student opera",
    "url": "https://www.juilliard.edu/event/185836/juilliard-opera-presents-la-scala-di-seta-and-i-due-timidi",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4944,7 +5174,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance work-in-progress",
    "url": "https://lmcc.net/events/toad-mountain/",
-   "notes": "Work-in-progress showing; RSVP via Eventbrite requested; Runs 2-3 PM"
+   "notes": "Work-in-progress showing; RSVP via Eventbrite requested; Runs 2-3 PM",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4956,7 +5187,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/school-girls-or-the-african-mean-girls-play/",
-   "notes": "Final performance is Sunday (Nov 15)"
+   "notes": "Final performance is Sunday (Nov 15)",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4968,7 +5200,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/the-unbelievers/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4980,7 +5213,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://www.nycitycenter.org/",
-   "notes": "Annual Gala Presentation"
+   "notes": "Annual Gala Presentation",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -4992,7 +5226,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/14/cloven-kingdom-tensile-involvement-under-the-rhythm-2pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5004,7 +5239,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9728",
-   "notes": "Family Express performance: 75-minute family-friendly show"
+   "notes": "Family Express performance: 75-minute family-friendly show",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5016,7 +5252,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Preview performance; discounted preview seating listed"
+   "notes": "Preview performance; discounted preview seating listed",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5028,7 +5265,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5040,7 +5278,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5052,7 +5291,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4411",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5064,7 +5304,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5076,7 +5317,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Georgian polyphonic singing",
    "url": "https://ctmd.org/events/zekari-new-yorks-preeminent-traditional-georgian-polyphonic-singing-ensemble/",
-   "notes": "Page lists 3:00-5:00 pm; Q&A follows the performance"
+   "notes": "Page lists 3:00-5:00 pm; Q&A follows the performance",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5088,7 +5330,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "bilingual new play",
    "url": "https://www.iatitheater.org/shows/2026/olivia",
-   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM"
+   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5100,7 +5343,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater",
    "url": "https://pregonesprtt.org/the-beep-2026-27/",
-   "notes": "weekly schedule assumed from the show page, so confirm before attending"
+   "notes": "weekly schedule assumed from the show page, so confirm before attending",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5112,7 +5356,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "performance",
    "url": "https://roulette.org/event/triple-canopy-symposium-2026-day-2/",
-   "notes": "ticket price not stated"
+   "notes": "ticket price not stated",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5124,7 +5369,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance theatre",
    "url": "https://thetanknyc.org/calendar-1/2026/8/26/myth-of-fox",
-   "notes": "Listed 3:00 PM – 4:30 PM"
+   "notes": "Listed 3:00 PM – 4:30 PM",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5136,7 +5382,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "documentary theater",
    "url": "https://thetanknyc.org/calendar-1/2026/4/13/wacotapes",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5148,7 +5395,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "performance",
    "url": "https://roulette.org/event/triple-canopy-symposium-2026-day-2/",
-   "notes": "ticket price not stated"
+   "notes": "ticket price not stated",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5160,7 +5408,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "recital",
    "url": "https://www.juilliard.edu/event/188396/map-open-recital",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5172,7 +5421,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.apollotheater.org/event/hopeboykindance",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5184,7 +5434,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5196,7 +5447,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "world / crossover",
    "url": "https://www.carnegiehall.org/calendar/2026/11/14/silkroad-ensemble-featuring-rhiannon-giddens-and-yo-yo-ma-0700pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5208,7 +5460,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "Jewish arts festival, multidisciplinary",
    "url": "https://www.cprnyc.org/events/shifting-grounds-the-neighborhood-performance-night-1",
-   "notes": "Free with RSVP; presented by The Neighborhood: An Urban Center for Jewish Life; Ends 9:00 PM"
+   "notes": "Free with RSVP; presented by The Neighborhood: An Urban Center for Jewish Life; Ends 9:00 PM",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5220,7 +5473,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical string quartet",
    "url": "",
-   "notes": "Free event"
+   "notes": "Free event",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5232,7 +5486,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary kathak",
    "url": "https://events.humanitix.com/iccha",
-   "notes": "Part of New Works Festival; listed as 7-8pm"
+   "notes": "Part of New Works Festival; listed as 7-8pm",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5244,7 +5499,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary modern dance",
    "url": "https://www.hbartscollective.org/events-performances/hbarts-collective-presents-hopeboykindance-a-collection",
-   "notes": "Evening show; Doors 6:30 PM; general admission, first-come first-served; limit of four tickets per household"
+   "notes": "Evening show; Doors 6:30 PM; general admission, first-come first-served; limit of four tickets per household",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5256,7 +5512,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5268,7 +5525,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5280,7 +5538,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5293,6 +5552,7 @@ window.EVENTS = {
    "genre": "jazz / gypsy jazz",
    "url": "https://ticketing.jazz.org/21704/",
    "notes": "7 PM set; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -5307,7 +5567,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/school-girls-or-the-african-mean-girls-play/",
-   "notes": "Final performance is Sunday (Nov 15)"
+   "notes": "Final performance is Sunday (Nov 15)",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5319,7 +5580,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "indie / ambient",
    "url": "https://www.nationalsawdust.org/event/murmrr-presents-numero-group-23rd-anniversary-celebration-w-laraaji-the-album-leaf-shira-small-11-14-26",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5331,7 +5593,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/lisa-marie-simmons/",
-   "notes": "Free Music at PAC NYC series; RSVP available"
+   "notes": "Free Music at PAC NYC series; RSVP available",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5343,7 +5606,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater",
    "url": "https://pregonesprtt.org/the-beep-2026-27/",
-   "notes": "weekly schedule assumed from the show page, so confirm before attending"
+   "notes": "weekly schedule assumed from the show page, so confirm before attending",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5355,7 +5619,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Preview performance; discounted preview seating listed"
+   "notes": "Preview performance; discounted preview seating listed",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5367,7 +5632,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "adaptation",
    "url": "https://repertorio.nyc/show/153/la-breve-y-maravillosa-vida-de-oscar-wao",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5379,7 +5645,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5391,7 +5658,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4219",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5403,7 +5671,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://chocolatefactorytheater.org/neil-greenberg-2026/",
-   "notes": "Tickets $15-275"
+   "notes": "Tickets $15-275",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5415,7 +5684,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/capatosta-nov-14-2026",
-   "notes": "Two sets: 7pm and 9pm"
+   "notes": "Two sets: 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5427,7 +5697,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/legerdemain",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5439,7 +5710,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "short plays festival",
    "url": "https://thetanknyc.org/calendar-1/gi60",
-   "notes": "Festival listed Nov 12 – Nov 15, 2026"
+   "notes": "Festival listed Nov 12 – Nov 15, 2026",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5451,7 +5723,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "international showcase",
    "url": "https://thetanknyc.org/calendar-1/sinfronteras",
-   "notes": "Listed for Nov 13 – Nov 14, 2026"
+   "notes": "Listed for Nov 13 – Nov 14, 2026",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5463,7 +5736,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5475,7 +5749,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "",
    "url": "https://www.abronsartscenter.org/programs/dailydiversions",
-   "notes": "World premiere"
+   "notes": "World premiere",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5487,7 +5762,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "concert",
    "url": "https://www.aaartsalliance.org/events/diff-nyc-26-music-concert-filmmaker-mixer-free",
-   "notes": "Free; RSVP; Venue not stated in the text available"
+   "notes": "Free; RSVP; Venue not stated in the text available",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5499,7 +5775,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "experimental rock",
    "url": "https://www.blankforms.org/events/fushitsusha",
-   "notes": "Sold out; Doors 6:30 PM"
+   "notes": "Sold out; Doors 6:30 PM",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5512,6 +5789,7 @@ window.EVENTS = {
    "genre": "dance-theater",
    "url": "https://www.bam.org/dance/2026/adaku2",
    "notes": "Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -5526,7 +5804,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "flamenco",
    "url": "https://flamenco-vivo.org/event/tercio-flamenco-november-14/",
-   "notes": "Free for NYC Flamenco Pass holders (reserve); general admission tickets via Eventbrite; Listing page also describes the date as a flamenco artist competition; the event page describes a live show and recording"
+   "notes": "Free for NYC Flamenco Pass holders (reserve); general admission tickets via Eventbrite; Listing page also describes the date as a flamenco artist competition; the event page describes a live show and recording",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5539,6 +5818,7 @@ window.EVENTS = {
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8717",
    "notes": "also listed by The Joyce Theater",
+   "free": false,
    "also": [
     "The Joyce Theater"
    ]
@@ -5553,7 +5833,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play (world premiere)",
    "url": "https://bit.ly/AlmendaresEstreno",
-   "notes": "Directed by Leyma López; Final performance of the run"
+   "notes": "Directed by Leyma López; Final performance of the run",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5565,7 +5846,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary",
    "url": "https://iceorg.org/events/fridman-gallery",
-   "notes": "No further description on page"
+   "notes": "No further description on page",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5577,7 +5859,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance theatre",
    "url": "https://irishartscenter.org/event/specky-clark-oona-doherty",
-   "notes": "Tickets $25/$49/$59"
+   "notes": "Tickets $25/$49/$59",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5589,7 +5872,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "musical ritual / spiritual jazz, folk",
    "url": "https://www.jackny.org/treyalam-alivingaltar",
-   "notes": "Audience invited to bring flowers and cuttings and take home living plants; Address from the Mine to Keep ticket page (same venue)"
+   "notes": "Audience invited to bring flowers and cuttings and take home living plants; Address from the Mine to Keep ticket page (same venue)",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5602,6 +5886,7 @@ window.EVENTS = {
    "genre": "Latin jazz / salsa",
    "url": "https://jazz.org/concert/the-eddie-palmieri-experience-an-all-star-celebration/",
    "notes": "also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -5616,7 +5901,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater reading",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/the-jazmines-a-rage-play-andndash-and-for-legal-reasons-a-parody-788",
-   "notes": "Listed as a reading; Lincoln Center Presents; Details taken from a listing teaser"
+   "notes": "Listed as a reading; Lincoln Center Presents; Details taken from a listing teaser",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5628,7 +5914,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.juilliard.edu/event/185841/juilliard-orchestra-conducted-jose-luis-gomez",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5640,7 +5927,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://www.nycitycenter.org/",
-   "notes": "Annual Gala Presentation"
+   "notes": "Annual Gala Presentation",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5652,7 +5940,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://newyorklivearts.org/event/this-is-the-beginning-this-is-the-end/",
-   "notes": "World premiere; tickets start at $30"
+   "notes": "World premiere; tickets start at $30",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5664,7 +5953,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "international political theater",
    "url": "https://nyuskirball.org/performance/deaf-republic/",
-   "notes": "which time applies to which date is not stated"
+   "notes": "which time applies to which date is not stated",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5676,7 +5966,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Bollywood/Hollywood mashup",
    "url": "https://www.flushingtownhall.org/show-details/global-mashup-hollywood-meets-bollywood",
-   "notes": "Dance lessons at 7 PM led by Amanjeet Kaur; performances at 8 PM"
+   "notes": "Dance lessons at 7 PM led by Amanjeet Kaur; performances at 8 PM",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5688,7 +5979,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "bachata",
    "url": "https://www.lehmancenter.org/events/bachateame-new-york",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5701,6 +5993,7 @@ window.EVENTS = {
    "genre": "contemporary opera",
    "url": "https://www.metopera.org/season/2026-27-season/lincoln-in-the-bardo/",
    "notes": "also listed by The Metropolitan Opera",
+   "free": false,
    "also": [
     "The Metropolitan Opera"
    ]
@@ -5716,6 +6009,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -5731,6 +6025,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -5745,7 +6040,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "student production",
    "url": "https://www.juilliard.edu/event/185561/juilliard-drama-presents-moors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5757,7 +6053,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.manhattantheatreclub.com/shows/2026-27-season/the-unbelievers/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5769,7 +6066,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/14/airs-byzantium-no-longer-silent-8pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5781,7 +6079,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9729",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5793,7 +6092,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family variety show",
    "url": "https://www.queenstheatre.org/events/vitaly-1j7r",
-   "notes": "listed for Sat Nov 14 and Sun Nov 15"
+   "notes": "listed for Sat Nov 14 and Sun Nov 15",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5805,7 +6105,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "performance",
    "url": "https://roulette.org/event/triple-canopy-symposium-2026-day-2/",
-   "notes": "ticket price not stated"
+   "notes": "ticket price not stated",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5817,7 +6118,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5829,7 +6131,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance-theater / sound bath",
    "url": "https://www.triskelionarts.org/fall-2026-performances/christian-warner",
-   "notes": "General admission; early-bird and at-the-door pricing"
+   "notes": "General admission; early-bird and at-the-door pricing",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5841,7 +6144,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Americana",
    "url": "https://www.viewcy.com/event/chloe_kimes",
-   "notes": "Doors 8pm; $20 advance / $25 day of show"
+   "notes": "Doors 8pm; $20 advance / $25 day of show",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5853,7 +6157,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "salsa / DJ dance party",
    "url": "https://bricartsmedia.org/event/bric-house-party-presents-brooklyn-brujeria-day-ii-magic-market-fair-noche-de-salsa-fiesta/",
-   "notes": "Ticketed, from $15; 21+; runs 9 PM–2 AM; rescheduled from Sept; 26"
+   "notes": "Ticketed, from $15; 21+; runs 9 PM–2 AM; rescheduled from Sept; 26",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5865,7 +6170,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "festival performances",
    "url": "https://bricartsmedia.org/event/bric-house-party-presents-brooklyn-brujeria-day-ii-magic-market-fair-noche-de-salsa-fiesta/",
-   "notes": "Free, all ages, 12–5 PM"
+   "notes": "Free, all ages, 12–5 PM",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5878,6 +6184,7 @@ window.EVENTS = {
    "genre": "jazz / gypsy jazz",
    "url": "https://ticketing.jazz.org/21704/",
    "notes": "9 PM set; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -5892,7 +6199,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://thetanknyc.org/calendar-1/thelist",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5904,7 +6212,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "house",
    "url": "https://www.apollotheater.org/event/apollo-music-cafe-adeva",
-   "notes": "Apollo Music Café"
+   "notes": "Apollo Music Café",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5916,7 +6225,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play readings",
    "url": "https://www.aaartsalliance.org/events/thai-theatre-showcase-2026",
-   "notes": "Free; reservations required. Page lists 2-8:30 PM across both days; individual reading times not stated."
+   "notes": "Free; reservations required. Page lists 2-8:30 PM across both days; individual reading times not stated.",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5928,7 +6238,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "puppetry",
    "url": "https://lamama.org/the-dandelions-wish/",
-   "notes": "Puppet Festival 2026; family show. Listed Nov 14-15; only first date listed. No time given."
+   "notes": "Puppet Festival 2026; family show. Listed Nov 14-15; only first date listed. No time given.",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5940,7 +6251,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry",
    "url": "https://lamama.org/the-undercity/",
-   "notes": "Puppet Festival 2026. Run Nov 14-16; only first date listed since showtimes are not stated. No time given."
+   "notes": "Puppet Festival 2026. Run Nov 14-16; only first date listed since showtimes are not stated. No time given.",
+   "free": false
   },
   {
    "date": "2026-11-14",
@@ -5953,6 +6265,7 @@ window.EVENTS = {
    "genre": "extreme action / PopAction",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
    "notes": "Run is Nov 14-29, 2026; page gives no individual showtimes, so only the first date is listed. Recommended for ages 7+. Tickets from $25.; also listed by New 42",
+   "free": false,
    "also": [
     "New 42"
    ]
@@ -5967,7 +6280,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://www.92ny.org/event/violet-s-magic-glasses",
-   "notes": "this is the first listed date (Nov 14); Start time not stated"
+   "notes": "this is the first listed date (Nov 14); Start time not stated",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -5979,7 +6293,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
-   "notes": "For ages 7 and up"
+   "notes": "For ages 7 and up",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -5991,7 +6306,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic American play",
    "url": "https://www.fiascotheater.com/the-verge-events/sensory-friendly-performance",
-   "notes": "Sensory adapted performance; tickets reserved via a form available in early November (email info@fiascotheater.com)"
+   "notes": "Sensory adapted performance; tickets reserved via a form available in early November (email info@fiascotheater.com)",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6003,7 +6319,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6016,6 +6333,7 @@ window.EVENTS = {
    "genre": "opera in concert",
    "url": "https://www.carnegiehall.org/calendar/2026/11/15/new-york-philharmonic-0200pm",
    "notes": "also listed by Lincoln Center for the Performing Arts, New York Philharmonic",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts",
     "New York Philharmonic"
@@ -6032,6 +6350,7 @@ window.EVENTS = {
    "genre": "contemporary dance",
    "url": "https://shop.joyce.org/8711/8718",
    "notes": "Matinee; also listed by The Joyce Theater",
+   "free": false,
    "also": [
     "The Joyce Theater"
    ]
@@ -6046,7 +6365,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance theatre",
    "url": "https://irishartscenter.org/event/specky-clark-oona-doherty",
-   "notes": "Tickets $25/$49/$59"
+   "notes": "Tickets $25/$49/$59",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6058,7 +6378,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Venezuelan / Appalachian folk",
    "url": "https://www.viewcy.com/event/larry__joe_1",
-   "notes": "Doors 1:30pm; $20 advance / $25 day of show"
+   "notes": "Doors 1:30pm; $20 advance / $25 day of show",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6070,7 +6391,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://www.nycitycenter.org/",
-   "notes": "Annual Gala Presentation; closing day"
+   "notes": "Annual Gala Presentation; closing day",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6082,7 +6404,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Preview performance; discounted preview seating listed"
+   "notes": "Preview performance; discounted preview seating listed",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6094,7 +6417,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family variety show",
    "url": "https://www.queenstheatre.org/events/vitaly-1j7r",
-   "notes": "listed for Sat Nov 14 and Sun Nov 15"
+   "notes": "listed for Sat Nov 14 and Sun Nov 15",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6106,7 +6430,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6118,7 +6443,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": "Audio Described performance"
+   "notes": "Audio Described performance",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6130,7 +6456,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=4412",
-   "notes": "Almost sold out"
+   "notes": "Almost sold out",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6142,7 +6469,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6155,6 +6483,7 @@ window.EVENTS = {
    "genre": "dance-theater",
    "url": "https://www.bam.org/dance/2026/adaku2",
    "notes": "Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -6169,7 +6498,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "baroque",
    "url": "https://www.carnegiehall.org/calendar/2026/11/15/apollos-fire--jeanine-de-bique-0300pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6181,7 +6511,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary kathak",
    "url": "https://events.humanitix.com/iccha",
-   "notes": "Part of New Works Festival; listed as 3-4pm"
+   "notes": "Part of New Works Festival; listed as 3-4pm",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6193,7 +6524,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "bilingual new play",
    "url": "https://www.iatitheater.org/shows/2026/olivia",
-   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM"
+   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6205,7 +6537,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6217,7 +6550,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6229,7 +6563,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "musical ritual / spiritual jazz, folk",
    "url": "https://www.jackny.org/treyalam-alivingaltar",
-   "notes": "Audience invited to bring flowers and cuttings and take home living plants; Address from the Mine to Keep ticket page (same venue)"
+   "notes": "Audience invited to bring flowers and cuttings and take home living plants; Address from the Mine to Keep ticket page (same venue)",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6242,6 +6577,7 @@ window.EVENTS = {
    "genre": "Latin soul",
    "url": "https://kupferbergcenter.org/event/salcedo/",
    "notes": "Specific hall not stated on listing page; also listed by New Music USA",
+   "free": false,
    "also": [
     "New Music USA"
    ]
@@ -6257,6 +6593,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -6271,7 +6608,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/15/spindrift-3-epitaphs-tensile-involvement-piazzolla-caldera-3pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6283,7 +6621,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9730",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6295,7 +6634,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater",
    "url": "https://pregonesprtt.org/the-beep-2026-27/",
-   "notes": "weekly schedule assumed from the show page, so confirm before attending"
+   "notes": "weekly schedule assumed from the show page, so confirm before attending",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6307,7 +6647,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy",
    "url": "https://repertorio.nyc/show/2650/toc-toc",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6319,7 +6660,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "international political theater",
    "url": "https://nyuskirball.org/performance/deaf-republic/",
-   "notes": "which time applies to which date is not stated"
+   "notes": "which time applies to which date is not stated",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6331,7 +6673,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/legerdemain",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6343,7 +6686,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "short plays festival",
    "url": "https://thetanknyc.org/calendar-1/gi60",
-   "notes": "Festival listed Nov 12 – Nov 15, 2026"
+   "notes": "Festival listed Nov 12 – Nov 15, 2026",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6355,7 +6699,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6367,7 +6712,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
-   "notes": "For ages 7 and up"
+   "notes": "For ages 7 and up",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6379,7 +6725,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "Jewish arts festival, vocal improvisation, theater, poetry",
    "url": "https://www.cprnyc.org/events/shifting-grounds-the-neighborhood-performance-night-2",
-   "notes": "Free with RSVP; presented by The Neighborhood: An Urban Center for Jewish Life; Ends 7:00 PM"
+   "notes": "Free with RSVP; presented by The Neighborhood: An Urban Center for Jewish Life; Ends 7:00 PM",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6392,6 +6739,7 @@ window.EVENTS = {
    "genre": "classical string quartet",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/the-schumann-quartett",
    "notes": "Quartet Series; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -6406,7 +6754,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "eco-opera / puppetry",
    "url": "https://lamama.org/tiresiaspresentsnewweirdfuture/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6418,7 +6767,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21704/21713",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6430,7 +6780,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "electroacoustic",
    "url": "https://newmusicusa.org/events/scott-d-miller-electrospective/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6442,7 +6793,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play readings",
    "url": "https://www.aaartsalliance.org/events/thai-theatre-showcase-2026",
-   "notes": "Free; reservations required; Page lists 2-8:30 PM across both days"
+   "notes": "Free; reservations required; Page lists 2-8:30 PM across both days",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6454,7 +6806,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "traditional folk / maritime",
    "url": "https://www.viewcy.com/event/the_ranzo_boys_steal",
-   "notes": "Doors 5:30pm; Tickets $20; Social singing after the show"
+   "notes": "Doors 5:30pm; Tickets $20; Social singing after the show",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6466,7 +6819,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6478,7 +6832,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz / gypsy jazz",
    "url": "https://ticketing.jazz.org/21704/",
-   "notes": "7 PM set"
+   "notes": "7 PM set",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6490,7 +6845,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "contemporary music and visual art",
    "url": "https://newmusicusa.org/events/composers-concordance-presents-water-space-an-immersive-multimedia-concert-of-contemporary-music-and-visual-art/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6502,7 +6858,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://www.nycitycenter.org/",
-   "notes": "Annual Gala Presentation; closing day"
+   "notes": "Annual Gala Presentation; closing day",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6514,7 +6871,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "solo show",
    "url": "https://thetanknyc.org/calendar-1/mymobster",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6526,7 +6884,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "double bill",
    "url": "https://thetanknyc.org/calendar-1/war-songs-and-a-diner-lockdown",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6538,7 +6897,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21704/21714",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6550,7 +6910,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "new music",
    "url": "https://newmusicusa.org/events/artifact-3/",
-   "notes": "Page gives little detail"
+   "notes": "Page gives little detail",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6562,7 +6923,8 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "stand-up comedy",
    "url": "https://thepeoplestheatre.org/events/marcello-hernandez/",
-   "notes": "SOLD OUT; Lobby and bar open 6:00 PM; Tickets listed at $35, $55, $65; Phone-free experience (Yondr); Presented in Spanish"
+   "notes": "SOLD OUT; Lobby and bar open 6:00 PM; Tickets listed at $35, $55, $65; Phone-free experience (Yondr); Presented in Spanish",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6574,7 +6936,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://kupferbergcenter.org/event/ele-yan/",
-   "notes": "Visiting presenter; Specific hall not stated"
+   "notes": "Visiting presenter; Specific hall not stated",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6586,7 +6949,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "experimental piano",
    "url": "https://roulette.org/event/durations-triple-canopy-terre-thaemlitz-ciaran-finlayson/",
-   "notes": "Tickets $42.23; includes post-performance conversation"
+   "notes": "Tickets $42.23; includes post-performance conversation",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6598,7 +6962,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz / gypsy jazz",
    "url": "https://ticketing.jazz.org/21704/",
-   "notes": "9 PM set"
+   "notes": "9 PM set",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6610,7 +6975,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "double bill",
    "url": "https://thetanknyc.org/calendar-1/war-songs-and-a-diner-lockdown",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6622,7 +6988,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://thetanknyc.org/calendar-1/2026/11/15/olivias-invited",
-   "notes": "Listed Nov 15 – Nov 16, 2026"
+   "notes": "Listed Nov 15 – Nov 16, 2026",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6634,7 +7001,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.tdf.org/shows/23442/awake-and-sing/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6646,7 +7014,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "Puerto Rican arts festival",
    "url": "http://borimix.com/",
-   "notes": "Festival runs Nov 15–20, 2026; individual performance times, venue and schedule not stated on this page. Listed as a single entry at the festival start date."
+   "notes": "Festival runs Nov 15–20, 2026; individual performance times, venue and schedule not stated on this page. Listed as a single entry at the festival start date.",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6658,7 +7027,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "pops / holiday",
    "url": "https://www.carnegiehall.org/calendar/2026/11/16/carnegie-hall-citywide-2nd-annual-vessel-lighting-ceremony-with-the-new-york-p-0600pm",
-   "notes": "Carnegie Hall Citywide event held outside Carnegie Hall"
+   "notes": "Carnegie Hall Citywide event held outside Carnegie Hall",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6671,6 +7041,7 @@ window.EVENTS = {
    "genre": "new music",
    "url": "https://newmusicusa.org/events/2026-cheswatyr-commissions/",
    "notes": "Page gives limited detail; format not confirmed as a concert; also listed by The Harlem Chamber Players, Composers Now",
+   "free": false,
    "also": [
     "Composers Now",
     "The Harlem Chamber Players"
@@ -6686,7 +7057,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "new opera excerpts",
    "url": "https://www.guggenheim.org/event/works-process-vox-american-voices-opera-lab/2026-11-16",
-   "notes": "Page lists this date under VOX without describing the format; the ticket link is a Guggenheim Works & Process event page; The main VOX showcase is at PAC NYC on April 1, 2027, outside the window"
+   "notes": "Page lists this date under VOX without describing the format; the ticket link is a Guggenheim Works & Process event page; The main VOX showcase is at PAC NYC on April 1, 2027, outside the window",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6698,7 +7070,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://entertainmentcommunity.org/events/chicago-30-one-night-only-benefit-performance",
-   "notes": "Ticketed benefit performance for the Fund's programs serving dancers; guest artists subject to change"
+   "notes": "Ticketed benefit performance for the Fund's programs serving dancers; guest artists subject to change",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6710,7 +7083,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-33rd-county",
-   "notes": "Calendar gives no description; format not stated"
+   "notes": "Calendar gives no description; format not stated",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6722,7 +7096,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "big band jazz",
    "url": "https://ticketing.jazz.org/21715/21716",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6734,7 +7109,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "experimental dance / works-in-progress",
    "url": "https://movementresearch.org/events/1472/",
-   "notes": "Donation-based; no RSVP required; enter at 243 Thompson St"
+   "notes": "Donation-based; no RSVP required; enter at 243 Thompson St",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6746,7 +7122,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/legerdemain",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6758,7 +7135,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "double bill",
    "url": "https://thetanknyc.org/calendar-1/war-songs-and-a-diner-lockdown",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6770,7 +7148,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "new opera",
    "url": "",
-   "notes": "Works & Process at Guggenheim New York; tickets $15-$65"
+   "notes": "Works & Process at Guggenheim New York; tickets $15-$65",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6782,7 +7161,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway / musical theater",
    "url": "https://www.kaufmanmusiccenter.org/mch/event/bound-for-broadway-2026/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6795,6 +7175,7 @@ window.EVENTS = {
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
    "notes": "also listed by The Metropolitan Opera",
+   "free": false,
    "also": [
     "The Metropolitan Opera"
    ]
@@ -6809,7 +7190,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "student production",
    "url": "https://www.juilliard.edu/event/185566/juilliard-drama-presents-moors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6821,7 +7203,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary classical",
    "url": "https://www.juilliard.edu/event/190146/composition-concert",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6833,7 +7216,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical piano",
    "url": "https://newmusicusa.org/events/hungarian-pianist-janos-balazs-returning-to-carnegie-hall-zankel-hall-debut/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6845,7 +7229,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "dramatic readings / tribute performance",
    "url": "https://tfana.org/events/spotlight-series-tom-stoppards-shakespeare-2026-11-16-730-pm",
-   "notes": "Listed as sold out; check back for returned tickets"
+   "notes": "Listed as sold out; check back for returned tickets",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6857,7 +7242,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://kupferbergcenter.org/event/ele-yan/",
-   "notes": "Visiting presenter; Specific hall not stated"
+   "notes": "Visiting presenter; Specific hall not stated",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6869,7 +7255,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "big band jazz",
    "url": "https://ticketing.jazz.org/21715/21717",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6881,7 +7268,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "double bill",
    "url": "https://thetanknyc.org/calendar-1/war-songs-and-a-diner-lockdown",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-16",
@@ -6893,7 +7281,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://thetanknyc.org/calendar-1/2026/11/15/olivias-invited",
-   "notes": "Listed Nov 15 – Nov 16, 2026"
+   "notes": "Listed Nov 15 – Nov 16, 2026",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -6905,7 +7294,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "adaptation",
    "url": "https://repertorio.nyc/show/291/en-el-tiempo-de-las-mariposas",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -6917,7 +7307,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/11/17/mashamashamasha",
-   "notes": "Page lists 3:00 PM – 7:00 PM on Nov 17"
+   "notes": "Page lists 3:00 PM – 7:00 PM on Nov 17",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -6929,7 +7320,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://www.juilliard.edu/event/187921/rush-hour-performance",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -6941,7 +7333,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Afro Latin jazz / parade",
    "url": "https://www.afrolatinjazz.org/events/belongo-at-harlem-holiday-lights-2026",
-   "notes": "Free and open to all; no registration required; Outdoor parade"
+   "notes": "Free and open to all; no registration required; Outdoor parade",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -6953,7 +7346,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -6966,6 +7360,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -6980,7 +7375,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21718/21719",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -6992,7 +7388,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "work-in-progress showings",
    "url": "https://movementresearch.org/events/1457/",
-   "notes": "Suggested $5 donation at the door; no reservations required"
+   "notes": "Suggested $5 donation at the door; no reservations required",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7004,7 +7401,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/17/under-the-rhythm-lovette-premiere-cloven-kingdom-7pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7016,7 +7414,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9731",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7028,7 +7427,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7040,7 +7440,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7052,7 +7453,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=10605",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7064,7 +7466,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7076,7 +7479,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/11/17/mashamashamasha",
-   "notes": "Page lists 3:00 PM – 7:00 PM on Nov 17"
+   "notes": "Page lists 3:00 PM – 7:00 PM on Nov 17",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7088,7 +7492,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7101,6 +7506,7 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://www.apollotheater.org/event/juilliard-at-the-apollo-birth-of-the-cool",
    "notes": "also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -7115,7 +7521,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "chamber",
    "url": "https://www.carnegiehall.org/calendar/2026/11/17/jupiter-ensemble-0730pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7128,6 +7535,7 @@ window.EVENTS = {
    "genre": "classical chamber music",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/faures-second-piano-quartet",
    "notes": "also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -7142,7 +7550,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/tosca/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7154,7 +7563,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "student opera",
    "url": "https://www.juilliard.edu/event/185871/juilliard-opera-presents-la-scala-di-seta-and-i-due-timidi",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7166,7 +7576,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nationalsawdust.org/event/visionintoart-in-residence-wholly-unwinding-the-canticle-of-cerebral-palsy-the-songs-of-my-scars-a-new-musical",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7178,7 +7589,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://orpheusnyc.org/tickets-and-concerts/isata-kanneh-mason",
-   "notes": "Tickets $32 - $115"
+   "notes": "Tickets $32 - $115",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7191,6 +7603,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -7205,7 +7618,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "open-mic dance showcase",
    "url": "https://www.triskelionarts.org/stage-dive",
-   "notes": "Free to attend; non-curated; advance sign-ups full, limited performer spots at the door; doors 7:30 PM"
+   "notes": "Free to attend; non-curated; advance sign-ups full, limited performer spots at the door; doors 7:30 PM",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7217,7 +7631,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21718/21720",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7229,7 +7644,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "open mic / variety",
    "url": "https://tickets.frigid.nyc/event/6897:24",
-   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket"
+   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket",
+   "free": false
   },
   {
    "date": "2026-11-17",
@@ -7241,7 +7657,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance theatre",
    "url": "https://thetanknyc.org/calendar-1/electraunlimited",
-   "notes": "Listed Nov 17 – Nov 18, 2026"
+   "notes": "Listed Nov 17 – Nov 18, 2026",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7253,7 +7670,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater",
    "url": "https://pregonesprtt.org/the-beep-2026-27/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7265,7 +7683,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "adaptation",
    "url": "https://repertorio.nyc/show/291/en-el-tiempo-de-las-mariposas",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7277,7 +7696,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical piano",
    "url": "https://www.juilliard.edu/event/185876/wednesdays-one-music-piano",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7289,7 +7709,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": "Student Matinee"
+   "notes": "Student Matinee",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7301,7 +7722,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7313,7 +7735,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7325,7 +7748,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7338,6 +7762,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -7353,6 +7778,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -7367,7 +7793,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7379,7 +7806,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/bmcc-music/",
-   "notes": "Free Music at PAC NYC series; RSVP available"
+   "notes": "Free Music at PAC NYC series; RSVP available",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7391,7 +7819,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://www.juilliard.edu/event/187926/rush-hour-performance",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7403,7 +7832,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.juilliard.edu/event/187156/concerto-competition-finals",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7415,7 +7845,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical piano",
    "url": "https://www.92ny.org/event/pierre-laurent-aimard",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7427,7 +7858,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7439,7 +7871,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7451,7 +7884,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "listening party / Irish music",
    "url": "https://irishartscenter.org/event/a-tribute-to-shane-macgowan",
-   "notes": "Listening party with live musical performance; Free, reservation required"
+   "notes": "Listening party with live musical performance; Free, reservation required",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7463,7 +7897,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7475,7 +7910,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7487,7 +7923,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz piano",
    "url": "https://ticketing.jazz.org/21725/21726",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7499,7 +7936,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://newmusicusa.org/events/agadez-queendoms/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7511,7 +7949,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/18/arabesque-last-look-esplanade-7pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7523,7 +7962,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/laur/",
-   "notes": "Free Music at PAC NYC series; RSVP available"
+   "notes": "Free Music at PAC NYC series; RSVP available",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7535,7 +7975,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9732",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7547,7 +7988,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Followed by a post-show talkback with the cast and creative team"
+   "notes": "Followed by a post-show talkback with the cast and creative team",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7559,7 +8001,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7571,7 +8014,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7583,7 +8027,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=10606",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7595,7 +8040,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "live literary reading",
    "url": "https://www.symphonyspace.org/events/selected-shorts-the-most-of-nora-ephron-hosted-by-meg-wolitzer",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7607,7 +8053,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/adam-ofarrill-11-18",
-   "notes": "Two sets: 7pm and 9pm"
+   "notes": "Two sets: 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7619,7 +8066,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play / thriller",
    "url": "https://thenewgroup.org/events/rope-2026-10-13-700-pm",
-   "notes": "Performance includes a post-show talkback; the page does not list other individual showtimes"
+   "notes": "Performance includes a post-show talkback; the page does not list other individual showtimes",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7631,7 +8079,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "devised show",
    "url": "https://thetanknyc.org/calendar-1/2026/9/16/fast-and-furious-a-show-about-collective-experience",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7643,7 +8092,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/10/5/epiphora",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7655,7 +8105,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7667,7 +8118,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "world music / Taranta",
    "url": "https://www.worldmusicinstitute.org/agadezatdrom/",
-   "notes": "Doors 6:30 PM; Presented by WMI in a promotional partnership; $35 seated / $30 standing"
+   "notes": "Doors 6:30 PM; Presented by WMI in a promotional partnership; $35 seated / $30 standing",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7680,6 +8132,7 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://www.apollotheater.org/event/juilliard-at-the-apollo-filles-de-kilimanjaro",
    "notes": "Listed as Nov 18 & 19 at 7:30 PM; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -7695,6 +8148,7 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
    "notes": "individual performance dates and times not stated, so only the opening date is listed; Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -7709,7 +8163,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "vocal recital",
    "url": "https://www.carnegiehall.org/calendar/2026/11/18/rihab-chaieb-mezzosoprano-ammiel-bushakevitz-piano-0730pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7721,7 +8176,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "piano recital",
    "url": "https://www.carnegiehall.org/calendar/2026/11/18/minsoo-sohn-piano-0730pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7733,7 +8189,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic American play",
    "url": "https://www.fiascotheater.com/the-verge-events/fiasco-theater-student-alumni-community-night-post-show-discussion",
-   "notes": "Community night with post-show discussion; page lists 7:30–10:30 PM"
+   "notes": "Community night with post-show discussion; page lists 7:30–10:30 PM",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7746,6 +8203,7 @@ window.EVENTS = {
    "genre": "vocal recital",
    "url": "https://www.metopera.org/season/2026-27-season/asmik-grigorian/",
    "notes": "also listed by The Metropolitan Opera",
+   "free": false,
    "also": [
     "The Metropolitan Opera"
    ]
@@ -7761,6 +8219,7 @@ window.EVENTS = {
    "genre": "accessible opera",
    "url": "https://www.nationalsawdust.org/event/opera-praktikos-presents-la-sonnambula",
    "notes": "also listed by New Music USA",
+   "free": false,
    "also": [
     "New Music USA"
    ]
@@ -7775,7 +8234,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7788,6 +8248,7 @@ window.EVENTS = {
    "genre": "contemporary",
    "url": "https://iceorg.org/events/2026/11/18/qasim-naqvi-slow-television",
    "notes": "No further description on page; also listed by Roulette",
+   "free": false,
    "also": [
     "Roulette"
    ]
@@ -7803,6 +8264,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -7818,6 +8280,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -7832,7 +8295,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Americana / honky-tonk",
    "url": "https://www.viewcy.com/event/goatroper_album_relea",
-   "notes": "Doors 8pm; $15 advance / $20 day of show"
+   "notes": "Doors 8pm; $15 advance / $20 day of show",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7844,7 +8308,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz piano",
    "url": "https://ticketing.jazz.org/21725/21727",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7856,7 +8321,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "experimental",
    "url": "https://thetanknyc.org/calendar-1/anothercoldevening",
-   "notes": "Listed 9:30 PM – 11:00 PM"
+   "notes": "Listed 9:30 PM – 11:00 PM",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7868,7 +8334,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "variety",
    "url": "https://tickets.frigid.nyc/event/6897:646",
-   "notes": "Monthly show; start time not stated on the page."
+   "notes": "Monthly show; start time not stated on the page.",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7880,7 +8347,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.tdf.org/shows/23442/awake-and-sing/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -7892,7 +8360,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://repertorio.nyc/show/292/la-gringa",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -7905,6 +8374,7 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://jazzfoundation.org/events/the-jazz-foundation-of-america-presents-african-rhythms-alumni-quintet-feat-vishnu-wood/",
    "notes": "Free; listed 2:00-3:00 PM; includes an interview segment alongside the concert; also listed by The National Jazz Museum in Harlem",
+   "free": false,
    "also": [
     "The National Jazz Museum in Harlem"
    ]
@@ -7919,7 +8389,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -7931,7 +8402,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://www.juilliard.edu/event/187931/rush-hour-performance",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -7943,7 +8415,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/storm-thomas-and-rose-van-dyne/",
-   "notes": "Free Music at PAC NYC series; RSVP available"
+   "notes": "Free Music at PAC NYC series; RSVP available",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -7956,6 +8429,7 @@ window.EVENTS = {
    "genre": "classical chamber music",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/wanhal-britten-and-reinecke",
    "notes": "Rose Studio Series; a second performance follows at 9:00 PM (Late Night Rose); also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -7970,7 +8444,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Haitian rasin / Vodou jazz",
    "url": "https://haiticulturalx.org/event/mizik-ayiti-residency-late-fall-series-bonga-sanba-kebyesou-danle/",
-   "notes": "Doors at 6 PM; 45-minute sets at 6:30 and a second set at 7:45; Tickets include a complimentary beverage; limited capacity, RSVP recommended"
+   "notes": "Doors at 6 PM; 45-minute sets at 6:30 and a second set at 7:45; Tickets include a complimentary beverage; limited capacity, RSVP recommended",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -7982,7 +8457,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "orchestral",
    "url": "https://newmusicusa.org/events/modus-operandi-orchestra-presents-celebrating-america-at-250/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -7994,7 +8470,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance, works-in-process",
    "url": "https://newyorklivearts.org/event/fall-works/",
-   "notes": "Works-in-process sharing; $35 general admission, higher support tiers available"
+   "notes": "Works-in-process sharing; $35 general admission, higher support tiers available",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8006,7 +8483,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25353",
-   "notes": "Opening night 6:30-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "Opening night 6:30-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8018,7 +8496,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8030,7 +8509,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "game show / digital storytelling",
    "url": "https://www.culturehub.org/events/tethering-an-arcade-with-deep-soul-ties",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8042,7 +8522,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8054,7 +8535,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "bilingual new play",
    "url": "https://www.iatitheater.org/shows/2026/olivia",
-   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM"
+   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8066,7 +8548,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out; Patron Night"
+   "notes": "Sold out; Patron Night",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8078,7 +8561,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8090,7 +8574,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "salsa / Latin jazz",
    "url": "https://www.eventbrite.com/e/intergenerational-jazz-power-jam-salsa-dance-party-tickets-2003834493913?aff=erelpanelorg",
-   "notes": "Free with reservations; doors open 6:30 PM; runs until 8:30 PM"
+   "notes": "Free with reservations; doors open 6:30 PM; runs until 8:30 PM",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8103,6 +8588,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -8117,7 +8603,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz piano",
    "url": "https://ticketing.jazz.org/21725/21728",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8129,7 +8616,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "experimental opera / technology",
    "url": "https://www.nationalsawdust.org/event/visionintoart-in-residence-sensorium-world",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8141,7 +8629,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/19/spindrift-battle-premiere-piazzolla-caldera-7pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8153,7 +8642,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "DJ set",
    "url": "https://pacnyc.org/whats-on/dj-malik-rio-2/",
-   "notes": "Free Music at PAC NYC series"
+   "notes": "Free Music at PAC NYC series",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8165,7 +8655,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9733",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8177,7 +8668,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater",
    "url": "https://pregonesprtt.org/the-beep-2026-27/",
-   "notes": "weekly schedule assumed from the show page, so confirm before attending"
+   "notes": "weekly schedule assumed from the show page, so confirm before attending",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8189,7 +8681,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8201,7 +8694,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8213,7 +8707,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8225,7 +8720,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=10607",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8237,7 +8733,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://chocolatefactorytheater.org/neil-greenberg-2026/",
-   "notes": "Tickets $15-275"
+   "notes": "Tickets $15-275",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8249,7 +8746,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://harlemchamberplayers.org/event/annual-bach-concert-2026",
-   "notes": "Individual event page text not provided; details from the events listing only"
+   "notes": "Individual event page text not provided; details from the events listing only",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8261,7 +8759,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/jeremy-dutton-nov-19-2026",
-   "notes": "Two sets: 7pm and 9pm"
+   "notes": "Two sets: 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8273,7 +8772,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary classical",
    "url": "https://thetanknyc.org/calendar-1/2026/9/22/newyorknewmusicfestival",
-   "notes": "Festival listed Nov 19 – Nov 21, 2026"
+   "notes": "Festival listed Nov 19 – Nov 21, 2026",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8285,7 +8785,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/legerdemain",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8298,6 +8799,7 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://www.apollotheater.org/event/juilliard-at-the-apollo-filles-de-kilimanjaro",
    "notes": "Listed as Nov 18 & 19 at 7:30 PM; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -8313,6 +8815,7 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
    "notes": "individual performance dates and times not stated, so only the opening date is listed; Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -8327,7 +8830,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary classical / opera in concert",
    "url": "https://www.bam.org/music/2026/einstein-on-the-beach-50",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8339,7 +8843,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance-theater",
    "url": "https://events.humanitix.com/rabbit-god-queer-chinese-fantasy",
-   "notes": "Part of New Works Festival; 7:30-8:45pm; mature themes and violence, may not suit minors"
+   "notes": "Part of New Works Festival; 7:30-8:45pm; mature themes and violence, may not suit minors",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8351,7 +8856,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "new performance work",
    "url": "https://danspaceproject.org/calendar/fw2026-jones/",
-   "notes": "$20+ ($10+ with membership); Featuring Ms; Carrie Stacks, Alex Mugler, Dan Safer"
+   "notes": "$20+ ($10+ with membership); Featuring Ms; Carrie Stacks, Alex Mugler, Dan Safer",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8363,7 +8869,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://lallianceny.org/event/losing-your-bag/",
-   "notes": "Crossing The Line festival; English-language world premiere; 75 min; strong language; ages 15+; no late seating"
+   "notes": "Crossing The Line festival; English-language world premiere; 75 min; strong language; ages 15+; no late seating",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8376,6 +8883,7 @@ window.EVENTS = {
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/gonzalez-monjas-conducts",
    "notes": "also listed by New York Philharmonic",
+   "free": false,
    "also": [
     "New York Philharmonic"
    ]
@@ -8390,7 +8898,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "student opera",
    "url": "https://www.juilliard.edu/event/185881/juilliard-opera-presents-la-scala-di-seta-and-i-due-timidi",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8402,7 +8911,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet and contemporary dance",
    "url": "https://newyorklivearts.org/event/barnard-columbia-dances-at-new-york-live-arts-5/",
-   "notes": "Student $15; full $25"
+   "notes": "Student $15; full $25",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8414,7 +8924,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical vocal recital",
    "url": "https://www.armoryonpark.org/season-events/2026-season/recital-series/deepa-johnny-jonathan-ware/",
-   "notes": "Page lists a run of Nov 19–21, 2026"
+   "notes": "Page lists a run of Nov 19–21, 2026",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8426,7 +8937,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance / multidisciplinary",
    "url": "https://givebutter.com/blackvelvet",
-   "notes": "Three-night run, Nov 19–21, 2026; the ticket page lists the Nov 19 time explicitly, and the events page gives 7:30 p.m; for the run"
+   "notes": "Three-night run, Nov 19–21, 2026; the ticket page lists the Nov 19 time explicitly, and the events page gives 7:30 p.m; for the run",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8438,7 +8950,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8450,7 +8963,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "live media performance / experimental film",
    "url": "https://www.aaartsalliance.org/events/a-feast-for-the-forgotten",
-   "notes": "Includes film screenings and artist talk; RSVP required; Live performance is about 30 minutes"
+   "notes": "Includes film screenings and artist talk; RSVP required; Live performance is about 30 minutes",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8462,7 +8976,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "experimental",
    "url": "https://issueprojectroom.org/event/webb-crawford-passed-away-also-may",
-   "notes": "Artists-in-Residence 2026; ticketed"
+   "notes": "Artists-in-Residence 2026; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8474,7 +8989,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/medea/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8487,6 +9003,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -8501,7 +9018,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://www.queenstheatre.org/events/ignorancia-artificial-lwhg",
-   "notes": "Visiting presenter event"
+   "notes": "Visiting presenter event",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8513,7 +9031,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary solo dance",
    "url": "https://roulette.org/event/jessica-cook-night-1/",
-   "notes": "Tickets $25"
+   "notes": "Tickets $25",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8525,7 +9044,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Afrosurrealist dance-theater",
    "url": "https://www.triskelionarts.org/fall-2026-performances/kayla-farrish",
-   "notes": "Work in process; general admission"
+   "notes": "Work in process; general admission",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8538,6 +9058,7 @@ window.EVENTS = {
    "genre": "classical chamber music",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/wanhal-britten-and-reinecke",
    "notes": "Late Night Rose; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -8552,7 +9073,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz piano",
    "url": "https://ticketing.jazz.org/21725/21729",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8564,7 +9086,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "solo show",
    "url": "https://thetanknyc.org/calendar-1/mymobster",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8576,7 +9099,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "DJ / dance party",
    "url": "https://www.nationalsawdust.org/event/makemake-presents-ecstatica-feat-cuentame",
-   "notes": "Late-night DJ event"
+   "notes": "Late-night DJ event",
+   "free": false
   },
   {
    "date": "2026-11-19",
@@ -8588,7 +9112,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance puppet theatre",
    "url": "https://lamama.org/everything-that-follows/",
-   "notes": "Puppet Festival 2026. Run Nov 19-23; only first date listed. No time given."
+   "notes": "Puppet Festival 2026. Run Nov 19-23; only first date listed. No time given.",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8600,7 +9125,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "baby/family performance",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/rain-for-babies-and-their-carers",
-   "notes": "Family event"
+   "notes": "Family event",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8613,6 +9139,7 @@ window.EVENTS = {
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/gonzalez-monjas-conducts",
    "notes": "also listed by New York Philharmonic",
+   "free": false,
    "also": [
     "New York Philharmonic"
    ]
@@ -8627,7 +9154,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "early music",
    "url": "https://www.juilliard.edu/event/190936/historical-performance-chamber-music-schola-cantorum-basel",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8639,7 +9167,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "baby/family performance",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/rain-for-babies-and-their-carers",
-   "notes": "Family event"
+   "notes": "Family event",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8651,7 +9180,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25301",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8663,7 +9193,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "early music",
    "url": "https://www.juilliard.edu/event/187161/historical-performance-chamber-music-schola-cantorum-basel",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8675,7 +9206,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://www.juilliard.edu/event/187936/rush-hour-performance",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8687,7 +9219,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "new choreography",
    "url": "https://www.juilliard.edu/event/185491/choreographers-and-composers",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8699,7 +9232,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/robinson-rohe/",
-   "notes": "Free Music at PAC NYC series; RSVP available"
+   "notes": "Free Music at PAC NYC series; RSVP available",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8711,7 +9245,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance and film",
    "url": "https://www.92ny.org/event/bridgman-packer-dance",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8723,7 +9258,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8735,7 +9271,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "game show / digital storytelling",
    "url": "https://www.culturehub.org/events/tethering-an-arcade-with-deep-soul-ties",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8747,7 +9284,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8759,7 +9297,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "bilingual new play",
    "url": "https://www.iatitheater.org/shows/2026/olivia",
-   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM"
+   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8771,7 +9310,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play / Chekhov adaptation",
    "url": "https://intartheatre.app.getcuebox.com/o/NSJ51G7N/shows/FYYG0L9J",
-   "notes": "UNIT52 Workshop Production featuring UNIT52 alumni; approx; 2 hr"
+   "notes": "UNIT52 Workshop Production featuring UNIT52 alumni; approx; 2 hr",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8783,7 +9323,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8795,7 +9336,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8807,7 +9349,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz / Great American Songbook",
    "url": "https://jazz.org/concert/journey-through-jazz-the-great-american-songbook-the-jazz-at-lincoln-center-orchestra/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8820,6 +9363,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -8834,7 +9378,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary chamber",
    "url": "https://newmusicusa.org/events/composers-concordance-presents-berten-dhollander-flute-warren-nicholson-guitar/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8846,7 +9391,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater",
    "url": "https://pregonesprtt.org/the-beep-2026-27/",
-   "notes": "weekly schedule assumed from the show page, so confirm before attending"
+   "notes": "weekly schedule assumed from the show page, so confirm before attending",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8858,7 +9404,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Latine Night community night; post-show talkback with playwrights"
+   "notes": "Latine Night community night; post-show talkback with playwrights",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8870,7 +9417,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy",
    "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8882,7 +9430,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8894,7 +9443,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8906,7 +9456,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=10608",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8918,7 +9469,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.symphonyspace.org/events/coltrane-100",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8930,7 +9482,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8942,7 +9495,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://chocolatefactorytheater.org/neil-greenberg-2026/",
-   "notes": "Tickets $15-275"
+   "notes": "Tickets $15-275",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8954,7 +9508,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://harlemchamberplayers.org/event/annual-bach-concert-2026-2",
-   "notes": "Tickets $20 general, $15 senior/student plus fees; children 12 and under free; Post-concert reception follows"
+   "notes": "Tickets $20 general, $15 senior/student plus fees; children 12 and under free; Post-concert reception follows",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8966,7 +9521,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/alexis-cuadrado-nov-20-2026",
-   "notes": "Two sets: 7pm and 9pm"
+   "notes": "Two sets: 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8978,7 +9534,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/legerdemain",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -8990,7 +9547,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9002,7 +9560,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.apollotheater.org/event/juilliard-at-the-apollo-kind-of-blue",
-   "notes": "Page lists 'Nov 20 & 21 | 7:30 PM & 2:30 PM'; times assigned to dates in listed order (not explicit)"
+   "notes": "Page lists 'Nov 20 & 21 | 7:30 PM & 2:30 PM'; times assigned to dates in listed order (not explicit)",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9014,7 +9573,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "new media performance",
    "url": "https://bricartsmedia.org/event/max-bric-present-maxmachina-fall-2026/",
-   "notes": "Tickets $35"
+   "notes": "Tickets $35",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9027,6 +9587,7 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
    "notes": "individual performance dates and times not stated, so only the opening date is listed; Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -9041,7 +9602,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary classical / opera in concert",
    "url": "https://www.bam.org/music/2026/einstein-on-the-beach-50",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9053,7 +9615,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance-theater",
    "url": "https://events.humanitix.com/rabbit-god-queer-chinese-fantasy",
-   "notes": "Part of New Works Festival; 7:30-8:45pm; mature themes and violence, may not suit minors"
+   "notes": "Part of New Works Festival; 7:30-8:45pm; mature themes and violence, may not suit minors",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9065,7 +9628,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "new performance work",
    "url": "https://danspaceproject.org/calendar/fw2026-jones/",
-   "notes": "$20+ ($10+ with membership); Featuring Ms; Carrie Stacks, Alex Mugler, Dan Safer"
+   "notes": "$20+ ($10+ with membership); Featuring Ms; Carrie Stacks, Alex Mugler, Dan Safer",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9077,7 +9641,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic American play",
    "url": "https://www.fiascotheater.com/the-verge-events/hands-on",
-   "notes": "ASL-interpreted performance; tickets reserved through Hands On (handson.org)"
+   "notes": "ASL-interpreted performance; tickets reserved through Hands On (handson.org)",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9089,7 +9654,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://gibneydance.org/event/off-the-record/",
-   "notes": "venue address not stated"
+   "notes": "venue address not stated",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9101,7 +9667,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "folk-horror, puppetry, movement theater",
    "url": "https://www.jackny.org/carahagan-minetokeep",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9113,7 +9680,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://lallianceny.org/event/losing-your-bag/",
-   "notes": "Crossing The Line festival; English-language world premiere; 75 min; strong language; ages 15+; no late seating"
+   "notes": "Crossing The Line festival; English-language world premiere; 75 min; strong language; ages 15+; no late seating",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9125,7 +9693,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://newmusicusa.org/events/last-light-a-ballet-by-miro-magloire-to-music-by-wang-lu/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9137,7 +9706,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet and contemporary dance",
    "url": "https://newyorklivearts.org/event/barnard-columbia-dances-at-new-york-live-arts-5/",
-   "notes": "Student $15; full $25"
+   "notes": "Student $15; full $25",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9149,7 +9719,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
-   "notes": "Ticketed"
+   "notes": "Ticketed",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9162,6 +9733,7 @@ window.EVENTS = {
    "genre": "transdisciplinary",
    "url": "https://nyuskirball.org/performance/joris-lacoste-nexus-de-ladoration/",
    "notes": "Part of Crossing the Line Festival; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -9176,7 +9748,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance / multidisciplinary",
    "url": "https://givebutter.com/blackvelvet",
-   "notes": "Part of the Nov 19–21, 2026 run; 7:30 p.m; start taken from the events page"
+   "notes": "Part of the Nov 19–21, 2026 run; 7:30 p.m; start taken from the events page",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9188,7 +9761,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary African diaspora dance",
    "url": "https://thebillieholidaytheatre.org/event/the-billie-presents-ronald-k-brown-evidence-dance-company/",
-   "notes": "Tickets via Eventbrite"
+   "notes": "Tickets via Eventbrite",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9200,7 +9774,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9212,7 +9787,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.eventbrite.com/e/dancing-futures-wendy-ann-powell-tickets-1998516489619?aff=ebdsoporgprofile",
-   "notes": "Listing shows '8:00 PM and 1 more' date; the additional date is not stated; Tickets from $5"
+   "notes": "Listing shows '8:00 PM and 1 more' date; the additional date is not stated; Tickets from $5",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9224,7 +9800,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "pops / Broadway",
    "url": "https://www.carnegiehall.org/calendar/2026/11/20/the-new-york-pops-0800pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9236,7 +9813,8 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "poetry reading",
    "url": "https://tickets.irishartscenter.org/3216/3229",
-   "notes": "PoetryFest Friday launch reading; Tickets $25/$56/$68"
+   "notes": "PoetryFest Friday launch reading; Tickets $25/$56/$68",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9248,7 +9826,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9260,7 +9839,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/20/arabesque-messengers-maidens-and-the-end-of-something-else-no-longer-silent-8pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9272,7 +9852,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9734",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9284,7 +9865,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary solo dance",
    "url": "https://roulette.org/event/jessica-cook-night-2/",
-   "notes": "Tickets $25"
+   "notes": "Tickets $25",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9296,7 +9878,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz / Great American Songbook",
    "url": "https://jazz.org/concert/journey-through-jazz-the-great-american-songbook-the-jazz-at-lincoln-center-orchestra/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9308,7 +9891,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "experimental / ambient",
    "url": "https://www.nationalsawdust.org/event/makemake-presents-ecstatica-feat-joy-guidry",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9320,7 +9904,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy/musical",
    "url": "https://thetanknyc.org/calendar-1/2026/10/5/topofthemornin",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9333,6 +9918,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://art-newyork.org/events/curious-incident-epic/",
    "notes": "Opening date of a run through Dec 6, 2026; page gives no individual showtimes, so only the first date is listed. Rental venue; produced by EPIC Players.; also listed by EPIC Players",
+   "free": false,
    "also": [
     "EPIC Players"
    ]
@@ -9347,7 +9933,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical in concert",
    "url": "",
-   "notes": "Presented on Transgender Day of Remembrance. Complimentary tickets; reservation details and casting to be announced. Start time and specific Lincoln Center venue not stated on page.; from previous update"
+   "notes": "Presented on Transgender Day of Remembrance. Complimentary tickets; reservation details and casting to be announced. Start time and specific Lincoln Center venue not stated on page.; from previous update",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9359,7 +9946,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://www.bandsintown.com/e/109064515?affil_code=js_ethelcentral.org&app_id=js_ethelcentral.org&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget",
-   "notes": "Start time not stated on page; listing title is just the venue name."
+   "notes": "Start time not stated on page; listing title is just the venue name.",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9371,7 +9959,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical vocal recital",
    "url": "https://www.armoryonpark.org/season-events/2026-season/recital-series/deepa-johnny-jonathan-ware/",
-   "notes": "Page lists a run of Nov 19–21, 2026; showtimes not stated. Tickets $75 including fees."
+   "notes": "Page lists a run of Nov 19–21, 2026; showtimes not stated. Tickets $75 including fees.",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9383,7 +9972,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy",
    "url": "https://pregonesprtt.org/do-not-turn-off-my-telenovela-2026-27/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-20",
@@ -9395,7 +9985,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "aerial / circus / dance / theater",
    "url": "https://givebutter.com/friday-nights-at-slam-november2026",
-   "notes": "Ticketed. Start time not stated on page."
+   "notes": "Ticketed. Start time not stated on page.",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9407,7 +9998,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/rain-for-babies-and-their-carers",
-   "notes": "Kids, Teens, and Families series"
+   "notes": "Kids, Teens, and Families series",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9420,6 +10012,7 @@ window.EVENTS = {
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
    "notes": "also listed by The Metropolitan Opera",
+   "free": false,
    "also": [
     "The Metropolitan Opera"
    ]
@@ -9434,7 +10027,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "",
-   "notes": "Complimentary tickets via advance Eventbrite registration (opened Nov 4); walk-ons first-come, first-served if capacity permits; Page does not state city; listed as an NYC event"
+   "notes": "Complimentary tickets via advance Eventbrite registration (opened Nov 4); walk-ons first-come, first-served if capacity permits; Page does not state city; listed as an NYC event",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9446,7 +10040,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "multimedia dance performance",
    "url": "https://www.bronxriverart.org/in-the-community-detail.cfm?recordID=392",
-   "notes": "Presented in the community by BRAC at Wave Hill; Page says the piece is repeated at 1:00 and 3:00 PM; the time of the initial showing is not stated"
+   "notes": "Presented in the community by BRAC at Wave Hill; Page says the piece is repeated at 1:00 and 3:00 PM; the time of the initial showing is not stated",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9458,7 +10053,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9470,7 +10066,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://gibneydance.org/event/off-the-record/",
-   "notes": "venue address not stated"
+   "notes": "venue address not stated",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9482,7 +10079,8 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "poetry reading",
    "url": "https://tickets.irishartscenter.org/3216/3231",
-   "notes": "Free; reservation available; Readings and conversation"
+   "notes": "Free; reservation available; Readings and conversation",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9494,7 +10092,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9506,7 +10105,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9519,6 +10119,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -9533,7 +10134,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/rain-for-babies-and-their-carers",
-   "notes": "Kids, Teens, and Families series"
+   "notes": "Kids, Teens, and Families series",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9546,6 +10148,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -9560,7 +10163,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
-   "notes": "For ages 7 and up; limited availability"
+   "notes": "For ages 7 and up; limited availability",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9572,7 +10176,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet and contemporary dance",
    "url": "https://newyorklivearts.org/event/barnard-columbia-dances-at-new-york-live-arts-5/",
-   "notes": "Student $15; full $25"
+   "notes": "Student $15; full $25",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9584,7 +10189,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/21/cloven-kingdom-tensile-involvement-under-the-rhythm-2-2pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9596,7 +10202,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9735",
-   "notes": "Family Express performance: 75-minute family-friendly show"
+   "notes": "Family Express performance: 75-minute family-friendly show",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9608,7 +10215,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9620,7 +10228,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9632,7 +10241,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9644,7 +10254,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=12006",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9656,7 +10267,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9668,7 +10280,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9680,7 +10293,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9693,6 +10307,7 @@ window.EVENTS = {
    "genre": "jazz",
    "url": "https://www.apollotheater.org/event/juilliard-at-the-apollo-kind-of-blue",
    "notes": "Page lists 'Nov 20 & 21 | 7:30 PM & 2:30 PM'; times assigned to dates in listed order (not explicit); also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -9707,7 +10322,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "bilingual new play",
    "url": "https://www.iatitheater.org/shows/2026/olivia",
-   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM"
+   "notes": "Thu & Fri 7 PM, Sat & Sun 3 PM",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9719,7 +10335,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "new dance and music",
    "url": "https://www.juilliard.edu/event/185501/choreographers-and-composers",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9731,7 +10348,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater",
    "url": "https://pregonesprtt.org/the-beep-2026-27/",
-   "notes": "weekly schedule assumed from the show page, so confirm before attending"
+   "notes": "weekly schedule assumed from the show page, so confirm before attending",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9743,7 +10361,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "multimedia dance performance",
    "url": "https://www.bronxriverart.org/in-the-community-detail.cfm?recordID=392",
-   "notes": "Presented in the community by BRAC at Wave Hill; Page says the piece is repeated at 1:00 and 3:00 PM; the time of the initial showing is not stated"
+   "notes": "Presented in the community by BRAC at Wave Hill; Page says the piece is repeated at 1:00 and 3:00 PM; the time of the initial showing is not stated",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9755,7 +10374,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "solo show",
    "url": "https://thetanknyc.org/calendar-1/mymobster",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9767,7 +10387,8 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "poetry reading",
    "url": "https://tickets.irishartscenter.org/3216/3232",
-   "notes": "Free; reservation available; Readings and conversation"
+   "notes": "Free; reservation available; Readings and conversation",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9779,7 +10400,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "circus-inspired performance",
    "url": "https://bricartsmedia.org/event/max-bric-present-maxmachina-fall-2026/",
-   "notes": "Tickets $35"
+   "notes": "Tickets $35",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9791,7 +10413,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9803,7 +10426,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "shadow and toy puppetry",
    "url": "https://lamama.org/where-did-you-go-connie/",
-   "notes": "only first date listed; No time given"
+   "notes": "only first date listed; No time given",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9816,6 +10440,7 @@ window.EVENTS = {
    "genre": "jazz jam",
    "url": "https://jmih.org/event/intergenerational-jazz-power-jam-eli-yamin-quartet/",
    "notes": "Jam session; also listed by Jazz Power Initiative",
+   "free": false,
    "also": [
     "Jazz Power Initiative"
    ]
@@ -9831,6 +10456,7 @@ window.EVENTS = {
    "genre": "jazz / Great American Songbook",
    "url": "https://jazz.org/concert/journey-through-jazz-the-great-american-songbook-the-jazz-at-lincoln-center-orchestra/",
    "notes": "also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -9845,7 +10471,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "chamber / well-being concert",
    "url": "https://www.carnegiehall.org/calendar/2026/11/21/james-austin-smith-and-friends-0500pm",
-   "notes": "Well-being concert"
+   "notes": "Well-being concert",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9857,7 +10484,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9869,7 +10497,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25302",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9881,7 +10510,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry / AI",
    "url": "https://www.culturehub.org/events/we-talked-a-door-into-being",
-   "notes": "RSVP required; Time not stated; Residency presentation"
+   "notes": "RSVP required; Time not stated; Residency presentation",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9893,7 +10523,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.juilliard.edu/event/186986/pre-college-orchestra-conducted-oksana-lyniv",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9905,7 +10536,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/agadez-with-mauro-durante/",
-   "notes": "Free Music at PAC NYC series; RSVP available"
+   "notes": "Free Music at PAC NYC series; RSVP available",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9917,7 +10549,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance and film",
    "url": "https://www.92ny.org/event/bridgman-packer-dance",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9929,7 +10562,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical guitar",
    "url": "https://www.92ny.org/event/raphael-feuillatre",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9941,7 +10575,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "showcase",
    "url": "https://ailey.org/events/voices-visions-showcase-112126-7pm",
-   "notes": "Listed as SOLD OUT; Ailey Extension"
+   "notes": "Listed as SOLD OUT; Ailey Extension",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9953,7 +10588,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9965,7 +10601,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9977,7 +10614,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play / Chekhov adaptation",
    "url": "https://intartheatre.app.getcuebox.com/o/NSJ51G7N/shows/FYYG0L9J",
-   "notes": "UNIT52 Workshop Production featuring UNIT52 alumni; approx; 2 hr"
+   "notes": "UNIT52 Workshop Production featuring UNIT52 alumni; approx; 2 hr",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -9989,7 +10627,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10001,7 +10640,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10014,6 +10654,7 @@ window.EVENTS = {
    "genre": "jazz / Great American Songbook",
    "url": "https://jazz.org/concert/journey-through-jazz-the-great-american-songbook-the-jazz-at-lincoln-center-orchestra/",
    "notes": "also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -10028,7 +10669,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz piano",
    "url": "https://ticketing.jazz.org/21725/21732",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10040,7 +10682,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
-   "notes": "For ages 7 and up; sign-interpreted and audio-described performance"
+   "notes": "For ages 7 and up; sign-interpreted and audio-described performance",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10052,7 +10695,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "",
-   "notes": "Complimentary tickets via advance Eventbrite registration (opened Nov 4); walk-ons first-come, first-served if capacity permits; Page does not state city; listed as an NYC event"
+   "notes": "Complimentary tickets via advance Eventbrite registration (opened Nov 4); walk-ons first-come, first-served if capacity permits; Page does not state city; listed as an NYC event",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10064,7 +10708,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater",
    "url": "https://pregonesprtt.org/the-beep-2026-27/",
-   "notes": "weekly schedule assumed from the show page, so confirm before attending"
+   "notes": "weekly schedule assumed from the show page, so confirm before attending",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10076,7 +10721,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10088,7 +10734,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy",
    "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10100,7 +10747,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10112,7 +10760,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10124,7 +10773,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=12401",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10136,7 +10786,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10148,7 +10799,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://chocolatefactorytheater.org/neil-greenberg-2026/",
-   "notes": "Tickets $15-275"
+   "notes": "Tickets $15-275",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10160,7 +10812,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/mentoring-series-nov-21-2026-marcus-gilmore-ryoma-takenada",
-   "notes": "Two sets: 7pm and 9pm; free for members"
+   "notes": "Two sets: 7pm and 9pm; free for members",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10172,7 +10825,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/legerdemain",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10184,7 +10838,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10196,7 +10851,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "new media performance",
    "url": "https://bricartsmedia.org/event/max-bric-present-maxmachina-fall-2026/",
-   "notes": "Tickets $35"
+   "notes": "Tickets $35",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10209,6 +10865,7 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
    "notes": "individual performance dates and times not stated, so only the opening date is listed; Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -10223,7 +10880,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary classical / opera in concert",
    "url": "https://www.bam.org/music/2026/einstein-on-the-beach-50",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10235,7 +10893,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance-theater",
    "url": "https://events.humanitix.com/rabbit-god-queer-chinese-fantasy",
-   "notes": "Part of New Works Festival; 7:30-8:45pm; mature themes and violence, may not suit minors"
+   "notes": "Part of New Works Festival; 7:30-8:45pm; mature themes and violence, may not suit minors",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10248,6 +10907,7 @@ window.EVENTS = {
    "genre": "contemporary dance / live music",
    "url": "https://www.danceheginbotham.org/events-1/2026/11/21-the-party-scene",
    "notes": "Family friendly; guests encouraged to wear festive holiday sweaters; also listed by Kaufman Music Center",
+   "free": false,
    "also": [
     "Kaufman Music Center"
    ]
@@ -10262,7 +10922,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "new performance work",
    "url": "https://danspaceproject.org/calendar/fw2026-jones/",
-   "notes": "$20+ ($10+ with membership); Page says this Saturday performance includes ASL interpretation (text mistakenly says November 7); Featuring Ms; Carrie Stacks, Alex Mugler, Dan Safer"
+   "notes": "$20+ ($10+ with membership); Page says this Saturday performance includes ASL interpretation (text mistakenly says November 7); Featuring Ms; Carrie Stacks, Alex Mugler, Dan Safer",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10274,7 +10935,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://gibneydance.org/event/off-the-record/",
-   "notes": "venue address not stated"
+   "notes": "venue address not stated",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10286,7 +10948,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "folk-horror, puppetry, movement theater",
    "url": "https://www.jackny.org/carahagan-minetokeep",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10298,7 +10961,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://lallianceny.org/event/losing-your-bag/",
-   "notes": "Crossing The Line festival; English-language world premiere; 75 min; strong language; ages 15+; no late seating"
+   "notes": "Crossing The Line festival; English-language world premiere; 75 min; strong language; ages 15+; no late seating",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10310,7 +10974,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "percussion",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/ju-percussion-612",
-   "notes": "Details from listing on another page"
+   "notes": "Details from listing on another page",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10323,6 +10988,7 @@ window.EVENTS = {
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/gonzalez-monjas-conducts",
    "notes": "also listed by New York Philharmonic",
+   "free": false,
    "also": [
     "New York Philharmonic"
    ]
@@ -10337,7 +11003,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "new dance and music",
    "url": "https://www.juilliard.edu/event/185391/choreographers-and-composers",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10349,7 +11016,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "folk",
    "url": "https://www.nationalsawdust.org/event/lpr-presents-rising-appalachia-with-support-from-viv-riley",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10361,7 +11029,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://newmusicusa.org/events/last-light-a-ballet-by-miro-magloire-to-music-by-wang-lu/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10373,7 +11042,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet and contemporary dance",
    "url": "https://newyorklivearts.org/event/barnard-columbia-dances-at-new-york-live-arts-5/",
-   "notes": "Student $15; full $25"
+   "notes": "Student $15; full $25",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10385,7 +11055,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
-   "notes": "Ticketed"
+   "notes": "Ticketed",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10398,6 +11069,7 @@ window.EVENTS = {
    "genre": "transdisciplinary",
    "url": "https://nyuskirball.org/performance/joris-lacoste-nexus-de-ladoration/",
    "notes": "Part of Crossing the Line Festival; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -10412,7 +11084,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance / multidisciplinary",
    "url": "https://givebutter.com/blackvelvet",
-   "notes": "Part of the Nov 19–21, 2026 run; 7:30 p.m; start taken from the events page"
+   "notes": "Part of the Nov 19–21, 2026 run; 7:30 p.m; start taken from the events page",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10424,7 +11097,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10436,7 +11110,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/medea/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10449,6 +11124,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -10464,6 +11140,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -10478,7 +11155,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary chamber",
    "url": "https://newmusicusa.org/events/the-world-between-two-clarinets/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10490,7 +11168,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/21/airs-3-epitaphs-tensile-involvement-esplanade-8pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10502,7 +11181,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical vocal recital",
    "url": "https://www.armoryonpark.org/season-events/2026-season/recital-series/deepa-johnny-jonathan-ware/",
-   "notes": "Page lists a run of Nov 19–21, 2026"
+   "notes": "Page lists a run of Nov 19–21, 2026",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10514,7 +11194,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9736",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10526,7 +11207,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10538,7 +11220,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry / AI",
    "url": "https://www.culturehub.org/events/we-talked-a-door-into-being",
-   "notes": "RSVP required; Time not stated; Residency presentation"
+   "notes": "RSVP required; Time not stated; Residency presentation",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10550,7 +11233,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz piano",
    "url": "https://ticketing.jazz.org/21725/21733",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10562,7 +11246,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "rock",
    "url": "https://thetanknyc.org/calendar-1/2026/11/21/new-york-rock-n-roll",
-   "notes": "Listed 9:30 PM – 10:30 PM"
+   "notes": "Listed 9:30 PM – 10:30 PM",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10574,7 +11259,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy/musical",
    "url": "https://thetanknyc.org/calendar-1/2026/10/5/topofthemornin",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10586,7 +11272,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "holiday jazz",
    "url": "",
-   "notes": "Start time and venue address not stated on page; venue assumed to be the presenting organization's theatre."
+   "notes": "Start time and venue address not stated on page; venue assumed to be the presenting organization's theatre.",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10598,7 +11285,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://www.bandsintown.com/e/109064516?affil_code=js_ethelcentral.org&app_id=js_ethelcentral.org&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget",
-   "notes": "Start time not stated on page; listing title is just the venue name."
+   "notes": "Start time not stated on page; listing title is just the venue name.",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10611,6 +11299,7 @@ window.EVENTS = {
    "genre": "world dance",
    "url": "https://app.dvforms.net/api/dv/dw5qy8",
    "notes": "Venue, time and program not stated on the page; ticket link is the Saturday listing.; also listed by Asian American Arts Alliance (A4)",
+   "free": false,
    "also": [
     "Asian American Arts Alliance (A4)"
    ]
@@ -10625,7 +11314,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://nationalblacktheatre.org/production/imitationoflife/",
-   "notes": "Run listed as Nov 21, 2026 - Jan 3, 2027; page gives no individual showtimes or weekly schedule, so only the first date is listed. Venue address not stated on the page."
+   "notes": "Run listed as Nov 21, 2026 - Jan 3, 2027; page gives no individual showtimes or weekly schedule, so only the first date is listed. Venue address not stated on the page.",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10637,7 +11327,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy",
    "url": "https://pregonesprtt.org/do-not-turn-off-my-telenovela-2026-27/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10649,7 +11340,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://www.92ny.org/event/violet-s-magic-glasses",
-   "notes": "this is the first listed date (Nov 14); Start time not stated"
+   "notes": "this is the first listed date (Nov 14); Start time not stated",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10661,7 +11353,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/rain-for-babies-and-their-carers",
-   "notes": "Kids, Teens, and Families series"
+   "notes": "Kids, Teens, and Families series",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10673,7 +11366,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
-   "notes": "For ages 7 and up"
+   "notes": "For ages 7 and up",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10685,7 +11379,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "classical / family",
    "url": "https://www.nypublicradio.org/2026/11/09/wqxr-presents-classical-kids-fair-at-the-queens-theatre-flushing-meadows-corona-park-2026/",
-   "notes": "Free admission, reservations encouraged; Runs 12-4 PM; also includes workshops, instrument zone and crafts"
+   "notes": "Free admission, reservations encouraged; Runs 12-4 PM; also includes workshops, instrument zone and crafts",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10697,7 +11392,8 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "poetry reading",
    "url": "https://tickets.irishartscenter.org/3216/3234",
-   "notes": "Free; reservation available; Readings and conversation"
+   "notes": "Free; reservation available; Readings and conversation",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10709,7 +11405,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "",
-   "notes": "Complimentary tickets via advance Eventbrite registration (opened Nov 4); walk-ons first-come, first-served if capacity permits; Page does not state city; listed as an NYC event"
+   "notes": "Complimentary tickets via advance Eventbrite registration (opened Nov 4); walk-ons first-come, first-served if capacity permits; Page does not state city; listed as an NYC event",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10721,7 +11418,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with choral music",
    "url": "https://atlantictheater.org/production/i-became-we/",
-   "notes": "Closing performance"
+   "notes": "Closing performance",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10733,7 +11431,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/rain-for-babies-and-their-carers",
-   "notes": "Kids, Teens, and Families series"
+   "notes": "Kids, Teens, and Families series",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10745,7 +11444,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "art song",
    "url": "https://www.juilliard.edu/event/186751/liederabend-collaboration-opera-rara",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10757,7 +11457,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10769,7 +11470,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10781,7 +11483,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": "Open Captioned performance"
+   "notes": "Open Captioned performance",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10793,7 +11496,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=12007",
-   "notes": "Final performance of the run"
+   "notes": "Final performance of the run",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10805,7 +11509,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10817,7 +11522,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10829,7 +11535,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "showcase",
    "url": "https://ailey.org/events/voices-visions-showcase-112226-3pm",
-   "notes": "Listed as SOLD OUT; Ailey Extension"
+   "notes": "Listed as SOLD OUT; Ailey Extension",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10841,7 +11548,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "opera / classical vocal",
    "url": "https://www.aaartsalliance.org/events/yaman-2026-the-philippine-tenors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10854,6 +11562,7 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
    "notes": "individual performance dates and times not stated, so only the opening date is listed; Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -10868,7 +11577,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance-theater",
    "url": "https://events.humanitix.com/rabbit-god-queer-chinese-fantasy",
-   "notes": "Part of New Works Festival; 3-4:15pm; mature themes and violence, may not suit minors"
+   "notes": "Part of New Works Festival; 3-4:15pm; mature themes and violence, may not suit minors",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10880,7 +11590,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "bilingual new play",
    "url": "https://www.iatitheater.org/shows/2026/olivia",
-   "notes": "Closing performance; Thu & Fri 7 PM, Sat & Sun 3 PM"
+   "notes": "Closing performance; Thu & Fri 7 PM, Sat & Sun 3 PM",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10892,7 +11603,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10904,7 +11616,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10917,6 +11630,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -10932,6 +11646,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -10946,7 +11661,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://oslmusic.org/calendar/2026/11/22/byzantium-battle-premiere-brandenburgs-3pm/",
-   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page"
+   "notes": "Ticket link goes to David H; Koch Theater's Paul Taylor page",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10958,7 +11674,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://tickets.davidhkochtheater.com/booking/production/9737",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10970,7 +11687,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical theater",
    "url": "https://pregonesprtt.org/the-beep-2026-27/",
-   "notes": "weekly schedule assumed from the show page, so confirm before attending"
+   "notes": "weekly schedule assumed from the show page, so confirm before attending",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10982,7 +11700,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy",
    "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -10994,7 +11713,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://thetanknyc.org/calendar-1/2026/8/18/neighbors5",
-   "notes": "Listed 3:00 PM – 4:30 PM"
+   "notes": "Listed 3:00 PM – 4:30 PM",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11006,7 +11726,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/legerdemain",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11018,7 +11739,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "taiko",
    "url": "https://www.apollotheater.org/event/taiko-masala-25",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11030,7 +11752,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "youth variety / circus",
    "url": "https://bindlestiff.org/event/bindlestiff-cavalcade-of-youth-3/",
-   "notes": "Presented with Playful Productions; all ages welcome; listed 4:00-6:00 pm"
+   "notes": "Presented with Playful Productions; all ages welcome; listed 4:00-6:00 pm",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11042,7 +11765,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11054,7 +11778,8 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "poetry reading",
    "url": "https://tickets.irishartscenter.org/3216/3236",
-   "notes": "Free; reservation available; Readings and conversation"
+   "notes": "Free; reservation available; Readings and conversation",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11066,7 +11791,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
-   "notes": "For ages 7 and up; talk-back follows"
+   "notes": "For ages 7 and up; talk-back follows",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11078,7 +11804,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://newmusicusa.org/events/roman-fever-by-edith-wharton-an-opera-in-one-act/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11090,7 +11817,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11102,7 +11830,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play / Chekhov adaptation",
    "url": "https://intartheatre.app.getcuebox.com/o/NSJ51G7N/shows/FYYG0L9J",
-   "notes": "UNIT52 Workshop Production featuring UNIT52 alumni; approx; 2 hr"
+   "notes": "UNIT52 Workshop Production featuring UNIT52 alumni; approx; 2 hr",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11114,7 +11843,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11126,7 +11856,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz piano",
    "url": "https://ticketing.jazz.org/21725/21734",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11138,7 +11869,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://www.queenstheatre.org/events/flush-hvkz",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11150,7 +11882,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25303",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11162,7 +11895,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "showcase",
    "url": "https://ailey.org/events/voices-visions-showcase-112226-7pm",
-   "notes": "Listed as SOLD OUT; Ailey Extension"
+   "notes": "Listed as SOLD OUT; Ailey Extension",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11174,7 +11908,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11186,7 +11921,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "double bill",
    "url": "https://thetanknyc.org/calendar-1/war-songs-and-a-diner-lockdown",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11198,7 +11934,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "experimental / multimedia",
    "url": "https://www.cprnyc.org/events/playtime-nov22",
-   "notes": "Tickets $15, $20, $30; Ends 9:00 PM"
+   "notes": "Tickets $15, $20, $30; Ends 9:00 PM",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11210,7 +11947,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "folk-horror, puppetry, movement theater",
    "url": "https://www.jackny.org/carahagan-minetokeep",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11222,7 +11960,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz piano",
    "url": "https://ticketing.jazz.org/21725/21735",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11234,7 +11973,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "folk",
    "url": "https://www.nationalsawdust.org/event/lpr-presents-rising-appalachia",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11246,7 +11986,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
-   "notes": "Ticketed"
+   "notes": "Ticketed",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11258,7 +11999,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://roulette.org/event/henry-threadgill-zooid-cut-you-where-you-was/",
-   "notes": "Tickets $55"
+   "notes": "Tickets $55",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11270,7 +12012,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11282,7 +12025,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "double bill",
    "url": "https://thetanknyc.org/calendar-1/war-songs-and-a-diner-lockdown",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-22",
@@ -11295,6 +12039,7 @@ window.EVENTS = {
    "genre": "world dance",
    "url": "https://app.dvforms.net/api/dv/50jvkp",
    "notes": "Venue, time and program not stated on the page; ticket link is the Sunday listing.; also listed by Asian American Arts Alliance (A4)",
+   "free": false,
    "also": [
     "Asian American Arts Alliance (A4)"
    ]
@@ -11309,7 +12054,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25304",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-23",
@@ -11321,7 +12067,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "cabaret",
    "url": "https://dancelabny.org/labaret-2026/",
-   "notes": "Benefit for Dance Lab New York; Doors 5:00 PM; Two-drink minimum; dinner available for purchase; Many seating tiers sold out; Side View ($85) and Bar Seating ($60) listed as available"
+   "notes": "Benefit for Dance Lab New York; Doors 5:00 PM; Two-drink minimum; dinner available for purchase; Many seating tiers sold out; Side View ($85) and Bar Seating ($60) listed as available",
+   "free": false
   },
   {
    "date": "2026-11-23",
@@ -11334,6 +12081,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -11348,7 +12096,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical in concert",
    "url": "https://www.aaartsalliance.org/events/yellow-frosted-willow-the-anna-may-wong-musical-in-concert",
-   "notes": "One night only; RSVP"
+   "notes": "One night only; RSVP",
+   "free": false
   },
   {
    "date": "2026-11-23",
@@ -11360,7 +12109,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/pop",
-   "notes": "Sold out; calendar gives no description; format not stated"
+   "notes": "Sold out; calendar gives no description; format not stated",
+   "free": false
   },
   {
    "date": "2026-11-23",
@@ -11372,7 +12122,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21736/21737",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-23",
@@ -11384,7 +12135,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "film music tribute",
    "url": "https://newmusicusa.org/events/tribute-to-ennio-morricone-sound-espressivo-candlelight-gala-concert/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-23",
@@ -11396,7 +12148,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz-inspired new music",
    "url": "https://newmusicusa.org/events/composers-concordance-presents-inspired-by-miles/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-23",
@@ -11408,7 +12161,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz / vocal",
    "url": "https://jazzgallery.org/calendar/becca-stevens-nov-23-24-2026",
-   "notes": "Two sets: 7pm and 9pm; also Nov 24; free for members"
+   "notes": "Two sets: 7pm and 9pm; also Nov 24; free for members",
+   "free": false
   },
   {
    "date": "2026-11-23",
@@ -11420,7 +12174,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "solo show",
    "url": "https://thetanknyc.org/calendar-1/mymobster",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-23",
@@ -11433,6 +12188,7 @@ window.EVENTS = {
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
    "notes": "also listed by The Metropolitan Opera",
+   "free": false,
    "also": [
     "The Metropolitan Opera"
    ]
@@ -11447,7 +12203,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "tribute / folk-jazz",
    "url": "https://www.viewcy.com/event/no_regrets_coyote_jo",
-   "notes": "Doors 7:30pm; Tickets $20"
+   "notes": "Doors 7:30pm; Tickets $20",
+   "free": false
   },
   {
    "date": "2026-11-23",
@@ -11459,7 +12216,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary percussion",
    "url": "https://roulette.org/event/talujon-brian-chase-john-hollenbeck/",
-   "notes": "Tickets $25"
+   "notes": "Tickets $25",
+   "free": false
   },
   {
    "date": "2026-11-23",
@@ -11471,7 +12229,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21736/21738",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11483,7 +12242,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic adaptation",
    "url": "https://repertorio.nyc/show/293/el-quijote",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11495,7 +12255,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11507,7 +12268,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25305",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11519,7 +12281,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://www.juilliard.edu/event/187941/rush-hour-performance",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11531,7 +12294,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/lour/",
-   "notes": "Free Music at PAC NYC series"
+   "notes": "Free Music at PAC NYC series",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11543,7 +12307,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.ensemblestudiotheatre.org/show-details/memberfest-sasha-diamond",
-   "notes": "Venue address not stated on page; format (reading/showcase) not stated"
+   "notes": "Venue address not stated on page; format (reading/showcase) not stated",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11555,7 +12320,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11567,7 +12333,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11579,7 +12346,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11592,6 +12360,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -11606,7 +12375,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21739/21740",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11618,7 +12388,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": "Among the first two performances (CheapTix, $25 seats per the page legend)"
+   "notes": "Among the first two performances (CheapTix, $25 seats per the page legend)",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11630,7 +12401,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Thanksgiving week schedule"
+   "notes": "Thanksgiving week schedule",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11642,7 +12414,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11654,7 +12427,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11666,7 +12440,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz / vocal",
    "url": "https://jazzgallery.org/calendar/becca-stevens-nov-23-24-2026",
-   "notes": "Two sets: 7pm and 9pm; free for members"
+   "notes": "Two sets: 7pm and 9pm; free for members",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11678,7 +12453,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/10/5/epiphora",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11690,7 +12466,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11703,6 +12480,7 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
    "notes": "individual performance dates and times not stated, so only the opening date is listed; Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -11717,7 +12495,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/la-boheme/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11729,7 +12508,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
-   "notes": "Ticketed; closed captioning"
+   "notes": "Ticketed; closed captioning",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11741,7 +12521,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11753,7 +12534,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21739/21741",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11765,7 +12547,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "open mic / variety",
    "url": "https://tickets.frigid.nyc/event/6897:24",
-   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket"
+   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket",
+   "free": false
   },
   {
    "date": "2026-11-24",
@@ -11777,7 +12560,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "film music tribute",
    "url": "https://newmusicusa.org/events/tribute-to-ennio-morricone-sound-espressivo-candlelight-gala-concert-2/",
-   "notes": "Start time not stated on page"
+   "notes": "Start time not stated on page",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11789,7 +12573,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11801,7 +12586,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11814,6 +12600,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -11829,6 +12616,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -11843,7 +12631,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Thanksgiving week schedule (Wednesday matinee)"
+   "notes": "Thanksgiving week schedule (Wednesday matinee)",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11855,7 +12644,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11867,7 +12657,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11879,7 +12670,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11891,7 +12683,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25306",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11903,7 +12696,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/kate-douglas/",
-   "notes": "Free Music at PAC NYC series"
+   "notes": "Free Music at PAC NYC series",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11915,7 +12709,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11927,7 +12722,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11939,7 +12735,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11951,7 +12748,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21742/21744",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11963,7 +12761,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": "Among the first two performances (CheapTix, $25 seats per the page legend)"
+   "notes": "Among the first two performances (CheapTix, $25 seats per the page legend)",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11975,7 +12774,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -11987,7 +12787,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -12000,6 +12801,7 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
    "notes": "individual performance dates and times not stated, so only the opening date is listed; Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -12015,6 +12817,7 @@ window.EVENTS = {
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
    "notes": "also listed by New York Philharmonic",
+   "free": false,
    "also": [
     "New York Philharmonic"
    ]
@@ -12029,7 +12832,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
-   "notes": "Ticketed; closed captioning"
+   "notes": "Ticketed; closed captioning",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -12041,7 +12845,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-25",
@@ -12054,6 +12859,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -12069,6 +12875,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -12083,7 +12890,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21742/21745",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-26",
@@ -12095,7 +12903,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25307",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-26",
@@ -12108,6 +12917,7 @@ window.EVENTS = {
    "genre": "jazz / New Orleans",
    "url": "https://ticketing.jazz.org/21897/",
    "notes": "Dizzy's lists nightly sets at 7 PM and 9 PM; 7 PM set; also listed by Lincoln Center for the Performing Arts",
+   "free": false,
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
@@ -12122,7 +12932,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz / New Orleans",
    "url": "https://ticketing.jazz.org/21897/",
-   "notes": "9 PM set per Dizzy's general nightly schedule"
+   "notes": "9 PM set per Dizzy's general nightly schedule",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12135,6 +12946,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -12150,6 +12962,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -12164,7 +12977,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
-   "notes": "For ages 7 and up"
+   "notes": "For ages 7 and up",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12176,7 +12990,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12188,7 +13003,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25308",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12200,7 +13016,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic play with music",
    "url": "https://www.classicstage.org/lefty/",
-   "notes": "only this date and the Nov 28 matinee are listed on the page as best availability, full schedule not shown"
+   "notes": "only this date and the Nov 28 matinee are listed on the page as best availability, full schedule not shown",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12212,7 +13029,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12224,7 +13042,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12236,7 +13055,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12248,7 +13068,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12260,7 +13081,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21746/21747",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12272,7 +13094,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
-   "notes": "For ages 7 and up"
+   "notes": "For ages 7 and up",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12284,7 +13107,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12296,7 +13120,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "DJ set",
    "url": "https://pacnyc.org/whats-on/dj-tali/",
-   "notes": "Free Music at PAC NYC series"
+   "notes": "Free Music at PAC NYC series",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12308,7 +13133,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Thanksgiving week schedule"
+   "notes": "Thanksgiving week schedule",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12320,7 +13146,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12332,7 +13159,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12344,7 +13172,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12356,7 +13185,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/joe-martin-nov-27-28-2026",
-   "notes": "Two sets: 7pm and 9pm"
+   "notes": "Two sets: 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12369,6 +13199,7 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
    "notes": "individual performance dates and times not stated, so only the opening date is listed; Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -12384,6 +13215,7 @@ window.EVENTS = {
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
    "notes": "also listed by The Metropolitan Opera",
+   "free": false,
    "also": [
     "The Metropolitan Opera"
    ]
@@ -12399,6 +13231,7 @@ window.EVENTS = {
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
    "notes": "also listed by New York Philharmonic",
+   "free": false,
    "also": [
     "New York Philharmonic"
    ]
@@ -12413,7 +13246,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12425,7 +13259,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "country / tribute",
    "url": "https://www.viewcy.com/event/hanksgiving_2027",
-   "notes": "Doors 7:30pm; Pumpkin pie after the show"
+   "notes": "Doors 7:30pm; Pumpkin pie after the show",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12438,6 +13273,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -12453,6 +13289,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -12468,6 +13305,7 @@ window.EVENTS = {
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
    "notes": "also listed by New York City Ballet",
+   "free": false,
    "also": [
     "New York City Ballet"
    ]
@@ -12482,7 +13320,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://oslmusic.org/calendar/2026/11/27/vissi-darte-gala-concert-8pm/",
-   "notes": "Page URL refers to a 'gala concert'; page lists public tickets via Carnegie Hall"
+   "notes": "Page URL refers to a 'gala concert'; page lists public tickets via Carnegie Hall",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12494,7 +13333,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
-   "notes": "Ticketed; closed captioning"
+   "notes": "Ticketed; closed captioning",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12506,7 +13346,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21746/21748",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12518,7 +13359,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry",
    "url": "https://lamama.org/mirrored-pool/",
-   "notes": "Puppet Festival 2026. Run Nov 27-29; only first date listed. No time given."
+   "notes": "Puppet Festival 2026. Run Nov 27-29; only first date listed. No time given.",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12530,7 +13372,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry works in progress",
    "url": "https://lamama.org/jump-start-2026/",
-   "notes": "Puppet Festival 2026. Run Nov 27-29; only first date listed. No time given."
+   "notes": "Puppet Festival 2026. Run Nov 27-29; only first date listed. No time given.",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12542,7 +13385,8 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "poetry slam",
    "url": "https://www.nuyorican.org/slam",
-   "notes": "Held on the last Friday of each month; only next occurrence listed. Start time not stated."
+   "notes": "Held on the last Friday of each month; only next occurrence listed. Start time not stated.",
+   "free": false
   },
   {
    "date": "2026-11-27",
@@ -12554,7 +13398,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "open mic",
    "url": "https://www.nuyorican.org/openmics",
-   "notes": "Last Friday of every month, right after Final Friday Slam; only next occurrence listed. Start time not stated; venue inferred from the Final Friday Slam it follows."
+   "notes": "Last Friday of every month, right after Final Friday Slam; only next occurrence listed. Start time not stated; venue inferred from the Final Friday Slam it follows.",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12567,6 +13412,7 @@ window.EVENTS = {
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
    "notes": "also listed by The Metropolitan Opera",
+   "free": false,
    "also": [
     "The Metropolitan Opera"
    ]
@@ -12582,6 +13428,7 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
    "notes": "individual performance dates and times not stated, so only the opening date is listed; Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -12596,7 +13443,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic play with music",
    "url": "https://www.classicstage.org/lefty/",
-   "notes": "Matinee; full schedule not shown on page"
+   "notes": "Matinee; full schedule not shown on page",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12608,7 +13456,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12620,7 +13469,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12633,6 +13483,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -12648,6 +13499,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -12663,6 +13515,7 @@ window.EVENTS = {
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
    "notes": "also listed by New York City Ballet",
+   "free": false,
    "also": [
     "New York City Ballet"
    ]
@@ -12677,7 +13530,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
-   "notes": "For ages 7 and up"
+   "notes": "For ages 7 and up",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12689,7 +13543,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
-   "notes": "Ticketed; limited tickets; closed captioning"
+   "notes": "Ticketed; limited tickets; closed captioning",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12701,7 +13556,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Thanksgiving week schedule"
+   "notes": "Thanksgiving week schedule",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12713,7 +13569,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12725,7 +13582,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12737,7 +13595,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12749,7 +13608,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12761,7 +13621,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12773,7 +13634,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12785,7 +13647,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/horacio-martinez/",
-   "notes": "Free Music at PAC NYC series"
+   "notes": "Free Music at PAC NYC series",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12797,7 +13660,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12809,7 +13673,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25309",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12821,7 +13686,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12833,7 +13699,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12845,7 +13712,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12857,7 +13725,8 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "poetry",
    "url": "https://www.lehmancenter.org/events/poetry-me-please",
-   "notes": "Format (poetry performance) inferred from title"
+   "notes": "Format (poetry performance) inferred from title",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12869,7 +13738,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21746/21749",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12881,7 +13751,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
-   "notes": "For ages 7 and up"
+   "notes": "For ages 7 and up",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12893,7 +13764,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12905,7 +13777,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/horacio-martinez/",
-   "notes": "Free Music at PAC NYC series"
+   "notes": "Free Music at PAC NYC series",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12917,7 +13790,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Thanksgiving week schedule"
+   "notes": "Thanksgiving week schedule",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12929,7 +13803,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12941,7 +13816,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12953,7 +13829,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12965,7 +13842,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/joe-martin-nov-27-28-2026",
-   "notes": "Two sets: 7pm and 9pm"
+   "notes": "Two sets: 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12977,7 +13855,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -12990,6 +13869,7 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
    "notes": "individual performance dates and times not stated, so only the opening date is listed; Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -13005,6 +13885,7 @@ window.EVENTS = {
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/2627/rouvali-conducts-schubert",
    "notes": "also listed by New York Philharmonic",
+   "free": false,
    "also": [
     "New York Philharmonic"
    ]
@@ -13019,7 +13900,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -13031,7 +13913,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "folk / western swing / early jazz",
    "url": "https://www.viewcy.com/event/jim_kweskins_a_song",
-   "notes": "Doors 7:30pm; Tickets $25"
+   "notes": "Doors 7:30pm; Tickets $25",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -13043,7 +13926,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/la-boheme/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -13056,6 +13940,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -13071,6 +13956,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -13086,6 +13972,7 @@ window.EVENTS = {
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
    "notes": "also listed by New York City Ballet",
+   "free": false,
    "also": [
     "New York City Ballet"
    ]
@@ -13100,7 +13987,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
-   "notes": "Ticketed; closed captioning"
+   "notes": "Ticketed; closed captioning",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -13112,7 +14000,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -13124,7 +14013,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21746/21750",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -13136,7 +14026,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play / Chinese opera-influenced",
    "url": "https://art-newyork.org/events/the-chou/",
-   "notes": "produced by New York Chinese Opera Society."
+   "notes": "produced by New York Chinese Opera Society.",
+   "free": false
   },
   {
    "date": "2026-11-28",
@@ -13148,7 +14039,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.playwrightshorizons.org/shows/production-history/2020s/2627/hole",
-   "notes": "Page says only 'Starts November 28'. No showtimes or end date given, so only the start date is listed. The date label's association with this show is inferred from the page layout.; from previous update"
+   "notes": "Page says only 'Starts November 28'. No showtimes or end date given, so only the start date is listed. The date label's association with this show is inferred from the page layout.; from previous update",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13160,7 +14052,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
-   "notes": "For ages 7 and up"
+   "notes": "For ages 7 and up",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13173,6 +14066,7 @@ window.EVENTS = {
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
    "notes": "also listed by New York City Ballet",
+   "free": false,
    "also": [
     "New York City Ballet"
    ]
@@ -13187,7 +14081,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
-   "notes": "Ticketed; closed captioning"
+   "notes": "Ticketed; closed captioning",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13199,7 +14094,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13211,7 +14107,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Thanksgiving week schedule"
+   "notes": "Thanksgiving week schedule",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13223,7 +14120,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13235,7 +14133,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13247,7 +14146,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary ballet",
    "url": "https://www.joyce.org/performances/complexions-contemporary-ballet-zb34",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13259,7 +14159,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play with music",
    "url": "https://vineyardtheatre.org/shows/msblakkforpresident/",
-   "notes": "haze and flashing lights"
+   "notes": "haze and flashing lights",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13272,6 +14173,7 @@ window.EVENTS = {
    "genre": "new play",
    "url": "https://www.bam.org/theater/2026/la-distance",
    "notes": "individual performance dates and times not stated, so only the opening date is listed; Next Wave 2026; also listed by L'Alliance New York",
+   "free": false,
    "also": [
     "L'Alliance New York"
    ]
@@ -13286,7 +14188,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13298,7 +14201,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13311,6 +14215,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -13326,6 +14231,7 @@ window.EVENTS = {
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
    "notes": "also listed by Lincoln Center Theater",
+   "free": false,
    "also": [
     "Lincoln Center Theater"
    ]
@@ -13340,7 +14246,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/natalie-tenenbaum/",
-   "notes": "Free Music at PAC NYC series"
+   "notes": "Free Music at PAC NYC series",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13352,7 +14259,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13364,7 +14272,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family holiday show",
    "url": "https://www.lehmancenter.org/events/charlie-brown-live",
-   "notes": "Family show"
+   "notes": "Family show",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13376,7 +14285,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "extreme action / circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-do-not-try-this-at-home",
-   "notes": "For ages 7 and up"
+   "notes": "For ages 7 and up",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13388,7 +14298,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13400,7 +14311,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13412,7 +14324,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21746/21751",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13425,6 +14338,7 @@ window.EVENTS = {
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
    "notes": "also listed by New York City Ballet",
+   "free": false,
    "also": [
     "New York City Ballet"
    ]
@@ -13439,7 +14353,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary",
    "url": "https://newmusicusa.org/events/composers-concordance-presents-low-blow/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13451,7 +14366,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25310",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13463,7 +14379,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://pacnyc.org/whats-on/natalie-tenenbaum/",
-   "notes": "Free Music at PAC NYC series"
+   "notes": "Free Music at PAC NYC series",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13475,7 +14392,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13487,7 +14405,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday play",
    "url": "https://pacnyc.org/whats-on/a-christmas-carol-2026/",
-   "notes": "Ticketed; closed captioning"
+   "notes": "Ticketed; closed captioning",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13499,7 +14418,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21746/21752",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13511,7 +14431,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13523,7 +14444,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-29",
@@ -13535,7 +14457,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play / Chinese opera-influenced",
    "url": "https://art-newyork.org/events/the-chou/",
-   "notes": "produced by New York Chinese Opera Society."
+   "notes": "produced by New York Chinese Opera Society.",
+   "free": false
   },
   {
    "date": "2026-11-30",
@@ -13547,7 +14470,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Afro Latin jazz",
    "url": "https://www.afrolatinjazz.org/events/fat-cat-open-house-jam",
-   "notes": "Open rehearsal and jam; free, RSVPs encouraged, walk-ins welcome; Page lists 7:00 PM as the end time"
+   "notes": "Open rehearsal and jam; free, RSVPs encouraged, walk-ins welcome; Page lists 7:00 PM as the end time",
+   "free": false
   },
   {
    "date": "2026-11-30",
@@ -13559,7 +14483,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25311",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-11-30",
@@ -13571,7 +14496,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21753/21754",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-30",
@@ -13583,7 +14509,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "experimental dance / works-in-progress",
    "url": "",
-   "notes": "Listed on the full calendar only; no detail page or artist lineup available in the text"
+   "notes": "Listed on the full calendar only; no detail page or artist lineup available in the text",
+   "free": false
   },
   {
    "date": "2026-11-30",
@@ -13595,7 +14522,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=9201",
-   "notes": "Advance tickets include one drink; door tickets do not"
+   "notes": "Advance tickets include one drink; door tickets do not",
+   "free": false
   },
   {
    "date": "2026-11-30",
@@ -13607,7 +14535,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play reading",
    "url": "https://www.thebushwickstarr.org/starr-reading-series",
-   "notes": "Free admission; tickets available at the door; Venue not stated explicitly for the readings; address taken from the organization's contact info"
+   "notes": "Free admission; tickets available at the door; Venue not stated explicitly for the readings; address taken from the organization's contact info",
+   "free": false
   },
   {
    "date": "2026-11-30",
@@ -13619,7 +14548,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "solo show",
    "url": "https://thetanknyc.org/calendar-1/stumblingstones",
-   "notes": "Listed 7:00 PM – 8:30 PM"
+   "notes": "Listed 7:00 PM – 8:30 PM",
+   "free": false
   },
   {
    "date": "2026-11-30",
@@ -13632,6 +14562,7 @@ window.EVENTS = {
    "genre": "opera",
    "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
    "notes": "also listed by The Metropolitan Opera",
+   "free": false,
    "also": [
     "The Metropolitan Opera"
    ]
@@ -13646,7 +14577,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary classical",
    "url": "https://www.juilliard.edu/event/190151/composition-concert",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-30",
@@ -13658,7 +14590,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "chamber",
    "url": "https://newmusicusa.org/events/music-mondays-presents-ruckus-keir-gogwilt-violin-and-fiona-gillespie-vocals/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-30",
@@ -13670,7 +14603,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "musical theater songwriters",
    "url": "https://www.lct.org/shows/benj-pasek-and-justin-paul/",
-   "notes": "One night only; ticketed; Includes discussion alongside performances"
+   "notes": "One night only; ticketed; Includes discussion alongside performances",
+   "free": false
   },
   {
    "date": "2026-11-30",
@@ -13682,7 +14616,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://ticketing.jazz.org/21753/21755",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-30",
@@ -13694,7 +14629,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play reading",
    "url": "https://vineyardtheatre.org/shows/theroadtojerusalem/",
-   "notes": "Reading presented by Vineyard Theatre and Daryl Roth; directed by James Glossman. Start time not stated. Tickets for members from Oct 27, general public from Oct 29."
+   "notes": "Reading presented by Vineyard Theatre and Daryl Roth; directed by James Glossman. Start time not stated. Tickets for members from Oct 27, general public from Oct 29.",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13706,7 +14642,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "adaptation",
    "url": "https://repertorio.nyc/show/153/la-breve-y-maravillosa-vida-de-oscar-wao",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13718,7 +14655,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25312",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13730,7 +14668,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "piano recital",
    "url": "https://www.millertheatre.com/events/steven-beck-piano",
-   "notes": "Free; Pop-Up Concerts series"
+   "notes": "Free; Pop-Up Concerts series",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13742,7 +14681,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13754,7 +14694,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13766,7 +14707,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13778,7 +14720,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "work-in-progress showings",
    "url": "",
-   "notes": "Listed on the full calendar only; venue not stated (the Nov 17 edition was at The Bob)"
+   "notes": "Listed on the full calendar only; venue not stated (the Nov 17 edition was at The Bob)",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13790,7 +14733,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13802,7 +14746,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13814,7 +14759,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13826,7 +14772,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13838,7 +14785,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play reading",
    "url": "https://www.thebushwickstarr.org/starr-reading-series",
-   "notes": "Free admission; tickets available at the door; Venue not stated explicitly for the readings; address taken from the organization's contact info"
+   "notes": "Free admission; tickets available at the door; Venue not stated explicitly for the readings; address taken from the organization's contact info",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13850,7 +14798,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/circ",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13862,7 +14811,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical piano",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/beethoven-piano-sonatas-iii",
-   "notes": "New date added"
+   "notes": "New date added",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13874,7 +14824,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "new chamber opera",
    "url": "https://www.nationalsawdust.org/event/hannah-ishizaki-chiori-miyagawa-and-mark-campbell-a-thousand-generations",
-   "notes": "Opera is described as in progress"
+   "notes": "Opera is described as in progress",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13886,7 +14837,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13898,7 +14850,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary classical",
    "url": "https://www.taleaensemble.org/event-details/talea-synchronisms-ii",
-   "notes": "check the event page; NYC location not confirmed on this page"
+   "notes": "check the event page; NYC location not confirmed on this page",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13910,7 +14863,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "swing / holiday",
    "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13922,7 +14876,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "classical opera",
    "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
-   "notes": "start time not stated on page; other dates not listed"
+   "notes": "start time not stated on page; other dates not listed",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13934,7 +14889,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://roulette.org/event/amelia-heintzelman-how-dogs-play/",
-   "notes": "Tickets $25"
+   "notes": "Tickets $25",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13946,7 +14902,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "open mic / variety",
    "url": "https://tickets.frigid.nyc/event/6897:24",
-   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket"
+   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13958,7 +14915,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "interactive forum theater",
    "url": "https://pregonesprtt.org/doomscroll-2026-27/",
-   "notes": "Run listed as Dec 1–12, 2026; individual dates and times not stated, so only the first date is listed."
+   "notes": "Run listed as Dec 1–12, 2026; individual dates and times not stated, so only the first date is listed.",
+   "free": false
   },
   {
    "date": "2026-12-01",
@@ -13970,7 +14928,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.tdf.org/shows/23442/awake-and-sing/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -13982,7 +14941,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic play",
    "url": "https://repertorio.nyc/show/684/la-casa-de-bernarda-alba",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -13994,7 +14954,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14006,7 +14967,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14018,7 +14980,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14030,7 +14993,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14042,7 +15006,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14054,7 +15019,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14066,7 +15032,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25313",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14078,7 +15045,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12226",
-   "notes": "Billed as Opening Night Gala and Premiere Night"
+   "notes": "Billed as Opening Night Gala and Premiere Night",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14090,7 +15058,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://www.cprnyc.org/events/aruna-quartet-felt",
-   "notes": "Details taken from calendar listing only; ends 8:30 PM; Genre and description not stated"
+   "notes": "Details taken from calendar listing only; ends 8:30 PM; Genre and description not stated",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14102,7 +15071,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Preview performance (previews begin Dec 2; opening night Dec 6); Contains blood and themes of physical violence"
+   "notes": "Preview performance (previews begin Dec 2; opening night Dec 6); Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14114,7 +15084,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14126,7 +15097,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14138,7 +15110,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14150,7 +15123,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14162,7 +15136,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14174,7 +15149,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14186,7 +15162,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14198,7 +15175,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14210,7 +15188,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14222,7 +15201,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "staged reading",
    "url": "https://www.symphonyspace.org/events/at-play-his-girl-friday",
-   "notes": "Format (staged reading) inferred from the At Play series label; confirm with venue"
+   "notes": "Format (staged reading) inferred from the At Play series label; confirm with venue",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14234,7 +15214,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play reading",
    "url": "https://www.thebushwickstarr.org/starr-reading-series",
-   "notes": "Free admission; tickets available at the door; Venue not stated explicitly for the readings; address taken from the organization's contact info"
+   "notes": "Free admission; tickets available at the door; Venue not stated explicitly for the readings; address taken from the organization's contact info",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14246,7 +15227,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz / orchestra",
    "url": "https://jazzgallery.org/calendar/the-trap-music-orchestra-12-02",
-   "notes": "Two sets: 7pm and 9pm"
+   "notes": "Two sets: 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14258,7 +15240,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/circ",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14270,7 +15253,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry",
    "url": "https://thetanknyc.org/calendar-1/puppetsofwar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14282,7 +15266,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry",
    "url": "https://www.bam.org/theater/2026/human",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14294,7 +15279,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "vocal recital",
    "url": "https://www.carnegiehall.org/calendar/2026/12/02/karim-sulayman-tenor-tom-poster-piano-0730pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14306,7 +15292,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical piano",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/beethoven-piano-sonatas-iii",
-   "notes": "New date added"
+   "notes": "New date added",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14318,7 +15305,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "swing / holiday",
    "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14330,7 +15318,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classical tragedy",
    "url": "https://tfana.org/events/elektra-2026-11-10-730-pm",
-   "notes": "only dates listed on the calendar page are included"
+   "notes": "only dates listed on the calendar page are included",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14342,7 +15331,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "piano recital",
    "url": "https://www.carnegiehall.org/calendar/2026/12/02/helene-grimaud-piano-0800pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14354,7 +15344,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14366,7 +15357,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14378,7 +15370,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://thetanknyc.org/calendar-1/loosetooth",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14390,7 +15383,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "open mic / poetry",
    "url": "https://www.nuyorican.org/openmics",
-   "notes": "Held first Wednesday of every month; only next occurrence listed. $10 tickets; not livestreamed. Start time not stated."
+   "notes": "Held first Wednesday of every month; only next occurrence listed. $10 tickets; not livestreamed. Start time not stated.",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14403,6 +15397,7 @@ window.EVENTS = {
    "genre": "contemporary dance",
    "url": "https://www.tdf.org/shows/23267/alvin-ailey-american-dance-theater/",
    "notes": "also listed by New York City Center",
+   "free": false,
    "also": [
     "New York City Center"
    ]
@@ -14417,7 +15412,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "solo show",
    "url": "https://www.tdf.org/shows/23564/anthony-devito-jersey-boy/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-02",
@@ -14429,7 +15425,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday",
    "url": "https://www.tdf.org/shows/23508/the-very-gay-christmas-prince/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14441,7 +15438,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14453,7 +15451,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25314",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14465,7 +15464,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Haitian rasin / Vodou jazz",
    "url": "https://haiticulturalx.org/event/mizik-ayiti-residency-late-fall-series-bonga-sanba-kebyesou-danle/",
-   "notes": "Doors at 6 PM; 45-minute sets at 6:30 and a second set at 7:45; Tickets include a complimentary beverage; limited capacity, RSVP recommended"
+   "notes": "Doors at 6 PM; 45-minute sets at 6:30 and a second set at 7:45; Tickets include a complimentary beverage; limited capacity, RSVP recommended",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14477,7 +15477,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary classical cello",
    "url": "https://bangonacan.org/events/bang-at-a-can-at-the-jewish-museum/",
-   "notes": "Held in conjunction with the exhibition Sacred Splendor"
+   "notes": "Held in conjunction with the exhibition Sacred Splendor",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14489,7 +15490,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Preview performance; Contains blood and themes of physical violence"
+   "notes": "Preview performance; Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14501,7 +15503,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14513,7 +15516,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "folk / singer-songwriter",
    "url": "https://irishartscenter.org/event/big-city-folk-song-club-fall-2026-spring-2027",
-   "notes": "Free; reservations strongly encouraged; Page lists 7:00pm–10:00pm"
+   "notes": "Free; reservations strongly encouraged; Page lists 7:00pm–10:00pm",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14525,7 +15529,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "GreenSeats Night"
+   "notes": "GreenSeats Night",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14537,7 +15542,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14549,7 +15555,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14561,7 +15568,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "",
    "url": "https://kupferbergcenter.org/event/sensations/",
-   "notes": "dates expanded from Dec 3-6 range"
+   "notes": "dates expanded from Dec 3-6 range",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14573,7 +15581,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "ensemble theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; in French and Vietnamese with English surtitles; about 3h20; Page says 'Show All Times', so more dates may exist"
+   "notes": "Crossing The Line festival; US premiere; in French and Vietnamese with English surtitles; about 3h20; Page says 'Show All Times', so more dates may exist",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14585,7 +15594,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14597,7 +15607,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14609,7 +15620,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14621,7 +15633,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14633,7 +15646,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14645,7 +15659,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14657,7 +15672,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "performance",
    "url": "https://chocolatefactorytheater.org/findlay-sandsmark-2026/",
-   "notes": "Tickets $15-275"
+   "notes": "Tickets $15-275",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14669,7 +15685,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "big band jazz",
    "url": "https://jazzgallery.org/calendar/rhbb-dec-2026",
-   "notes": "Two sets: 7pm and 9pm"
+   "notes": "Two sets: 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14681,7 +15698,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/12/3/the-game",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14693,7 +15711,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new short plays",
    "url": "https://thetanknyc.org/calendar-1/serialsdec",
-   "notes": "Listed Dec 3 – Dec 5, 2026"
+   "notes": "Listed Dec 3 – Dec 5, 2026",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14705,7 +15724,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12326",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14717,7 +15737,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry",
    "url": "https://www.bam.org/theater/2026/human",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14729,7 +15750,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "early music",
    "url": "https://www.millertheatre.com/events/tallis-scholars-hail-mary",
-   "notes": "Tickets starting at $55; Early Music series"
+   "notes": "Tickets starting at $55; Early Music series",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14741,7 +15763,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://newyorklivearts.org/event/zvidance-presents-an-evening-of-two-works/",
-   "notes": "Listed as Dec 3-5"
+   "notes": "Listed as Dec 3-5",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14753,7 +15776,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14765,7 +15789,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "swing / holiday",
    "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14777,7 +15802,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical / crossover",
    "url": "https://www.carnegiehall.org/calendar/2026/12/03/renee-fleming-with-bela-fleck-0800pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14789,7 +15815,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "devised mask/bouffon theater",
    "url": "https://events.humanitix.com/the-8th",
-   "notes": "Presented by notAmuse Theater; 8-9pm"
+   "notes": "Presented by notAmuse Theater; 8-9pm",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14801,7 +15828,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance / dance-theater",
    "url": "https://www.triskelionarts.org/fall-2026-performances/split-bill-49",
-   "notes": "General admission"
+   "notes": "General admission",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14813,7 +15841,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/circ",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14825,7 +15854,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "shadow puppetry",
    "url": "https://lamama.org/husks-from-iran/",
-   "notes": "Puppet Festival 2026. Run Dec 3-6; only first date listed. No time given."
+   "notes": "Puppet Festival 2026. Run Dec 3-6; only first date listed. No time given.",
+   "free": false
   },
   {
    "date": "2026-12-03",
@@ -14837,7 +15867,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "object theatre",
    "url": "https://lamama.org/en-mer-avec-louise-bourgeois/",
-   "notes": "Puppet Festival 2026. Run Dec 3-6; only first date listed. No time given."
+   "notes": "Puppet Festival 2026. Run Dec 3-6; only first date listed. No time given.",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -14849,7 +15880,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -14861,7 +15893,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25315",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -14873,7 +15906,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "traditional Irish session",
    "url": "https://irishartscenter.org/event/traditional-irish-sessions-fall-2026-spring-2027",
-   "notes": "Free; Slow session 6pm–7:30pm"
+   "notes": "Free; Slow session 6pm–7:30pm",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -14885,7 +15919,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.92ny.org/event/doug-varone-and-dancers",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -14897,7 +15932,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance / performance",
    "url": "https://www.cprnyc.org/events/fallmovement-2026-dec-4",
-   "notes": "Details taken from listing only; ends 9:00 PM; Discipline inferred from series name Fall Movement"
+   "notes": "Details taken from listing only; ends 9:00 PM; Discipline inferred from series name Fall Movement",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -14909,7 +15945,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Preview performance; Contains blood and themes of physical violence"
+   "notes": "Preview performance; Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -14921,7 +15958,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://gibneydance.org/event/studio-works-we-are-doing-great/",
-   "notes": "RSVP required; listed 7:00–8:30 PM; Venue address not stated"
+   "notes": "RSVP required; listed 7:00–8:30 PM; Venue address not stated",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -14933,7 +15971,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -14945,7 +15984,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -14957,7 +15997,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -14969,7 +16010,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -14982,6 +16024,7 @@ window.EVENTS = {
    "genre": "ballet",
    "url": "https://kupferbergcenter.org/event/nutcracker/",
    "notes": "Specific hall not stated; also listed by New York Theatre Ballet",
+   "free": false,
    "also": [
     "New York Theatre Ballet"
    ]
@@ -14996,7 +16039,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "",
    "url": "https://kupferbergcenter.org/event/sensations/",
-   "notes": "dates expanded from Dec 3-6 range"
+   "notes": "dates expanded from Dec 3-6 range",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15008,7 +16052,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "ensemble theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; in French and Vietnamese with English surtitles; about 3h20; Page says 'Show All Times', so more dates may exist"
+   "notes": "Crossing The Line festival; US premiere; in French and Vietnamese with English surtitles; about 3h20; Page says 'Show All Times', so more dates may exist",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15020,7 +16065,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15032,7 +16078,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15044,7 +16091,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary chamber",
    "url": "https://newmusicusa.org/events/composers-concordance-presents-string-quartet-2/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15056,7 +16104,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15068,7 +16117,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "variety / performance",
    "url": "https://performancespacenewyork.org/shows/holiday-party-art-workers/",
-   "notes": "includes holiday party"
+   "notes": "includes holiday party",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15080,7 +16130,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15092,7 +16143,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15104,7 +16156,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15116,7 +16169,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Puerto Rican holiday music",
    "url": "https://app.arts-people.com/index.php?show=342336",
-   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission; Featuring Brenda Feliciano, Diana López, Bryan J; Cortés"
+   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission; Featuring Brenda Feliciano, Diana López, Bryan J; Cortés",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15128,7 +16182,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15140,7 +16195,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "performance",
    "url": "https://chocolatefactorytheater.org/findlay-sandsmark-2026/",
-   "notes": "Tickets $15-275"
+   "notes": "Tickets $15-275",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15152,7 +16208,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.theclementecenter.org/calendar/nobodys-coming-or-what-your-friends-without-kids-worry-about-at-night",
-   "notes": "Listed as Dec 4 to Dec 6"
+   "notes": "Listed as Dec 4 to Dec 6",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15164,7 +16221,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/simon-moullier-dec-4",
-   "notes": "Two sets: 7pm and 9pm; also Dec 5; free for members"
+   "notes": "Two sets: 7pm and 9pm; also Dec 5; free for members",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15176,7 +16234,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://thetanknyc.org/calendar-1/loosetooth",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15188,7 +16247,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12426",
-   "notes": "Premiere Night; All New Works"
+   "notes": "Premiere Night; All New Works",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15200,7 +16260,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry",
    "url": "https://www.bam.org/theater/2026/human",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15212,7 +16273,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "theater / music / film",
    "url": "https://www.bam.org/theater/2026/minor-music",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15224,7 +16286,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://www.kaufmanmusiccenter.org/mch/event/parlando-cowboy-nations",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15236,7 +16299,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/andeacutel-y-ella-261",
-   "notes": "Details from listing on another page"
+   "notes": "Details from listing on another page",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15248,7 +16312,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://newmusicusa.org/events/from-the-sea-to-the-stars-sounds-of-the-world/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15260,7 +16325,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://newyorklivearts.org/event/zvidance-presents-an-evening-of-two-works/",
-   "notes": "Listed as Dec 3-5"
+   "notes": "Listed as Dec 3-5",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15272,7 +16338,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "swing / holiday",
    "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15284,7 +16351,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "classical opera",
    "url": "https://www.metopera.org/season/2026-27-season/jenufa/",
-   "notes": "start time not stated on page; other dates not listed"
+   "notes": "start time not stated on page; other dates not listed",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15296,7 +16364,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "devised mask/bouffon theater",
    "url": "https://events.humanitix.com/the-8th",
-   "notes": "Presented by notAmuse Theater; 8-9pm"
+   "notes": "Presented by notAmuse Theater; 8-9pm",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15308,7 +16377,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "traditional Irish session",
    "url": "https://irishartscenter.org/event/traditional-irish-sessions-fall-2026-spring-2027",
-   "notes": "Free; Traditional session 8pm–11pm"
+   "notes": "Free; Traditional session 8pm–11pm",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15320,7 +16390,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15332,7 +16403,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance / dance-theater",
    "url": "https://www.triskelionarts.org/fall-2026-performances/split-bill-49",
-   "notes": "General admission"
+   "notes": "General admission",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15344,7 +16416,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/circ",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15356,7 +16429,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new short plays",
    "url": "https://thetanknyc.org/calendar-1/serialsdec",
-   "notes": "Listed Dec 3 – Dec 5, 2026"
+   "notes": "Listed Dec 3 – Dec 5, 2026",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15368,7 +16442,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "Caribbean Christmas concert and Jonkanoo parade",
    "url": "https://www.braataproductions.org/upcoming-events/christmas-grand-market-2026-queens",
-   "notes": "Family event; ticketed; start time not stated on page. Includes market with 10+ vendors."
+   "notes": "Family event; ticketed; start time not stated on page. Includes market with 10+ vendors.",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15380,7 +16455,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://lamama.org/to-the-playground/",
-   "notes": "Run Dec 4-20, 2026; only first date listed since showtimes are not stated. No time given."
+   "notes": "Run Dec 4-20, 2026; only first date listed since showtimes are not stated. No time given.",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15392,7 +16468,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary percussion",
    "url": "https://www.armoryonpark.org/season-events/2026-season/recital-series/steven-schick-tyshawn-sorey/",
-   "notes": "Page lists Dec 4–5, 2026; showtimes not stated. Tickets $85 including fees. World premiere."
+   "notes": "Page lists Dec 4–5, 2026; showtimes not stated. Tickets $85 including fees. World premiere.",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15404,7 +16481,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://pregonesprtt.org/maybe-next-time-2026-27/",
-   "notes": "Run listed as Dec 4–20, 2026; individual dates and times not stated, so only the first date is listed."
+   "notes": "Run listed as Dec 4–20, 2026; individual dates and times not stated, so only the first date is listed.",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15416,7 +16494,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "staged reading",
    "url": "https://pregonesprtt.org/the-tragedy-of-macbeth-2026-27/",
-   "notes": "Showtime not stated."
+   "notes": "Showtime not stated.",
+   "free": false
   },
   {
    "date": "2026-12-04",
@@ -15428,7 +16507,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "staged readings",
    "url": "",
-   "notes": "Festival runs Dec 4-6, 2026; listed as 'Coming Soon'. Showtimes, venue and individual readings not stated on page."
+   "notes": "Festival runs Dec 4-6, 2026; listed as 'Coming Soon'. Showtimes, venue and individual readings not stated on page.",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15440,7 +16520,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15452,7 +16533,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family concert",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": "Relaxed performance; pre-concert activities at 11:00 a.m"
+   "notes": "Relaxed performance; pre-concert activities at 11:00 a.m",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15464,7 +16546,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "classical opera",
    "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
-   "notes": "start time not stated on page; other dates not listed"
+   "notes": "start time not stated on page; other dates not listed",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15477,6 +16560,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -15491,7 +16575,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12526-mat",
-   "notes": "Family Matinee; post-performance Q&A"
+   "notes": "Family Matinee; post-performance Q&A",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15503,7 +16588,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry",
    "url": "https://www.bam.org/theater/2026/human",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15515,7 +16601,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family classical",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/family-programs/26-27/inspector-pulse-in-a-good-mode",
-   "notes": "Family concert for ages 7+"
+   "notes": "Family concert for ages 7+",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15527,7 +16614,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15539,7 +16627,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15551,7 +16640,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15563,7 +16653,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15575,7 +16666,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15587,7 +16679,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://newyorklivearts.org/event/zvidance-presents-an-evening-of-two-works/",
-   "notes": "Listed as Dec 3-5"
+   "notes": "Listed as Dec 3-5",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15599,7 +16692,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15611,7 +16705,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15623,7 +16718,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15635,7 +16731,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15647,7 +16744,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Puerto Rican holiday music",
    "url": "https://app.arts-people.com/index.php?show=342336",
-   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission; Subsidized $10 tickets for Saturday performances with code ACCESS"
+   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission; Subsidized $10 tickets for Saturday performances with code ACCESS",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15659,7 +16757,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15671,7 +16770,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "swing / holiday",
    "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15684,6 +16784,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -15698,7 +16799,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family concert",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": "Relaxed performance; pre-concert activities at 2:00 p.m"
+   "notes": "Relaxed performance; pre-concert activities at 2:00 p.m",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15710,7 +16812,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/10/20/ontime",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15723,6 +16826,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -15737,7 +16841,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15749,7 +16854,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15761,7 +16867,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15773,7 +16880,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25316",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15785,7 +16893,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.92ny.org/event/doug-varone-and-dancers",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15797,7 +16906,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "klezmer",
    "url": "https://ctmd.org/events/6491/",
-   "notes": "Listed 7:00-9:00 pm; presented with the Sholem Aleichem Cultural Center"
+   "notes": "Listed 7:00-9:00 pm; presented with the Sholem Aleichem Cultural Center",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15809,7 +16919,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Preview performance; Contains blood and themes of physical violence"
+   "notes": "Preview performance; Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15821,7 +16932,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15833,7 +16945,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15845,7 +16958,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15857,7 +16971,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "",
    "url": "https://kupferbergcenter.org/event/sensations/",
-   "notes": "dates expanded from Dec 3-6 range"
+   "notes": "dates expanded from Dec 3-6 range",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15869,7 +16984,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "ensemble theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; in French and Vietnamese with English surtitles; about 3h20; Page says 'Show All Times', so more dates may exist"
+   "notes": "Crossing The Line festival; US premiere; in French and Vietnamese with English surtitles; about 3h20; Page says 'Show All Times', so more dates may exist",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15881,7 +16997,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "new music theater",
    "url": "https://www.maboumines.org/production/ghostwalks/",
-   "notes": "Free showing (work-in-progress); RSVP required via ticket page"
+   "notes": "Free showing (work-in-progress); RSVP required via ticket page",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15893,7 +17010,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15905,7 +17023,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://repertorio.nyc/show/1792/la-ternura",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15917,7 +17036,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15929,7 +17049,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15941,7 +17062,8 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "stand-up comedy",
    "url": "https://www.symphonyspace.org/events/gary-gulmans-all-i-want-for-hanukkah-is-christmas",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15953,7 +17075,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Puerto Rican holiday music",
    "url": "https://app.arts-people.com/index.php?show=342336",
-   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission; Subsidized $10 tickets for Saturday performances with code ACCESS"
+   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission; Subsidized $10 tickets for Saturday performances with code ACCESS",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15965,7 +17088,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15977,7 +17101,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "performance",
    "url": "https://chocolatefactorytheater.org/findlay-sandsmark-2026/",
-   "notes": "Tickets $15-275"
+   "notes": "Tickets $15-275",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -15989,7 +17114,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/simon-moullier-dec-4",
-   "notes": "Two sets: 7pm and 9pm; free for members"
+   "notes": "Two sets: 7pm and 9pm; free for members",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16001,7 +17127,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry",
    "url": "https://thetanknyc.org/calendar-1/puppetsofwar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16013,7 +17140,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/12/3/the-game",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16025,7 +17153,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12526-eve",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16037,7 +17166,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry",
    "url": "https://www.bam.org/theater/2026/human",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16049,7 +17179,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "theater / music / film",
    "url": "https://www.bam.org/theater/2026/minor-music",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16061,7 +17192,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.millertheatre.com/events/anthony-hervey-septet",
-   "notes": "Tickets starting at $25; Jazz series"
+   "notes": "Tickets starting at $25; Jazz series",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16073,7 +17205,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://newyorklivearts.org/event/zvidance-presents-an-evening-of-two-works/",
-   "notes": "Listed as Dec 3-5"
+   "notes": "Listed as Dec 3-5",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16085,7 +17218,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16097,7 +17231,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16109,7 +17244,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "swing / holiday",
    "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16122,6 +17258,7 @@ window.EVENTS = {
    "genre": "gospel / orchestral tribute",
    "url": "https://www.americancomposers.org/performances-events/a-night-of-inspiration",
    "notes": "Ticketed via Carnegie Hall; also listed by Carnegie Hall",
+   "free": false,
    "also": [
     "Carnegie Hall"
    ]
@@ -16136,7 +17273,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "devised mask/bouffon theater",
    "url": "https://events.humanitix.com/the-8th",
-   "notes": "Presented by notAmuse Theater; 8-9pm"
+   "notes": "Presented by notAmuse Theater; 8-9pm",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16148,7 +17286,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16160,7 +17299,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16172,7 +17312,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "early music / new music",
    "url": "https://www.nationalsawdust.org/event/handel-hendrix-with-dither-r-b-schlather-and-ruckus-12-5-26",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16184,7 +17325,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16196,7 +17338,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance / dance-theater",
    "url": "https://www.triskelionarts.org/fall-2026-performances/split-bill-49",
-   "notes": "General admission"
+   "notes": "General admission",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16208,7 +17351,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16220,7 +17364,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/circ",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16232,7 +17377,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new short plays",
    "url": "https://thetanknyc.org/calendar-1/serialsdec",
-   "notes": "Listed Dec 3 – Dec 5, 2026"
+   "notes": "Listed Dec 3 – Dec 5, 2026",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16245,6 +17391,7 @@ window.EVENTS = {
    "genre": "Native American music and dance",
    "url": "https://www.flushingtownhall.org/show-details/2026-native-american-market-social",
    "notes": "Market/social with performances; RSVP; time not stated on page.; also listed by Braata Productions",
+   "free": false,
    "also": [
     "Braata Productions"
    ]
@@ -16259,7 +17406,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "gospel / choral",
    "url": "https://web.ovationtix.com/trs/pe.c/11881366",
-   "notes": "Start time not stated on page; reservations via the linked page.; from previous update"
+   "notes": "Start time not stated on page; reservations via the linked page.; from previous update",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16271,7 +17419,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary percussion",
    "url": "https://www.armoryonpark.org/season-events/2026-season/recital-series/steven-schick-tyshawn-sorey/",
-   "notes": "Page lists Dec 4–5, 2026; showtimes not stated. Tickets $85 including fees. World premiere."
+   "notes": "Page lists Dec 4–5, 2026; showtimes not stated. Tickets $85 including fees. World premiere.",
+   "free": false
   },
   {
    "date": "2026-12-05",
@@ -16283,7 +17432,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "staged readings",
    "url": "",
-   "notes": "Festival runs Dec 4-6, 2026; listed as 'Coming Soon'. Showtimes, venue and individual readings not stated on page."
+   "notes": "Festival runs Dec 4-6, 2026; listed as 'Coming Soon'. Showtimes, venue and individual readings not stated on page.",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16295,7 +17445,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family jazz",
    "url": "https://jazz.org/concert/webop-family-jazz-party-a-holiday-jazz-jam/",
-   "notes": "Family event; general admission"
+   "notes": "Family event; general admission",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16308,6 +17459,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -16322,7 +17474,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16334,7 +17487,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family jazz",
    "url": "https://jazz.org/concert/webop-family-jazz-party-a-holiday-jazz-jam/",
-   "notes": "Family event; general admission"
+   "notes": "Family event; general admission",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16347,6 +17501,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -16361,7 +17516,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16373,7 +17529,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12626-mat",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16385,7 +17542,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical orchestra",
    "url": "https://www.carnegiehall.org/calendar/2026/12/06/chamber-orchestra-of-europe-0200pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16397,7 +17555,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16409,7 +17568,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16421,7 +17581,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Latine Community Performance with LatinX Playwrights Circle; post-show talkback"
+   "notes": "Latine Community Performance with LatinX Playwrights Circle; post-show talkback",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16433,7 +17594,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16445,7 +17607,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://2st.com/shows/the-visitors",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16457,7 +17620,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Puerto Rican holiday music",
    "url": "https://app.arts-people.com/index.php?show=342336",
-   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission"
+   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16469,7 +17633,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "swing / holiday",
    "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16482,6 +17647,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -16496,7 +17662,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "holiday jazz",
    "url": "https://www.viewcy.com/event/a_charlie_brown_chris_4",
-   "notes": "Family-friendly afternoon show; Doors 2:00pm; Musicians TBD"
+   "notes": "Family-friendly afternoon show; Doors 2:00pm; Musicians TBD",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16508,7 +17675,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family jazz",
    "url": "https://jazz.org/concert/webop-family-jazz-party-a-holiday-jazz-jam/",
-   "notes": "Family event; general admission"
+   "notes": "Family event; general admission",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16520,7 +17688,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "theater / music / film",
    "url": "https://www.bam.org/theater/2026/minor-music",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16532,7 +17701,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Opening night per the organization's page; Contains blood and themes of physical violence"
+   "notes": "Opening night per the organization's page; Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16544,7 +17714,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16556,7 +17727,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-hairy-ape",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16568,7 +17740,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical chamber",
    "url": "https://www.kaufmanmusiccenter.org/mch/event/ny-phil-ensembles-at-merkin-hall-12-6-26",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16580,7 +17753,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "",
    "url": "https://kupferbergcenter.org/event/sensations/",
-   "notes": "dates expanded from Dec 3-6 range"
+   "notes": "dates expanded from Dec 3-6 range",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16592,7 +17766,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16604,7 +17779,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16616,7 +17792,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "chamber music",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16628,7 +17805,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://repertorio.nyc/show/1792/la-ternura",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16640,7 +17818,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://thetanknyc.org/calendar-1/loosetooth",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16652,7 +17831,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16664,7 +17844,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16676,7 +17857,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "baroque",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/baroque-wind-concertos",
-   "notes": "Baroque Festival"
+   "notes": "Baroque Festival",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16688,7 +17870,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16700,7 +17883,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16712,7 +17896,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25317",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16724,7 +17909,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "holiday jazz",
    "url": "https://www.viewcy.com/event/a_charlie_brown_chris_5",
-   "notes": "Doors 6pm; Musicians TBD"
+   "notes": "Doors 6pm; Musicians TBD",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16736,7 +17922,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12626-eve",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16748,7 +17935,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16760,7 +17948,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/circ",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16772,7 +17961,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/10/20/ontime",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16784,7 +17974,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry",
    "url": "https://thewildproject.org/performances/wild-works-december-2026/",
-   "notes": "Tickets $24.50 including fees"
+   "notes": "Tickets $24.50 including fees",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16796,7 +17987,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "indie folk",
    "url": "https://www.nationalsawdust.org/event/lpr-presents-s-carey",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16808,7 +18000,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16820,7 +18013,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "devised mask/bouffon theater",
    "url": "https://events.humanitix.com/the-8th",
-   "notes": "Presented by notAmuse Theater; 8-9pm"
+   "notes": "Presented by notAmuse Theater; 8-9pm",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16832,7 +18026,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://newmusicusa.org/events/soup-sound-presents-loometone-x-marin-griffith/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16844,7 +18039,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://newmusicusa.org/events/laura-itandehui-3/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16856,7 +18052,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary Latin",
    "url": "https://www.worldmusicinstitute.org/laura-itandehui/",
-   "notes": "Doors 7 PM; Next Gen Series; Standing room only, 21+; Broadcast live on WKCR 89.9 FM; $25 advance / $35 day of show"
+   "notes": "Doors 7 PM; Next Gen Series; Standing room only, 21+; Broadcast live on WKCR 89.9 FM; $25 advance / $35 day of show",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16868,7 +18065,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.theclementecenter.org/calendar/nobodys-coming-or-what-your-friends-without-kids-worry-about-at-night",
-   "notes": "Listed as Dec 4 to Dec 6"
+   "notes": "Listed as Dec 4 to Dec 6",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16880,7 +18078,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "Caribbean Christmas concert and Jonkanoo parade",
    "url": "https://www.braataproductions.org/upcoming-events/christmas-grand-market-2026-bronx",
-   "notes": "Family event; ticketed; start time not stated on page. Includes market with 10+ vendors."
+   "notes": "Family event; ticketed; start time not stated on page. Includes market with 10+ vendors.",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16892,7 +18091,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Mexican folkloric dance",
    "url": "https://31175.danceticketing.com/r/4692/62834",
-   "notes": "Start time not stated on page; ticketed."
+   "notes": "Start time not stated on page; ticketed.",
+   "free": false
   },
   {
    "date": "2026-12-06",
@@ -16904,7 +18104,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "staged readings",
    "url": "",
-   "notes": "Festival runs Dec 4-6, 2026; listed as 'Coming Soon'. Showtimes, venue and individual readings not stated on page."
+   "notes": "Festival runs Dec 4-6, 2026; listed as 'Coming Soon'. Showtimes, venue and individual readings not stated on page.",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -16916,7 +18117,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25318",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -16928,7 +18130,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "staged reading / new play",
    "url": "https://www.lct.org/shows/the-reading-series/",
-   "notes": "Series described as free public readings with an open playwright conversation beforehand; RSVPs not yet open (interest list available)"
+   "notes": "Series described as free public readings with an open playwright conversation beforehand; RSVPs not yet open (interest list available)",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -16940,7 +18143,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "experimental dance",
    "url": "https://movementresearch.org/events/1474/",
-   "notes": "venue inferred from series title"
+   "notes": "venue inferred from series title",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -16952,7 +18156,8 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "literary reading",
    "url": "https://performancespacenewyork.org/shows/material/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -16964,7 +18169,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "staged reading",
    "url": "https://signaturetheatre.org/checkout/?dest=tickets&inst=8601",
-   "notes": "Benefit reading; venue room not stated on page"
+   "notes": "Benefit reading; venue room not stated on page",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -16976,7 +18182,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play reading",
    "url": "https://www.thebushwickstarr.org/starr-reading-series",
-   "notes": "Free admission; tickets available at the door; Venue not stated explicitly for the readings; address taken from the organization's contact info"
+   "notes": "Free admission; tickets available at the door; Venue not stated explicitly for the readings; address taken from the organization's contact info",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -16988,7 +18195,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/circ",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -17000,7 +18208,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/10/20/ontime",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -17012,7 +18221,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "short plays",
    "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "International Human Rights Art Festival; tickets $28.03 including fees"
+   "notes": "International Human Rights Art Festival; tickets $28.03 including fees",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -17024,7 +18234,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway / musical theater",
    "url": "https://www.kaufmanmusiccenter.org/mch/event/i-could-have-danced-all-night-broadway-in-the-50s",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -17036,7 +18247,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "vocal ensemble",
    "url": "https://newmusicusa.org/events/music-mondays-presents-cantus/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -17048,7 +18260,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "holiday / vocal",
    "url": "https://www.carnegiehall.org/calendar/2026/12/07/leslie-odom-jr-0800pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-07",
@@ -17060,7 +18273,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "vaudeville / holiday variety",
    "url": "https://www.viewcy.com/event/jay_braggs_christma",
-   "notes": "Doors 7:30pm; $20 advance / $25 day of show; Family-friendly"
+   "notes": "Doors 7:30pm; $20 advance / $25 day of show; Family-friendly",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17072,7 +18286,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "classical",
    "url": "https://oslmusic.org/calendar/2026/12/08/the-carnival-of-the-animals-10am/",
-   "notes": "Daytime show, likely a family/school concert"
+   "notes": "Daytime show, likely a family/school concert",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17084,7 +18299,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://repertorio.nyc/show/292/la-gringa",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17096,7 +18312,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "classical",
    "url": "https://oslmusic.org/calendar/2026/12/08/the-carnival-of-the-animals-2-11am/",
-   "notes": "Daytime show, likely a family/school concert"
+   "notes": "Daytime show, likely a family/school concert",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17108,7 +18325,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical recital",
    "url": "https://www.kaufmanmusiccenter.org/mch/event/william-suh-cello/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17120,7 +18338,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25319",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17132,7 +18351,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "variety / circus",
    "url": "https://bindlestiff.org/event/open-stage-variety-show-16/",
-   "notes": "$15 suggested donation; date taken from the page's list of upcoming shows; also streamed live online"
+   "notes": "$15 suggested donation; date taken from the page's list of upcoming shows; also streamed live online",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17144,7 +18364,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Contains blood and themes of physical violence"
+   "notes": "Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17156,7 +18377,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17168,7 +18390,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17180,7 +18403,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17192,7 +18416,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17204,7 +18429,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17216,7 +18442,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "durational performance art",
    "url": "https://www.armoryonpark.org/season-events/2026-season/balkan-erotic-epic/",
-   "notes": "Tickets from $85 including fees; North American premiere"
+   "notes": "Tickets from $85 including fees; North American premiere",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17228,7 +18455,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17240,7 +18468,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17252,7 +18481,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play reading",
    "url": "https://www.thebushwickstarr.org/starr-reading-series",
-   "notes": "Free admission; tickets available at the door; Venue not stated explicitly for the readings; address taken from the organization's contact info"
+   "notes": "Free admission; tickets available at the door; Venue not stated explicitly for the readings; address taken from the organization's contact info",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17264,7 +18494,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/12/3/the-game",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17276,7 +18507,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/10/20/ontime",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17288,7 +18520,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "human rights arts festival",
    "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "International Human Rights Art Festival; tickets $28.03 including fees"
+   "notes": "International Human Rights Art Festival; tickets $28.03 including fees",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17300,7 +18533,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12826",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17312,7 +18546,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "chamber",
    "url": "https://www.carnegiehall.org/calendar/2026/12/08/ariel-quartet-0730pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17324,7 +18559,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "baroque",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/baroque-wind-concertos",
-   "notes": "Baroque Festival"
+   "notes": "Baroque Festival",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17336,7 +18572,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary classical",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17348,7 +18585,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17360,7 +18598,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "classical opera",
    "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
-   "notes": "start time not stated on page; other dates not listed"
+   "notes": "start time not stated on page; other dates not listed",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17372,7 +18611,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "open mic / variety",
    "url": "https://tickets.frigid.nyc/event/6897:24",
-   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket"
+   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17384,7 +18624,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "dance theatre",
    "url": "https://thetanknyc.org/calendar-1/echo",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17396,7 +18637,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.tdf.org/shows/23267/alvin-ailey-american-dance-theater/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17408,7 +18650,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "solo show",
    "url": "https://www.tdf.org/shows/23564/anthony-devito-jersey-boy/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-08",
@@ -17420,7 +18663,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday",
    "url": "https://www.tdf.org/shows/23508/the-very-gay-christmas-prince/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17432,7 +18676,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "classical",
    "url": "https://oslmusic.org/calendar/2026/12/09/the-carnival-of-the-animals-3-10am/",
-   "notes": "Daytime show, likely a family/school concert"
+   "notes": "Daytime show, likely a family/school concert",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17444,7 +18689,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://repertorio.nyc/show/292/la-gringa",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17456,7 +18702,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "classical",
    "url": "https://oslmusic.org/calendar/2026/12/09/the-carnival-of-the-animals-6-11am/",
-   "notes": "Daytime show, likely a family/school concert"
+   "notes": "Daytime show, likely a family/school concert",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17468,7 +18715,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17480,7 +18728,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Matinee; Contains blood and themes of physical violence"
+   "notes": "Matinee; Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17492,7 +18741,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17504,7 +18754,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17516,7 +18767,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17528,7 +18780,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17540,7 +18793,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25320",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17552,7 +18806,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Contains blood and themes of physical violence"
+   "notes": "Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17564,7 +18819,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://entertainmentcommunity.org/events/lion-king-benefit-performance",
-   "notes": "Ticketed benefit performance; 30% of net proceeds benefit the Entertainment Community Fund"
+   "notes": "Ticketed benefit performance; 30% of net proceeds benefit the Entertainment Community Fund",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17576,7 +18832,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17588,7 +18845,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": "Sold out"
+   "notes": "Sold out",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17600,7 +18858,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17612,7 +18871,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17624,7 +18884,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17636,7 +18897,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical / choral",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17648,7 +18910,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17660,7 +18923,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "baroque",
    "url": "https://oslmusic.org/calendar/2026/12/09/a-venetian-christmas-7pm/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17672,7 +18936,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17684,7 +18949,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17696,7 +18962,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "live literary reading",
    "url": "https://www.symphonyspace.org/events/selected-shorts-objects-with-roz-chast",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17708,7 +18975,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play reading",
    "url": "https://www.thebushwickstarr.org/starr-reading-series",
-   "notes": "Free admission; tickets available at the door; Venue not stated explicitly for the readings; address taken from the organization's contact info"
+   "notes": "Free admission; tickets available at the door; Venue not stated explicitly for the readings; address taken from the organization's contact info",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17720,7 +18988,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/hannah-marks-dec-9-10-2026",
-   "notes": "Two sets: 7pm and 9pm; also Dec 10; free for members"
+   "notes": "Two sets: 7pm and 9pm; also Dec 10; free for members",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17732,7 +19001,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry",
    "url": "https://thetanknyc.org/calendar-1/puppetsofwar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17744,7 +19014,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/9/29/cherubspring",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17756,7 +19027,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "human rights arts festival",
    "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "International Human Rights Art Festival; tickets $28.03 including fees"
+   "notes": "International Human Rights Art Festival; tickets $28.03 including fees",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17768,7 +19040,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12926",
-   "notes": "All Ailey; Premiere Night"
+   "notes": "All Ailey; Premiere Night",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17780,7 +19053,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17792,7 +19066,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical choral holiday",
    "url": "https://www.voicesofascension.org/candlelight-christmas-concerts-2026",
-   "notes": "Concert will be recorded for future broadcast on WQXR 105.9 FM"
+   "notes": "Concert will be recorded for future broadcast on WQXR 105.9 FM",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17804,7 +19079,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17816,7 +19092,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "human rights arts festival",
    "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "International Human Rights Art Festival; tickets $28.03 including fees"
+   "notes": "International Human Rights Art Festival; tickets $28.03 including fees",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17828,7 +19105,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.flushingtownhall.org/show-details/monthly-jazz-jam-celebrating-jewish-composers-of-christmas-music-their-songs",
-   "notes": "Open jam, ticketed; time not stated on page."
+   "notes": "Open jam, ticketed; time not stated on page.",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17840,7 +19118,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "solo show",
    "url": "https://www.tdf.org/shows/23564/anthony-devito-jersey-boy/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17852,7 +19131,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://www.tdf.org/shows/23468/allegra-the-cello-in-movements/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17864,7 +19144,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday",
    "url": "https://www.tdf.org/shows/23508/the-very-gay-christmas-prince/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17876,7 +19157,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "clown / new work preview",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/deliadelia-the-flat-chested-witch-272",
-   "notes": "Free sneak peek; start time and specific venue within Lincoln Center not stated on the page."
+   "notes": "Free sneak peek; start time and specific venue within Lincoln Center not stated on the page.",
+   "free": false
   },
   {
    "date": "2026-12-09",
@@ -17888,7 +19170,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance concert",
    "url": "",
-   "notes": "Start time not stated on page; tickets $15-$65"
+   "notes": "Start time not stated on page; tickets $15-$65",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -17900,7 +19183,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "classical",
    "url": "https://oslmusic.org/calendar/2026/12/10/the-carnival-of-the-animals-4-10am/",
-   "notes": "Daytime show, likely a family/school concert"
+   "notes": "Daytime show, likely a family/school concert",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -17912,7 +19196,8 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "inclusive circus",
    "url": "https://omniumcircus.org/event/brooklyn-nyc-bam-howard-gilman-opera-house/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -17924,7 +19209,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classic adaptation",
    "url": "https://repertorio.nyc/show/293/el-quijote",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -17936,7 +19222,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "classical",
    "url": "https://oslmusic.org/calendar/2026/12/10/the-carnival-of-the-animals-5-11am/",
-   "notes": "Daytime show, likely a family/school concert"
+   "notes": "Daytime show, likely a family/school concert",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -17948,7 +19235,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -17960,7 +19248,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.ensemblestudiotheatre.org/show-details/first-light-things-we-burn-for-love-by-marcus-yi",
-   "notes": "RSVP required per page; venue address not stated; format not stated"
+   "notes": "RSVP required per page; venue address not stated; format not stated",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -17972,7 +19261,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25321",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -17984,7 +19274,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Haitian rasin / Vodou jazz",
    "url": "https://haiticulturalx.org/event/mizik-ayiti-residency-late-fall-series-bonga-sanba-kebyesou-danle/",
-   "notes": "Doors at 6 PM; 45-minute sets at 6:30 and a second set at 7:45; Tickets include a complimentary beverage; limited capacity, RSVP recommended"
+   "notes": "Doors at 6 PM; 45-minute sets at 6:30 and a second set at 7:45; Tickets include a complimentary beverage; limited capacity, RSVP recommended",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -17996,7 +19287,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Contains blood and themes of physical violence"
+   "notes": "Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18008,7 +19300,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18020,7 +19313,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18032,7 +19326,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18044,7 +19339,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.lehmancenter.org/events/swan-lake",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18056,7 +19352,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18068,7 +19365,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18080,7 +19378,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical / choral",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18092,7 +19391,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18104,7 +19404,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "durational performance art",
    "url": "https://www.armoryonpark.org/season-events/2026-season/balkan-erotic-epic/",
-   "notes": "Tickets from $85 including fees; North American premiere"
+   "notes": "Tickets from $85 including fees; North American premiere",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18116,7 +19417,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18128,7 +19430,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18140,7 +19443,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "hot jazz",
    "url": "https://www.symphonyspace.org/events/the-hot-sardines-holiday-stomp",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18152,7 +19456,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/hannah-marks-dec-9-10-2026",
-   "notes": "Two sets: 7pm and 9pm; free for members"
+   "notes": "Two sets: 7pm and 9pm; free for members",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18164,7 +19469,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "human rights arts festival",
    "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "International Human Rights Art Festival; tickets $28.03 including fees"
+   "notes": "International Human Rights Art Festival; tickets $28.03 including fees",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18176,7 +19482,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121026",
-   "notes": "Premiere Night"
+   "notes": "Premiere Night",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18188,7 +19495,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "blues / folk / roots",
    "url": "https://www.viewcy.com/event/jalopys_20th_anniver",
-   "notes": "Offsite show; Doors 7pm; Sliding scale from $25, suggested $35; Page does not state hall address or borough"
+   "notes": "Offsite show; Doors 7pm; Sliding scale from $25, suggested $35; Page does not state hall address or borough",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18200,7 +19508,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "new music / classical",
    "url": "https://www.nationalsawdust.org/event/hildegard-commission-concert-2026",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18212,7 +19521,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18224,7 +19534,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical choral holiday",
    "url": "https://www.voicesofascension.org/candlelight-christmas-concerts-2026",
-   "notes": "Concert will be recorded for future broadcast on WQXR 105.9 FM"
+   "notes": "Concert will be recorded for future broadcast on WQXR 105.9 FM",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18236,7 +19547,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.eventbrite.com/e/thursday-night-jazz-presents-tyreek-mcdole-tickets-1993490765543",
-   "notes": "Ticketed via Eventbrite; listed 8:00-9:30 pm"
+   "notes": "Ticketed via Eventbrite; listed 8:00-9:30 pm",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18248,7 +19560,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "human rights arts festival",
    "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "International Human Rights Art Festival; tickets $28.03 including fees"
+   "notes": "International Human Rights Art Festival; tickets $28.03 including fees",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18260,7 +19573,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "dance theatre",
    "url": "https://thetanknyc.org/calendar-1/echo",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18273,6 +19587,7 @@ window.EVENTS = {
    "genre": "new opera",
    "url": "https://lamama.org/allegra-the-cello-in-movements/",
    "notes": "Run Dec 10-20, 2026; only first date listed. No time given.; also listed by TDF",
+   "free": false,
    "also": [
     "TDF"
    ]
@@ -18287,7 +19602,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "radio play",
    "url": "https://nationalblacktheatre.org/production/home-going/",
-   "notes": "Run listed as Dec 10-13, 2026; no individual showtimes given, so only the first date is listed. Venue address not stated on the page."
+   "notes": "Run listed as Dec 10-13, 2026; no individual showtimes given, so only the first date is listed. Venue address not stated on the page.",
+   "free": false
   },
   {
    "date": "2026-12-10",
@@ -18300,6 +19616,7 @@ window.EVENTS = {
    "genre": "new work",
    "url": "https://newyorklivearts.org/event/condolence-or-a-rug-an-elf/",
    "notes": "Premiere run Dec 10–12, 2026; showtime not stated on page.; also listed by New York Live Arts",
+   "free": false,
    "also": [
     "New York Live Arts"
    ]
@@ -18314,7 +19631,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "dance concert",
    "url": "",
-   "notes": "Start time not stated on page; tickets $15-$65"
+   "notes": "Start time not stated on page; tickets $15-$65",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18326,7 +19644,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "puppetry and clowning",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/cosmo-114",
-   "notes": "Family-friendly; details from listing on another page"
+   "notes": "Family-friendly; details from listing on another page",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18338,7 +19657,8 @@ window.EVENTS = {
    "discipline": "Other",
    "genre": "inclusive circus",
    "url": "https://omniumcircus.org/event/brooklyn-nyc-bam-howard-gilman-opera-house/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18350,7 +19670,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25322",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18363,6 +19684,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -18377,7 +19699,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "",
-   "notes": "Designed for children/family audiences"
+   "notes": "Designed for children/family audiences",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18389,7 +19712,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "staged reading, Caribbean play",
    "url": "https://thebillieholidaytheatre.org/event/caribbean-theatre-festival-caribbean-calling-roots-resurgence-2/",
-   "notes": "Free with RSVP; Schedule lists 6 PM; the calendar header shows a 5:00 pm start for the festival"
+   "notes": "Free with RSVP; Schedule lists 6 PM; the calendar header shows a 5:00 pm start for the festival",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18401,7 +19725,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "talent show",
    "url": "https://www.abronsartscenter.org/programs/live-on-grand-an-les-talent-show2026",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18413,7 +19738,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.bam.org/holiday/2026/impossible",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18426,6 +19752,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -18440,7 +19767,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Contains blood and themes of physical violence"
+   "notes": "Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18452,7 +19780,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18464,7 +19793,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18476,7 +19806,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18488,7 +19819,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18500,7 +19832,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18512,7 +19845,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18524,7 +19858,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "durational performance art",
    "url": "https://www.armoryonpark.org/season-events/2026-season/balkan-erotic-epic/",
-   "notes": "Tickets from $85 including fees; North American premiere"
+   "notes": "Tickets from $85 including fees; North American premiere",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18536,7 +19871,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18548,7 +19884,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18560,7 +19897,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Puerto Rican holiday music",
    "url": "https://app.arts-people.com/index.php?show=342336",
-   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission"
+   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18572,7 +19910,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18584,7 +19923,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance/ritual performance",
    "url": "https://chocolatefactorytheater.org/devynn-emory-2026/",
-   "notes": "Tickets $15-275"
+   "notes": "Tickets $15-275",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18596,7 +19936,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "human rights arts festival",
    "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "Curated by Dakota Silvey; International Human Rights Art Festival; tickets $28.03 including fees"
+   "notes": "Curated by Dakota Silvey; International Human Rights Art Festival; tickets $28.03 including fees",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18608,7 +19949,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121126",
-   "notes": "Premiere Night"
+   "notes": "Premiere Night",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18620,7 +19962,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "baroque",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/bach-and-sons-passing-the-torch",
-   "notes": "Baroque Festival"
+   "notes": "Baroque Festival",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18632,7 +19975,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://danspaceproject.org/calendar/fw2026-bacon-wang/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18644,7 +19988,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Cuban son / timba",
    "url": "https://www.lincolncenter.org/series/lincoln-center-presents/candeacutesar-orozco-andamp-sonahead-733",
-   "notes": "¡VAYA! series; details from listing on another page"
+   "notes": "¡VAYA! series; details from listing on another page",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18656,7 +20001,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "new music / improvisation",
    "url": "https://www.nationalsawdust.org/event/inti-figgis-vizuetas-music-for-transitions-with-andrew-yee-and-rothko-string-quartet",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18668,7 +20014,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "holiday",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": "Artists and repertoire to be announced"
+   "notes": "Artists and repertoire to be announced",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18680,7 +20027,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18692,7 +20040,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "queer Latinx holiday play",
    "url": "https://www.eventbrite.com/e/los-nutcrackers-a-christmas-carajo-tickets-2003792759083?aff=ebdsoporgprofile",
-   "notes": "Listing shows 8:00 PM on Dec 11 'and 5 more' dates; Tickets from $5"
+   "notes": "Listing shows 8:00 PM on Dec 11 'and 5 more' dates; Tickets from $5",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18704,7 +20053,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary / experimental",
    "url": "https://iceorg.org/events/darmstadt-at-80",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18716,7 +20066,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary music",
    "url": "https://japansociety.org/events/white-stones/",
-   "notes": "World premiere; part of the TWO SOILS Series; followed by a private gathering for artists and members; ticket includes same-day gallery admission"
+   "notes": "World premiere; part of the TWO SOILS Series; followed by a private gathering for artists and members; ticket includes same-day gallery admission",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18728,7 +20079,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "choral",
    "url": "https://newmusicusa.org/events/young-new-yorkers-chorus-presents-holiday-modulations-2/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18740,7 +20092,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18752,7 +20105,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "human rights arts festival",
    "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "Curated by ArteEast; International Human Rights Art Festival; tickets $28.03 including fees"
+   "notes": "Curated by ArteEast; International Human Rights Art Festival; tickets $28.03 including fees",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18764,7 +20118,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "puppetry",
    "url": "https://thetanknyc.org/calendar-1/puppetsofwar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18776,7 +20131,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/9/29/cherubspring",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18788,7 +20144,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://art-newyork.org/events/montgomery/",
-   "notes": "Opening date of a run through Dec 19, 2026; page gives no individual showtimes, so only the first date is listed. Rental venue."
+   "notes": "Opening date of a run through Dec 19, 2026; page gives no individual showtimes, so only the first date is listed. Rental venue.",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18800,7 +20157,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Mexican dance",
    "url": "https://www.flushingtownhall.org/show-details/calpullis-navidad",
-   "notes": "Start time not stated on page."
+   "notes": "Start time not stated on page.",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18812,7 +20170,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "experimental operetta",
    "url": "https://lamama.org/country-convenience/",
-   "notes": "Presented as a workshop performance. Run Dec 11-13, 2026; only first date listed. No time given."
+   "notes": "Presented as a workshop performance. Run Dec 11-13, 2026; only first date listed. No time given.",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18824,7 +20183,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://baryshnikovarts.org/performance/toad-mountain/",
-   "notes": "Start time not stated on LMCC page; tickets via Baryshnikov Arts Center."
+   "notes": "Start time not stated on LMCC page; tickets via Baryshnikov Arts Center.",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18836,7 +20196,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "",
-   "notes": "Part of the Studio Series; start time not stated on page."
+   "notes": "Part of the Studio Series; start time not stated on page.",
+   "free": false
   },
   {
    "date": "2026-12-11",
@@ -18849,6 +20210,7 @@ window.EVENTS = {
    "genre": "new work",
    "url": "https://newyorklivearts.org/event/condolence-or-a-rug-an-elf/",
    "notes": "Premiere run Dec 10–12, 2026; showtime not stated on page.; also listed by New York Live Arts",
+   "free": false,
    "also": [
     "New York Live Arts"
    ]
@@ -18864,6 +20226,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -18878,7 +20241,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "",
-   "notes": "Designed for children/family audiences"
+   "notes": "Designed for children/family audiences",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -18890,7 +20254,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -18903,6 +20268,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -18917,7 +20283,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "",
-   "notes": "Designed for children/family audiences"
+   "notes": "Designed for children/family audiences",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -18929,7 +20296,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121226-mat",
-   "notes": "Family Matinee; post-performance Q&A"
+   "notes": "Family Matinee; post-performance Q&A",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -18942,6 +20310,7 @@ window.EVENTS = {
    "genre": "circus",
    "url": "https://www.bam.org/holiday/2026/impossible",
    "notes": "also listed by Omnium Circus",
+   "free": false,
    "also": [
     "Omnium Circus"
    ]
@@ -18956,7 +20325,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -18968,7 +20338,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Irish / holiday classical",
    "url": "https://irishrep.org/whats-on/emerald-strings-a-winter-journey",
-   "notes": "$40–$50; about 1 hr 30 min; tickets on sale Nov 10 at 1 PM"
+   "notes": "$40–$50; about 1 hr 30 min; tickets on sale Nov 10 at 1 PM",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -18980,7 +20351,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -18992,7 +20364,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19004,7 +20377,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19016,7 +20390,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "holiday",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": "Artists and repertoire to be announced"
+   "notes": "Artists and repertoire to be announced",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19028,7 +20403,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19040,7 +20416,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19052,7 +20429,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19064,7 +20442,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Puerto Rican holiday music",
    "url": "https://app.arts-people.com/index.php?show=342336",
-   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission; Subsidized $10 tickets for Saturday performances with code ACCESS"
+   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission; Subsidized $10 tickets for Saturday performances with code ACCESS",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19076,7 +20455,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19088,7 +20468,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance/ritual performance",
    "url": "https://chocolatefactorytheater.org/devynn-emory-2026/",
-   "notes": "Tickets $15-275"
+   "notes": "Tickets $15-275",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19101,6 +20482,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -19115,7 +20497,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "Sri Lankan traditional music and dance",
    "url": "https://ctmd.org/events/zayton-to-new-york-featuring-sri-lankan-artists/",
-   "notes": "Listed 3:00-4:30 pm"
+   "notes": "Listed 3:00-4:30 pm",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19127,7 +20510,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "human rights arts festival",
    "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "International Human Rights Art Festival; tickets $28.03 including fees"
+   "notes": "International Human Rights Art Festival; tickets $28.03 including fees",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19139,7 +20523,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "",
-   "notes": "Designed for children/family audiences; Followed by separate ticketed Land of the Sweets Party (meet dancers, crafts, treats)"
+   "notes": "Designed for children/family audiences; Followed by separate ticketed Land of the Sweets Party (meet dancers, crafts, treats)",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19151,7 +20536,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://atlantictheater.org/production/finn/",
-   "notes": "Atlantic for Kids"
+   "notes": "Atlantic for Kids",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19163,7 +20549,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19175,7 +20562,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride-sensory-friendly",
-   "notes": "For ages 5 and up; sensory-friendly, sign-interpreted, audio-described"
+   "notes": "For ages 5 and up; sensory-friendly, sign-interpreted, audio-described",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19187,7 +20575,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25323",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19199,7 +20588,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "talent show",
    "url": "https://www.abronsartscenter.org/programs/live-on-grand-an-les-talent-show2026",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19211,7 +20601,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.bam.org/holiday/2026/impossible",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19223,7 +20614,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19235,7 +20627,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19247,7 +20640,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Irish / holiday classical",
    "url": "https://irishrep.org/whats-on/emerald-strings-a-winter-journey",
-   "notes": "$40–$50; about 1 hr 30 min; tickets on sale Nov 10 at 1 PM"
+   "notes": "$40–$50; about 1 hr 30 min; tickets on sale Nov 10 at 1 PM",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19259,7 +20653,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19271,7 +20666,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "new music",
    "url": "https://newmusicusa.org/events/zero-summer-4/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19283,7 +20679,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical / choral",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19295,7 +20692,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "durational performance art",
    "url": "https://www.armoryonpark.org/season-events/2026-season/balkan-erotic-epic/",
-   "notes": "Tickets from $85 including fees; North American premiere"
+   "notes": "Tickets from $85 including fees; North American premiere",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19307,7 +20705,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19319,7 +20718,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://repertorio.nyc/show/1369/la-llamada",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19331,7 +20731,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19343,7 +20744,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Puerto Rican holiday music",
    "url": "https://app.arts-people.com/index.php?show=342336",
-   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission; Subsidized $10 tickets for Saturday performances with code ACCESS"
+   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission; Subsidized $10 tickets for Saturday performances with code ACCESS",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19355,7 +20757,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19367,7 +20770,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "staged readings, Caribbean plays",
    "url": "https://thebillieholidaytheatre.org/event/caribbean-theatre-festival-caribbean-calling-roots-resurgence-2/",
-   "notes": "$20 tickets; The evening ends with a panel conversation"
+   "notes": "$20 tickets; The evening ends with a panel conversation",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19379,7 +20783,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance/ritual performance",
    "url": "https://chocolatefactorytheater.org/devynn-emory-2026/",
-   "notes": "Tickets $15-275"
+   "notes": "Tickets $15-275",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19391,7 +20796,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "human rights arts festival",
    "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "Curated by Mick Szal; International Human Rights Art Festival; tickets $28.03 including fees"
+   "notes": "Curated by Mick Szal; International Human Rights Art Festival; tickets $28.03 including fees",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19403,7 +20809,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121226-eve",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19415,7 +20822,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://danspaceproject.org/calendar/fw2026-bacon-wang/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19427,7 +20835,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.nationalsawdust.org/event/caleb-wheeler-curtis-jason-moran-incantation-album-release-celebration",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19439,7 +20848,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19451,7 +20861,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19463,7 +20874,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "piano recital",
    "url": "https://www.carnegiehall.org/calendar/2026/12/12/daniil-trifonov-piano-0800pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19475,7 +20887,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "",
    "url": "https://issueprojectroom.org/event/joel-watson",
-   "notes": "Suzanne Fiol Curatorial Fellowship 2026; ticketed"
+   "notes": "Suzanne Fiol Curatorial Fellowship 2026; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19487,7 +20900,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19499,7 +20913,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19511,7 +20926,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "choral",
    "url": "https://newmusicusa.org/events/young-new-yorkers-chorus-presents-holiday-modulations-2/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19523,7 +20939,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19535,7 +20952,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "classical opera",
    "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
-   "notes": "start time not stated on page; other dates not listed"
+   "notes": "start time not stated on page; other dates not listed",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19547,7 +20965,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "dance theatre",
    "url": "https://thetanknyc.org/calendar-1/echo",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19559,7 +20978,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "holiday jazz/R&B",
    "url": "",
-   "notes": "Start time and venue address not stated on page; venue assumed to be the presenting organization's theatre."
+   "notes": "Start time and venue address not stated on page; venue assumed to be the presenting organization's theatre.",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19572,6 +20992,7 @@ window.EVENTS = {
    "genre": "Mexican music and dance",
    "url": "https://www.flushingtownhall.org/show-details/calpullis-navidad",
    "notes": "Family show; time not stated on page.; also listed by Calpulli Mexican Dance Company",
+   "free": false,
    "also": [
     "Calpulli Mexican Dance Company"
    ]
@@ -19586,7 +21007,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://baryshnikovarts.org/performance/toad-mountain/",
-   "notes": "Start time not stated on LMCC page; tickets via Baryshnikov Arts Center."
+   "notes": "Start time not stated on LMCC page; tickets via Baryshnikov Arts Center.",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19598,7 +21020,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "",
-   "notes": "Part of the Studio Series; start time not stated on page."
+   "notes": "Part of the Studio Series; start time not stated on page.",
+   "free": false
   },
   {
    "date": "2026-12-12",
@@ -19611,6 +21034,7 @@ window.EVENTS = {
    "genre": "new work",
    "url": "https://newyorklivearts.org/event/condolence-or-a-rug-an-elf/",
    "notes": "Premiere run Dec 10–12, 2026; showtime not stated on page.; also listed by New York Live Arts",
+   "free": false,
    "also": [
     "New York Live Arts"
    ]
@@ -19625,7 +21049,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://atlantictheater.org/production/finn/",
-   "notes": "Atlantic for Kids"
+   "notes": "Atlantic for Kids",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19638,6 +21063,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -19652,7 +21078,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "children's music",
    "url": "https://www.viewcy.com/event/princess_backpack__b_2",
-   "notes": "Family show; Doors 10:30am; $10 adv / $15 door / $35 family of four"
+   "notes": "Family show; Doors 10:30am; $10 adv / $15 door / $35 family of four",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19664,7 +21091,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "",
-   "notes": "Designed for children/family audiences"
+   "notes": "Designed for children/family audiences",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19676,7 +21104,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19689,6 +21118,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -19703,7 +21133,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19715,7 +21146,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "",
-   "notes": "Designed for children/family audiences"
+   "notes": "Designed for children/family audiences",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19727,7 +21159,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121326-mat",
-   "notes": "Page also lists a book signing for this date"
+   "notes": "Page also lists a book signing for this date",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19740,6 +21173,7 @@ window.EVENTS = {
    "genre": "circus",
    "url": "https://www.bam.org/holiday/2026/impossible",
    "notes": "also listed by Omnium Circus",
+   "free": false,
    "also": [
     "Omnium Circus"
    ]
@@ -19754,7 +21188,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19766,7 +21201,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical / choral",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19778,7 +21214,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19790,7 +21227,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19802,7 +21240,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Puerto Rican holiday music",
    "url": "https://app.arts-people.com/index.php?show=342336",
-   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission"
+   "notes": "Songs in Spanish, narration in English; about 1 hr 10 min, no intermission",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19814,7 +21253,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.joyce.org/performances/tao-dance-theater-jwfy",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19826,7 +21266,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical / holiday",
    "url": "https://www.theknightsnyc.com/performances-all/psc-dec-2026",
-   "notes": "Presented by People's Symphony Concerts; additional selections to be announced; Page lists 2:00-4:00 PM"
+   "notes": "Presented by People's Symphony Concerts; additional selections to be announced; Page lists 2:00-4:00 PM",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19839,6 +21280,7 @@ window.EVENTS = {
    "genre": "dance with live orchestra",
    "url": "https://www.danceheginbotham.org/events-1/2026/12/5-peter-and-the-wolf",
    "notes": "Family performance; presented by Works & Process at Guggenheim New York; also listed by Works & Process",
+   "free": false,
    "also": [
     "Works & Process"
    ]
@@ -19853,7 +21295,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Contains blood and themes of physical violence"
+   "notes": "Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19865,7 +21308,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-good-thief",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19877,7 +21321,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family theater",
    "url": "https://www.lehmancenter.org/events/magic-school-bus-live",
-   "notes": "Family show"
+   "notes": "Family show",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19889,7 +21334,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19901,7 +21347,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19913,7 +21360,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "durational performance art",
    "url": "https://www.armoryonpark.org/season-events/2026-season/balkan-erotic-epic/",
-   "notes": "Tickets from $85 including fees; North American premiere"
+   "notes": "Tickets from $85 including fees; North American premiere",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19925,7 +21373,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "musical",
    "url": "https://repertorio.nyc/show/1369/la-llamada",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19937,7 +21386,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "short performances",
    "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "International Human Rights Art Festival; tickets $28.03 including fees"
+   "notes": "International Human Rights Art Festival; tickets $28.03 including fees",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19949,7 +21399,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "",
-   "notes": "Designed for children/family audiences"
+   "notes": "Designed for children/family audiences",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19961,7 +21412,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://atlantictheater.org/production/finn/",
-   "notes": "Atlantic for Kids"
+   "notes": "Atlantic for Kids",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19973,7 +21425,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "flamenco",
    "url": "https://flamenco-vivo.org/event/en-comunidad-holiday-family-fiesta-dec-13/",
-   "notes": "Family event; sliding-scale pricing ($5–$50); pass holders can reserve"
+   "notes": "Family event; sliding-scale pricing ($5–$50); pass holders can reserve",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19985,7 +21438,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -19997,7 +21451,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical choral",
    "url": "https://kupferbergcenter.org/event/qccs-12132026/",
-   "notes": "Specific hall not stated"
+   "notes": "Specific hall not stated",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20009,7 +21464,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20021,7 +21477,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "baroque",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/the-brandenburg-concertos",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20033,7 +21490,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up; listed as sold out"
+   "notes": "For ages 5 and up; listed as sold out",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20045,7 +21503,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20057,7 +21516,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25324",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20069,7 +21529,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121326-eve",
-   "notes": "All Ailey"
+   "notes": "All Ailey",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20081,7 +21542,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20093,7 +21555,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "dance theatre",
    "url": "https://thetanknyc.org/calendar-1/echo",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20105,7 +21568,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://thetanknyc.org/calendar-1/2026/9/29/cherubspring",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20117,7 +21581,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical / holiday",
    "url": "",
-   "notes": "Tickets $30-$95"
+   "notes": "Tickets $30-$95",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20129,7 +21594,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "human rights arts festival",
    "url": "https://thewildproject.org/performances/international-human-rights-arts-festival/",
-   "notes": "Curated by BodyStories: Teresa Fellion; International Human Rights Art Festival; tickets $28.03 including fees"
+   "notes": "Curated by BodyStories: Teresa Fellion; International Human Rights Art Festival; tickets $28.03 including fees",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20141,7 +21607,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "drag / baroque",
    "url": "https://www.nationalsawdust.org/event/creatine-price-presents-the-drag-messiah-12-13-26",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20153,7 +21620,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "bluegrass",
    "url": "https://www.viewcy.com/event/michael_daves__jacob_2",
-   "notes": "Doors 7:30pm; Tickets $25"
+   "notes": "Doors 7:30pm; Tickets $25",
+   "free": false
   },
   {
    "date": "2026-12-13",
@@ -20165,7 +21633,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Mexican dance",
    "url": "https://elmuseo.org/event/navidad-by-calpulli-mexican-dance-company/",
-   "notes": "Start time not stated on page."
+   "notes": "Start time not stated on page.",
+   "free": false
   },
   {
    "date": "2026-12-14",
@@ -20177,7 +21646,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25325",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-14",
@@ -20189,7 +21659,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz jam",
    "url": "https://jmih.org/event/monday-night-jam-hosted-by-jfa-3/",
-   "notes": "Open jam"
+   "notes": "Open jam",
+   "free": false
   },
   {
    "date": "2026-12-14",
@@ -20201,7 +21672,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "concert musical",
    "url": "https://www.redbulltheater.com/out-of-this-world",
-   "notes": "Red Bull Theater's annual concert benefit; ticketed event that raises funds for the company"
+   "notes": "Red Bull Theater's annual concert benefit; ticketed event that raises funds for the company",
+   "free": false
   },
   {
    "date": "2026-12-14",
@@ -20213,7 +21685,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical chamber",
    "url": "https://www.kaufmanmusiccenter.org/mch/event/schuberts-death-and-the-maiden-quartet",
-   "notes": "Lecture-demonstration format with live quartet performance"
+   "notes": "Lecture-demonstration format with live quartet performance",
+   "free": false
   },
   {
    "date": "2026-12-14",
@@ -20225,7 +21698,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "drag / baroque",
    "url": "https://www.nationalsawdust.org/event/creatine-price-presents-the-drag-messiah-12-14-26",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-14",
@@ -20237,7 +21711,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical choral holiday",
    "url": "https://www.voicesofascension.org/candlelight-christmas-concerts-2026",
-   "notes": "Season graphic caption lists Dec 13 rather than Dec 15; main listing used"
+   "notes": "Season graphic caption lists Dec 13 rather than Dec 15; main listing used",
+   "free": false
   },
   {
    "date": "2026-12-14",
@@ -20249,7 +21724,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "piano recital",
    "url": "https://www.carnegiehall.org/calendar/2026/12/14/yunchan-lim-piano-0800pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-14",
@@ -20261,7 +21737,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "musical theater songwriters",
    "url": "https://www.lct.org/shows/benj-pasek-and-justin-paul/",
-   "notes": "Start time and on-sale details not yet announced on the page."
+   "notes": "Start time and on-sale details not yet announced on the page.",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20273,7 +21750,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "adaptation",
    "url": "https://repertorio.nyc/show/291/en-el-tiempo-de-las-mariposas",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20285,7 +21763,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25326",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20297,7 +21776,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "big band jazz / holiday",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20309,7 +21789,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20321,7 +21802,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20333,7 +21815,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20345,7 +21828,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20357,7 +21841,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "durational performance art",
    "url": "https://www.armoryonpark.org/season-events/2026-season/balkan-erotic-epic/",
-   "notes": "Tickets from $85 including fees; North American premiere"
+   "notes": "Tickets from $85 including fees; North American premiere",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20369,7 +21854,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20381,7 +21867,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20393,7 +21880,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "staged readings of new short plays",
    "url": "https://www.theworkingtheater.org/theaterworks2026",
-   "notes": "Reservation required but does not guarantee a seat; first-come, first-served seating, arrive 20 minutes early; Venue not stated on the page"
+   "notes": "Reservation required but does not guarantee a seat; first-come, first-served seating, arrive 20 minutes early; Venue not stated on the page",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20405,7 +21893,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121526",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20417,7 +21906,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "baroque",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/the-brandenburg-concertos",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20429,7 +21919,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical piano recital",
    "url": "https://www.kaufmanmusiccenter.org/mch/event/marc-andre-hamelin",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20441,7 +21932,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical / Baroque",
    "url": "https://www.mastervoices.org/events/celebratinghandel/",
-   "notes": "Tickets from $29; A separate benefit reception afterward is a fundraiser (not included)"
+   "notes": "Tickets from $29; A separate benefit reception afterward is a fundraiser (not included)",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20453,7 +21945,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "classical opera",
    "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
-   "notes": "start time not stated on page; other dates not listed"
+   "notes": "start time not stated on page; other dates not listed",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20465,7 +21958,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical choral holiday",
    "url": "https://www.voicesofascension.org/candlelight-christmas-concerts-2026",
-   "notes": "Season graphic caption lists Dec 13 rather than Dec 15; main listing used"
+   "notes": "Season graphic caption lists Dec 13 rather than Dec 15; main listing used",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20477,7 +21971,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "open mic / variety",
    "url": "https://tickets.frigid.nyc/event/6897:24",
-   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket"
+   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20489,7 +21984,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Mexican dance",
    "url": "https://elmuseo.org/event/navidad-by-calpulli-mexican-dance-company/",
-   "notes": "Start time not stated on page."
+   "notes": "Start time not stated on page.",
+   "free": false
   },
   {
    "date": "2026-12-15",
@@ -20502,6 +21998,7 @@ window.EVENTS = {
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
    "notes": "Page lists the run as Dec 15, 2026 – Jan 3, 2027 without individual dates or showtimes; only the opening date is listed. Check the Joyce page for the schedule.; also listed by The Joyce Theater",
+   "free": false,
    "also": [
     "The Joyce Theater"
    ]
@@ -20516,7 +22013,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://repertorio.nyc/show/292/la-gringa",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20528,7 +22026,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20540,7 +22039,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Matinee; Contains blood and themes of physical violence"
+   "notes": "Matinee; Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20552,7 +22052,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20564,7 +22065,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20576,7 +22078,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20588,7 +22091,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25327",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20600,7 +22104,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Contains blood and themes of physical violence"
+   "notes": "Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20612,7 +22117,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20624,7 +22130,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "big band jazz / holiday",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20636,7 +22143,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20648,7 +22156,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20660,7 +22169,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20672,7 +22182,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20684,7 +22195,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "chamber classical",
    "url": "https://oslmusic.org/calendar/2026/12/16/hildegard-von-bingen-and-sofia-gubaidulina-7pm/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20696,7 +22208,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "durational performance art",
    "url": "https://www.armoryonpark.org/season-events/2026-season/balkan-erotic-epic/",
-   "notes": "Tickets from $85 including fees; North American premiere"
+   "notes": "Tickets from $85 including fees; North American premiere",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20708,7 +22221,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20720,7 +22234,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20732,7 +22247,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/tyshaw-sorey-dec-16-19-2026",
-   "notes": "sets at 7pm and 9pm"
+   "notes": "sets at 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20744,7 +22260,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "contemporary",
    "url": "https://www.yarnwire.org/events/livefromtroutmandec",
-   "notes": "RSVP link opens 11/17; Venue not stated on the page; assumed NYC-based series, confirm location"
+   "notes": "RSVP link opens 11/17; Venue not stated on the page; assumed NYC-based series, confirm location",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20756,7 +22273,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121626",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20768,7 +22286,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "world music",
    "url": "https://www.nationalsawdust.org/event/national-sawdust-presents-silkroad-up-close-featuring-yacouba-sissoko-mike-block-duo-and-maeve-gilchrist-and-seamus-egan",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20780,7 +22299,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://orpheusnyc.org/tickets-and-concerts/anthony-mcgill",
-   "notes": "Tickets $48 - $105"
+   "notes": "Tickets $48 - $105",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20792,7 +22312,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20804,7 +22325,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20816,7 +22338,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "solo show",
    "url": "https://www.tdf.org/shows/23564/anthony-devito-jersey-boy/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20828,7 +22351,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://www.tdf.org/shows/23468/allegra-the-cello-in-movements/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-16",
@@ -20840,7 +22364,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "holiday",
    "url": "https://www.tdf.org/shows/23508/the-very-gay-christmas-prince/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20852,7 +22377,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://repertorio.nyc/show/292/la-gringa",
-   "notes": "Weekday morning performance"
+   "notes": "Weekday morning performance",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20864,7 +22390,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25328",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20876,7 +22403,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Contains blood and themes of physical violence"
+   "notes": "Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20888,7 +22416,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20900,7 +22429,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20912,7 +22442,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20924,7 +22455,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20936,7 +22468,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "interdisciplinary performance",
    "url": "https://www.maboumines.org/production/etudes/",
-   "notes": "Free showing (work-in-progress); RSVP required via ticket page"
+   "notes": "Free showing (work-in-progress); RSVP required via ticket page",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20948,7 +22481,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20960,7 +22494,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20972,7 +22507,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "durational performance art",
    "url": "https://www.armoryonpark.org/season-events/2026-season/balkan-erotic-epic/",
-   "notes": "Tickets from $85 including fees; North American premiere"
+   "notes": "Tickets from $85 including fees; North American premiere",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20984,7 +22520,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -20996,7 +22533,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -21008,7 +22546,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/tyshaw-sorey-dec-16-19-2026",
-   "notes": "sets at 7pm and 9pm"
+   "notes": "sets at 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -21020,7 +22559,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121726",
-   "notes": "All New Works"
+   "notes": "All New Works",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -21032,7 +22572,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "big band jazz / holiday",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -21044,7 +22585,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://www.kaufmanmusiccenter.org/mch/event/zachary-wilder-rob-mounsey/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -21056,7 +22598,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "choral, holiday",
    "url": "https://newmusicusa.org/events/classics-for-christmas-a-ceremony-of-carols/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -21068,7 +22611,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "film with live orchestra",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-17",
@@ -21080,7 +22624,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21092,7 +22637,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "pops / holiday",
    "url": "https://www.carnegiehall.org/calendar/2026/12/18/open-working-rehearsal-the-new-york-pops-0300pm",
-   "notes": "Open rehearsal, not a full concert"
+   "notes": "Open rehearsal, not a full concert",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21104,7 +22650,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25329",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21116,7 +22663,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Contains blood and themes of physical violence"
+   "notes": "Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21128,7 +22676,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21140,7 +22689,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-secret-diary-of-mrs-santa",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21152,7 +22702,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21164,7 +22715,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21176,7 +22728,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21188,7 +22741,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "new composition / Afro-Uruguayan",
    "url": "https://multiculturalmusic.org/upcomingevents/mariquita-and-encarnacion",
-   "notes": "Program also includes a panel discussion on Black Uruguay and the history of slavery in South America; Listed as 7:00 PM to 8:30 PM"
+   "notes": "Program also includes a panel discussion on Black Uruguay and the history of slavery in South America; Listed as 7:00 PM to 8:30 PM",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21200,7 +22754,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21212,7 +22767,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "durational performance art",
    "url": "https://www.armoryonpark.org/season-events/2026-season/balkan-erotic-epic/",
-   "notes": "Tickets from $85 including fees; North American premiere"
+   "notes": "Tickets from $85 including fees; North American premiere",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21224,7 +22780,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21236,7 +22793,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy",
    "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21248,7 +22806,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21260,7 +22819,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21272,7 +22832,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/tyshaw-sorey-dec-16-19-2026",
-   "notes": "sets at 7pm and 9pm"
+   "notes": "sets at 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21284,7 +22845,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121826",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21296,7 +22858,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "baroque",
    "url": "https://www.chambermusicsociety.org/our-concerts/at-lincoln-center/events/26-27/the-brandenburg-concertos",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21308,7 +22871,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://danspaceproject.org/calendar/fw2026-mapp-shick/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21320,7 +22884,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "big band jazz / holiday",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21332,7 +22897,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "",
    "url": "https://newyorklivearts.org/event/not-this-again/",
-   "notes": "Venue space not stated on the season page; no description on page"
+   "notes": "Venue space not stated on the season page; no description on page",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21344,7 +22910,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "film with live orchestra",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21356,7 +22923,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21368,7 +22936,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "classical opera",
    "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
-   "notes": "start time not stated on page; other dates not listed"
+   "notes": "start time not stated on page; other dates not listed",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21380,7 +22949,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "pops / holiday",
    "url": "https://www.carnegiehall.org/calendar/2026/12/18/the-new-york-pops-0800pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21392,7 +22962,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "salsa",
    "url": "https://kupferbergcenter.org/event/sho/",
-   "notes": "Specific hall not stated"
+   "notes": "Specific hall not stated",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21404,7 +22975,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21416,7 +22988,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.carnegiehall.org/calendar/2026/12/18/esperanza-spalding-0900pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21428,7 +23001,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Christmas cabaret",
    "url": "https://irishrep.org/whats-on/the-secret-diary-of-mrs-santa",
-   "notes": "Run is Dec 18–23, 2026; page does not list individual dates or showtimes, so only the first date is listed. $60–$125; tickets on sale Nov 10 at 1 PM."
+   "notes": "Run is Dec 18–23, 2026; page does not list individual dates or showtimes, so only the first date is listed. $60–$125; tickets on sale Nov 10 at 1 PM.",
+   "free": false
   },
   {
    "date": "2026-12-18",
@@ -21440,7 +23014,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "aerial / circus / dance / theater",
    "url": "https://www.streb.org/community/",
-   "notes": "Date from the 2026/27 performance dates list; start time and ticket link not stated on page."
+   "notes": "Date from the 2026/27 performance dates list; start time and ticket link not stated on page.",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21452,7 +23027,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://atlantictheater.org/production/finn/",
-   "notes": "Atlantic for Kids"
+   "notes": "Atlantic for Kids",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21464,7 +23040,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21476,7 +23053,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family rock concert",
    "url": "https://www.queenstheatre.org/events/the-great-holiday-rock-show-4mm3",
-   "notes": "Family/kids concert"
+   "notes": "Family/kids concert",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21488,7 +23066,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121926-mat",
-   "notes": "Family Matinee; post-performance Q&A"
+   "notes": "Family Matinee; post-performance Q&A",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21500,7 +23079,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Sri Lankan dance",
    "url": "https://ctmd.org/events/sri-lankan-dance-academy-of-nys-end-of-year-recital/",
-   "notes": "Listed 2:00-4:00 pm"
+   "notes": "Listed 2:00-4:00 pm",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21512,7 +23092,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-secret-diary-of-mrs-santa",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21524,7 +23105,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "big band jazz / holiday",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21536,7 +23118,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21548,7 +23131,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21560,7 +23144,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21572,7 +23157,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21584,7 +23170,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21596,7 +23183,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21608,7 +23196,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21620,7 +23209,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "well-being concert",
    "url": "https://www.carnegiehall.org/calendar/2026/12/19/conrad-tao-0230pm",
-   "notes": "Well-being concert; second show at 5 PM"
+   "notes": "Well-being concert; second show at 5 PM",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21632,7 +23222,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21644,7 +23235,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://atlantictheater.org/production/finn/",
-   "notes": "Atlantic for Kids"
+   "notes": "Atlantic for Kids",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21656,7 +23248,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21668,7 +23261,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family folk",
    "url": "https://www.viewcy.com/event/elizabeth_mitchell",
-   "notes": "Family concert; Doors 3:30pm; Kids $15, adults $25"
+   "notes": "Family concert; Doors 3:30pm; Kids $15, adults $25",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21680,7 +23274,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "well-being concert",
    "url": "https://www.carnegiehall.org/calendar/2026/12/19/conrad-tao-0500pm",
-   "notes": "Well-being concert; same day as 2:30 PM show"
+   "notes": "Well-being concert; same day as 2:30 PM show",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21692,7 +23287,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up; talk-back follows"
+   "notes": "For ages 5 and up; talk-back follows",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21704,7 +23300,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25330",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21716,7 +23313,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
-   "notes": "Closing night; Contains blood and themes of physical violence"
+   "notes": "Closing night; Contains blood and themes of physical violence",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21728,7 +23326,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "For adults; not created for children"
+   "notes": "For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21740,7 +23339,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-secret-diary-of-mrs-santa",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21752,7 +23352,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21764,7 +23365,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "durational performance art",
    "url": "https://www.armoryonpark.org/season-events/2026-season/balkan-erotic-epic/",
-   "notes": "Tickets from $85 including fees; North American premiere"
+   "notes": "Tickets from $85 including fees; North American premiere",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21776,7 +23378,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21788,7 +23391,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy",
    "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21800,7 +23404,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21812,7 +23417,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21824,7 +23430,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazzgallery.org/calendar/tyshaw-sorey-dec-16-19-2026",
-   "notes": "sets at 7pm and 9pm"
+   "notes": "sets at 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21836,7 +23443,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-121926-eve",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21848,7 +23456,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://danspaceproject.org/calendar/fw2026-mapp-shick/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21860,7 +23469,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "big band jazz / holiday",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21872,7 +23482,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "",
    "url": "https://newyorklivearts.org/event/not-this-again/",
-   "notes": "Venue space not stated on the season page; no description on page"
+   "notes": "Venue space not stated on the season page; no description on page",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21884,7 +23495,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "film with live orchestra",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21896,7 +23508,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21908,7 +23521,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21920,7 +23534,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "pops / holiday",
    "url": "https://www.carnegiehall.org/calendar/2026/12/19/the-new-york-pops-0800pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21932,7 +23547,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "experimental",
    "url": "https://issueprojectroom.org/event/leila-bordreuil-numinosum",
-   "notes": "Ticketed; season closer"
+   "notes": "Ticketed; season closer",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21944,7 +23560,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21956,7 +23573,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21968,7 +23586,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-19",
@@ -21980,7 +23599,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family variety",
    "url": "https://lamama.org/the-la-mama-familys-winter-wonderland-performance/",
-   "notes": "Family event for all ages. Time not stated."
+   "notes": "Family event for all ages. Time not stated.",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -21992,7 +23612,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://atlantictheater.org/production/finn/",
-   "notes": "Atlantic for Kids"
+   "notes": "Atlantic for Kids",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22004,7 +23625,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22016,7 +23638,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22028,7 +23651,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122026-mat",
-   "notes": "Page also lists a book signing for this date"
+   "notes": "Page also lists a book signing for this date",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22040,7 +23664,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "cabaret / puppetry",
    "url": "https://here.org/shows/arias-with-a-twist-2026/",
-   "notes": "Closing performance of the run; For adults; not created for children"
+   "notes": "Closing performance of the run; For adults; not created for children",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22052,7 +23677,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "big band jazz / holiday",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": "Sunday 2 PM concert is a relaxed performance"
+   "notes": "Sunday 2 PM concert is a relaxed performance",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22064,7 +23690,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "big band jazz / holiday",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22076,7 +23703,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
-   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse"
+   "notes": "Crossing The Line festival; US premiere; National Theatre of Strasbourg, presented by St; Ann's Warehouse",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22088,7 +23716,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "film with live orchestra",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22100,7 +23729,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22112,7 +23742,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.primarystages.org/fantasma",
-   "notes": "Closing performance"
+   "notes": "Closing performance",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22124,7 +23755,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22136,7 +23768,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22148,7 +23781,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22160,7 +23794,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "durational performance art",
    "url": "https://www.armoryonpark.org/season-events/2026-season/balkan-erotic-epic/",
-   "notes": "Tickets from $85 including fees; North American premiere"
+   "notes": "Tickets from $85 including fees; North American premiere",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22172,7 +23807,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy",
    "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22184,7 +23820,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22196,7 +23833,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://atlantictheater.org/production/finn/",
-   "notes": "Atlantic for Kids"
+   "notes": "Atlantic for Kids",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22208,7 +23846,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
-   "notes": "Closing performance; Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors"
+   "notes": "Closing performance; Fri 7 PM, Sat 2 & 7 PM, Sun 4 PM; Tickets $60, $55 students/seniors",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22220,7 +23859,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "well-being concert",
    "url": "https://www.carnegiehall.org/calendar/2026/12/20/joshua-roman-cello-camila-meza-vocals-and-guitar-zane-rodulfo-percussion-0500pm",
-   "notes": "Well-being concert"
+   "notes": "Well-being concert",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22232,7 +23872,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22244,7 +23885,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22256,7 +23898,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25331",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22268,7 +23911,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122026-eve",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22280,7 +23924,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.classicstage.org/penelope/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-20",
@@ -22292,7 +23937,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "big band jazz / holiday",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-21",
@@ -22304,7 +23950,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25332",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-21",
@@ -22316,7 +23963,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-21",
@@ -22328,7 +23976,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://www.cthnyc.org/now-playing/",
-   "notes": "One night only; seating limited; Evening also supports CTH's next chapter (benefit-style concert); Street address taken from the Red Rooster listing on the sponsor page"
+   "notes": "One night only; seating limited; Evening also supports CTH's next chapter (benefit-style concert); Street address taken from the Red Rooster listing on the sponsor page",
+   "free": false
   },
   {
    "date": "2026-12-21",
@@ -22340,7 +23989,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "holiday variety",
    "url": "https://lamama.org/christmas-in-nickyland-2026/",
-   "notes": "Dec 21-22; only first date listed. No time given."
+   "notes": "Dec 21-22; only first date listed. No time given.",
+   "free": false
   },
   {
    "date": "2026-12-22",
@@ -22352,7 +24002,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25333",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-22",
@@ -22364,7 +24015,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-22",
@@ -22376,7 +24028,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-22",
@@ -22388,7 +24041,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-22",
@@ -22400,7 +24054,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-22",
@@ -22412,7 +24067,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-22",
@@ -22424,7 +24080,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122226",
-   "notes": "All New Works"
+   "notes": "All New Works",
+   "free": false
   },
   {
    "date": "2026-12-22",
@@ -22436,7 +24093,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-22",
@@ -22448,7 +24106,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "open mic / variety",
    "url": "https://tickets.frigid.nyc/event/6897:24",
-   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket"
+   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket",
+   "free": false
   },
   {
    "date": "2026-12-22",
@@ -22460,7 +24119,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://www.playwrightshorizons.org/shows/production-history/2020s/2627/degenerates",
-   "notes": "Run listed as December 22 – Jan 24. Page gives no showtimes or specific performance days, so only the first date is listed.; from previous update"
+   "notes": "Run listed as December 22 – Jan 24. Page gives no showtimes or specific performance days, so only the first date is listed.; from previous update",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22472,7 +24132,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122326-mat",
-   "notes": "All Ailey"
+   "notes": "All Ailey",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22484,7 +24145,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "tap",
    "url": "https://www.dorrancedance.com/upcoming-shows/nyu-skirball",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22496,7 +24158,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22508,7 +24171,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22520,7 +24184,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22532,7 +24197,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22544,7 +24210,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22556,7 +24223,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22568,7 +24236,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25334",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22580,7 +24249,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-secret-diary-of-mrs-santa",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22592,7 +24262,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22604,7 +24275,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22616,7 +24288,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz / vocal",
    "url": "https://jazzgallery.org/calendar/theo-bleckmann-dec23-2026",
-   "notes": "Two sets: 7pm and 9pm"
+   "notes": "Two sets: 7pm and 9pm",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22628,7 +24301,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122326-eve",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22640,7 +24314,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22652,7 +24327,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22664,7 +24340,8 @@ window.EVENTS = {
    "discipline": "Opera",
    "genre": "classical opera",
    "url": "https://www.metopera.org/season/2026-27-season/samson-et-dalila/",
-   "notes": "start time not stated on page; other dates not listed"
+   "notes": "start time not stated on page; other dates not listed",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22676,7 +24353,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-23",
@@ -22688,7 +24366,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-24",
@@ -22700,7 +24379,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122426",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-24",
@@ -22712,7 +24392,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-24",
@@ -22724,7 +24405,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-24",
@@ -22736,7 +24418,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-24",
@@ -22748,7 +24431,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-24",
@@ -22760,7 +24444,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-24",
@@ -22772,7 +24457,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25335",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-24",
@@ -22784,7 +24470,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical orchestra",
    "url": "https://www.carnegiehall.org/calendar/2026/12/24/new-york-string-orchestra-0700pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-25",
@@ -22796,7 +24483,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25336",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22808,7 +24496,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22820,7 +24509,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122626-mat",
-   "notes": "Family Matinee; post-performance Q&A"
+   "notes": "Family Matinee; post-performance Q&A",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22832,7 +24522,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22844,7 +24535,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22856,7 +24548,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22868,7 +24561,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22880,7 +24574,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22892,7 +24587,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22904,7 +24600,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25337",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22916,7 +24613,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22928,7 +24626,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122626-eve",
-   "notes": "All New Works"
+   "notes": "All New Works",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22940,7 +24639,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22952,7 +24652,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22964,7 +24665,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22976,7 +24678,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -22988,7 +24691,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-26",
@@ -23000,7 +24704,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "Yiddish culture festival",
    "url": "https://ctmd.org/events/yiddish-new-york-13th-annual-festival/",
-   "notes": "Multi-day festival (Dec 26-31); start time and specific performance schedule not given on this page; festival may also include non-performance programs."
+   "notes": "Multi-day festival (Dec 26-31); start time and specific performance schedule not given on this page; festival may also include non-performance programs.",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23012,7 +24717,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23024,7 +24730,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23036,7 +24743,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122726-mat",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23048,7 +24756,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "tap",
    "url": "https://www.dorrancedance.com/upcoming-shows/nyu-skirball",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23060,7 +24769,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23072,7 +24782,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23084,7 +24795,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23096,7 +24808,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23108,7 +24821,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23120,7 +24834,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23132,7 +24847,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23144,7 +24860,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25338",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23156,7 +24873,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122726-eve",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23168,7 +24886,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23180,7 +24899,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-27",
@@ -23192,7 +24912,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-28",
@@ -23204,7 +24925,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-28",
@@ -23216,7 +24938,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25339",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-28",
@@ -23228,7 +24951,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-28",
@@ -23240,7 +24964,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-28",
@@ -23252,7 +24977,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical orchestra",
    "url": "https://www.carnegiehall.org/calendar/2026/12/28/new-york-string-orchestra-0800pm",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-29",
@@ -23264,7 +24990,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-29",
@@ -23276,7 +25003,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-29",
@@ -23288,7 +25016,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-29",
@@ -23300,7 +25029,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25340",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-29",
@@ -23312,7 +25042,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-29",
@@ -23324,7 +25055,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-29",
@@ -23336,7 +25068,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-29",
@@ -23348,7 +25081,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122926",
-   "notes": "All Ailey"
+   "notes": "All Ailey",
+   "free": false
   },
   {
    "date": "2026-12-29",
@@ -23360,7 +25094,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-29",
@@ -23372,7 +25107,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-29",
@@ -23384,7 +25120,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-29",
@@ -23396,7 +25133,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "open mic / variety",
    "url": "https://tickets.frigid.nyc/event/6897:24",
-   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket"
+   "notes": "Every Tuesday, Nov 10–Dec 29, 2026; Open mic with ticket",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23408,7 +25146,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23420,7 +25159,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-123026-mat",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23432,7 +25172,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23444,7 +25185,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23456,7 +25198,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23468,7 +25211,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23480,7 +25224,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23492,7 +25237,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23504,7 +25250,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25341",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23516,7 +25263,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23528,7 +25276,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23540,7 +25289,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-123026-eve",
-   "notes": "All New Works"
+   "notes": "All New Works",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23552,7 +25302,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23564,7 +25315,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23576,7 +25328,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play",
    "url": "https://www.lct.org/shows/a-few-good-men/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-30",
@@ -23588,7 +25341,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-31",
@@ -23600,7 +25354,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "revival / play",
    "url": "https://www.lct.org/shows/seven-guitars/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-31",
@@ -23612,7 +25367,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-123126",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-31",
@@ -23624,7 +25380,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-31",
@@ -23636,7 +25393,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-12-31",
@@ -23648,7 +25406,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25342",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2027-01-01",
@@ -23660,7 +25419,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2027-01-01",
@@ -23672,7 +25432,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2027-01-01",
@@ -23684,7 +25445,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25343",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2027-01-01",
@@ -23696,7 +25458,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23708,7 +25471,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23720,7 +25484,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-1227-mat",
-   "notes": "Family Matinee; post-performance Q&A"
+   "notes": "Family Matinee; post-performance Q&A",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23732,7 +25497,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": "Final scheduled Nutcracker dates per homepage (through Jan 2)"
+   "notes": "Final scheduled Nutcracker dates per homepage (through Jan 2)",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23744,7 +25510,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23756,7 +25523,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23768,7 +25536,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23780,7 +25549,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23792,7 +25562,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://atlantictheater.org/production/finn/",
-   "notes": "Atlantic for Kids"
+   "notes": "Atlantic for Kids",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23804,7 +25575,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23816,7 +25588,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25344",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23828,7 +25601,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23840,7 +25614,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-1227-eve",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23852,7 +25627,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": "Bell's New York Philharmonic conducting debut"
+   "notes": "Bell's New York Philharmonic conducting debut",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23864,7 +25640,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": "Closed-captioned performance"
+   "notes": "Closed-captioned performance",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23876,7 +25653,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-02",
@@ -23888,7 +25666,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -23900,7 +25679,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://atlantictheater.org/production/finn/",
-   "notes": "Atlantic for Kids"
+   "notes": "Atlantic for Kids",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -23912,7 +25692,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -23924,7 +25705,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/sensory-friendly-performance",
-   "notes": "Sensory-friendly performance"
+   "notes": "Sensory-friendly performance",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -23936,7 +25718,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-1327-mat",
-   "notes": "Page also lists a book signing for this date"
+   "notes": "Page also lists a book signing for this date",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -23948,7 +25731,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": "Bell's New York Philharmonic conducting debut"
+   "notes": "Bell's New York Philharmonic conducting debut",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -23960,7 +25744,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": "Closed-captioned performance"
+   "notes": "Closed-captioned performance",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -23972,7 +25757,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -23984,7 +25770,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -23996,7 +25783,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "family musical",
    "url": "https://atlantictheater.org/production/finn/",
-   "notes": "Atlantic for Kids"
+   "notes": "Atlantic for Kids",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -24008,7 +25796,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "circus",
    "url": "https://www.newvictory.org/events/2627-live-performance-tilt-an-80s-circus-thrill-ride",
-   "notes": "For ages 5 and up"
+   "notes": "For ages 5 and up",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -24020,7 +25809,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25345",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -24032,7 +25822,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-1327-eve",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -24044,7 +25835,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway play revival",
    "url": "https://entertainmentcommunity.org/events/other-desert-cities-special-benefit-performance",
-   "notes": "Ticketed benefit performance; 100% of net proceeds benefit the Entertainment Community Fund"
+   "notes": "Ticketed benefit performance; 100% of net proceeds benefit the Entertainment Community Fund",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -24056,7 +25848,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-03",
@@ -24068,7 +25861,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-04",
@@ -24080,7 +25874,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25346",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2027-01-05",
@@ -24092,7 +25887,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25347",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2027-01-05",
@@ -24104,7 +25900,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-05",
@@ -24116,7 +25913,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-05",
@@ -24128,7 +25926,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Latin dance and music",
    "url": "https://www.joyce.org/performances/sekou-mcmiller-and-friends-7z58",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-05",
@@ -24140,7 +25939,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://criterionticketing.com/mix-and-master/01-05-2027--8pm",
-   "notes": "First listed date of the run (Jan 5 – Feb 28, 2027); tickets from $49"
+   "notes": "First listed date of the run (Jan 5 – Feb 28, 2027); tickets from $49",
+   "free": false
   },
   {
    "date": "2027-01-06",
@@ -24152,7 +25952,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-06",
@@ -24164,7 +25965,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25348",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2027-01-06",
@@ -24176,7 +25978,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-06",
@@ -24188,7 +25991,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-06",
@@ -24200,7 +26004,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Latin dance and music",
    "url": "https://www.joyce.org/performances/sekou-mcmiller-and-friends-7z58",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-06",
@@ -24212,7 +26017,8 @@ window.EVENTS = {
    "discipline": "Family/Education",
    "genre": "Puerto Rican holiday festival",
    "url": "https://teatrosea.org/three-kings-day/",
-   "notes": "Time and venue not stated on this page."
+   "notes": "Time and venue not stated on this page.",
+   "free": false
   },
   {
    "date": "2027-01-07",
@@ -24224,7 +26030,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25349",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2027-01-07",
@@ -24236,7 +26043,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-07",
@@ -24248,7 +26056,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-07",
@@ -24260,7 +26069,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazz.org/concert/wynton-marsalis-quintet/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-07",
@@ -24272,7 +26082,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Latin dance and music",
    "url": "https://www.joyce.org/performances/sekou-mcmiller-and-friends-7z58",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-07",
@@ -24284,7 +26095,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://art-newyork.org/events/the-unraveling/",
-   "notes": "Opening date of a run through Jan 24, 2027; page gives no individual showtimes, so only the first date is listed. Rental venue."
+   "notes": "Opening date of a run through Jan 24, 2027; page gives no individual showtimes, so only the first date is listed. Rental venue.",
+   "free": false
   },
   {
    "date": "2027-01-07",
@@ -24296,7 +26108,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://www.tdf.org/shows/23442/awake-and-sing/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-08",
@@ -24308,7 +26121,8 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25350",
-   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed"
+   "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed",
+   "free": false
   },
   {
    "date": "2027-01-08",
@@ -24320,7 +26134,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new musical",
    "url": "https://www.nytw.org/show/wild-rose/",
-   "notes": "ASL-interpreted performance"
+   "notes": "ASL-interpreted performance",
+   "free": false
   },
   {
    "date": "2027-01-08",
@@ -24332,7 +26147,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "comedy",
    "url": "https://repertorio.nyc/show/2273/parejas-disparejas",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-08",
@@ -24344,7 +26160,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-08",
@@ -24356,7 +26173,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jazz.org/concert/wynton-marsalis-quintet/",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-08",
@@ -24368,7 +26186,8 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical",
    "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-08",
@@ -24380,7 +26199,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "queer contemporary dance / performance art",
    "url": "https://pioneersgoeast.org/out-front/out-frontfest2027",
-   "notes": "Split bill; Page header lists 7:00 PM but the program schedule says 7:30pm; Part of Out-FRONT! Fest; (Jan 8-16, 2027); tickets via Danspace; Venue is wheelchair accessible"
+   "notes": "Split bill; Page header lists 7:00 PM but the program schedule says 7:30pm; Part of Out-FRONT! Fest; (Jan 8-16, 2027); tickets via Danspace; Venue is wheelchair accessible",
+   "free": false
   },
   {
    "date": "2027-01-08",
@@ -24392,7 +26212,8 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "Latin dance and music",
    "url": "https://www.joyce.org/performances/sekou-mcmiller-and-friends-7z58",
-   "notes": ""
+   "notes": "",
+   "free": false
   },
   {
    "date": "2027-01-08",
@@ -24404,7 +26225,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lamama.org/spider-rabbit-2027/",
-   "notes": "Run Jan 8-12, 2027; only first date (within window) listed. No time given."
+   "notes": "Run Jan 8-12, 2027; only first date (within window) listed. No time given.",
+   "free": false
   },
   {
    "date": "2027-01-08",
@@ -24416,7 +26238,8 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://mcctheater.org/tix/the-heart-sellers/",
-   "notes": "First day of performances; run continues through Feb 28, 2027. Showtime not stated on the page. Tickets on sale Nov 23; patron priority booking begins Nov 10."
+   "notes": "First day of performances; run continues through Feb 28, 2027. Showtime not stated on the page. Tickets on sale Nov 23; patron priority booking begins Nov 10.",
+   "free": false
   }
  ]
 };
