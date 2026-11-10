@@ -88,6 +88,7 @@ def clean(ev, org, default_discipline, start, end):
         "genre": (ev.get("genre") or "").strip(),
         "url": url,
         "notes": tidy_notes((ev.get("notes") or "").strip(), bool(t)),
+        "free": bool(ev.get("free")),
         "_sort": (date.isoformat(), parse_time(t) if parse_time(t) is not None else 9999),
     }
 

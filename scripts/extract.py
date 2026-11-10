@@ -47,7 +47,9 @@ TOOL = {
                         "discipline": {"type": "string", "enum": DISCIPLINES},
                         "genre": {"type": "string", "description": "Short style label, e.g. 'classical', 'Afro Latin jazz', 'new play'; may be empty"},
                         "url": {"type": "string", "description": "Performance page URL taken from the page text; empty if none"},
-                        "notes": {"type": "string", "description": "Caveats: free event, family concert, donor rehearsal, sold out, etc.; may be empty"},
+                        "notes": {"type": "string", "description": "Caveats: family concert, donor rehearsal, sold out, etc. (do not write 'free' here; use the free fields); may be empty"},
+                        "free": {"type": "boolean", "description": "true ONLY if the page explicitly says this performance is free to attend. False if the price is not stated, is unclear, or any ticket is required to be bought."},
+                        "free_evidence": {"type": "string", "description": "When free is true: the exact words from the page text that say it is free (copy them verbatim, max 120 characters). Empty otherwise."},
                     },
                     "required": ["date", "start_time", "title", "location", "description", "discipline", "url"],
                 },
@@ -71,6 +73,7 @@ Rules:
 - Links appear inline as ⟨https://...⟩ immediately after the link text they belong to. Use the link that belongs to that performance's own page (not a generic ticketing or home page). If there is none, leave url empty.
 - Write descriptions in your own words; do not copy marketing text.
 - A donor rehearsal or open jam that is not a ticketed concert may be included if it is a performance open to the public or with reserved passes; say so in notes.
+- Free admission: set free to true only when the page text explicitly says that this performance is free (for example "Free", "free admission", "free and open to the public", "no charge"; a free reservation or RSVP still counts). Copy the exact words into free_evidence. Do not infer free from a missing price, from "pay what you wish", "suggested donation", "free with museum admission", "free parking", a free event elsewhere on the page, or a general statement about the organization. If you are not certain, set free to false.
 - If nothing qualifies, return an empty list.
 You must return the result by calling the record_events tool (even if the list is empty). Do not reply with prose."""
 
@@ -78,6 +81,21 @@ You must return the result by calling the record_events tool (even if the list i
 def window(days):
     today = dt.date.today()
     return today, today, today + dt.timedelta(days=days)
+
+
+def _squash(t):
+    return re.sub(r"\s+", " ", re.sub(r"⟨[^⟩]*⟩", " ", t or "")).strip().lower()
+
+
+def ground_free(events, pages_text):
+    """A performance is tagged free only if the words the model quoted really appear in the page text.
+    Anything else (no quote, quote not found, quote that does not say free) is treated as price unknown."""
+    hay = _squash(pages_text)
+    for e in events:
+        ev = _squash(e.pop("free_evidence", ""))
+        ok = bool(e.get("free")) and len(ev) >= 4 and ev in hay and re.search(r"\bfree\b|no charge|no cost|complimentary", ev)
+        e["free"] = bool(ok)
+    return events
 
 
 def dedupe(events):
@@ -149,7 +167,7 @@ def extract_org(client, raw, days, scope="", strict=False):
                 "listing only if it appears complete in this part.)"
             )
         events += extract_chunk(client, prompt + note, chunk)
-    return dedupe(events)
+    return dedupe(ground_free(events, pages))
 
 
 class Truncated(Exception):
