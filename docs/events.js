@@ -1,8 +1,8 @@
 window.EVENTS = {
- "generated_at": "2026-11-09T21:32:09+00:00",
+ "generated_at": "2026-11-10T14:56:45+00:00",
  "window": {
-  "start": "2026-11-09",
-  "end": "2027-01-08"
+  "start": "2026-11-10",
+  "end": "2027-01-09"
  },
  "orgs": [
   "92NY Harkness Dance Center",
@@ -60,7 +60,6 @@ window.EVENTS = {
   "The Harlem Chamber Players",
   "HBArts Collective",
   "HERE",
-  "Houses On The Moon Theater Co.",
   "IATI Theater",
   "ID Studio Theater",
   "INTAR",
@@ -116,7 +115,6 @@ window.EVENTS = {
   "New York Theatre Workshop",
   "Nuyorican Poets Cafe",
   "Omnium Circus",
-  "OPERA America",
   "Orchestra of St. Luke's",
   "Orpheus Chamber Orchestra",
   "PAC NYC",
@@ -148,7 +146,6 @@ window.EVENTS = {
   "Teatro SEA",
   "Thalia Spanish Theatre",
   "Theatre for a New Audience",
-  "Theatre of the Oppressed NYC",
   "TRIBE - Multidisciplinary Visual Performances",
   "Triskelion Arts",
   "Vineyard Theatre",
@@ -160,8 +157,8 @@ window.EVENTS = {
   "Yarn/Wire"
  ],
  "counts": {
-  "92NY Harkness Dance Center": 11,
-  "A.R.T./New York": 6,
+  "92NY Harkness Dance Center": 10,
+  "A.R.T./New York": 5,
   "Abrons Arts Center": 5,
   "Belongó": 3,
   "AILEY": 46,
@@ -191,30 +188,30 @@ window.EVENTS = {
   "ETHEL": 2,
   "Fiasco Theater": 5,
   "Flamenco Vivo Carlota Santana": 2,
-  "Flushing Town Hall": 6,
+  "Flushing Town Hall": 5,
   "L'Alliance New York": 36,
   "Gallim Dance": 5,
   "Gibney Dance": 4,
   "HERE": 39,
   "International Contemporary Ensemble": 3,
   "Irish Arts Center": 16,
-  "Irish Repertory Theatre": 90,
+  "Irish Repertory Theatre": 89,
   "ISSUE Project Room": 4,
   "JACK Arts": 7,
   "JACK Quartet": 1,
   "JCAL": 2,
-  "Jazz at Lincoln Center": 36,
+  "Jazz at Lincoln Center": 34,
   "Jazz Foundation of America": 3,
   "Kaufman Music Center": 10,
   "Kupferberg Center for the Arts at Queens College": 10,
-  "La MaMa Experimental Theatre Club": 18,
+  "La MaMa Experimental Theatre Club": 17,
   "Les Ballets Trockadero de Monte Carlo": 1,
-  "Lincoln Center for the Performing Arts": 178,
-  "Lincoln Center Theater": 121,
+  "Lincoln Center for the Performing Arts": 173,
+  "Lincoln Center Theater": 120,
   "Jalopy Theatre and School of Folk Music": 17,
   "The Louis Armstrong House Museum": 1,
   "Lower Manhattan Cultural Council": 3,
-  "Ma-Yi Theater Company": 2,
+  "Ma-Yi Theater Company": 1,
   "Mabou Mines": 2,
   "Mama Foundation for the Arts": 1,
   "Manhattan Theatre Club": 14,
@@ -222,7 +219,7 @@ window.EVENTS = {
   "MasterVoices": 1,
   "MCC Theater": 1,
   "Miller Theatre": 5,
-  "Movement Research": 6,
+  "Movement Research": 5,
   "National Black Theatre": 2,
   "National Sawdust": 21,
   "New Music USA": 31,
@@ -233,7 +230,6 @@ window.EVENTS = {
   "New York Public Radio": 1,
   "New York Theatre Ballet": 11,
   "New York Theatre Workshop": 47,
-  "OPERA America": 1,
   "Orchestra of St. Luke's": 23,
   "Orpheus Chamber Orchestra": 2,
   "Park Avenue Armory": 16,
@@ -242,7 +238,7 @@ window.EVENTS = {
   "Performance Space New York": 2,
   "Pick Up Performance Co.": 3,
   "Playwrights Horizons": 2,
-  "Pregones/Puerto Rican Traveling Theater": 17,
+  "Pregones/Puerto Rican Traveling Theater": 16,
   "Primary Stages": 41,
   "Prospect Musicals": 1,
   "Queens Theatre": 6,
@@ -268,18 +264,17 @@ window.EVENTS = {
   "The Jazz Gallery": 23,
   "The Joyce Theater": 56,
   "The Knights": 1,
-  "The Metropolitan Opera": 20,
-  "The National Jazz Museum in Harlem": 6,
+  "The Metropolitan Opera": 19,
+  "The National Jazz Museum in Harlem": 5,
   "New 42": 38,
   "The New Group": 2,
-  "The Tank": 83,
-  "TDF": 18,
+  "The Tank": 80,
+  "TDF": 17,
   "Theatre for a New Audience": 2,
   "Vineyard Theatre": 21,
   "Working Theater": 1,
   "World Music Institute": 3,
   "Yarn/Wire": 1,
-  "Houses On The Moon Theater Co.": 1,
   "Japan Society": 1,
   "New York Live Arts": 18,
   "Braata Productions": 3,
@@ -291,14 +286,13 @@ window.EVENTS = {
   "Haiti Cultural Exchange": 4,
   "Calpulli Mexican Dance Company": 5,
   "Thalia Spanish Theatre": 22,
-  "Theatre of the Oppressed NYC": 1,
   "Teatro SEA": 2,
-  "Nuyorican Poets Cafe": 5,
+  "Nuyorican Poets Cafe": 4,
   "CultureHub": 6,
   "EPIC Players": 1,
   "Triskelion Arts": 8,
-  "Asian American Arts Alliance (A4)": 11,
-  "FRIGID New York": 18,
+  "Asian American Arts Alliance (A4)": 10,
+  "FRIGID New York": 16,
   "Voices of Ascension": 4,
   "Works & Process": 18,
   "The Clemente": 2,
@@ -325,7 +319,7 @@ window.EVENTS = {
   },
   "92NY Harkness Dance Center": {
    "status": "ok",
-   "events": 11
+   "events": 10
   },
   "A Better Jamaica": {
    "status": "empty",
@@ -334,7 +328,7 @@ window.EVENTS = {
   },
   "A.R.T./New York": {
    "status": "ok",
-   "events": 6
+   "events": 5
   },
   "Abrons Arts Center": {
    "status": "ok",
@@ -550,7 +544,7 @@ window.EVENTS = {
   },
   "Flushing Town Hall": {
    "status": "ok",
-   "events": 6
+   "events": 5
   },
   "National Yiddish Theatre Folksbiene": {
    "status": "empty",
@@ -623,7 +617,7 @@ window.EVENTS = {
   },
   "Irish Repertory Theatre": {
    "status": "ok",
-   "events": 90
+   "events": 89
   },
   "ISSUE Project Room": {
    "status": "ok",
@@ -643,7 +637,7 @@ window.EVENTS = {
   },
   "Jazz at Lincoln Center": {
    "status": "ok",
-   "events": 36
+   "events": 34
   },
   "Jazz Foundation of America": {
    "status": "ok",
@@ -674,7 +668,7 @@ window.EVENTS = {
   },
   "La MaMa Experimental Theatre Club": {
    "status": "ok",
-   "events": 18
+   "events": 17
   },
   "LAByrinth Theater Company": {
    "status": "empty",
@@ -692,11 +686,11 @@ window.EVENTS = {
   },
   "Lincoln Center for the Performing Arts": {
    "status": "ok",
-   "events": 178
+   "events": 173
   },
   "Lincoln Center Theater": {
    "status": "ok",
-   "events": 121
+   "events": 120
   },
   "Jalopy Theatre and School of Folk Music": {
    "status": "ok",
@@ -712,7 +706,7 @@ window.EVENTS = {
   },
   "Ma-Yi Theater Company": {
    "status": "ok",
-   "events": 2
+   "events": 1
   },
   "Mabou Mines": {
    "status": "ok",
@@ -765,7 +759,7 @@ window.EVENTS = {
   },
   "Movement Research": {
    "status": "ok",
-   "events": 6
+   "events": 5
   },
   "NAMT": {
    "status": "empty",
@@ -844,8 +838,9 @@ window.EVENTS = {
    "reason": "no performances listed in the window"
   },
   "OPERA America": {
-   "status": "ok",
-   "events": 1
+   "status": "empty",
+   "events": 0,
+   "reason": "no performances listed in the window"
   },
   "Orchestra of St. Luke's": {
    "status": "ok",
@@ -902,7 +897,7 @@ window.EVENTS = {
   },
   "Pregones/Puerto Rican Traveling Theater": {
    "status": "ok",
-   "events": 17
+   "events": 16
   },
   "Primary Stages": {
    "status": "ok",
@@ -1062,11 +1057,11 @@ window.EVENTS = {
   },
   "The Metropolitan Opera": {
    "status": "ok",
-   "events": 20
+   "events": 19
   },
   "The National Jazz Museum in Harlem": {
    "status": "ok",
-   "events": 6
+   "events": 5
   },
   "New 42": {
    "status": "ok",
@@ -1098,7 +1093,7 @@ window.EVENTS = {
   },
   "The Tank": {
    "status": "ok",
-   "events": 83
+   "events": 80
   },
   "the TEAM": {
    "status": "empty",
@@ -1127,7 +1122,7 @@ window.EVENTS = {
   },
   "TDF": {
    "status": "ok",
-   "events": 18
+   "events": 17
   },
   "Theatre for a New Audience": {
    "status": "ok",
@@ -1185,8 +1180,9 @@ window.EVENTS = {
    "events": 1
   },
   "Houses On The Moon Theater Co.": {
-   "status": "ok",
-   "events": 1
+   "status": "empty",
+   "events": 0,
+   "reason": "no performances listed in the window"
   },
   "Japan Society": {
    "status": "ok",
@@ -1288,8 +1284,9 @@ window.EVENTS = {
    "events": 22
   },
   "Theatre of the Oppressed NYC": {
-   "status": "ok",
-   "events": 1
+   "status": "empty",
+   "events": 0,
+   "reason": "no performances listed in the window"
   },
   "Teatro SEA": {
    "status": "ok",
@@ -1297,7 +1294,7 @@ window.EVENTS = {
   },
   "Nuyorican Poets Cafe": {
    "status": "ok",
-   "events": 5
+   "events": 4
   },
   "Casita Maria Center for Arts and Education": {
    "status": "empty",
@@ -1358,11 +1355,11 @@ window.EVENTS = {
   },
   "Asian American Arts Alliance (A4)": {
    "status": "ok",
-   "events": 11
+   "events": 10
   },
   "FRIGID New York": {
    "status": "ok",
-   "events": 18
+   "events": 16
   },
   "New York Classical Theatre": {
    "status": "empty",
@@ -1526,8 +1523,8 @@ window.EVENTS = {
  },
  "coverage": {
   "total": 271,
-  "with_events": 153,
-  "no_events": 92,
+  "with_events": 150,
+  "no_events": 95,
   "no_source": 14,
   "blocked": 12,
   "failed": 0
@@ -1687,6 +1684,10 @@ window.EVENTS = {
     "site": "https://www.meredithmonk.org"
    },
    {
+    "name": "Houses On The Moon Theater Co.",
+    "site": "https://www.housesonthemoon.org"
+   },
+   {
     "name": "IlluminArt Productions",
     "site": "https://www.illuminart.org"
    },
@@ -1795,6 +1796,10 @@ window.EVENTS = {
     "site": "https://www.ny4ca.org"
    },
    {
+    "name": "OPERA America",
+    "site": "https://www.operaamerica.org"
+   },
+   {
     "name": "Page 73 Productions",
     "site": "https://www.page73.org"
    },
@@ -1861,6 +1866,10 @@ window.EVENTS = {
    {
     "name": "Theatre Communications Group",
     "site": "https://www.tcg.org"
+   },
+   {
+    "name": "Theatre of the Oppressed NYC",
+    "site": "https://www.tonyc.nyc"
    },
    {
     "name": "Transport Group Theatre Company",
@@ -2068,307 +2077,6 @@ window.EVENTS = {
   "Breaking the Binary Theatre: the page was read but no performances were found; showing 1 events from the last successful update. The site layout may have changed."
  ],
  "events": [
-  {
-   "date": "2026-11-09",
-   "time": "3:00 PM",
-   "title": "Marshlight",
-   "org": "The Tank",
-   "location": "The Tank",
-   "description": "Art, love and psychosis in post-WWII Cape Cod, with a long-held secret threatening a young musician's life in Vietnam-era New York.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://thetanknyc.org/calendar-1/marshlight",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-09",
-   "time": "3:00 PM",
-   "title": "Object/Subject",
-   "org": "The Tank",
-   "location": "The Tank",
-   "description": "A play about photography, obsession and body parts, involving love triangles around Man Ray and true-crime podcasting.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://thetanknyc.org/calendar-1/2026/8/18/object-subject",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-09",
-   "time": "6:00 PM",
-   "title": "SKIN TO SKIN (benefit reading)",
-   "org": "Houses On The Moon Theater Co.",
-   "location": "Five Angels Theater, 789 10th Avenue (between 52nd & 53rd Streets), New York, NY 10019",
-   "description": "A reading of selected scenes from a new play about Black maternal health, inspired by the true stories of Black mothers and midwives. It is part of Houses on the Moon's 25th anniversary celebration.",
-   "discipline": "Theater",
-   "genre": "staged reading, new play",
-   "url": "https://bit.ly/skin119",
-   "notes": "One-night benefit reading with tickets; followed by a community conversation and reception; Ticket page also offers sponsorships"
-  },
-  {
-   "date": "2026-11-09",
-   "time": "6:00 PM",
-   "title": "Legislative Theatre: Broken Benefits in Discouragement City",
-   "org": "Theatre of the Oppressed NYC",
-   "location": "Brooklyn, NY (specific venue not stated on page)",
-   "description": "A Legislative Theatre event from Theatre of the Oppressed NYC, an interactive forum-theatre format. The listing gives no further details.",
-   "discipline": "Theater",
-   "genre": "Legislative Theatre / forum theatre",
-   "url": "https://www.tonyc.nyc/nov9",
-   "notes": "Exact venue not stated; RSVP link provided; Page gives little detail, so the performance format is inferred from the title"
-  },
-  {
-   "date": "2026-11-09",
-   "time": "7:00 PM",
-   "title": "Consumed",
-   "org": "Irish Repertory Theatre",
-   "location": "Francis J. Greenburger Mainstage, Irish Repertory Theatre",
-   "description": "A new-work presentation in Irish Rep's New Works Fall Festival 2026, part of its new play development program.",
-   "discipline": "Theater",
-   "genre": "new play development",
-   "url": "https://irishrep.org/whats-on/consumed",
-   "notes": "Part of New Works Fall Festival; exact format (reading/workshop) not stated on the page"
-  },
-  {
-   "date": "2026-11-09",
-   "time": "7:00 PM",
-   "title": "Lou Donaldson Centennial Celebration",
-   "org": "Jazz at Lincoln Center",
-   "location": "Dizzy's Club, Jazz at Lincoln Center, Broadway at 60th Street",
-   "description": "Dizzy's Club night marking the 100th anniversary of saxophonist Lou Donaldson.",
-   "discipline": "Music",
-   "genre": "jazz",
-   "url": "https://ticketing.jazz.org/21698/",
-   "notes": "Dizzy's lists nightly sets at 7 PM and 9 PM; this is the 7 PM set; also listed by Lincoln Center for the Performing Arts",
-   "also": [
-    "Lincoln Center for the Performing Arts"
-   ]
-  },
-  {
-   "date": "2026-11-09",
-   "time": "7:00 PM",
-   "title": "Intro to Playwriting Showcase (Class 2)",
-   "org": "Ma-Yi Theater Company",
-   "location": "Studio 17R, Ripley Grier Studios, 520 8th Ave, 17th Floor, New York, NY 10018",
-   "description": "Professional actors and directors give first presentations of new short plays written by students in Ma-Yi's Intro to Playwriting Workshop, taught by Lisa Sanaye Dring.",
-   "discipline": "Theater",
-   "genre": "new play readings",
-   "url": "https://ma-yitheatre.org/shows/intro-to-playwriting-showcase-2-and-3/",
-   "notes": "Free; RSVP required; Showcase of student work (Monday presentation)"
-  },
-  {
-   "date": "2026-11-09",
-   "time": "7:00 PM",
-   "title": "Movement Research at the Judson Church",
-   "org": "Movement Research",
-   "location": "Judson Memorial Church, 243 Thompson St, New York, NY 10012",
-   "description": "Works-in-progress and experimental dance by Laura Coe and Ángel De Paz, Chloë Engel, Bao Nguyen and Dahlia Qumhiyeh, in a low-tech forum at the historic Judson Church.",
-   "discipline": "Dance",
-   "genre": "experimental dance / works-in-progress",
-   "url": "https://movementresearch.org/events/1471/",
-   "notes": "Donation-based; no RSVP required; enter at 243 Thompson St"
-  },
-  {
-   "date": "2026-11-09",
-   "time": "7:00 PM",
-   "title": "Fine & Mellow Jazz Series: Melvis Santa",
-   "org": "The National Jazz Museum in Harlem",
-   "location": "National Arts Club, 15 Gramercy Park South",
-   "description": "Cuban-born vocalist, pianist, percussionist and composer Melvis Santa performs music linking Cuban traditions and jazz, opening year six of the Fine and Mellow series.",
-   "discipline": "Music",
-   "genre": "Cuban jazz",
-   "url": "https://jmih.org/event/fine-mellow-jazz-with-melvis-santa/",
-   "notes": "Held at the National Arts Club, not the museum; RSVP via Eventbrite"
-  },
-  {
-   "date": "2026-11-09",
-   "time": "7:30 PM",
-   "title": "Lyrics & Lyricists — Diamonds and Rust: The Artistry and Activism of Joan Baez",
-   "org": "92NY Harkness Dance Center",
-   "location": "92NY, 1395 Lexington Avenue",
-   "description": "A tribute to Joan Baez and her songs, featuring Broadway veteran Andréa Burns.",
-   "discipline": "Music",
-   "genre": "folk songbook tribute",
-   "url": "https://www.92ny.org/event/celebrating-joan-baez",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-09",
-   "time": "7:30 PM",
-   "title": "Puccini's Tosca",
-   "org": "Lincoln Center for the Performing Arts",
-   "location": "The Metropolitan Opera",
-   "description": "The Met Opera's staging of Puccini's tragic opera Tosca.",
-   "discipline": "Opera",
-   "genre": "opera",
-   "url": "https://www.metopera.org/season/2026-27-season/tosca/",
-   "notes": "also listed by OPERA America, The Metropolitan Opera",
-   "also": [
-    "OPERA America",
-    "The Metropolitan Opera"
-   ]
-  },
-  {
-   "date": "2026-11-09",
-   "time": "8:00 PM",
-   "title": "Stand Up for Heroes",
-   "org": "Lincoln Center for the Performing Arts",
-   "location": "David Geffen Hall",
-   "description": "Comedy and music evening presented by StandUpForHeroes.com at David Geffen Hall.",
-   "discipline": "Other",
-   "genre": "comedy/benefit show",
-   "url": "https://www.lincolncenter.org/venue/david-geffen-hall/stand-up-for-heroes-185",
-   "notes": "Outside licensee event"
-  },
-  {
-   "date": "2026-11-09",
-   "time": "8:00 PM",
-   "title": "August Wilson's Seven Guitars",
-   "org": "Lincoln Center for the Performing Arts",
-   "location": "Lincoln Center Theater",
-   "description": "Lincoln Center Theater production of August Wilson's play Seven Guitars.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "also listed by Lincoln Center Theater",
-   "also": [
-    "Lincoln Center Theater"
-   ]
-  },
-  {
-   "date": "2026-11-09",
-   "time": "9:00 PM",
-   "title": "Lou Donaldson Centennial Celebration",
-   "org": "Jazz at Lincoln Center",
-   "location": "Dizzy's Club, Jazz at Lincoln Center, Broadway at 60th Street",
-   "description": "Dizzy's Club night marking the 100th anniversary of saxophonist Lou Donaldson.",
-   "discipline": "Music",
-   "genre": "jazz",
-   "url": "https://ticketing.jazz.org/21698/",
-   "notes": "Dizzy's lists nightly sets at 7 PM and 9 PM; this is the 9 PM set; also listed by Lincoln Center for the Performing Arts",
-   "also": [
-    "Lincoln Center for the Performing Arts"
-   ]
-  },
-  {
-   "date": "2026-11-09",
-   "time": "9:30 PM",
-   "title": "Steps",
-   "org": "The Tank",
-   "location": "The Tank",
-   "description": "Margot returns home and finds her stepsister's journal, reliving the past she fled.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://thetanknyc.org/calendar-1/steps",
-   "notes": ""
-  },
-  {
-   "date": "2026-11-09",
-   "time": "",
-   "title": "The Morbs",
-   "org": "A.R.T./New York",
-   "location": "A.R.T./New York Theatres, 502 W 53rd Street",
-   "description": "A sorority reunion turns into a survival situation when a terrifying illness breaks out and the women shelter in a remote cabin. Presented by Egg & Spoon.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://art-newyork.org/events/the-morbs/",
-   "notes": "Run continues through Nov 14, 2026; page gives no individual showtimes, so only the next occurrence is listed. Rental venue; produced by Egg & Spoon, not A.R.T./New York."
-  },
-  {
-   "date": "2026-11-09",
-   "time": "",
-   "title": "King of the Yees",
-   "org": "Asian American Arts Alliance (A4)",
-   "location": "480 West 42nd Street, New York, NY 10036",
-   "description": "Lauren Yee's comedic, semi-true play about a daughter searching for her missing father amid the history of a San Francisco Chinatown family association.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://www.aaartsalliance.org/events/king-of-the-yees",
-   "notes": "Run continues through Nov 15, 2026; page gives no individual showtimes, so only the first date in the window is listed."
-  },
-  {
-   "date": "2026-11-09",
-   "time": "",
-   "title": "Learning to Speak",
-   "org": "FRIGID New York",
-   "location": "Under St Marks, 94 St Marks Pl, New York, NY 10009",
-   "description": "Annie Tan tells a memoir-based story about family, language, and discovering her relation to Vincent Chin.",
-   "discipline": "Theater",
-   "genre": "storytelling",
-   "url": "https://tickets.frigid.nyc/event/6897:1545",
-   "notes": "Gotham Storytelling Festival 2026. Page lists a run of Nov 9–14; individual dates and showtimes not stated, so only the first date is listed."
-  },
-  {
-   "date": "2026-11-09",
-   "time": "",
-   "title": "Jersey Girl. Strange World.",
-   "org": "FRIGID New York",
-   "location": "Under St Marks, 94 St Marks Pl, New York, NY 10009",
-   "description": "Faith Alpher's one-woman show blends spoken word and storytelling about leaving New Jersey and reinventing herself in California.",
-   "discipline": "Theater",
-   "genre": "spoken word / storytelling",
-   "url": "https://tickets.frigid.nyc/event/6897:1543",
-   "notes": "Gotham Storytelling Festival 2026. Page lists a run of Nov 9–15; individual dates and showtimes not stated, so only the first date is listed."
-  },
-  {
-   "date": "2026-11-09",
-   "time": "",
-   "title": "The Queens Musical Passport",
-   "org": "Flushing Town Hall",
-   "location": "Flushing Town Hall, 137-35 Northern Blvd., Flushing",
-   "description": "Guillermo Laporta of CreArtBox leads an interactive music project bringing live chamber music concerts to children and families across Queens.",
-   "discipline": "Family/Education",
-   "genre": "chamber music",
-   "url": "https://www.flushingtownhall.org/show-details/the-queens-musical-passport",
-   "notes": "Family event; start time not stated on page."
-  },
-  {
-   "date": "2026-11-09",
-   "time": "",
-   "title": "12 Angry Electrics",
-   "org": "La MaMa Experimental Theatre Club",
-   "location": "La MaMa Experimental Theatre Club",
-   "description": "William Electric Black plays all twelve jurors in a solo reimagining of the film 12 Angry Men.",
-   "discipline": "Theater",
-   "genre": "solo play / poetry",
-   "url": "https://lamama.org/poetryelectric-12angryelectrics/",
-   "notes": "Part of the Poetry Electric series. Start time not stated on page."
-  },
-  {
-   "date": "2026-11-09",
-   "time": "",
-   "title": "Nuyorican Bowery Slam",
-   "org": "Nuyorican Poets Cafe",
-   "location": "Bowery Poetry Club, 308 Bowery",
-   "description": "Weekly open poetry slam with two rounds; the highest cumulative score wins the night and earns a spot at the Final Friday Slam.",
-   "discipline": "Other",
-   "genre": "poetry slam",
-   "url": "https://www.nuyorican.org/slam",
-   "notes": "Held every Monday; only the next occurrence is listed because no end date is given. Start time not stated. Winner gets $20."
-  },
-  {
-   "date": "2026-11-09",
-   "time": "",
-   "title": "I f@cking hate Luma",
-   "org": "Pregones/Puerto Rican Traveling Theater",
-   "location": "PRTT, 304 W 47th St., New York, NY 10036",
-   "description": "A play about family, disappointment and the pain of watching loved ones hurt each other, set amid rolling blackouts and postpartum rage.",
-   "discipline": "Theater",
-   "genre": "new play",
-   "url": "https://pregonesprtt.org/i-fcking-hate-luma-2026-27/",
-   "notes": "Showtime not stated on the listing page; Manhattan location inferred from listing 'in MANHATTAN' and the page's Manhattan address."
-  },
-  {
-   "date": "2026-11-09",
-   "time": "",
-   "title": "Awake and Sing!",
-   "org": "TDF",
-   "location": "Samuel J. Friedman Theatre",
-   "description": "A Broadway staging of the Clifford Odets play.",
-   "discipline": "Theater",
-   "genre": "play",
-   "url": "https://www.tdf.org/shows/23442/awake-and-sing/",
-   "notes": ""
-  },
   {
    "date": "2026-11-10",
    "time": "11:00 AM",
@@ -6529,7 +6237,7 @@ window.EVENTS = {
    "title": "Salcedo's Latin Soul: Pops y Palmas Album Release Party",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts, 153-49 Reeves Ave., Flushing",
-   "description": "Album release celebration concert featuring Salcedo's Latin soul music.",
+   "description": "Salcedo's Latin Soul celebrates the release of the album Pops y Palmas with a live album release party.",
    "discipline": "Music",
    "genre": "Latin soul",
    "url": "https://kupferbergcenter.org/event/salcedo/",
@@ -6859,14 +6567,14 @@ window.EVENTS = {
   {
    "date": "2026-11-15",
    "time": "8:00 PM",
-   "title": "Ele Yan MOMENTⁿ World Tour",
+   "title": "Ele Yan Momentⁿ World Tour",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts, 153-49 Reeves Ave., Flushing",
-   "description": "Stop on Ele Yan's MOMENTⁿ world tour, presented at the Kupferberg Center.",
+   "description": "Ele Yan brings the Momentⁿ World Tour to Queens College for two evening shows.",
    "discipline": "Music",
-   "genre": "concert",
+   "genre": "",
    "url": "https://kupferbergcenter.org/event/ele-yan/",
-   "notes": "Visiting presenter event; Listed as Nov 15-16 at 8 PM"
+   "notes": "Visiting presenter; Specific hall not stated"
   },
   {
    "date": "2026-11-15",
@@ -7142,14 +6850,14 @@ window.EVENTS = {
   {
    "date": "2026-11-16",
    "time": "8:00 PM",
-   "title": "Ele Yan MOMENTⁿ World Tour",
+   "title": "Ele Yan Momentⁿ World Tour",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts, 153-49 Reeves Ave., Flushing",
-   "description": "Second night of Ele Yan's MOMENTⁿ world tour at the Kupferberg Center.",
+   "description": "Ele Yan brings the Momentⁿ World Tour to Queens College for two evening shows.",
    "discipline": "Music",
-   "genre": "concert",
+   "genre": "",
    "url": "https://kupferbergcenter.org/event/ele-yan/",
-   "notes": "Visiting presenter event; Listed as Nov 15-16 at 8 PM"
+   "notes": "Visiting presenter; Specific hall not stated"
   },
   {
    "date": "2026-11-16",
@@ -14849,11 +14557,11 @@ window.EVENTS = {
    "title": "Sensations: Culture, Community, Courage",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts, 153-49 Reeves Ave., Flushing",
-   "description": "Queens College Department of Theatre & Dance production running Thursday through Sunday.",
+   "description": "Queens College Department of Theatre and Dance production running Thursday through Sunday.",
    "discipline": "Multidisciplinary",
-   "genre": "theater and dance",
+   "genre": "",
    "url": "https://kupferbergcenter.org/event/sensations/",
-   "notes": ""
+   "notes": "dates expanded from Dec 3-6 range"
   },
   {
    "date": "2026-12-03",
@@ -15269,11 +14977,11 @@ window.EVENTS = {
    "title": "Keith Michael's The Nutcracker",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts, 153-49 Reeves Ave., Flushing",
-   "description": "Holiday staging of The Nutcracker by Keith Michael.",
+   "description": "A stage presentation of the holiday ballet The Nutcracker, produced by Keith Michael.",
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://kupferbergcenter.org/event/nutcracker/",
-   "notes": "also listed by New York Theatre Ballet",
+   "notes": "Specific hall not stated; also listed by New York Theatre Ballet",
    "also": [
     "New York Theatre Ballet"
    ]
@@ -15284,11 +14992,11 @@ window.EVENTS = {
    "title": "Sensations: Culture, Community, Courage",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts, 153-49 Reeves Ave., Flushing",
-   "description": "Queens College Department of Theatre & Dance production running Thursday through Sunday.",
+   "description": "Queens College Department of Theatre and Dance production running Thursday through Sunday.",
    "discipline": "Multidisciplinary",
-   "genre": "theater and dance",
+   "genre": "",
    "url": "https://kupferbergcenter.org/event/sensations/",
-   "notes": ""
+   "notes": "dates expanded from Dec 3-6 range"
   },
   {
    "date": "2026-12-04",
@@ -16145,11 +15853,11 @@ window.EVENTS = {
    "title": "Sensations: Culture, Community, Courage",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts, 153-49 Reeves Ave., Flushing",
-   "description": "Queens College Department of Theatre & Dance production running Thursday through Sunday.",
+   "description": "Queens College Department of Theatre and Dance production running Thursday through Sunday.",
    "discipline": "Multidisciplinary",
-   "genre": "theater and dance",
+   "genre": "",
    "url": "https://kupferbergcenter.org/event/sensations/",
-   "notes": ""
+   "notes": "dates expanded from Dec 3-6 range"
   },
   {
    "date": "2026-12-05",
@@ -16868,11 +16576,11 @@ window.EVENTS = {
    "title": "Sensations: Culture, Community, Courage",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts, 153-49 Reeves Ave., Flushing",
-   "description": "Queens College Department of Theatre & Dance production running Thursday through Sunday.",
+   "description": "Queens College Department of Theatre and Dance production running Thursday through Sunday.",
    "discipline": "Multidisciplinary",
-   "genre": "theater and dance",
+   "genre": "",
    "url": "https://kupferbergcenter.org/event/sensations/",
-   "notes": ""
+   "notes": "dates expanded from Dec 3-6 range"
   },
   {
    "date": "2026-12-06",
@@ -20285,11 +19993,11 @@ window.EVENTS = {
    "title": "Handel's Messiah: QCCS 86th Annual Winter Concert",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts, 153-49 Reeves Ave., Flushing",
-   "description": "Queens College Choral Society's annual winter performance of Handel's Messiah.",
+   "description": "The Queens College Choral Society performs Handel's Messiah in its 86th annual winter concert.",
    "discipline": "Music",
    "genre": "classical choral",
    "url": "https://kupferbergcenter.org/event/qccs-12132026/",
-   "notes": ""
+   "notes": "Specific hall not stated"
   },
   {
    "date": "2026-12-13",
@@ -21680,11 +21388,11 @@ window.EVENTS = {
    "title": "Spanish Harlem Orchestra: Salsa Navidad",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts, 153-49 Reeves Ave., Flushing",
-   "description": "Holiday-themed salsa concert by the Spanish Harlem Orchestra.",
+   "description": "Spanish Harlem Orchestra plays a holiday-themed salsa concert.",
    "discipline": "Music",
    "genre": "salsa",
    "url": "https://kupferbergcenter.org/event/sho/",
-   "notes": ""
+   "notes": "Specific hall not stated"
   },
   {
    "date": "2026-12-18",
