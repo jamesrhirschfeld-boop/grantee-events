@@ -1,5 +1,5 @@
 window.EVENTS = {
- "generated_at": "2026-11-10T15:57:41+00:00",
+ "generated_at": "2026-11-10T16:08:44+00:00",
  "window": {
   "start": "2026-11-10",
   "end": "2027-01-09"
@@ -265,7 +265,7 @@ window.EVENTS = {
   "The Joyce Theater": 56,
   "The Knights": 1,
   "The Metropolitan Opera": 19,
-  "The National Jazz Museum in Harlem": 5,
+  "The National Jazz Museum in Harlem": 6,
   "New 42": 38,
   "The New Group": 2,
   "The Tank": 80,
@@ -1061,7 +1061,7 @@ window.EVENTS = {
   },
   "The National Jazz Museum in Harlem": {
    "status": "ok",
-   "events": 5
+   "events": 6
   },
   "New 42": {
    "status": "ok",
@@ -3548,12 +3548,12 @@ window.EVENTS = {
    "title": "Music on the Brain: From Signal to Sound with Dr. Tommy Vaughan and Patience Higgins",
    "org": "The National Jazz Museum in Harlem",
    "location": "The National Jazz Museum in Harlem, 58 W 129th Street, New York, NY 10027",
-   "description": "An evening mixing MRI science and jazz, with live sets from the Patience Higgins Quartet alongside conversation and audience Q&A.",
+   "description": "An evening mixing MRI neuroscience conversation with live sets from the Patience Higgins Quartet, plus audience Q&A.",
    "discipline": "Music",
    "genre": "jazz",
    "url": "https://jmih.org/event/music-on-the-brain-from-signal-to-sound-with-dr-tommy-vaughan-and-patience-higgins/",
-   "notes": "Free with RSVP; also viewable online; Part talk/conversation, part live quartet performance",
-   "free": false
+   "notes": "Part talk/conversation, with live quartet performances; co-presented with Columbia's Zuckerman Institute",
+   "free": true
   },
   {
    "date": "2026-11-12",
@@ -7472,6 +7472,19 @@ window.EVENTS = {
   {
    "date": "2026-11-17",
    "time": "7:00 PM",
+   "title": "TJG Mentor Series Vol. 12, Ed. 2 – Logan Richardson & Esteban Castro",
+   "org": "The National Jazz Museum in Harlem",
+   "location": "The National Jazz Museum in Harlem, 58 W 129th Street, New York, NY 10027",
+   "description": "Saxophonist Logan Richardson and pianist Esteban Castro perform with Harish Raghavan on bass and Damion Reid on drums, in collaboration with The Jazz Gallery.",
+   "discipline": "Music",
+   "genre": "jazz",
+   "url": "https://jmih.org/event/tjg-mentor-series-vol-12-ed-2-logan-richardson-esteban-castro/",
+   "notes": "Joyce Wein Mentor Series with The Jazz Gallery",
+   "free": true
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:00 PM",
    "title": "Masha Masha Masha!",
    "org": "The Tank",
    "location": "The Tank",
@@ -10434,12 +10447,12 @@ window.EVENTS = {
    "time": "4:00 PM",
    "title": "Intergenerational Jazz Power Jam: Eli Yamin Quartet",
    "org": "The National Jazz Museum in Harlem",
-   "location": "The National Jazz Museum in Harlem, 58 W 129th Street",
-   "description": "A jam session led by the Eli Yamin Quartet, bringing together players of different generations.",
+   "location": "The National Jazz Museum in Harlem",
+   "description": "A jam session led by the Eli Yamin Quartet.",
    "discipline": "Music",
-   "genre": "jazz jam",
+   "genre": "jazz",
    "url": "https://jmih.org/event/intergenerational-jazz-power-jam-eli-yamin-quartet/",
-   "notes": "Jam session; also listed by Jazz Power Initiative",
+   "notes": "Only listed on the events page; also listed by Jazz Power Initiative",
    "free": false,
    "also": [
     "Jazz Power Initiative"
@@ -21654,12 +21667,12 @@ window.EVENTS = {
    "time": "6:00 PM",
    "title": "Monday Night Jam – Hosted by JFA",
    "org": "The National Jazz Museum in Harlem",
-   "location": "Not stated on page (listed by The National Jazz Museum in Harlem)",
-   "description": "A Monday night jam session hosted by the Jazz Foundation of America.",
+   "location": "The National Jazz Museum in Harlem",
+   "description": "An open jam session hosted by the Jazz Foundation of America.",
    "discipline": "Music",
    "genre": "jazz jam",
    "url": "https://jmih.org/event/monday-night-jam-hosted-by-jfa-3/",
-   "notes": "Open jam",
+   "notes": "Only listed on the events page",
    "free": false
   },
   {
