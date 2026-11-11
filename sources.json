@@ -409,10 +409,18 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "error",
-    "checked": "2026-11-08",
-    "note": "timed out or crashed"
-   }
+    "status": "ok",
+    "checked": "2026-11-11",
+    "note": "6 dates in window at https://www.ballethispanico.org/performances/tour/; 4 dates in window at https://www.ballethispanico.org/performances"
+   },
+   "pages": [
+    {
+     "url": "https://www.ballethispanico.org/performances/tour/"
+    },
+    {
+     "url": "https://www.ballethispanico.org/performances"
+    }
+   ]
   },
   {
    "slug": "bang-on-a-can",
@@ -1177,7 +1185,7 @@
    "active": true,
    "discovery": {
     "status": "error",
-    "checked": "2026-11-08",
+    "checked": "2026-11-11",
     "note": "timed out or crashed"
    }
   },
@@ -2019,10 +2027,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "error",
-    "checked": "2026-11-08",
-    "note": "timed out or crashed"
-   }
+    "status": "no_events_found",
+    "checked": "2026-11-11",
+    "note": "calendar page found but 0 dates in the window (3 overall); checked again every run: https://markmorrisdancegroup.org/the-dance-group/performances/"
+   },
+   "pages": [
+    {
+     "url": "https://markmorrisdancegroup.org/the-dance-group/performances/"
+    }
+   ]
   },
   {
    "slug": "martha-graham-dance-company",
@@ -2478,7 +2491,7 @@
    "active": true,
    "discovery": {
     "status": "error",
-    "checked": "2026-11-08",
+    "checked": "2026-11-11",
     "note": "timed out or crashed"
    }
   },
@@ -4397,7 +4410,7 @@
    "active": true,
    "discovery": {
     "status": "error",
-    "checked": "2026-11-08",
+    "checked": "2026-11-11",
     "note": "timed out or crashed"
    }
   },
@@ -4612,10 +4625,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "error",
-    "checked": "2026-11-08",
-    "note": "timed out or crashed"
-   }
+    "status": "ok",
+    "checked": "2026-11-11",
+    "note": "8 dates in window at https://www.newfederaltheatre.com/copy-of-mastering-the-10-minute-play-1"
+   },
+   "pages": [
+    {
+     "url": "https://www.newfederaltheatre.com/copy-of-mastering-the-10-minute-play-1"
+    }
+   ]
   },
   {
    "slug": "el-taller-latino-americano",
@@ -4869,7 +4887,7 @@
    "active": true,
    "discovery": {
     "status": "error",
-    "checked": "2026-11-08",
+    "checked": "2026-11-11",
     "note": "timed out or crashed"
    }
   },
@@ -4964,7 +4982,12 @@
    "default_discipline": "Dance",
    "borough": "Bronx",
    "performing_arts_majority": true,
-   "active": true
+   "active": true,
+   "discovery": {
+    "status": "no_calendar_found",
+    "checked": "2026-11-11",
+    "note": "no page with dates found; may need a manual calendar URL"
+   }
   },
   {
    "slug": "epic-players",
