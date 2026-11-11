@@ -1,5 +1,5 @@
 window.EVENTS = {
- "generated_at": "2026-11-11T19:20:04+00:00",
+ "generated_at": "2026-11-11T21:57:30+00:00",
  "window": {
   "start": "2026-11-11",
   "end": "2027-01-10"
@@ -177,7 +177,7 @@ window.EVENTS = {
   "Blank Forms": 2,
   "BRIC": 6,
   "Brooklyn Academy of Music": 31,
-  "Carnegie Hall": 3,
+  "Carnegie Hall": 29,
   "Center for Performance Research": 6,
   "Center for Traditional Music and Dance": 5,
   "Chamber Music Society of Lincoln Center": 16,
@@ -211,7 +211,7 @@ window.EVENTS = {
   "La MaMa Experimental Theatre Club": 18,
   "Les Ballets Trockadero de Monte Carlo": 1,
   "Lincoln Center for the Performing Arts": 150,
-  "Lincoln Center Theater": 3,
+  "Lincoln Center Theater": 118,
   "Jalopy Theatre and School of Folk Music": 17,
   "The Louis Armstrong House Museum": 1,
   "Lower Manhattan Cultural Council": 3,
@@ -460,7 +460,7 @@ window.EVENTS = {
   },
   "Carnegie Hall": {
    "status": "ok",
-   "events": 3
+   "events": 29
   },
   "Center for Performance Research": {
    "status": "ok",
@@ -697,7 +697,7 @@ window.EVENTS = {
   },
   "Lincoln Center Theater": {
    "status": "ok",
-   "events": 3
+   "events": 118
   },
   "Jalopy Theatre and School of Folk Music": {
    "status": "ok",
@@ -2099,8 +2099,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-11",
@@ -2156,7 +2159,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-11",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -2169,7 +2172,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-11",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -2399,7 +2402,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-11",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -2520,12 +2523,12 @@ window.EVENTS = {
   {
    "date": "2026-11-11",
    "time": "7:30 PM",
-   "title": "Aigul Akhmetshina, Mezzo-Soprano, and Jonathan Palmer Lakeland, Piano: Love Without Borders: A Journey in Three Chapters",
+   "title": "Aigul Akhmetshina, Mezzo-Soprano / Jonathan Palmer Lakeland, Piano",
    "org": "Carnegie Hall",
-   "location": "Zankel Hall, Carnegie Hall",
-   "description": "Mezzo-soprano Aigul Akhmetshina and pianist Jonathan Palmer Lakeland perform a recital program titled Love Without Borders: A Journey in Three Chapters.",
+   "location": "Zankel Hall",
+   "description": "Mezzo-soprano recital with piano, titled Love Without Borders: A Journey in Three Chapters.",
    "discipline": "Music",
-   "genre": "vocal recital",
+   "genre": "classical vocal recital",
    "url": "https://www.carnegiehall.org/calendar/2026/11/11/aigul-akhmetshina-mezzosoprano-jonathan-palmer-lakeland-piano-0730pm",
    "notes": "",
    "free": false
@@ -2609,8 +2612,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-11",
@@ -2622,8 +2628,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-11",
@@ -2653,7 +2662,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-11",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -2969,8 +2978,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-12",
@@ -3065,7 +3077,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-12",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -3501,8 +3513,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-12",
@@ -3532,7 +3547,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-12",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -3545,7 +3560,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-12",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "WE GATHER HERE – Christian A. Warner",
    "org": "Triskelion Arts",
    "location": "Triskelion Arts",
@@ -3704,7 +3719,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-13",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "Norfolk: An Opera-in-Progress",
    "org": "Asian American Arts Alliance (A4)",
    "location": "",
@@ -3858,8 +3873,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-13",
@@ -3941,7 +3959,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-13",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -4104,7 +4122,7 @@ window.EVENTS = {
    "title": "New York Philharmonic: Puccini's Tosca (opera in concert)",
    "org": "Carnegie Hall",
    "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
-   "description": "The New York Philharmonic performs Puccini's Tosca in a concert presentation of the opera.",
+   "description": "The New York Philharmonic performs Puccini's Tosca in a concert presentation.",
    "discipline": "Opera",
    "genre": "opera in concert",
    "url": "https://www.carnegiehall.org/calendar/2026/11/13/new-york-philharmonic-0730pm",
@@ -4282,7 +4300,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-13",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "PSYWAR",
    "org": "Asian American Arts Alliance (A4)",
    "location": "Bogart House, 230 Bogart St, Brooklyn, NY 11206",
@@ -4342,8 +4360,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-13",
@@ -4355,8 +4376,11 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://newmusicusa.org/events/bia-ferreira/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by World Music Institute",
+   "free": false,
+   "also": [
+    "World Music Institute"
+   ]
   },
   {
    "date": "2026-11-13",
@@ -4399,7 +4423,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-13",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -4412,7 +4436,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-13",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "WE GATHER HERE – Christian A. Warner",
    "org": "Triskelion Arts",
    "location": "Triskelion Arts",
@@ -4421,19 +4445,6 @@ window.EVENTS = {
    "genre": "dance-theater",
    "url": "https://www.triskelionarts.org/fall-2026-performances/christian-warner",
    "notes": "General admission; tickets required",
-   "free": false
-  },
-  {
-   "date": "2026-11-13",
-   "time": "8 PM",
-   "title": "Bia Ferreira (with DJ)",
-   "org": "World Music Institute",
-   "location": "Nublu, 151 Avenue C",
-   "description": "Brazilian singer-songwriter and multi-instrumentalist blending Afro-diasporic rhythms, soul, blues and reggae, in a dance-floor show with a DJ.",
-   "discipline": "Music",
-   "genre": "Brazilian / Afro-diasporic",
-   "url": "https://www.worldmusicinstitute.org/bia-ferreira-at-nublu/",
-   "notes": "Let's Dance Series; doors 7 PM; standing room only, 21+",
    "free": false
   },
   {
@@ -4493,7 +4504,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-13",
-   "time": "10 PM",
+   "time": "10:00 PM",
    "title": "Jane Handcock",
    "org": "Apollo Theater",
    "location": "The Apollo Stages at The Victoria",
@@ -4691,7 +4702,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-14",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "Thai Theatre Showcase 2026",
    "org": "Asian American Arts Alliance (A4)",
    "location": "Open Jar Studio, 1601 Broadway, 11th Floor, New York, NY 10019",
@@ -4799,6 +4810,19 @@ window.EVENTS = {
   {
    "date": "2026-11-14",
    "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-11-14",
+   "time": "2:00 PM",
    "title": "A FEW GOOD MEN",
    "org": "Lincoln Center for the Performing Arts",
    "location": "Lincoln Center Theater (specific venue not stated)",
@@ -4806,8 +4830,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-14",
@@ -4902,7 +4929,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-14",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -4915,7 +4942,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-14",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -5071,13 +5098,13 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-14",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "Silkroad Ensemble featuring Rhiannon Giddens and Yo-Yo Ma",
    "org": "Carnegie Hall",
    "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
-   "description": "The Silkroad Ensemble performs with featured artists Rhiannon Giddens and Yo-Yo Ma.",
+   "description": "Silkroad Ensemble performs with guest artists Rhiannon Giddens and Yo-Yo Ma.",
    "discipline": "Music",
-   "genre": "",
+   "genre": "world music",
    "url": "https://www.carnegiehall.org/calendar/2026/11/14/silkroad-ensemble-featuring-rhiannon-giddens-and-yo-yo-ma-0700pm",
    "notes": "",
    "free": false
@@ -5279,7 +5306,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-14",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -5598,6 +5625,32 @@ window.EVENTS = {
   {
    "date": "2026-11-14",
    "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-11-14",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-11-14",
+   "time": "8:00 PM",
    "title": "The Unbelievers",
    "org": "Manhattan Theatre Club",
    "location": "New York City Center",
@@ -5649,7 +5702,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-14",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -5675,7 +5728,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-14",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "WE GATHER HERE – Christian A. Warner",
    "org": "Triskelion Arts",
    "location": "Triskelion Arts",
@@ -5753,7 +5806,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-14",
-   "time": "10 PM",
+   "time": "10:00 PM",
    "title": "Adeva",
    "org": "Apollo Theater",
    "location": "The Apollo Stages at The Victoria",
@@ -5860,7 +5913,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-15",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "Thai Theatre Showcase 2026",
    "org": "Asian American Arts Alliance (A4)",
    "location": "Open Jar Studio, 1601 Broadway, 11th Floor, New York, NY 10019",
@@ -5896,6 +5949,23 @@ window.EVENTS = {
    "url": "https://ci.ovationtix.com/33875/production/1282155",
    "notes": "Venue not stated on page; Listed as not available",
    "free": false
+  },
+  {
+   "date": "2026-11-15",
+   "time": "2:00 PM",
+   "title": "New York Philharmonic: Puccini's Tosca (opera in concert)",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "The New York Philharmonic performs Puccini's Tosca in a concert presentation.",
+   "discipline": "Opera",
+   "genre": "opera in concert",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/15/new-york-philharmonic-0200pm",
+   "notes": "also listed by Lincoln Center for the Performing Arts, New York Philharmonic",
+   "free": false,
+   "also": [
+    "Lincoln Center for the Performing Arts",
+    "New York Philharmonic"
+   ]
   },
   {
    "date": "2026-11-15",
@@ -5942,22 +6012,6 @@ window.EVENTS = {
   {
    "date": "2026-11-15",
    "time": "2:00 PM",
-   "title": "Dudamel Conducts Tosca at Carnegie Hall",
-   "org": "Lincoln Center for the Performing Arts",
-   "location": "Carnegie Hall",
-   "description": "New York Philharmonic performance of Puccini's Tosca led by Gustavo Dudamel at Carnegie Hall.",
-   "discipline": "Opera",
-   "genre": "opera in concert",
-   "url": "https://www.nyphil.org/concerts-tickets/2627/tosca-nov-13",
-   "notes": "Listing URL slug says Nov 13; listed under Nov 15 on the page; also listed by New York Philharmonic",
-   "free": false,
-   "also": [
-    "New York Philharmonic"
-   ]
-  },
-  {
-   "date": "2026-11-15",
-   "time": "2:00 PM",
    "title": "In the Heights",
    "org": "New York City Center",
    "location": "New York City Center, 131 West 55th Street, Manhattan",
@@ -5996,7 +6050,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-15",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -6009,7 +6063,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-15",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -6061,6 +6115,19 @@ window.EVENTS = {
    "also": [
     "L'Alliance New York"
    ]
+  },
+  {
+   "date": "2026-11-15",
+   "time": "3:00 PM",
+   "title": "Apollo's Fire / Jeanine De Bique: Echoes Across the Atlantic",
+   "org": "Carnegie Hall",
+   "location": "Zankel Hall",
+   "description": "Baroque ensemble Apollo's Fire joins soprano Jeanine De Bique in a program called Echoes Across the Atlantic.",
+   "discipline": "Music",
+   "genre": "baroque",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/15/apollos-fire--jeanine-de-bique-0300pm",
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-15",
@@ -6153,8 +6220,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-15",
@@ -6343,7 +6413,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-15",
-   "time": "6 PM",
+   "time": "6:00 PM",
    "title": "Thai Theatre Showcase 2026: Closing Celebration + Snippet Showcase",
    "org": "Asian American Arts Alliance (A4)",
    "location": "Open Jar Studio, 1601 Broadway, 11th Floor, New York, NY 10019",
@@ -6578,6 +6648,19 @@ window.EVENTS = {
   {
    "date": "2026-11-16",
    "time": "6:00 PM",
+   "title": "Carnegie Hall Citywide: 2nd Annual Vessel Lighting Ceremony with The New York Pops",
+   "org": "Carnegie Hall",
+   "location": "Hudson Yards",
+   "description": "Citywide event with The New York Pops marking the second annual lighting of the Vessel at Hudson Yards.",
+   "discipline": "Music",
+   "genre": "",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/16/carnegie-hall-citywide-2nd-annual-vessel-lighting-ceremony-with-the-new-york-p-0600pm",
+   "notes": "Price not stated on the page",
+   "free": false
+  },
+  {
+   "date": "2026-11-16",
+   "time": "6:00 PM",
    "title": "The 2026 Cheswatyr Commission Concert",
    "org": "The Harlem Chamber Players",
    "location": "Lee C. Bollinger Forum at Columbia University, 605 West 125th Street",
@@ -6606,7 +6689,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-16",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "Chicago 30: A One-Night-Only Benefit Performance",
    "org": "Entertainment Community Fund",
    "location": "Ambassador Theatre, 219 West 49th Street, New York, NY 10019",
@@ -6901,19 +6984,6 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-17",
-   "time": "6 PM",
-   "title": "Harlem Holiday Lights at The Apollo",
-   "org": "Apollo Theater",
-   "location": "125th Street, Harlem",
-   "description": "The Apollo joins Harlem's annual holiday lights celebration and parade along 125th Street.",
-   "discipline": "Other",
-   "genre": "parade",
-   "url": "https://www.apollotheater.org/event/harlem-holiday-lights-parade",
-   "notes": "Price not stated on page",
-   "free": false
-  },
-  {
-   "date": "2026-11-17",
    "time": "6:00 PM",
    "title": "Belongó at Harlem Holiday Lights 2026",
    "org": "Belongó",
@@ -6922,8 +6992,11 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "Afro Latin jazz / parade",
    "url": "https://www.afrolatinjazz.org/events/belongo-at-harlem-holiday-lights-2026",
-   "notes": "Parade performance",
-   "free": true
+   "notes": "Parade performance; also listed by Apollo Theater",
+   "free": true,
+   "also": [
+    "Apollo Theater"
+   ]
   },
   {
    "date": "2026-11-17",
@@ -6990,8 +7063,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-17",
@@ -7047,7 +7123,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-17",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -7155,6 +7231,19 @@ window.EVENTS = {
   {
    "date": "2026-11-17",
    "time": "7:30 PM",
+   "title": "Jupiter Ensemble: Amazone",
+   "org": "Carnegie Hall",
+   "location": "Weill Recital Hall",
+   "description": "Jupiter Ensemble performs a program titled Amazone.",
+   "discipline": "Music",
+   "genre": "chamber",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/17/jupiter-ensemble-0730pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-11-17",
+   "time": "7:30 PM",
    "title": "Fauré's Second Piano Quartet",
    "org": "Chamber Music Society of Lincoln Center",
    "location": "Alice Tully Hall",
@@ -7230,12 +7319,15 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-17",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "Stage Dive",
    "org": "Triskelion Arts",
    "location": "Triskelion Arts",
@@ -7329,7 +7421,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-18",
-   "time": "1 PM",
+   "time": "1:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -7402,8 +7494,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "Matinee",
-   "free": false
+   "notes": "Matinee; also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-18",
@@ -7415,12 +7510,15 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "Matinee",
-   "free": false
+   "notes": "Matinee; also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-18",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -7571,8 +7669,11 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://newmusicusa.org/events/agadez-queendoms/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by World Music Institute",
+   "free": false,
+   "also": [
+    "World Music Institute"
+   ]
   },
   {
    "date": "2026-11-18",
@@ -7628,7 +7729,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-18",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -7641,7 +7742,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-18",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -7745,19 +7846,6 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-18",
-   "time": "7 PM",
-   "title": "AGADEZ – Queendoms, with Special Guest Mauro Durante",
-   "org": "World Music Institute",
-   "location": "Drom, 85 Avenue A, Manhattan",
-   "description": "Italian singer-songwriter AGADEZ and violinist-percussionist Mauro Durante lead a musical ritual through the Sacred Feminine of the Mediterranean, with sacred drums.",
-   "discipline": "Music",
-   "genre": "world music / Taranta",
-   "url": "https://www.worldmusicinstitute.org/agadezatdrom/",
-   "notes": "Doors 6:30 PM; presented by WMI in a promotional partnership",
-   "free": false
-  },
-  {
-   "date": "2026-11-18",
    "time": "7:30 PM",
    "title": "Juilliard at The Apollo: Filles de Kilimanjaro",
    "org": "Apollo Theater",
@@ -7787,6 +7875,32 @@ window.EVENTS = {
    "also": [
     "L'Alliance New York"
    ]
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:30 PM",
+   "title": "Rihab Chaieb, Mezzo-Soprano / Ammiel Bushakevitz, Piano",
+   "org": "Carnegie Hall",
+   "location": "Weill Recital Hall",
+   "description": "Mezzo-soprano and piano recital.",
+   "discipline": "Music",
+   "genre": "classical vocal recital",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/18/rihab-chaieb-mezzosoprano-ammiel-bushakevitz-piano-0730pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-11-18",
+   "time": "7:30 PM",
+   "title": "Minsoo Sohn, Piano",
+   "org": "Carnegie Hall",
+   "location": "Zankel Hall",
+   "description": "Solo piano recital.",
+   "discipline": "Music",
+   "genre": "classical piano",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/18/minsoo-sohn-piano-0730pm",
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-18",
@@ -7872,8 +7986,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-18",
@@ -7885,8 +8002,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-18",
@@ -8187,8 +8307,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-19",
@@ -8283,7 +8406,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-19",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -8296,7 +8419,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-19",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -8565,7 +8688,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-19",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "A Feast for the Forgotten",
    "org": "Asian American Arts Alliance (A4)",
    "location": "Alcove Cinema, Brooklyn Peace Center, 23 Marcus Garvey Blvd, Brooklyn, NY 11206",
@@ -8612,8 +8735,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-19",
@@ -8643,7 +8769,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-19",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "Kayla Farrish + Collaborators: A Beast that Came Apart Mid-Air (Pt. 1)",
    "org": "Triskelion Arts",
    "location": "Triskelion Arts",
@@ -8910,6 +9036,19 @@ window.EVENTS = {
   {
    "date": "2026-11-20",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-11-20",
+   "time": "7:00 PM",
    "title": "Composers Concordance Presents Berten D'Hollander - Flute & Warren Nicholson - Guitar",
    "org": "New Music USA",
    "location": "Saint John's in the Village, 218 West 11th Street, NYC",
@@ -8961,7 +9100,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-20",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -8974,7 +9113,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-20",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -9371,6 +9510,19 @@ window.EVENTS = {
   {
    "date": "2026-11-20",
    "time": "8:00 PM",
+   "title": "The New York Pops: One Night Only: An Evening with Denée Benton and Jordan Donica",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "The New York Pops with Broadway performers Denée Benton and Jordan Donica.",
+   "discipline": "Music",
+   "genre": "pops / Broadway",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/20/the-new-york-pops-0800pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-11-20",
+   "time": "8:00 PM",
    "title": "Sunset Jazz",
    "org": "Culture Lab LIC",
    "location": "Culture Lab LIC art gallery",
@@ -9392,6 +9544,19 @@ window.EVENTS = {
    "genre": "poetry reading",
    "url": "https://irishartscenter.org/event/17th-annual-poetryfest",
    "notes": "Friday launch reading of the 17th Annual PoetryFest; tickets $25/$56/$68",
+   "free": false
+  },
+  {
+   "date": "2026-11-20",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
    "free": false
   },
   {
@@ -9683,8 +9848,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-21",
@@ -9709,8 +9877,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-21",
@@ -9779,7 +9950,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-21",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -9792,7 +9963,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-21",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -10029,6 +10200,19 @@ window.EVENTS = {
    "also": [
     "Jazz Power Initiative"
    ]
+  },
+  {
+   "date": "2026-11-21",
+   "time": "5:00 PM",
+   "title": "James Austin Smith and Friends: Time Enough: A Well-Being Concert",
+   "org": "Carnegie Hall",
+   "location": "Resnick Education Wing, Carnegie Hall",
+   "description": "A well-being concert led by oboist James Austin Smith and friends.",
+   "discipline": "Music",
+   "genre": "well-being concert",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/21/james-austin-smith-and-friends-0500pm",
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -10292,7 +10476,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-21",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -10305,7 +10489,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-21",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -10699,8 +10883,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-21",
@@ -10712,8 +10899,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-21",
@@ -11048,7 +11238,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-22",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -11061,7 +11251,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-22",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -11202,8 +11392,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-22",
@@ -11215,8 +11408,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-22",
@@ -11389,7 +11585,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-22",
-   "time": "5 PM",
+   "time": "5:00 PM",
    "title": "Gutt: In Search of Life's Seasons",
    "org": "Asian American Arts Alliance (A4)",
    "location": "Carnegie Hall (per ticket link)",
@@ -11493,7 +11689,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-22",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "YAMAN 2026 | The Philippine Tenors",
    "org": "Asian American Arts Alliance (A4)",
    "location": "Slate NY, 54 West 21st Street, New York, NY 10010",
@@ -11712,12 +11908,15 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-23",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "Yellow Frosted Willow: The Anna May Wong Musical (In Concert)",
    "org": "Asian American Arts Alliance (A4)",
    "location": "Don't Tell Mama, Brick Room, 343 W 46th Street, New York, NY 10036",
@@ -12014,8 +12213,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-24",
@@ -12058,7 +12260,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-24",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -12071,7 +12273,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-24",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -12277,8 +12479,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-25",
@@ -12290,8 +12495,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-25",
@@ -12308,7 +12516,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-25",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -12321,7 +12529,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-25",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -12438,7 +12646,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-25",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -12451,7 +12659,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-25",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -12543,8 +12751,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-25",
@@ -12556,8 +12767,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-25",
@@ -12624,8 +12838,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -12637,8 +12854,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -12655,7 +12875,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-27",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -12811,7 +13031,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-27",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -12824,7 +13044,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-27",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -12958,8 +13178,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -12971,8 +13194,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-27",
@@ -13188,8 +13414,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -13201,8 +13430,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -13261,7 +13493,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-28",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -13274,7 +13506,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-28",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -13547,7 +13779,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-28",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -13560,7 +13792,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-28",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -13704,8 +13936,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -13717,8 +13952,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-28",
@@ -13910,7 +14148,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-29",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -13923,7 +14161,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-11-29",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -14012,8 +14250,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/a-few-good-men/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-29",
@@ -14025,8 +14266,11 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "play",
    "url": "https://lct.org/shows/seven-guitars/",
-   "notes": "",
-   "free": false
+   "notes": "also listed by Lincoln Center Theater",
+   "free": false,
+   "also": [
+    "Lincoln Center Theater"
+   ]
   },
   {
    "date": "2026-11-29",
@@ -14443,11 +14687,11 @@ window.EVENTS = {
    "title": "The Composer Series: Benj Pasek & Justin Paul",
    "org": "Lincoln Center Theater",
    "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
-   "description": "One-night evening of songs and stories with Pasek & Paul and emerging composers Barlow & Bear, Marie Dresselhuis, Joriah Kwamé, Oliver Richman and Jaheem King Toombs.",
+   "description": "One-night evening of songs and stories with Pasek & Paul alongside emerging composers Barlow & Bear, Marie Dresselhuis, Joriah Kwamé, Oliver Richman and Jaheem King Toombs.",
    "discipline": "Music",
    "genre": "musical theater songwriters",
    "url": "https://www.lct.org/shows/benj-pasek-and-justin-paul/",
-   "notes": "One night only; includes discussion alongside performances",
+   "notes": "One night only; ticketed",
    "free": false
   },
   {
@@ -14504,7 +14748,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-01",
-   "time": "6 PM",
+   "time": "6:00 PM",
    "title": "Steven Beck, Piano",
    "org": "Miller Theatre",
    "location": "Miller Theatre at Columbia University",
@@ -14525,6 +14769,32 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "",
    "url": "https://irishrep.org/whats-on/the-dead-1904",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-01",
+   "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-01",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": "",
    "free": false
   },
@@ -14582,7 +14852,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-01",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -14595,7 +14865,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-01",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -14790,7 +15060,33 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-02",
-   "time": "2 PM",
+   "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-02",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-02",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -14803,7 +15099,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-02",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -14972,7 +15268,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-02",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -14985,7 +15281,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-02",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -15077,6 +15373,19 @@ window.EVENTS = {
   {
    "date": "2026-12-02",
    "time": "7:30 PM",
+   "title": "Karim Sulayman, Tenor / Tom Poster, Piano",
+   "org": "Carnegie Hall",
+   "location": "Zankel Hall",
+   "description": "Tenor and piano recital.",
+   "discipline": "Music",
+   "genre": "classical vocal recital",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/02/karim-sulayman-tenor-tom-poster-piano-0730pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-02",
+   "time": "7:30 PM",
    "title": "Beethoven Piano Sonatas III",
    "org": "Chamber Music Society of Lincoln Center",
    "location": "Daniel and Joanna S. Rose Studio at CMS",
@@ -15110,6 +15419,45 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "classical tragedy",
    "url": "https://tfana.org/events/elektra-2026-11-11-730-pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-02",
+   "time": "8:00 PM",
+   "title": "Hélène Grimaud, Piano",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Solo piano recital by Hélène Grimaud.",
+   "discipline": "Music",
+   "genre": "classical piano",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/02/helene-grimaud-piano-0800pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-02",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-02",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": "",
    "free": false
   },
@@ -15149,7 +15497,7 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.tdf.org/shows/23267/alvin-ailey-american-dance-theater/",
-   "notes": "also listed by New York City Center; from previous update; also listed by New York City Center",
+   "notes": "also listed by New York City Center; also listed by New York City Center; from previous update; also listed by New York City Center",
    "free": false,
    "also": [
     "New York City Center"
@@ -15179,6 +15527,19 @@ window.EVENTS = {
    "genre": "holiday",
    "url": "https://www.tdf.org/shows/23508/the-very-gay-christmas-prince/",
    "notes": "from previous update",
+   "free": false
+  },
+  {
+   "date": "2026-12-03",
+   "time": "1:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
    "free": false
   },
   {
@@ -15327,6 +15688,19 @@ window.EVENTS = {
   {
    "date": "2026-12-03",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-03",
+   "time": "7:00 PM",
    "title": "The Crone Barrier / Just Me",
    "org": "New Federal Theatre",
    "location": "NFT @ WP Theater, 2162 Broadway @ 76th Street, NYC 10024",
@@ -15378,7 +15752,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-03",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -15391,7 +15765,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-03",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -15535,6 +15909,19 @@ window.EVENTS = {
   {
    "date": "2026-12-03",
    "time": "8:00 PM",
+   "title": "Renée Fleming with Béla Fleck: The Fiddle and the Drum",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Soprano Renée Fleming and banjoist Béla Fleck perform The Fiddle and the Drum.",
+   "discipline": "Music",
+   "genre": "classical / bluegrass crossover",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/03/renee-fleming-with-bela-fleck-0800pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-03",
+   "time": "8:00 PM",
    "title": "The 8th",
    "org": "Culture Lab LIC",
    "location": "Culture Lab LIC",
@@ -15547,7 +15934,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-03",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "Split Bill #49: Mizuho Kappa / Dylan Richmond",
    "org": "Triskelion Arts",
    "location": "Triskelion Arts",
@@ -15798,6 +16185,32 @@ window.EVENTS = {
   {
    "date": "2026-12-04",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-04",
+   "time": "7:00 PM",
    "title": "The Crone Barrier / Just Me",
    "org": "New Federal Theatre",
    "location": "NFT @ WP Theater, 2162 Broadway @ 76th Street, NYC 10024",
@@ -15862,7 +16275,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-04",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -15875,7 +16288,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-04",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -16148,7 +16561,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-04",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "Split Bill #49: Mizuho Kappa / Dylan Richmond",
    "org": "Triskelion Arts",
    "location": "Triskelion Arts",
@@ -16360,6 +16773,32 @@ window.EVENTS = {
   {
    "date": "2026-12-05",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-05",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -16398,7 +16837,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-05",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -16411,7 +16850,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-05",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -16768,7 +17207,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-05",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -16781,7 +17220,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-05",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -17010,8 +17449,11 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "gospel / inspirational",
    "url": "https://www.americancomposers.org/performances-events/a-night-of-inspiration",
-   "notes": "Presented by Carnegie Hall; co-produced by Vivian Scott Chew; ACO performing for the first time; Lineup includes Regina Belle, Jekalyn Carr, Donald Lawrence and others",
-   "free": false
+   "notes": "Presented by Carnegie Hall; co-produced by Vivian Scott Chew; ACO performing for the first time; Lineup includes Regina Belle, Jekalyn Carr, Donald Lawrence and others; also listed by Carnegie Hall",
+   "free": false,
+   "also": [
+    "Carnegie Hall"
+   ]
   },
   {
    "date": "2026-12-05",
@@ -17024,6 +17466,32 @@ window.EVENTS = {
    "genre": "devised mask/bouffon theater",
    "url": "https://events.humanitix.com/the-8th",
    "notes": "New Works Festival",
+   "free": false
+  },
+  {
+   "date": "2026-12-05",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-05",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
    "free": false
   },
   {
@@ -17067,7 +17535,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-05",
-   "time": "8 PM",
+   "time": "8:00 PM",
    "title": "Split Bill #49: Mizuho Kappa / Dylan Richmond",
    "org": "Triskelion Arts",
    "location": "Triskelion Arts",
@@ -17243,6 +17711,19 @@ window.EVENTS = {
   {
    "date": "2026-12-06",
    "time": "2:00 PM",
+   "title": "Chamber Orchestra of Europe",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Orchestral concert by the Chamber Orchestra of Europe.",
+   "discipline": "Music",
+   "genre": "classical orchestra",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/06/chamber-orchestra-of-europe-0200pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-06",
+   "time": "2:00 PM",
    "title": "Saigon",
    "org": "L'Alliance New York",
    "location": "St. Ann's Warehouse",
@@ -17281,7 +17762,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-06",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -17294,7 +17775,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-06",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Visitors",
    "org": "Second Stage Theater",
    "location": "The Irene Diamond Stage, Pershing Square Signature Center, 480 W 42nd Street",
@@ -17388,7 +17869,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-06",
-   "time": "3 PM",
+   "time": "3:00 PM",
    "title": "NY Phil Ensembles at Merkin Hall",
    "org": "Kaufman Music Center",
    "location": "Merkin Hall, Kaufman Music Center, 129 West 67th Street",
@@ -17396,8 +17877,11 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "classical chamber",
    "url": "https://www.kaufmanmusiccenter.org/mch/event/ny-phil-ensembles-at-merkin-hall-12-6-26",
-   "notes": "from previous update",
-   "free": false
+   "notes": "from previous update; also listed by New York Philharmonic",
+   "free": false,
+   "also": [
+    "New York Philharmonic"
+   ]
   },
   {
    "date": "2026-12-06",
@@ -17415,6 +17899,32 @@ window.EVENTS = {
   {
    "date": "2026-12-06",
    "time": "3:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-06",
+   "time": "3:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-06",
+   "time": "3:00 PM",
    "title": "The Crone Barrier / Just Me",
    "org": "New Federal Theatre",
    "location": "NFT @ WP Theater, 2162 Broadway @ 76th Street, NYC 10024",
@@ -17423,19 +17933,6 @@ window.EVENTS = {
    "genre": "solo performance",
    "url": "https://www.instantseats.com/index.cfm?fuseaction=home.event&eventID=F1C51ED2-CCDD-FEDA-2C782C9EC3648F1C",
    "notes": "Page does not say which show plays on which date",
-   "free": false
-  },
-  {
-   "date": "2026-12-06",
-   "time": "3:00 PM",
-   "title": "New York Philharmonic Ensembles at Merkin Hall",
-   "org": "New York Philharmonic",
-   "location": "Merkin Hall at Kaufman Music Center, 129 West 67th Street",
-   "description": "Philharmonic musicians play Bartók's String Quartet No. 1 and Beethoven's Archduke Trio.",
-   "discipline": "Music",
-   "genre": "chamber music",
-   "url": "https://www.nyphil.org/concerts-tickets/event-calendar",
-   "notes": "",
    "free": false
   },
   {
@@ -17708,21 +18205,11 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "",
    "url": "https://newmusicusa.org/events/laura-itandehui-3/",
-   "notes": "",
-   "free": false
-  },
-  {
-   "date": "2026-12-06",
-   "time": "8 PM",
-   "title": "Laura Itandehui",
-   "org": "World Music Institute",
-   "location": "Public Records, 233 Butler Street, Brooklyn",
-   "description": "NYC debut of Oaxacan singer Laura Itandehui, whose music spans jazz, bolero, son, cumbia and salsa.",
-   "discipline": "Music",
-   "genre": "contemporary Latin",
-   "url": "https://www.worldmusicinstitute.org/laura-itandehui/",
-   "notes": "Next Gen Series; doors 7 PM; standing room only, 21+; broadcast live on WKCR FM",
-   "free": false
+   "notes": "also listed by World Music Institute",
+   "free": false,
+   "also": [
+    "World Music Institute"
+   ]
   },
   {
    "date": "2026-12-06",
@@ -17805,14 +18292,14 @@ window.EVENTS = {
   {
    "date": "2026-12-07",
    "time": "6:30 PM",
-   "title": "The Reading Series: Blood Sisters",
+   "title": "The Reading Series: Blood Sisters by Goldie Patrick",
    "org": "Lincoln Center Theater",
    "location": "Claire Tow Theater, Lincoln Center Theater, 150 West 65th Street",
-   "description": "One-night-only reading of Goldie Patrick's new play Blood Sisters, chosen by Dominique Morisseau, with an open conversation between playwrights beforehand.",
+   "description": "One-night-only reading of a new play by Goldie Patrick, selected by Dominique Morisseau, as part of LCT's Reading Series.",
    "discipline": "Theater",
    "genre": "staged reading / new play",
    "url": "https://www.lct.org/shows/the-reading-series/",
-   "notes": "RSVPs not yet open; page invites signing up for notifications; Start time shown is the listed 6:30PM event time, which includes a pre-reading conversation",
+   "notes": "Page lists an interest list for RSVPs; Open conversation among playwrights precedes the reading",
    "free": false
   },
   {
@@ -17903,6 +18390,19 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "vocal ensemble",
    "url": "https://newmusicusa.org/events/music-mondays-presents-cantus/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-07",
+   "time": "8:00 PM",
+   "title": "Leslie Odom, Jr.: The Christmas Tour 2026",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Leslie Odom, Jr. performs a holiday concert as part of his Christmas tour.",
+   "discipline": "Music",
+   "genre": "holiday / vocal",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/07/leslie-odom-jr-0800pm",
    "notes": "",
    "free": false
   },
@@ -18026,6 +18526,32 @@ window.EVENTS = {
   {
    "date": "2026-12-08",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:00 PM",
    "title": "Solo Performance Collective Readings",
    "org": "New Federal Theatre",
    "location": "NFT @ WP Theater, 2162 Broadway @ 76th Street, NYC 10024",
@@ -18090,7 +18616,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-08",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -18163,6 +18689,19 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12826",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:30 PM",
+   "title": "Ariel Quartet",
+   "org": "Carnegie Hall",
+   "location": "Weill Recital Hall",
+   "description": "String quartet concert by the Ariel Quartet.",
+   "discipline": "Music",
+   "genre": "chamber",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/08/ariel-quartet-0730pm",
    "notes": "",
    "free": false
   },
@@ -18311,6 +18850,19 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-09",
+   "time": "1:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-09",
    "time": "2:00 PM",
    "title": "The Matter of the Disappearance of Michael Anthony Smith, Jr.",
    "org": "En Garde Arts",
@@ -18319,6 +18871,19 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-09",
+   "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
    "notes": "",
    "free": false
   },
@@ -18337,7 +18902,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-09",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -18389,7 +18954,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-09",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Lion King Benefit Performance",
    "org": "Entertainment Community Fund",
    "location": "Minskoff Theatre, 200 West 45th Street, New York, NY 10036",
@@ -18437,6 +19002,19 @@ window.EVENTS = {
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
    "notes": "US premiere; Crossing The Line festival",
+   "free": false
+  },
+  {
+   "date": "2026-12-09",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
    "free": false
   },
   {
@@ -18506,7 +19084,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-09",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -18632,6 +19210,19 @@ window.EVENTS = {
    "genre": "classical choral / Christmas",
    "url": "https://www.voicesofascension.org/candlelight-christmas-concerts-2026",
    "notes": "Tickets required; Recorded for future WQXR broadcast",
+   "free": false
+  },
+  {
+   "date": "2026-12-09",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
    "free": false
   },
   {
@@ -18779,6 +19370,19 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-10",
+   "time": "1:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-10",
    "time": "3:00 PM",
    "title": "First Light: things we burn for love by Marcus Yi",
    "org": "Ensemble Studio Theatre",
@@ -18884,6 +19488,19 @@ window.EVENTS = {
   {
    "date": "2026-12-10",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-10",
+   "time": "7:00 PM",
    "title": "The Crone Barrier / Just Me",
    "org": "New Federal Theatre",
    "location": "NFT @ WP Theater, 2162 Broadway @ 76th Street, NYC 10024",
@@ -18961,7 +19578,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-10",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -19377,6 +19994,32 @@ window.EVENTS = {
   {
    "date": "2026-12-11",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-11",
+   "time": "7:00 PM",
    "title": "The Crone Barrier / Just Me",
    "org": "New Federal Theatre",
    "location": "NFT @ WP Theater, 2162 Broadway @ 76th Street, NYC 10024",
@@ -19441,7 +20084,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-11",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -19945,6 +20588,32 @@ window.EVENTS = {
   {
    "date": "2026-12-12",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-12",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-12",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -20009,7 +20678,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-12",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -20353,7 +21022,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-12",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -20539,6 +21208,19 @@ window.EVENTS = {
   {
    "date": "2026-12-12",
    "time": "8:00 PM",
+   "title": "Daniil Trifonov, Piano",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Solo piano recital by Daniil Trifonov.",
+   "discipline": "Music",
+   "genre": "classical piano",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/12/daniil-trifonov-piano-0800pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-12",
+   "time": "8:00 PM",
    "title": "Joel Watson",
    "org": "ISSUE Project Room",
    "location": "ISSUE Project Room, 22 Boerum Place, Brooklyn 11201",
@@ -20546,6 +21228,32 @@ window.EVENTS = {
    "discipline": "Multidisciplinary",
    "genre": "",
    "url": "https://issueprojectroom.org/event/joel-watson",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-12",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-12",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": "",
    "free": false
   },
@@ -20875,7 +21583,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-13",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -20965,6 +21673,32 @@ window.EVENTS = {
    "genre": "family theater",
    "url": "https://www.lehmancenter.org/events/magic-school-bus-live",
    "notes": "Family show",
+   "free": false
+  },
+  {
+   "date": "2026-12-13",
+   "time": "3:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-13",
+   "time": "3:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
    "free": false
   },
   {
@@ -21372,15 +22106,28 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-14",
+   "time": "8:00 PM",
+   "title": "Yunchan Lim, Piano",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Solo piano recital by Yunchan Lim.",
+   "discipline": "Music",
+   "genre": "classical piano",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/14/yunchan-lim-piano-0800pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-14",
    "time": "",
    "title": "The Composer Series Featuring Lin-Manuel Miranda",
    "org": "Lincoln Center Theater",
-   "location": "Lincoln Center Theater (venue not stated on page)",
-   "description": "Next installment of the Composer Series pairing a celebrated musical theater songwriter with emerging composers.",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Next installment of LCT's Composer Series, pairing a celebrated songwriter with emerging composers.",
    "discipline": "Music",
    "genre": "musical theater songwriters",
    "url": "https://www.lct.org/shows/benj-pasek-and-justin-paul/",
-   "notes": "Only the date is listed; time, venue and on-sale details to be announced.",
+   "notes": "Listed as an upcoming event; time and on-sale details not yet announced. Venue assumed per series page (Beaumont listed for the first event).",
    "free": false
   },
   {
@@ -21433,6 +22180,32 @@ window.EVENTS = {
    "genre": "big band holiday jazz",
    "url": "https://jazz.org/concert/big-band-holidays-the-jazz-at-lincoln-center-orchestra/",
    "notes": "exact dates and times of each show not stated, so only first date listed; Sunday 2pm show is a relaxed performance",
+   "free": false
+  },
+  {
+   "date": "2026-12-15",
+   "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-15",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
    "free": false
   },
   {
@@ -21502,7 +22275,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-15",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -21651,6 +22424,19 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-16",
+   "time": "1:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-16",
    "time": "2:00 PM",
    "title": "The Matter of the Disappearance of Michael Anthony Smith, Jr.",
    "org": "En Garde Arts",
@@ -21659,6 +22445,19 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "new play",
    "url": "https://theatrerow.ludus.com/200547207",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-16",
+   "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
    "notes": "",
    "free": false
   },
@@ -21677,7 +22476,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-16",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -21782,6 +22581,19 @@ window.EVENTS = {
   {
    "date": "2026-12-16",
    "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-16",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -21846,7 +22658,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-16",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -21948,6 +22760,19 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-16",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
    "notes": "",
    "free": false
   },
@@ -22071,6 +22896,32 @@ window.EVENTS = {
   {
    "date": "2026-12-17",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-17",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-17",
+   "time": "7:00 PM",
    "title": "Etudes",
    "org": "Mabou Mines",
    "location": "Mabou Mines Theater, 150 First Avenue, New York, NY 10009",
@@ -22148,7 +22999,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-17",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -22265,6 +23116,19 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-18",
+   "time": "3:00 PM",
+   "title": "Open Working Rehearsal: The New York Pops – Sleigh Bells Ring",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Open working rehearsal for The New York Pops' holiday program Sleigh Bells Ring.",
+   "discipline": "Music",
+   "genre": "pops / holiday",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/18/open-working-rehearsal-the-new-york-pops-0300pm",
+   "notes": "Open working rehearsal",
+   "free": false
+  },
+  {
+   "date": "2026-12-18",
    "time": "5:00 PM",
    "title": "Winter Lantern Festival",
    "org": "Snug Harbor",
@@ -22339,6 +23203,32 @@ window.EVENTS = {
    "genre": "contemporary French theater",
    "url": "https://lallianceny.org/event/saigon/",
    "notes": "US premiere; Crossing The Line festival",
+   "free": false
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-18",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
    "free": false
   },
   {
@@ -22421,7 +23311,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-18",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -22565,6 +23455,19 @@ window.EVENTS = {
   {
    "date": "2026-12-18",
    "time": "8:00 PM",
+   "title": "The New York Pops: Sleigh Bells Ring",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "The New York Pops perform a holiday program, Sleigh Bells Ring.",
+   "discipline": "Music",
+   "genre": "pops / holiday",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/18/the-new-york-pops-0800pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-18",
+   "time": "8:00 PM",
    "title": "Spanish Harlem Orchestra: Salsa Navidad",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts, Queens College (venues at 153-49 Reeves Ave., Flushing)",
@@ -22585,6 +23488,19 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-18",
+   "time": "9:00 PM",
+   "title": "esperanza spalding",
+   "org": "Carnegie Hall",
+   "location": "Zankel Hall",
+   "description": "Late-evening concert by esperanza spalding.",
+   "discipline": "Music",
+   "genre": "jazz",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/18/esperanza-spalding-0900pm",
    "notes": "",
    "free": false
   },
@@ -22708,6 +23624,32 @@ window.EVENTS = {
   {
    "date": "2026-12-19",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-19",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-19",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -22746,7 +23688,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-19",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -22768,6 +23710,19 @@ window.EVENTS = {
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
    "notes": "Tickets $60 general, $55 students/seniors",
+   "free": false
+  },
+  {
+   "date": "2026-12-19",
+   "time": "2:30 PM",
+   "title": "Conrad Tao: A Well-Being Concert",
+   "org": "Carnegie Hall",
+   "location": "Resnick Education Wing, Carnegie Hall",
+   "description": "A well-being concert featuring Conrad Tao.",
+   "discipline": "Music",
+   "genre": "well-being concert",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/19/conrad-tao-0230pm",
+   "notes": "",
    "free": false
   },
   {
@@ -22859,6 +23814,19 @@ window.EVENTS = {
    "genre": "family folk",
    "url": "https://www.viewcy.com/event/elizabeth_mitchell",
    "notes": "Doors 3:30pm; kids $15, adults $25",
+   "free": false
+  },
+  {
+   "date": "2026-12-19",
+   "time": "5:00 PM",
+   "title": "Conrad Tao: A Well-Being Concert",
+   "org": "Carnegie Hall",
+   "location": "Resnick Education Wing, Carnegie Hall",
+   "description": "A well-being concert featuring Conrad Tao.",
+   "discipline": "Music",
+   "genre": "well-being concert",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/19/conrad-tao-0500pm",
+   "notes": "",
    "free": false
   },
   {
@@ -22993,7 +23961,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-19",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -23127,6 +24095,19 @@ window.EVENTS = {
   {
    "date": "2026-12-19",
    "time": "8:00 PM",
+   "title": "The New York Pops: Sleigh Bells Ring",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "The New York Pops perform a holiday program, Sleigh Bells Ring.",
+   "discipline": "Music",
+   "genre": "pops / holiday",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/19/the-new-york-pops-0800pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-19",
+   "time": "8:00 PM",
    "title": "Leila Bordreuil: Numinosum",
    "org": "ISSUE Project Room",
    "location": "ISSUE Project Room, 22 Boerum Place, Brooklyn 11201",
@@ -23134,6 +24115,32 @@ window.EVENTS = {
    "discipline": "Music",
    "genre": "experimental",
    "url": "https://issueprojectroom.org/event/leila-bordreuil-numinosum",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-19",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-19",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": "",
    "free": false
   },
@@ -23308,7 +24315,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-20",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -23316,6 +24323,32 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-20",
+   "time": "3:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-20",
+   "time": "3:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": "",
    "free": false
   },
@@ -23395,6 +24428,19 @@ window.EVENTS = {
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
    "notes": "Closing performance; Tickets $60 general, $55 students/seniors",
+   "free": false
+  },
+  {
+   "date": "2026-12-20",
+   "time": "5:00 PM",
+   "title": "Joshua Roman, Cello / Camila Meza, Vocals and Guitar / Zane Rodulfo, Percussion: A Well-Being Concert",
+   "org": "Carnegie Hall",
+   "location": "Resnick Education Wing, Carnegie Hall",
+   "description": "A well-being concert with cello, vocals and guitar, and percussion.",
+   "discipline": "Music",
+   "genre": "well-being concert",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/20/joshua-roman-cello-camila-meza-vocals-and-guitar-zane-rodulfo-percussion-0500pm",
+   "notes": "",
    "free": false
   },
   {
@@ -23595,6 +24641,32 @@ window.EVENTS = {
   {
    "date": "2026-12-22",
    "time": "7:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-22",
+   "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-22",
+   "time": "7:00 PM",
    "title": "Rejoice! Let Your Light Shine",
    "org": "New Federal Theatre",
    "location": "NFT @ WP Theater, 2162 Broadway @ 76th Street, NYC 10024",
@@ -23633,7 +24705,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-22",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -23741,6 +24813,32 @@ window.EVENTS = {
   {
    "date": "2026-12-23",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-23",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-23",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -23766,7 +24864,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-23",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -23857,7 +24955,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-23",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -23934,6 +25032,32 @@ window.EVENTS = {
    "free": false
   },
   {
+   "date": "2026-12-23",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-23",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
    "date": "2026-12-24",
    "time": "2:00 PM",
    "title": "Ailey at New York City Center",
@@ -23943,6 +25067,32 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-122426",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-24",
+   "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-24",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": "",
    "free": false
   },
@@ -23961,7 +25111,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-24",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -23996,6 +25146,19 @@ window.EVENTS = {
    "genre": "lantern festival with acrobatics",
    "url": "https://snug-harbor.org/event/winter-lantern-festival/?slot_id=25335",
    "notes": "5-10 PM (last entry 9 PM); Acrobatic show time not stated separately; ticketed; from previous update",
+   "free": false
+  },
+  {
+   "date": "2026-12-24",
+   "time": "7:00 PM",
+   "title": "New York String Orchestra",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Concert by the New York String Orchestra.",
+   "discipline": "Music",
+   "genre": "classical orchestra",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/24/new-york-string-orchestra-0700pm",
+   "notes": "",
    "free": false
   },
   {
@@ -24040,6 +25203,32 @@ window.EVENTS = {
   {
    "date": "2026-12-26",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-26",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-26",
+   "time": "2:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -24065,7 +25254,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-26",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -24104,7 +25293,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-26",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -24154,6 +25343,32 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-26",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-26",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": "",
    "free": false
   },
@@ -24238,6 +25453,32 @@ window.EVENTS = {
   {
    "date": "2026-12-27",
    "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-27",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-27",
+   "time": "2:00 PM",
    "title": "Wild Rose",
    "org": "New York Theatre Workshop",
    "location": "New York Theatre Workshop",
@@ -24250,7 +25491,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-27",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -24329,6 +25570,19 @@ window.EVENTS = {
   {
    "date": "2026-12-27",
    "time": "7:30 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-27",
+   "time": "7:30 PM",
    "title": "Wild Rose",
    "org": "New York Theatre Workshop",
    "location": "New York Theatre Workshop",
@@ -24393,7 +25647,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-28",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -24401,6 +25655,32 @@ window.EVENTS = {
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-28",
+   "time": "8:00 PM",
+   "title": "New York String Orchestra",
+   "org": "Carnegie Hall",
+   "location": "Stern Auditorium / Perelman Stage, Carnegie Hall",
+   "description": "Concert by the New York String Orchestra.",
+   "discipline": "Music",
+   "genre": "classical orchestra",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/28/new-york-string-orchestra-0800pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-29",
+   "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
    "notes": "",
    "free": false
   },
@@ -24446,6 +25726,19 @@ window.EVENTS = {
   {
    "date": "2026-12-29",
    "time": "7:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-29",
+   "time": "7:00 PM",
    "title": "George Balanchine's The Nutcracker",
    "org": "New York City Ballet",
    "location": "New York City Ballet (venue not stated on page)",
@@ -24458,7 +25751,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-29",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -24509,6 +25802,19 @@ window.EVENTS = {
    "free": false
   },
   {
+   "date": "2026-12-29",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
    "date": "2026-12-30",
    "time": "12:00 PM",
    "title": "Tilt! An ’80s Circus Thrill Ride",
@@ -24531,6 +25837,32 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-123026-mat",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-30",
+   "time": "2:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-30",
+   "time": "2:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": "",
    "free": false
   },
@@ -24562,7 +25894,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-30",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -24614,7 +25946,7 @@ window.EVENTS = {
   },
   {
    "date": "2026-12-30",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -24664,6 +25996,45 @@ window.EVENTS = {
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-30",
+   "time": "8:00 PM",
+   "title": "A Few Good Men",
+   "org": "Lincoln Center Theater",
+   "location": "Beaumont Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Aaron Sorkin's courtroom drama about two Marines accused of murder, directed by Michael Arden.",
+   "discipline": "Theater",
+   "genre": "play / Broadway revival",
+   "url": "https://www.lct.org/shows/a-few-good-men/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-30",
+   "time": "8:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-31",
+   "time": "1:00 PM",
+   "title": "August Wilson's Seven Guitars",
+   "org": "Lincoln Center Theater",
+   "location": "Newhouse Theater, Lincoln Center Theater, 150 West 65th Street",
+   "description": "Revival of August Wilson's drama about blues musician Floyd 'Schoolboy' Barton in 1940s Pittsburgh, directed by Ruben Santiago-Hudson.",
+   "discipline": "Theater",
+   "genre": "play / revival",
+   "url": "https://www.lct.org/shows/seven-guitars/",
    "notes": "",
    "free": false
   },
@@ -24760,7 +26131,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-01",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -24838,7 +26209,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-02",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -24903,7 +26274,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-02",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -25059,7 +26430,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-03",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -25137,7 +26508,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-03",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "Other Desert Cities Special Benefit Performance",
    "org": "Entertainment Community Fund",
    "location": "Hudson Theatre, 141 West 44th Street, New York, NY 10036",
@@ -25215,7 +26586,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-05",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -25254,7 +26625,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-06",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -25293,7 +26664,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-06",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -25358,7 +26729,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-07",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -25462,7 +26833,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-08",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -25579,7 +26950,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-09",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -25657,7 +27028,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-09",
-   "time": "7 PM",
+   "time": "7:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
@@ -25787,7 +27158,7 @@ window.EVENTS = {
   },
   {
    "date": "2027-01-10",
-   "time": "2 PM",
+   "time": "2:00 PM",
    "title": "The Fantasticks",
    "org": "Second Stage Theater",
    "location": "Hayes Theater, 240 West 44th Street",
