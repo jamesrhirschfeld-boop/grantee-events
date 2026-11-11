@@ -242,5 +242,13 @@
   },
   "lincoln-center-theater": {
     "scope": "Include every production that is playing in the window, even when its page gives only a run (for example 'through December 20') and not each performance: list one entry per production with the production's own page link, using the first date inside the window and a start time only if the page states one. Also include readings and concert series. Do not list talks, discussions, pre-show or post-show events, or rehearsals."
+  },
+  "manhattan-theatre-club": {
+    "pages": [
+      {
+        "url": "https://www.manhattantheatreclub.com/our-season/calendar/",
+        "scope": "This page is MTC's month-by-month calendar of every performance, with each show's time on each date. List every performance with its stated time. The page does not state the venue in text, so use 'Manhattan Theatre Club' as the location unless the page names a venue. Ignore the 'Special Event' legend."
+      }
+    ]
   }
 }
