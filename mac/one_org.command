@@ -10,6 +10,14 @@ export ANTHROPIC_API_KEY="$(security find-generic-password -a "$USER" -s nyc-gra
 SLUGS="$*"
 if [ -z "$SLUGS" ]; then read -r -p "Organization slug(s), e.g. new-york-city-center: " SLUGS; fi
 PY=.venv/bin/python
+# Stop early on a slug that matches nothing (the slug is not always the organization's name; see slugs.txt).
+for s in $SLUGS; do
+  if ! $PY -c "import json,sys; sys.exit(0 if any(x['slug']==sys.argv[1] for x in json.load(open('sources.json'))['sources']) else 1)" "$s" 2>/dev/null; then
+    echo "No organization has the slug '$s'. Closest matches in slugs.txt:"
+    grep -i -- "${s%%-*}" slugs.txt | head -8
+    read -r -p "Press Return to close."; exit 1
+  fi
+done
 $PY scripts/sync_orgs.py
 $PY scripts/scrape.py $SLUGS
 $PY scripts/extract.py $SLUGS

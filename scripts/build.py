@@ -77,6 +77,9 @@ def clean(ev, org, default_discipline, start, end):
         disc = default_discipline
     # Fresh extractions use "start_time"; events carried over from events.json use "time".
     t = (ev.get("start_time") or ev.get("time") or "").strip()
+    m = re.match(r"^(\d{1,2})\s*([AaPp])\.?[Mm]\.?$", t)  # "7 PM" -> "7:00 PM", like the rest of the page
+    if m:
+        t = f"{int(m.group(1))}:00 {m.group(2).upper()}M"
     return {
         "date": date.isoformat(),
         "time": t,
@@ -241,6 +244,10 @@ def main():
         if src.get("manual") and raw and raw.get("manual_age_days", 0) > age_limit:
             warnings.append(f"{org}: its saved calendar file is {raw['manual_age_days']} days old, so listings may be out of date.")
         if fresh:
+            was = [c for c in (clean(ev, org, default, start, end) for ev in prev) if c]
+            if len(was) >= 10 and len(fresh) < len(was) * 0.5:
+                warnings.append(f"{org}: only {len(fresh)} listings this time, down from {len(was)} last time. "
+                                "The page may not have loaded fully; check it before relying on the list.")
             counts[org] = len(fresh)
             health[org] = {"status": "ok", "events": len(fresh)}
             events += fresh
