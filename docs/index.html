@@ -3,9 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NYC Grantee Performances – Howard Gilman Foundation</title>
-<!-- Fonts match howardgilmanfoundation.org: Open Sans for text; the site's display serif (bely-display) is licensed
-     through the Foundation's Adobe Fonts kit, which only serves listed domains, so Playfair Display is the stand-in. -->
+<title>NYC Performance Listings</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap">
@@ -108,13 +106,10 @@
 </style>
 </head>
 <body>
-<div class="bar"><div class="site">
-  <a class="brand" href="https://howardgilmanfoundation.org/" aria-label="Howard Gilman Foundation home">Howard Gilman<b>Foundation</b></a>
-</div></div>
 <div class="wrap"><div class="layout">
 <aside id="side" aria-label="Calendar"></aside>
 <div class="main">
-  <h1>NYC Grantee Performances</h1>
+  <h1>NYC Performance Listings</h1>
   <p class="sub" id="sub">Loading…</p>
   <div id="warn"></div>
   <div class="filters">
@@ -133,8 +128,7 @@
   <div id="list"></div>
   <div id="cov"></div>
 </div></div></div>
-<footer class="foot"><div class="site">Listings are gathered each week from each organization&rsquo;s own website and may change; check the organization for the latest details.
-  <br>Howard Gilman Foundation &bull; 24 West 40th Street, 8th Floor &bull; New York, NY 10018</div></footer>
+<footer class="foot"><div class="site">Listings are gathered each week from each organization&rsquo;s own website and may change; check the organization for the latest details.</div></footer>
 <script src="events.js"></script>
 <script>
 (function () {
@@ -242,7 +236,7 @@
     }
     var now = new Date(), z = now.getUTCFullYear() + pad(now.getUTCMonth() + 1) + pad(now.getUTCDate()) + "T" +
       pad(now.getUTCHours()) + pad(now.getUTCMinutes()) + pad(now.getUTCSeconds()) + "Z";
-    var L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Howard Gilman Foundation//NYC Grantee Performances//EN",
+    var L = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//NYC Performance Listings//EN",
       "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
       "BEGIN:VTIMEZONE", "TZID:" + TZ,
       "BEGIN:DAYLIGHT", "TZOFFSETFROM:-0500", "TZOFFSETTO:-0400", "TZNAME:EDT", "DTSTART:19700308T020000",
