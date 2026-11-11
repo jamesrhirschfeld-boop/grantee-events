@@ -85,7 +85,8 @@ def clean(ev, org, default_discipline, start, end):
         "time": t,
         "title": title,
         "org": org,
-        "location": (ev.get("location") or "").strip(),
+        # "Manhattan Theatre Club (venue not stated on calendar)" -> "Manhattan Theatre Club"
+        "location": re.sub(r"\s*\((?:[^)]*\b(?:venue|location|hall|theat(?:er|re))\b[^)]*\bnot (?:stated|given|listed|specified)\b[^)]*|not (?:stated|given|listed|specified)[^)]*)\)", "", (ev.get("location") or "")).strip(),
         "description": (ev.get("description") or "").strip()[:300],
         "discipline": disc,
         "genre": (ev.get("genre") or "").strip(),
