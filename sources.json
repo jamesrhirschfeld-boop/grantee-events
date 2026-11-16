@@ -455,7 +455,7 @@
    "active": true,
    "discovery": {
     "status": "unreachable",
-    "checked": "2026-11-09",
+    "checked": "2026-11-16",
     "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.baryshnikovarts.org/"
    }
   },
@@ -471,7 +471,7 @@
    "active": true,
    "discovery": {
     "status": "unreachable",
-    "checked": "2026-11-09",
+    "checked": "2026-11-16",
     "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.bax.org/"
    }
   },
@@ -1184,10 +1184,15 @@
    "performing_arts_majority": true,
    "active": true,
    "discovery": {
-    "status": "error",
-    "checked": "2026-11-11",
-    "note": "timed out or crashed"
-   }
+    "status": "no_events_found",
+    "checked": "2026-11-16",
+    "note": "calendar page found but 0 dates in the window (14 overall); checked again every run: https://www.forcesofnature.org/events"
+   },
+   "pages": [
+    {
+     "url": "https://www.forcesofnature.org/events"
+    }
+   ]
   },
   {
    "slug": "l-alliance-new-york",
@@ -1265,7 +1270,7 @@
    "active": true,
    "discovery": {
     "status": "unreachable",
-    "checked": "2026-11-09",
+    "checked": "2026-11-16",
     "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.gemsny.org/"
    }
   },
@@ -2491,7 +2496,7 @@
    "active": true,
    "discovery": {
     "status": "error",
-    "checked": "2026-11-11",
+    "checked": "2026-11-16",
     "note": "timed out or crashed"
    }
   },
@@ -4410,7 +4415,7 @@
    "active": true,
    "discovery": {
     "status": "error",
-    "checked": "2026-11-11",
+    "checked": "2026-11-16",
     "note": "timed out or crashed"
    }
   },
@@ -4887,7 +4892,7 @@
    "active": true,
    "discovery": {
     "status": "error",
-    "checked": "2026-11-11",
+    "checked": "2026-11-16",
     "note": "timed out or crashed"
    }
   },
@@ -5181,7 +5186,7 @@
    "active": true,
    "discovery": {
     "status": "unreachable",
-    "checked": "2026-11-09",
+    "checked": "2026-11-16",
     "note": "homepage did not load: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.evidencedance.com/"
    }
   },
