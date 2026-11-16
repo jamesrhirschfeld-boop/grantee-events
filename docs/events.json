@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T16:22:14+00:00",
+ "generated_at": "2026-11-16T18:28:53+00:00",
  "window": {
   "start": "2026-11-16",
   "end": "2027-01-15"
@@ -176,7 +176,7 @@
   "Blank Forms": 1,
   "BRIC": 3,
   "Brooklyn Academy of Music": 21,
-  "Carnegie Hall": 4,
+  "Carnegie Hall": 26,
   "Center for Performance Research": 7,
   "Center for Traditional Music and Dance": 3,
   "Chamber Music Society of Lincoln Center": 14,
@@ -457,7 +457,7 @@
   },
   "Carnegie Hall": {
    "status": "ok",
-   "events": 4
+   "events": 26
   },
   "Center for Performance Research": {
    "status": "ok",
@@ -2062,7 +2062,6 @@
   ]
  },
  "warnings": [
-  "Carnegie Hall: only 4 listings this time, down from 23 last time. The page may not have loaded fully; check it before relying on the list.",
   "Mama Foundation for the Arts: the page was read but no performances were found; showing 1 events from the last successful update. The site layout may have changed.",
   "Playwrights Horizons: the page was read but no performances were found; showing 2 events from the last successful update. The site layout may have changed.",
   "Snug Harbor: the page was read but no performances were found; showing 51 events from the last successful update. The site layout may have changed.",
@@ -2077,9 +2076,9 @@
    "title": "Carnegie Hall Citywide: 2nd Annual Vessel Lighting Ceremony with The New York Pops",
    "org": "Carnegie Hall",
    "location": "Hudson Yards",
-   "description": "Carnegie Hall Citywide event featuring The New York Pops at the Vessel lighting ceremony at Hudson Yards.",
+   "description": "Citywide event at Hudson Yards: a lighting ceremony for the Vessel featuring The New York Pops.",
    "discipline": "Music",
-   "genre": "",
+   "genre": "pops",
    "url": "https://www.carnegiehall.org/calendar/2026/11/16/carnegie-hall-citywide-2nd-annual-vessel-lighting-ceremony-with-the-new-york-p-0600pm",
    "notes": "Price not stated on page",
    "free": false
@@ -2741,10 +2740,10 @@
    "time": "7:30 PM",
    "title": "Jupiter Ensemble: Amazone",
    "org": "Carnegie Hall",
-   "location": "Weill Recital Hall, Carnegie Hall",
-   "description": "Jupiter Ensemble performs a program titled Amazone.",
+   "location": "Carnegie Hall, Weill Recital Hall",
+   "description": "Chamber concert by Jupiter Ensemble titled Amazone.",
    "discipline": "Music",
-   "genre": "",
+   "genre": "classical",
    "url": "https://www.carnegiehall.org/calendar/2026/11/17/jupiter-ensemble-0730pm",
    "notes": "",
    "free": false
@@ -3447,10 +3446,10 @@
    "time": "7:30 PM",
    "title": "Rihab Chaieb, Mezzo-Soprano, and Ammiel Bushakevitz, Piano",
    "org": "Carnegie Hall",
-   "location": "Weill Recital Hall, Carnegie Hall",
-   "description": "Vocal recital by mezzo-soprano Rihab Chaieb with pianist Ammiel Bushakevitz.",
+   "location": "Carnegie Hall, Weill Recital Hall",
+   "description": "Vocal recital with mezzo-soprano Rihab Chaieb and pianist Ammiel Bushakevitz.",
    "discipline": "Music",
-   "genre": "classical vocal recital",
+   "genre": "vocal recital",
    "url": "https://www.carnegiehall.org/calendar/2026/11/18/rihab-chaieb-mezzosoprano-ammiel-bushakevitz-piano-0730pm",
    "notes": "",
    "free": false
@@ -3460,10 +3459,10 @@
    "time": "7:30 PM",
    "title": "Minsoo Sohn, Piano",
    "org": "Carnegie Hall",
-   "location": "Zankel Hall, Carnegie Hall",
+   "location": "Carnegie Hall, Zankel Hall",
    "description": "Piano recital by Minsoo Sohn.",
    "discipline": "Music",
-   "genre": "classical piano recital",
+   "genre": "piano recital",
    "url": "https://www.carnegiehall.org/calendar/2026/11/18/minsoo-sohn-piano-0730pm",
    "notes": "",
    "free": false
@@ -5276,6 +5275,19 @@
   {
    "date": "2026-11-20",
    "time": "8:00 PM",
+   "title": "The New York Pops: One Night Only: An Evening with Denée Benton and Jordan Donica",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "The New York Pops joined by Broadway singers Denée Benton and Jordan Donica.",
+   "discipline": "Music",
+   "genre": "pops",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/20/the-new-york-pops-0800pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-11-20",
+   "time": "8:00 PM",
    "title": "Sunset JAZZ",
    "org": "Culture Lab LIC",
    "location": "Culture Lab LIC",
@@ -5995,6 +6007,19 @@
    "also": [
     "Lincoln Center for the Performing Arts"
    ]
+  },
+  {
+   "date": "2026-11-21",
+   "time": "5:00 PM",
+   "title": "James Austin Smith and Friends: Time Enough: A Well-Being Concert",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Resnick Education Wing",
+   "description": "Well-being concert led by oboist James Austin Smith and friends.",
+   "discipline": "Music",
+   "genre": "chamber",
+   "url": "https://www.carnegiehall.org/calendar/2026/11/21/james-austin-smith-and-friends-0500pm",
+   "notes": "",
+   "free": false
   },
   {
    "date": "2026-11-21",
@@ -11189,6 +11214,19 @@
   {
    "date": "2026-12-02",
    "time": "7:30 PM",
+   "title": "Karim Sulayman, Tenor, and Tom Poster, Piano",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Zankel Hall",
+   "description": "Vocal recital with tenor Karim Sulayman and pianist Tom Poster.",
+   "discipline": "Music",
+   "genre": "vocal recital",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/02/karim-sulayman-tenor-tom-poster-piano-0730pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-02",
+   "time": "7:30 PM",
    "title": "Beethoven Piano Sonatas III",
    "org": "Chamber Music Society of Lincoln Center",
    "location": "Daniel and Joanna S. Rose Studio at CMS",
@@ -11222,6 +11260,19 @@
    "discipline": "Theater",
    "genre": "classical drama adaptation",
    "url": "https://tfana.org/events/elektra-2026-11-17-730-pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-02",
+   "time": "8:00 PM",
+   "title": "Hélène Grimaud, Piano",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Piano recital by Hélène Grimaud.",
+   "discipline": "Music",
+   "genre": "piano recital",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/02/helene-grimaud-piano-0800pm",
    "notes": "",
    "free": false
   },
@@ -11313,7 +11364,7 @@
    "discipline": "Dance",
    "genre": "contemporary dance",
    "url": "https://www.tdf.org/shows/23267/alvin-ailey-american-dance-theater/",
-   "notes": "also listed by New York City Center; also listed by New York City Center; also listed by New York City Center; also listed by New York City Center; also listed by New York City Center; also listed by New York City Center; from previous update; also listed by New York City Center",
+   "notes": "also listed by New York City Center; also listed by New York City Center; also listed by New York City Center; also listed by New York City Center; also listed by New York City Center; also listed by New York City Center; also listed by New York City Center; from previous update; also listed by New York City Center",
    "free": false,
    "also": [
     "New York City Center"
@@ -11719,6 +11770,19 @@
    "discipline": "Dance",
    "genre": "swing / holiday",
    "url": "https://www.joyce.org/performances/a-very-sw-ng-out-holiday-mqyx",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-03",
+   "time": "8:00 PM",
+   "title": "Renée Fleming with Béla Fleck: The Fiddle and the Drum",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Soprano Renée Fleming and banjoist Béla Fleck perform together.",
+   "discipline": "Music",
+   "genre": "crossover",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/03/renee-fleming-with-bela-fleck-0800pm",
    "notes": "",
    "free": false
   },
@@ -13304,8 +13368,11 @@
    "discipline": "Music",
    "genre": "gospel / multi-tradition",
    "url": "https://www.americancomposers.org/performances-events/a-night-of-inspiration",
-   "notes": "Co-produced by Vivian Scott Chew; Carnegie Hall presents; Agape Award to Pastor Shirley Caesar",
-   "free": false
+   "notes": "Co-produced by Vivian Scott Chew; Carnegie Hall presents; Agape Award to Pastor Shirley Caesar; also listed by Carnegie Hall",
+   "free": false,
+   "also": [
+    "Carnegie Hall"
+   ]
   },
   {
    "date": "2026-12-05",
@@ -13609,6 +13676,19 @@
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12626-mat",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-06",
+   "time": "2:00 PM",
+   "title": "Chamber Orchestra of Europe",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Afternoon concert by the Chamber Orchestra of Europe.",
+   "discipline": "Music",
+   "genre": "classical orchestra",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/06/chamber-orchestra-of-europe-0200pm",
    "notes": "",
    "free": false
   },
@@ -14297,6 +14377,19 @@
   {
    "date": "2026-12-07",
    "time": "8:00 PM",
+   "title": "Leslie Odom, Jr.: The Christmas Tour 2026",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Holiday concert by Leslie Odom, Jr.",
+   "discipline": "Music",
+   "genre": "holiday/vocal",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/07/leslie-odom-jr-0800pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-07",
+   "time": "8:00 PM",
    "title": "Jay Bragg Presents: Christmas in New Vaudeville",
    "org": "Jalopy Theatre and School of Folk Music",
    "location": "Jalopy Theatre, Brooklyn",
@@ -14577,6 +14670,19 @@
    "discipline": "Dance",
    "genre": "modern dance",
    "url": "https://ailey.org/events/new-york-city-center-12826",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-08",
+   "time": "7:30 PM",
+   "title": "Ariel Quartet",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Weill Recital Hall",
+   "description": "String quartet concert by the Ariel Quartet.",
+   "discipline": "Music",
+   "genre": "chamber",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/08/ariel-quartet-0730pm",
    "notes": "",
    "free": false
   },
@@ -17148,6 +17254,19 @@
   {
    "date": "2026-12-12",
    "time": "8:00 PM",
+   "title": "Daniil Trifonov, Piano",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Piano recital by Daniil Trifonov.",
+   "discipline": "Music",
+   "genre": "piano recital",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/12/daniil-trifonov-piano-0800pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-12",
+   "time": "8:00 PM",
    "title": "Joel Watson",
    "org": "ISSUE Project Room",
    "location": "ISSUE Project Room, 22 Boerum Place, Brooklyn 11201",
@@ -18042,6 +18161,19 @@
    "genre": "classical choral / Christmas",
    "url": "https://www.voicesofascension.org/candlelight-christmas-concerts-2026",
    "notes": "Tickets required; Recorded for future WQXR broadcast",
+   "free": false
+  },
+  {
+   "date": "2026-12-14",
+   "time": "8:00 PM",
+   "title": "Yunchan Lim, Piano",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Piano recital by Yunchan Lim.",
+   "discipline": "Music",
+   "genre": "piano recital",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/14/yunchan-lim-piano-0800pm",
+   "notes": "",
    "free": false
   },
   {
@@ -19212,6 +19344,19 @@
   },
   {
    "date": "2026-12-18",
+   "time": "3:00 PM",
+   "title": "Open Working Rehearsal: The New York Pops: Sleigh Bells Ring",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Public open working rehearsal of The New York Pops' holiday program.",
+   "discipline": "Music",
+   "genre": "pops",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/18/open-working-rehearsal-the-new-york-pops-0300pm",
+   "notes": "Open working rehearsal",
+   "free": false
+  },
+  {
+   "date": "2026-12-18",
    "time": "5:00 PM",
    "title": "Winter Lantern Festival",
    "org": "Snug Harbor",
@@ -19564,6 +19709,19 @@
   {
    "date": "2026-12-18",
    "time": "8:00 PM",
+   "title": "The New York Pops: Sleigh Bells Ring",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Holiday concert by The New York Pops.",
+   "discipline": "Music",
+   "genre": "pops/holiday",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/18/the-new-york-pops-0800pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-18",
+   "time": "8:00 PM",
    "title": "Spanish Harlem Orchestra: Salsa Navidad",
    "org": "Kupferberg Center for the Arts at Queens College",
    "location": "Kupferberg Center for the Arts, Queens College, Flushing",
@@ -19597,6 +19755,19 @@
    "discipline": "Dance",
    "genre": "ballet",
    "url": "https://www.nycballet.com/season-and-tickets/george-balanchines-the-nutcracker/george-balanchines-the-nutcracker",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-18",
+   "time": "9:00 PM",
+   "title": "esperanza spalding",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Zankel Hall",
+   "description": "Late-night concert by esperanza spalding.",
+   "discipline": "Music",
+   "genre": "jazz",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/18/esperanza-spalding-0900pm",
    "notes": "",
    "free": false
   },
@@ -19810,6 +19981,19 @@
   },
   {
    "date": "2026-12-19",
+   "time": "2:30 PM",
+   "title": "Conrad Tao: A Well-Being Concert",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Resnick Education Wing",
+   "description": "Well-being concert featuring pianist Conrad Tao.",
+   "discipline": "Music",
+   "genre": "piano",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/19/conrad-tao-0230pm",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-19",
    "time": "3:00 PM",
    "title": "DraftWork: Iliana Penichet-Ramírez + Joel Watson",
    "org": "Danspace Project",
@@ -19897,6 +20081,19 @@
    "genre": "family folk",
    "url": "https://www.viewcy.com/event/elizabeth_mitchell",
    "notes": "Doors 3:30pm; kids $15, adults $25",
+   "free": false
+  },
+  {
+   "date": "2026-12-19",
+   "time": "5:00 PM",
+   "title": "Conrad Tao: A Well-Being Concert",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Resnick Education Wing",
+   "description": "Well-being concert featuring pianist Conrad Tao.",
+   "discipline": "Music",
+   "genre": "piano",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/19/conrad-tao-0500pm",
+   "notes": "",
    "free": false
   },
   {
@@ -20185,6 +20382,19 @@
    "discipline": "Dance",
    "genre": "comic ballet",
    "url": "https://www.joyce.org/performances/les-ballets-trockadero-de-monte-carlo-yktl",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-19",
+   "time": "8:00 PM",
+   "title": "The New York Pops: Sleigh Bells Ring",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Holiday concert by The New York Pops.",
+   "discipline": "Music",
+   "genre": "pops/holiday",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/19/the-new-york-pops-0800pm",
    "notes": "",
    "free": false
   },
@@ -20550,6 +20760,19 @@
    "genre": "Colombian folkloric dance and music",
    "url": "https://thaliatheatre.org/2026/10/25/navidad-en-colombia-2026/",
    "notes": "Closing performance; Tickets $60 general, $55 students/seniors",
+   "free": false
+  },
+  {
+   "date": "2026-12-20",
+   "time": "5:00 PM",
+   "title": "Joshua Roman, Cello; Camila Meza, Vocals and Guitar; Zane Rodulfo, Percussion: A Well-Being Concert",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Resnick Education Wing",
+   "description": "Well-being concert with cellist Joshua Roman, vocalist-guitarist Camila Meza and percussionist Zane Rodulfo.",
+   "discipline": "Music",
+   "genre": "chamber/jazz",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/20/joshua-roman-cello-camila-meza-vocals-and-guitar-zane-rodulfo-percussion-0500pm",
+   "notes": "",
    "free": false
   },
   {
@@ -21310,6 +21533,19 @@
    "free": false
   },
   {
+   "date": "2026-12-24",
+   "time": "7:00 PM",
+   "title": "New York String Orchestra",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Concert by the New York String Orchestra.",
+   "discipline": "Music",
+   "genre": "classical orchestra",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/24/new-york-string-orchestra-0700pm",
+   "notes": "",
+   "free": false
+  },
+  {
    "date": "2026-12-25",
    "time": "5:00 PM",
    "title": "Winter Lantern Festival",
@@ -21842,6 +22078,19 @@
    "discipline": "Theater",
    "genre": "Broadway musical",
    "url": "https://2st.com/shows/the-fantasticks",
+   "notes": "",
+   "free": false
+  },
+  {
+   "date": "2026-12-28",
+   "time": "8:00 PM",
+   "title": "New York String Orchestra",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Concert by the New York String Orchestra.",
+   "discipline": "Music",
+   "genre": "classical orchestra",
+   "url": "https://www.carnegiehall.org/calendar/2026/12/28/new-york-string-orchestra-0800pm",
    "notes": "",
    "free": false
   },
@@ -23672,14 +23921,17 @@
    "date": "2027-01-11",
    "time": "7:00 PM",
    "title": "On the Town in Concert",
-   "org": "Orchestra of St. Luke's",
-   "location": "Carnegie Hall",
-   "description": "Concert performance of Leonard Bernstein's musical On the Town.",
-   "discipline": "Music",
-   "genre": "musical theater in concert",
-   "url": "https://oslmusic.org/calendar/2027/01/11/on-the-town-in-concert-7pm/",
-   "notes": "",
-   "free": false
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Concert performance of the Bernstein musical On the Town.",
+   "discipline": "Theater",
+   "genre": "musical in concert",
+   "url": "https://www.carnegiehall.org/calendar/2027/01/11/on-the-town-in-concert-0700pm",
+   "notes": "also listed by Orchestra of St. Luke's",
+   "free": false,
+   "also": [
+    "Orchestra of St. Luke's"
+   ]
   },
   {
    "date": "2027-01-11",
@@ -23723,6 +23975,22 @@
   {
    "date": "2027-01-12",
    "time": "7:00 PM",
+   "title": "On the Town in Concert",
+   "org": "Carnegie Hall",
+   "location": "Carnegie Hall, Stern Auditorium / Perelman Stage",
+   "description": "Concert performance of the Bernstein musical On the Town.",
+   "discipline": "Theater",
+   "genre": "musical in concert",
+   "url": "https://www.carnegiehall.org/calendar/2027/01/12/on-the-town-in-concert-0700pm",
+   "notes": "also listed by Orchestra of St. Luke's",
+   "free": false,
+   "also": [
+    "Orchestra of St. Luke's"
+   ]
+  },
+  {
+   "date": "2027-01-12",
+   "time": "7:00 PM",
    "title": "Awake and Sing!",
    "org": "Manhattan Theatre Club",
    "location": "Manhattan Theatre Club",
@@ -23731,19 +23999,6 @@
    "genre": "play",
    "url": "",
    "notes": "Venue and details not stated in the calendar text",
-   "free": false
-  },
-  {
-   "date": "2027-01-12",
-   "time": "7:00 PM",
-   "title": "On the Town in Concert",
-   "org": "Orchestra of St. Luke's",
-   "location": "Carnegie Hall",
-   "description": "Concert performance of Leonard Bernstein's musical On the Town.",
-   "discipline": "Music",
-   "genre": "musical theater in concert",
-   "url": "https://oslmusic.org/calendar/2027/01/12/on-the-town-in-concert-2-7pm/",
-   "notes": "",
    "free": false
   },
   {
