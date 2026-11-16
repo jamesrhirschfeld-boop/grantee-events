@@ -169,6 +169,18 @@ def expand(page, spec, end):
             past_window = True
         return True
 
+    def wait_grew(first_ms):
+        """Give new entries time to arrive: a slow or busy site can take several seconds after a click or scroll,
+        and stopping at the first quiet moment cuts a long calendar short."""
+        page.wait_for_timeout(first_ms)
+        if grew():
+            return True
+        for _ in range(8):
+            page.wait_for_timeout(500)
+            if grew():
+                return True
+        return False
+
     for _ in range(spec.get("max_clicks", 25)):
         try:
             el = page.evaluate_handle(FIND_MORE_JS, src).as_element()
@@ -177,16 +189,14 @@ def expand(page, spec, end):
             el.click(timeout=5000)
         except Exception:
             break
-        page.wait_for_timeout(1500)
-        if not grew() or past_window:
+        if not wait_grew(1500) or past_window:
             break
 
     if past_window:
         return
     for _ in range(spec.get("max_scrolls", 8)):
         page.evaluate("() => window.scrollTo(0, document.body.scrollHeight)")
-        page.wait_for_timeout(1200)
-        if not grew() or past_window:
+        if not wait_grew(1200) or past_window:
             break
 
 
